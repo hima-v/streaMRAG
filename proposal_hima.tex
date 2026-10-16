@@ -1,0 +1,96 @@
+\pdfoutput=1
+\documentclass[11pt]{article}
+\usepackage[]{acl}
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{microtype}
+\usepackage{booktabs}
+
+\title{Evidence-Preserving Memory Compression for Multi-Hop Retrieval-Augmented Question Answering}
+% Replace placeholders with the three group members' details.
+\author{Hima Verma  \\
+  UC Davis \\
+  \texttt{@ucdavis.edu} \And
+  Ketki \\
+  UC Davis \\
+  \texttt{@ucdavis.edu} \And
+  Shawn\\
+  UC Davis \\
+  \texttt{@ucdavis.edu}}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Retrieval-augmented generation (RAG) helps language models answer questions using external documents, but long retrieved contexts increase inference time and can hide important evidence. Compression reduces the context size, yet a short summary may omit a fact needed for a later reasoning step. We propose a lightweight, evidence-preserving memory module for multi-hop question answering. Our method fine-tunes a small sentence encoder to identify useful evidence and adds a simple bridge-aware selection rule to retain facts that connect information across documents. The selected sentences form a compact memory for a frozen question-answering model. We will compare this method with uncompressed RAG, similarity-based selection, and ordinary extractive compression, measuring answer quality, supporting-fact recall, token usage, and latency. The project uses public datasets and small open-source models, without training a large language model from scratch.
+\end{abstract}
+
+\section{Introduction}
+
+Retrieval-augmented generation (RAG) combines a language model with passages retrieved from external documents. For a simple question, one passage may be enough. For a \emph{multi-hop} question, however, the answer may depend on connecting facts from two or more passages. For example, a question may first require identifying a researcher from one document and then finding that researcher's institution in another. If a system keeps only the most obviously relevant sentences, it may discard the intermediate fact that connects these two steps.
+
+A straightforward solution is to give the model all retrieved text, but this consumes context-window space and raises inference cost. Recent work therefore compresses retrieved context. CompAct actively compresses documents for question answering \citep{yoon-etal-2024-compact}, while BRIEF fuses evidence into short summaries for multi-hop reasoning \citep{li-etal-2025-brief}. EXIT selects sentences with awareness of their context \citep{hwang-etal-2025-exit}, and ACC-RAG adapts compression to query complexity \citep{guo-etal-2025-enhancing}. These methods show that compression is useful, but also make it important to test \emph{which} information is preserved. A recent analysis finds that some compression methods lose details needed for downstream tasks \citep{lajewska-etal-2025-understanding}.
+
+We propose to study a narrower question: when retrieved passages arrive over multiple steps, can a small model preserve not just individually relevant sentences, but also the \emph{bridge facts} linking them? Our project will implement a memory selector built on a fine-tuned Hugging Face sentence encoder. It will keep a fixed token budget and prefer sentences that are relevant to the question, support an answer, and connect information already stored in memory.
+
+\paragraph{Research question.} Can bridge-aware evidence selection improve multi-hop question answering at the same context budget as ordinary sentence-based compression?
+
+\paragraph{Hypotheses.} \textbf{H1:} A fine-tuned evidence selector retains more gold supporting facts than a cosine-similarity baseline. \textbf{H2:} Adding bridge-aware selection improves answer quality, especially on questions requiring facts from multiple documents. \textbf{H3:} Compact memory reduces the generator's input tokens and end-to-end latency relative to uncompressed RAG, without a large drop in answer accuracy.
+
+\section{Problem Definition and Method Design}
+
+\subsection{Problem Definition}
+
+Given a natural-language question $q$ and a sequence of retrieved passages $D_1,\ldots,D_T$, the system maintains a short textual memory $M_t$ after each retrieval round. The total length of $M_t$ must not exceed a token budget $B$. At the end, a frozen language model receives $q$ and $M_T$ and produces an answer $a$. The objective is to preserve the evidence necessary for answering $q$ while reducing the amount of text processed by the language model. This is a sentence- and document-level NLP task; our method does not operate on isolated words or graph nodes.
+
+\subsection{Baseline RAG Pipeline}
+
+We first build a reproducible RAG pipeline. Using the candidate paragraphs provided by the datasets, we split each paragraph into sentences and rank passages with BM25 or a pretrained sentence embedding model. To simulate multi-step retrieval in a controlled setting, we reveal candidate passages in two rounds and update the memory after each round. We keep retrieval order and candidate passages identical across compression methods so that the experiment isolates memory selection. A full document-index retrieval system is an optional extension rather than a prerequisite.
+
+The answer generator will be the open-source \texttt{Qwen2.5-1.5B-Instruct} model (about 1.54B parameters), used only for inference. It will receive the same question and answer-format instructions under all methods. We will also report retrieval-only supporting-fact metrics, so the main experiment remains informative if local text generation is slow.
+
+\subsection{Proposed Evidence-Preserving Memory}
+
+Our main trainable component is \texttt{all-MiniLM-L6-v2}, a sentence embedding model with about 22.7M parameters. For each candidate sentence $s_i$, we compute a question--sentence representation and train a lightweight scoring head to predict whether $s_i$ is a supporting fact. Gold supporting-fact annotations in HotpotQA provide supervision. The loss is binary cross-entropy over positive and negative sentences, including distracting sentences from the same question.
+
+After obtaining relevance scores, a greedy selector fills the memory subject to the token budget. Unlike a question-only ranking baseline, our selector also gives a small bonus to a candidate that connects to already retained evidence. We will implement this \emph{bridge score} using shared named entities or informative mentions between sentences from different passages. A redundancy penalty discourages keeping near-duplicate text. Thus, the selection score combines predicted relevance, bridge score, and redundancy; their weights are tuned only on validation data. Selected sentences retain their source identifiers, and memory is updated after each retrieval round.
+
+This method does not require latent-state communication, reinforcement learning, or fine-tuning the answer generator. Its central experiment is whether explicitly preserving cross-document connections provides value beyond an already context-aware evidence selector. We will test this directly by turning the bridge feature on and off.
+
+\section{Related Work and Proposed Novelty}
+
+Active document compression in CompAct \citep{yoon-etal-2024-compact} and evidence fusion in BRIEF \citep{li-etal-2025-brief} are closely related to multi-hop QA. EXIT \citep{hwang-etal-2025-exit} demonstrates context-aware extractive sentence selection, while ACC-RAG \citep{guo-etal-2025-enhancing} adapts compression levels to input complexity. These are strong prior approaches, not problems we claim to solve for the first time. Moreover, \citet{lajewska-etal-2025-understanding} argue that compression should be evaluated for information preservation and grounding as well as token reduction.
+
+Our \emph{proposed} contribution is a simple, testable bridge-aware selection mechanism for \emph{memory updated across retrieval rounds}. We will compare it with relevance-only and redundancy-aware selection using the same encoder and token budget. This ablation is important: if bridge-aware selection fails to help, the study can still identify when information-preserving compression is difficult. Our novelty claim will be limited to the implemented mechanism and supported experimental findings.
+
+\section{Evaluation Plan and Resources}
+
+\subsection{Datasets}
+
+Our primary dataset is \textbf{HotpotQA} (approximately 113K multi-hop QA examples overall). It provides natural-language questions, candidate paragraphs, answers, and sentence-level supporting-fact annotations. We will begin with its \emph{distractor} setting, which avoids indexing all of Wikipedia and provides a controlled test of memory selection. We plan to train on about 5,000 examples, use 500 separate training-split examples for validation, and evaluate on about 500 examples from the official development split. We will ensure that no official development answers are used for training or tuning.
+
+As a secondary dataset, we will use \textbf{MuSiQue}, which contains approximately 25K questions involving two to four reasoning hops. We plan a smaller evaluation subset (around 200 questions) to test whether the selector transfers beyond HotpotQA. Its supporting passages can be used for evidence-level analysis. Dataset downloads and annotations are publicly available. These subset sizes may be reduced after the initial hardware benchmark; the final report will state the exact counts and sampling seeds.
+
+\subsection{Evaluation Protocol}
+
+We will compare: (1) uncompressed retrieved context; (2) top sentences ranked by question similarity; (3) fine-tuned relevance scoring without bridge features; and (4) our relevance-plus-bridge memory selector. A redundancy-only variant will help separate the effect of bridge coverage from ordinary deduplication. All compressed methods will be compared at identical memory budgets of 256, 512, and 1,024 generator tokens.
+
+The main QA metrics are exact match (EM) and token-level F1 against reference answers. To measure whether compression preserves the reasoning chain, we will report supporting-fact precision, recall, and F1 on HotpotQA, along with the fraction of questions for which \emph{all} gold supporting facts are kept. Efficiency will be measured using total input tokens, compression ratio, and wall-clock latency per question on the same machine. We will also break down errors by two-hop versus harder questions where labels permit. Results will be reported over a fixed random seed and, if time allows, several seeds or bootstrap confidence intervals.
+
+\subsection{Estimated Computing Resources}
+
+The encoder is small enough for lightweight fine-tuning with Hugging Face \texttt{transformers} or \texttt{sentence-transformers}. Our target is a locally available single GPU with approximately 8--12 GB of VRAM, using short sequences, small batches, and gradient accumulation. We estimate that fine-tuning on the proposed subset for two or three epochs should be practical within several hours on such a device, but this estimate must be confirmed by a pilot run. The answer generator will be loaded in 4-bit quantized form if supported; no LLM weights will be updated.
+
+\textbf{Hardware contingency:} our team has not yet confirmed access to a suitable GPU. Before submitting the final proposal, we will benchmark model loading, peak memory, and inference speed on the hardware actually available to us. If GPU access is unavailable, we will keep the encoder training subset small, run sentence selection on CPU, and reduce generative evaluation to a bounded subset. The core evidence-selection and supporting-fact experiments require no paid APIs, cloud credits, or large-model training.
+
+\paragraph{Planned division of work.} One member will prepare datasets, retrieval, and baselines; one will train the sentence scorer and implement bridge-aware selection; and one will build evaluation scripts, run ablations, and integrate a lightweight demo. The team will jointly analyze failures and write the final report.
+
+\section{Expected Outcome}
+
+We expect to deliver a working RAG pipeline, a fine-tuned evidence selector, and a comparison of answer quality versus context length. The primary goal is not to claim that shorter context is always better, but to test whether \emph{keeping connected evidence} is a useful and inexpensive improvement for multi-hop QA. The system will be small enough to reproduce with open-source tools and a limited compute budget.
+
+\bibliography{href}
+\bibliographystyle{acl_natbib}
+\end{document}

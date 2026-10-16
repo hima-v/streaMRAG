@@ -1,0 +1,127 @@
+% This must be in the first 5 lines to tell arXiv to use pdfLaTeX, which is strongly recommended.
+\pdfoutput=1
+% In particular, the hyperref package requires pdfLaTeX in order to break URLs across lines.
+
+\documentclass[11pt]{article}
+
+% Remove the "review" option to generate the final version.
+\usepackage[]{acl}
+
+% Standard package includes
+\usepackage{times}
+\usepackage{latexsym}
+
+% For proper rendering and hyphenation of words containing Latin characters (including in bib files)
+\usepackage[T1]{fontenc}
+% For Vietnamese characters
+% \usepackage[T5]{fontenc}
+% See https://www.latex-project.org/help/documentation/encguide.pdf for other character sets
+
+% This assumes your files are encoded as UTF8
+\usepackage[utf8]{inputenc}
+
+% This is not strictly necessary, and may be commented out,
+% but it will improve the layout of the manuscript,
+% and will typically save some space.
+\usepackage{microtype}
+
+% If the title and author information does not fit in the area allocated, uncomment the following
+%
+%\setlength\titlebox{<dim>}
+%
+% and set <dim> to something 5cm or larger.
+
+\title{Geometry-Aware, Confidence-Calibrated Latent Arbitration for Multi-Agent LLM Reasoning}
+
+% Author information can be set in various styles:
+% For several authors from the same institution:
+% \author{Author 1 \and ... \and Author n \\
+%         Address line \\ ... \\ Address line}
+% if the names do not fit well on one line use
+%         Author 1 \\ {\bf Author 2} \\ ... \\ {\bf Author n} \\
+% For authors from different institutions:
+% \author{Author 1 \\ Address line \\  ... \\ Address line
+%         \And  ... \And
+%         Author n \\ Address line \\ ... \\ Address line}
+% To start a seperate ``row'' of authors use \AND, as in
+% \author{Author 1 \\ Address line \\  ... \\ Address line
+%         \AND
+%         Author 2 \\ Address line \\ ... \\ Address line \And
+%         Author 3 \\ Address line \\ ... \\ Address line}
+
+\author{Shawn Bowser \\
+  UC Davis \\
+  \texttt{shbowser@ucdavis.edu} \\\And
+  Ketki Kulkarni \\
+  UC Davis \\
+  \texttt{email@domain} \\ \And
+  Hima Verma \\
+  UC Davis \\
+  \texttt{email@domain}\\}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+Abstract is optional. The proposal has to be 3-4 pages excluding references.
+\end{abstract}
+
+\section{Introduction}
+
+Consider an emergency response scenario such as a flood or a chemical spill. Emergency response decision-making will depend heavily on evidence arriving from several different sources (social media images and video, EMS radio dialogue, written situation reports, mobile robot sensor data). Vision-language models (VLM) are increasingly being used to help analyze incoming image data, but often fall short in certain tasks like counting \cite{ge-etal-2026-emsdialog, al_mohannadi_2026_20306919}.
+
+Multi-agent LLM systems may independently analyze different data streams and combine their outputs through voting, which often conforms to a wrong majority \cite{ICLR2025_1da9ca7e}, or through discussion, which drifts towards \textit{integrative compromise} that fails to select the most correct agent \cite{groupthink2026}. LatentMAS \cite{pmlr-v306-zou26k} instead fuses agents' hidden states, cutting down on generated output tokens, but requires a shared architecture between agents and does not consider the reliability of each agent's answer separately before merging them together. A growing line of work shows that hidden states can encode the correctness of an agent \cite{khanmohammadi-etal-2025-calibrating, pmlr-v306-xiao26l}.
+
+Many decisions are also spatial (e.g. which side of a collapsed building a victim is on), but VLMs perform near chance at inferring a scene's layout from a few views \cite{wang2025mindcube}. One possible remedy is to let VLMs reason in latent space: Latent Visual Reasoning \cite{li2026latent} trains VLM latent states to reconstruct the embeddings of query-relevant image regions, which improves fine-grained perception tasks including counting. Think with 3D \cite{chen2026think} carries this idea into 3D geometry, aligning a VLM's latents with those from a 3D foundation model VGGT \cite{wang2025vggt}, which recovers camera poses and point maps from a set of scene images in a single pass. In this paper, we ask whether 3D latent signals can support an arbitrator in accurately assessing the reliability of various agents' claims about a scene.
+
+We consider multiple agents across model families (\textit{specify models here}), and train a lightweight arbitrator based on the following diagnostics: each agent's latent confidence, inter-agent agreement, and 3D geometric uncertainty. The arbitrator therefore learns rich latent signals across the various agents, then selects one output decision, or defers to a human expert when uncertainty is too high.
+
+\paragraph{Research question.} \emph{Can disagreement-aware latent confidence calibration, conditioned on 3D geometric evidence, improve expert selection in multi-agent LLM systems, particularly when a correct minority agent disagrees with an incorrect majority?}
+
+\paragraph{Hypotheses.} \textbf{H1}: hidden-state features predict agent correctness better than answer probability or verbalized confidence. \textbf{H2}: adding disagreement features beats majority vote, confidence routing and debate at expert selection. \textbf{H3}: the arbitrator keeps correct minorities more often without substantially raising vulnerability to misleading agents. \textbf{H4}: \emph{validated} geometric reliability signals improve decisions on spatially ambiguous items.
+
+\section{Problem Definition and Method Design}
+
+\subsection{Problem Definition}
+Problem Definition
+
+\subsection{Method Design}
+Describe the methods you plan to implement to solve the above problem. E.g., which models, how to conduct training / inference.
+
+If you plan to use any pre-trained models, specify what are they and what are their parameter sizes.
+
+
+\section{Related Work}
+
+
+
+Previous work on evaluating multi-agent systems \cite{pappu2026multiagent, pmlr-v306-zou26k}
+
+\section{Evaluation Plan and Resources}
+
+Specify the dataset, the evaluation metrics, and the expected computing resources. Justify that you have the computing resource to complete the project in the course time.
+
+\subsection{Datasets}
+
+Describe the dataset(s) you plan to use for your experiments, including their content and size.
+
+\subsection{Evaluation Protocol}
+
+Metrics, splits of training and testing. Groups of test data (if any).
+
+\subsection{Estimated Computing Resources}
+
+Justify that you have the computing resource to complete the project in the course time. If you plan to use a pretrained model, justify if the resource you have can support that.
+
+
+
+
+
+% Entries for the entire Anthology, followed by custom entries
+\bibliography{anthology,custom}
+\bibliographystyle{acl_natbib}
+
+%\appendix
+
+
+
+\end{document}
