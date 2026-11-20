@@ -1,0 +1,9 @@
+Answer the question using ONLY the evidence lines below. Each line is
+#id [t_start-t_end) entity.attribute=value xsupport.
+Cite the ids you used. If the evidence does not cover the asked time, answer
+"Not enough evidence." If sources conflict, say "Conflicting evidence:" and cite both.
+Evidence:
+{evidence}
+Question: {question}
+{options}
+Answer:

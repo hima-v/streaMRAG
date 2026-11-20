@@ -1,0 +1,40 @@
+# Model registry. Load with streamrag.models.load_model("<name>").
+nemotron-12b-vl:
+  kind: nemotron_vl
+  hf_id: nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL-BF16
+  quant: int8                  # int8 for development and reported numbers
+  int8_threshold: 6.0          # standard LLM.int8; 0.0 decodes ~1.5x faster but drifts more (codebase_plan.md §8)
+  fix_generation_cache: true   # patch upstream cache bugs; 4-9x faster, output verified vs uncached
+  # keep vision tower, projector and lm_head unquantized (Nemotron-H casts hidden states
+  # to lm_head.weight.dtype, so an int8 lm_head breaks generation)
+  skip_quant_modules: [vision_model, mlp1, lm_head]
+  reasoning: false             # false -> "/no_think" system message
+  video_pruning_rate: 0.0
+  video: {fps: 2, min_frames: 8, max_frames: 128}
+
+qwen2-vl-7b:
+  kind: qwen2_vl
+  hf_id: Qwen/Qwen2-VL-7B-Instruct
+  dtype: bfloat16
+  max_pixels: 602112           # 768*28*28
+  video_max_pixels: 151200     # 360*420 per frame
+
+qwen2-vl-2b:
+  kind: qwen2_vl
+  hf_id: Qwen/Qwen2-VL-2B-Instruct
+  dtype: bfloat16
+  max_pixels: 602112
+  video_max_pixels: 151200
+
+claims-qwen3-4b:               # small text model for atomic claim extraction
+  kind: text_lm
+  hf_id: Qwen/Qwen3-4B-Instruct-2507
+  dtype: bfloat16
+
+nli-deberta-large:
+  kind: nli
+  hf_id: MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli
+
+embed-bge-small:
+  kind: embed
+  hf_id: BAAI/bge-small-en-v1.5

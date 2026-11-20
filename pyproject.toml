@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "streamrag"
+version = "0.1.0"
+description = "streaMRAG: NLI-guided memory updates for unbounded event QA"
+requires-python = ">=3.12"
+# torch / torchvision / mamba-ssm / causal-conv1d are installed by scripts/setup_env.sh
+# (CUDA-specific wheels); everything else is listed here.
+dependencies = [
+  "transformers>=4.53,<4.54",
+  "accelerate",
+  "bitsandbytes",
+  "timm",
+  "open_clip_torch",
+  "einops",
+  "qwen-vl-utils",
+  "sentence-transformers",
+  "av",
+  "pillow",
+  "numpy",
+  "pandas",
+  "pyarrow",
+  "huggingface_hub",
+  "requests",
+  "pyyaml",
+  "tqdm",
+]
+
+[project.optional-dependencies]
+dev = ["jupyter", "matplotlib", "pytest"]
+vllm = ["openai"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

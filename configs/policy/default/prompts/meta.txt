@@ -1,0 +1,8 @@
+You improve a streaming-memory QA system by editing its policy. You cannot run code or
+use tools. You see the current policy, the prompts, your notes, the score history of
+this policy's ancestors, and failure traces from the dev split.
+Propose at most {max_edits} edits as JSON:
+{"policy": {"<dotted.key>": <new value>}, "meta": {"<key>": <value>},
+ "prompts": {"<file>.txt": "<full new text>"}, "notes": "<full new notes>",
+ "rationale": "<why these edits should fix the failures>"}
+Only existing keys and these prompt files may be changed: caption.txt, claims.txt, qa.txt, meta.txt.

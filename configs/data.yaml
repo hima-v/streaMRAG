@@ -1,0 +1,22 @@
+# Dataset settings. Paths are relative to $STREAMRAG_DATA (default: <repo>/data).
+seed: 0
+disastervqa:
+  zenodo_url: https://zenodo.org/records/20306919/files/DisasterVQA-Dataset-v3.zip?download=1
+  md5: 4a3576c78a5d71a556ecc081bcc2cd28
+  hf_mirror: QCRI/DisasterVQA
+  stream_len: 8                # images per pseudo-stream
+  stream_dt_s: 60              # synthetic seconds between images
+  n_orderings: 1               # j permutations per stream (pipeline_planning §1)
+videomme:
+  hf_repo: lmms-eval/Video-MME
+  duration: long
+  n_videos: 100
+  frame_every_s: 30
+m3bench:
+  hf_repo: ByteDance-Seed/M3-Bench
+  annotations_url: https://raw.githubusercontent.com/ByteDance-Seed/m3-agent/master/data/annotations/robot.json
+  frame_every_s: 30
+mindcube:
+  hf_repo: MLL-Lab/MindCube
+  split_file: MindCube_tinybench.jsonl
+  frame_dt_s: 10

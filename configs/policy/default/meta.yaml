@@ -1,0 +1,5 @@
+# Meta-agent settings. Editable by the meta agent itself (metacognitive self-modification).
+n_failure_traces: 20           # failure examples shown per step
+max_edits_per_step: 3          # policy keys + prompt files changed per proposal
+show_archive_history: true     # include score history of ancestors (performance tracking)
+trace_types: [wrong_relation, evicted_needed_claim, wrong_abstain, wrong_answer]

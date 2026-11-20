@@ -1,0 +1,5 @@
+Split the observation into atomic claims. Each claim states ONE property of ONE entity.
+Return a JSON list; each item has: entity, attribute, value, hedged (true if the text
+says possibly / maybe / appears), confidence (0-1).
+Observation (t={t}, source={source}): {text}
+JSON:

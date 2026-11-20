@@ -1,0 +1,3 @@
+Describe this frame for an incident log. List the visible people, objects, their states
+and actions, and any hazards (fire, smoke, water, damage). Be factual and specific; do not
+guess what is not visible. Use short sentences.

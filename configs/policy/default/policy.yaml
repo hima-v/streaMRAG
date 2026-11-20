@@ -1,0 +1,25 @@
+# Editable policy P (task-agent side). The meta agent may change VALUES of existing keys
+# only, within the ranges in streamrag/meta/policy.py. It cannot add keys or edit code.
+budget_tokens: 1024            # memory budget B (256 / 512 / 1024)
+retrieval:
+  top_k: 5
+  min_similarity: 0.5
+nli:
+  entail_threshold: 0.6
+  contradict_threshold: 0.6
+temporal:
+  tau_seconds: 60              # contradiction with dt > tau on a mutable attribute -> STATE_CHANGE
+  hedge_words: [possibly, maybe, appears, might, unclear, likely]
+mutable_attributes: [occupancy, location, position, state, status, door, water_level,
+                     fire, smoke, count, activity, holding, open_closed]
+eviction_weights:              # higher = evicted later
+  support: 1.0
+  recency: 0.5
+  relation_bonus: 1.0          # bonus for state-change / conflict entries
+protect:
+  current_state: true
+  transitions: true
+  open_conflicts: true
+qa:
+  abstain_if_no_chain: true
+  max_evidence_lines: 20
