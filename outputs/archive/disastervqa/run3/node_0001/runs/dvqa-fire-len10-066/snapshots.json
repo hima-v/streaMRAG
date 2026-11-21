@@ -1,0 +1,227 @@
+[
+  {
+    "step": 1,
+    "tokens": 121,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Firefighters in yellow protective gear and helmets are gathered outside a multi-story brick building at night. Fire trucks with extended ladders are positioned against the building, and an American flag is visible. The scene is illuminated by emergency lights, with smoke or steam rising from the structure. A sign reading '12147' is present, and the timestamp is 2017-02-25 03:14 UTC.",
+        "sources": ["E01"]
+      }
+    ]
+  },
+  {
+    "step": 2,
+    "tokens": 233,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Firefighters in yellow protective gear and helmets are gathered outside a multi-story brick building at night. Fire trucks with extended ladders are positioned against the building, and an American flag is visible. The scene is illuminated by emergency lights, with smoke or steam rising from the structure. A sign reading '12147' is present, and the timestamp is 2017-02-25 03:14 UTC.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "A firefighter in full gear stands on a fire truck, observing a large fire engulfing a building at night. The scene is illuminated by emergency lights, with smoke rising into the sky. A white car and a silver SUV are parked nearby, and a tree is visible on the right side of the image. The timestamp is 2017-05-13 19:00 UTC.",
+        "sources": ["E02"]
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "tokens": 207,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Firefighters in yellow protective gear and helmets are gathered outside a multi-story brick building at night. Fire trucks with extended ladders are positioned against the building, and an American flag is visible. The scene is illuminated by emergency lights, with smoke or steam rising from the structure. A sign reading '12147' is present, and the timestamp is 2017-02-25 03:14 UTC.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo posted on 2017-06-01 13:57 UTC shows a fire scene with a burning vehicle and debris scattered around. The timestamp is 2017-06-01 13:57 UTC.",
+        "sources": ["E03"]
+      }
+    ]
+  },
+  {
+    "step": 4,
+    "tokens": 293,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Firefighters in yellow protective gear and helmets are gathered outside a multi-story brick building at night. Fire trucks with extended ladders are positioned against the building, and an American flag is visible. The scene is illuminated by emergency lights, with smoke or steam rising from the structure. A sign reading '12147' is present, and the timestamp is 2017-02-25 03:14 UTC.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo posted on 2017-06-01 13:57 UTC shows a fire scene with a burning vehicle and debris scattered around. The timestamp is 2017-06-01 13:57 UTC.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo posted on 2017-06-25 00:20 UTC shows a fire scene with a burning vehicle and debris scattered around. The timestamp is 2017-06-25 00:20 UTC.",
+        "sources": ["E04"]
+      }
+    ]
+  },
+  {
+    "step": 5,
+    "tokens": 379,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Firefighters in yellow protective gear and helmets are gathered outside a multi-story brick building at night. Fire trucks with extended ladders are positioned against the building, and an American flag is visible. The scene is illuminated by emergency lights, with smoke or steam rising from the structure. A sign reading '12147' is present, and the timestamp is 2017-02-25 03:14 UTC.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo posted on 2017-06-01 13:57 UTC shows a fire scene with a burning vehicle and debris scattered around. The timestamp is 2017-06-01 13:57 UTC.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo posted on 2017-06-25 00:20 UTC shows a fire scene with a burning vehicle and debris scattered around. The timestamp is 2017-06-25 00:20 UTC.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo posted on 2017-06-25 21:15 UTC shows a fire scene with a burning vehicle and debris scattered around. The timestamp is 2017-06-25 21:15 UTC.",
+        "sources": ["E05"]
+      }
+    ]
+  },
+  {
+    "step": 6,
+    "tokens": 465,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Firefighters in yellow protective gear and helmets are gathered outside a multi-story brick building at night. Fire trucks with extended ladders are positioned against the building, and an American flag is visible. The scene is illuminated by emergency lights, with smoke or steam rising from the structure. A sign reading '12147' is present, and the timestamp is 2017-02-25 03:14 UTC.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo posted on 2017-06-01 13:57 UTC shows a fire scene with a burning vehicle and debris scattered around. The timestamp is 2017-06-01 13:57 UTC.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo posted on 2017-06-25 00:20 UTC shows a fire scene with a burning vehicle and debris scattered around. The timestamp is 2017-06-25 00:20 UTC.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo posted on 2017-06-25 21:15 UTC shows a fire scene with a burning vehicle and debris scattered around. The timestamp is 2017-06-25 21:15 UTC.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo posted on 2017-07-21 00:43 UTC shows a fire scene with a burning vehicle and debris scattered around. The timestamp is 2017-07-21 00:43 UTC.",
+        "sources": ["E06"]
+      }
+    ]
+  },
+  {
+    "step": 7,
+    "tokens": 430,
+    "lines": [
+      {
+        "id": "m3",
+        "text": "A social media photo posted on 2017-06-01 13:57 UTC shows a fire scene with a burning vehicle and debris scattered around. The timestamp is 2017-06-01 13:57 UTC.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo posted on 2017-06-25 00:20 UTC shows a fire scene with a burning vehicle and debris scattered around. The timestamp is 2017-06-25 00:20 UTC.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo posted on 2017-06-25 21:15 UTC shows a fire scene with a burning vehicle and debris scattered around. The timestamp is 2017-06-25 21:15 UTC.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo posted on 2017-07-21 00:43 UTC shows a fire scene with a burning vehicle and debris scattered around. The timestamp is 2017-07-21 00:43 UTC.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo posted on 2017-08-23 00:46 UTC shows a fire scene with a burning vehicle and debris scattered around. The timestamp is 2017-08-23 00:46 UTC.",
+        "sources": ["E07"]
+      }
+    ]
+  },
+  {
+    "step": 8,
+    "tokens": 430,
+    "lines": [
+      {
+        "id": "m4",
+        "text": "A social media photo posted on 2017-06-25 00:20 UTC shows a fire scene with a burning vehicle and debris scattered around. The timestamp is 2017-06-25 00:20 UTC.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo posted on 2017-06-25 21:15 UTC shows a fire scene with a burning vehicle and debris scattered around. The timestamp is 2017-06-25 21:15 UTC.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo posted on 2017-07-21 00:43 UTC shows a fire scene with a burning vehicle and debris scattered around. The timestamp is 2017-07-21 00:43 UTC.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo posted on 2017-08-23 00:46 UTC shows a fire scene with a burning vehicle and debris scattered around. The timestamp is 2017-08-23 00:46 UTC.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo posted on 2017-08-28 10:43 UTC shows a fire scene with a burning vehicle and debris scattered around. The timestamp is 2017-08-28 10:43 UTC.",
+        "sources": ["E08"]
+      }
+    ]
+  },
+  {
+    "step": 9,
+    "tokens": 430,
+    "lines": [
+      {
+        "id": "m5",
+        "text": "A social media photo posted on 2017-06-25 21:15 UTC shows a fire scene with a burning vehicle and debris scattered around. The timestamp is 2017-06-25 21:15 UTC.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo posted on 2017-07-21 00:43 UTC shows a fire scene with a burning vehicle and debris scattered around. The timestamp is 2017-07-21 00:43 UTC.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo posted on 2017-08-23 00:46 UTC shows a fire scene with a burning vehicle and debris scattered around. The timestamp is 2017-08-23 00:46 UTC.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo posted on 2017-08-28 10:43 UTC shows a fire scene with a burning vehicle and debris scattered around. The timestamp is 2017-08-28 10:43 UTC.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media photo posted on 2017-09-06 09:22 UTC shows a fire scene with a burning vehicle and debris scattered around. The timestamp is 2017-09-06 09:22 UTC.",
+        "sources": ["E09"]
+      }
+    ]
+  },
+  {
+    "step": 10,
+    "tokens": 87,
+    "lines": [
+      {
+        "id": "m10",
+        "text": "A social media photo posted on 2017-09-08 03:41 UTC shows a fire scene with a burning vehicle and debris scattered around. The timestamp is 2017-09-08 03:41 UTC.",
+        "sources": ["E10"]
+      }
+    ]
+  }
+]

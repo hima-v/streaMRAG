@@ -1,0 +1,187 @@
+[
+  {
+    "step": 1,
+    "tokens": 98,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Firefighters and emergency personnel are gathered outside a multi-story building at night, with fire trucks and ladders positioned against it. The scene is illuminated by emergency lights, and an American flag is visible. The building appears to be a brick apartment complex with multiple windows and fire escapes. The sky is dark, indicating the event is occurring at night.",
+        "sources": ["E01"]
+      }
+    ]
+  },
+  {
+    "step": 2,
+    "tokens": 211,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Firefighters and emergency personnel are gathered outside a multi-story brick apartment complex at night, with fire trucks and ladders positioned against it. The scene is illuminated by emergency lights, and an American flag is visible. The building has multiple windows and fire escapes, and smoke and flames are visible as firefighters assess the situation.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "A social media photo posted on 2017-05-13 19:00 UTC shows a firefighter standing on a fire truck, observing a large fire engulfing a multi-story building. The scene is illuminated by emergency lights, with smoke and flames visible against a darkening sky. The building appears to be a brick apartment complex with multiple windows and fire escapes. An American flag is visible on the fire truck.",
+        "sources": ["E02"]
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "tokens": 211,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Firefighters and emergency personnel are gathered outside a multi-story brick apartment complex at night, with fire trucks and ladders positioned against it. The scene is illuminated by emergency lights, and an American flag is visible. The building has multiple windows and fire escapes, and smoke and flames are visible as firefighters assess the situation.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo posted on 2017-06-01 13:57 UTC shows a firefighter standing on a fire truck, observing a large fire engulfing a multi-story building. The scene is illuminated by emergency lights, with smoke and flames visible against a darkening sky. The building appears to be a brick apartment complex with multiple windows and fire escapes. An American flag is visible on the fire truck.",
+        "sources": ["E03"]
+      }
+    ]
+  },
+  {
+    "step": 4,
+    "tokens": 329,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Firefighters and emergency personnel are gathered outside a multi-story brick apartment complex at night, with fire trucks and ladders positioned against it. The scene is illuminated by emergency lights, and an American flag is visible. The building has multiple windows and fire escapes, and smoke and flames are visible as firefighters assess the situation.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo posted on 2017-06-01 13:57 UTC shows a firefighter standing on a fire truck, observing a large fire engulfing a multi-story building. The scene is illuminated by emergency lights, with smoke and flames visible against a darkening sky. The building appears to be a brick apartment complex with multiple windows and fire escapes. An American flag is visible on the fire truck.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo posted on 2017-06-25 00:20 UTC shows a firefighter standing on a fire truck, observing a large fire engulfing a multi-story building. The scene is illuminated by emergency lights, with smoke and flames visible against a darkening sky. The building appears to be a brick apartment complex with multiple windows and fire escapes. An American flag is visible on the fire truck.",
+        "sources": ["E04"]
+      }
+    ]
+  },
+  {
+    "step": 5,
+    "tokens": 447,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Firefighters and emergency personnel are gathered outside a multi-story brick apartment complex at night, with fire trucks and ladders positioned against it. The scene is illuminated by emergency lights, and an American flag is visible. The building has multiple windows and fire escapes, and smoke and flames are visible as firefighters assess the situation.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo posted on 2017-06-01 13:57 UTC shows a firefighter standing on a fire truck, observing a large fire engulfing a multi-story building. The scene is illuminated by emergency lights, with smoke and flames visible against a darkening sky. The building appears to be a brick apartment complex with multiple windows and fire escapes. An American flag is visible on the fire truck.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo posted on 2017-06-25 00:20 UTC shows a firefighter standing on a fire truck, observing a large fire engulfing a multi-story building. The scene is illuminated by emergency lights, with smoke and flames visible against a darkening sky. The building appears to be a brick apartment complex with multiple windows and fire escapes. An American flag is visible on the fire truck.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo posted on 2017-06-25 21:15 UTC shows a firefighter standing on a fire truck, observing a large fire engulfing a multi-story building. The scene is illuminated by emergency lights, with smoke and flames visible against a darkening sky. The building appears to be a brick apartment complex with multiple windows and fire escapes. An American flag is visible on the fire truck.",
+        "sources": ["E05"]
+      }
+    ]
+  },
+  {
+    "step": 6,
+    "tokens": 472,
+    "lines": [
+      {
+        "id": "m3",
+        "text": "A social media photo posted on 2017-06-01 13:57 UTC shows a firefighter standing on a fire truck, observing a large fire engulfing a multi-story building. The scene is illuminated by emergency lights, with smoke and flames visible against a darkening sky. The building appears to be a brick apartment complex with multiple windows and fire escapes. An American flag is visible on the fire truck.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo posted on 2017-06-25 00:20 UTC shows a firefighter standing on a fire truck, observing a large fire engulfing a multi-story building. The scene is illuminated by emergency lights, with smoke and flames visible against a darkening sky. The building appears to be a brick apartment complex with multiple windows and fire escapes. An American flag is visible on the fire truck.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo posted on 2017-06-25 21:15 UTC shows a firefighter standing on a fire truck, observing a large fire engulfing a multi-story building. The scene is illuminated by emergency lights, with smoke and flames visible against a darkening sky. The building appears to be a brick apartment complex with multiple windows and fire escapes. An American flag is visible on the fire truck.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo posted on 2017-07-21 00:43 UTC shows a firefighter standing on a fire truck, observing a large fire engulfing a multi-story building. The scene is illuminated by emergency lights, with smoke and flames visible against a darkening sky. The building appears to be a brick apartment complex with multiple windows and fire escapes. An American flag is visible on the fire truck.",
+        "sources": ["E06"]
+      }
+    ]
+  },
+  {
+    "step": 7,
+    "tokens": 236,
+    "lines": [
+      {
+        "id": "m3",
+        "text": "A social media photo posted on 2017-06-01 13:57 UTC shows a firefighter standing on a fire truck, observing a large fire engulfing a multi-story building. The scene is illuminated by emergency lights, with smoke and flames visible against a darkening sky. The building appears to be a brick apartment complex with multiple windows and fire escapes. An American flag is visible on the fire truck.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo posted on 2017-08-23 00:46 UTC shows a firefighter standing on a fire truck, observing a large fire engulfing a multi-story building. The scene is illuminated by emergency lights, with smoke and flames visible against a darkening sky. The building appears to be a brick apartment complex with multiple windows and fire escapes. An American flag is visible on the fire truck.",
+        "sources": ["E07"]
+      }
+    ]
+  },
+  {
+    "step": 8,
+    "tokens": 354,
+    "lines": [
+      {
+        "id": "m3",
+        "text": "A social media photo posted on 2017-06-01 13:57 UTC shows a firefighter standing on a fire truck, observing a large fire engulfing a multi-story building. The scene is illuminated by emergency lights, with smoke and flames visible against a darkening sky. The building appears to be a brick apartment complex with multiple windows and fire escapes. An American flag is visible on the fire truck.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo posted on 2017-08-23 00:46 UTC shows a firefighter standing on a fire truck, observing a large fire engulfing a multi-story building. The scene is illuminated by emergency lights, with smoke and flames visible against a darkening sky. The building appears to be a brick apartment complex with multiple windows and fire escapes. An American flag is visible on the fire truck.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo posted on 2017-08-28 10:43 UTC shows a firefighter standing on a fire truck, observing a large fire engulfing a multi-story building. The scene is illuminated by emergency lights, with smoke and flames visible against a darkening sky. The building appears to be a brick apartment complex with multiple windows and fire escapes. An American flag is visible on the fire truck.",
+        "sources": ["E08"]
+      }
+    ]
+  },
+  {
+    "step": 9,
+    "tokens": 236,
+    "lines": [
+      {
+        "id": "m3",
+        "text": "A social media photo posted on 2017-06-01 13:57 UTC shows a firefighter standing on a fire truck, observing a large fire engulfing a multi-story building. The scene is illuminated by emergency lights, with smoke and flames visible against a darkening sky. The building appears to be a brick apartment complex with multiple windows and fire escapes. An American flag is visible on the fire truck.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media photo posted on 2017-09-06 09:22 UTC shows a firefighter standing on a fire truck, observing a large fire engulfing a multi-story building. The scene is illuminated by emergency lights, with smoke and flames visible against a darkening sky. The building appears to be a brick apartment complex with multiple windows and fire escapes. An American flag is visible on the fire truck.",
+        "sources": ["E09"]
+      }
+    ]
+  },
+  {
+    "step": 10,
+    "tokens": 237,
+    "lines": [
+      {
+        "id": "m3",
+        "text": "A social media photo posted on 2017-06-01 13:57 UTC shows a firefighter standing on a fire truck, observing a large fire engulfing a multi-story building. The scene is illuminated by emergency lights, with smoke and flames visible against a darkening sky. The building appears to be a brick apartment complex with multiple windows and fire escapes. An American flag is visible on the fire truck.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m10",
+        "text": "A social media photo posted on 2017-09-08 03:41 UTC shows a firefighter standing on a fire truck, observing a large fire engulfing a multi-story building. The scene is illuminated by emergency lights, with smoke and flames visible against a darkening sky. The building appears to be a brick apartment complex with multiple windows and fire escapes. An American flag is visible on the fire truck.",
+        "sources": ["E10"]
+      }
+    ]
+  }
+]

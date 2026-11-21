@@ -1,0 +1,17 @@
+{
+  "esqa_mean": 0.2,
+  "answered_correct": 0.2,
+  "abstained": 0.8,
+  "correct_count": "1/5",
+  "retention_final": 0.6,
+  "categories": {
+    "abstained_evidence_missing": 2,
+    "unnecessary_abstention": 2,
+    "correct": 1
+  },
+  "budget_fallbacks": 2,
+  "final_memory_tokens": 470,
+  "final_memory_lines": 7,
+  "n_questions": 5,
+  "n_items": 10
+}

@@ -1,0 +1,488 @@
+[
+  {
+    "item_id": "E01",
+    "step": 1,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Aerial view of a flooded commercial area with submerged vehicles and buildings, including a white-roofed structure with a parking lot filled with cars, surrounded by greenery and trees, indicating a natural disaster event.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Aerial view of a flooded commercial area with submerged vehicles and buildings, including a white-roofed structure with a parking lot filled with cars, surrounded by greenery and trees, indicating a natural disaster event.",
+              "sources": ["E01"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 69
+      }
+    ],
+    "tokens": 69,
+    "n_lines": 1,
+    "secs": 6.9
+  },
+  {
+    "item_id": "E02",
+    "step": 2,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Aerial view of a flooded commercial area with submerged vehicles and buildings, including a white-roofed structure with a parking lot filled with cars, surrounded by greenery and trees, indicating a natural disaster event.\",",
+          "      \"sources\": [\"E02\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"Aerial view of a flooded commercial area with submerged vehicles and buildings, including a white-roofed structure with a parking lot filled with cars, surrounded by greenery and trees, indicating a natural disaster event.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Aerial view of a flooded commercial area with submerged vehicles and buildings, including a white-roofed structure with a parking lot filled with cars, surrounded by greenery and trees, indicating a natural disaster event.",
+              "sources": ["E02"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Aerial view of a flooded commercial area with submerged vehicles and buildings, including a white-roofed structure with a parking lot filled with cars, surrounded by greenery and trees, indicating a natural disaster event.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 138
+      }
+    ],
+    "tokens": 138,
+    "n_lines": 2,
+    "secs": 11.44
+  },
+  {
+    "item_id": "E03",
+    "step": 3,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Aerial view of a flooded residential area with submerged vehicles and buildings, including a white-roofed structure with a parking lot filled with cars, surrounded by greenery and trees, indicating a natural disaster event.\",",
+          "      \"sources\": [\"E03\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"Aerial view of a flooded commercial area with submerged vehicles and buildings, including a white-roofed structure with a parking lot filled with cars, surrounded by greenery and trees, indicating a natural disaster event.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": [\"m2\"]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Aerial view of a flooded residential area with submerged vehicles and buildings, including a white-roofed structure with a parking lot filled with cars, surrounded by greenery and trees, indicating a natural disaster event.",
+              "sources": ["E03"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Aerial view of a flooded commercial area with submerged vehicles and buildings, including a white-roofed structure with a parking lot filled with cars, surrounded by greenery and trees, indicating a natural disaster event.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": [],
+        "tokens_after": 138
+      }
+    ],
+    "tokens": 138,
+    "n_lines": 2,
+    "secs": 12.13
+  },
+  {
+    "item_id": "E04",
+    "step": 4,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Aerial view of a flooded residential area with submerged vehicles and buildings, including a white-roofed structure with a parking lot filled with cars, surrounded by greenery and trees, indicating a natural disaster event. Social media photo (Twitter), posted 2017-09-19 18:03 UTC.\",",
+          "      \"sources\": [\"E04\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"Aerial view of a flooded commercial area with submerged vehicles and buildings, including a white-roofed structure with a parking lot filled with cars, surrounded by greenery and trees, indicating a natural disaster event. Aerial view of a flooded residential area with submerged vehicles and buildings, including a white-roofed structure with a parking lot filled with cars, surrounded by greenery and trees, indicating a natural disaster event. Social media photo (Twitter), posted 2017-09-19 18:03 UTC.\",",
+          "      \"sources\": [\"E01\", \"E04\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": [\"m3\"]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Aerial view of a flooded residential area with submerged vehicles and buildings, including a white-roofed structure with a parking lot filled with cars, surrounded by greenery and trees, indicating a natural disaster event. Social media photo (Twitter), posted 2017-09-19 18:03 UTC.",
+              "sources": ["E04"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Aerial view of a flooded commercial area with submerged vehicles and buildings, including a white-roofed structure with a parking lot filled with cars, surrounded by greenery and trees, indicating a natural disaster event. Aerial view of a flooded residential area with submerged vehicles and buildings, including a white-roofed structure with a parking lot filled with cars, surrounded by greenery and trees, indicating a natural disaster event. Social media photo (Twitter), posted 2017-09-19 18:03 UTC.",
+              "sources": ["E01", "E04"]
+            }
+          ],
+          "delete": ["m3"]
+        },
+        "problems": [],
+        "tokens_after": 254
+      }
+    ],
+    "tokens": 254,
+    "n_lines": 2,
+    "secs": 19.11
+  },
+  {
+    "item_id": "E05",
+    "step": 5,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"Aerial view of a flooded residential area with submerged vehicles and buildings, including a white-roofed structure with a parking lot filled with cars, surrounded by greenery and trees, indicating a natural disaster event. Social media photo (Twitter), posted 2017-09-19 18:05 UTC.\", \"sources\": [\"E05\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Aerial view of a flooded commercial area with submerged vehicles and buildings, including a white-roofed structure with a parking lot filled with cars, surrounded by greenery and trees, indicating a natural disaster event. Aerial view of a flooded residential area with submerged vehicles and buildings, including a white-roofed structure with a parking lot filled with cars, surrounded by greenery and trees, indicating a natural disaster event. Social media photo (Twitter), posted 2017-09-19 18:03 UTC.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Aerial view of a flooded residential area with submerged vehicles and buildings, including a white-roofed structure with a parking lot filled with cars, surrounded by greenery and trees, indicating a natural disaster event. Social media photo (Twitter), posted 2017-09-19 18:05 UTC.",
+              "sources": ["E05"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Aerial view of a flooded commercial area with submerged vehicles and buildings, including a white-roofed structure with a parking lot filled with cars, surrounded by greenery and trees, indicating a natural disaster event. Aerial view of a flooded residential area with submerged vehicles and buildings, including a white-roofed structure with a parking lot filled with cars, surrounded by greenery and trees, indicating a natural disaster event. Social media photo (Twitter), posted 2017-09-19 18:03 UTC.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 349
+      }
+    ],
+    "tokens": 349,
+    "n_lines": 3,
+    "secs": 18.41
+  },
+  {
+    "item_id": "E06",
+    "step": 6,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Aerial view of a flooded residential area with submerged vehicles and buildings, including a white-roofed structure with a parking lot filled with cars, surrounded by greenery and trees, indicating a natural disaster event. Social media photo (Twitter), posted 2017-09-19 18:16 UTC.\",",
+          "      \"sources\": [\"E06\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"Aerial view of a flooded commercial area with submerged vehicles and buildings, including a white-roofed structure with a parking lot filled with cars, surrounded by greenery and trees, indicating a natural disaster event. Aerial view of a flooded residential area with submerged vehicles and buildings, including a white-roofed structure with a parking lot filled with cars, surrounded by greenery and trees, indicating a natural disaster event. Social media photo (Twitter), posted 2017-09-19 18:03 UTC.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": [\"m2\"]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Aerial view of a flooded residential area with submerged vehicles and buildings, including a white-roofed structure with a parking lot filled with cars, surrounded by greenery and trees, indicating a natural disaster event. Social media photo (Twitter), posted 2017-09-19 18:16 UTC.",
+              "sources": ["E06"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Aerial view of a flooded commercial area with submerged vehicles and buildings, including a white-roofed structure with a parking lot filled with cars, surrounded by greenery and trees, indicating a natural disaster event. Aerial view of a flooded residential area with submerged vehicles and buildings, including a white-roofed structure with a parking lot filled with cars, surrounded by greenery and trees, indicating a natural disaster event. Social media photo (Twitter), posted 2017-09-19 18:03 UTC.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 444
+      }
+    ],
+    "tokens": 444,
+    "n_lines": 4,
+    "secs": 19.84
+  },
+  {
+    "item_id": "E07",
+    "step": 7,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Aerial view of a flooded residential area with submerged vehicles and buildings, including a white-roofed structure with a parking lot filled with cars, surrounded by greenery and trees, indicating a natural disaster event. Social media photo (Twitter), posted 2017-09-19 18:40 UTC.\",",
+          "      \"sources\": [\"E07\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"Aerial view of a flooded commercial area with submerged vehicles and buildings, including a white-roofed structure with a parking lot filled with cars, surrounded by greenery and trees, indicating a natural disaster event. Aerial view of a flooded residential area with submerged vehicles and buildings, including a white-roofed structure with a parking lot filled with cars, surrounded by greenery and trees, indicating a natural disaster event. Social media photo (Twitter), posted 2017-09-19 18:03 UTC.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": [\"m2\"]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Aerial view of a flooded residential area with submerged vehicles and buildings, including a white-roofed structure with a parking lot filled with cars, surrounded by greenery and trees, indicating a natural disaster event. Social media photo (Twitter), posted 2017-09-19 18:40 UTC.",
+              "sources": ["E07"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Aerial view of a flooded commercial area with submerged vehicles and buildings, including a white-roofed structure with a parking lot filled with cars, surrounded by greenery and trees, indicating a natural disaster event. Aerial view of a flooded residential area with submerged vehicles and buildings, including a white-roofed structure with a parking lot filled with cars, surrounded by greenery and trees, indicating a natural disaster event. Social media photo (Twitter), posted 2017-09-19 18:03 UTC.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 539
+      },
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Aerial view of a flooded residential area with submerged vehicles and buildings, including a white-roofed structure with a parking lot filled with cars, surrounded by greenery and trees, indicating a natural disaster event. Social media photo (Twitter), posted 2017-09-19 18:40 UTC.\",",
+          "      \"sources\": [\"E07\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"Aerial view of a flooded commercial area with submerged vehicles and buildings, including a white-roofed structure with a parking lot filled with cars, surrounded by greenery and trees, indicating a natural disaster event. Aerial view of a flooded residential area with submerged vehicles and buildings, including a white-roofed structure with a parking lot filled with cars, surrounded by greenery and trees, indicating a natural disaster event. Social media photo (Twitter), posted 2017-09-19 18:03 UTC.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": [\"m2\"]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Aerial view of a flooded residential area with submerged vehicles and buildings, including a white-roofed structure with a parking lot filled with cars, surrounded by greenery and trees, indicating a natural disaster event. Social media photo (Twitter), posted 2017-09-19 18:40 UTC.",
+              "sources": ["E07"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Aerial view of a flooded commercial area with submerged vehicles and buildings, including a white-roofed structure with a parking lot filled with cars, surrounded by greenery and trees, indicating a natural disaster event. Aerial view of a flooded residential area with submerged vehicles and buildings, including a white-roofed structure with a parking lot filled with cars, surrounded by greenery and trees, indicating a natural disaster event. Social media photo (Twitter), posted 2017-09-19 18:03 UTC.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 539
+      }
+    ],
+    "fallback": "budget_evict_oldest",
+    "evicted": [
+      {
+        "id": "m1",
+        "text": "Aerial view of a flooded commercial area with submerged vehicles and buildings, including a white-roofed structure with a parking lot filled with cars, surrounded by greenery and trees, indicating a natural disaster event. Aerial view of a flooded residential area with submerged vehicles and buildings, including a white-roofed structure with a parking lot filled with cars, surrounded by greenery and trees, indicating a natural disaster event. Social media photo (Twitter), posted 2017-09-19 18:03 UTC.",
+        "sources": ["E01", "E04"]
+      }
+    ],
+    "tokens": 380,
+    "n_lines": 4,
+    "secs": 38.2
+  },
+  {
+    "item_id": "E08",
+    "step": 8,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Aerial view of a flooded residential area with submerged vehicles and buildings, including a white-roofed structure with a parking lot filled with cars, surrounded by greenery and trees, indicating a natural disaster event. Social media photo (Twitter), posted 2017-09-19 19:20 UTC.\",",
+          "      \"sources\": [\"E08\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Aerial view of a flooded residential area with submerged vehicles and buildings, including a white-roofed structure with a parking lot filled with cars, surrounded by greenery and trees, indicating a natural disaster event. Social media photo (Twitter), posted 2017-09-19 19:20 UTC.",
+              "sources": ["E08"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 475
+      }
+    ],
+    "tokens": 475,
+    "n_lines": 5,
+    "secs": 8.88
+  },
+  {
+    "item_id": "E09",
+    "step": 9,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"Aerial view of a flooded residential area with submerged vehicles and buildings, including a white-roofed structure with a parking lot filled with cars, surrounded by greenery and trees, indicating a natural disaster event. Social media photo (Twitter), posted 2017-09-19 19:51 UTC.\", \"sources\": [\"E09\"]}], \"update\": [], \"delete\": []}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Aerial view of a flooded residential area with submerged vehicles and buildings, including a white-roofed structure with a parking lot filled with cars, surrounded by greenery and trees, indicating a natural disaster event. Social media photo (Twitter), posted 2017-09-19 19:51 UTC.",
+              "sources": ["E09"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 570
+      },
+      {
+        "raw": [
+          "{\"delete\": [\"m5\", \"m6\", \"m7\", \"m8\"], \"add\": [{\"text\": \"Aerial view of a flooded residential area with submerged vehicles and buildings, including a white-roofed structure with a parking lot filled with cars, surrounded by greenery and trees, indicating a natural disaster event. Social media photo (Twitter), posted 2017-09-19 19:51 UTC.\", \"sources\": [\"E09\"]}], \"update\": [{\"id\": \"m4\", \"text\": \"Aerial view of a flooded residential area with submerged vehicles and buildings, including a white-roofed structure with a parking lot filled with cars, surrounded by greenery and trees, indicating a natural disaster event. Social media photo (Twitter), posted 2017-09-19 18:03 UTC.\", \"sources\": [\"E04\"]}], \"delete\": [\"m5\", \"m6\", \"m7\", \"m8\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "delete": ["m5", "m6", "m7", "m8"],
+          "add": [
+            {
+              "text": "Aerial view of a flooded residential area with submerged vehicles and buildings, including a white-roofed structure with a parking lot filled with cars, surrounded by greenery and trees, indicating a natural disaster event. Social media photo (Twitter), posted 2017-09-19 19:51 UTC.",
+              "sources": ["E09"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m4",
+              "text": "Aerial view of a flooded residential area with submerged vehicles and buildings, including a white-roofed structure with a parking lot filled with cars, surrounded by greenery and trees, indicating a natural disaster event. Social media photo (Twitter), posted 2017-09-19 18:03 UTC.",
+              "sources": ["E04"]
+            }
+          ]
+        },
+        "problems": [],
+        "tokens_after": 190
+      }
+    ],
+    "tokens": 190,
+    "n_lines": 2,
+    "secs": 24.02
+  },
+  {
+    "item_id": "E10",
+    "step": 10,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"Aerial view of a flooded residential area with submerged vehicles and buildings, including a white-roofed structure with a parking lot filled with cars, surrounded by greenery and trees, indicating a natural disaster event. Social media photo (Twitter), posted 2017-09-19 20:20 UTC.\", \"sources\": [\"E10\"]}], \"update\": [], \"delete\": []}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Aerial view of a flooded residential area with submerged vehicles and buildings, including a white-roofed structure with a parking lot filled with cars, surrounded by greenery and trees, indicating a natural disaster event. Social media photo (Twitter), posted 2017-09-19 20:20 UTC.",
+              "sources": ["E10"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 286
+      }
+    ],
+    "tokens": 286,
+    "n_lines": 3,
+    "secs": 8.01
+  }
+]

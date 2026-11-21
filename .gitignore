@@ -5,6 +5,5 @@ __pycache__/
 .env
 data/raw/
 data/processed/
-outputs/
 third_party/
 examples/

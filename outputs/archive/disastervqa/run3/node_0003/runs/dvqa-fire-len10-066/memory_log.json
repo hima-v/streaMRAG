@@ -1,0 +1,507 @@
+[
+  {
+    "item_id": "E01",
+    "step": 1,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Firefighters in full gear operate at night on a multi-story building with visible smoke and fire damage. Multiple fire trucks with extended ladders are positioned around the structure. An American flag is displayed prominently. Emergency personnel are gathered, and a street sign indicates '12147 P' with parking restrictions. The scene is illuminated by emergency lights against a dark sky.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Firefighters in full gear operate at night on a multi-story building with visible smoke and fire damage. Multiple fire trucks with extended ladders are positioned around the structure. An American flag is displayed prominently. Emergency personnel are gathered, and a street sign indicates '12147 P' with parking restrictions. The scene is illuminated by emergency lights against a dark sky.",
+              "sources": ["E01"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 103
+      }
+    ],
+    "tokens": 103,
+    "n_lines": 1,
+    "secs": 9.61
+  },
+  {
+    "item_id": "E02",
+    "step": 2,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo posted on 2017-05-13 19:00 UTC shows a fire truck with extended ladder near the burning building. A firefighter in full gear is visible on the truck's roof, observing the fire. The scene is illuminated by emergency lights against a dark sky.\",",
+          "      \"sources\": [\"E02\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"Firefighters in full gear operate at night on a multi-story building with visible smoke and fire damage. Multiple fire trucks with extended ladders are positioned around the structure. An American flag is displayed prominently. Emergency personnel are gathered, and a street sign indicates '12147 P' with parking restrictions. The scene is illuminated by emergency lights against a dark sky. Social media photo posted on 2017-05-13 19:00 UTC shows a fire truck with extended ladder near the burning building. A firefighter in full gear is visible on the truck's roof, observing the fire.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo posted on 2017-05-13 19:00 UTC shows a fire truck with extended ladder near the burning building. A firefighter in full gear is visible on the truck's roof, observing the fire. The scene is illuminated by emergency lights against a dark sky.",
+              "sources": ["E02"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Firefighters in full gear operate at night on a multi-story building with visible smoke and fire damage. Multiple fire trucks with extended ladders are positioned around the structure. An American flag is displayed prominently. Emergency personnel are gathered, and a street sign indicates '12147 P' with parking restrictions. The scene is illuminated by emergency lights against a dark sky. Social media photo posted on 2017-05-13 19:00 UTC shows a fire truck with extended ladder near the burning building. A firefighter in full gear is visible on the truck's roof, observing the fire.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 248
+      }
+    ],
+    "tokens": 248,
+    "n_lines": 2,
+    "secs": 21.01
+  },
+  {
+    "item_id": "E03",
+    "step": 3,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"Social media photo posted on 2017-06-01 13:57 UTC shows a fire truck with extended ladder near the burning building. A firefighter in full gear is visible on the truck's roof, observing the fire. The scene is illuminated by emergency lights against a dark sky.\", \"sources\": [\"E03\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Firefighters in full gear operate at night on a multi-story building with visible smoke and fire damage. Multiple fire trucks with extended ladders are positioned around the structure. An American flag is displayed prominently. Emergency personnel are gathered, and a street sign indicates '12147 P' with parking restrictions. The scene is illuminated by emergency lights against a dark sky. Social media photo posted on 2017-05-13 19:00 UTC shows a fire truck with extended ladder near the burning building. A firefighter in full gear is visible on the truck's roof, observing the fire.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo posted on 2017-06-01 13:57 UTC shows a fire truck with extended ladder near the burning building. A firefighter in full gear is visible on the truck's roof, observing the fire. The scene is illuminated by emergency lights against a dark sky.",
+              "sources": ["E03"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Firefighters in full gear operate at night on a multi-story building with visible smoke and fire damage. Multiple fire trucks with extended ladders are positioned around the structure. An American flag is displayed prominently. Emergency personnel are gathered, and a street sign indicates '12147 P' with parking restrictions. The scene is illuminated by emergency lights against a dark sky. Social media photo posted on 2017-05-13 19:00 UTC shows a fire truck with extended ladder near the burning building. A firefighter in full gear is visible on the truck's roof, observing the fire.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": [],
+        "tokens_after": 248
+      }
+    ],
+    "tokens": 248,
+    "n_lines": 2,
+    "secs": 18.2
+  },
+  {
+    "item_id": "E04",
+    "step": 4,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo posted on 2017-06-25 00:20 UTC shows a fire truck with extended ladder near the burning building. A firefighter in full gear is visible on the truck's roof, observing the fire. The scene is illuminated by emergency lights against a dark sky.\",",
+          "      \"sources\": [\"E04\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"Firefighters in full gear operate at night on a multi-story building with visible smoke and fire damage. Multiple fire trucks with extended ladders are positioned around the structure. An American flag is displayed prominently. Emergency personnel are gathered, and a street sign indicates '12147 P' with parking restrictions. The scene is illuminated by emergency lights against a dark sky. Social media photo posted on 2017-05-13 19:00 UTC shows a fire truck with extended ladder near the burning building. A firefighter in full gear is visible on the truck's roof, observing the fire.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo posted on 2017-06-25 00:20 UTC shows a fire truck with extended ladder near the burning building. A firefighter in full gear is visible on the truck's roof, observing the fire. The scene is illuminated by emergency lights against a dark sky.",
+              "sources": ["E04"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Firefighters in full gear operate at night on a multi-story building with visible smoke and fire damage. Multiple fire trucks with extended ladders are positioned around the structure. An American flag is displayed prominently. Emergency personnel are gathered, and a street sign indicates '12147 P' with parking restrictions. The scene is illuminated by emergency lights against a dark sky. Social media photo posted on 2017-05-13 19:00 UTC shows a fire truck with extended ladder near the burning building. A firefighter in full gear is visible on the truck's roof, observing the fire.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 340
+      }
+    ],
+    "tokens": 340,
+    "n_lines": 3,
+    "secs": 20.25
+  },
+  {
+    "item_id": "E05",
+    "step": 5,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo posted on 2017-06-25 21:15 UTC shows a fire truck with extended ladder near the burning building. A firefighter in full gear is visible on the truck's roof, observing the fire. The scene is illuminated by emergency lights against a dark sky.\",",
+          "      \"sources\": [\"E05\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"Firefighters in full gear operate at night on a multi-story building with visible smoke and fire damage. Multiple fire trucks with extended ladders are positioned around the structure. An American flag is displayed prominently. Emergency personnel are gathered, and a street sign indicates '12147 P' with parking restrictions. The scene is illuminated by emergency lights against a dark sky. Social media photo posted on 2017-05-13 19:00 UTC shows a fire truck with extended ladder near the burning building. A firefighter in full gear is visible on the truck's roof, observing the fire.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo posted on 2017-06-25 21:15 UTC shows a fire truck with extended ladder near the burning building. A firefighter in full gear is visible on the truck's roof, observing the fire. The scene is illuminated by emergency lights against a dark sky.",
+              "sources": ["E05"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Firefighters in full gear operate at night on a multi-story building with visible smoke and fire damage. Multiple fire trucks with extended ladders are positioned around the structure. An American flag is displayed prominently. Emergency personnel are gathered, and a street sign indicates '12147 P' with parking restrictions. The scene is illuminated by emergency lights against a dark sky. Social media photo posted on 2017-05-13 19:00 UTC shows a fire truck with extended ladder near the burning building. A firefighter in full gear is visible on the truck's roof, observing the fire.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 432
+      }
+    ],
+    "tokens": 432,
+    "n_lines": 4,
+    "secs": 19.87
+  },
+  {
+    "item_id": "E06",
+    "step": 6,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo posted on 2017-07-21 00:43 UTC shows a fire truck with extended ladder near the burning building. A firefighter in full gear is visible on the truck's roof, observing the fire. The scene is illuminated by emergency lights against a dark sky.\",",
+          "      \"sources\": [\"E06\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"Firefighters in full gear operate at night on a multi-story building with visible smoke and fire damage. Multiple fire trucks with extended ladders are positioned around the structure. An American flag is displayed prominently. Emergency personnel are gathered, and a street sign indicates '12147 P' with parking restrictions. The scene is illuminated by emergency lights against a dark sky. Social media photo posted on 2017-05-13 19:00 UTC shows a fire truck with extended ladder near the burning building. A firefighter in full gear is visible on the truck's roof, observing the fire.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo posted on 2017-07-21 00:43 UTC shows a fire truck with extended ladder near the burning building. A firefighter in full gear is visible on the truck's roof, observing the fire. The scene is illuminated by emergency lights against a dark sky.",
+              "sources": ["E06"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Firefighters in full gear operate at night on a multi-story building with visible smoke and fire damage. Multiple fire trucks with extended ladders are positioned around the structure. An American flag is displayed prominently. Emergency personnel are gathered, and a street sign indicates '12147 P' with parking restrictions. The scene is illuminated by emergency lights against a dark sky. Social media photo posted on 2017-05-13 19:00 UTC shows a fire truck with extended ladder near the burning building. A firefighter in full gear is visible on the truck's roof, observing the fire.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 524
+      },
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo posted on 2017-07-21 00:43 UTC shows a fire truck with extended ladder near the burning building. A firefighter in full gear is visible on the truck's roof, observing the fire. The scene is illuminated by emergency lights against a dark sky.\",",
+          "      \"sources\": [\"E06\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"Firefighters in full gear operate at night on a multi-story building with visible smoke and fire damage. Multiple fire trucks with extended ladders are positioned around the structure. An American flag is displayed prominently. Emergency personnel are gathered, and a street sign indicates '12147 P' with parking restrictions. The scene is illuminated by emergency lights against a dark sky. Social media photo posted on 2017-05-13 19:00 UTC shows a fire truck with extended ladder near the burning building. A firefighter in full gear is visible on the truck's roof, observing the fire.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": [\"m2\"]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo posted on 2017-07-21 00:43 UTC shows a fire truck with extended ladder near the burning building. A firefighter in full gear is visible on the truck's roof, observing the fire. The scene is illuminated by emergency lights against a dark sky.",
+              "sources": ["E06"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Firefighters in full gear operate at night on a multi-story building with visible smoke and fire damage. Multiple fire trucks with extended ladders are positioned around the structure. An American flag is displayed prominently. Emergency personnel are gathered, and a street sign indicates '12147 P' with parking restrictions. The scene is illuminated by emergency lights against a dark sky. Social media photo posted on 2017-05-13 19:00 UTC shows a fire truck with extended ladder near the burning building. A firefighter in full gear is visible on the truck's roof, observing the fire.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 524
+      }
+    ],
+    "fallback": "budget_evict_oldest",
+    "evicted": [
+      {
+        "id": "m1",
+        "text": "Firefighters in full gear operate at night on a multi-story building with visible smoke and fire damage. Multiple fire trucks with extended ladders are positioned around the structure. An American flag is displayed prominently. Emergency personnel are gathered, and a street sign indicates '12147 P' with parking restrictions. The scene is illuminated by emergency lights against a dark sky. Social media photo posted on 2017-05-13 19:00 UTC shows a fire truck with extended ladder near the burning building. A firefighter in full gear is visible on the truck's roof, observing the fire.",
+        "sources": ["E01"]
+      }
+    ],
+    "tokens": 368,
+    "n_lines": 4,
+    "secs": 39.52
+  },
+  {
+    "item_id": "E07",
+    "step": 7,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo posted on 2017-08-23 00:46 UTC shows a fire truck with extended ladder near the burning building. A firefighter in full gear is visible on the truck's roof, observing the fire. The scene is illuminated by emergency lights against a dark sky.\",",
+          "      \"sources\": [\"E07\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo posted on 2017-08-23 00:46 UTC shows a fire truck with extended ladder near the burning building. A firefighter in full gear is visible on the truck's roof, observing the fire. The scene is illuminated by emergency lights against a dark sky.",
+              "sources": ["E07"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 460
+      }
+    ],
+    "tokens": 460,
+    "n_lines": 5,
+    "secs": 9.42
+  },
+  {
+    "item_id": "E08",
+    "step": 8,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo posted on 2017-08-28 10:43 UTC shows a fire truck with extended ladder near the burning building. A firefighter in full gear is visible on the truck's roof, observing the fire. The scene is illuminated by emergency lights against a dark sky.\",",
+          "      \"sources\": [\"E08\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo posted on 2017-08-28 10:43 UTC shows a fire truck with extended ladder near the burning building. A firefighter in full gear is visible on the truck's roof, observing the fire. The scene is illuminated by emergency lights against a dark sky.",
+              "sources": ["E08"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 552
+      },
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo posted on 2017-08-28 10:43 UTC shows a fire truck with extended ladder near the burning building. A firefighter in full gear is visible on the truck's roof, observing the fire. The scene is illuminated by emergency lights against a dark sky.\",",
+          "      \"sources\": [\"E08\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": [",
+          "    \"m3\",",
+          "    \"m4\",",
+          "    \"m5\",",
+          "    \"m6\",",
+          "    \"m7\"",
+          "  ]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo posted on 2017-08-28 10:43 UTC shows a fire truck with extended ladder near the burning building. A firefighter in full gear is visible on the truck's roof, observing the fire. The scene is illuminated by emergency lights against a dark sky.",
+              "sources": ["E08"]
+            }
+          ],
+          "delete": ["m3", "m4", "m5", "m6", "m7"]
+        },
+        "problems": [],
+        "tokens_after": 92
+      }
+    ],
+    "tokens": 92,
+    "n_lines": 1,
+    "secs": 18.32
+  },
+  {
+    "item_id": "E09",
+    "step": 9,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"A social media photo posted on 2017-09-06 09:22 UTC shows a fire truck with an extended ladder near the burning building, with a firefighter in full gear on the truck's roof, under emergency lights against a dark sky.\",",
+          "      \"sources\": [\"E09\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo posted on 2017-09-06 09:22 UTC shows a fire truck with an extended ladder near the burning building, with a firefighter in full gear on the truck's roof, under emergency lights against a dark sky.",
+              "sources": ["E09"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 177
+      }
+    ],
+    "tokens": 177,
+    "n_lines": 2,
+    "secs": 8.02
+  },
+  {
+    "item_id": "E10",
+    "step": 10,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"A social media photo posted on 2017-09-08 03:41 UTC shows a fire truck with an extended ladder near the burning building, with a firefighter in full gear on the truck's roof, under emergency lights against a dark sky.\",",
+          "      \"sources\": [\"E10\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo posted on 2017-09-08 03:41 UTC shows a fire truck with an extended ladder near the burning building, with a firefighter in full gear on the truck's roof, under emergency lights against a dark sky.",
+              "sources": ["E10"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 263
+      }
+    ],
+    "tokens": 263,
+    "n_lines": 3,
+    "secs": 7.76
+  }
+]

@@ -1,0 +1,175 @@
+{
+  "node_id": 3,
+  "parent_id": 1,
+  "dataset": "disastervqa",
+  "eval_stream": "len10",
+  "budget": 512,
+  "strategy_id": "2772277385c2",
+  "harness_id": "ee0df5be1227",
+  "switches": {
+    "memory_strategy": "dynamic",
+    "meta_harness": "dynamic"
+  },
+  "created_by": {
+    "kind": "meta",
+    "harness_rationale": "Revised strategy improves upon base version through:\n1) Quantified similarity metrics enabling more precise redundancy filtering\n2) Spatial awareness via geohashing crucial for environmental disaster analysis\n3) Synthetic narrative creation allowing cross-event inference capabilities\n4) Structured eviction protocol preventing catastrophic loss scenarios\n5) Audit trail maintenance despite compression requirements\nThese changes directly address evaluation weaknesses observed in prior tests (particularly spatial reasoning failures and missing temporal connections) while maintaining strict token limits through systematic quality-based pruning.",
+    "strategy_rationale": "This strategy emerged from iterative evaluation revealing frequent failure modes in handling overlapping disaster reports. By explicitly encoding spatiotemporal proximity rules we reduce false positives in duplication detection particularly important for geographically dispersed incidents. Composite narrative generation enables efficient representation of evolving scenarios within fixed token budgets addressing the challenge of representing complex disaster trajectories. Three-stage pruning ensures maximum information density while maintaining retrieval reliability. Provenance chaining addresses audit requirements identified in downstream validation tests without imposing significant computational overhead. Thresholds were calibrated based on empirical analysis of common disaster documentation patterns observed across multiple test streams.",
+    "changes": [
+      "1. Added explicit spatiotemporal proximity parameters (<5km/hours gap) missing in initial version",
+      "2. Enhanced duplicate detection with dual lexical/semantic thresholds providing finer-grained redundancy control",
+      "3. Formalized composite narrative construction methodology for synthesized memory units",
+      "4. Implemented token-aware phased pruning algorithm with defined eviction priority tiers",
+      "5. Strengthened provenance tracking mechanism through formal linkage specification",
+      "6. Integrated adaptive element prioritization framework balancing recency vs importance factors",
+      "7. Optimized memory structure using graph-based organization improving retrieval efficiency",
+      "8. Added explicit mention of metadata preservation strategies crucial for factual accuracy"
+    ],
+    "harness_parsed": true,
+    "strategy_parsed": true,
+    "meta_seed": 3000
+  },
+  "scores": {
+    "esqa_mean": 0.08,
+    "correct_count": "2/25",
+    "retention_final": 0.28,
+    "abstained": 0.36,
+    "budget_fallbacks": 5,
+    "categories": {
+      "invalid_citation": 8,
+      "abstained_evidence_missing": 7,
+      "wrong_answer_evidence_missing": 3,
+      "correct": 2,
+      "unnecessary_abstention": 2,
+      "wrong_answer_evidence_in_memory": 3
+    },
+    "streams": {
+      "dvqa-hurricane-len10-010": {
+        "esqa_mean": 0.0,
+        "answered_correct": 0.4,
+        "abstained": 0.4,
+        "correct_count": "0/5",
+        "retention_final": 0.0,
+        "categories": {
+          "invalid_citation": 2,
+          "abstained_evidence_missing": 2,
+          "wrong_answer_evidence_missing": 1
+        },
+        "budget_fallbacks": 1,
+        "final_memory_tokens": 286,
+        "final_memory_lines": 3,
+        "n_questions": 5,
+        "n_items": 10
+      },
+      "dvqa-flood-len10-024": {
+        "esqa_mean": 0.2,
+        "answered_correct": 0.4,
+        "abstained": 0.2,
+        "correct_count": "1/5",
+        "retention_final": 0.8,
+        "categories": {
+          "correct": 1,
+          "invalid_citation": 1,
+          "unnecessary_abstention": 1,
+          "wrong_answer_evidence_in_memory": 2
+        },
+        "budget_fallbacks": 1,
+        "final_memory_tokens": 461,
+        "final_memory_lines": 4,
+        "n_questions": 5,
+        "n_items": 10
+      },
+      "dvqa-earthquake-len10-054": {
+        "esqa_mean": 0.0,
+        "answered_correct": 0.2,
+        "abstained": 0.4,
+        "correct_count": "0/5",
+        "retention_final": 0.4,
+        "categories": {
+          "abstained_evidence_missing": 1,
+          "invalid_citation": 1,
+          "wrong_answer_evidence_missing": 1,
+          "unnecessary_abstention": 1,
+          "wrong_answer_evidence_in_memory": 1
+        },
+        "budget_fallbacks": 1,
+        "final_memory_tokens": 495,
+        "final_memory_lines": 3,
+        "n_questions": 5,
+        "n_items": 10
+      },
+      "dvqa-wildfire-len10-064": {
+        "esqa_mean": 0.2,
+        "answered_correct": 0.8,
+        "abstained": 0.2,
+        "correct_count": "1/5",
+        "retention_final": 0.2,
+        "categories": {
+          "invalid_citation": 3,
+          "abstained_evidence_missing": 1,
+          "correct": 1
+        },
+        "budget_fallbacks": 1,
+        "final_memory_tokens": 460,
+        "final_memory_lines": 5,
+        "n_questions": 5,
+        "n_items": 10
+      },
+      "dvqa-fire-len10-066": {
+        "esqa_mean": 0.0,
+        "answered_correct": 0.2,
+        "abstained": 0.6,
+        "correct_count": "0/5",
+        "retention_final": 0.0,
+        "categories": {
+          "wrong_answer_evidence_missing": 1,
+          "abstained_evidence_missing": 3,
+          "invalid_citation": 1
+        },
+        "budget_fallbacks": 1,
+        "final_memory_tokens": 263,
+        "final_memory_lines": 3,
+        "n_questions": 5,
+        "n_items": 10
+      }
+    }
+  },
+  "models": {
+    "memory_agent": "nemotron-12b-vl",
+    "meta_agent": "nemotron-12b-vl",
+    "answering_agent": "qwen2-vl-7b",
+    "evaluator": "qwen2-vl-7b",
+    "profile": "minimal",
+    "prompts": {
+      "memory/frame_minimal.txt": "c38af5be727b",
+      "meta/frames/harness_update_minimal.txt": "3d742a993eff",
+      "meta/frames/strategy_update_minimal.txt": "ff236306ed78",
+      "answering/prompt.txt": "27ea786833a0",
+      "judge/answer.txt": "62f39b3e1b14",
+      "judge/evidence.txt": "48a317919cb6"
+    },
+    "experiment": {
+      "profile": "minimal",
+      "budget": 512,
+      "memory_strategy": "dynamic",
+      "meta_harness": "dynamic",
+      "parent_selection": "best",
+      "iterations": 5,
+      "stream_selection": "stratified",
+      "selection_seed": 0,
+      "streams": [],
+      "stream_length": 10,
+      "n_streams": 5,
+      "experiment": "short5",
+      "dataset": "disastervqa",
+      "config": "/home/blahb/Projects/Agents282/configs/experiments/disastervqa.yaml"
+    }
+  },
+  "stream_length": 10,
+  "eval_streams": [
+    "dvqa-hurricane-len10-010",
+    "dvqa-flood-len10-024",
+    "dvqa-earthquake-len10-054",
+    "dvqa-wildfire-len10-064",
+    "dvqa-fire-len10-066"
+  ]
+}

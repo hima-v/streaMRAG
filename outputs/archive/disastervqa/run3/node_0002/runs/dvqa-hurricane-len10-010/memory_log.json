@@ -1,0 +1,491 @@
+[
+  {
+    "item_id": "E01",
+    "step": 1,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Aerial view of a flooded area with submerged vehicles, buildings, and trees. Water level is high, covering roads and structures. No visible people or movement. Location details not specified.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Aerial view of a flooded area with submerged vehicles, buildings, and trees. Water level is high, covering roads and structures. No visible people or movement. Location details not specified.",
+              "sources": ["E01"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 64
+      }
+    ],
+    "tokens": 64,
+    "n_lines": 1,
+    "secs": 6.49
+  },
+  {
+    "item_id": "E02",
+    "step": 2,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo (Twitter) showing a flooded area with submerged vehicles, buildings, and trees. Water level is high, covering roads and structures. No visible people or movement. Location details not specified.\",",
+          "      \"sources\": [\"E02\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"Aerial view of a flooded area with submerged vehicles, buildings, and trees. Water level is high, covering roads and structures. No visible people or movement. Location details not specified. Social media photo (Twitter) posted 2017-09-19 16:51 UTC corroborates the scene.\",",
+          "      \"sources\": [\"E01\", \"E02\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo (Twitter) showing a flooded area with submerged vehicles, buildings, and trees. Water level is high, covering roads and structures. No visible people or movement. Location details not specified.",
+              "sources": ["E02"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Aerial view of a flooded area with submerged vehicles, buildings, and trees. Water level is high, covering roads and structures. No visible people or movement. Location details not specified. Social media photo (Twitter) posted 2017-09-19 16:51 UTC corroborates the scene.",
+              "sources": ["E01", "E02"]
+            }
+          ],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 183
+      }
+    ],
+    "tokens": 183,
+    "n_lines": 2,
+    "secs": 13.4
+  },
+  {
+    "item_id": "E03",
+    "step": 3,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo (Twitter) posted 2017-09-19 17:03 UTC corroborates the scene.\",",
+          "      \"sources\": [\"E03\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"Aerial view of a flooded area with submerged vehicles, buildings, and trees. Water level is high, covering roads and structures. No visible people or movement. Location details not specified. Social media photo (Twitter) posted 2017-09-19 16:51 UTC corroborates the scene. Social media photo (Twitter) posted 2017-09-19 17:03 UTC corroborates the scene.\",",
+          "      \"sources\": [\"E01\", \"E03\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": [\"m2\"]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo (Twitter) posted 2017-09-19 17:03 UTC corroborates the scene.",
+              "sources": ["E03"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Aerial view of a flooded area with submerged vehicles, buildings, and trees. Water level is high, covering roads and structures. No visible people or movement. Location details not specified. Social media photo (Twitter) posted 2017-09-19 16:51 UTC corroborates the scene. Social media photo (Twitter) posted 2017-09-19 17:03 UTC corroborates the scene.",
+              "sources": ["E01", "E03"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": [],
+        "tokens_after": 225
+      }
+    ],
+    "tokens": 225,
+    "n_lines": 2,
+    "secs": 15.64
+  },
+  {
+    "item_id": "E04",
+    "step": 4,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo (Twitter) posted 2017-09-19 18:03 UTC corroborates the scene.\",",
+          "      \"sources\": [\"E04\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"Aerial view of a flooded area with submerged vehicles, buildings, and trees. Water level is high, covering roads and structures. No visible people or movement. Location details not specified. Social media photo (Twitter) posted 2017-09-19 16:51 UTC corroborates the scene. Social media photo (Twitter) posted 2017-09-19 17:03 UTC corroborates the scene. Social media photo (Twitter) posted 2017-09-19 18:03 UTC corroborates the scene.\",",
+          "      \"sources\": [\"E01\", \"E03\", \"E04\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": [\"m2\"]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo (Twitter) posted 2017-09-19 18:03 UTC corroborates the scene.",
+              "sources": ["E04"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Aerial view of a flooded area with submerged vehicles, buildings, and trees. Water level is high, covering roads and structures. No visible people or movement. Location details not specified. Social media photo (Twitter) posted 2017-09-19 16:51 UTC corroborates the scene. Social media photo (Twitter) posted 2017-09-19 17:03 UTC corroborates the scene. Social media photo (Twitter) posted 2017-09-19 18:03 UTC corroborates the scene.",
+              "sources": ["E01", "E03", "E04"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 334
+      }
+    ],
+    "tokens": 334,
+    "n_lines": 3,
+    "secs": 17.99
+  },
+  {
+    "item_id": "E05",
+    "step": 5,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo (Twitter) posted 2017-09-19 18:05 UTC corroborates the scene.\",",
+          "      \"sources\": [\"E05\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"Aerial view of a flooded area with submerged vehicles, buildings, and trees. Water level is high, covering roads and structures. No visible people or movement. Location details not specified. Social media photo (Twitter) posted 2017-09-19 16:51 UTC corroborates the scene. Social media photo (Twitter) posted 2017-09-19 17:03 UTC corroborates the scene. Social media photo (Twitter) posted 2017-09-19 18:03 UTC corroborates the scene. Social media photo (Twitter) posted 2017-09-19 18:05 UTC corroborates the scene.\",",
+          "      \"sources\": [\"E01\", \"E05\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": [\"m2\"]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo (Twitter) posted 2017-09-19 18:05 UTC corroborates the scene.",
+              "sources": ["E05"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Aerial view of a flooded area with submerged vehicles, buildings, and trees. Water level is high, covering roads and structures. No visible people or movement. Location details not specified. Social media photo (Twitter) posted 2017-09-19 16:51 UTC corroborates the scene. Social media photo (Twitter) posted 2017-09-19 17:03 UTC corroborates the scene. Social media photo (Twitter) posted 2017-09-19 18:03 UTC corroborates the scene. Social media photo (Twitter) posted 2017-09-19 18:05 UTC corroborates the scene.",
+              "sources": ["E01", "E05"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 443
+      }
+    ],
+    "tokens": 443,
+    "n_lines": 4,
+    "secs": 20.79
+  },
+  {
+    "item_id": "E06",
+    "step": 6,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo (Twitter) posted 2017-09-19 18:16 UTC corroborates the scene.\",",
+          "      \"sources\": [\"E06\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"Aerial view of a flooded area with submerged vehicles, buildings, and trees. Water level is high, covering roads and structures. No visible people or movement. Location details not specified. Social media photo (Twitter) posted 2017-09-19 16:51 UTC corroborates the scene. Social media photo (Twitter) posted 2017-09-19 17:03 UTC corroborates the scene. Social media photo (Twitter) posted 2017-09-19 18:03 UTC corroborates the scene. Social media photo (Twitter) posted 2017-09-19 18:05 UTC corroborates the scene. Social media photo (Twitter) posted 2017-09-19 18:16 UTC corroborates the scene.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo (Twitter) posted 2017-09-19 18:16 UTC corroborates the scene.",
+              "sources": ["E06"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Aerial view of a flooded area with submerged vehicles, buildings, and trees. Water level is high, covering roads and structures. No visible people or movement. Location details not specified. Social media photo (Twitter) posted 2017-09-19 16:51 UTC corroborates the scene. Social media photo (Twitter) posted 2017-09-19 17:03 UTC corroborates the scene. Social media photo (Twitter) posted 2017-09-19 18:03 UTC corroborates the scene. Social media photo (Twitter) posted 2017-09-19 18:05 UTC corroborates the scene. Social media photo (Twitter) posted 2017-09-19 18:16 UTC corroborates the scene.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 530
+      },
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo (Twitter) posted 2017-09-19 18:16 UTC corroborates the scene.\",",
+          "      \"sources\": [\"E06\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"Aerial view of a flooded area with submerged vehicles, buildings, and trees. Water level is high, covering roads and structures. No visible people or movement. Location details not specified. Social media photo (Twitter) posted 2017-09-19 16:51 UTC corroborates the scene. Social media photo (Twitter) posted 2017-09-19 17:03 UTC corroborates the scene. Social media photo (Twitter) posted 2017-09-19 18:03 UTC corroborates the scene. Social media photo (Twitter) posted 2017-09-19 18:05 UTC corroborates the scene. Social media photo (Twitter) posted 2017-09-19 18:16 UTC corroborates the scene.\",",
+          "      \"sources\": [\"E01\", \"E06\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": [\"m2\"]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo (Twitter) posted 2017-09-19 18:16 UTC corroborates the scene.",
+              "sources": ["E06"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Aerial view of a flooded area with submerged vehicles, buildings, and trees. Water level is high, covering roads and structures. No visible people or movement. Location details not specified. Social media photo (Twitter) posted 2017-09-19 16:51 UTC corroborates the scene. Social media photo (Twitter) posted 2017-09-19 17:03 UTC corroborates the scene. Social media photo (Twitter) posted 2017-09-19 18:03 UTC corroborates the scene. Social media photo (Twitter) posted 2017-09-19 18:05 UTC corroborates the scene. Social media photo (Twitter) posted 2017-09-19 18:16 UTC corroborates the scene.",
+              "sources": ["E01", "E06"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 552
+      }
+    ],
+    "fallback": "budget_evict_oldest",
+    "evicted": [
+      {
+        "id": "m1",
+        "text": "Aerial view of a flooded area with submerged vehicles, buildings, and trees. Water level is high, covering roads and structures. No visible people or movement. Location details not specified. Social media photo (Twitter) posted 2017-09-19 16:51 UTC corroborates the scene. Social media photo (Twitter) posted 2017-09-19 17:03 UTC corroborates the scene. Social media photo (Twitter) posted 2017-09-19 18:03 UTC corroborates the scene. Social media photo (Twitter) posted 2017-09-19 18:05 UTC corroborates the scene. Social media photo (Twitter) posted 2017-09-19 18:16 UTC corroborates the scene.",
+        "sources": ["E01", "E02", "E03", "E04", "E05", "E06"]
+      }
+    ],
+    "tokens": 228,
+    "n_lines": 4,
+    "secs": 45.69
+  },
+  {
+    "item_id": "E07",
+    "step": 7,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo (Twitter) posted 2017-09-19 18:40 UTC corroborates the scene.\",",
+          "      \"sources\": [\"E07\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo (Twitter) posted 2017-09-19 18:40 UTC corroborates the scene.",
+              "sources": ["E07"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 285
+      }
+    ],
+    "tokens": 285,
+    "n_lines": 5,
+    "secs": 6.16
+  },
+  {
+    "item_id": "E08",
+    "step": 8,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo (Twitter) posted 2017-09-19 19:20 UTC corroborates the scene.\",",
+          "      \"sources\": [\"E08\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo (Twitter) posted 2017-09-19 19:20 UTC corroborates the scene.",
+              "sources": ["E08"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 342
+      }
+    ],
+    "tokens": 342,
+    "n_lines": 6,
+    "secs": 6.15
+  },
+  {
+    "item_id": "E09",
+    "step": 9,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo (Twitter) posted 2017-09-19 19:51 UTC corroborates the scene.\",",
+          "      \"sources\": [\"E09\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo (Twitter) posted 2017-09-19 19:51 UTC corroborates the scene.",
+              "sources": ["E09"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 399
+      }
+    ],
+    "tokens": 399,
+    "n_lines": 7,
+    "secs": 5.67
+  },
+  {
+    "item_id": "E10",
+    "step": 10,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo (Twitter) posted 2017-09-19 20:20 UTC corroborates the scene.\",",
+          "      \"sources\": [\"E10\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo (Twitter) posted 2017-09-19 20:20 UTC corroborates the scene.",
+              "sources": ["E10"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 457
+      }
+    ],
+    "tokens": 457,
+    "n_lines": 8,
+    "secs": 6.16
+  }
+]

@@ -1,0 +1,542 @@
+[
+  {
+    "item_id": "E01",
+    "step": 1,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Aerial view of a flooded area with submerged vehicles, buildings, and trees. Water level is high, covering roads and structures. No visible people or emergency response. Timestamp: 2017-09-19 16:33 UTC.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Aerial view of a flooded area with submerged vehicles, buildings, and trees. Water level is high, covering roads and structures. No visible people or emergency response. Timestamp: 2017-09-19 16:33 UTC.",
+              "sources": ["E01"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 81
+      }
+    ],
+    "tokens": 81,
+    "n_lines": 1,
+    "secs": 8.73
+  },
+  {
+    "item_id": "E02",
+    "step": 2,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Aerial view of a flooded area with submerged vehicles, buildings, and trees. Water level is high, covering roads and structures. No visible people or emergency response. Timestamp: 2017-09-19 16:33 UTC.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"Aerial view of a flooded area with submerged vehicles, buildings, and trees. Water level is high, covering roads and structures. No visible people or emergency response. Timestamp: 2017-09-19 16:33 UTC.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Aerial view of a flooded area with submerged vehicles, buildings, and trees. Water level is high, covering roads and structures. No visible people or emergency response. Timestamp: 2017-09-19 16:33 UTC.",
+              "sources": ["E01"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Aerial view of a flooded area with submerged vehicles, buildings, and trees. Water level is high, covering roads and structures. No visible people or emergency response. Timestamp: 2017-09-19 16:33 UTC.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 162
+      }
+    ],
+    "tokens": 162,
+    "n_lines": 2,
+    "secs": 13.76
+  },
+  {
+    "item_id": "E03",
+    "step": 3,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo (Twitter) posted 2017-09-19 17:03 UTC showing a flooded residential area with submerged vehicles and buildings. Water covers roads and yards, with no visible emergency response. Timestamp: 2017-09-19 17:03 UTC.\",",
+          "      \"sources\": [\"E03\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"Aerial view of a flooded area with submerged vehicles, buildings, and trees. Water level is high, covering roads and structures. No visible people or emergency response. Timestamp: 2017-09-19 16:33 UTC.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": [\"m2\"]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo (Twitter) posted 2017-09-19 17:03 UTC showing a flooded residential area with submerged vehicles and buildings. Water covers roads and yards, with no visible emergency response. Timestamp: 2017-09-19 17:03 UTC.",
+              "sources": ["E03"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Aerial view of a flooded area with submerged vehicles, buildings, and trees. Water level is high, covering roads and structures. No visible people or emergency response. Timestamp: 2017-09-19 16:33 UTC.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": [],
+        "tokens_after": 177
+      }
+    ],
+    "tokens": 177,
+    "n_lines": 2,
+    "secs": 14.87
+  },
+  {
+    "item_id": "E04",
+    "step": 4,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo (Twitter) posted 2017-09-19 18:03 UTC showing a flooded residential area with submerged vehicles and buildings. Water covers roads and yards, with no visible emergency response. Timestamp: 2017-09-19 18:03 UTC.\",",
+          "      \"sources\": [\"E04\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"Aerial view of a flooded area with submerged vehicles, buildings, and trees. Water level is high, covering roads and structures. No visible people or emergency response. Timestamp: 2017-09-19 16:33 UTC.\",",
+          "      \"sources\": [\"E01\"]",
+          "    },",
+          "    {",
+          "      \"id\": \"m3\",",
+          "      \"text\": \"Social media photo (Twitter) posted 2017-09-19 17:03 UTC showing a flooded residential area with submerged vehicles and buildings. Water covers roads and yards, with no visible emergency response. Timestamp: 2017-09-19 17:03 UTC.\",",
+          "      \"sources\": [\"E03\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": [\"m2\"]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo (Twitter) posted 2017-09-19 18:03 UTC showing a flooded residential area with submerged vehicles and buildings. Water covers roads and yards, with no visible emergency response. Timestamp: 2017-09-19 18:03 UTC.",
+              "sources": ["E04"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Aerial view of a flooded area with submerged vehicles, buildings, and trees. Water level is high, covering roads and structures. No visible people or emergency response. Timestamp: 2017-09-19 16:33 UTC.",
+              "sources": ["E01"]
+            },
+            {
+              "id": "m3",
+              "text": "Social media photo (Twitter) posted 2017-09-19 17:03 UTC showing a flooded residential area with submerged vehicles and buildings. Water covers roads and yards, with no visible emergency response. Timestamp: 2017-09-19 17:03 UTC.",
+              "sources": ["E03"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 273
+      }
+    ],
+    "tokens": 273,
+    "n_lines": 3,
+    "secs": 21.55
+  },
+  {
+    "item_id": "E05",
+    "step": 5,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo (Twitter) posted 2017-09-19 18:05 UTC showing a flooded residential area with submerged vehicles and buildings. Water covers roads and yards, with no visible emergency response. Timestamp: 2017-09-19 18:05 UTC.\",",
+          "      \"sources\": [\"E05\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"Aerial view of a flooded area with submerged vehicles, buildings, and trees. Water level is high, covering roads and structures. No visible people or emergency response. Timestamp: 2017-09-19 16:33 UTC.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": [\"m2\"]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo (Twitter) posted 2017-09-19 18:05 UTC showing a flooded residential area with submerged vehicles and buildings. Water covers roads and yards, with no visible emergency response. Timestamp: 2017-09-19 18:05 UTC.",
+              "sources": ["E05"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Aerial view of a flooded area with submerged vehicles, buildings, and trees. Water level is high, covering roads and structures. No visible people or emergency response. Timestamp: 2017-09-19 16:33 UTC.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 369
+      }
+    ],
+    "tokens": 369,
+    "n_lines": 4,
+    "secs": 16.44
+  },
+  {
+    "item_id": "E06",
+    "step": 6,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo (Twitter) posted 2017-09-19 18:16 UTC showing a flooded residential area with submerged vehicles and buildings. Water covers roads and yards, with no visible emergency response. Timestamp: 2017-09-19 18:16 UTC.\",",
+          "      \"sources\": [\"E06\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"Aerial view of a flooded area with submerged vehicles, buildings, and trees. Water level is high, covering roads and structures. No visible people or emergency response. Timestamp: 2017-09-19 16:33 UTC.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": [\"m2\"]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo (Twitter) posted 2017-09-19 18:16 UTC showing a flooded residential area with submerged vehicles and buildings. Water covers roads and yards, with no visible emergency response. Timestamp: 2017-09-19 18:16 UTC.",
+              "sources": ["E06"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Aerial view of a flooded area with submerged vehicles, buildings, and trees. Water level is high, covering roads and structures. No visible people or emergency response. Timestamp: 2017-09-19 16:33 UTC.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 465
+      }
+    ],
+    "tokens": 465,
+    "n_lines": 5,
+    "secs": 15.85
+  },
+  {
+    "item_id": "E07",
+    "step": 7,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo (Twitter) posted 2017-09-19 18:40 UTC showing a flooded residential area with submerged vehicles and buildings. Water covers roads and yards, with no visible emergency response. Timestamp: 2017-09-19 18:40 UTC.\",",
+          "      \"sources\": [\"E07\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"Aerial view of a flooded area with submerged vehicles, buildings, and trees. Water level is high, covering roads and structures. No visible people or emergency response. Timestamp: 2017-09-19 16:33 UTC.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": [\"m2\"]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo (Twitter) posted 2017-09-19 18:40 UTC showing a flooded residential area with submerged vehicles and buildings. Water covers roads and yards, with no visible emergency response. Timestamp: 2017-09-19 18:40 UTC.",
+              "sources": ["E07"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Aerial view of a flooded area with submerged vehicles, buildings, and trees. Water level is high, covering roads and structures. No visible people or emergency response. Timestamp: 2017-09-19 16:33 UTC.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 561
+      },
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo (Twitter) posted 2017-09-19 18:40 UTC showing a flooded residential area with submerged vehicles and buildings. Water covers roads and yards, with no visible emergency response. Timestamp: 2017-09-19 18:40 UTC.\",",
+          "      \"sources\": [\"E07\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"Aerial view of a flooded area with submerged vehicles, buildings, and trees. Water level is high, covering roads and structures. No visible people or emergency response. Timestamp: 2017-09-19 16:33 UTC.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": [\"m2\"]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo (Twitter) posted 2017-09-19 18:40 UTC showing a flooded residential area with submerged vehicles and buildings. Water covers roads and yards, with no visible emergency response. Timestamp: 2017-09-19 18:40 UTC.",
+              "sources": ["E07"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Aerial view of a flooded area with submerged vehicles, buildings, and trees. Water level is high, covering roads and structures. No visible people or emergency response. Timestamp: 2017-09-19 16:33 UTC.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 561
+      }
+    ],
+    "fallback": "budget_evict_oldest",
+    "evicted": [
+      {
+        "id": "m1",
+        "text": "Aerial view of a flooded area with submerged vehicles, buildings, and trees. Water level is high, covering roads and structures. No visible people or emergency response. Timestamp: 2017-09-19 16:33 UTC.",
+        "sources": ["E01"]
+      }
+    ],
+    "tokens": 480,
+    "n_lines": 5,
+    "secs": 30.11
+  },
+  {
+    "item_id": "E08",
+    "step": 8,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo (Twitter) posted 2017-09-19 19:20 UTC showing a flooded residential area with submerged vehicles and buildings. Water covers roads and yards, with no visible emergency response. Timestamp: 2017-09-19 19:20 UTC.\",",
+          "      \"sources\": [\"E08\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo (Twitter) posted 2017-09-19 19:20 UTC showing a flooded residential area with submerged vehicles and buildings. Water covers roads and yards, with no visible emergency response. Timestamp: 2017-09-19 19:20 UTC.",
+              "sources": ["E08"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 576
+      },
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo (Twitter) posted 2017-09-19 19:20 UTC showing a flooded residential area with submerged vehicles and buildings. Water covers roads and yards, with no visible emergency response. Timestamp: 2017-09-19 19:20 UTC.\",",
+          "      \"sources\": [\"E08\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [],",
+          "  \"delete\": [\"m4\", \"m5\", \"m6\", \"m7\"]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo (Twitter) posted 2017-09-19 19:20 UTC showing a flooded residential area with submerged vehicles and buildings. Water covers roads and yards, with no visible emergency response. Timestamp: 2017-09-19 19:20 UTC.",
+              "sources": ["E08"]
+            }
+          ],
+          "update": [],
+          "delete": ["m4", "m5", "m6", "m7"]
+        },
+        "problems": [],
+        "tokens_after": 192
+      }
+    ],
+    "tokens": 192,
+    "n_lines": 2,
+    "secs": 19.07
+  },
+  {
+    "item_id": "E09",
+    "step": 9,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo (Twitter) posted 2017-09-19 19:51 UTC showing a flooded residential area with submerged vehicles and buildings. Water covers roads and yards, with no visible emergency response. Timestamp: 2017-09-19 19:51 UTC.\",",
+          "      \"sources\": [\"E09\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo (Twitter) posted 2017-09-19 19:51 UTC showing a flooded residential area with submerged vehicles and buildings. Water covers roads and yards, with no visible emergency response. Timestamp: 2017-09-19 19:51 UTC.",
+              "sources": ["E09"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 288
+      }
+    ],
+    "tokens": 288,
+    "n_lines": 3,
+    "secs": 8.35
+  },
+  {
+    "item_id": "E10",
+    "step": 10,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo (Twitter) posted 2017-09-19 20:20 UTC showing a flooded residential area with submerged vehicles and buildings. Water covers roads and yards, with no visible emergency response. Timestamp: 2017-09-19 20:20 UTC.\",",
+          "      \"sources\": [\"E10\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo (Twitter) posted 2017-09-19 20:20 UTC showing a flooded residential area with submerged vehicles and buildings. Water covers roads and yards, with no visible emergency response. Timestamp: 2017-09-19 20:20 UTC.",
+              "sources": ["E10"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 385
+      }
+    ],
+    "tokens": 385,
+    "n_lines": 4,
+    "secs": 8.81
+  }
+]

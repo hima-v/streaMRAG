@@ -1,0 +1,282 @@
+[
+  {
+    "step": 1,
+    "tokens": 68,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Flooded area with submerged vehicles and collapsed structures. Water level high, trees and shrubs visible. Posted 2015-10-08 23:05 UTC.",
+        "sources": ["E01"]
+      }
+    ]
+  },
+  {
+    "step": 2,
+    "tokens": 168,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Flooded street with submerged vehicles, including a beige van with a yellow stripe. Water level reaches mid-wheel. People and market stalls visible on the right. Overcast sky. Posted 2015-12-03 10:41 UTC.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "Flooded street with submerged vehicles, including a beige van with a yellow stripe. Water level reaches mid-wheel. People and market stalls visible on the right. Overcast sky. Posted 2015-12-03 10:41 UTC.",
+        "sources": ["E02"]
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "tokens": 126,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Flooded street with submerged vehicles, including a beige van with a yellow stripe. Water level reaches mid-wheel. People and market stalls visible on the right. Overcast sky.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "Flooded street with submerged vehicles, including a beige van with a yellow stripe. Water level reaches mid-wheel. People and market stalls visible on the right. Overcast sky.",
+        "sources": ["E03"]
+      }
+    ]
+  },
+  {
+    "step": 4,
+    "tokens": 189,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Flooded street with submerged vehicles, including a beige van with a yellow stripe. Water level reaches mid-wheel. People and market stalls visible on the right. Overcast sky.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "Flooded street with submerged vehicles, including a beige van with a yellow stripe. Water level reaches mid-wheel. People and market stalls visible on the right. Overcast sky.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "Flooded street with submerged vehicles, including a beige van with a yellow stripe. Water level reaches mid-wheel. People and market stalls visible on the right. Overcast sky.",
+        "sources": ["E04"]
+      }
+    ]
+  },
+  {
+    "step": 5,
+    "tokens": 252,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Flooded street with submerged vehicles, including a beige van with a yellow stripe. Water level reaches mid-wheel. People and market stalls visible on the right. Overcast sky.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "Flooded street with submerged vehicles, including a beige van with a yellow stripe. Water level reaches mid-wheel. People and market stalls visible on the right. Overcast sky.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "Flooded street with submerged vehicles, including a beige van with a yellow stripe. Water level reaches mid-wheel. People and market stalls visible on the right. Overcast sky.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "Flooded street with submerged vehicles, including a beige van with a yellow stripe. Water level reaches mid-wheel. People and market stalls visible on the right. Overcast sky.",
+        "sources": ["E05"]
+      }
+    ]
+  },
+  {
+    "step": 6,
+    "tokens": 315,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Flooded street with submerged vehicles, including a beige van with a yellow stripe. Water level reaches mid-wheel. People and market stalls visible on the right. Overcast sky.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "Flooded street with submerged vehicles, including a beige van with a yellow stripe. Water level reaches mid-wheel. People and market stalls visible on the right. Overcast sky.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "Flooded street with submerged vehicles, including a beige van with a yellow stripe. Water level reaches mid-wheel. People and market stalls visible on the right. Overcast sky.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "Flooded street with submerged vehicles, including a beige van with a yellow stripe. Water level reaches mid-wheel. People and market stalls visible on the right. Overcast sky.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "Flooded street with submerged vehicles, including a beige van with a yellow stripe. Water level reaches mid-wheel. People and market stalls visible on the right. Overcast sky.",
+        "sources": ["E06"]
+      }
+    ]
+  },
+  {
+    "step": 7,
+    "tokens": 378,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Flooded street with submerged vehicles, including a beige van with a yellow stripe. Water level reaches mid-wheel. People and market stalls visible on the right. Overcast sky.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "Flooded street with submerged vehicles, including a beige van with a yellow stripe. Water level reaches mid-wheel. People and market stalls visible on the right. Overcast sky.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "Flooded street with submerged vehicles, including a beige van with a yellow stripe. Water level reaches mid-wheel. People and market stalls visible on the right. Overcast sky.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "Flooded street with submerged vehicles, including a beige van with a yellow stripe. Water level reaches mid-wheel. People and market stalls visible on the right. Overcast sky.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "Flooded street with submerged vehicles, including a beige van with a yellow stripe. Water level reaches mid-wheel. People and market stalls visible on the right. Overcast sky.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "Flooded street with submerged vehicles, including a beige van with a yellow stripe. Water level reaches mid-wheel. People and market stalls visible on the right. Overcast sky.",
+        "sources": ["E07"]
+      }
+    ]
+  },
+  {
+    "step": 8,
+    "tokens": 457,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Flooded street with submerged vehicles, including a beige van with a yellow stripe. Water level reaches mid-wheel. People and market stalls visible on the right. Overcast sky.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "Flooded street with submerged vehicles, including a beige van with a yellow stripe. Water level reaches mid-wheel. People and market stalls visible on the right. Overcast sky.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "Flooded street with submerged vehicles, including a beige van with a yellow stripe. Water level reaches mid-wheel. People and market stalls visible on the right. Overcast sky.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "Flooded street with submerged vehicles, including a beige van with a yellow stripe. Water level reaches mid-wheel. People and market stalls visible on the right. Overcast sky.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "Flooded street with submerged vehicles, including a beige van with a yellow stripe. Water level reaches mid-wheel. People and market stalls visible on the right. Overcast sky.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "Flooded street with submerged vehicles, including a beige van with a yellow stripe. Water level reaches mid-wheel. People and market stalls visible on the right. Overcast sky.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "Flooded train station with submerged tracks and trains. Water level reaches mid-rail. Overcast sky. Multiple trains visible, including a blue and white train on the left and several others on parallel tracks. Debris and vegetation in water. No people visible.",
+        "sources": ["E08"]
+      }
+    ]
+  },
+  {
+    "step": 9,
+    "tokens": 457,
+    "lines": [
+      {
+        "id": "m3",
+        "text": "Flooded street with submerged vehicles, including a beige van with a yellow stripe. Water level reaches mid-wheel. People and market stalls visible on the right. Overcast sky.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "Flooded street with submerged vehicles, including a beige van with a yellow stripe. Water level reaches mid-wheel. People and market stalls visible on the right. Overcast sky.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "Flooded street with submerged vehicles, including a beige van with a yellow stripe. Water level reaches mid-wheel. People and market stalls visible on the right. Overcast sky.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "Flooded street with submerged vehicles, including a beige van with a yellow stripe. Water level reaches mid-wheel. People and market stalls visible on the right. Overcast sky.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "Flooded street with submerged vehicles, including a beige van with a yellow stripe. Water level reaches mid-wheel. People and market stalls visible on the right. Overcast sky.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "Flooded train station with submerged tracks and trains. Water level reaches mid-rail. Overcast sky. Multiple trains visible, including a blue and white train on the left and several others on parallel tracks. Debris and vegetation in water. No people visible.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "Flooded street with submerged vehicles, including a beige van with a yellow stripe. Water level reaches mid-wheel. People and market stalls visible on the right. Overcast sky.",
+        "sources": ["E09"]
+      }
+    ]
+  },
+  {
+    "step": 10,
+    "tokens": 458,
+    "lines": [
+      {
+        "id": "m4",
+        "text": "Flooded street with submerged vehicles, including a beige van with a yellow stripe. Water level reaches mid-wheel. People and market stalls visible on the right. Overcast sky.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "Flooded street with submerged vehicles, including a beige van with a yellow stripe. Water level reaches mid-wheel. People and market stalls visible on the right. Overcast sky.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "Flooded street with submerged vehicles, including a beige van with a yellow stripe. Water level reaches mid-wheel. People and market stalls visible on the right. Overcast sky.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "Flooded street with submerged vehicles, including a beige van with a yellow stripe. Water level reaches mid-wheel. People and market stalls visible on the right. Overcast sky.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "Flooded train station with submerged tracks and trains. Water level reaches mid-rail. Overcast sky. Multiple trains visible, including a blue and white train on the left and several others on parallel tracks. Debris and vegetation in water. No people visible.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "Flooded street with submerged vehicles, including a beige van with a yellow stripe. Water level reaches mid-wheel. People and market stalls visible on the right. Overcast sky.",
+        "sources": ["E09"]
+      },
+      {
+        "id": "m10",
+        "text": "Flooded street with submerged vehicles, including a beige van with a yellow stripe. Water level reaches mid-wheel. People and market stalls visible on the right. Overcast sky.",
+        "sources": ["E10"]
+      }
+    ]
+  }
+]

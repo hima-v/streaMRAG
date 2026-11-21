@@ -1,0 +1,549 @@
+[
+  {
+    "item_id": "E01",
+    "step": 1,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"A collapsed structure with two individuals wearing safety gear (one in a white hard hat, the other in a green vest) working amidst debris. The scene is illuminated by artificial lighting, with visible rebar, concrete fragments, and wooden ladders. Electrical wires are scattered across the area, and the environment appears to be a nighttime disaster zone.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A collapsed structure with two individuals wearing safety gear (one in a white hard hat, the other in a green vest) working amidst debris. The scene is illuminated by artificial lighting, with visible rebar, concrete fragments, and wooden ladders. Electrical wires are scattered across the area, and the environment appears to be a nighttime disaster zone.",
+              "sources": ["E01"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 97
+      }
+    ],
+    "tokens": 97,
+    "n_lines": 1,
+    "secs": 8.91
+  },
+  {
+    "item_id": "E02",
+    "step": 2,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"A black Toyota sedan is partially submerged in a large sinkhole, with a man in a maroon shirt and jeans standing nearby. A police officer in a black uniform is directing traffic, and another individual in a yellow safety vest is inspecting the area. The scene is outdoors, with a concrete structure featuring circular patterns in the background.\",",
+          "      \"sources\": [\"E02\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"A collapsed structure with two individuals wearing safety gear (one in a white hard hat, the other in a green vest) working amidst debris. The scene is illuminated by artificial lighting, with visible rebar, concrete fragments, and wooden ladders. Electrical wires are scattered across the area, and the environment appears to be a nighttime disaster zone.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A black Toyota sedan is partially submerged in a large sinkhole, with a man in a maroon shirt and jeans standing nearby. A police officer in a black uniform is directing traffic, and another individual in a yellow safety vest is inspecting the area. The scene is outdoors, with a concrete structure featuring circular patterns in the background.",
+              "sources": ["E02"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A collapsed structure with two individuals wearing safety gear (one in a white hard hat, the other in a green vest) working amidst debris. The scene is illuminated by artificial lighting, with visible rebar, concrete fragments, and wooden ladders. Electrical wires are scattered across the area, and the environment appears to be a nighttime disaster zone.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 191
+      }
+    ],
+    "tokens": 191,
+    "n_lines": 2,
+    "secs": 17.27
+  },
+  {
+    "item_id": "E03",
+    "step": 3,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"A social media photo (Twitter) posted 2017-09-21 06:18 UTC shows a collapsed structure with individuals in safety gear (white hard hats, green vests) working amidst debris. The scene is illuminated by artificial lighting, with visible rebar, concrete fragments, and wooden ladders. Electrical wires are scattered, and the environment appears to be a nighttime disaster zone.\",",
+          "      \"sources\": [\"E03\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"A collapsed structure with two individuals wearing safety gear (one in a white hard hat, the other in a green vest) working amidst debris. The scene is illuminated by artificial lighting, with visible rebar, concrete fragments, and wooden ladders. Electrical wires are scattered across the area, and the environment appears to be a nighttime disaster zone. A social media photo (Twitter) posted 2017-09-21 06:18 UTC corroborates this scene.\",",
+          "      \"sources\": [\"E01\", \"E03\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": [\"m2\"]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo (Twitter) posted 2017-09-21 06:18 UTC shows a collapsed structure with individuals in safety gear (white hard hats, green vests) working amidst debris. The scene is illuminated by artificial lighting, with visible rebar, concrete fragments, and wooden ladders. Electrical wires are scattered, and the environment appears to be a nighttime disaster zone.",
+              "sources": ["E03"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A collapsed structure with two individuals wearing safety gear (one in a white hard hat, the other in a green vest) working amidst debris. The scene is illuminated by artificial lighting, with visible rebar, concrete fragments, and wooden ladders. Electrical wires are scattered across the area, and the environment appears to be a nighttime disaster zone. A social media photo (Twitter) posted 2017-09-21 06:18 UTC corroborates this scene.",
+              "sources": ["E01", "E03"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": [],
+        "tokens_after": 264
+      }
+    ],
+    "tokens": 264,
+    "n_lines": 2,
+    "secs": 19.97
+  },
+  {
+    "item_id": "E04",
+    "step": 4,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"A woman in a white shirt and purple shorts rides a yellow bicycle with a cargo attachment past a collapsed structure, with debris and a partially standing wall in the background. The scene is illuminated by daylight, and trees are visible in the distance.\",",
+          "      \"sources\": [\"E04\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"A collapsed structure with two individuals wearing safety gear (one in a white hard hat, the other in a green vest) working amidst debris. The scene is illuminated by artificial lighting, with visible rebar, concrete fragments, and wooden ladders. Electrical wires are scattered across the area, and the environment appears to be a nighttime disaster zone. A social media photo (Twitter) posted 2017-09-21 06:18 UTC corroborates this scene.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": [\"m2\"]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A woman in a white shirt and purple shorts rides a yellow bicycle with a cargo attachment past a collapsed structure, with debris and a partially standing wall in the background. The scene is illuminated by daylight, and trees are visible in the distance.",
+              "sources": ["E04"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A collapsed structure with two individuals wearing safety gear (one in a white hard hat, the other in a green vest) working amidst debris. The scene is illuminated by artificial lighting, with visible rebar, concrete fragments, and wooden ladders. Electrical wires are scattered across the area, and the environment appears to be a nighttime disaster zone. A social media photo (Twitter) posted 2017-09-21 06:18 UTC corroborates this scene.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 339
+      }
+    ],
+    "tokens": 339,
+    "n_lines": 3,
+    "secs": 17.55
+  },
+  {
+    "item_id": "E05",
+    "step": 5,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"A social media photo (Twitter) posted 2017-09-21 07:14 UTC shows a collapsed structure with individuals in safety gear (white hard hats, green vests) working amidst debris. The scene is illuminated by artificial lighting, with visible rebar, concrete fragments, and wooden ladders. Electrical wires are scattered, and the environment appears to be a nighttime disaster zone.\",",
+          "      \"sources\": [\"E05\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"A collapsed structure with two individuals wearing safety gear (one in a white hard hat, the other in a green vest) working amidst debris. The scene is illuminated by artificial lighting, with visible rebar, concrete fragments, and wooden ladders. Electrical wires are scattered across the area, and the environment appears to be a nighttime disaster zone. A social media photo (Twitter) posted 2017-09-21 06:18 UTC corroborates this scene.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": [\"m2\"]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo (Twitter) posted 2017-09-21 07:14 UTC shows a collapsed structure with individuals in safety gear (white hard hats, green vests) working amidst debris. The scene is illuminated by artificial lighting, with visible rebar, concrete fragments, and wooden ladders. Electrical wires are scattered, and the environment appears to be a nighttime disaster zone.",
+              "sources": ["E05"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A collapsed structure with two individuals wearing safety gear (one in a white hard hat, the other in a green vest) working amidst debris. The scene is illuminated by artificial lighting, with visible rebar, concrete fragments, and wooden ladders. Electrical wires are scattered across the area, and the environment appears to be a nighttime disaster zone. A social media photo (Twitter) posted 2017-09-21 06:18 UTC corroborates this scene.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 453
+      }
+    ],
+    "tokens": 453,
+    "n_lines": 4,
+    "secs": 19.9
+  },
+  {
+    "item_id": "E06",
+    "step": 6,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"A social media photo (Twitter) posted 2017-09-21 07:16 UTC shows a collapsed structure with individuals in safety gear (white hard hats, green vests) working amidst debris. The scene is illuminated by artificial lighting, with visible rebar, concrete fragments, and wooden ladders. Electrical wires are scattered, and the environment appears to be a nighttime disaster zone.\",",
+          "      \"sources\": [\"E06\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"A collapsed structure with two individuals wearing safety gear (one in a white hard hat, the other in a green vest) working amidst debris. The scene is illuminated by artificial lighting, with visible rebar, concrete fragments, and wooden ladders. Electrical wires are scattered across the area, and the environment appears to be a nighttime disaster zone. A social media photo (Twitter) posted 2017-09-21 06:18 UTC corroborates this scene.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": [\"m2\"]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo (Twitter) posted 2017-09-21 07:16 UTC shows a collapsed structure with individuals in safety gear (white hard hats, green vests) working amidst debris. The scene is illuminated by artificial lighting, with visible rebar, concrete fragments, and wooden ladders. Electrical wires are scattered, and the environment appears to be a nighttime disaster zone.",
+              "sources": ["E06"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A collapsed structure with two individuals wearing safety gear (one in a white hard hat, the other in a green vest) working amidst debris. The scene is illuminated by artificial lighting, with visible rebar, concrete fragments, and wooden ladders. Electrical wires are scattered across the area, and the environment appears to be a nighttime disaster zone. A social media photo (Twitter) posted 2017-09-21 06:18 UTC corroborates this scene.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 567
+      },
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"A social media photo (Twitter) posted 2017-09-21 07:16 UTC shows a collapsed structure with individuals in safety gear (white hard hats, green vests) working amidst debris. The scene is illuminated by artificial lighting, with visible rebar, concrete fragments, and wooden ladders. Electrical wires are scattered, and the environment appears to be a nighttime disaster zone.\",",
+          "      \"sources\": [\"E06\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"A collapsed structure with two individuals wearing safety gear (one in a white hard hat, the other in a green vest) working amidst debris. The scene is illuminated by artificial lighting, with visible rebar, concrete fragments, and wooden ladders. Electrical wires are scattered across the area, and the environment appears to be a nighttime disaster zone. A social media photo (Twitter) posted 2017-09-21 06:18 UTC corroborates this scene.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": [\"m2\"]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo (Twitter) posted 2017-09-21 07:16 UTC shows a collapsed structure with individuals in safety gear (white hard hats, green vests) working amidst debris. The scene is illuminated by artificial lighting, with visible rebar, concrete fragments, and wooden ladders. Electrical wires are scattered, and the environment appears to be a nighttime disaster zone.",
+              "sources": ["E06"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A collapsed structure with two individuals wearing safety gear (one in a white hard hat, the other in a green vest) working amidst debris. The scene is illuminated by artificial lighting, with visible rebar, concrete fragments, and wooden ladders. Electrical wires are scattered across the area, and the environment appears to be a nighttime disaster zone. A social media photo (Twitter) posted 2017-09-21 06:18 UTC corroborates this scene.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 567
+      }
+    ],
+    "fallback": "budget_evict_oldest",
+    "evicted": [
+      {
+        "id": "m1",
+        "text": "A collapsed structure with two individuals wearing safety gear (one in a white hard hat, the other in a green vest) working amidst debris. The scene is illuminated by artificial lighting, with visible rebar, concrete fragments, and wooden ladders. Electrical wires are scattered across the area, and the environment appears to be a nighttime disaster zone. A social media photo (Twitter) posted 2017-09-21 06:18 UTC corroborates this scene.",
+        "sources": ["E01", "E03"]
+      }
+    ],
+    "tokens": 417,
+    "n_lines": 4,
+    "secs": 39.03
+  },
+  {
+    "item_id": "E07",
+    "step": 7,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"A social media photo (Twitter) posted 2017-09-21 08:35 UTC shows a collapsed structure with individuals in safety gear (white hard hats, green vests) working amidst debris. The scene is illuminated by artificial lighting, with visible rebar, concrete fragments, and wooden ladders. Electrical wires are scattered, and the environment appears to be a nighttime disaster zone.\",",
+          "      \"sources\": [\"E07\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo (Twitter) posted 2017-09-21 08:35 UTC shows a collapsed structure with individuals in safety gear (white hard hats, green vests) working amidst debris. The scene is illuminated by artificial lighting, with visible rebar, concrete fragments, and wooden ladders. Electrical wires are scattered, and the environment appears to be a nighttime disaster zone.",
+              "sources": ["E07"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 531
+      },
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"A social media photo (Twitter) posted 2017-09-21 08:35 UTC shows a collapsed structure with individuals in safety gear (white hard hats, green vests) working amidst debris. The scene is illuminated by artificial lighting, with visible rebar, concrete fragments, and wooden ladders. Electrical wires are scattered, and the environment appears to be a nighttime disaster zone.\",",
+          "      \"sources\": [\"E07\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [],",
+          "  \"delete\": [\"m5\", \"m6\"]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo (Twitter) posted 2017-09-21 08:35 UTC shows a collapsed structure with individuals in safety gear (white hard hats, green vests) working amidst debris. The scene is illuminated by artificial lighting, with visible rebar, concrete fragments, and wooden ladders. Electrical wires are scattered, and the environment appears to be a nighttime disaster zone.",
+              "sources": ["E07"]
+            }
+          ],
+          "update": [],
+          "delete": ["m5", "m6"]
+        },
+        "problems": [],
+        "tokens_after": 303
+      }
+    ],
+    "tokens": 303,
+    "n_lines": 3,
+    "secs": 20.9
+  },
+  {
+    "item_id": "E08",
+    "step": 8,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"A social media photo (Twitter) posted 2017-09-21 08:44 UTC shows a collapsed structure with individuals in safety gear (white hard hats, green vests) working amidst debris. The scene is illuminated by artificial lighting, with visible rebar, concrete fragments, and wooden ladders. Electrical wires are scattered, and the environment appears to be a nighttime disaster zone.\",",
+          "      \"sources\": [\"E08\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo (Twitter) posted 2017-09-21 08:44 UTC shows a collapsed structure with individuals in safety gear (white hard hats, green vests) working amidst debris. The scene is illuminated by artificial lighting, with visible rebar, concrete fragments, and wooden ladders. Electrical wires are scattered, and the environment appears to be a nighttime disaster zone.",
+              "sources": ["E08"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 417
+      }
+    ],
+    "tokens": 417,
+    "n_lines": 4,
+    "secs": 9.46
+  },
+  {
+    "item_id": "E09",
+    "step": 9,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"A social media photo (Twitter) posted 2017-09-21 10:33 UTC shows a collapsed structure with individuals in safety gear (white hard hats, green vests) working amidst debris. The scene is illuminated by artificial lighting, with visible rebar, concrete fragments, and wooden ladders. Electrical wires are scattered, and the environment appears to be a nighttime disaster zone.\",",
+          "      \"sources\": [\"E09\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo (Twitter) posted 2017-09-21 10:33 UTC shows a collapsed structure with individuals in safety gear (white hard hats, green vests) working amidst debris. The scene is illuminated by artificial lighting, with visible rebar, concrete fragments, and wooden ladders. Electrical wires are scattered, and the environment appears to be a nighttime disaster zone.",
+              "sources": ["E09"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 531
+      },
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"A social media photo (Twitter) posted 2017-09-21 10:33 UTC shows a collapsed structure with individuals in safety gear (white hard hats, green vests) working amidst debris. The scene is illuminated by artificial lighting, with visible rebar, concrete fragments, and wooden ladders. Electrical wires are scattered, and the environment appears to be a nighttime disaster zone.\",",
+          "      \"sources\": [\"E09\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [],",
+          "  \"delete\": [\"m7\", \"m8\"]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo (Twitter) posted 2017-09-21 10:33 UTC shows a collapsed structure with individuals in safety gear (white hard hats, green vests) working amidst debris. The scene is illuminated by artificial lighting, with visible rebar, concrete fragments, and wooden ladders. Electrical wires are scattered, and the environment appears to be a nighttime disaster zone.",
+              "sources": ["E09"]
+            }
+          ],
+          "update": [],
+          "delete": ["m7", "m8"]
+        },
+        "problems": [],
+        "tokens_after": 303
+      }
+    ],
+    "tokens": 303,
+    "n_lines": 3,
+    "secs": 19.92
+  },
+  {
+    "item_id": "E10",
+    "step": 10,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"A social media photo (Twitter) posted 2017-09-21 10:48 UTC shows a collapsed structure with a brown dog navigating debris. Clothing items (red garment, black jacket) and construction materials are scattered. A yellow rope and green foliage are visible in the foreground.\",",
+          "      \"sources\": [\"E10\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo (Twitter) posted 2017-09-21 10:48 UTC shows a collapsed structure with a brown dog navigating debris. Clothing items (red garment, black jacket) and construction materials are scattered. A yellow rope and green foliage are visible in the foreground.",
+              "sources": ["E10"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 397
+      }
+    ],
+    "tokens": 397,
+    "n_lines": 4,
+    "secs": 8.7
+  }
+]

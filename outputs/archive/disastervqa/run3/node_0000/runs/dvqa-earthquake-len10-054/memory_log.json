@@ -1,0 +1,545 @@
+[
+  {
+    "item_id": "E01",
+    "step": 1,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"A social media photo from Twitter, posted on 2017-09-21 at 04:40 UTC, depicting a collapsed building with two individuals in safety gear assessing the damage.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo from Twitter, posted on 2017-09-21 at 04:40 UTC, depicting a collapsed building with two individuals in safety gear assessing the damage.",
+              "sources": ["E01"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 70
+      }
+    ],
+    "tokens": 70,
+    "n_lines": 1,
+    "secs": 7.08
+  },
+  {
+    "item_id": "E02",
+    "step": 2,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"A social media photo from Twitter, posted on 2017-09-21 at 06:02 UTC, showing a black car partially sunk into a large crack in the pavement with several individuals nearby, including a police officer and a person in a safety vest.\",",
+          "      \"sources\": [\"E02\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"A social media photo from Twitter, posted on 2017-09-21 at 04:40 UTC, depicting a collapsed building with two individuals in safety gear assessing the damage. Additionally, a social media photo from Twitter, posted on 2017-09-21 at 06:02 UTC, showing a black car partially sunk into a large crack in the pavement with several individuals nearby, including a police officer and a person in a safety vest.\",",
+          "      \"sources\": [\"E01\", \"E02\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo from Twitter, posted on 2017-09-21 at 06:02 UTC, showing a black car partially sunk into a large crack in the pavement with several individuals nearby, including a police officer and a person in a safety vest.",
+              "sources": ["E02"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo from Twitter, posted on 2017-09-21 at 04:40 UTC, depicting a collapsed building with two individuals in safety gear assessing the damage. Additionally, a social media photo from Twitter, posted on 2017-09-21 at 06:02 UTC, showing a black car partially sunk into a large crack in the pavement with several individuals nearby, including a police officer and a person in a safety vest.",
+              "sources": ["E01", "E02"]
+            }
+          ],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 239
+      }
+    ],
+    "tokens": 239,
+    "n_lines": 2,
+    "secs": 20.73
+  },
+  {
+    "item_id": "E03",
+    "step": 3,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"A social media photo from Twitter, posted on 2017-09-21 at 06:18 UTC, depicting a collapsed building with individuals in safety gear and civilians observing the aftermath.\",",
+          "      \"sources\": [\"E03\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"A social media photo from Twitter, posted on 2017-09-21 at 04:40 UTC, depicting a collapsed building with two individuals in safety gear assessing the damage. Additionally, a social media photo from Twitter, posted on 2017-09-21 at 06:02 UTC, showing a black car partially sunk into a large crack in the pavement with several individuals nearby, including a police officer and a person in a safety vest. A social media photo from Twitter, posted on 2017-09-21 at 06:18 UTC, depicting a collapsed building with individuals in safety gear and civilians observing the aftermath.\",",
+          "      \"sources\": [\"E01\", \"E03\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": [\"m2\"]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo from Twitter, posted on 2017-09-21 at 06:18 UTC, depicting a collapsed building with individuals in safety gear and civilians observing the aftermath.",
+              "sources": ["E03"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo from Twitter, posted on 2017-09-21 at 04:40 UTC, depicting a collapsed building with two individuals in safety gear assessing the damage. Additionally, a social media photo from Twitter, posted on 2017-09-21 at 06:02 UTC, showing a black car partially sunk into a large crack in the pavement with several individuals nearby, including a police officer and a person in a safety vest. A social media photo from Twitter, posted on 2017-09-21 at 06:18 UTC, depicting a collapsed building with individuals in safety gear and civilians observing the aftermath.",
+              "sources": ["E01", "E03"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": [],
+        "tokens_after": 290
+      }
+    ],
+    "tokens": 290,
+    "n_lines": 2,
+    "secs": 22.59
+  },
+  {
+    "item_id": "E04",
+    "step": 4,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"A social media photo from Twitter, posted on 2017-09-21 at 06:50 UTC, depicting a woman riding a yellow bicycle with a cargo attachment through a street with debris from a collapsed building in the background.\",",
+          "      \"sources\": [\"E04\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"A social media photo from Twitter, posted on 2017-09-21 at 04:40 UTC, depicting a collapsed building with two individuals in safety gear assessing the damage. Additionally, a social media photo from Twitter, posted on 2017-09-21 at 06:02 UTC, showing a black car partially sunk into a large crack in the pavement with several individuals nearby, including a police officer and a person in a safety vest. A social media photo from Twitter, posted on 2017-09-21 at 06:18 UTC, depicting a collapsed building with individuals in safety gear and civilians observing the aftermath. A social media photo from Twitter, posted on 2017-09-21 at 06:50 UTC, depicting a woman riding a yellow bicycle with a cargo attachment through a street with debris from a collapsed building in the background.\",",
+          "      \"sources\": [\"E01\", \"E04\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": [\"m2\"]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo from Twitter, posted on 2017-09-21 at 06:50 UTC, depicting a woman riding a yellow bicycle with a cargo attachment through a street with debris from a collapsed building in the background.",
+              "sources": ["E04"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo from Twitter, posted on 2017-09-21 at 04:40 UTC, depicting a collapsed building with two individuals in safety gear assessing the damage. Additionally, a social media photo from Twitter, posted on 2017-09-21 at 06:02 UTC, showing a black car partially sunk into a large crack in the pavement with several individuals nearby, including a police officer and a person in a safety vest. A social media photo from Twitter, posted on 2017-09-21 at 06:18 UTC, depicting a collapsed building with individuals in safety gear and civilians observing the aftermath. A social media photo from Twitter, posted on 2017-09-21 at 06:50 UTC, depicting a woman riding a yellow bicycle with a cargo attachment through a street with debris from a collapsed building in the background.",
+              "sources": ["E01", "E04"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 445
+      }
+    ],
+    "tokens": 445,
+    "n_lines": 3,
+    "secs": 28.28
+  },
+  {
+    "item_id": "E05",
+    "step": 5,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"A social media photo from Twitter, posted on 2017-09-21 at 07:14 UTC, depicting a collapsed building with individuals in safety gear and civilians observing the aftermath.\",",
+          "      \"sources\": [\"E05\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"m1 [src E01 @2017-09-21 04:40 UTC, E02 @2017-09-21 06:02 UTC, E03 @2017-09-21 06:18 UTC, E04 @2017-09-21 06:50 UTC, E05 @2017-09-21 07:14 UTC] A social media photo from Twitter, posted on 2017-09-21 at 04:40 UTC, depicting a collapsed building with two individuals in safety gear assessing the damage. Additionally, a social media photo from Twitter, posted on 2017-09-21 at 06:02 UTC, showing a black car partially sunk into a large crack in the pavement with several individuals nearby, including a police officer and a person in a safety vest. A social media photo from Twitter, posted on 2017-09-21 at 06:18 UTC, depicting a collapsed building with individuals in safety gear and civilians observing the aftermath. A social media photo from Twitter, posted on 2017-09-21 at 06:50 UTC, depicting a woman riding a yellow bicycle with a cargo attachment through a street with"
+        ],
+        "valid_json": true,
+        "edits": {
+          "text": "A social media photo from Twitter, posted on 2017-09-21 at 07:14 UTC, depicting a collapsed building with individuals in safety gear and civilians observing the aftermath.",
+          "sources": ["E05"]
+        },
+        "problems": [],
+        "tokens_after": 445
+      }
+    ],
+    "tokens": 445,
+    "n_lines": 3,
+    "secs": 33.17
+  },
+  {
+    "item_id": "E06",
+    "step": 6,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"A social media photo from Twitter, posted on 2017-09-21 at 07:16 UTC, depicting a collapsed building with individuals in safety gear and civilians observing the aftermath.\",",
+          "      \"sources\": [\"E06\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"A social media photo from Twitter, posted on 2017-09-21 at 04:40 UTC, depicting a collapsed building with two individuals in safety gear assessing the damage. Additionally, a social media photo from Twitter, posted on 2017-09-21 at 06:02 UTC, showing a black car partially sunk into a large crack in the pavement with several individuals nearby, including a police officer and a person in a safety vest. A social media photo from Twitter, posted on 2017-09-21 at 06:18 UTC, depicting a collapsed building with individuals in safety gear and civilians observing the aftermath. A social media photo from Twitter, posted on 2017-09-21 at 06:50 UTC, depicting a woman riding a yellow bicycle with a cargo attachment through a street with debris from a collapsed building in the background. A social media photo from Twitter, posted on 2017-09-21 at 07:16 UTC, depicting a collapsed building with individuals in safety gear and civilians observing the aftermath.\",",
+          "      \"sources\": [\"E01\", \"E06\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": [\"m2\"]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo from Twitter, posted on 2017-09-21 at 07:16 UTC, depicting a collapsed building with individuals in safety gear and civilians observing the aftermath.",
+              "sources": ["E06"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo from Twitter, posted on 2017-09-21 at 04:40 UTC, depicting a collapsed building with two individuals in safety gear assessing the damage. Additionally, a social media photo from Twitter, posted on 2017-09-21 at 06:02 UTC, showing a black car partially sunk into a large crack in the pavement with several individuals nearby, including a police officer and a person in a safety vest. A social media photo from Twitter, posted on 2017-09-21 at 06:18 UTC, depicting a collapsed building with individuals in safety gear and civilians observing the aftermath. A social media photo from Twitter, posted on 2017-09-21 at 06:50 UTC, depicting a woman riding a yellow bicycle with a cargo attachment through a street with debris from a collapsed building in the background. A social media photo from Twitter, posted on 2017-09-21 at 07:16 UTC, depicting a collapsed building with individuals in safety gear and civilians observing the aftermath.",
+              "sources": ["E01", "E06"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 582
+      },
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"A social media photo from Twitter, posted on 2017-09-21 at 07:16 UTC, depicting a collapsed building with individuals in safety gear and civilians observing the aftermath.\",",
+          "      \"sources\": [\"E06\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"A social media photo from Twitter, posted on 2017-09-21 at 04:40 UTC, depicting a collapsed building with two individuals in safety gear assessing the damage. Additionally, a social media photo from Twitter, posted on 2017-09-21 at 06:02 UTC, showing a black car partially sunk into a large crack in the pavement with several individuals nearby, including a police officer and a person in a safety vest. A social media photo from Twitter, posted on 2017-09-21 at 06:18 UTC, depicting a collapsed building with individuals in safety gear and civilians observing the aftermath. A social media photo from Twitter, posted on 2017-09-21 at 06:50 UTC, depicting a woman riding a yellow bicycle with a cargo attachment through a street with debris from a collapsed building in the background.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": [\"m2\"]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo from Twitter, posted on 2017-09-21 at 07:16 UTC, depicting a collapsed building with individuals in safety gear and civilians observing the aftermath.",
+              "sources": ["E06"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo from Twitter, posted on 2017-09-21 at 04:40 UTC, depicting a collapsed building with two individuals in safety gear assessing the damage. Additionally, a social media photo from Twitter, posted on 2017-09-21 at 06:02 UTC, showing a black car partially sunk into a large crack in the pavement with several individuals nearby, including a police officer and a person in a safety vest. A social media photo from Twitter, posted on 2017-09-21 at 06:18 UTC, depicting a collapsed building with individuals in safety gear and civilians observing the aftermath. A social media photo from Twitter, posted on 2017-09-21 at 06:50 UTC, depicting a woman riding a yellow bicycle with a cargo attachment through a street with debris from a collapsed building in the background.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 516
+      }
+    ],
+    "fallback": "budget_evict_oldest",
+    "evicted": [
+      {
+        "id": "m1",
+        "text": "A social media photo from Twitter, posted on 2017-09-21 at 04:40 UTC, depicting a collapsed building with two individuals in safety gear assessing the damage. Additionally, a social media photo from Twitter, posted on 2017-09-21 at 06:02 UTC, showing a black car partially sunk into a large crack in the pavement with several individuals nearby, including a police officer and a person in a safety vest. A social media photo from Twitter, posted on 2017-09-21 at 06:18 UTC, depicting a collapsed building with individuals in safety gear and civilians observing the aftermath. A social media photo from Twitter, posted on 2017-09-21 at 06:50 UTC, depicting a woman riding a yellow bicycle with a cargo attachment through a street with debris from a collapsed building in the background.",
+        "sources": ["E01", "E02", "E03", "E04"]
+      }
+    ],
+    "tokens": 222,
+    "n_lines": 3,
+    "secs": 56.76
+  },
+  {
+    "item_id": "E07",
+    "step": 7,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"m7 [src E07 @2017-09-21 08:35 UTC] A social media photo from Twitter, posted on 2017-09-21 at 08:35 UTC, depicting a collapsed building with a car partially buried in debris in the foreground.\",",
+          "      \"sources\": [\"E07\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "m7 [src E07 @2017-09-21 08:35 UTC] A social media photo from Twitter, posted on 2017-09-21 at 08:35 UTC, depicting a collapsed building with a car partially buried in debris in the foreground.",
+              "sources": ["E07"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 319
+      }
+    ],
+    "tokens": 319,
+    "n_lines": 4,
+    "secs": 9.95
+  },
+  {
+    "item_id": "E08",
+    "step": 8,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"m8 [src E08 @2017-09-21 08:44 UTC] A social media photo from Twitter, posted on 2017-09-21 at 08:44 UTC, depicting a collapsed building with individuals in safety gear and civilians observing the aftermath.\",",
+          "      \"sources\": [\"E08\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "m8 [src E08 @2017-09-21 08:44 UTC] A social media photo from Twitter, posted on 2017-09-21 at 08:44 UTC, depicting a collapsed building with individuals in safety gear and civilians observing the aftermath.",
+              "sources": ["E08"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 416
+      }
+    ],
+    "tokens": 416,
+    "n_lines": 5,
+    "secs": 9.32
+  },
+  {
+    "item_id": "E09",
+    "step": 9,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"m9 [src E09 @2017-09-21 10:33 UTC] A social media photo from Twitter, posted on 2017-09-21 at 10:33 UTC, depicting a collapsed building with individuals in safety gear and civilians observing the aftermath.\",",
+          "      \"sources\": [\"E09\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "m9 [src E09 @2017-09-21 10:33 UTC] A social media photo from Twitter, posted on 2017-09-21 at 10:33 UTC, depicting a collapsed building with individuals in safety gear and civilians observing the aftermath.",
+              "sources": ["E09"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 513
+      },
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"m9 [src E09 @2017-09-21 10:33 UTC] A social media photo from Twitter, posted on 2017-09-21 at 10:33 UTC, depicting a collapsed building with individuals in safety gear and civilians observing the aftermath.\",",
+          "      \"sources\": [\"E09\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "m9 [src E09 @2017-09-21 10:33 UTC] A social media photo from Twitter, posted on 2017-09-21 at 10:33 UTC, depicting a collapsed building with individuals in safety gear and civilians observing the aftermath.",
+              "sources": ["E09"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 513
+      }
+    ],
+    "fallback": "budget_evict_oldest",
+    "evicted": [
+      {
+        "id": "m3",
+        "text": "A social media photo from Twitter, posted on 2017-09-21 at 06:18 UTC, depicting a collapsed building with individuals in safety gear and civilians observing the aftermath.",
+        "sources": ["E03"]
+      }
+    ],
+    "tokens": 442,
+    "n_lines": 5,
+    "secs": 19.61
+  },
+  {
+    "item_id": "E10",
+    "step": 10,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"m10 [src E10 @2017-09-21 10:48 UTC] A social media photo from Twitter, posted on 2017-09-21 at 10:48 UTC, depicting a collapsed building with a dog navigating through debris and scattered personal items.\",",
+          "      \"sources\": [\"E10\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "m10 [src E10 @2017-09-21 10:48 UTC] A social media photo from Twitter, posted on 2017-09-21 at 10:48 UTC, depicting a collapsed building with a dog navigating through debris and scattered personal items.",
+              "sources": ["E10"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 540
+      },
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"m10 [src E10 @2017-09-21 10:48 UTC] A social media photo from Twitter, posted on 2017-09-21 at 10:48 UTC, depicting a collapsed building with a dog navigating through debris and scattered personal items.\",",
+          "      \"sources\": [\"E10\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "m10 [src E10 @2017-09-21 10:48 UTC] A social media photo from Twitter, posted on 2017-09-21 at 10:48 UTC, depicting a collapsed building with a dog navigating through debris and scattered personal items.",
+              "sources": ["E10"]
+            }
+          ],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 540
+      }
+    ],
+    "fallback": "budget_evict_oldest",
+    "evicted": [
+      {
+        "id": "m4",
+        "text": "A social media photo from Twitter, posted on 2017-09-21 at 06:50 UTC, depicting a woman riding a yellow bicycle with a cargo attachment through a street with debris from a collapsed building in the background.",
+        "sources": ["E04"]
+      }
+    ],
+    "tokens": 460,
+    "n_lines": 5,
+    "secs": 20.37
+  }
+]

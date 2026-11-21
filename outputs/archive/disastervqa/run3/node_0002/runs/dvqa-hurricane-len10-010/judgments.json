@@ -1,0 +1,57 @@
+[
+  {
+    "step": 10,
+    "qa_id": "imgq-2434",
+    "label": "answerable",
+    "abstained": true,
+    "pred": null,
+    "cited_items": [],
+    "retained": false,
+    "score": 0.0,
+    "category": "abstained_evidence_missing"
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-2313",
+    "label": "answerable",
+    "abstained": true,
+    "pred": null,
+    "cited_items": ["E03"],
+    "retained": true,
+    "score": 0.0,
+    "category": "unnecessary_abstention"
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-2452",
+    "label": "answerable",
+    "abstained": true,
+    "pred": null,
+    "cited_items": ["E05"],
+    "retained": true,
+    "score": 0.0,
+    "category": "unnecessary_abstention"
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-2370",
+    "label": "answerable",
+    "abstained": true,
+    "pred": null,
+    "cited_items": ["E06"],
+    "retained": true,
+    "score": 0.0,
+    "category": "unnecessary_abstention"
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-2488",
+    "label": "answerable",
+    "abstained": true,
+    "pred": null,
+    "cited_items": ["E08"],
+    "retained": true,
+    "score": 0.0,
+    "category": "unnecessary_abstention"
+  }
+]

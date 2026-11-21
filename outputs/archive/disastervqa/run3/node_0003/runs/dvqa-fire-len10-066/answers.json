@@ -1,0 +1,67 @@
+[
+  {
+    "step": 10,
+    "qa_id": "imgq-932",
+    "label": "answerable",
+    "answer_raw": "1",
+    "pred": "1",
+    "abstained": false,
+    "cited_lines": ["m8", "m9", "m10"],
+    "cited_unknown": [],
+    "parsed": true,
+    "cited_items": ["E08", "E09", "E10"],
+    "raw": ["{\"answer\": \"1\", \"cited\": [\"m8\", \"m9\", \"m10\"]}"]
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-962",
+    "label": "answerable",
+    "answer_raw": "NOT_ENOUGH_EVIDENCE",
+    "pred": null,
+    "abstained": true,
+    "cited_lines": [""],
+    "cited_unknown": [""],
+    "parsed": true,
+    "cited_items": [],
+    "raw": ["{\"answer\": \"NOT_ENOUGH_EVIDENCE\", \"cited\": [\"\"]}"]
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-937",
+    "label": "answerable",
+    "answer_raw": "NOT_ENOUGH_EVIDENCE",
+    "pred": null,
+    "abstained": true,
+    "cited_lines": [""],
+    "cited_unknown": [""],
+    "parsed": true,
+    "cited_items": [],
+    "raw": ["{\"answer\": \"NOT_ENOUGH_EVIDENCE\", \"cited\": [\"\"]}"]
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-939",
+    "label": "answerable",
+    "answer_raw": "B",
+    "pred": "B",
+    "abstained": false,
+    "cited_lines": ["m8", "m9", "m10"],
+    "cited_unknown": [],
+    "parsed": true,
+    "cited_items": ["E08", "E09", "E10"],
+    "raw": ["{\"answer\": \"B\", \"cited\": [\"m8\", \"m9\", \"m10\"]}"]
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-941",
+    "label": "answerable",
+    "answer_raw": "NOT_ENOUGH_EVIDENCE",
+    "pred": null,
+    "abstained": true,
+    "cited_lines": [""],
+    "cited_unknown": [""],
+    "parsed": true,
+    "cited_items": [],
+    "raw": ["{\"answer\": \"NOT_ENOUGH_EVIDENCE\", \"cited\": [\"\"]}"]
+  }
+]

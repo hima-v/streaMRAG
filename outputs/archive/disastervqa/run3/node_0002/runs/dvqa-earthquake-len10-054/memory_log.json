@@ -1,0 +1,625 @@
+[
+  {
+    "item_id": "E01",
+    "step": 1,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo from Twitter posted on 2017-09-21 04:40 UTC showing two individuals in safety gear (one in a white hard hat, one in a green high-visibility vest) working amidst the rubble of a collapsed building. The scene includes exposed rebar, broken concrete, and wooden ladders leaning against debris. Power lines are visible in the foreground, and the environment is dark, suggesting nighttime or low-light conditions.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo from Twitter posted on 2017-09-21 04:40 UTC showing two individuals in safety gear (one in a white hard hat, one in a green high-visibility vest) working amidst the rubble of a collapsed building. The scene includes exposed rebar, broken concrete, and wooden ladders leaning against debris. Power lines are visible in the foreground, and the environment is dark, suggesting nighttime or low-light conditions.",
+              "sources": ["E01"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 126
+      }
+    ],
+    "tokens": 126,
+    "n_lines": 1,
+    "secs": 10.65
+  },
+  {
+    "item_id": "E02",
+    "step": 2,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo from Twitter posted on 2017-09-21 06:02 UTC showing a black Toyota sedan partially submerged in a large sinkhole. The vehicle's front end is tilted into the hole, with visible damage to the front bumper and headlight. A man in a maroon shirt and blue jeans stands nearby, observing the scene. The sinkhole spans multiple parking spaces, with exposed rebar and broken asphalt. A police officer in a black uniform with 'POLICIA FEDERAL' written on the back raises his hand, possibly directing traffic or assessing the situation. The environment is daylight, with clear visibility of the damaged road and surrounding infrastructure.\",",
+          "      \"sources\": [\"E02\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"Social media photo from Twitter posted on 2017-09-21 04:40 UTC showing two individuals in safety gear (one in a white hard hat, one in a green high-visibility vest) working amidst the rubble of a collapsed building. The scene includes exposed rebar, broken concrete, and wooden ladders leaning against debris. Power lines are visible in the foreground, and the environment is dark, suggesting nighttime or low-light conditions.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo from Twitter posted on 2017-09-21 06:02 UTC showing a black Toyota sedan partially submerged in a large sinkhole. The vehicle's front end is tilted into the hole, with visible damage to the front bumper and headlight. A man in a maroon shirt and blue jeans stands nearby, observing the scene. The sinkhole spans multiple parking spaces, with exposed rebar and broken asphalt. A police officer in a black uniform with 'POLICIA FEDERAL' written on the back raises his hand, possibly directing traffic or assessing the situation. The environment is daylight, with clear visibility of the damaged road and surrounding infrastructure.",
+              "sources": ["E02"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Social media photo from Twitter posted on 2017-09-21 04:40 UTC showing two individuals in safety gear (one in a white hard hat, one in a green high-visibility vest) working amidst the rubble of a collapsed building. The scene includes exposed rebar, broken concrete, and wooden ladders leaning against debris. Power lines are visible in the foreground, and the environment is dark, suggesting nighttime or low-light conditions.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 296
+      }
+    ],
+    "tokens": 296,
+    "n_lines": 2,
+    "secs": 24.24
+  },
+  {
+    "item_id": "E03",
+    "step": 3,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo from Twitter posted on 2017-09-21 06:18 UTC showing a collapsed building with workers in safety gear (white hard hats, orange vests) navigating rubble. Exposed rebar, broken concrete, and wooden ladders are visible. Power lines and a partially collapsed wall frame the scene. The environment is daylight with clear visibility.\",",
+          "      \"sources\": [\"E03\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"Social media photo from Twitter posted on 2017-09-21 04:40 UTC showing two individuals in safety gear (one in a white hard hat, one in a green high-visibility vest) working amidst the rubble of a collapsed building. The scene includes exposed rebar, broken concrete, and wooden ladders leaning against debris. Power lines are visible in the foreground, and the environment is dark, suggesting nighttime or low-light conditions.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": [\"m2\"]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo from Twitter posted on 2017-09-21 06:18 UTC showing a collapsed building with workers in safety gear (white hard hats, orange vests) navigating rubble. Exposed rebar, broken concrete, and wooden ladders are visible. Power lines and a partially collapsed wall frame the scene. The environment is daylight with clear visibility.",
+              "sources": ["E03"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Social media photo from Twitter posted on 2017-09-21 04:40 UTC showing two individuals in safety gear (one in a white hard hat, one in a green high-visibility vest) working amidst the rubble of a collapsed building. The scene includes exposed rebar, broken concrete, and wooden ladders leaning against debris. Power lines are visible in the foreground, and the environment is dark, suggesting nighttime or low-light conditions.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": [],
+        "tokens_after": 235
+      }
+    ],
+    "tokens": 235,
+    "n_lines": 2,
+    "secs": 18.51
+  },
+  {
+    "item_id": "E04",
+    "step": 4,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo from Twitter posted on 2017-09-21 06:50 UTC showing a woman riding a yellow bicycle with a cargo attachment. She wears a white shirt, purple shorts with white stripes, and flip-flops. The bicycle has a green container attached to its front. The background features a collapsed building with exposed rebar, broken concrete, and wooden ladders. Power lines and a partially collapsed wall are visible. The environment is daylight with clear visibility.\",",
+          "      \"sources\": [\"E04\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"Social media photo from Twitter posted on 2017-09-21 04:40 UTC showing two individuals in safety gear (one in a white hard hat, one in a green high-visibility vest) working amidst the rubble of a collapsed building. The scene includes exposed rebar, broken concrete, and wooden ladders leaning against debris. Power lines are visible in the foreground, and the environment is dark, suggesting nighttime or low-light conditions.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo from Twitter posted on 2017-09-21 06:50 UTC showing a woman riding a yellow bicycle with a cargo attachment. She wears a white shirt, purple shorts with white stripes, and flip-flops. The bicycle has a green container attached to its front. The background features a collapsed building with exposed rebar, broken concrete, and wooden ladders. Power lines and a partially collapsed wall are visible. The environment is daylight with clear visibility.",
+              "sources": ["E04"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Social media photo from Twitter posted on 2017-09-21 04:40 UTC showing two individuals in safety gear (one in a white hard hat, one in a green high-visibility vest) working amidst the rubble of a collapsed building. The scene includes exposed rebar, broken concrete, and wooden ladders leaning against debris. Power lines are visible in the foreground, and the environment is dark, suggesting nighttime or low-light conditions.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 365
+      }
+    ],
+    "tokens": 365,
+    "n_lines": 3,
+    "secs": 20.24
+  },
+  {
+    "item_id": "E05",
+    "step": 5,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo from Twitter posted on 2017-09-21 07:14 UTC showing a group of individuals in safety gear (white hard hats, orange vests) assisting a person lying on a stretcher amidst rubble. Exposed rebar, broken concrete, and wooden ladders are visible. Power lines and a partially collapsed wall frame the scene. The environment is daylight with clear visibility.\",",
+          "      \"sources\": [\"E05\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"Social media photo from Twitter posted on 2017-09-21 04:40 UTC showing two individuals in safety gear (one in a white hard hat, one in a green high-visibility vest) working amidst the rubble of a collapsed building. The scene includes exposed rebar, broken concrete, and wooden ladders leaning against debris. Power lines are visible in the foreground, and the environment is dark, suggesting nighttime or low-light conditions.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo from Twitter posted on 2017-09-21 07:14 UTC showing a group of individuals in safety gear (white hard hats, orange vests) assisting a person lying on a stretcher amidst rubble. Exposed rebar, broken concrete, and wooden ladders are visible. Power lines and a partially collapsed wall frame the scene. The environment is daylight with clear visibility.",
+              "sources": ["E05"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Social media photo from Twitter posted on 2017-09-21 04:40 UTC showing two individuals in safety gear (one in a white hard hat, one in a green high-visibility vest) working amidst the rubble of a collapsed building. The scene includes exposed rebar, broken concrete, and wooden ladders leaning against debris. Power lines are visible in the foreground, and the environment is dark, suggesting nighttime or low-light conditions.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 481
+      }
+    ],
+    "tokens": 481,
+    "n_lines": 4,
+    "secs": 19.41
+  },
+  {
+    "item_id": "E06",
+    "step": 6,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo from Twitter posted on 2017-09-21 07:16 UTC showing a collapsed building with workers in safety gear (white hard hats, orange vests) navigating rubble. Exposed rebar, broken concrete, and wooden ladders are visible. Power lines and a partially collapsed wall frame the scene. The environment is daylight with clear visibility.\",",
+          "      \"sources\": [\"E06\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"Social media photo from Twitter posted on 2017-09-21 04:40 UTC showing two individuals in safety gear (one in a white hard hat, one in a green high-visibility vest) working amidst the rubble of a collapsed building. The scene includes exposed rebar, broken concrete, and wooden ladders leaning against debris. Power lines are visible in the foreground, and the environment is dark, suggesting nighttime or low-light conditions.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo from Twitter posted on 2017-09-21 07:16 UTC showing a collapsed building with workers in safety gear (white hard hats, orange vests) navigating rubble. Exposed rebar, broken concrete, and wooden ladders are visible. Power lines and a partially collapsed wall frame the scene. The environment is daylight with clear visibility.",
+              "sources": ["E06"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Social media photo from Twitter posted on 2017-09-21 04:40 UTC showing two individuals in safety gear (one in a white hard hat, one in a green high-visibility vest) working amidst the rubble of a collapsed building. The scene includes exposed rebar, broken concrete, and wooden ladders leaning against debris. Power lines are visible in the foreground, and the environment is dark, suggesting nighttime or low-light conditions.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 590
+      },
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo from Twitter posted on 2017-09-21 07:16 UTC showing a collapsed building with workers in safety gear (white hard hats, orange vests) navigating rubble. Exposed rebar, broken concrete, and wooden ladders are visible. Power lines and a partially collapsed wall frame the scene. The environment is daylight with clear visibility.\",",
+          "      \"sources\": [\"E06\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"Social media photo from Twitter posted on 2017-09-21 04:40 UTC showing two individuals in safety gear (one in a white hard hat, one in a green high-visibility vest) working amidst the rubble of a collapsed building. Exposed rebar, broken concrete, and wooden ladders are visible. Power lines are in the foreground, and the environment is dark, suggesting nighttime or low-light conditions.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": [\"m2\"]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo from Twitter posted on 2017-09-21 07:16 UTC showing a collapsed building with workers in safety gear (white hard hats, orange vests) navigating rubble. Exposed rebar, broken concrete, and wooden ladders are visible. Power lines and a partially collapsed wall frame the scene. The environment is daylight with clear visibility.",
+              "sources": ["E06"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Social media photo from Twitter posted on 2017-09-21 04:40 UTC showing two individuals in safety gear (one in a white hard hat, one in a green high-visibility vest) working amidst the rubble of a collapsed building. Exposed rebar, broken concrete, and wooden ladders are visible. Power lines are in the foreground, and the environment is dark, suggesting nighttime or low-light conditions.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 586
+      }
+    ],
+    "fallback": "budget_evict_oldest",
+    "evicted": [
+      {
+        "id": "m1",
+        "text": "Social media photo from Twitter posted on 2017-09-21 04:40 UTC showing two individuals in safety gear (one in a white hard hat, one in a green high-visibility vest) working amidst the rubble of a collapsed building. Exposed rebar, broken concrete, and wooden ladders are visible. Power lines are in the foreground, and the environment is dark, suggesting nighttime or low-light conditions.",
+        "sources": ["E01"]
+      }
+    ],
+    "tokens": 464,
+    "n_lines": 4,
+    "secs": 37.09
+  },
+  {
+    "item_id": "E07",
+    "step": 7,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo from Twitter posted on 2017-09-21 08:35 UTC showing a collapsed building with exposed rebar, broken concrete, and wooden ladders. A silver car with open doors is partially buried in rubble. Power lines and a partially collapsed wall frame the scene. The environment is daylight with clear visibility.\",",
+          "      \"sources\": [\"E07\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo from Twitter posted on 2017-09-21 08:35 UTC showing a collapsed building with exposed rebar, broken concrete, and wooden ladders. A silver car with open doors is partially buried in rubble. Power lines and a partially collapsed wall frame the scene. The environment is daylight with clear visibility.",
+              "sources": ["E07"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 566
+      },
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo from Twitter posted on 2017-09-21 08:35 UTC showing a collapsed building with exposed rebar, broken concrete, and wooden ladders. Power lines and a partially collapsed wall frame the scene. A silver car with open doors and debris inside is visible amidst rubble. The environment is daylight with clear visibility.\",",
+          "      \"sources\": [\"E07\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo from Twitter posted on 2017-09-21 08:35 UTC showing a collapsed building with exposed rebar, broken concrete, and wooden ladders. Power lines and a partially collapsed wall frame the scene. A silver car with open doors and debris inside is visible amidst rubble. The environment is daylight with clear visibility.",
+              "sources": ["E07"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 568
+      }
+    ],
+    "fallback": "budget_evict_oldest",
+    "evicted": [
+      {
+        "id": "m3",
+        "text": "Social media photo from Twitter posted on 2017-09-21 06:18 UTC showing a collapsed building with workers in safety gear (white hard hats, orange vests) navigating rubble. Exposed rebar, broken concrete, and wooden ladders are visible. Power lines and a partially collapsed wall frame the scene. The environment is daylight with clear visibility.",
+        "sources": ["E03"]
+      }
+    ],
+    "tokens": 459,
+    "n_lines": 4,
+    "secs": 19.02
+  },
+  {
+    "item_id": "E08",
+    "step": 8,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo from Twitter posted on 2017-09-21 08:44 UTC showing a collapsed building with exposed rebar, broken concrete, and wooden ladders. Power lines and a partially collapsed wall frame the scene. A silver car with open doors and debris inside is visible amidst rubble. The environment is daylight with clear visibility.\",",
+          "      \"sources\": [\"E08\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo from Twitter posted on 2017-09-21 08:44 UTC showing a collapsed building with exposed rebar, broken concrete, and wooden ladders. Power lines and a partially collapsed wall frame the scene. A silver car with open doors and debris inside is visible amidst rubble. The environment is daylight with clear visibility.",
+              "sources": ["E08"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 563
+      },
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo from Twitter posted on 2017-09-21 08:44 UTC showing a collapsed building with exposed rebar, broken concrete, and wooden ladders. Power lines and a partially collapsed wall frame the scene. A silver car with open doors and debris inside is visible amidst rubble. The environment is daylight with clear visibility.\",",
+          "      \"sources\": [\"E08\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m7\",",
+          "      \"text\": \"Social media photo from Twitter posted on 2017-09-21 08:35 UTC showing a collapsed building with exposed rebar, broken concrete, and wooden ladders. Power lines and a partially collapsed wall frame the scene. A silver car with open doors and debris inside is visible amidst rubble. The environment is daylight with clear visibility.\",",
+          "      \"sources\": [\"E07\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": [\"m6\"]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo from Twitter posted on 2017-09-21 08:44 UTC showing a collapsed building with exposed rebar, broken concrete, and wooden ladders. Power lines and a partially collapsed wall frame the scene. A silver car with open doors and debris inside is visible amidst rubble. The environment is daylight with clear visibility.",
+              "sources": ["E08"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m7",
+              "text": "Social media photo from Twitter posted on 2017-09-21 08:35 UTC showing a collapsed building with exposed rebar, broken concrete, and wooden ladders. Power lines and a partially collapsed wall frame the scene. A silver car with open doors and debris inside is visible amidst rubble. The environment is daylight with clear visibility.",
+              "sources": ["E07"]
+            }
+          ],
+          "delete": ["m6"]
+        },
+        "problems": [],
+        "tokens_after": 454
+      }
+    ],
+    "tokens": 454,
+    "n_lines": 4,
+    "secs": 25.55
+  },
+  {
+    "item_id": "E09",
+    "step": 9,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo from Twitter posted on 2017-09-21 10:33 UTC showing a collapsed building with exposed rebar, broken concrete, and wooden ladders. Power lines and a partially collapsed wall frame the scene. A silver car with open doors and debris inside is visible amidst rubble. The environment is daylight with clear visibility.\",",
+          "      \"sources\": [\"E09\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo from Twitter posted on 2017-09-21 10:33 UTC showing a collapsed building with exposed rebar, broken concrete, and wooden ladders. Power lines and a partially collapsed wall frame the scene. A silver car with open doors and debris inside is visible amidst rubble. The environment is daylight with clear visibility.",
+              "sources": ["E09"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 558
+      },
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo from Twitter posted on 2017-09-21 10:33 UTC showing a collapsed building with exposed rebar, broken concrete, and wooden ladders. Power lines and a partially collapsed wall frame the scene. A silver car with open doors and debris inside is visible amidst rubble. The environment is daylight with clear visibility.\",",
+          "      \"sources\": [\"E09\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": [",
+          "    \"m8\"",
+          "  ]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo from Twitter posted on 2017-09-21 10:33 UTC showing a collapsed building with exposed rebar, broken concrete, and wooden ladders. Power lines and a partially collapsed wall frame the scene. A silver car with open doors and debris inside is visible amidst rubble. The environment is daylight with clear visibility.",
+              "sources": ["E09"]
+            }
+          ],
+          "delete": ["m8"]
+        },
+        "problems": [],
+        "tokens_after": 454
+      }
+    ],
+    "tokens": 454,
+    "n_lines": 4,
+    "secs": 18.34
+  },
+  {
+    "item_id": "E10",
+    "step": 10,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo from Twitter posted on 2017-09-21 10:48 UTC showing a collapsed building with exposed rebar, broken concrete, and wooden ladders. Power lines and a partially collapsed wall frame the scene. A silver car with open doors and debris inside is visible amidst rubble. The environment is daylight with clear visibility.\",",
+          "      \"sources\": [\"E10\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo from Twitter posted on 2017-09-21 10:48 UTC showing a collapsed building with exposed rebar, broken concrete, and wooden ladders. Power lines and a partially collapsed wall frame the scene. A silver car with open doors and debris inside is visible amidst rubble. The environment is daylight with clear visibility.",
+              "sources": ["E10"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 559
+      },
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo from Twitter posted on 2017-09-21 10:48 UTC showing a collapsed building with exposed rebar, broken concrete, and wooden ladders. Power lines and a partially collapsed wall frame the scene. A silver car with open doors and debris inside is visible amidst rubble. The environment is daylight with clear visibility.\",",
+          "      \"sources\": [\"E10\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": [\"m9\"]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo from Twitter posted on 2017-09-21 10:48 UTC showing a collapsed building with exposed rebar, broken concrete, and wooden ladders. Power lines and a partially collapsed wall frame the scene. A silver car with open doors and debris inside is visible amidst rubble. The environment is daylight with clear visibility.",
+              "sources": ["E10"]
+            }
+          ],
+          "delete": ["m9"]
+        },
+        "problems": [],
+        "tokens_after": 455
+      }
+    ],
+    "tokens": 455,
+    "n_lines": 4,
+    "secs": 19.07
+  }
+]

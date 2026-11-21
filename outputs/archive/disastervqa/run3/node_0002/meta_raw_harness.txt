@@ -1,0 +1,18 @@
+<harness>
+"Optimize memory retention for diverse spatial-temporal contexts and critical details (e.g., timestamps, locations, unique identifiers like 'submerged vehicles') by merging temporally proximate duplicates (same location within X minutes/hours) into consolidated summaries. Prioritize unique events over redundant ones; retain only essential metadata (ID, timestamp, coordinates) alongside compressed narratives. Implement stricter semantic similarity thresholds (≥0.8 Jaccard index) to filter redundancies before deletion. Explicitly preserve comparative elements required for cross-time reasoning (e.g., 'changes between dates') by flagging divergent states in merged entries. Enforce token limits rigorously, evicting oldest entries first if budgets exceed capacity."
+
+**Revised Evaluation Criteria:**
+1. Token Efficiency: Merge overlapping entries to maintain ≤512 tokens/batch, prioritizing high-value data.
+2. Retrieval Accuracy: Verify merged entries resolve queries without missing context (e.g., "How did conditions evolve?").
+3. Contextual Preservation: Enable inference across timepoints via explicit comparisons in retained summaries.
+</harness>
+<rationale>
+This revision strengthens the original strategy through three key improvements:
+
+1. Temporal Proximity Specification: Adding explicit time windows ("within X minutes/hours") provides operational parameters for merging logic, preventing arbitrary decisions about which updates constitute meaningful change versus noise.
+
+2. Semantic Similarity Thresholds: Introducing ≥0.8 Jaccard index creates quantitative filtering criteria, ensuring merges occur only when overlap exceeds substantial text reuse while maintaining distinct differences.
+
+3. Comparative Element Flagging: Explicitly requiring divergence documentation preserves causal/event progression analysis capabilities, addressing weaknesses seen in earthquake/wildfire streams where condition evolution was lost.
+
+Additional adjustments include removing non-critical details (location description examples) to reduce word count, and tightening focus on algorithmic implementation aspects rather than conceptual explanations. These changes directly address failure patterns observed in domains with dense temporal sequences (hurricane/flood) and complex multi-state reasoning requirements (earthquake/wildfire). The revised approach better balances compression needs with analytical utility through programmable constraints.

@@ -1,0 +1,68 @@
+[
+  {
+    "step": 10,
+    "qa_id": "imgq-2434",
+    "label": "answerable",
+    "abstained": false,
+    "pred": "B",
+    "cited_items": ["E03", "E08", "E09", "E10"],
+    "retained": false,
+    "correctness": 1.0,
+    "correctness_by": "exact",
+    "citation_valid": false,
+    "score": 0.0,
+    "category": "invalid_citation"
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-2313",
+    "label": "answerable",
+    "abstained": false,
+    "pred": "Residential area",
+    "cited_items": ["E03"],
+    "retained": true,
+    "correctness": 1.0,
+    "correctness_by": "accepted_match",
+    "citation_valid": true,
+    "evidence_verdict": "supported",
+    "evidence_reason": "The image shows a flooded residential area with vehicles on the road, indicating that the area is affected by flooding.",
+    "score": 1.0,
+    "category": "correct"
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-2452",
+    "label": "answerable",
+    "abstained": false,
+    "pred": "C",
+    "cited_items": ["E03", "E08", "E09", "E10"],
+    "retained": false,
+    "correctness": 0.0,
+    "correctness_by": "exact",
+    "citation_valid": false,
+    "score": 0.0,
+    "category": "wrong_answer_evidence_missing"
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-2370",
+    "label": "answerable",
+    "abstained": true,
+    "pred": null,
+    "cited_items": ["E03", "E08", "E09", "E10"],
+    "retained": false,
+    "score": 0.0,
+    "category": "abstained_evidence_missing"
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-2488",
+    "label": "answerable",
+    "abstained": true,
+    "pred": null,
+    "cited_items": ["E08"],
+    "retained": true,
+    "score": 0.0,
+    "category": "unnecessary_abstention"
+  }
+]

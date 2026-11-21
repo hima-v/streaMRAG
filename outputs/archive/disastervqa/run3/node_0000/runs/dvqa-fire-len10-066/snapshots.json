@@ -1,0 +1,262 @@
+[
+  {
+    "step": 1,
+    "tokens": 88,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo depicting a nighttime fire incident at a multi-story building, with firefighters actively engaged in rescue operations. The scene includes fire trucks, ladders, and an American flag, captured on 2017-02-25 03:14 UTC.",
+        "sources": ["E01"]
+      }
+    ]
+  },
+  {
+    "step": 2,
+    "tokens": 193,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo depicting a nighttime fire incident at a multi-story building, with firefighters actively engaged in rescue operations. The scene includes fire trucks, ladders, and an American flag, captured on 2017-02-25 03:14 UTC. Additionally, a social media photo (web) was posted on 2017-05-13 19:00 UTC.",
+        "sources": ["E01", "E02"]
+      },
+      {
+        "id": "m2",
+        "text": "social media photo (web), posted 2017-05-13 19:00 UTC",
+        "sources": ["E02"]
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "tokens": 290,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "m1 [src E01 @2017-02-25 03:14 UTC, E02 @2017-05-13 19:00 UTC] A social media photo depicting a nighttime fire incident at a multi-story building, with firefighters actively engaged in rescue operations. The scene includes fire trucks, ladders, and an American flag, captured on 2017-02-25 03:14 UTC. Additionally, a social media photo (web) was posted on 2017-05-13 19:00 UTC. A social media photo (web), posted 2017-06-01 13:57 UTC.",
+        "sources": ["E01", "E02", "E03"]
+      },
+      {
+        "id": "m3",
+        "text": "social media photo (web), posted 2017-06-01 13:57 UTC",
+        "sources": ["E03"]
+      }
+    ]
+  },
+  {
+    "step": 4,
+    "tokens": 435,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "m1 [src E01 @2017-02-25 03:14 UTC, E02 @2017-05-13 19:00 UTC, E03 @2017-06-01 13:57 UTC, E04 @2017-06-25 00:20 UTC] A social media photo depicting a nighttime fire incident at a multi-story building, with firefighters actively engaged in rescue operations. The scene includes fire trucks, ladders, and an American flag, captured on 2017-02-25 03:14 UTC. Additionally, a social media photo (web) was posted on 2017-05-13 19:00 UTC. A social media photo (web), posted 2017-06-01 13:57 UTC. A social media photo (web), posted 2017-06-25 00:20 UTC.",
+        "sources": ["E01", "E02", "E03", "E04"]
+      },
+      {
+        "id": "m3",
+        "text": "social media photo (web), posted 2017-06-01 13:57 UTC",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "social media photo (web), posted 2017-06-25 00:20 UTC",
+        "sources": ["E04"]
+      }
+    ]
+  },
+  {
+    "step": 5,
+    "tokens": 156,
+    "lines": [
+      {
+        "id": "m3",
+        "text": "social media photo (web), posted 2017-06-01 13:57 UTC",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "social media photo (web), posted 2017-06-25 00:20 UTC",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "social media photo (web), posted 2017-06-25 21:15 UTC",
+        "sources": ["E05"]
+      }
+    ]
+  },
+  {
+    "step": 6,
+    "tokens": 208,
+    "lines": [
+      {
+        "id": "m3",
+        "text": "social media photo (web), posted 2017-06-01 13:57 UTC",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "social media photo (web), posted 2017-06-25 00:20 UTC",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "social media photo (web), posted 2017-06-25 21:15 UTC",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "social media photo (web), posted 2017-07-21 00:43 UTC",
+        "sources": ["E06"]
+      }
+    ]
+  },
+  {
+    "step": 7,
+    "tokens": 286,
+    "lines": [
+      {
+        "id": "m3",
+        "text": "social media photo (web), posted 2017-06-01 13:57 UTC",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "social media photo (web), posted 2017-06-25 00:20 UTC",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "social media photo (web), posted 2017-06-25 21:15 UTC",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "social media photo (web), posted 2017-07-21 00:43 UTC",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "m7 [src E07 @2017-08-23 00:46 UTC] social media photo (web), posted 2017-08-23 00:46 UTC",
+        "sources": ["E07"]
+      }
+    ]
+  },
+  {
+    "step": 8,
+    "tokens": 364,
+    "lines": [
+      {
+        "id": "m3",
+        "text": "social media photo (web), posted 2017-06-01 13:57 UTC",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "social media photo (web), posted 2017-06-25 00:20 UTC",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "social media photo (web), posted 2017-06-25 21:15 UTC",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "social media photo (web), posted 2017-07-21 00:43 UTC",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "m7 [src E07 @2017-08-23 00:46 UTC] social media photo (web), posted 2017-08-23 00:46 UTC",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "m8 [src E08 @2017-08-28 10:43 UTC] social media photo (Twitter), posted 2017-08-28 10:43 UTC",
+        "sources": ["E08"]
+      }
+    ]
+  },
+  {
+    "step": 9,
+    "tokens": 442,
+    "lines": [
+      {
+        "id": "m3",
+        "text": "social media photo (web), posted 2017-06-01 13:57 UTC",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "social media photo (web), posted 2017-06-25 00:20 UTC",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "social media photo (web), posted 2017-06-25 21:15 UTC",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "social media photo (web), posted 2017-07-21 00:43 UTC",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "m7 [src E07 @2017-08-23 00:46 UTC] social media photo (web), posted 2017-08-23 00:46 UTC",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "m8 [src E08 @2017-08-28 10:43 UTC] social media photo (Twitter), posted 2017-08-28 10:43 UTC",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "m9 [src E09 @2017-09-06 09:22 UTC] social media photo (Twitter), posted 2017-09-06 09:22 UTC",
+        "sources": ["E09"]
+      }
+    ]
+  },
+  {
+    "step": 10,
+    "tokens": 470,
+    "lines": [
+      {
+        "id": "m4",
+        "text": "social media photo (web), posted 2017-06-25 00:20 UTC",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "social media photo (web), posted 2017-06-25 21:15 UTC",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "social media photo (web), posted 2017-07-21 00:43 UTC",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "m7 [src E07 @2017-08-23 00:46 UTC] social media photo (web), posted 2017-08-23 00:46 UTC",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "m8 [src E08 @2017-08-28 10:43 UTC] social media photo (Twitter), posted 2017-08-28 10:43 UTC",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "m9 [src E09 @2017-09-06 09:22 UTC] social media photo (Twitter), posted 2017-09-06 09:22 UTC",
+        "sources": ["E09"]
+      },
+      {
+        "id": "m10",
+        "text": "m10 [src E10 @2017-09-08 03:41 UTC] social media photo (Twitter), posted 2017-09-08 03:41 UTC",
+        "sources": ["E10"]
+      }
+    ]
+  }
+]

@@ -1,0 +1,267 @@
+[
+  {
+    "step": 1,
+    "tokens": 88,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Image of a collapsed building with two workers in safety gear (one in a white hard hat, one in a green vest) on ladders amidst debris. Location: [REDACTED]. Timestamp: 2017-09-21 04:40 UTC.",
+        "sources": ["E01"]
+      }
+    ]
+  },
+  {
+    "step": 2,
+    "tokens": 199,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Image of a collapsed building with two workers in safety gear (one in a white hard hat, one in a green vest) on ladders amidst debris. Location: [REDACTED]. Timestamp: 2017-09-21 04:40 UTC.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "Image of a black Toyota Corolla partially submerged in a large sinkhole on a city street. A police officer in a black uniform with 'POLICIA FEDERAL' on the back is directing traffic, while a man in a red shirt and jeans stands nearby. Location: [REDACTED]. Timestamp: 2017-09-21 06:02 UTC.",
+        "sources": ["E02"]
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "tokens": 166,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Image of a collapsed building with multiple individuals in safety gear (white hard hats, orange vests) on ladders amidst debris. Location: [REDACTED]. Timestamp: 2017-09-21 04:40 UTC.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "Image of a collapsed building with multiple individuals in safety gear (white hard hats, orange vests) on ladders amidst debris. Location: [REDACTED]. Timestamp: 2017-09-21 06:18 UTC.",
+        "sources": ["E03"]
+      }
+    ]
+  },
+  {
+    "step": 4,
+    "tokens": 246,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Image of a collapsed building with multiple individuals in safety gear (white hard hats, orange vests) on ladders amidst debris. Location: [REDACTED]. Timestamp: 2017-09-21 04:40 UTC.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "Image of a collapsed building with multiple individuals in safety gear (white hard hats, orange vests) on ladders amidst debris. Location: [REDACTED]. Timestamp: 2017-09-21 06:18 UTC.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "Image of a woman riding a yellow bicycle with a cargo attachment through a debris-strewn area near a collapsed building. Location: [REDACTED]. Timestamp: 2017-09-21 06:50 UTC.",
+        "sources": ["E04"]
+      }
+    ]
+  },
+  {
+    "step": 5,
+    "tokens": 326,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Image of a collapsed building with multiple individuals in safety gear (white hard hats, orange vests) on ladders amidst debris. Location: [REDACTED]. Timestamp: 2017-09-21 04:40 UTC.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "Image of a collapsed building with multiple individuals in safety gear (white hard hats, orange vests) on ladders amidst debris. Location: [REDACTED]. Timestamp: 2017-09-21 06:18 UTC.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "Image of a woman riding a yellow bicycle with a cargo attachment through a debris-strewn area near a collapsed building. Location: [REDACTED]. Timestamp: 2017-09-21 06:50 UTC.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "Image of a woman riding a yellow bicycle with a cargo attachment through a debris-strewn area near a collapsed building. Location: [REDACTED]. Timestamp: 2017-09-21 07:14 UTC.",
+        "sources": ["E05"]
+      }
+    ]
+  },
+  {
+    "step": 6,
+    "tokens": 406,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Image of a collapsed building with multiple individuals in safety gear (white hard hats, orange vests) on ladders amidst debris. Location: [REDACTED]. Timestamp: 2017-09-21 04:40 UTC.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "Image of a collapsed building with multiple individuals in safety gear (white hard hats, orange vests) on ladders amidst debris. Location: [REDACTED]. Timestamp: 2017-09-21 06:18 UTC.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "Image of a woman riding a yellow bicycle with a cargo attachment through a debris-strewn area near a collapsed building. Location: [REDACTED]. Timestamp: 2017-09-21 06:50 UTC.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "Image of a woman riding a yellow bicycle with a cargo attachment through a debris-strewn area near a collapsed building. Location: [REDACTED]. Timestamp: 2017-09-21 07:14 UTC.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "Image of a woman riding a yellow bicycle with a cargo attachment through a debris-strewn area near a collapsed building. Location: [REDACTED]. Timestamp: 2017-09-21 07:16 UTC.",
+        "sources": ["E06"]
+      }
+    ]
+  },
+  {
+    "step": 7,
+    "tokens": 475,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Image of a collapsed building with multiple individuals in safety gear (white hard hats, orange vests) on ladders amidst debris. Location: [REDACTED]. Timestamp: 2017-09-21 04:40 UTC.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "Image of a collapsed building with multiple individuals in safety gear (white hard hats, orange vests) on ladders amidst debris. Location: [REDACTED]. Timestamp: 2017-09-21 06:18 UTC.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "Image of a woman riding a yellow bicycle with a cargo attachment through a debris-strewn area near a collapsed building. Location: [REDACTED]. Timestamp: 2017-09-21 06:50 UTC.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "Image of a woman riding a yellow bicycle with a cargo attachment through a debris-strewn area near a collapsed building. Location: [REDACTED]. Timestamp: 2017-09-21 07:14 UTC.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "Image of a woman riding a yellow bicycle with a cargo attachment through a debris-strewn area near a collapsed building. Location: [REDACTED]. Timestamp: 2017-09-21 07:16 UTC.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "Image of a collapsed building with a car partially buried in debris. Location: [REDACTED]. Timestamp: 2017-09-21 08:35 UTC.",
+        "sources": ["E07"]
+      }
+    ]
+  },
+  {
+    "step": 8,
+    "tokens": 461,
+    "lines": [
+      {
+        "id": "m3",
+        "text": "Image of a collapsed building with multiple individuals in safety gear (white hard hats, orange vests) on ladders amidst debris. Location: [REDACTED]. Timestamp: 2017-09-21 06:18 UTC.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "Image of a woman riding a yellow bicycle with a cargo attachment through a debris-strewn area near a collapsed building. Location: [REDACTED]. Timestamp: 2017-09-21 06:50 UTC.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "Image of a woman riding a yellow bicycle with a cargo attachment through a debris-strewn area near a collapsed building. Location: [REDACTED]. Timestamp: 2017-09-21 07:14 UTC.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "Image of a woman riding a yellow bicycle with a cargo attachment through a debris-strewn area near a collapsed building. Location: [REDACTED]. Timestamp: 2017-09-21 07:16 UTC.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "Image of a collapsed building with a car partially buried in debris. Location: [REDACTED]. Timestamp: 2017-09-21 08:35 UTC.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "Image of a collapsed building with a car partially buried in debris. Location: [REDACTED]. Timestamp: 2017-09-21 08:44 UTC.",
+        "sources": ["E08"]
+      }
+    ]
+  },
+  {
+    "step": 9,
+    "tokens": 447,
+    "lines": [
+      {
+        "id": "m4",
+        "text": "Image of a woman riding a yellow bicycle with a cargo attachment through a debris-strewn area near a collapsed building. Location: [REDACTED]. Timestamp: 2017-09-21 06:50 UTC.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "Image of a woman riding a yellow bicycle with a cargo attachment through a debris-strewn area near a collapsed building. Location: [REDACTED]. Timestamp: 2017-09-21 07:14 UTC.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "Image of a woman riding a yellow bicycle with a cargo attachment through a debris-strewn area near a collapsed building. Location: [REDACTED]. Timestamp: 2017-09-21 07:16 UTC.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "Image of a collapsed building with a car partially buried in debris. Location: [REDACTED]. Timestamp: 2017-09-21 08:35 UTC.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "Image of a collapsed building with a car partially buried in debris. Location: [REDACTED]. Timestamp: 2017-09-21 08:44 UTC.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "Image of a collapsed building with a car partially buried in debris. Location: [REDACTED]. Timestamp: 2017-09-21 10:33 UTC.",
+        "sources": ["E09"]
+      }
+    ]
+  },
+  {
+    "step": 10,
+    "tokens": 439,
+    "lines": [
+      {
+        "id": "m5",
+        "text": "Image of a woman riding a yellow bicycle with a cargo attachment through a debris-strewn area near a collapsed building. Location: [REDACTED]. Timestamp: 2017-09-21 07:14 UTC.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "Image of a woman riding a yellow bicycle with a cargo attachment through a debris-strewn area near a collapsed building. Location: [REDACTED]. Timestamp: 2017-09-21 07:16 UTC.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "Image of a collapsed building with a car partially buried in debris. Location: [REDACTED]. Timestamp: 2017-09-21 08:35 UTC.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "Image of a collapsed building with a car partially buried in debris. Location: [REDACTED]. Timestamp: 2017-09-21 08:44 UTC.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "Image of a collapsed building with a car partially buried in debris. Location: [REDACTED]. Timestamp: 2017-09-21 10:33 UTC.",
+        "sources": ["E09"]
+      },
+      {
+        "id": "m10",
+        "text": "Image of a dog walking through debris with scattered clothing and a yellow rope. Location: [REDACTED]. Timestamp: 2017-09-21 10:48 UTC.",
+        "sources": ["E10"]
+      }
+    ]
+  }
+]

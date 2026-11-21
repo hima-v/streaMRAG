@@ -1,0 +1,227 @@
+[
+  {
+    "step": 1,
+    "tokens": 82,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Flooded area with submerged vehicles and damaged RVs in a forested region. Water level submerges multiple trailers, including a white RV tilted on its side with debris entangled. Dense trees border the scene, and a metal guardrail is visible in the foreground.",
+        "sources": ["E01"]
+      }
+    ]
+  },
+  {
+    "step": 2,
+    "tokens": 167,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Flooded area with submerged vehicles and damaged RVs in a forested region. Water level submerges multiple trailers, including a white RV tilted on its side with debris entangled. Dense trees border the scene, and a metal guardrail is visible in the foreground.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "Social media photo depicting flood aftermath with submerged vehicles and damaged RVs in a forested area. Water level submerges multiple trailers, including a white RV tilted on its side with debris entangled. Dense trees border the scene, and a metal guardrail is visible in the foreground.",
+        "sources": ["E02"]
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "tokens": 170,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Flooded area with submerged vehicles and damaged RVs in a forested region. Water level submerges multiple trailers, including a white RV tilted on its side with debris entangled. Dense trees border the scene, and a metal guardrail is visible in the foreground.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "Social media photo (Twitter) showing flood aftermath with submerged vehicles and damaged RVs in a forested area. Water level submerges multiple trailers, including a white RV tilted on its side with debris entangled. Dense trees border the scene, and a metal guardrail is visible in the foreground.",
+        "sources": ["E03"]
+      }
+    ]
+  },
+  {
+    "step": 4,
+    "tokens": 258,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Flooded area with submerged vehicles and damaged RVs in a forested region. Water level submerges multiple trailers, including a white RV tilted on its side with debris entangled. Dense trees border the scene, and a metal guardrail is visible in the foreground.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "Social media photo (Twitter) showing flood aftermath with submerged vehicles and damaged RVs in a forested area. Water level submerges multiple trailers, including a white RV tilted on its side with debris entangled. Dense trees border the scene, and a metal guardrail is visible in the foreground.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "Social media photo (Twitter) showing flood aftermath with submerged vehicles and damaged RVs in a forested area. Water level submerges multiple trailers, including a white RV tilted on its side with debris entangled. Dense trees border the scene, and a metal guardrail is visible in the foreground.",
+        "sources": ["E04"]
+      }
+    ]
+  },
+  {
+    "step": 5,
+    "tokens": 381,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Flooded area with submerged vehicles and damaged RVs in a forested region. Water level submerges multiple trailers, including a white RV tilted on its side with debris entangled. Dense trees border the scene, and a metal guardrail is visible in the foreground. Additionally, a man is seen in the floodwaters holding a long stick, possibly for support or navigation. The water appears murky and is moving, indicating a strong current.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "Social media photo (Twitter) showing flood aftermath with submerged vehicles and damaged RVs in a forested area. Water level submerges multiple trailers, including a white RV tilted on its side with debris entangled. Dense trees border the scene, and a metal guardrail is visible in the foreground.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "Social media photo (Twitter) showing flood aftermath with submerged vehicles and damaged RVs in a forested area. Water level submerges multiple trailers, including a white RV tilted on its side with debris entangled. Dense trees border the scene, and a metal guardrail is visible in the foreground.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A man is seen in the floodwaters holding a long stick, possibly for support or navigation. The water appears murky and is moving, indicating a strong current. The man is wearing a white shirt, and the surrounding area is heavily affected by the flood, with submerged vehicles and debris visible.",
+        "sources": ["E05"]
+      }
+    ]
+  },
+  {
+    "step": 6,
+    "tokens": 476,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Flooded area with submerged vehicles and damaged RVs in a forested region. Water level submerges multiple trailers, including a white RV tilted on its side with debris entangled. Dense trees border the scene, and a metal guardrail is visible in the foreground. Additionally, a man is seen in the floodwaters holding a long stick, possibly for support or navigation. The water appears murky and is moving, indicating a strong current.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "Social media photo (Twitter) showing flood aftermath with submerged vehicles and damaged RVs in a forested area. Water level submerges multiple trailers, including a white RV tilted on its side with debris entangled. Dense trees border the scene, and a metal guardrail is visible in the foreground.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "Social media photo (Twitter) showing flood aftermath with submerged vehicles and damaged RVs in a forested area. Water level submerges multiple trailers, including a white RV tilted on its side with debris entangled. Dense trees border the scene, and a metal guardrail is visible in the foreground.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A man is seen in the floodwaters holding a long stick, possibly for support or navigation. The water appears murky and is moving, indicating a strong current. The man is wearing a white shirt, and the surrounding area is heavily affected by the flood, with submerged vehicles and debris visible.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A group of individuals is navigating through floodwaters, with some standing in the water and others on a partially submerged structure. The water level reaches mid-thigh for most individuals, and the environment includes damaged structures and submerged vehicles. The scene is set in a forested area with dense trees and a metal guardrail visible in the foreground.",
+        "sources": ["E06"]
+      }
+    ]
+  },
+  {
+    "step": 7,
+    "tokens": 453,
+    "lines": [
+      {
+        "id": "m3",
+        "text": "Social media photo (Twitter) showing flood aftermath with submerged vehicles and damaged RVs in a forested area. Water level submerges multiple trailers, including a white RV tilted on its side with debris entangled. Dense trees border the scene, and a metal guardrail is visible in the foreground.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "Social media photo (Twitter) showing flood aftermath with submerged vehicles and damaged RVs in a forested area. Water level submerges multiple trailers, including a white RV tilted on its side with debris entangled. Dense trees border the scene, and a metal guardrail is visible in the foreground.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A man is seen in the floodwaters holding a long stick, possibly for support or navigation. The water appears murky and is moving, indicating a strong current. The man is wearing a white shirt, and the surrounding area is heavily affected by the flood, with submerged vehicles and debris visible.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A group of individuals is navigating through floodwaters, with some standing in the water and others on a partially submerged structure. The water level reaches mid-thigh for most individuals, and the environment includes damaged structures and submerged vehicles. The scene is set in a forested area with dense trees and a metal guardrail visible in the foreground.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A group of individuals is navigating through floodwaters, with some standing in the water and others on a partially submerged structure. The water level reaches mid-thigh for most individuals, and the environment includes damaged structures and submerged vehicles. The scene is set in a forested area with dense trees and a metal guardrail visible in the foreground.",
+        "sources": ["E07"]
+      }
+    ]
+  },
+  {
+    "step": 8,
+    "tokens": 331,
+    "lines": [
+      {
+        "id": "m3",
+        "text": "Social media photo (Twitter) showing flood aftermath with submerged vehicles and damaged RVs in a forested area. Water level submerges multiple trailers, including a white RV tilted on its side with debris entangled. Dense trees border the scene, and a metal guardrail is visible in the foreground.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m5",
+        "text": "A man is seen in the floodwaters holding a long stick, possibly for support or navigation. The water appears murky and is moving, indicating a strong current. The man is wearing a white shirt, and the surrounding area is heavily affected by the flood, with submerged vehicles and debris visible. Dense trees border the scene, and a metal guardrail is visible in the foreground.",
+        "sources": ["E05", "E08"]
+      },
+      {
+        "id": "m6",
+        "text": "A group of individuals is navigating through floodwaters, with some standing in the water and others on a partially submerged structure. The water level reaches mid-thigh for most individuals, and the environment includes damaged structures and submerged vehicles. The scene is set in a forested area with dense trees and a metal guardrail visible in the foreground.",
+        "sources": ["E06", "E08"]
+      }
+    ]
+  },
+  {
+    "step": 9,
+    "tokens": 426,
+    "lines": [
+      {
+        "id": "m3",
+        "text": "Social media photo (Twitter) showing flood aftermath with submerged vehicles and damaged RVs in a forested area. Water level submerges multiple trailers, including a white RV tilted on its side with debris entangled. Dense trees border the scene, and a metal guardrail is visible in the foreground.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m5",
+        "text": "A man is seen in the floodwaters holding a long stick, possibly for support or navigation. The water appears murky and is moving, indicating a strong current. The man is wearing a white shirt, and the surrounding area is heavily affected by the flood, with submerged vehicles and debris visible. Dense trees border the scene, and a metal guardrail is visible in the foreground.",
+        "sources": ["E05", "E08"]
+      },
+      {
+        "id": "m6",
+        "text": "A group of individuals is navigating through floodwaters, with some standing in the water and others on a partially submerged structure. The water level reaches mid-thigh for most individuals, and the environment includes damaged structures and submerged vehicles. The scene is set in a forested area with dense trees and a metal guardrail visible in the foreground.",
+        "sources": ["E06", "E08"]
+      },
+      {
+        "id": "m8",
+        "text": "A group of individuals is navigating through floodwaters, with some standing in the water and others on a partially submerged structure. The water level reaches mid-thigh for most individuals, and the environment includes damaged structures and submerged vehicles. The scene is set in a forested area with dense trees and a metal guardrail visible in the foreground.",
+        "sources": ["E09"]
+      }
+    ]
+  },
+  {
+    "step": 10,
+    "tokens": 461,
+    "lines": [
+      {
+        "id": "m3",
+        "text": "Social media photo (Twitter) showing flood aftermath with submerged vehicles and damaged RVs in a forested area. Water level submerges multiple trailers, including a white RV tilted on its side with debris entangled. Dense trees border the scene, and a metal guardrail is visible in the foreground.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m5",
+        "text": "A man is seen in the floodwaters holding a long stick, possibly for support or navigation. The water appears murky and is moving, indicating a strong current. The man is wearing a white shirt, and the surrounding area is heavily affected by the flood, with submerged vehicles and debris visible. Dense trees border the scene, and a metal guardrail is visible in the foreground.",
+        "sources": ["E05", "E08"]
+      },
+      {
+        "id": "m6",
+        "text": "A group of individuals is navigating through floodwaters, with some standing in the water and others on a partially submerged structure. The water level reaches mid-thigh for most individuals, and the environment includes damaged structures and submerged vehicles. The scene is set in a forested area with dense trees and a metal guardrail visible in the foreground.",
+        "sources": ["E06", "E08", "E10"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media photo (Twitter) posted on 2015-12-04 17:45 UTC shows a group of individuals navigating through floodwaters. The water level reaches mid-thigh for most individuals, and the environment includes damaged structures and submerged vehicles. The scene is set in a forested area with dense trees and a metal guardrail visible in the foreground.",
+        "sources": ["E10"]
+      }
+    ]
+  }
+]

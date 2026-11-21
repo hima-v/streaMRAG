@@ -1,0 +1,197 @@
+[
+  {
+    "step": 1,
+    "tokens": 94,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Flooded area with submerged vehicles and debris, including a white RV tilted and partially submerged, a white trailer with a blue tarp covering debris, and a white RV with a gray roof tilted and partially submerged. Surrounding area has dense green trees and bushes. Photo taken from a bridge with a metal railing visible in the foreground.",
+        "sources": ["E01"]
+      }
+    ]
+  },
+  {
+    "step": 2,
+    "tokens": 257,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Flooded area with submerged vehicles and debris, including a white RV tilted and partially submerged, a white trailer with a blue tarp covering debris, and a white RV with a gray roof tilted and partially submerged. Surrounding area has dense green trees and bushes. Photo taken from a bridge with a metal railing visible in the foreground. Social media photo posted on 2015-12-03 10:41 UTC.",
+        "sources": ["E01", "E02"]
+      },
+      {
+        "id": "m2",
+        "text": "Social media photo posted on 2015-12-03 10:41 UTC showing flood aftermath with submerged vehicles and debris, including a white RV tilted and partially submerged, a white trailer with a blue tarp covering debris, and a white RV with a gray roof tilted and partially submerged. Surrounding area has dense green trees and bushes. Photo taken from a bridge with a metal railing visible in the foreground.",
+        "sources": ["E02"]
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "tokens": 257,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Flooded area with submerged vehicles and debris, including a white RV tilted and partially submerged, a white trailer with a blue tarp covering debris, and a white RV with a gray roof tilted and partially submerged. Surrounding area has dense green trees and bushes. Photo taken from a bridge with a metal railing visible in the foreground. Social media photo posted on 2015-12-03 10:41 UTC.",
+        "sources": ["E01", "E02"]
+      },
+      {
+        "id": "m3",
+        "text": "Social media photo posted on 2015-12-03 16:52 UTC showing flood aftermath with submerged vehicles and debris, including a white RV tilted and partially submerged, a white trailer with a blue tarp covering debris, and a white RV with a gray roof tilted and partially submerged. Surrounding area has dense green trees and bushes. Photo taken from a bridge with a metal railing visible in the foreground.",
+        "sources": ["E03"]
+      }
+    ]
+  },
+  {
+    "step": 4,
+    "tokens": 375,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Flooded area with submerged vehicles and debris, including a white RV tilted and partially submerged, a white trailer with a blue tarp covering debris, and a white RV with a gray roof tilted and partially submerged. Surrounding area has dense green trees and bushes. Photo taken from a bridge with a metal railing visible in the foreground. Social media photo posted on 2015-12-03 10:41 UTC.",
+        "sources": ["E01", "E02"]
+      },
+      {
+        "id": "m3",
+        "text": "Social media photo posted on 2015-12-03 16:52 UTC showing flood aftermath with submerged vehicles and debris, including a white RV tilted and partially submerged, a white trailer with a blue tarp covering debris, and a white RV with a gray roof tilted and partially submerged. Surrounding area has dense green trees and bushes. Photo taken from a bridge with a metal railing visible in the foreground.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "Social media photo posted on 2015-12-03 17:20 UTC showing a flooded area with submerged vehicles and debris, including a white RV tilted and partially submerged, a white trailer with a blue tarp covering debris, and a white RV with a gray roof tilted and partially submerged. Surrounding area has dense green trees and bushes. Photo taken from a bridge with a metal railing visible in the foreground.",
+        "sources": ["E04"]
+      }
+    ]
+  },
+  {
+    "step": 5,
+    "tokens": 493,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Flooded area with submerged vehicles and debris, including a white RV tilted and partially submerged, a white trailer with a blue tarp covering debris, and a white RV with a gray roof tilted and partially submerged. Surrounding area has dense green trees and bushes. Photo taken from a bridge with a metal railing visible in the foreground. Social media photo posted on 2015-12-03 10:41 UTC.",
+        "sources": ["E01", "E02"]
+      },
+      {
+        "id": "m3",
+        "text": "Social media photo posted on 2015-12-03 16:52 UTC showing flood aftermath with submerged vehicles and debris, including a white RV tilted and partially submerged, a white trailer with a blue tarp covering debris, and a white RV with a gray roof tilted and partially submerged. Surrounding area has dense green trees and bushes. Photo taken from a bridge with a metal railing visible in the foreground.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "Social media photo posted on 2015-12-03 17:20 UTC showing a flooded area with submerged vehicles and debris, including a white RV tilted and partially submerged, a white trailer with a blue tarp covering debris, and a white RV with a gray roof tilted and partially submerged. Surrounding area has dense green trees and bushes. Photo taken from a bridge with a metal railing visible in the foreground.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "Social media photo posted on 2015-12-03 17:45 UTC showing a flooded area with submerged vehicles and debris, including a white RV tilted and partially submerged, a white trailer with a blue tarp covering debris, and a white RV with a gray roof tilted and partially submerged. Surrounding area has dense green trees and bushes. Photo taken from a bridge with a metal railing visible in the foreground.",
+        "sources": ["E05"]
+      }
+    ]
+  },
+  {
+    "step": 6,
+    "tokens": 258,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Flooded area with submerged vehicles and debris, including a white RV tilted and partially submerged, a white trailer with a blue tarp covering debris, and a white RV with a gray roof tilted and partially submerged. Surrounding area has dense green trees and bushes. Photo taken from a bridge with a metal railing visible in the foreground. Social media photo posted on 2015-12-03 10:41 UTC.",
+        "sources": ["E01", "E02"]
+      },
+      {
+        "id": "m6",
+        "text": "Social media photo posted on 2015-12-04 03:38 UTC showing a flooded area with submerged vehicles and debris, including a white RV tilted and partially submerged, a white trailer with a blue tarp covering debris, and a white RV with a gray roof tilted and partially submerged. Surrounding area has dense green trees and bushes. Photo taken from a bridge with a metal railing visible in the foreground.",
+        "sources": ["E06"]
+      }
+    ]
+  },
+  {
+    "step": 7,
+    "tokens": 376,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Flooded area with submerged vehicles and debris, including a white RV tilted and partially submerged, a white trailer with a blue tarp covering debris, and a white RV with a gray roof tilted and partially submerged. Surrounding area has dense green trees and bushes. Photo taken from a bridge with a metal railing visible in the foreground. Social media photo posted on 2015-12-03 10:41 UTC.",
+        "sources": ["E01", "E02"]
+      },
+      {
+        "id": "m6",
+        "text": "Social media photo posted on 2015-12-04 03:38 UTC showing a flooded area with submerged vehicles and debris, including a white RV tilted and partially submerged, a white trailer with a blue tarp covering debris, and a white RV with a gray roof tilted and partially submerged. Surrounding area has dense green trees and bushes. Photo taken from a bridge with a metal railing visible in the foreground.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "Social media photo posted on 2015-12-04 04:24 UTC showing a flooded area with submerged vehicles and debris, including a white RV tilted and partially submerged, a white trailer with a blue tarp covering debris, and a white RV with a gray roof tilted and partially submerged. Surrounding area has dense green trees and bushes. Photo taken from a bridge with a metal railing visible in the foreground.",
+        "sources": ["E07"]
+      }
+    ]
+  },
+  {
+    "step": 8,
+    "tokens": 494,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Flooded area with submerged vehicles and debris, including a white RV tilted and partially submerged, a white trailer with a blue tarp covering debris, and a white RV with a gray roof tilted and partially submerged. Surrounding area has dense green trees and bushes. Photo taken from a bridge with a metal railing visible in the foreground. Social media photo posted on 2015-12-03 10:41 UTC.",
+        "sources": ["E01", "E02"]
+      },
+      {
+        "id": "m6",
+        "text": "Social media photo posted on 2015-12-04 03:38 UTC showing a flooded area with submerged vehicles and debris, including a white RV tilted and partially submerged, a white trailer with a blue tarp covering debris, and a white RV with a gray roof tilted and partially submerged. Surrounding area has dense green trees and bushes. Photo taken from a bridge with a metal railing visible in the foreground.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "Social media photo posted on 2015-12-04 04:24 UTC showing a flooded area with submerged vehicles and debris, including a white RV tilted and partially submerged, a white trailer with a blue tarp covering debris, and a white RV with a gray roof tilted and partially submerged. Surrounding area has dense green trees and bushes. Photo taken from a bridge with a metal railing visible in the foreground.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "Social media photo posted on 2015-12-04 07:54 UTC showing a flooded area with submerged vehicles and debris, including a white RV tilted and partially submerged, a white trailer with a blue tarp covering debris, and a white RV with a gray roof tilted and partially submerged. Surrounding area has dense green trees and bushes. Photo taken from a bridge with a metal railing visible in the foreground.",
+        "sources": ["E08"]
+      }
+    ]
+  },
+  {
+    "step": 9,
+    "tokens": 472,
+    "lines": [
+      {
+        "id": "m6",
+        "text": "Social media photo posted on 2015-12-04 03:38 UTC showing a flooded area with submerged vehicles and debris, including a white RV tilted and partially submerged, a white trailer with a blue tarp covering debris, and a white RV with a gray roof tilted and partially submerged. Surrounding area has dense green trees and bushes. Photo taken from a bridge with a metal railing visible in the foreground.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "Social media photo posted on 2015-12-04 04:24 UTC showing a flooded area with submerged vehicles and debris, including a white RV tilted and partially submerged, a white trailer with a blue tarp covering debris, and a white RV with a gray roof tilted and partially submerged. Surrounding area has dense green trees and bushes. Photo taken from a bridge with a metal railing visible in the foreground.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "Social media photo posted on 2015-12-04 07:54 UTC showing a flooded area with submerged vehicles and debris, including a white RV tilted and partially submerged, a white trailer with a blue tarp covering debris, and a white RV with a gray roof tilted and partially submerged. Surrounding area has dense green trees and bushes. Photo taken from a bridge with a metal railing visible in the foreground.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "Social media photo posted on 2015-12-04 08:05 UTC showing a flooded area with submerged vehicles and debris, including a white RV tilted and partially submerged, a white trailer with a blue tarp covering debris, and a white RV with a gray roof tilted and partially submerged. Surrounding area has dense green trees and bushes. Photo taken from a bridge with a metal railing visible in the foreground.",
+        "sources": ["E09"]
+      }
+    ]
+  },
+  {
+    "step": 10,
+    "tokens": 237,
+    "lines": [
+      {
+        "id": "m6",
+        "text": "Social media photo posted on 2015-12-04 03:38 UTC showing a flooded area with submerged vehicles and debris, including a white RV tilted and partially submerged, a white trailer with a blue tarp covering debris, and a white RV with a gray roof tilted and partially submerged. Surrounding area has dense green trees and bushes. Photo taken from a bridge with a metal railing visible in the foreground.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m10",
+        "text": "Social media photo posted on 2015-12-04 17:45 UTC showing a flooded area with submerged vehicles and debris, including a white RV tilted and partially submerged, a white trailer with a blue tarp covering debris, and a white RV with a gray roof tilted and partially submerged. Surrounding area has dense green trees and bushes. Photo taken from a bridge with a metal railing visible in the foreground.",
+        "sources": ["E10"]
+      }
+    ]
+  }
+]

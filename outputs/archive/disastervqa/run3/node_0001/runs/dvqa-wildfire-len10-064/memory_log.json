@@ -1,0 +1,589 @@
+[
+  {
+    "item_id": "E01",
+    "step": 1,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"A social media photo posted on Twitter on October 12, 2017, at 03:11 UTC, depicting a wildfire scene with multiple fires burning on the ground, silhouettes of two individuals observing the fire, and a hazy sky due to smoke. The fire appears to be consuming dry vegetation and debris, with visible flames and sparks. The location is not specified, but the environment suggests a natural, outdoor setting.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo posted on Twitter on October 12, 2017, at 03:11 UTC, depicting a wildfire scene with multiple fires burning on the ground, silhouettes of two individuals observing the fire, and a hazy sky due to smoke. The fire appears to be consuming dry vegetation and debris, with visible flames and sparks. The location is not specified, but the environment suggests a natural, outdoor setting.",
+              "sources": ["E01"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 120
+      }
+    ],
+    "tokens": 120,
+    "n_lines": 1,
+    "secs": 10.53
+  },
+  {
+    "item_id": "E02",
+    "step": 2,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"A social media photo posted on Twitter on October 12, 2017, at 03:14 UTC, showing a wildfire with flames and smoke in a natural outdoor setting. The location is unspecified.\",",
+          "      \"sources\": [\"E02\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"A social media photo posted on Twitter on October 12, 2017, at 03:11 UTC, depicting a wildfire scene with multiple fires burning on the ground, silhouettes of two individuals observing the fire, and a hazy sky due to smoke. The fire appears to be consuming dry vegetation and debris, with visible flames and sparks. The location is not specified, but the environment suggests a natural, outdoor setting.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo posted on Twitter on October 12, 2017, at 03:14 UTC, showing a wildfire with flames and smoke in a natural outdoor setting. The location is unspecified.",
+              "sources": ["E02"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo posted on Twitter on October 12, 2017, at 03:11 UTC, depicting a wildfire scene with multiple fires burning on the ground, silhouettes of two individuals observing the fire, and a hazy sky due to smoke. The fire appears to be consuming dry vegetation and debris, with visible flames and sparks. The location is not specified, but the environment suggests a natural, outdoor setting.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 194
+      }
+    ],
+    "tokens": 194,
+    "n_lines": 2,
+    "secs": 15.45
+  },
+  {
+    "item_id": "E03",
+    "step": 3,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"A social media photo posted on Twitter on October 12, 2017, at 03:22 UTC, depicting a wildfire scene with flames and smoke in a natural outdoor setting. The location is unspecified.\",",
+          "      \"sources\": [\"E03\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"A social media photo posted on Twitter on October 12, 2017, at 03:11 UTC, depicting a wildfire scene with multiple fires burning on the ground, silhouettes of two individuals observing the fire, and a hazy sky due to smoke. The fire appears to be consuming dry vegetation and debris, with visible flames and sparks. The location is not specified, but the environment suggests a natural, outdoor setting.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": [\"m2\"]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo posted on Twitter on October 12, 2017, at 03:22 UTC, depicting a wildfire scene with flames and smoke in a natural outdoor setting. The location is unspecified.",
+              "sources": ["E03"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo posted on Twitter on October 12, 2017, at 03:11 UTC, depicting a wildfire scene with multiple fires burning on the ground, silhouettes of two individuals observing the fire, and a hazy sky due to smoke. The fire appears to be consuming dry vegetation and debris, with visible flames and sparks. The location is not specified, but the environment suggests a natural, outdoor setting.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": [],
+        "tokens_after": 195
+      }
+    ],
+    "tokens": 195,
+    "n_lines": 2,
+    "secs": 16.14
+  },
+  {
+    "item_id": "E04",
+    "step": 4,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"A social media photo posted on Twitter on October 12, 2017, at 08:25 UTC, depicting a wildfire scene with flames and smoke in a natural outdoor setting. The location is unspecified.\",",
+          "      \"sources\": [\"E04\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"A social media photo posted on Twitter on October 12, 2017, at 03:11 UTC, depicting a wildfire scene with multiple fires burning on the ground, silhouettes of two individuals observing the fire, and a hazy sky due to smoke. The fire appears to be consuming dry vegetation and debris, with visible flames and sparks. The location is not specified, but the environment suggests a natural, outdoor setting.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo posted on Twitter on October 12, 2017, at 08:25 UTC, depicting a wildfire scene with flames and smoke in a natural outdoor setting. The location is unspecified.",
+              "sources": ["E04"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo posted on Twitter on October 12, 2017, at 03:11 UTC, depicting a wildfire scene with multiple fires burning on the ground, silhouettes of two individuals observing the fire, and a hazy sky due to smoke. The fire appears to be consuming dry vegetation and debris, with visible flames and sparks. The location is not specified, but the environment suggests a natural, outdoor setting.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 270
+      }
+    ],
+    "tokens": 270,
+    "n_lines": 3,
+    "secs": 15.46
+  },
+  {
+    "item_id": "E05",
+    "step": 5,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"A social media photo posted on Twitter on October 17, 2017, at 16:04 UTC, depicting a wildfire scene with flames and smoke in a natural outdoor setting. The location is unspecified.\",",
+          "      \"sources\": [\"E05\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"A social media photo posted on Twitter on October 12, 2017, at 03:11 UTC, depicting a wildfire scene with multiple fires burning on the ground, silhouettes of two individuals observing the fire, and a hazy sky due to smoke. The fire appears to be consuming dry vegetation and debris, with visible flames and sparks. The location is not specified, but the environment suggests a natural, outdoor setting.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo posted on Twitter on October 17, 2017, at 16:04 UTC, depicting a wildfire scene with flames and smoke in a natural outdoor setting. The location is unspecified.",
+              "sources": ["E05"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo posted on Twitter on October 12, 2017, at 03:11 UTC, depicting a wildfire scene with multiple fires burning on the ground, silhouettes of two individuals observing the fire, and a hazy sky due to smoke. The fire appears to be consuming dry vegetation and debris, with visible flames and sparks. The location is not specified, but the environment suggests a natural, outdoor setting.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 345
+      }
+    ],
+    "tokens": 345,
+    "n_lines": 4,
+    "secs": 15.45
+  },
+  {
+    "item_id": "E06",
+    "step": 6,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"A social media photo posted on Twitter on October 18, 2017, at 07:23 UTC, depicting a wildfire scene with flames and smoke in a natural outdoor setting. The location is unspecified.\",",
+          "      \"sources\": [\"E06\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"A social media photo posted on Twitter on October 12, 2017, at 03:11 UTC, depicting a wildfire scene with multiple fires burning on the ground, silhouettes of two individuals observing the fire, and a hazy sky due to smoke. The fire appears to be consuming dry vegetation and debris, with visible flames and sparks. The location is not specified, but the environment suggests a natural, outdoor setting.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo posted on Twitter on October 18, 2017, at 07:23 UTC, depicting a wildfire scene with flames and smoke in a natural outdoor setting. The location is unspecified.",
+              "sources": ["E06"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo posted on Twitter on October 12, 2017, at 03:11 UTC, depicting a wildfire scene with multiple fires burning on the ground, silhouettes of two individuals observing the fire, and a hazy sky due to smoke. The fire appears to be consuming dry vegetation and debris, with visible flames and sparks. The location is not specified, but the environment suggests a natural, outdoor setting.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 420
+      }
+    ],
+    "tokens": 420,
+    "n_lines": 5,
+    "secs": 16.02
+  },
+  {
+    "item_id": "E07",
+    "step": 7,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"A social media photo posted on Twitter on October 18, 2017, at 20:21 UTC, depicting a wildfire scene with flames and smoke in a natural outdoor setting. The location is unspecified.\",",
+          "      \"sources\": [\"E07\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"A social media photo posted on Twitter on October 12, 2017, at 03:11 UTC, depicting a wildfire scene with multiple fires burning on the ground, silhouettes of two individuals observing the fire, and a hazy sky due to smoke. The fire appears to be consuming dry vegetation and debris, with visible flames and sparks. The location is not specified, but the environment suggests a natural, outdoor setting.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo posted on Twitter on October 18, 2017, at 20:21 UTC, depicting a wildfire scene with flames and smoke in a natural outdoor setting. The location is unspecified.",
+              "sources": ["E07"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo posted on Twitter on October 12, 2017, at 03:11 UTC, depicting a wildfire scene with multiple fires burning on the ground, silhouettes of two individuals observing the fire, and a hazy sky due to smoke. The fire appears to be consuming dry vegetation and debris, with visible flames and sparks. The location is not specified, but the environment suggests a natural, outdoor setting.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 495
+      }
+    ],
+    "tokens": 495,
+    "n_lines": 6,
+    "secs": 15.94
+  },
+  {
+    "item_id": "E08",
+    "step": 8,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"A social media photo posted on Twitter on October 19, 2017, at 07:36 UTC, depicting a wildfire scene with flames and smoke in a natural outdoor setting. The location is unspecified.\",",
+          "      \"sources\": [\"E08\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"A social media photo posted on Twitter on October 12, 2017, at 03:11 UTC, depicting a wildfire scene with multiple fires burning on the ground, silhouettes of two individuals observing the fire, and a hazy sky due to smoke. The fire appears to be consuming dry vegetation and debris, with visible flames and sparks. The location is not specified, but the environment suggests a natural, outdoor setting.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo posted on Twitter on October 19, 2017, at 07:36 UTC, depicting a wildfire scene with flames and smoke in a natural outdoor setting. The location is unspecified.",
+              "sources": ["E08"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo posted on Twitter on October 12, 2017, at 03:11 UTC, depicting a wildfire scene with multiple fires burning on the ground, silhouettes of two individuals observing the fire, and a hazy sky due to smoke. The fire appears to be consuming dry vegetation and debris, with visible flames and sparks. The location is not specified, but the environment suggests a natural, outdoor setting.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 570
+      },
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"A social media photo posted on Twitter on October 19, 2017, at 07:36 UTC, depicting a wildfire scene with flames and smoke in a natural outdoor setting. The location is unspecified.\",",
+          "      \"sources\": [\"E08\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"A social media photo posted on Twitter on October 12, 2017, at 03:11 UTC, depicting a wildfire scene with multiple fires burning on the ground, silhouettes of two individuals observing the fire, and a hazy sky due to smoke. The fire appears to be consuming dry vegetation and debris, with visible flames and sparks. The location is not specified, but the environment suggests a natural, outdoor setting.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": [\"m2\"]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo posted on Twitter on October 19, 2017, at 07:36 UTC, depicting a wildfire scene with flames and smoke in a natural outdoor setting. The location is unspecified.",
+              "sources": ["E08"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo posted on Twitter on October 12, 2017, at 03:11 UTC, depicting a wildfire scene with multiple fires burning on the ground, silhouettes of two individuals observing the fire, and a hazy sky due to smoke. The fire appears to be consuming dry vegetation and debris, with visible flames and sparks. The location is not specified, but the environment suggests a natural, outdoor setting.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 570
+      }
+    ],
+    "fallback": "budget_evict_oldest",
+    "evicted": [
+      {
+        "id": "m1",
+        "text": "A social media photo posted on Twitter on October 12, 2017, at 03:11 UTC, depicting a wildfire scene with multiple fires burning on the ground, silhouettes of two individuals observing the fire, and a hazy sky due to smoke. The fire appears to be consuming dry vegetation and debris, with visible flames and sparks. The location is not specified, but the environment suggests a natural, outdoor setting.",
+        "sources": ["E01"]
+      }
+    ],
+    "tokens": 450,
+    "n_lines": 6,
+    "secs": 32.39
+  },
+  {
+    "item_id": "E09",
+    "step": 9,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"A social media photo posted on Twitter on October 19, 2017, at 07:36 UTC, depicting a wildfire scene with flames and smoke in a natural outdoor setting. The location is unspecified.\",",
+          "      \"sources\": [\"E09\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo posted on Twitter on October 19, 2017, at 07:36 UTC, depicting a wildfire scene with flames and smoke in a natural outdoor setting. The location is unspecified.",
+              "sources": ["E09"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 525
+      },
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"A social media photo posted on Twitter on October 19, 2017, at 07:36 UTC, depicting a wildfire scene with flames and smoke in a natural outdoor setting. The location is unspecified.\",",
+          "      \"sources\": [\"E09\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo posted on Twitter on October 19, 2017, at 07:36 UTC, depicting a wildfire scene with flames and smoke in a natural outdoor setting. The location is unspecified.",
+              "sources": ["E09"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 525
+      }
+    ],
+    "fallback": "budget_evict_oldest",
+    "evicted": [
+      {
+        "id": "m3",
+        "text": "A social media photo posted on Twitter on October 12, 2017, at 03:22 UTC, depicting a wildfire scene with flames and smoke in a natural outdoor setting. The location is unspecified.",
+        "sources": ["E03"]
+      }
+    ],
+    "tokens": 450,
+    "n_lines": 6,
+    "secs": 14.84
+  },
+  {
+    "item_id": "E10",
+    "step": 10,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"A social media photo posted on Twitter on October 20, 2017, at 11:11 UTC, depicting a wildfire scene with flames and smoke in a natural outdoor setting. The location is unspecified.\",",
+          "      \"sources\": [\"E10\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo posted on Twitter on October 20, 2017, at 11:11 UTC, depicting a wildfire scene with flames and smoke in a natural outdoor setting. The location is unspecified.",
+              "sources": ["E10"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 526
+      },
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"A social media photo posted on Twitter on October 20, 2017, at 11:11 UTC, depicting a wildfire scene with flames and smoke in a natural outdoor setting. The location is unspecified.\",",
+          "      \"sources\": [\"E10\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo posted on Twitter on October 20, 2017, at 11:11 UTC, depicting a wildfire scene with flames and smoke in a natural outdoor setting. The location is unspecified.",
+              "sources": ["E10"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 526
+      }
+    ],
+    "fallback": "budget_evict_oldest",
+    "evicted": [
+      {
+        "id": "m4",
+        "text": "A social media photo posted on Twitter on October 12, 2017, at 08:25 UTC, depicting a wildfire scene with flames and smoke in a natural outdoor setting. The location is unspecified.",
+        "sources": ["E04"]
+      }
+    ],
+    "tokens": 451,
+    "n_lines": 6,
+    "secs": 14.87
+  }
+]

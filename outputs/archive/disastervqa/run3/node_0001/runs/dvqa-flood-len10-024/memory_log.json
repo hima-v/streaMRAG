@@ -1,0 +1,484 @@
+[
+  {
+    "item_id": "E01",
+    "step": 1,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Flooded area with submerged vehicles, including a white RV tilted on its side and a partially submerged white trailer. Debris and uprooted trees are visible in the water. Dense trees line the background, and the water appears murky brown. Location: near a road with a guardrail in the foreground. Timestamp: 2015-10-08 23:05 UTC.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Flooded area with submerged vehicles, including a white RV tilted on its side and a partially submerged white trailer. Debris and uprooted trees are visible in the water. Dense trees line the background, and the water appears murky brown. Location: near a road with a guardrail in the foreground. Timestamp: 2015-10-08 23:05 UTC.",
+              "sources": ["E01"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 110
+      }
+    ],
+    "tokens": 110,
+    "n_lines": 1,
+    "secs": 10.61
+  },
+  {
+    "item_id": "E02",
+    "step": 2,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Flooded street with submerged vehicles, including a white van with yellow stripe. Water level reaches mid-wheel. Buildings and market stalls line the road. People visible wading in water. Location: urban area with streetlights and power lines. Timestamp: 2015-12-03 10:41 UTC.\",",
+          "      \"sources\": [\"E02\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"Flooded area with submerged vehicles, including a white RV tilted on its side and a partially submerged white trailer. Debris and uprooted trees are visible in the water. Dense trees line the background, and the water appears murky brown. Location: near a road with a guardrail in the foreground. Timestamp: 2015-10-08 23:05 UTC.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Flooded street with submerged vehicles, including a white van with yellow stripe. Water level reaches mid-wheel. Buildings and market stalls line the road. People visible wading in water. Location: urban area with streetlights and power lines. Timestamp: 2015-12-03 10:41 UTC.",
+              "sources": ["E02"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Flooded area with submerged vehicles, including a white RV tilted on its side and a partially submerged white trailer. Debris and uprooted trees are visible in the water. Dense trees line the background, and the water appears murky brown. Location: near a road with a guardrail in the foreground. Timestamp: 2015-10-08 23:05 UTC.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 206
+      }
+    ],
+    "tokens": 206,
+    "n_lines": 2,
+    "secs": 16.53
+  },
+  {
+    "item_id": "E03",
+    "step": 3,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Flooded area with submerged vehicles, including a white RV tilted on its side and a partially submerged white trailer. Debris and uprooted trees are visible in the water. Dense trees line the background, and the water appears murky brown. Location: near a road with a guardrail in the foreground. Timestamp: 2015-10-08 23:05 UTC.\",",
+          "      \"sources\": [\"E03\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"Flooded area with submerged vehicles, including a white RV tilted on its side and a partially submerged white trailer. Debris and uprooted trees are visible in the water. Dense trees line the background, and the water appears murky brown. Location: near a road with a guardrail in the foreground. Timestamp: 2015-10-08 23:05 UTC.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": [\"m2\"]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Flooded area with submerged vehicles, including a white RV tilted on its side and a partially submerged white trailer. Debris and uprooted trees are visible in the water. Dense trees line the background, and the water appears murky brown. Location: near a road with a guardrail in the foreground. Timestamp: 2015-10-08 23:05 UTC.",
+              "sources": ["E03"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Flooded area with submerged vehicles, including a white RV tilted on its side and a partially submerged white trailer. Debris and uprooted trees are visible in the water. Dense trees line the background, and the water appears murky brown. Location: near a road with a guardrail in the foreground. Timestamp: 2015-10-08 23:05 UTC.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": [],
+        "tokens_after": 220
+      }
+    ],
+    "tokens": 220,
+    "n_lines": 2,
+    "secs": 19.01
+  },
+  {
+    "item_id": "E04",
+    "step": 4,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo (Twitter) showing a flooded area with submerged vehicles, including a white RV tilted on its side and a partially submerged white trailer. Debris and uprooted trees are visible in the water. Dense trees line the background, and the water appears murky brown. Location: near a road with a guardrail in the foreground. Timestamp: 2015-12-03 17:20 UTC.\",",
+          "      \"sources\": [\"E04\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"Flooded area with submerged vehicles, including a white RV tilted on its side and a partially submerged white trailer. Debris and uprooted trees are visible in the water. Dense trees line the background, and the water appears murky brown. Location: near a road with a guardrail in the foreground. Timestamp: 2015-10-08 23:05 UTC.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": [\"m2\"]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo (Twitter) showing a flooded area with submerged vehicles, including a white RV tilted on its side and a partially submerged white trailer. Debris and uprooted trees are visible in the water. Dense trees line the background, and the water appears murky brown. Location: near a road with a guardrail in the foreground. Timestamp: 2015-12-03 17:20 UTC.",
+              "sources": ["E04"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Flooded area with submerged vehicles, including a white RV tilted on its side and a partially submerged white trailer. Debris and uprooted trees are visible in the water. Dense trees line the background, and the water appears murky brown. Location: near a road with a guardrail in the foreground. Timestamp: 2015-10-08 23:05 UTC.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 337
+      }
+    ],
+    "tokens": 337,
+    "n_lines": 3,
+    "secs": 18.48
+  },
+  {
+    "item_id": "E05",
+    "step": 5,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo (Twitter) showing a flooded area with submerged vehicles, including a white RV tilted on its side and a partially submerged white trailer. Debris and uprooted trees are visible in the water. Dense trees line the background, and the water appears murky brown. Location: near a road with a guardrail in the foreground. Timestamp: 2015-12-03 17:45 UTC.\",",
+          "      \"sources\": [\"E05\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"Flooded area with submerged vehicles, including a white RV tilted on its side and a partially submerged white trailer. Debris and uprooted trees are visible in the water. Dense trees line the background, and the water appears murky brown. Location: near a road with a guardrail in the foreground. Timestamp: 2015-10-08 23:05 UTC.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": [\"m2\"]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo (Twitter) showing a flooded area with submerged vehicles, including a white RV tilted on its side and a partially submerged white trailer. Debris and uprooted trees are visible in the water. Dense trees line the background, and the water appears murky brown. Location: near a road with a guardrail in the foreground. Timestamp: 2015-12-03 17:45 UTC.",
+              "sources": ["E05"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Flooded area with submerged vehicles, including a white RV tilted on its side and a partially submerged white trailer. Debris and uprooted trees are visible in the water. Dense trees line the background, and the water appears murky brown. Location: near a road with a guardrail in the foreground. Timestamp: 2015-10-08 23:05 UTC.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 454
+      }
+    ],
+    "tokens": 454,
+    "n_lines": 4,
+    "secs": 18.58
+  },
+  {
+    "item_id": "E06",
+    "step": 6,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo (Twitter) showing a flooded area with submerged vehicles, including a white RV tilted on its side and a partially submerged white trailer. Debris and uprooted trees are visible in the water. Dense trees line the background, and the water appears murky brown. Location: near a road with a guardrail in the foreground. Timestamp: 2015-12-04 03:38 UTC.\",",
+          "      \"sources\": [\"E06\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"Flooded area with submerged vehicles, including a white RV tilted on its side and a partially submerged white trailer. Debris and uprooted trees are visible in the water. Dense trees line the background, and the water appears murky brown. Location: near a road with a guardrail in the foreground. Timestamp: 2015-10-08 23:05 UTC.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": [\"m2\"]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo (Twitter) showing a flooded area with submerged vehicles, including a white RV tilted on its side and a partially submerged white trailer. Debris and uprooted trees are visible in the water. Dense trees line the background, and the water appears murky brown. Location: near a road with a guardrail in the foreground. Timestamp: 2015-12-04 03:38 UTC.",
+              "sources": ["E06"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Flooded area with submerged vehicles, including a white RV tilted on its side and a partially submerged white trailer. Debris and uprooted trees are visible in the water. Dense trees line the background, and the water appears murky brown. Location: near a road with a guardrail in the foreground. Timestamp: 2015-10-08 23:05 UTC.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 571
+      },
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo (Twitter) showing a flooded area with submerged vehicles, including a white RV tilted on its side and a partially submerged white trailer. Debris and uprooted trees are visible in the water. Dense trees line the background, and the water appears murky brown. Location: near a road with a guardrail in the foreground. Timestamp: 2015-12-04 03:38 UTC.\",",
+          "      \"sources\": [\"E06\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"Flooded area with submerged vehicles, including a white RV tilted on its side and a partially submerged white trailer. Debris and uprooted trees are visible in the water. Dense trees line the background, and the water appears murky brown. Location: near a road with a guardrail in the foreground. Timestamp: 2015-10-08 23:05 UTC.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": [\"m2\", \"m3\", \"m4\", \"m5\"]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo (Twitter) showing a flooded area with submerged vehicles, including a white RV tilted on its side and a partially submerged white trailer. Debris and uprooted trees are visible in the water. Dense trees line the background, and the water appears murky brown. Location: near a road with a guardrail in the foreground. Timestamp: 2015-12-04 03:38 UTC.",
+              "sources": ["E06"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Flooded area with submerged vehicles, including a white RV tilted on its side and a partially submerged white trailer. Debris and uprooted trees are visible in the water. Dense trees line the background, and the water appears murky brown. Location: near a road with a guardrail in the foreground. Timestamp: 2015-10-08 23:05 UTC.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2", "m3", "m4", "m5"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 227
+      }
+    ],
+    "tokens": 227,
+    "n_lines": 2,
+    "secs": 38.47
+  },
+  {
+    "item_id": "E07",
+    "step": 7,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo (Twitter) showing a flooded area with submerged vehicles, including a white RV tilted on its side and a partially submerged white trailer. Debris and uprooted trees are visible in the water. Dense trees line the background, and the water appears murky brown. Location: near a road with a guardrail in the foreground. Timestamp: 2015-12-04 04:24 UTC.\",",
+          "      \"sources\": [\"E07\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m6\",",
+          "      \"text\": \"Social media photo (Twitter) showing a flooded area with submerged vehicles, including a white RV tilted on its side and a partially submerged white trailer. Debris and uprooted trees are visible in the water. Dense trees line the background, and the water appears murky brown. Location: near a road with a guardrail in the foreground. Timestamp: 2015-12-04 03:38 UTC.\",",
+          "      \"sources\": [\"E06\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": [\"m1\"]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo (Twitter) showing a flooded area with submerged vehicles, including a white RV tilted on its side and a partially submerged white trailer. Debris and uprooted trees are visible in the water. Dense trees line the background, and the water appears murky brown. Location: near a road with a guardrail in the foreground. Timestamp: 2015-12-04 04:24 UTC.",
+              "sources": ["E07"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m6",
+              "text": "Social media photo (Twitter) showing a flooded area with submerged vehicles, including a white RV tilted on its side and a partially submerged white trailer. Debris and uprooted trees are visible in the water. Dense trees line the background, and the water appears murky brown. Location: near a road with a guardrail in the foreground. Timestamp: 2015-12-04 03:38 UTC.",
+              "sources": ["E06"]
+            }
+          ],
+          "delete": ["m1"]
+        },
+        "problems": [],
+        "tokens_after": 234
+      }
+    ],
+    "tokens": 234,
+    "n_lines": 2,
+    "secs": 19.02
+  },
+  {
+    "item_id": "E08",
+    "step": 8,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo (Twitter) showing a flooded area with submerged vehicles, including a white RV tilted on its side and a partially submerged white trailer. Debris and uprooted trees are visible in the water. Dense trees line the background, and the water appears murky brown. Location: near a road with a guardrail in the foreground. Timestamp: 2015-12-04 07:54 UTC.\",",
+          "      \"sources\": [\"E08\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo (Twitter) showing a flooded area with submerged vehicles, including a white RV tilted on its side and a partially submerged white trailer. Debris and uprooted trees are visible in the water. Dense trees line the background, and the water appears murky brown. Location: near a road with a guardrail in the foreground. Timestamp: 2015-12-04 07:54 UTC.",
+              "sources": ["E08"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 351
+      }
+    ],
+    "tokens": 351,
+    "n_lines": 3,
+    "secs": 10.41
+  },
+  {
+    "item_id": "E09",
+    "step": 9,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo (Twitter) showing a flooded area with submerged vehicles, including a white RV tilted on its side and a partially submerged white trailer. Debris and uprooted trees are visible in the water. Dense trees line the background, and the water appears murky brown. Location: near a road with a guardrail in the foreground. Timestamp: 2015-12-04 08:05 UTC.\",",
+          "      \"sources\": [\"E09\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo (Twitter) showing a flooded area with submerged vehicles, including a white RV tilted on its side and a partially submerged white trailer. Debris and uprooted trees are visible in the water. Dense trees line the background, and the water appears murky brown. Location: near a road with a guardrail in the foreground. Timestamp: 2015-12-04 08:05 UTC.",
+              "sources": ["E09"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 468
+      }
+    ],
+    "tokens": 468,
+    "n_lines": 4,
+    "secs": 10.45
+  },
+  {
+    "item_id": "E10",
+    "step": 10,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"Social media photo (Twitter) showing a flooded area with submerged vehicles, including a white RV tilted on its side and a partially submerged white trailer. Debris and uprooted trees are visible in the water. Dense trees line the background, and the water appears murky brown. Location: near a road with a guardrail in the foreground. Timestamp: 2015-12-04 17:45 UTC.\", \"sources\": [\"E10\"]}], \"update\": [], \"delete\": [\"m7\", \"m8\", \"m9\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo (Twitter) showing a flooded area with submerged vehicles, including a white RV tilted on its side and a partially submerged white trailer. Debris and uprooted trees are visible in the water. Dense trees line the background, and the water appears murky brown. Location: near a road with a guardrail in the foreground. Timestamp: 2015-12-04 17:45 UTC.",
+              "sources": ["E10"]
+            }
+          ],
+          "update": [],
+          "delete": ["m7", "m8", "m9"]
+        },
+        "problems": [],
+        "tokens_after": 235
+      }
+    ],
+    "tokens": 235,
+    "n_lines": 2,
+    "secs": 9.56
+  }
+]

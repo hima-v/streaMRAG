@@ -1,0 +1,105 @@
+{
+  "esqa_mean": 0.08,
+  "correct_count": "2/25",
+  "retention_final": 0.28,
+  "abstained": 0.36,
+  "budget_fallbacks": 5,
+  "categories": {
+    "invalid_citation": 8,
+    "abstained_evidence_missing": 7,
+    "wrong_answer_evidence_missing": 3,
+    "correct": 2,
+    "unnecessary_abstention": 2,
+    "wrong_answer_evidence_in_memory": 3
+  },
+  "streams": {
+    "dvqa-hurricane-len10-010": {
+      "esqa_mean": 0.0,
+      "answered_correct": 0.4,
+      "abstained": 0.4,
+      "correct_count": "0/5",
+      "retention_final": 0.0,
+      "categories": {
+        "invalid_citation": 2,
+        "abstained_evidence_missing": 2,
+        "wrong_answer_evidence_missing": 1
+      },
+      "budget_fallbacks": 1,
+      "final_memory_tokens": 286,
+      "final_memory_lines": 3,
+      "n_questions": 5,
+      "n_items": 10
+    },
+    "dvqa-flood-len10-024": {
+      "esqa_mean": 0.2,
+      "answered_correct": 0.4,
+      "abstained": 0.2,
+      "correct_count": "1/5",
+      "retention_final": 0.8,
+      "categories": {
+        "correct": 1,
+        "invalid_citation": 1,
+        "unnecessary_abstention": 1,
+        "wrong_answer_evidence_in_memory": 2
+      },
+      "budget_fallbacks": 1,
+      "final_memory_tokens": 461,
+      "final_memory_lines": 4,
+      "n_questions": 5,
+      "n_items": 10
+    },
+    "dvqa-earthquake-len10-054": {
+      "esqa_mean": 0.0,
+      "answered_correct": 0.2,
+      "abstained": 0.4,
+      "correct_count": "0/5",
+      "retention_final": 0.4,
+      "categories": {
+        "abstained_evidence_missing": 1,
+        "invalid_citation": 1,
+        "wrong_answer_evidence_missing": 1,
+        "unnecessary_abstention": 1,
+        "wrong_answer_evidence_in_memory": 1
+      },
+      "budget_fallbacks": 1,
+      "final_memory_tokens": 495,
+      "final_memory_lines": 3,
+      "n_questions": 5,
+      "n_items": 10
+    },
+    "dvqa-wildfire-len10-064": {
+      "esqa_mean": 0.2,
+      "answered_correct": 0.8,
+      "abstained": 0.2,
+      "correct_count": "1/5",
+      "retention_final": 0.2,
+      "categories": {
+        "invalid_citation": 3,
+        "abstained_evidence_missing": 1,
+        "correct": 1
+      },
+      "budget_fallbacks": 1,
+      "final_memory_tokens": 460,
+      "final_memory_lines": 5,
+      "n_questions": 5,
+      "n_items": 10
+    },
+    "dvqa-fire-len10-066": {
+      "esqa_mean": 0.0,
+      "answered_correct": 0.2,
+      "abstained": 0.6,
+      "correct_count": "0/5",
+      "retention_final": 0.0,
+      "categories": {
+        "wrong_answer_evidence_missing": 1,
+        "abstained_evidence_missing": 3,
+        "invalid_citation": 1
+      },
+      "budget_fallbacks": 1,
+      "final_memory_tokens": 263,
+      "final_memory_lines": 3,
+      "n_questions": 5,
+      "n_items": 10
+    }
+  }
+}

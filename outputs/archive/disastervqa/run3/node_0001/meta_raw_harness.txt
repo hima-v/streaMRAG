@@ -1,0 +1,17 @@
+<harness>
+**Meta Harness:**  
+"Optimize the memory management system by prioritizing retention of diverse spatial-temporal context and critical details (e.g., timestamps, locations, event-specific features like 'submerged vehicles' or 'collapsed buildings'). When adding new items, compare their uniqueness against existing entries using semantic similarity checks rather than strict duplication. If similar content exists within the same geographic or temporal proximity (e.g., multiple images of the same flood zone taken hours apart), merge key details into a consolidated summary. Retain only essential metadata (date/time, location, unique identifiers) alongside summaries to minimize token usage while preserving retrieval accuracy."  
+
+**Evaluation Criteria:**  
+1. **Token Efficiency:** Ensure merged/metadata-only storage keeps total memory under 512 tokens per batch.  
+2. **Retrieval Accuracy:** Validate that merged entries enable correct answers when queried post-deletion cycles.  
+3. **Contextual Preservation:** Maintain ability to answer questions requiring cross-image inferences (e.g., "What changed between Day 1 and Day 3 floods?").  
+</harness>
+
+<rationale>  
+This revised harness addresses three core weaknesses observed in prior evaluations:  
+1. **Temporal/Spatial Context Loss**: By mandating timestamp-location metadata preservation, it mitigates errors where identical-looking events (e.g., sequential flood photos) overwrote unique contextual clues needed for answering "condition change" questions.  
+2. **Redundant Detail Storage**: Merging repetitive visual descriptions (e.g., four flood images showing "cars submerged") reduces token bloat without losing critical data points like exact dates or coordinates.  
+3. **Cross-Image Inference Support**: Consolidated entries retain enough variance to support comparisons (e.g., tracking brick vs. concrete debris across earthquake scenes), fixing failures in streams requiring multi-step reasoning.  
+
+The evaluation criteria enforce practical constraints: token budgets mirror real-world limitations, while retrieval tests ensure merged data remains actionable. This approach balances depth and efficiency better than naive FIFO eviction policies seen in earlier implementations.

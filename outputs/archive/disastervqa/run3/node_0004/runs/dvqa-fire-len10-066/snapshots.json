@@ -1,0 +1,277 @@
+[
+  {
+    "step": 1,
+    "tokens": 82,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Firefighters in full gear respond to a nighttime blaze at a multi-story building. Multiple fire trucks with extended ladders are positioned against the structure, and an American flag is visible. The scene is illuminated by emergency lights, with smoke rising from the building.",
+        "sources": ["E01"]
+      }
+    ]
+  },
+  {
+    "step": 2,
+    "tokens": 249,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Firefighters in full gear respond to a nighttime blaze at a multi-story building. Multiple fire trucks with extended ladders are positioned against the structure, and an American flag is visible. The scene is illuminated by emergency lights, with smoke rising from the building. A firefighter stands on a fire truck, observing the blaze. The fire is intense, with flames visible through the windows of the building. The scene is illuminated by emergency lights, and smoke is rising into the night sky. A white car and a silver SUV are parked nearby, with a tree partially visible on the right side of the image.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "A firefighter stands on a fire truck, observing the blaze. The fire is intense, with flames visible through the windows of the building. The scene is illuminated by emergency lights, and smoke is rising into the night sky. A white car and a silver SUV are parked nearby, with a tree partially visible on the right side of the image.",
+        "sources": ["E02"]
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "tokens": 217,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Firefighters in full gear respond to a nighttime blaze at a multi-story building. Multiple fire trucks with extended ladders are positioned against the structure, and an American flag is visible. The scene is illuminated by emergency lights, with smoke rising from the building. A firefighter stands on a fire truck, observing the blaze. The fire is intense, with flames visible through the windows of the building. The scene is illuminated by emergency lights, and smoke is rising into the night sky. A white car and a silver SUV are parked nearby, with a tree partially visible on the right side of the image.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo posted on 2017-06-01 13:57 UTC shows a damaged vehicle and debris, possibly related to the fire incident.",
+        "sources": ["E03"]
+      }
+    ]
+  },
+  {
+    "step": 4,
+    "tokens": 282,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Firefighters in full gear respond to a nighttime blaze at a multi-story building. Multiple fire trucks with extended ladders are positioned against the structure, and an American flag is visible. The scene is illuminated by emergency lights, with smoke rising from the building. A firefighter stands on a fire truck, observing the blaze. The fire is intense, with flames visible through the windows of the building. The scene is illuminated by emergency lights, and smoke is rising into the night sky. A white car and a silver SUV are parked nearby, with a tree partially visible on the right side of the image.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo posted on 2017-06-01 13:57 UTC shows a damaged vehicle and debris, possibly related to the fire incident.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo posted on 2017-06-25 00:20 UTC shows a damaged vehicle and debris, possibly related to the fire incident.",
+        "sources": ["E04"]
+      }
+    ]
+  },
+  {
+    "step": 5,
+    "tokens": 347,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Firefighters in full gear respond to a nighttime blaze at a multi-story building. Multiple fire trucks with extended ladders are positioned against the structure, and an American flag is visible. The scene is illuminated by emergency lights, with smoke rising from the building. A firefighter stands on a fire truck, observing the blaze. The fire is intense, with flames visible through the windows of the building. The scene is illuminated by emergency lights, and smoke is rising into the night sky. A white car and a silver SUV are parked nearby, with a tree partially visible on the right side of the image.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo posted on 2017-06-01 13:57 UTC shows a damaged vehicle and debris, possibly related to the fire incident.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo posted on 2017-06-25 00:20 UTC shows a damaged vehicle and debris, possibly related to the fire incident.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo posted on 2017-06-25 21:15 UTC shows a damaged vehicle and debris, possibly related to the fire incident.",
+        "sources": ["E05"]
+      }
+    ]
+  },
+  {
+    "step": 6,
+    "tokens": 412,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Firefighters in full gear respond to a nighttime blaze at a multi-story building. Multiple fire trucks with extended ladders are positioned against the structure, and an American flag is visible. The scene is illuminated by emergency lights, with smoke rising from the building. A firefighter stands on a fire truck, observing the blaze. The fire is intense, with flames visible through the windows of the building. The scene is illuminated by emergency lights, and smoke is rising into the night sky. A white car and a silver SUV are parked nearby, with a tree partially visible on the right side of the image.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo posted on 2017-06-01 13:57 UTC shows a damaged vehicle and debris, possibly related to the fire incident.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo posted on 2017-06-25 00:20 UTC shows a damaged vehicle and debris, possibly related to the fire incident.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo posted on 2017-06-25 21:15 UTC shows a damaged vehicle and debris, possibly related to the fire incident.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo posted on 2017-07-21 00:43 UTC shows a damaged vehicle and debris, possibly related to the fire incident.",
+        "sources": ["E06"]
+      }
+    ]
+  },
+  {
+    "step": 7,
+    "tokens": 477,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Firefighters in full gear respond to a nighttime blaze at a multi-story building. Multiple fire trucks with extended ladders are positioned against the structure, and an American flag is visible. The scene is illuminated by emergency lights, with smoke rising from the building. A firefighter stands on a fire truck, observing the blaze. The fire is intense, with flames visible through the windows of the building. The scene is illuminated by emergency lights, and smoke is rising into the night sky. A white car and a silver SUV are parked nearby, with a tree partially visible on the right side of the image.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo posted on 2017-06-01 13:57 UTC shows a damaged vehicle and debris, possibly related to the fire incident.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo posted on 2017-06-25 00:20 UTC shows a damaged vehicle and debris, possibly related to the fire incident.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo posted on 2017-06-25 21:15 UTC shows a damaged vehicle and debris, possibly related to the fire incident.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo posted on 2017-07-21 00:43 UTC shows a damaged vehicle and debris, possibly related to the fire incident.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo posted on 2017-08-23 00:46 UTC shows a damaged vehicle and debris, possibly related to the fire incident.",
+        "sources": ["E07"]
+      }
+    ]
+  },
+  {
+    "step": 8,
+    "tokens": 390,
+    "lines": [
+      {
+        "id": "m3",
+        "text": "A social media photo posted on 2017-06-01 13:57 UTC shows a damaged vehicle and debris, possibly related to the fire incident.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo posted on 2017-06-25 00:20 UTC shows a damaged vehicle and debris, possibly related to the fire incident.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo posted on 2017-06-25 21:15 UTC shows a damaged vehicle and debris, possibly related to the fire incident.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo posted on 2017-07-21 00:43 UTC shows a damaged vehicle and debris, possibly related to the fire incident.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo posted on 2017-08-23 00:46 UTC shows a damaged vehicle and debris, possibly related to the fire incident.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo posted on 2017-08-28 10:43 UTC shows a damaged vehicle and debris, possibly related to the fire incident.",
+        "sources": ["E08"]
+      }
+    ]
+  },
+  {
+    "step": 9,
+    "tokens": 455,
+    "lines": [
+      {
+        "id": "m3",
+        "text": "A social media photo posted on 2017-06-01 13:57 UTC shows a damaged vehicle and debris, possibly related to the fire incident.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo posted on 2017-06-25 00:20 UTC shows a damaged vehicle and debris, possibly related to the fire incident.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo posted on 2017-06-25 21:15 UTC shows a damaged vehicle and debris, possibly related to the fire incident.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo posted on 2017-07-21 00:43 UTC shows a damaged vehicle and debris, possibly related to the fire incident.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo posted on 2017-08-23 00:46 UTC shows a damaged vehicle and debris, possibly related to the fire incident.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo posted on 2017-08-28 10:43 UTC shows a damaged vehicle and debris, possibly related to the fire incident.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media photo posted on 2017-09-06 09:22 UTC shows a damaged vehicle and debris, possibly related to the fire incident.",
+        "sources": ["E09"]
+      }
+    ]
+  },
+  {
+    "step": 10,
+    "tokens": 456,
+    "lines": [
+      {
+        "id": "m3",
+        "text": "A social media photo posted on 2017-06-01 13:57 UTC shows a damaged vehicle and debris, possibly related to the fire incident.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo posted on 2017-06-25 00:20 UTC shows a damaged vehicle and debris, possibly related to the fire incident.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo posted on 2017-06-25 21:15 UTC shows a damaged vehicle and debris, possibly related to the fire incident.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo posted on 2017-07-21 00:43 UTC shows a damaged vehicle and debris, possibly related to the fire incident.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo posted on 2017-08-23 00:46 UTC shows a damaged vehicle and debris, possibly related to the fire incident.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo posted on 2017-08-28 10:43 UTC shows a damaged vehicle and debris, possibly related to the fire incident.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m10",
+        "text": "A social media photo posted on 2017-09-08 03:41 UTC shows a damaged vehicle and debris, possibly related to the fire incident.",
+        "sources": ["E10"]
+      }
+    ]
+  }
+]

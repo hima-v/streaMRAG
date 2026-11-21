@@ -1,0 +1,227 @@
+[
+  {
+    "step": 1,
+    "tokens": 98,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo from Twitter, posted on 2015-10-08 23:05 UTC, depicting a flooded area with multiple RVs submerged in muddy water, surrounded by trees and vegetation. The image shows the aftermath of a natural disaster, with RVs tilted and partially submerged, indicating significant water damage.",
+        "sources": ["E01"]
+      }
+    ]
+  },
+  {
+    "step": 2,
+    "tokens": 178,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo from Twitter, posted on 2015-10-08 23:05 UTC, depicting a flooded area with multiple RVs submerged in muddy water, surrounded by trees and vegetation. The image shows the aftermath of a natural disaster, with RVs tilted and partially submerged, indicating significant water damage.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "A social media photo from Twitter, posted on 2015-12-03 10:41 UTC, depicting a flooded urban street with vehicles partially submerged in muddy water, buildings lining the sides, and people navigating the area.",
+        "sources": ["E02"]
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "tokens": 196,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo from Twitter, posted on 2015-10-08 23:05 UTC, depicting a flooded area with multiple RVs submerged in muddy water, surrounded by trees and vegetation. The image shows the aftermath of a natural disaster, with RVs tilted and partially submerged, indicating significant water damage.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo from Twitter, posted on 2015-12-03 16:52 UTC, depicting a flooded area with multiple RVs submerged in muddy water, surrounded by trees and vegetation. The image shows the aftermath of a natural disaster, with RVs tilted and partially submerged, indicating significant water damage.",
+        "sources": ["E03"]
+      }
+    ]
+  },
+  {
+    "step": 4,
+    "tokens": 294,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo from Twitter, posted on 2015-10-08 23:05 UTC, depicting a flooded area with multiple RVs submerged in muddy water, surrounded by trees and vegetation. The image shows the aftermath of a natural disaster, with RVs tilted and partially submerged, indicating significant water damage.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo from Twitter, posted on 2015-12-03 16:52 UTC, depicting a flooded area with multiple RVs submerged in muddy water, surrounded by trees and vegetation. The image shows the aftermath of a natural disaster, with RVs tilted and partially submerged, indicating significant water damage.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo from Twitter, posted on 2015-12-03 17:20 UTC, depicting a flooded area with multiple RVs submerged in muddy water, surrounded by trees and vegetation. The image shows the aftermath of a natural disaster, with RVs tilted and partially submerged, indicating significant water damage.",
+        "sources": ["E04"]
+      }
+    ]
+  },
+  {
+    "step": 5,
+    "tokens": 397,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo from Twitter, posted on 2015-10-08 23:05 UTC, depicting a flooded area with multiple RVs submerged in muddy water, surrounded by trees and vegetation. The image shows the aftermath of a natural disaster, with RVs tilted and partially submerged, indicating significant water damage.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo from Twitter, posted on 2015-12-03 16:52 UTC, depicting a flooded area with multiple RVs submerged in muddy water, surrounded by trees and vegetation. The image shows the aftermath of a natural disaster, with RVs tilted and partially submerged, indicating significant water damage.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo from Twitter, posted on 2015-12-03 17:20 UTC, depicting a flooded area with multiple RVs submerged in muddy water, surrounded by trees and vegetation. The image shows the aftermath of a natural disaster, with RVs tilted and partially submerged, indicating significant water damage.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo from Twitter, posted on 2015-12-03 17:45 UTC, depicting a flooded area with a man holding a long wooden pole, partially submerged in muddy water, surrounded by trees and vegetation. The image shows the aftermath of a natural disaster, with the man appearing to navigate through the floodwaters.",
+        "sources": ["E05"]
+      }
+    ]
+  },
+  {
+    "step": 6,
+    "tokens": 493,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo from Twitter, posted on 2015-10-08 23:05 UTC, depicting a flooded area with multiple RVs submerged in muddy water, surrounded by trees and vegetation. The image shows the aftermath of a natural disaster, with RVs tilted and partially submerged, indicating significant water damage.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo from Twitter, posted on 2015-12-03 16:52 UTC, depicting a flooded area with multiple RVs submerged in muddy water, surrounded by trees and vegetation. The image shows the aftermath of a natural disaster, with RVs tilted and partially submerged, indicating significant water damage.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo from Twitter, posted on 2015-12-03 17:20 UTC, depicting a flooded area with multiple RVs submerged in muddy water, surrounded by trees and vegetation. The image shows the aftermath of a natural disaster, with RVs tilted and partially submerged, indicating significant water damage.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo from Twitter, posted on 2015-12-03 17:45 UTC, depicting a flooded area with a man holding a long wooden pole, partially submerged in muddy water, surrounded by trees and vegetation. The image shows the aftermath of a natural disaster, with the man appearing to navigate through the floodwaters.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo from Twitter, posted on 2015-12-04 03:38 UTC, depicting a flooded area with a group of people wading through muddy water, surrounded by trees and vegetation. The image shows the aftermath of a natural disaster, with individuals navigating through the floodwaters.",
+        "sources": ["E06"]
+      }
+    ]
+  },
+  {
+    "step": 7,
+    "tokens": 448,
+    "lines": [
+      {
+        "id": "m4",
+        "text": "A social media photo from Twitter, posted on 2015-12-03 17:20 UTC, depicting a flooded area with multiple RVs submerged in muddy water, surrounded by trees and vegetation. The image shows the aftermath of a natural disaster, with RVs tilted and partially submerged, indicating significant water damage.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo from Twitter, posted on 2015-12-03 17:45 UTC, depicting a flooded area with a man holding a long wooden pole, partially submerged in muddy water, surrounded by trees and vegetation. The image shows the aftermath of a natural disaster, with the man appearing to navigate through the floodwaters.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "m6 [src E06 @2015-12-04 03:38 UTC] A social media photo from Twitter, posted on 2015-12-04 03:38 UTC, depicting a flooded area with a group of people wading through muddy water, surrounded by trees and vegetation. The image shows the aftermath of a natural disaster, with individuals navigating through the floodwaters.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "m7 [src E07 @2015-12-04 04:24 UTC] A social media photo from Twitter, posted on 2015-12-04 04:24 UTC, depicting a flooded area with a group of people and military personnel in a green boat, surrounded by trees and vegetation. The image shows the aftermath of a natural disaster, with individuals and soldiers navigating through the floodwaters.",
+        "sources": ["E07"]
+      }
+    ]
+  },
+  {
+    "step": 8,
+    "tokens": 475,
+    "lines": [
+      {
+        "id": "m5",
+        "text": "A social media photo from Twitter, posted on 2015-12-03 17:45 UTC, depicting a flooded area with a man holding a long wooden pole, partially submerged in muddy water, surrounded by trees and vegetation. The image shows the aftermath of a natural disaster, with the man appearing to navigate through the floodwaters.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "m6 [src E06 @2015-12-04 03:38 UTC] A social media photo from Twitter, posted on 2015-12-04 03:38 UTC, depicting a flooded area with a group of people wading through muddy water, surrounded by trees and vegetation. The image shows the aftermath of a natural disaster, with individuals navigating through the floodwaters.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "m7 [src E07 @2015-12-04 04:24 UTC] A social media photo from Twitter, posted on 2015-12-04 04:24 UTC, depicting a flooded area with a group of people and military personnel in a green boat, surrounded by trees and vegetation. The image shows the aftermath of a natural disaster, with individuals and soldiers navigating through the floodwaters.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "m8 [src E08 @2015-12-04 07:54 UTC] A social media photo from Twitter, posted on 2015-12-04 07:54 UTC, depicting a flooded area with a group of people and military personnel in a green boat, surrounded by trees and vegetation. The image shows the aftermath of a natural disaster, with individuals and soldiers navigating through the floodwaters.",
+        "sources": ["E08"]
+      }
+    ]
+  },
+  {
+    "step": 9,
+    "tokens": 494,
+    "lines": [
+      {
+        "id": "m6",
+        "text": "m6 [src E06 @2015-12-04 03:38 UTC] A social media photo from Twitter, posted on 2015-12-04 03:38 UTC, depicting a flooded area with a group of people wading through muddy water, surrounded by trees and vegetation. The image shows the aftermath of a natural disaster, with individuals navigating through the floodwaters.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "m7 [src E07 @2015-12-04 04:24 UTC] A social media photo from Twitter, posted on 2015-12-04 04:24 UTC, depicting a flooded area with a group of people and military personnel in a green boat, surrounded by trees and vegetation. The image shows the aftermath of a natural disaster, with individuals and soldiers navigating through the floodwaters.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "m8 [src E08 @2015-12-04 07:54 UTC] A social media photo from Twitter, posted on 2015-12-04 07:54 UTC, depicting a flooded area with a group of people and military personnel in a green boat, surrounded by trees and vegetation. The image shows the aftermath of a natural disaster, with individuals and soldiers navigating through the floodwaters.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "m9 [src E09 @2015-12-04 08:05 UTC] A social media photo from Twitter, posted on 2015-12-04 08:05 UTC, depicting a flooded area with a group of people wading through muddy water, surrounded by trees and vegetation. The image shows the aftermath of a natural disaster, with individuals navigating through the floodwaters.",
+        "sources": ["E09"]
+      }
+    ]
+  },
+  {
+    "step": 10,
+    "tokens": 496,
+    "lines": [
+      {
+        "id": "m7",
+        "text": "m7 [src E07 @2015-12-04 04:24 UTC] A social media photo from Twitter, posted on 2015-12-04 04:24 UTC, depicting a flooded area with a group of people and military personnel in a green boat, surrounded by trees and vegetation. The image shows the aftermath of a natural disaster, with individuals and soldiers navigating through the floodwaters.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "m8 [src E08 @2015-12-04 07:54 UTC] A social media photo from Twitter, posted on 2015-12-04 07:54 UTC, depicting a flooded area with a group of people and military personnel in a green boat, surrounded by trees and vegetation. The image shows the aftermath of a natural disaster, with individuals and soldiers navigating through the floodwaters.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "m9 [src E09 @2015-12-04 08:05 UTC] A social media photo from Twitter, posted on 2015-12-04 08:05 UTC, depicting a flooded area with a group of people wading through muddy water, surrounded by trees and vegetation. The image shows the aftermath of a natural disaster, with individuals navigating through the floodwaters.",
+        "sources": ["E09"]
+      },
+      {
+        "id": "m10",
+        "text": "m10 [src E10 @2015-12-04 17:45 UTC] A social media photo from Twitter, posted on 2015-12-04 17:45 UTC, depicting a flooded area with a group of people wading through muddy water, surrounded by trees and vegetation. The image shows the aftermath of a natural disaster, with individuals navigating through the floodwaters.",
+        "sources": ["E10"]
+      }
+    ]
+  }
+]

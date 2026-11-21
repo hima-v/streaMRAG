@@ -1,0 +1,272 @@
+[
+  {
+    "step": 1,
+    "tokens": 64,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Aerial view of a flooded area with submerged vehicles, buildings, and trees. Water level is high, covering roads and structures. No visible people or movement. Location details not specified.",
+        "sources": ["E01"]
+      }
+    ]
+  },
+  {
+    "step": 2,
+    "tokens": 183,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Aerial view of a flooded area with submerged vehicles, buildings, and trees. Water level is high, covering roads and structures. No visible people or movement. Location details not specified. Social media photo (Twitter) posted 2017-09-19 16:51 UTC corroborates the scene.",
+        "sources": ["E01", "E02"]
+      },
+      {
+        "id": "m2",
+        "text": "Social media photo (Twitter) showing a flooded area with submerged vehicles, buildings, and trees. Water level is high, covering roads and structures. No visible people or movement. Location details not specified.",
+        "sources": ["E02"]
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "tokens": 225,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Aerial view of a flooded area with submerged vehicles, buildings, and trees. Water level is high, covering roads and structures. No visible people or movement. Location details not specified. Social media photo (Twitter) posted 2017-09-19 16:51 UTC corroborates the scene. Social media photo (Twitter) posted 2017-09-19 17:03 UTC corroborates the scene.",
+        "sources": ["E01", "E02", "E03"]
+      },
+      {
+        "id": "m3",
+        "text": "Social media photo (Twitter) posted 2017-09-19 17:03 UTC corroborates the scene.",
+        "sources": ["E03"]
+      }
+    ]
+  },
+  {
+    "step": 4,
+    "tokens": 334,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Aerial view of a flooded area with submerged vehicles, buildings, and trees. Water level is high, covering roads and structures. No visible people or movement. Location details not specified. Social media photo (Twitter) posted 2017-09-19 16:51 UTC corroborates the scene. Social media photo (Twitter) posted 2017-09-19 17:03 UTC corroborates the scene. Social media photo (Twitter) posted 2017-09-19 18:03 UTC corroborates the scene.",
+        "sources": ["E01", "E02", "E03", "E04"]
+      },
+      {
+        "id": "m3",
+        "text": "Social media photo (Twitter) posted 2017-09-19 17:03 UTC corroborates the scene.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "Social media photo (Twitter) posted 2017-09-19 18:03 UTC corroborates the scene.",
+        "sources": ["E04"]
+      }
+    ]
+  },
+  {
+    "step": 5,
+    "tokens": 443,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Aerial view of a flooded area with submerged vehicles, buildings, and trees. Water level is high, covering roads and structures. No visible people or movement. Location details not specified. Social media photo (Twitter) posted 2017-09-19 16:51 UTC corroborates the scene. Social media photo (Twitter) posted 2017-09-19 17:03 UTC corroborates the scene. Social media photo (Twitter) posted 2017-09-19 18:03 UTC corroborates the scene. Social media photo (Twitter) posted 2017-09-19 18:05 UTC corroborates the scene.",
+        "sources": ["E01", "E02", "E03", "E04", "E05"]
+      },
+      {
+        "id": "m3",
+        "text": "Social media photo (Twitter) posted 2017-09-19 17:03 UTC corroborates the scene.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "Social media photo (Twitter) posted 2017-09-19 18:03 UTC corroborates the scene.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "Social media photo (Twitter) posted 2017-09-19 18:05 UTC corroborates the scene.",
+        "sources": ["E05"]
+      }
+    ]
+  },
+  {
+    "step": 6,
+    "tokens": 228,
+    "lines": [
+      {
+        "id": "m3",
+        "text": "Social media photo (Twitter) posted 2017-09-19 17:03 UTC corroborates the scene.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "Social media photo (Twitter) posted 2017-09-19 18:03 UTC corroborates the scene.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "Social media photo (Twitter) posted 2017-09-19 18:05 UTC corroborates the scene.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "Social media photo (Twitter) posted 2017-09-19 18:16 UTC corroborates the scene.",
+        "sources": ["E06"]
+      }
+    ]
+  },
+  {
+    "step": 7,
+    "tokens": 285,
+    "lines": [
+      {
+        "id": "m3",
+        "text": "Social media photo (Twitter) posted 2017-09-19 17:03 UTC corroborates the scene.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "Social media photo (Twitter) posted 2017-09-19 18:03 UTC corroborates the scene.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "Social media photo (Twitter) posted 2017-09-19 18:05 UTC corroborates the scene.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "Social media photo (Twitter) posted 2017-09-19 18:16 UTC corroborates the scene.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "Social media photo (Twitter) posted 2017-09-19 18:40 UTC corroborates the scene.",
+        "sources": ["E07"]
+      }
+    ]
+  },
+  {
+    "step": 8,
+    "tokens": 342,
+    "lines": [
+      {
+        "id": "m3",
+        "text": "Social media photo (Twitter) posted 2017-09-19 17:03 UTC corroborates the scene.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "Social media photo (Twitter) posted 2017-09-19 18:03 UTC corroborates the scene.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "Social media photo (Twitter) posted 2017-09-19 18:05 UTC corroborates the scene.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "Social media photo (Twitter) posted 2017-09-19 18:16 UTC corroborates the scene.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "Social media photo (Twitter) posted 2017-09-19 18:40 UTC corroborates the scene.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "Social media photo (Twitter) posted 2017-09-19 19:20 UTC corroborates the scene.",
+        "sources": ["E08"]
+      }
+    ]
+  },
+  {
+    "step": 9,
+    "tokens": 399,
+    "lines": [
+      {
+        "id": "m3",
+        "text": "Social media photo (Twitter) posted 2017-09-19 17:03 UTC corroborates the scene.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "Social media photo (Twitter) posted 2017-09-19 18:03 UTC corroborates the scene.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "Social media photo (Twitter) posted 2017-09-19 18:05 UTC corroborates the scene.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "Social media photo (Twitter) posted 2017-09-19 18:16 UTC corroborates the scene.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "Social media photo (Twitter) posted 2017-09-19 18:40 UTC corroborates the scene.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "Social media photo (Twitter) posted 2017-09-19 19:20 UTC corroborates the scene.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "Social media photo (Twitter) posted 2017-09-19 19:51 UTC corroborates the scene.",
+        "sources": ["E09"]
+      }
+    ]
+  },
+  {
+    "step": 10,
+    "tokens": 457,
+    "lines": [
+      {
+        "id": "m3",
+        "text": "Social media photo (Twitter) posted 2017-09-19 17:03 UTC corroborates the scene.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "Social media photo (Twitter) posted 2017-09-19 18:03 UTC corroborates the scene.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "Social media photo (Twitter) posted 2017-09-19 18:05 UTC corroborates the scene.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "Social media photo (Twitter) posted 2017-09-19 18:16 UTC corroborates the scene.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "Social media photo (Twitter) posted 2017-09-19 18:40 UTC corroborates the scene.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "Social media photo (Twitter) posted 2017-09-19 19:20 UTC corroborates the scene.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "Social media photo (Twitter) posted 2017-09-19 19:51 UTC corroborates the scene.",
+        "sources": ["E09"]
+      },
+      {
+        "id": "m10",
+        "text": "Social media photo (Twitter) posted 2017-09-19 20:20 UTC corroborates the scene.",
+        "sources": ["E10"]
+      }
+    ]
+  }
+]

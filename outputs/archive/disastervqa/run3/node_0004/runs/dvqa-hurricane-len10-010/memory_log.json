@@ -1,0 +1,572 @@
+[
+  {
+    "item_id": "E01",
+    "step": 1,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Aerial view of a flooded area with submerged vehicles, collapsed structures, and buildings surrounded by murky water. Trees and power lines are partially submerged. The scene is timestamped 2017-09-19 16:33 UTC.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Aerial view of a flooded area with submerged vehicles, collapsed structures, and buildings surrounded by murky water. Trees and power lines are partially submerged. The scene is timestamped 2017-09-19 16:33 UTC.",
+              "sources": ["E01"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 81
+      }
+    ],
+    "tokens": 81,
+    "n_lines": 1,
+    "secs": 7.99
+  },
+  {
+    "item_id": "E02",
+    "step": 2,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Aerial view of a flooded area with submerged vehicles, collapsed structures, and buildings surrounded by murky water. Trees and power lines are partially submerged. The scene is timestamped 2017-09-19 16:33 UTC.\",",
+          "      \"sources\": [\"E01\"]",
+          "    },",
+          "    {",
+          "      \"text\": \"Social media photo (Twitter) posted 2017-09-19 16:51 UTC showing a flooded street with a white SUV and police car with activated blue and red lights. Debris and downed power lines are visible in the background. The scene is timestamped 2017-09-19 16:51 UTC.\",",
+          "      \"sources\": [\"E02\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"Aerial view of a flooded area with submerged vehicles, collapsed structures, and buildings surrounded by murky water. Trees and power lines are partially submerged. The scene is timestamped 2017-09-19 16:33 UTC.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Aerial view of a flooded area with submerged vehicles, collapsed structures, and buildings surrounded by murky water. Trees and power lines are partially submerged. The scene is timestamped 2017-09-19 16:33 UTC.",
+              "sources": ["E01"]
+            },
+            {
+              "text": "Social media photo (Twitter) posted 2017-09-19 16:51 UTC showing a flooded street with a white SUV and police car with activated blue and red lights. Debris and downed power lines are visible in the background. The scene is timestamped 2017-09-19 16:51 UTC.",
+              "sources": ["E02"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Aerial view of a flooded area with submerged vehicles, collapsed structures, and buildings surrounded by murky water. Trees and power lines are partially submerged. The scene is timestamped 2017-09-19 16:33 UTC.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 269
+      }
+    ],
+    "tokens": 269,
+    "n_lines": 3,
+    "secs": 20.81
+  },
+  {
+    "item_id": "E03",
+    "step": 3,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo (Twitter) posted 2017-09-19 17:03 UTC showing a flooded street with a white SUV and police car with activated blue and red lights. Debris and downed power lines are visible in the background. The scene is timestamped 2017-09-19 17:03 UTC.\",",
+          "      \"sources\": [\"E03\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"Aerial view of a flooded area with submerged vehicles, collapsed structures, and buildings surrounded by murky water. Trees and power lines are partially submerged. The scene is timestamped 2017-09-19 16:33 UTC.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": [\"m2\"]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo (Twitter) posted 2017-09-19 17:03 UTC showing a flooded street with a white SUV and police car with activated blue and red lights. Debris and downed power lines are visible in the background. The scene is timestamped 2017-09-19 17:03 UTC.",
+              "sources": ["E03"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Aerial view of a flooded area with submerged vehicles, collapsed structures, and buildings surrounded by murky water. Trees and power lines are partially submerged. The scene is timestamped 2017-09-19 16:33 UTC.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": [],
+        "tokens_after": 295
+      }
+    ],
+    "tokens": 295,
+    "n_lines": 3,
+    "secs": 16.21
+  },
+  {
+    "item_id": "E04",
+    "step": 4,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo (Twitter) posted 2017-09-19 18:03 UTC showing a flooded street with a white SUV and police car with activated blue and red lights. Debris and downed power lines are visible in the background. The scene is timestamped 2017-09-19 18:03 UTC.\",",
+          "      \"sources\": [\"E04\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"Aerial view of a flooded area with submerged vehicles, collapsed structures, and buildings surrounded by murky water. Trees and power lines are partially submerged. The scene is timestamped 2017-09-19 16:33 UTC.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": [\"m2\"]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo (Twitter) posted 2017-09-19 18:03 UTC showing a flooded street with a white SUV and police car with activated blue and red lights. Debris and downed power lines are visible in the background. The scene is timestamped 2017-09-19 18:03 UTC.",
+              "sources": ["E04"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Aerial view of a flooded area with submerged vehicles, collapsed structures, and buildings surrounded by murky water. Trees and power lines are partially submerged. The scene is timestamped 2017-09-19 16:33 UTC.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 402
+      }
+    ],
+    "tokens": 402,
+    "n_lines": 4,
+    "secs": 16.38
+  },
+  {
+    "item_id": "E05",
+    "step": 5,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo (Twitter) posted 2017-09-19 18:05 UTC showing a flooded street with a white SUV and police car with activated blue and red lights. Debris and downed power lines are visible in the background. The scene is timestamped 2017-09-19 18:05 UTC.\",",
+          "      \"sources\": [\"E05\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"Aerial view of a flooded area with submerged vehicles, collapsed structures, and buildings surrounded by murky water. Trees and power lines are partially submerged. The scene is timestamped 2017-09-19 16:33 UTC.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": [\"m2\"]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo (Twitter) posted 2017-09-19 18:05 UTC showing a flooded street with a white SUV and police car with activated blue and red lights. Debris and downed power lines are visible in the background. The scene is timestamped 2017-09-19 18:05 UTC.",
+              "sources": ["E05"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Aerial view of a flooded area with submerged vehicles, collapsed structures, and buildings surrounded by murky water. Trees and power lines are partially submerged. The scene is timestamped 2017-09-19 16:33 UTC.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 509
+      }
+    ],
+    "tokens": 509,
+    "n_lines": 5,
+    "secs": 17.06
+  },
+  {
+    "item_id": "E06",
+    "step": 6,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Aerial view of a flooded area with submerged vehicles, collapsed structures, and buildings surrounded by murky water. Trees and power lines are partially submerged. The scene is timestamped 2017-09-19 16:33 UTC.\",",
+          "      \"sources\": [\"E06\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Aerial view of a flooded area with submerged vehicles, collapsed structures, and buildings surrounded by murky water. Trees and power lines are partially submerged. The scene is timestamped 2017-09-19 16:33 UTC.",
+              "sources": ["E06"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 590
+      },
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Aerial view of a flooded area with submerged vehicles, collapsed structures, and buildings surrounded by murky water. Trees and power lines are partially submerged. The scene is timestamped 2017-09-19 16:33 UTC.\",",
+          "      \"sources\": [\"E06\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"Aerial view of a flooded area with submerged vehicles, collapsed structures, and buildings surrounded by murky water. Trees and power lines are partially submerged. The scene is timestamped 2017-09-19 16:33 UTC.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": [\"m2\"]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Aerial view of a flooded area with submerged vehicles, collapsed structures, and buildings surrounded by murky water. Trees and power lines are partially submerged. The scene is timestamped 2017-09-19 16:33 UTC.",
+              "sources": ["E06"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Aerial view of a flooded area with submerged vehicles, collapsed structures, and buildings surrounded by murky water. Trees and power lines are partially submerged. The scene is timestamped 2017-09-19 16:33 UTC.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 590
+      }
+    ],
+    "fallback": "budget_evict_oldest",
+    "evicted": [
+      {
+        "id": "m1",
+        "text": "Aerial view of a flooded area with submerged vehicles, collapsed structures, and buildings surrounded by murky water. Trees and power lines are partially submerged. The scene is timestamped 2017-09-19 16:33 UTC.",
+        "sources": ["E01"]
+      }
+    ],
+    "tokens": 509,
+    "n_lines": 5,
+    "secs": 23.94
+  },
+  {
+    "item_id": "E07",
+    "step": 7,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Aerial view of a flooded area with submerged vehicles, collapsed structures, and buildings surrounded by murky water. Trees and power lines are partially submerged. The scene is timestamped 2017-09-19 16:33 UTC.\",",
+          "      \"sources\": [\"E07\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Aerial view of a flooded area with submerged vehicles, collapsed structures, and buildings surrounded by murky water. Trees and power lines are partially submerged. The scene is timestamped 2017-09-19 16:33 UTC.",
+              "sources": ["E07"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 590
+      },
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Aerial view of a flooded area with submerged vehicles, collapsed structures, and buildings surrounded by murky water. Trees and power lines are partially submerged. The scene is timestamped 2017-09-19 16:33 UTC.\",",
+          "      \"sources\": [\"E07\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Aerial view of a flooded area with submerged vehicles, collapsed structures, and buildings surrounded by murky water. Trees and power lines are partially submerged. The scene is timestamped 2017-09-19 16:33 UTC.",
+              "sources": ["E07"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 590
+      }
+    ],
+    "fallback": "budget_evict_oldest",
+    "evicted": [
+      {
+        "id": "m3",
+        "text": "Social media photo (Twitter) posted 2017-09-19 16:51 UTC showing a flooded street with a white SUV and police car with activated blue and red lights. Debris and downed power lines are visible in the background. The scene is timestamped 2017-09-19 16:51 UTC.",
+        "sources": ["E02"]
+      }
+    ],
+    "tokens": 483,
+    "n_lines": 5,
+    "secs": 16.41
+  },
+  {
+    "item_id": "E08",
+    "step": 8,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Aerial view of a flooded area with submerged vehicles, collapsed structures, and buildings surrounded by murky water. Trees and power lines are partially submerged. The scene is timestamped 2017-09-19 19:20 UTC.\",",
+          "      \"sources\": [\"E08\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Aerial view of a flooded area with submerged vehicles, collapsed structures, and buildings surrounded by murky water. Trees and power lines are partially submerged. The scene is timestamped 2017-09-19 19:20 UTC.",
+              "sources": ["E08"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 564
+      },
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Aerial view of a flooded area with submerged vehicles, collapsed structures, and buildings surrounded by murky water. Trees and power lines are partially submerged. The scene is timestamped 2017-09-19 16:33 UTC.\",",
+          "      \"sources\": [\"E08\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m7\",",
+          "      \"text\": \"Aerial view of a flooded area with submerged vehicles, collapsed structures, and buildings surrounded by murky water. Trees and power lines are partially submerged. The scene is timestamped 2017-09-19 16:33 UTC.\",",
+          "      \"sources\": [\"E08\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": [\"m8\"]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Aerial view of a flooded area with submerged vehicles, collapsed structures, and buildings surrounded by murky water. Trees and power lines are partially submerged. The scene is timestamped 2017-09-19 16:33 UTC.",
+              "sources": ["E08"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m7",
+              "text": "Aerial view of a flooded area with submerged vehicles, collapsed structures, and buildings surrounded by murky water. Trees and power lines are partially submerged. The scene is timestamped 2017-09-19 16:33 UTC.",
+              "sources": ["E08"]
+            }
+          ],
+          "delete": ["m8"]
+        },
+        "problems": [],
+        "tokens_after": 505
+      }
+    ],
+    "tokens": 505,
+    "n_lines": 5,
+    "secs": 22.45
+  },
+  {
+    "item_id": "E09",
+    "step": 9,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"Aerial view of a flooded area with submerged vehicles, collapsed structures, and buildings surrounded by murky water. Trees and power lines are partially submerged. The scene is timestamped 2017-09-19 16:33 UTC.\", \"sources\": [\"E09\"]}], \"update\": [], \"delete\": []}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Aerial view of a flooded area with submerged vehicles, collapsed structures, and buildings surrounded by murky water. Trees and power lines are partially submerged. The scene is timestamped 2017-09-19 16:33 UTC.",
+              "sources": ["E09"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 587
+      },
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"Aerial view of a flooded area with submerged vehicles, collapsed structures, and buildings surrounded by murky water. Trees and power lines are partially submerged. The scene is timestamped 2017-09-19 16:33 UTC.\", \"sources\": [\"E09\"]}], \"update\": [], \"delete\": [\"m7\", \"m9\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Aerial view of a flooded area with submerged vehicles, collapsed structures, and buildings surrounded by murky water. Trees and power lines are partially submerged. The scene is timestamped 2017-09-19 16:33 UTC.",
+              "sources": ["E09"]
+            }
+          ],
+          "update": [],
+          "delete": ["m7", "m9"]
+        },
+        "problems": [],
+        "tokens_after": 403
+      }
+    ],
+    "tokens": 403,
+    "n_lines": 4,
+    "secs": 13.91
+  },
+  {
+    "item_id": "E10",
+    "step": 10,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo (Twitter) posted 2017-09-19 20:20 UTC showing a flooded street with a white SUV and police car with activated blue and red lights. Debris and downed power lines are visible in the background. The scene is timestamped 2017-09-19 20:20 UTC.\",",
+          "      \"sources\": [\"E10\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo (Twitter) posted 2017-09-19 20:20 UTC showing a flooded street with a white SUV and police car with activated blue and red lights. Debris and downed power lines are visible in the background. The scene is timestamped 2017-09-19 20:20 UTC.",
+              "sources": ["E10"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 511
+      }
+    ],
+    "tokens": 511,
+    "n_lines": 5,
+    "secs": 9.73
+  }
+]

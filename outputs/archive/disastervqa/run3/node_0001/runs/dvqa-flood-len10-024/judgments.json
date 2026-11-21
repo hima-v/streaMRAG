@@ -1,0 +1,71 @@
+[
+  {
+    "step": 10,
+    "qa_id": "imgq-353",
+    "label": "answerable",
+    "abstained": false,
+    "pred": "Yes",
+    "cited_items": ["E06", "E10"],
+    "retained": false,
+    "correctness": 1.0,
+    "correctness_by": "exact",
+    "citation_valid": false,
+    "score": 0.0,
+    "category": "invalid_citation"
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-357",
+    "label": "answerable",
+    "abstained": true,
+    "pred": null,
+    "cited_items": ["E06", "E10"],
+    "retained": false,
+    "score": 0.0,
+    "category": "abstained_evidence_missing"
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-360",
+    "label": "answerable",
+    "abstained": false,
+    "pred": "No",
+    "cited_items": ["E06"],
+    "retained": true,
+    "correctness": 1.0,
+    "correctness_by": "exact",
+    "citation_valid": true,
+    "evidence_verdict": "supported",
+    "evidence_reason": "The evidence states that there are no visible risks such as downed power lines or open manholes.",
+    "score": 1.0,
+    "category": "correct"
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-364",
+    "label": "answerable",
+    "abstained": false,
+    "pred": "C",
+    "cited_items": ["E06", "E10"],
+    "retained": false,
+    "correctness": 0.0,
+    "correctness_by": "exact",
+    "citation_valid": false,
+    "score": 0.0,
+    "category": "wrong_answer_evidence_missing"
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-367",
+    "label": "answerable",
+    "abstained": false,
+    "pred": "A",
+    "cited_items": ["E10"],
+    "retained": true,
+    "correctness": 0.0,
+    "correctness_by": "exact",
+    "citation_valid": true,
+    "score": 0.0,
+    "category": "wrong_answer_evidence_in_memory"
+  }
+]

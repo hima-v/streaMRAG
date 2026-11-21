@@ -1,0 +1,237 @@
+[
+  {
+    "step": 1,
+    "tokens": 90,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Social media photo from Twitter, timestamp 2017-10-12 03:11 UTC, depicting active wildfire with visible flames and smoke. Two individuals in casual attire standing at a distance, observing the fire. Environment includes charred vegetation and embers. Location details unspecified.",
+        "sources": ["E01"]
+      }
+    ]
+  },
+  {
+    "step": 2,
+    "tokens": 180,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Social media photo from Twitter, timestamp 2017-10-12 03:11 UTC, depicting active wildfire with visible flames and smoke. Two individuals in casual attire standing at a distance, observing the fire. Environment includes charred vegetation and embers. Location details unspecified.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "Social media photo from Twitter, timestamp 2017-10-12 03:14 UTC, showing active wildfire with visible flames and smoke. Two individuals in casual attire standing at a distance, observing the fire. Environment includes charred vegetation and embers. Location details unspecified.",
+        "sources": ["E02"]
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "tokens": 180,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Social media photo from Twitter, timestamp 2017-10-12 03:11 UTC, depicting active wildfire with visible flames and smoke. Two individuals in casual attire standing at a distance, observing the fire. Environment includes charred vegetation and embers. Location details unspecified.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "Social media photo from Twitter, timestamp 2017-10-12 03:22 UTC, depicting active wildfire with visible flames and smoke. Two individuals in casual attire standing at a distance, observing the fire. Environment includes charred vegetation and embers. Location details unspecified.",
+        "sources": ["E03"]
+      }
+    ]
+  },
+  {
+    "step": 4,
+    "tokens": 282,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Social media photo from Twitter, timestamp 2017-10-12 03:11 UTC, depicting active wildfire with visible flames and smoke. Two individuals in casual attire standing at a distance, observing the fire. Environment includes charred vegetation and embers. Location details unspecified.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "Social media photo from Twitter, timestamp 2017-10-12 03:22 UTC, depicting active wildfire with visible flames and smoke. Two individuals in casual attire standing at a distance, observing the fire. Environment includes charred vegetation and embers. Location details unspecified.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "Social media photo from Twitter, timestamp 2017-10-12 08:25 UTC, depicting active wildfire with visible flames and smoke. A firefighter in full gear, including helmet with headlamp, is seen holding a hose, directing water towards the fire. Environment includes charred vegetation and embers. Location details unspecified.",
+        "sources": ["E04"]
+      }
+    ]
+  },
+  {
+    "step": 5,
+    "tokens": 389,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Social media photo from Twitter, timestamp 2017-10-12 03:11 UTC, depicting active wildfire with visible flames and smoke. Two individuals in casual attire standing at a distance, observing the fire. Environment includes charred vegetation and embers. Location details unspecified.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "Social media photo from Twitter, timestamp 2017-10-12 03:22 UTC, depicting active wildfire with visible flames and smoke. Two individuals in casual attire standing at a distance, observing the fire. Environment includes charred vegetation and embers. Location details unspecified.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "Social media photo from Twitter, timestamp 2017-10-12 08:25 UTC, depicting active wildfire with visible flames and smoke. A firefighter in full gear, including helmet with headlamp, is seen holding a hose, directing water towards the fire. Environment includes charred vegetation and embers. Location details unspecified.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "Social media photo from Twitter, timestamp 2017-10-17 16:04 UTC, depicting a fire truck with all emergency lights activated, positioned near a wildfire. The truck's headlights and roof lights are on, illuminating the area. The background shows a mountain partially obscured by smoke, with trees and vegetation visible around the vehicle. Location details unspecified.",
+        "sources": ["E05"]
+      }
+    ]
+  },
+  {
+    "step": 6,
+    "tokens": 389,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Social media photo from Twitter, timestamp 2017-10-12 03:11 UTC, depicting active wildfire with visible flames and smoke. Two individuals in casual attire standing at a distance, observing the fire. Environment includes charred vegetation and embers. Location details unspecified.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "Social media photo from Twitter, timestamp 2017-10-12 03:22 UTC, depicting active wildfire with visible flames and smoke. Two individuals in casual attire standing at a distance, observing the fire. Environment includes charred vegetation and embers. Location details unspecified.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "Social media photo from Twitter, timestamp 2017-10-12 08:25 UTC, depicting active wildfire with visible flames and smoke. A firefighter in full gear, including helmet with headlamp, is seen holding a hose, directing water towards the fire. Environment includes charred vegetation and embers. Location details unspecified.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "Social media photo from Twitter, timestamp 2017-10-17 16:04 UTC, depicting a fire truck with all emergency lights activated, positioned near a wildfire. The truck's headlights and roof lights are on, illuminating the area. The background shows a mountain partially obscured by smoke, with trees and vegetation visible around the vehicle. Location details unspecified.",
+        "sources": ["E05"]
+      }
+    ]
+  },
+  {
+    "step": 7,
+    "tokens": 389,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Social media photo from Twitter, timestamp 2017-10-12 03:11 UTC, depicting active wildfire with visible flames and smoke. Two individuals in casual attire standing at a distance, observing the fire. Environment includes charred vegetation and embers. Location details unspecified.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "Social media photo from Twitter, timestamp 2017-10-12 03:22 UTC, depicting active wildfire with visible flames and smoke. Two individuals in casual attire standing at a distance, observing the fire. Environment includes charred vegetation and embers. Location details unspecified.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "Social media photo from Twitter, timestamp 2017-10-12 08:25 UTC, depicting active wildfire with visible flames and smoke. A firefighter in full gear, including helmet with headlamp, is seen holding a hose, directing water towards the fire. Environment includes charred vegetation and embers. Location details unspecified.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "Social media photo from Twitter, timestamp 2017-10-17 16:04 UTC, depicting a fire truck with all emergency lights activated, positioned near a wildfire. The truck's headlights and roof lights are on, illuminating the area. The background shows a mountain partially obscured by smoke, with trees and vegetation visible around the vehicle. Location details unspecified.",
+        "sources": ["E05"]
+      }
+    ]
+  },
+  {
+    "step": 8,
+    "tokens": 462,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Social media photo from Twitter, timestamp 2017-10-12 03:11 UTC, depicting active wildfire with visible flames and smoke. Two individuals in casual attire standing at a distance, observing the fire. Environment includes charred vegetation and embers. Location details unspecified.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "Social media photo from Twitter, timestamp 2017-10-12 03:22 UTC, depicting active wildfire with visible flames and smoke. Two individuals in casual attire standing at a distance, observing the fire. Environment includes charred vegetation and embers. Location details unspecified.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "Social media photo from Twitter, timestamp 2017-10-12 08:25 UTC, depicting a firefighter in full gear, including helmet with headlamp, directing water towards the fire. Environment includes charred vegetation and embers. Location details unspecified.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "Social media photo from Twitter, timestamp 2017-10-17 16:04 UTC, depicting a fire truck with all emergency lights activated, positioned near a wildfire. The truck's headlights and roof lights are on, illuminating the area. The background shows a mountain partially obscured by smoke, with trees and vegetation visible around the vehicle. Location details unspecified.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "Social media photo from Twitter, timestamp 2017-10-19 07:36 UTC, depicting a firefighter in full gear, including helmet with headlamp, directing water towards a wildfire. Environment includes charred vegetation and embers. Location details unspecified.",
+        "sources": ["E08"]
+      }
+    ]
+  },
+  {
+    "step": 9,
+    "tokens": 462,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Social media photo from Twitter, timestamp 2017-10-12 03:11 UTC, depicting active wildfire with visible flames and smoke. Two individuals in casual attire standing at a distance, observing the fire. Environment includes charred vegetation and embers. Location details unspecified.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "Social media photo from Twitter, timestamp 2017-10-12 03:22 UTC, depicting active wildfire with visible flames and smoke. Two individuals in casual attire standing at a distance, observing the fire. Environment includes charred vegetation and embers. Location details unspecified.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "Social media photo from Twitter, timestamp 2017-10-12 08:25 UTC, depicting a firefighter in full gear, including helmet with headlamp, directing water towards the fire. Environment includes charred vegetation and embers. Location details unspecified.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "Social media photo from Twitter, timestamp 2017-10-17 16:04 UTC, depicting a fire truck with all emergency lights activated, positioned near a wildfire. The truck's headlights and roof lights are on, illuminating the area. The background shows a mountain partially obscured by smoke, with trees and vegetation visible around the vehicle. Location details unspecified.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "Social media photo from Twitter, timestamp 2017-10-19 07:36 UTC, depicting a firefighter in full gear, including helmet with headlamp, directing water towards a wildfire. Environment includes charred vegetation and embers. Location details unspecified.",
+        "sources": ["E08"]
+      }
+    ]
+  },
+  {
+    "step": 10,
+    "tokens": 460,
+    "lines": [
+      {
+        "id": "m3",
+        "text": "Social media photo from Twitter, timestamp 2017-10-12 03:22 UTC, depicting active wildfire with visible flames and smoke. Two individuals in casual attire standing at a distance, observing the fire. Environment includes charred vegetation and embers. Location details unspecified.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "Social media photo from Twitter, timestamp 2017-10-12 08:25 UTC, depicting a firefighter in full gear, including helmet with headlamp, directing water towards the fire. Environment includes charred vegetation and embers. Location details unspecified.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "Social media photo from Twitter, timestamp 2017-10-17 16:04 UTC, depicting a fire truck with all emergency lights activated, positioned near a wildfire. The truck's headlights and roof lights are on, illuminating the area. The background shows a mountain partially obscured by smoke, with trees and vegetation visible around the vehicle. Location details unspecified.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "Social media photo from Twitter, timestamp 2017-10-19 07:36 UTC, depicting a firefighter in full gear, including helmet with headlamp, directing water towards a wildfire. Environment includes charred vegetation and embers. Location details unspecified.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m7",
+        "text": "Social media photo from Twitter, timestamp 2017-10-20 11:11 UTC, depicting a firefighter in full gear, including helmet with headlamp, directing water towards a wildfire. Environment includes charred vegetation and embers. Location details unspecified.",
+        "sources": ["E10"]
+      }
+    ]
+  }
+]

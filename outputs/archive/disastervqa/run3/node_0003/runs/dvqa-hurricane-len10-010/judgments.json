@@ -1,0 +1,66 @@
+[
+  {
+    "step": 10,
+    "qa_id": "imgq-2434",
+    "label": "answerable",
+    "abstained": false,
+    "pred": "B",
+    "cited_items": ["E04", "E09", "E10"],
+    "retained": false,
+    "correctness": 1.0,
+    "correctness_by": "exact",
+    "citation_valid": false,
+    "score": 0.0,
+    "category": "invalid_citation"
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-2313",
+    "label": "answerable",
+    "abstained": false,
+    "pred": "Residential area",
+    "cited_items": ["E04", "E09", "E10"],
+    "retained": false,
+    "correctness": 1.0,
+    "correctness_by": "accepted_match",
+    "citation_valid": false,
+    "score": 0.0,
+    "category": "invalid_citation"
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-2452",
+    "label": "answerable",
+    "abstained": true,
+    "pred": null,
+    "cited_items": ["E04", "E09", "E10"],
+    "retained": false,
+    "score": 0.0,
+    "category": "abstained_evidence_missing"
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-2370",
+    "label": "answerable",
+    "abstained": true,
+    "pred": null,
+    "cited_items": ["E04", "E09", "E10"],
+    "retained": false,
+    "score": 0.0,
+    "category": "abstained_evidence_missing"
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-2488",
+    "label": "answerable",
+    "abstained": false,
+    "pred": "No",
+    "cited_items": ["E04", "E09", "E10"],
+    "retained": false,
+    "correctness": 0.0,
+    "correctness_by": "exact",
+    "citation_valid": false,
+    "score": 0.0,
+    "category": "wrong_answer_evidence_missing"
+  }
+]

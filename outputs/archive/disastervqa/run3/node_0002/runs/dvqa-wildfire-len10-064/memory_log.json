@@ -1,0 +1,531 @@
+[
+  {
+    "item_id": "E01",
+    "step": 1,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo from Twitter posted on 2017-10-12 03:11 UTC showing a wildfire scene with multiple fires on the ground, two individuals observing from a distance, and a hazy sky. The fire is consuming brush and debris, with visible flames and smoke. The individuals are standing on higher ground, facing the fire. The environment appears to be a natural, outdoor setting with trees and shrubs in the background.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo from Twitter posted on 2017-10-12 03:11 UTC showing a wildfire scene with multiple fires on the ground, two individuals observing from a distance, and a hazy sky. The fire is consuming brush and debris, with visible flames and smoke. The individuals are standing on higher ground, facing the fire. The environment appears to be a natural, outdoor setting with trees and shrubs in the background.",
+              "sources": ["E01"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 122
+      }
+    ],
+    "tokens": 122,
+    "n_lines": 1,
+    "secs": 10.64
+  },
+  {
+    "item_id": "E02",
+    "step": 2,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo from Twitter posted on 2017-10-12 03:14 UTC showing a wildfire scene with multiple fires on the ground, two individuals observing from a distance, and a hazy sky. The fire is consuming brush and debris, with visible flames and smoke. The individuals are standing on higher ground, facing the fire. The environment appears to be a natural, outdoor setting with trees and shrubs in the background.\",",
+          "      \"sources\": [\"E02\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"Social media photo from Twitter posted on 2017-10-12 03:11 UTC showing a wildfire scene with multiple fires on the ground, two individuals observing from a distance, and a hazy sky. The fire is consuming brush and debris, with visible flames and smoke. The individuals are standing on higher ground, facing the fire. The environment appears to be a natural, outdoor setting with trees and shrubs in the background.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo from Twitter posted on 2017-10-12 03:14 UTC showing a wildfire scene with multiple fires on the ground, two individuals observing from a distance, and a hazy sky. The fire is consuming brush and debris, with visible flames and smoke. The individuals are standing on higher ground, facing the fire. The environment appears to be a natural, outdoor setting with trees and shrubs in the background.",
+              "sources": ["E02"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Social media photo from Twitter posted on 2017-10-12 03:11 UTC showing a wildfire scene with multiple fires on the ground, two individuals observing from a distance, and a hazy sky. The fire is consuming brush and debris, with visible flames and smoke. The individuals are standing on higher ground, facing the fire. The environment appears to be a natural, outdoor setting with trees and shrubs in the background.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 244
+      }
+    ],
+    "tokens": 244,
+    "n_lines": 2,
+    "secs": 18.91
+  },
+  {
+    "item_id": "E03",
+    "step": 3,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo from Twitter posted on 2017-10-12 03:22 UTC showing a wildfire scene with multiple fires on the ground, two individuals observing from a distance, and a hazy sky. The fire is consuming brush and debris, with visible flames and smoke. The individuals are standing on higher ground, facing the fire. The environment appears to be a natural, outdoor setting with trees and shrubs in the background.\",",
+          "      \"sources\": [\"E03\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"Social media photo from Twitter posted on 2017-10-12 03:11 UTC showing a wildfire scene with multiple fires on the ground, two individuals observing from a distance, and a hazy sky. The fire is consuming brush and debris, with visible flames and smoke. The individuals are standing on higher ground, facing the fire. The environment appears to be a natural, outdoor setting with trees and shrubs in the background.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": [\"m2\"]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo from Twitter posted on 2017-10-12 03:22 UTC showing a wildfire scene with multiple fires on the ground, two individuals observing from a distance, and a hazy sky. The fire is consuming brush and debris, with visible flames and smoke. The individuals are standing on higher ground, facing the fire. The environment appears to be a natural, outdoor setting with trees and shrubs in the background.",
+              "sources": ["E03"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Social media photo from Twitter posted on 2017-10-12 03:11 UTC showing a wildfire scene with multiple fires on the ground, two individuals observing from a distance, and a hazy sky. The fire is consuming brush and debris, with visible flames and smoke. The individuals are standing on higher ground, facing the fire. The environment appears to be a natural, outdoor setting with trees and shrubs in the background.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": [],
+        "tokens_after": 244
+      }
+    ],
+    "tokens": 244,
+    "n_lines": 2,
+    "secs": 19.58
+  },
+  {
+    "item_id": "E04",
+    "step": 4,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo from Twitter posted on 2017-10-12 08:25 UTC showing a wildfire scene with multiple fires on the ground, two individuals observing from a distance, and a hazy sky. The fire is consuming brush and debris, with visible flames and smoke. The individuals are standing on higher ground, facing the fire. The environment appears to be a natural, outdoor setting with trees and shrubs in the background.\",",
+          "      \"sources\": [\"E04\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"Social media photo from Twitter posted on 2017-10-12 03:11 UTC showing a wildfire scene with multiple fires on the ground, two individuals observing from a distance, and a hazy sky. The fire is consuming brush and debris, with visible flames and smoke. The individuals are standing on higher ground, facing the fire. The environment appears to be a natural, outdoor setting with trees and shrubs in the background.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": [\"m2\"]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo from Twitter posted on 2017-10-12 08:25 UTC showing a wildfire scene with multiple fires on the ground, two individuals observing from a distance, and a hazy sky. The fire is consuming brush and debris, with visible flames and smoke. The individuals are standing on higher ground, facing the fire. The environment appears to be a natural, outdoor setting with trees and shrubs in the background.",
+              "sources": ["E04"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Social media photo from Twitter posted on 2017-10-12 03:11 UTC showing a wildfire scene with multiple fires on the ground, two individuals observing from a distance, and a hazy sky. The fire is consuming brush and debris, with visible flames and smoke. The individuals are standing on higher ground, facing the fire. The environment appears to be a natural, outdoor setting with trees and shrubs in the background.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 366
+      }
+    ],
+    "tokens": 366,
+    "n_lines": 3,
+    "secs": 19.17
+  },
+  {
+    "item_id": "E05",
+    "step": 5,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo from Twitter posted on 2017-10-17 16:04 UTC showing a wildfire scene with multiple fires on the ground, two individuals observing from a distance, and a hazy sky. The fire is consuming brush and debris, with visible flames and smoke. The individuals are standing on higher ground, facing the fire. The environment appears to be a natural, outdoor setting with trees and shrubs in the background.\",",
+          "      \"sources\": [\"E05\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"Social media photo from Twitter posted on 2017-10-12 03:11 UTC showing a wildfire scene with multiple fires on the ground, two individuals observing from a distance, and a hazy sky. The fire is consuming brush and debris, with visible flames and smoke. The individuals are standing on higher ground, facing the fire. The environment appears to be a natural, outdoor setting with trees and shrubs in the background.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": [\"m2\"]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo from Twitter posted on 2017-10-17 16:04 UTC showing a wildfire scene with multiple fires on the ground, two individuals observing from a distance, and a hazy sky. The fire is consuming brush and debris, with visible flames and smoke. The individuals are standing on higher ground, facing the fire. The environment appears to be a natural, outdoor setting with trees and shrubs in the background.",
+              "sources": ["E05"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Social media photo from Twitter posted on 2017-10-12 03:11 UTC showing a wildfire scene with multiple fires on the ground, two individuals observing from a distance, and a hazy sky. The fire is consuming brush and debris, with visible flames and smoke. The individuals are standing on higher ground, facing the fire. The environment appears to be a natural, outdoor setting with trees and shrubs in the background.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 488
+      }
+    ],
+    "tokens": 488,
+    "n_lines": 4,
+    "secs": 19.22
+  },
+  {
+    "item_id": "E06",
+    "step": 6,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo from Twitter posted on 2017-10-18 07:23 UTC showing a wildfire scene with multiple fires on the ground, two individuals observing from a distance, and a hazy sky. The fire is consuming brush and debris, with visible flames and smoke. The individuals are standing on higher ground, facing the fire. The environment appears to be a natural, outdoor setting with trees and shrubs in the background.\",",
+          "      \"sources\": [\"E06\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"Social media photo from Twitter posted on 2017-10-12 03:11 UTC showing a wildfire scene with multiple fires on the ground, two individuals observing from a distance, and a hazy sky. The fire is consuming brush and debris, with visible flames and smoke. The individuals are standing on higher ground, facing the fire. The environment appears to be a natural, outdoor setting with trees and shrubs in the background.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": [\"m2\"]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo from Twitter posted on 2017-10-18 07:23 UTC showing a wildfire scene with multiple fires on the ground, two individuals observing from a distance, and a hazy sky. The fire is consuming brush and debris, with visible flames and smoke. The individuals are standing on higher ground, facing the fire. The environment appears to be a natural, outdoor setting with trees and shrubs in the background.",
+              "sources": ["E06"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Social media photo from Twitter posted on 2017-10-12 03:11 UTC showing a wildfire scene with multiple fires on the ground, two individuals observing from a distance, and a hazy sky. The fire is consuming brush and debris, with visible flames and smoke. The individuals are standing on higher ground, facing the fire. The environment appears to be a natural, outdoor setting with trees and shrubs in the background.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 610
+      },
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo from Twitter posted on 2017-10-18 07:23 UTC showing a wildfire scene with multiple fires on the ground, two individuals observing from a distance, and a hazy sky. The fire is consuming brush and debris, with visible flames and smoke. The individuals are standing on higher ground, facing the fire. The environment appears to be a natural, outdoor setting with trees and shrubs in the background.\",",
+          "      \"sources\": [\"E06\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"Social media photo from Twitter posted on 2017-10-12 03:11 UTC showing a wildfire scene with multiple fires on the ground, two individuals observing from a distance, and a hazy sky. The fire is consuming brush and debris, with visible flames and smoke. The individuals are standing on higher ground, facing the fire. The environment appears to be a natural, outdoor setting with trees and shrubs in the background.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": [\"m2\", \"m3\", \"m4\", \"m5\"]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo from Twitter posted on 2017-10-18 07:23 UTC showing a wildfire scene with multiple fires on the ground, two individuals observing from a distance, and a hazy sky. The fire is consuming brush and debris, with visible flames and smoke. The individuals are standing on higher ground, facing the fire. The environment appears to be a natural, outdoor setting with trees and shrubs in the background.",
+              "sources": ["E06"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Social media photo from Twitter posted on 2017-10-12 03:11 UTC showing a wildfire scene with multiple fires on the ground, two individuals observing from a distance, and a hazy sky. The fire is consuming brush and debris, with visible flames and smoke. The individuals are standing on higher ground, facing the fire. The environment appears to be a natural, outdoor setting with trees and shrubs in the background.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2", "m3", "m4", "m5"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 244
+      }
+    ],
+    "tokens": 244,
+    "n_lines": 2,
+    "secs": 40.42
+  },
+  {
+    "item_id": "E07",
+    "step": 7,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo from Twitter posted on 2017-10-18 20:21 UTC showing a wildfire scene with multiple fires on the ground, two individuals observing from a distance, and a hazy sky. The fire is consuming brush and debris, with visible flames and smoke. The individuals are standing on higher ground, facing the fire. The environment appears to be a natural, outdoor setting with trees and shrubs in the background.\",",
+          "      \"sources\": [\"E07\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"Social media photo from Twitter posted on 2017-10-12 03:11 UTC showing a wildfire scene with multiple fires on the ground, two individuals observing from a distance, and a hazy sky. The fire is consuming brush and debris, with visible flames and smoke. The individuals are standing on higher ground, facing the fire. The environment appears to be a natural, outdoor setting with trees and shrubs in the background.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo from Twitter posted on 2017-10-18 20:21 UTC showing a wildfire scene with multiple fires on the ground, two individuals observing from a distance, and a hazy sky. The fire is consuming brush and debris, with visible flames and smoke. The individuals are standing on higher ground, facing the fire. The environment appears to be a natural, outdoor setting with trees and shrubs in the background.",
+              "sources": ["E07"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Social media photo from Twitter posted on 2017-10-12 03:11 UTC showing a wildfire scene with multiple fires on the ground, two individuals observing from a distance, and a hazy sky. The fire is consuming brush and debris, with visible flames and smoke. The individuals are standing on higher ground, facing the fire. The environment appears to be a natural, outdoor setting with trees and shrubs in the background.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 366
+      }
+    ],
+    "tokens": 366,
+    "n_lines": 3,
+    "secs": 19.65
+  },
+  {
+    "item_id": "E08",
+    "step": 8,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo from Twitter posted on 2017-10-19 07:36 UTC showing a wildfire scene with multiple fires on the ground, two individuals observing from a distance, and a hazy sky. The fire is consuming brush and debris, with visible flames and smoke. The individuals are standing on higher ground, facing the fire. The environment appears to be a natural, outdoor setting with trees and shrubs in the background.\",",
+          "      \"sources\": [\"E08\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"Social media photo from Twitter posted on 2017-10-12 03:11 UTC showing a wildfire scene with multiple fires on the ground, two individuals observing from a distance, and a hazy sky. The fire is consuming brush and debris, with visible flames and smoke. The individuals are standing on higher ground, facing the fire. The environment appears to be a natural, outdoor setting with trees and shrubs in the background.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": [\"m6\", \"m7\"]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo from Twitter posted on 2017-10-19 07:36 UTC showing a wildfire scene with multiple fires on the ground, two individuals observing from a distance, and a hazy sky. The fire is consuming brush and debris, with visible flames and smoke. The individuals are standing on higher ground, facing the fire. The environment appears to be a natural, outdoor setting with trees and shrubs in the background.",
+              "sources": ["E08"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Social media photo from Twitter posted on 2017-10-12 03:11 UTC showing a wildfire scene with multiple fires on the ground, two individuals observing from a distance, and a hazy sky. The fire is consuming brush and debris, with visible flames and smoke. The individuals are standing on higher ground, facing the fire. The environment appears to be a natural, outdoor setting with trees and shrubs in the background.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m6", "m7"]
+        },
+        "problems": [],
+        "tokens_after": 244
+      }
+    ],
+    "tokens": 244,
+    "n_lines": 2,
+    "secs": 20.16
+  },
+  {
+    "item_id": "E09",
+    "step": 9,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo from Twitter posted on 2017-10-19 07:36 UTC showing a wildfire scene with multiple fires on the ground, two individuals observing from a distance, and a hazy sky. The fire is consuming brush and debris, with visible flames and smoke. The individuals are standing on higher ground, facing the fire. The environment appears to be a natural, outdoor setting with trees and shrubs in the background.\",",
+          "      \"sources\": [\"E09\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"Social media photo from Twitter posted on 2017-10-12 03:11 UTC showing a wildfire scene with multiple fires on the ground, two individuals observing from a distance, and a hazy sky. The fire is consuming brush and debris, with visible flames and smoke. The individuals are standing on higher ground, facing the fire. The environment appears to be a natural, outdoor setting with trees and shrubs in the background.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo from Twitter posted on 2017-10-19 07:36 UTC showing a wildfire scene with multiple fires on the ground, two individuals observing from a distance, and a hazy sky. The fire is consuming brush and debris, with visible flames and smoke. The individuals are standing on higher ground, facing the fire. The environment appears to be a natural, outdoor setting with trees and shrubs in the background.",
+              "sources": ["E09"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Social media photo from Twitter posted on 2017-10-12 03:11 UTC showing a wildfire scene with multiple fires on the ground, two individuals observing from a distance, and a hazy sky. The fire is consuming brush and debris, with visible flames and smoke. The individuals are standing on higher ground, facing the fire. The environment appears to be a natural, outdoor setting with trees and shrubs in the background.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 366
+      }
+    ],
+    "tokens": 366,
+    "n_lines": 3,
+    "secs": 19.62
+  },
+  {
+    "item_id": "E10",
+    "step": 10,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Social media photo from Twitter posted on 2017-10-20 11:11 UTC showing a wildfire scene with multiple fires on the ground, two individuals observing from a distance, and a hazy sky. The fire is consuming brush and debris, with visible flames and smoke. The individuals are standing on higher ground, facing the fire. The environment appears to be a natural, outdoor setting with trees and shrubs in the background.\",",
+          "      \"sources\": [\"E10\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"Social media photo from Twitter posted on 2017-10-12 03:11 UTC showing a wildfire scene with multiple fires on the ground, two individuals observing from a distance, and a hazy sky. The fire is consuming brush and debris, with visible flames and smoke. The individuals are standing on higher ground, facing the fire. The environment appears to be a natural, outdoor setting with trees and shrubs in the background.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": [\"m8\", \"m9\"]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Social media photo from Twitter posted on 2017-10-20 11:11 UTC showing a wildfire scene with multiple fires on the ground, two individuals observing from a distance, and a hazy sky. The fire is consuming brush and debris, with visible flames and smoke. The individuals are standing on higher ground, facing the fire. The environment appears to be a natural, outdoor setting with trees and shrubs in the background.",
+              "sources": ["E10"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Social media photo from Twitter posted on 2017-10-12 03:11 UTC showing a wildfire scene with multiple fires on the ground, two individuals observing from a distance, and a hazy sky. The fire is consuming brush and debris, with visible flames and smoke. The individuals are standing on higher ground, facing the fire. The environment appears to be a natural, outdoor setting with trees and shrubs in the background.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m8", "m9"]
+        },
+        "problems": [],
+        "tokens_after": 245
+      }
+    ],
+    "tokens": 245,
+    "n_lines": 2,
+    "secs": 19.95
+  }
+]

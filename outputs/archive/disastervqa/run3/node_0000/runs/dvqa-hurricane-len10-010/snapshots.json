@@ -1,0 +1,207 @@
+[
+  {
+    "step": 1,
+    "tokens": 92,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Aerial view of a flooded area with submerged buildings, vehicles, and trees, indicating severe flooding. The image shows a large parking lot with cars partially submerged, surrounded by greenery and residential structures in the background. The water appears murky and brown, suggesting possible contamination or sediment. No people are visible in the image.",
+        "sources": ["E01"]
+      }
+    ]
+  },
+  {
+    "step": 2,
+    "tokens": 184,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Aerial view of a flooded area with submerged buildings, vehicles, and trees, indicating severe flooding. The image shows a large parking lot with cars partially submerged, surrounded by greenery and residential structures in the background. The water appears murky and brown, suggesting possible contamination or sediment. No people are visible in the image.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "Aerial view of a flooded area with submerged buildings, vehicles, and trees, indicating severe flooding. The image shows a large parking lot with cars partially submerged, surrounded by greenery and residential structures in the background. The water appears murky and brown, suggesting possible contamination or sediment. No people are visible in the image.",
+        "sources": ["E02"]
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "tokens": 256,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Aerial view of a flooded area with submerged buildings, vehicles, and trees, indicating severe flooding. The image shows a large parking lot with cars partially submerged, surrounded by greenery and residential structures in the background. The water appears murky and brown, suggesting possible contamination or sediment. No people are visible in the image. Social media photo (Twitter), posted 2017-09-19 17:03 UTC.",
+        "sources": ["E01", "E03"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo posted on Twitter on 2017-09-19 17:03 UTC, depicting a flooded area with submerged buildings, vehicles, and trees, indicating severe flooding. The image shows a large parking lot with cars partially submerged, surrounded by greenery and residential structures in the background. The water appears murky and brown, suggesting possible contamination or sediment. No people are visible in the image.",
+        "sources": ["E03"]
+      }
+    ]
+  },
+  {
+    "step": 4,
+    "tokens": 371,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Aerial view of a flooded area with submerged buildings, vehicles, and trees, indicating severe flooding. The image shows a large parking lot with cars partially submerged, surrounded by greenery and residential structures in the background. The water appears murky and brown, suggesting possible contamination or sediment. No people are visible in the image. Social media photo (Twitter), posted 2017-09-19 17:03 UTC.",
+        "sources": ["E01", "E03"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo posted on Twitter on 2017-09-19 17:03 UTC, depicting a flooded area with submerged buildings, vehicles, and trees, indicating severe flooding. The image shows a large parking lot with cars partially submerged, surrounded by greenery and residential structures in the background. The water appears murky and brown, suggesting possible contamination or sediment. No people are visible in the image.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "social media photo (Twitter), posted 2017-09-19 18:03 UTC, depicting a flooded area with submerged buildings, vehicles, and trees, indicating severe flooding. The image shows a large parking lot with cars partially submerged, surrounded by greenery and residential structures in the background. The water appears murky and brown, suggesting possible contamination or sediment. No people are visible in the image.",
+        "sources": ["E04"]
+      }
+    ]
+  },
+  {
+    "step": 5,
+    "tokens": 486,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Aerial view of a flooded area with submerged buildings, vehicles, and trees, indicating severe flooding. The image shows a large parking lot with cars partially submerged, surrounded by greenery and residential structures in the background. The water appears murky and brown, suggesting possible contamination or sediment. No people are visible in the image. Social media photo (Twitter), posted 2017-09-19 17:03 UTC.",
+        "sources": ["E01", "E03"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo posted on Twitter on 2017-09-19 17:03 UTC, depicting a flooded area with submerged buildings, vehicles, and trees, indicating severe flooding. The image shows a large parking lot with cars partially submerged, surrounded by greenery and residential structures in the background. The water appears murky and brown, suggesting possible contamination or sediment. No people are visible in the image.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "social media photo (Twitter), posted 2017-09-19 18:03 UTC, depicting a flooded area with submerged buildings, vehicles, and trees, indicating severe flooding. The image shows a large parking lot with cars partially submerged, surrounded by greenery and residential structures in the background. The water appears murky and brown, suggesting possible contamination or sediment. No people are visible in the image.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "social media photo (Twitter), posted 2017-09-19 18:05 UTC, depicting a flooded area with submerged buildings, vehicles, and trees, indicating severe flooding. The image shows a large parking lot with cars partially submerged, surrounded by greenery and residential structures in the background. The water appears murky and brown, suggesting possible contamination or sediment. No people are visible in the image.",
+        "sources": ["E05"]
+      }
+    ]
+  },
+  {
+    "step": 6,
+    "tokens": 461,
+    "lines": [
+      {
+        "id": "m3",
+        "text": "A social media photo posted on Twitter on 2017-09-19 17:03 UTC, depicting a flooded area with submerged buildings, vehicles, and trees, indicating severe flooding. The image shows a large parking lot with cars partially submerged, surrounded by greenery and residential structures in the background. The water appears murky and brown, suggesting possible contamination or sediment. No people are visible in the image.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "social media photo (Twitter), posted 2017-09-19 18:03 UTC, depicting a flooded area with submerged buildings, vehicles, and trees, indicating severe flooding. The image shows a large parking lot with cars partially submerged, surrounded by greenery and residential structures in the background. The water appears murky and brown, suggesting possible contamination or sediment. No people are visible in the image.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "social media photo (Twitter), posted 2017-09-19 18:05 UTC, depicting a flooded area with submerged buildings, vehicles, and trees, indicating severe flooding. The image shows a large parking lot with cars partially submerged, surrounded by greenery and residential structures in the background. The water appears murky and brown, suggesting possible contamination or sediment. No people are visible in the image.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "social media photo (Twitter), posted 2017-09-19 18:16 UTC, depicting a flooded area with submerged buildings, vehicles, and trees, indicating severe flooding. The image shows a large parking lot with cars partially submerged, surrounded by greenery and residential structures in the background. The water appears murky and brown, suggesting possible contamination or sediment. No people are visible in the image.",
+        "sources": ["E06"]
+      }
+    ]
+  },
+  {
+    "step": 7,
+    "tokens": 257,
+    "lines": [
+      {
+        "id": "m3",
+        "text": "A social media photo posted on Twitter on 2017-09-19 17:03 UTC, depicting a flooded area with submerged buildings, vehicles, and trees, indicating severe flooding. The image shows a large parking lot with cars partially submerged, surrounded by greenery and residential structures in the background. The water appears murky and brown, suggesting possible contamination or sediment. No people are visible in the image.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m7",
+        "text": "m7 [src E07 @2017-09-19 18:40 UTC] social media photo (Twitter), posted 2017-09-19 18:40 UTC, depicting a flooded area with submerged buildings, vehicles, and trees, indicating severe flooding. The image shows a large parking lot with cars partially submerged, surrounded by greenery and residential structures in the background. The water appears murky and brown, suggesting possible contamination or sediment. No people are visible in the image.",
+        "sources": ["E07"]
+      }
+    ]
+  },
+  {
+    "step": 8,
+    "tokens": 372,
+    "lines": [
+      {
+        "id": "m3",
+        "text": "A social media photo posted on Twitter on 2017-09-19 17:03 UTC, depicting a flooded area with submerged buildings, vehicles, and trees, indicating severe flooding. The image shows a large parking lot with cars partially submerged, surrounded by greenery and residential structures in the background. The water appears murky and brown, suggesting possible contamination or sediment. No people are visible in the image.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m7",
+        "text": "m7 [src E07 @2017-09-19 18:40 UTC] social media photo (Twitter), posted 2017-09-19 18:40 UTC, depicting a flooded area with submerged buildings, vehicles, and trees, indicating severe flooding. The image shows a large parking lot with cars partially submerged, surrounded by greenery and residential structures in the background. The water appears murky and brown, suggesting possible contamination or sediment. No people are visible in the image.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "social media photo (Twitter), posted 2017-09-19 19:20 UTC, depicting a flooded area with submerged buildings, vehicles, and trees, indicating severe flooding. The image shows a large parking lot with cars partially submerged, surrounded by greenery and residential structures in the background. The water appears murky and brown, suggesting possible contamination or sediment. No people are visible in the image.",
+        "sources": ["E08"]
+      }
+    ]
+  },
+  {
+    "step": 9,
+    "tokens": 487,
+    "lines": [
+      {
+        "id": "m3",
+        "text": "A social media photo posted on Twitter on 2017-09-19 17:03 UTC, depicting a flooded area with submerged buildings, vehicles, and trees, indicating severe flooding. The image shows a large parking lot with cars partially submerged, surrounded by greenery and residential structures in the background. The water appears murky and brown, suggesting possible contamination or sediment. No people are visible in the image.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m7",
+        "text": "m7 [src E07 @2017-09-19 18:40 UTC] social media photo (Twitter), posted 2017-09-19 18:40 UTC, depicting a flooded area with submerged buildings, vehicles, and trees, indicating severe flooding. The image shows a large parking lot with cars partially submerged, surrounded by greenery and residential structures in the background. The water appears murky and brown, suggesting possible contamination or sediment. No people are visible in the image.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "social media photo (Twitter), posted 2017-09-19 19:20 UTC, depicting a flooded area with submerged buildings, vehicles, and trees, indicating severe flooding. The image shows a large parking lot with cars partially submerged, surrounded by greenery and residential structures in the background. The water appears murky and brown, suggesting possible contamination or sediment. No people are visible in the image.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "social media photo (Twitter), posted 2017-09-19 19:51 UTC, depicting a flooded area with submerged buildings, vehicles, and trees, indicating severe flooding. The image shows a large parking lot with cars partially submerged, surrounded by greenery and residential structures in the background. The water appears murky and brown, suggesting possible contamination or sediment. No people are visible in the image.",
+        "sources": ["E09"]
+      }
+    ]
+  },
+  {
+    "step": 10,
+    "tokens": 487,
+    "lines": [
+      {
+        "id": "m7",
+        "text": "m7 [src E07 @2017-09-19 18:40 UTC] social media photo (Twitter), posted 2017-09-19 18:40 UTC, depicting a flooded area with submerged buildings, vehicles, and trees, indicating severe flooding. The image shows a large parking lot with cars partially submerged, surrounded by greenery and residential structures in the background. The water appears murky and brown, suggesting possible contamination or sediment. No people are visible in the image.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "social media photo (Twitter), posted 2017-09-19 19:20 UTC, depicting a flooded area with submerged buildings, vehicles, and trees, indicating severe flooding. The image shows a large parking lot with cars partially submerged, surrounded by greenery and residential structures in the background. The water appears murky and brown, suggesting possible contamination or sediment. No people are visible in the image.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "social media photo (Twitter), posted 2017-09-19 19:51 UTC, depicting a flooded area with submerged buildings, vehicles, and trees, indicating severe flooding. The image shows a large parking lot with cars partially submerged, surrounded by greenery and residential structures in the background. The water appears murky and brown, suggesting possible contamination or sediment. No people are visible in the image.",
+        "sources": ["E09"]
+      },
+      {
+        "id": "m10",
+        "text": "social media photo (Twitter), posted 2017-09-19 20:20 UTC, depicting a flooded area with submerged buildings, vehicles, and trees, indicating severe flooding. The image shows a large parking lot with cars partially submerged, surrounded by greenery and residential structures in the background. The water appears murky and brown, suggesting possible contamination or sediment. No people are visible in the image.",
+        "sources": ["E10"]
+      }
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+<strategy>
+Retain critical incident markers ('submerged vehicles', 'collapsed structures'), spatially-temporally distinct events, and key metadata (IDs/timestamps). Merge duplicate visual updates via perceptual hashing and prioritize high-entropy changes. Store compressed narratives focusing on actionable details (e.g., water level trends) rather than full descriptions. Use hierarchical embedding clusters to map relationships between images while enforcing strict 512-token limits through delta encoding and entity linking for cross-referencing. Preserve temporal sequences through adjacency logging but allow oldest entries eviction under budget constraints.
+</strategy>
+
+<rationale>
+This strategy balances precision and efficiency by targeting retention of diagnostically valuable elements while eliminating noise. Perceptual hashing reduces storage overhead for visually similar frames, while hierarchical clustering preserves relational context. Critical incidents act as anchors for meaningful memory segments, enabling accurate downstream inference despite compression. Metadata minimization ensures core temporal/spatial anchors remain searchable within tight budgets.
+</rationale>
+
+<changes>
+Revised to explicitly emphasize embedding-based similarity metrics and temporal sequencing mechanisms mentioned in original specifications. Added clarification about delta encoding implementation for better technical alignment. Removed vague phrasing about "aggressive summarization" in favor of specific techniques (perceptual hashing, entity linking) referenced in the prompt.

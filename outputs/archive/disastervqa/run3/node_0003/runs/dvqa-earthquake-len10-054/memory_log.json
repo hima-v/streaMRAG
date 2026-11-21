@@ -1,0 +1,521 @@
+[
+  {
+    "item_id": "E01",
+    "step": 1,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"A collapsed building with exposed rebar and debris, two workers in safety gear (one in a white helmet, one in a green vest) on ladders, and tangled power lines overhead. The scene is illuminated by artificial lighting, suggesting nighttime. The structure's remnants include twisted metal beams and scattered bricks, indicating a recent disaster. A submerged vehicle is visible in the background, partially obscured by rubble.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A collapsed building with exposed rebar and debris, two workers in safety gear (one in a white helmet, one in a green vest) on ladders, and tangled power lines overhead. The scene is illuminated by artificial lighting, suggesting nighttime. The structure's remnants include twisted metal beams and scattered bricks, indicating a recent disaster. A submerged vehicle is visible in the background, partially obscured by rubble.",
+              "sources": ["E01"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 110
+      }
+    ],
+    "tokens": 110,
+    "n_lines": 1,
+    "secs": 9.58
+  },
+  {
+    "item_id": "E02",
+    "step": 2,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"A black Toyota Corolla with license plate '152-406' is partially submerged in debris, with its front end elevated over a large crack in the pavement. A man in a maroon shirt and white sneakers stands nearby, observing the vehicle. A police officer in a black uniform with 'POLICIA FEDERAL' on the back raises his hand, possibly directing traffic or assessing the situation. Another worker in a high-visibility vest is present, examining the area.\",",
+          "      \"sources\": [\"E02\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"A collapsed building with exposed rebar and debris, two workers in safety gear (one in a white helmet, one in a green vest) on ladders, and tangled power lines overhead. The scene is illuminated by artificial lighting, suggesting nighttime. The structure's remnants include twisted metal beams and scattered bricks, indicating a recent disaster. A submerged vehicle is visible in the background, partially obscured by rubble. A black Toyota Corolla with license plate '152-406' is partially submerged in debris, with its front end elevated over a large crack in the pavement. A man in a maroon shirt and white sneakers stands nearby, observing the vehicle. A police officer in a black uniform with 'POLICIA FEDERAL' on the back raises his hand, possibly directing traffic or assessing the situation. Another worker in a high-visibility vest is present, examining the area.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A black Toyota Corolla with license plate '152-406' is partially submerged in debris, with its front end elevated over a large crack in the pavement. A man in a maroon shirt and white sneakers stands nearby, observing the vehicle. A police officer in a black uniform with 'POLICIA FEDERAL' on the back raises his hand, possibly directing traffic or assessing the situation. Another worker in a high-visibility vest is present, examining the area.",
+              "sources": ["E02"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A collapsed building with exposed rebar and debris, two workers in safety gear (one in a white helmet, one in a green vest) on ladders, and tangled power lines overhead. The scene is illuminated by artificial lighting, suggesting nighttime. The structure's remnants include twisted metal beams and scattered bricks, indicating a recent disaster. A submerged vehicle is visible in the background, partially obscured by rubble. A black Toyota Corolla with license plate '152-406' is partially submerged in debris, with its front end elevated over a large crack in the pavement. A man in a maroon shirt and white sneakers stands nearby, observing the vehicle. A police officer in a black uniform with 'POLICIA FEDERAL' on the back raises his hand, possibly directing traffic or assessing the situation. Another worker in a high-visibility vest is present, examining the area.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 339
+      }
+    ],
+    "tokens": 339,
+    "n_lines": 2,
+    "secs": 27.98
+  },
+  {
+    "item_id": "E03",
+    "step": 3,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"A social media photo posted on Twitter at 2017-09-21 06:18 UTC shows a collapsed building with exposed rebar and debris. Workers in safety gear, including a white helmet and green vest, are on ladders, and tangled power lines are visible. A submerged black Toyota Corolla with license plate '152-406' is partially elevated over a large crack, with a man in a maroon shirt and white sneakers observing it. A police officer in a black uniform with 'POLICIA FEDERAL' raises his hand, and another worker in a high-visibility vest examines the area.\",",
+          "      \"sources\": [\"E03\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"A collapsed building with exposed rebar and debris, two workers in safety gear (one in a white helmet, one in a green vest) on ladders, and tangled power lines overhead. The scene is illuminated by artificial lighting, suggesting nighttime. The structure's remnants include twisted metal beams and scattered bricks, indicating a recent disaster. A submerged vehicle is visible in the background, partially obscured by rubble. A black Toyota Corolla with license plate '152-406' is partially submerged in debris, with its front end elevated over a large crack in the pavement. A man in a maroon shirt and white sneakers stands nearby, observing the vehicle. A police officer in a black uniform with 'POLICIA FEDERAL' on the back raises his hand, possibly directing traffic or assessing the situation. Another worker in a high-visibility vest is present, examining the area.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": [\"m2\"]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo posted on Twitter at 2017-09-21 06:18 UTC shows a collapsed building with exposed rebar and debris. Workers in safety gear, including a white helmet and green vest, are on ladders, and tangled power lines are visible. A submerged black Toyota Corolla with license plate '152-406' is partially elevated over a large crack, with a man in a maroon shirt and white sneakers observing it. A police officer in a black uniform with 'POLICIA FEDERAL' raises his hand, and another worker in a high-visibility vest examines the area.",
+              "sources": ["E03"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A collapsed building with exposed rebar and debris, two workers in safety gear (one in a white helmet, one in a green vest) on ladders, and tangled power lines overhead. The scene is illuminated by artificial lighting, suggesting nighttime. The structure's remnants include twisted metal beams and scattered bricks, indicating a recent disaster. A submerged vehicle is visible in the background, partially obscured by rubble. A black Toyota Corolla with license plate '152-406' is partially submerged in debris, with its front end elevated over a large crack in the pavement. A man in a maroon shirt and white sneakers stands nearby, observing the vehicle. A police officer in a black uniform with 'POLICIA FEDERAL' on the back raises his hand, possibly directing traffic or assessing the situation. Another worker in a high-visibility vest is present, examining the area.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": [],
+        "tokens_after": 376
+      }
+    ],
+    "tokens": 376,
+    "n_lines": 2,
+    "secs": 29.2
+  },
+  {
+    "item_id": "E04",
+    "step": 4,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"A social media photo posted on Twitter at 2017-09-21 06:50 UTC shows a collapsed building with exposed rebar and debris. Workers in safety gear, including a white helmet and green vest, are on ladders, and tangled power lines are visible. A submerged black Toyota Corolla with license plate '152-406' is partially elevated over a large crack, with a man in a maroon shirt and white sneakers observing it. A police officer in a black uniform with 'POLICIA FEDERAL' raises his hand, and another worker in a high-visibility vest examines the area.\",",
+          "      \"sources\": [\"E04\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"A collapsed building with exposed rebar and debris, two workers in safety gear (one in a white helmet, one in a green vest) on ladders, and tangled power lines overhead. The scene is illuminated by artificial lighting, suggesting nighttime. The structure's remnants include twisted metal beams and scattered bricks, indicating a recent disaster. A submerged vehicle is visible in the background, partially obscured by rubble. A black Toyota Corolla with license plate '152-406' is partially submerged in debris, with its front end elevated over a large crack in the pavement. A man in a maroon shirt and white sneakers stands nearby, observing the vehicle. A police officer in a black uniform with 'POLICIA FEDERAL' on the back raises his hand, possibly directing traffic or assessing the situation. Another worker in a high-visibility vest is present, examining the area.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": [\"m2\"]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo posted on Twitter at 2017-09-21 06:50 UTC shows a collapsed building with exposed rebar and debris. Workers in safety gear, including a white helmet and green vest, are on ladders, and tangled power lines are visible. A submerged black Toyota Corolla with license plate '152-406' is partially elevated over a large crack, with a man in a maroon shirt and white sneakers observing it. A police officer in a black uniform with 'POLICIA FEDERAL' raises his hand, and another worker in a high-visibility vest examines the area.",
+              "sources": ["E04"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A collapsed building with exposed rebar and debris, two workers in safety gear (one in a white helmet, one in a green vest) on ladders, and tangled power lines overhead. The scene is illuminated by artificial lighting, suggesting nighttime. The structure's remnants include twisted metal beams and scattered bricks, indicating a recent disaster. A submerged vehicle is visible in the background, partially obscured by rubble. A black Toyota Corolla with license plate '152-406' is partially submerged in debris, with its front end elevated over a large crack in the pavement. A man in a maroon shirt and white sneakers stands nearby, observing the vehicle. A police officer in a black uniform with 'POLICIA FEDERAL' on the back raises his hand, possibly directing traffic or assessing the situation. Another worker in a high-visibility vest is present, examining the area.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 541
+      },
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"A social media photo posted on Twitter at 2017-09-21 06:50 UTC shows a collapsed building with exposed rebar and debris. Workers in safety gear, including a white helmet and green vest, are on ladders, and tangled power lines are visible. A submerged black Toyota Corolla with license plate '152-406' is partially elevated over a large crack, with a man in a maroon shirt and white sneakers observing it. A police officer in a black uniform with 'POLICIA FEDERAL' raises his hand, and another worker in a high-visibility vest examines the area.\",",
+          "      \"sources\": [\"E04\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"A collapsed building with exposed rebar and debris, two workers in safety gear (one in a white helmet, one in a green vest) on ladders, and tangled power lines overhead. The scene is illuminated by artificial lighting, suggesting nighttime. The structure's remnants include twisted metal beams and scattered bricks, indicating a recent disaster. A submerged vehicle is visible in the background, partially obscured by rubble. A black Toyota Corolla with license plate '152-406' is partially submerged in debris, with its front end elevated over a large crack in the pavement. A man in a maroon shirt and white sneakers stands nearby, observing the vehicle. A police officer in a black uniform with 'POLICIA FEDERAL' on the back raises his hand, possibly directing traffic or assessing the situation. Another worker in a high-visibility vest is present, examining the area.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": [\"m2\"]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo posted on Twitter at 2017-09-21 06:50 UTC shows a collapsed building with exposed rebar and debris. Workers in safety gear, including a white helmet and green vest, are on ladders, and tangled power lines are visible. A submerged black Toyota Corolla with license plate '152-406' is partially elevated over a large crack, with a man in a maroon shirt and white sneakers observing it. A police officer in a black uniform with 'POLICIA FEDERAL' raises his hand, and another worker in a high-visibility vest examines the area.",
+              "sources": ["E04"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A collapsed building with exposed rebar and debris, two workers in safety gear (one in a white helmet, one in a green vest) on ladders, and tangled power lines overhead. The scene is illuminated by artificial lighting, suggesting nighttime. The structure's remnants include twisted metal beams and scattered bricks, indicating a recent disaster. A submerged vehicle is visible in the background, partially obscured by rubble. A black Toyota Corolla with license plate '152-406' is partially submerged in debris, with its front end elevated over a large crack in the pavement. A man in a maroon shirt and white sneakers stands nearby, observing the vehicle. A police officer in a black uniform with 'POLICIA FEDERAL' on the back raises his hand, possibly directing traffic or assessing the situation. Another worker in a high-visibility vest is present, examining the area.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 541
+      }
+    ],
+    "fallback": "budget_evict_oldest",
+    "evicted": [
+      {
+        "id": "m1",
+        "text": "A collapsed building with exposed rebar and debris, two workers in safety gear (one in a white helmet, one in a green vest) on ladders, and tangled power lines overhead. The scene is illuminated by artificial lighting, suggesting nighttime. The structure's remnants include twisted metal beams and scattered bricks, indicating a recent disaster. A submerged vehicle is visible in the background, partially obscured by rubble. A black Toyota Corolla with license plate '152-406' is partially submerged in debris, with its front end elevated over a large crack in the pavement. A man in a maroon shirt and white sneakers stands nearby, observing the vehicle. A police officer in a black uniform with 'POLICIA FEDERAL' on the back raises his hand, possibly directing traffic or assessing the situation. Another worker in a high-visibility vest is present, examining the area.",
+        "sources": ["E01"]
+      }
+    ],
+    "tokens": 330,
+    "n_lines": 2,
+    "secs": 59.73
+  },
+  {
+    "item_id": "E05",
+    "step": 5,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"A social media photo posted on Twitter at 2017-09-21 07:14 UTC shows a collapsed building with exposed rebar and debris. Workers in safety gear, including a white helmet and green vest, are on ladders, and tangled power lines are visible. A submerged black Toyota Corolla with license plate '152-406' is partially elevated over a large crack, with a man in a maroon shirt and white sneakers observing it. A police officer in a black uniform with 'POLICIA FEDERAL' raises his hand, and another worker in a high-visibility vest examines the area.\",",
+          "      \"sources\": [\"E05\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo posted on Twitter at 2017-09-21 07:14 UTC shows a collapsed building with exposed rebar and debris. Workers in safety gear, including a white helmet and green vest, are on ladders, and tangled power lines are visible. A submerged black Toyota Corolla with license plate '152-406' is partially elevated over a large crack, with a man in a maroon shirt and white sneakers observing it. A police officer in a black uniform with 'POLICIA FEDERAL' raises his hand, and another worker in a high-visibility vest examines the area.",
+              "sources": ["E05"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 495
+      }
+    ],
+    "tokens": 495,
+    "n_lines": 3,
+    "secs": 14.35
+  },
+  {
+    "item_id": "E06",
+    "step": 6,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo posted on Twitter at 2017-09-21 07:16 UTC shows a collapsed building with exposed rebar and debris. Workers in safety gear, including a white helmet and green vest, are on ladders, and tangled power lines are visible. A submerged black Toyota Corolla with license plate '152-406' is partially elevated over a large crack, with a man in a maroon shirt and white sneakers observing it. A police officer in a black uniform with 'POLICIA FEDERAL' raises his hand, and another worker in a high-visibility vest examines the area.\", \"sources\": [\"E06\"]}], \"update\": [], \"delete\": []}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo posted on Twitter at 2017-09-21 07:16 UTC shows a collapsed building with exposed rebar and debris. Workers in safety gear, including a white helmet and green vest, are on ladders, and tangled power lines are visible. A submerged black Toyota Corolla with license plate '152-406' is partially elevated over a large crack, with a man in a maroon shirt and white sneakers observing it. A police officer in a black uniform with 'POLICIA FEDERAL' raises his hand, and another worker in a high-visibility vest examines the area.",
+              "sources": ["E06"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 660
+      },
+      {
+        "raw": [
+          "{\"delete\": [\"m4\", \"m5\"], \"update\": [{\"id\": \"m3\", \"text\": \"A social media photo posted on Twitter at 2017-09-21 06:18 UTC shows a collapsed building with exposed rebar and debris. Workers in safety gear, including a white helmet and green vest, are on ladders, and tangled power lines are visible. A submerged black Toyota Corolla with license plate '152-406' is partially elevated over a large crack, with a man in a maroon shirt and white sneakers observing it. A police officer in a black uniform with 'POLICIA FEDERAL' raises his hand, and another worker in a high-visibility vest examines the area.\", \"sources\": [\"E03\"]}, {\"id\": \"m6\", \"text\": \"A social media photo posted on Twitter at 2017-09-21 07:16 UTC shows a collapsed building with exposed rebar and debris. Workers in safety gear, including a white helmet and green vest, are on ladders, and tangled power lines are visible. A submerged black Toyota Corolla with license plate '152-406' is partially elevated over a large crack, with a man in a maroon shirt and white sneakers observing it. A police officer in a black uniform with 'POLICIA FEDERAL' raises his hand, and another worker in a high-visibility vest examines the area.\", \"sources\": [\"E06\"]}], \"add\": []}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "delete": ["m4", "m5"],
+          "update": [
+            {
+              "id": "m3",
+              "text": "A social media photo posted on Twitter at 2017-09-21 06:18 UTC shows a collapsed building with exposed rebar and debris. Workers in safety gear, including a white helmet and green vest, are on ladders, and tangled power lines are visible. A submerged black Toyota Corolla with license plate '152-406' is partially elevated over a large crack, with a man in a maroon shirt and white sneakers observing it. A police officer in a black uniform with 'POLICIA FEDERAL' raises his hand, and another worker in a high-visibility vest examines the area.",
+              "sources": ["E03"]
+            },
+            {
+              "id": "m6",
+              "text": "A social media photo posted on Twitter at 2017-09-21 07:16 UTC shows a collapsed building with exposed rebar and debris. Workers in safety gear, including a white helmet and green vest, are on ladders, and tangled power lines are visible. A submerged black Toyota Corolla with license plate '152-406' is partially elevated over a large crack, with a man in a maroon shirt and white sneakers observing it. A police officer in a black uniform with 'POLICIA FEDERAL' raises his hand, and another worker in a high-visibility vest examines the area.",
+              "sources": ["E06"]
+            }
+          ],
+          "add": []
+        },
+        "problems": ["update of unknown line m6"],
+        "tokens_after": 165
+      }
+    ],
+    "tokens": 165,
+    "n_lines": 1,
+    "secs": 38.47
+  },
+  {
+    "item_id": "E07",
+    "step": 7,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"A social media photo posted on Twitter at 2017-09-21 08:35 UTC shows a collapsed building with exposed rebar and debris. Workers in safety gear, including a white helmet and green vest, are on ladders, and tangled power lines are visible. A submerged black Toyota Corolla with license plate '152-406' is partially elevated over a large crack, with a man in a maroon shirt and white sneakers observing it. A police officer in a black uniform with 'POLICIA FEDERAL' raises his hand, and another worker in a high-visibility vest examines the area.\",",
+          "      \"sources\": [\"E07\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo posted on Twitter at 2017-09-21 08:35 UTC shows a collapsed building with exposed rebar and debris. Workers in safety gear, including a white helmet and green vest, are on ladders, and tangled power lines are visible. A submerged black Toyota Corolla with license plate '152-406' is partially elevated over a large crack, with a man in a maroon shirt and white sneakers observing it. A police officer in a black uniform with 'POLICIA FEDERAL' raises his hand, and another worker in a high-visibility vest examines the area.",
+              "sources": ["E07"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 330
+      }
+    ],
+    "tokens": 330,
+    "n_lines": 2,
+    "secs": 14.0
+  },
+  {
+    "item_id": "E08",
+    "step": 8,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"A social media photo posted on Twitter at 2017-09-21 08:44 UTC shows a collapsed building with exposed rebar and debris. Workers in safety gear, including a white helmet and green vest, are on ladders, and tangled power lines are visible. A submerged black Toyota Corolla with license plate '152-406' is partially elevated over a large crack, with a man in a maroon shirt and white sneakers observing it. A police officer in a black uniform with 'POLICIA FEDERAL' raises his hand, and another worker in a high-visibility vest examines the area.\",",
+          "      \"sources\": [\"E08\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo posted on Twitter at 2017-09-21 08:44 UTC shows a collapsed building with exposed rebar and debris. Workers in safety gear, including a white helmet and green vest, are on ladders, and tangled power lines are visible. A submerged black Toyota Corolla with license plate '152-406' is partially elevated over a large crack, with a man in a maroon shirt and white sneakers observing it. A police officer in a black uniform with 'POLICIA FEDERAL' raises his hand, and another worker in a high-visibility vest examines the area.",
+              "sources": ["E08"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 495
+      }
+    ],
+    "tokens": 495,
+    "n_lines": 3,
+    "secs": 13.56
+  },
+  {
+    "item_id": "E09",
+    "step": 9,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"A social media photo posted on Twitter at 2017-09-21 10:33 UTC shows a collapsed building with exposed rebar and debris. Workers in safety gear, including a white helmet and green vest, are on ladders, and tangled power lines are visible. A submerged black Toyota Corolla with license plate '152-406' is partially elevated over a large crack, with a man in a maroon shirt and white sneakers observing it. A police officer in a black uniform with 'POLICIA FEDERAL' raises his hand, and another worker in a high-visibility vest examines the area.\",",
+          "      \"sources\": [\"E09\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo posted on Twitter at 2017-09-21 10:33 UTC shows a collapsed building with exposed rebar and debris. Workers in safety gear, including a white helmet and green vest, are on ladders, and tangled power lines are visible. A submerged black Toyota Corolla with license plate '152-406' is partially elevated over a large crack, with a man in a maroon shirt and white sneakers observing it. A police officer in a black uniform with 'POLICIA FEDERAL' raises his hand, and another worker in a high-visibility vest examines the area.",
+              "sources": ["E09"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 660
+      },
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"delete\": [\"m6\", \"m7\"],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m3\",",
+          "      \"text\": \"A social media photo posted on Twitter at 2017-09-21 06:18 UTC shows a collapsed building with exposed rebar and debris. Workers in safety gear, including a white helmet and green vest, are on ladders, and tangled power lines are visible. A submerged black Toyota Corolla with license plate '152-406' is partially elevated over a large crack, with a man in a maroon shirt and white sneakers observing it. A police officer in a black uniform with 'POLICIA FEDERAL' raises his hand, and another worker in a high-visibility vest examines the area.\",",
+          "      \"sources\": [\"E03\"]",
+          "    }",
+          "  ],",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"A social media photo posted on Twitter at 2017-09-21 10:33 UTC shows a collapsed building with exposed rebar and debris. Workers in safety gear, including a white helmet and green vest, are on ladders, and tangled power lines are visible. A submerged black Toyota Corolla with license plate '152-406' is partially elevated over a large crack, with a man in a maroon shirt and white sneakers observing it. A police officer in a black uniform with 'POLICIA FEDERAL' raises his hand, and another worker in a high-visibility vest examines the area.\",",
+          "      \"sources\": [\"E09\"]",
+          "    }",
+          "  ]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "delete": ["m6", "m7"],
+          "update": [
+            {
+              "id": "m3",
+              "text": "A social media photo posted on Twitter at 2017-09-21 06:18 UTC shows a collapsed building with exposed rebar and debris. Workers in safety gear, including a white helmet and green vest, are on ladders, and tangled power lines are visible. A submerged black Toyota Corolla with license plate '152-406' is partially elevated over a large crack, with a man in a maroon shirt and white sneakers observing it. A police officer in a black uniform with 'POLICIA FEDERAL' raises his hand, and another worker in a high-visibility vest examines the area.",
+              "sources": ["E03"]
+            }
+          ],
+          "add": [
+            {
+              "text": "A social media photo posted on Twitter at 2017-09-21 10:33 UTC shows a collapsed building with exposed rebar and debris. Workers in safety gear, including a white helmet and green vest, are on ladders, and tangled power lines are visible. A submerged black Toyota Corolla with license plate '152-406' is partially elevated over a large crack, with a man in a maroon shirt and white sneakers observing it. A police officer in a black uniform with 'POLICIA FEDERAL' raises his hand, and another worker in a high-visibility vest examines the area.",
+              "sources": ["E09"]
+            }
+          ]
+        },
+        "problems": [],
+        "tokens_after": 330
+      }
+    ],
+    "tokens": 330,
+    "n_lines": 2,
+    "secs": 40.23
+  },
+  {
+    "item_id": "E10",
+    "step": 10,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"A social media photo posted on Twitter at 2017-09-21 10:48 UTC shows a collapsed building with exposed rebar and debris. Workers in safety gear, including a white helmet and green vest, are on ladders, and tangled power lines are visible. A submerged black Toyota Corolla with license plate '152-406' is partially elevated over a large crack, with a man in a maroon shirt and white sneakers observing it. A police officer in a black uniform with 'POLICIA FEDERAL' raises his hand, and another worker in a high-visibility vest examines the area.\",",
+          "      \"sources\": [\"E10\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo posted on Twitter at 2017-09-21 10:48 UTC shows a collapsed building with exposed rebar and debris. Workers in safety gear, including a white helmet and green vest, are on ladders, and tangled power lines are visible. A submerged black Toyota Corolla with license plate '152-406' is partially elevated over a large crack, with a man in a maroon shirt and white sneakers observing it. A police officer in a black uniform with 'POLICIA FEDERAL' raises his hand, and another worker in a high-visibility vest examines the area.",
+              "sources": ["E10"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 495
+      }
+    ],
+    "tokens": 495,
+    "n_lines": 3,
+    "secs": 14.15
+  }
+]

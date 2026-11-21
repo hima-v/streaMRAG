@@ -1,0 +1,527 @@
+[
+  {
+    "item_id": "E01",
+    "step": 1,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"Firefighters in full gear respond to a nighttime blaze at a multi-story building. Multiple fire trucks with extended ladders are positioned against the structure, and an American flag is visible. The scene is illuminated by emergency lights, with smoke rising from the building.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Firefighters in full gear respond to a nighttime blaze at a multi-story building. Multiple fire trucks with extended ladders are positioned against the structure, and an American flag is visible. The scene is illuminated by emergency lights, with smoke rising from the building.",
+              "sources": ["E01"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 82
+      }
+    ],
+    "tokens": 82,
+    "n_lines": 1,
+    "secs": 7.93
+  },
+  {
+    "item_id": "E02",
+    "step": 2,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"A firefighter stands on a fire truck, observing the blaze. The fire is intense, with flames visible through the windows of the building. The scene is illuminated by emergency lights, and smoke is rising into the night sky. A white car and a silver SUV are parked nearby, with a tree partially visible on the right side of the image.\",",
+          "      \"sources\": [\"E02\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"Firefighters in full gear respond to a nighttime blaze at a multi-story building. Multiple fire trucks with extended ladders are positioned against the structure, and an American flag is visible. The scene is illuminated by emergency lights, with smoke rising from the building. A firefighter stands on a fire truck, observing the blaze. The fire is intense, with flames visible through the windows of the building. The scene is illuminated by emergency lights, and smoke is rising into the night sky. A white car and a silver SUV are parked nearby, with a tree partially visible on the right side of the image.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A firefighter stands on a fire truck, observing the blaze. The fire is intense, with flames visible through the windows of the building. The scene is illuminated by emergency lights, and smoke is rising into the night sky. A white car and a silver SUV are parked nearby, with a tree partially visible on the right side of the image.",
+              "sources": ["E02"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Firefighters in full gear respond to a nighttime blaze at a multi-story building. Multiple fire trucks with extended ladders are positioned against the structure, and an American flag is visible. The scene is illuminated by emergency lights, with smoke rising from the building. A firefighter stands on a fire truck, observing the blaze. The fire is intense, with flames visible through the windows of the building. The scene is illuminated by emergency lights, and smoke is rising into the night sky. A white car and a silver SUV are parked nearby, with a tree partially visible on the right side of the image.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 249
+      }
+    ],
+    "tokens": 249,
+    "n_lines": 2,
+    "secs": 20.96
+  },
+  {
+    "item_id": "E03",
+    "step": 3,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo posted on 2017-06-01 13:57 UTC shows a damaged vehicle and debris, possibly related to the fire incident.\", \"sources\": [\"E03\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Firefighters in full gear respond to a nighttime blaze at a multi-story building. Multiple fire trucks with extended ladders are positioned against the structure, and an American flag is visible. The scene is illuminated by emergency lights, with smoke rising from the building. A firefighter stands on a fire truck, observing the blaze. The fire is intense, with flames visible through the windows of the building. The scene is illuminated by emergency lights, and smoke is rising into the night sky. A white car and a silver SUV are parked nearby, with a tree partially visible on the right side of the image.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo posted on 2017-06-01 13:57 UTC shows a damaged vehicle and debris, possibly related to the fire incident.",
+              "sources": ["E03"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Firefighters in full gear respond to a nighttime blaze at a multi-story building. Multiple fire trucks with extended ladders are positioned against the structure, and an American flag is visible. The scene is illuminated by emergency lights, with smoke rising from the building. A firefighter stands on a fire truck, observing the blaze. The fire is intense, with flames visible through the windows of the building. The scene is illuminated by emergency lights, and smoke is rising into the night sky. A white car and a silver SUV are parked nearby, with a tree partially visible on the right side of the image.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": [],
+        "tokens_after": 217
+      }
+    ],
+    "tokens": 217,
+    "n_lines": 2,
+    "secs": 15.97
+  },
+  {
+    "item_id": "E04",
+    "step": 4,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"A social media photo posted on 2017-06-25 00:20 UTC shows a damaged vehicle and debris, possibly related to the fire incident.\",",
+          "      \"sources\": [\"E04\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"Firefighters in full gear respond to a nighttime blaze at a multi-story building. Multiple fire trucks with extended ladders are positioned against the structure, and an American flag is visible. The scene is illuminated by emergency lights, with smoke rising from the building. A firefighter stands on a fire truck, observing the blaze. The fire is intense, with flames visible through the windows of the building. The scene is illuminated by emergency lights, and smoke is rising into the night sky. A white car and a silver SUV are parked nearby, with a tree partially visible on the right side of the image.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": [\"m2\"]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo posted on 2017-06-25 00:20 UTC shows a damaged vehicle and debris, possibly related to the fire incident.",
+              "sources": ["E04"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Firefighters in full gear respond to a nighttime blaze at a multi-story building. Multiple fire trucks with extended ladders are positioned against the structure, and an American flag is visible. The scene is illuminated by emergency lights, with smoke rising from the building. A firefighter stands on a fire truck, observing the blaze. The fire is intense, with flames visible through the windows of the building. The scene is illuminated by emergency lights, and smoke is rising into the night sky. A white car and a silver SUV are parked nearby, with a tree partially visible on the right side of the image.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 282
+      }
+    ],
+    "tokens": 282,
+    "n_lines": 3,
+    "secs": 18.01
+  },
+  {
+    "item_id": "E05",
+    "step": 5,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"A social media photo posted on 2017-06-25 21:15 UTC shows a damaged vehicle and debris, possibly related to the fire incident.\",",
+          "      \"sources\": [\"E05\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"Firefighters in full gear respond to a nighttime blaze at a multi-story building. Multiple fire trucks with extended ladders are positioned against the structure, and an American flag is visible. The scene is illuminated by emergency lights, with smoke rising from the building. A firefighter stands on a fire truck, observing the blaze. The fire is intense, with flames visible through the windows of the building. The scene is illuminated by emergency lights, and smoke is rising into the night sky. A white car and a silver SUV are parked nearby, with a tree partially visible on the right side of the image.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": [\"m2\"]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo posted on 2017-06-25 21:15 UTC shows a damaged vehicle and debris, possibly related to the fire incident.",
+              "sources": ["E05"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Firefighters in full gear respond to a nighttime blaze at a multi-story building. Multiple fire trucks with extended ladders are positioned against the structure, and an American flag is visible. The scene is illuminated by emergency lights, with smoke rising from the building. A firefighter stands on a fire truck, observing the blaze. The fire is intense, with flames visible through the windows of the building. The scene is illuminated by emergency lights, and smoke is rising into the night sky. A white car and a silver SUV are parked nearby, with a tree partially visible on the right side of the image.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 347
+      }
+    ],
+    "tokens": 347,
+    "n_lines": 4,
+    "secs": 17.46
+  },
+  {
+    "item_id": "E06",
+    "step": 6,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"A social media photo posted on 2017-07-21 00:43 UTC shows a damaged vehicle and debris, possibly related to the fire incident.\",",
+          "      \"sources\": [\"E06\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"Firefighters in full gear respond to a nighttime blaze at a multi-story building. Multiple fire trucks with extended ladders are positioned against the structure, and an American flag is visible. The scene is illuminated by emergency lights, with smoke rising from the building. A firefighter stands on a fire truck, observing the blaze. The fire is intense, with flames visible through the windows of the building. The scene is illuminated by emergency lights, and smoke is rising into the night sky. A white car and a silver SUV are parked nearby, with a tree partially visible on the right side of the image.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo posted on 2017-07-21 00:43 UTC shows a damaged vehicle and debris, possibly related to the fire incident.",
+              "sources": ["E06"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Firefighters in full gear respond to a nighttime blaze at a multi-story building. Multiple fire trucks with extended ladders are positioned against the structure, and an American flag is visible. The scene is illuminated by emergency lights, with smoke rising from the building. A firefighter stands on a fire truck, observing the blaze. The fire is intense, with flames visible through the windows of the building. The scene is illuminated by emergency lights, and smoke is rising into the night sky. A white car and a silver SUV are parked nearby, with a tree partially visible on the right side of the image.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 412
+      }
+    ],
+    "tokens": 412,
+    "n_lines": 5,
+    "secs": 17.92
+  },
+  {
+    "item_id": "E07",
+    "step": 7,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"A social media photo posted on 2017-08-23 00:46 UTC shows a damaged vehicle and debris, possibly related to the fire incident.\",",
+          "      \"sources\": [\"E07\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"Firefighters in full gear respond to a nighttime blaze at a multi-story building. Multiple fire trucks with extended ladders are positioned against the structure, and an American flag is visible. The scene is illuminated by emergency lights, with smoke rising from the building. A firefighter stands on a fire truck, observing the blaze. The fire is intense, with flames visible through the windows of the building. The scene is illuminated by emergency lights, and smoke is rising into the night sky. A white car and a silver SUV are parked nearby, with a tree partially visible on the right side of the image.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo posted on 2017-08-23 00:46 UTC shows a damaged vehicle and debris, possibly related to the fire incident.",
+              "sources": ["E07"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Firefighters in full gear respond to a nighttime blaze at a multi-story building. Multiple fire trucks with extended ladders are positioned against the structure, and an American flag is visible. The scene is illuminated by emergency lights, with smoke rising from the building. A firefighter stands on a fire truck, observing the blaze. The fire is intense, with flames visible through the windows of the building. The scene is illuminated by emergency lights, and smoke is rising into the night sky. A white car and a silver SUV are parked nearby, with a tree partially visible on the right side of the image.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 477
+      }
+    ],
+    "tokens": 477,
+    "n_lines": 6,
+    "secs": 18.87
+  },
+  {
+    "item_id": "E08",
+    "step": 8,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"A social media photo posted on 2017-08-28 10:43 UTC shows a damaged vehicle and debris, possibly related to the fire incident.\",",
+          "      \"sources\": [\"E08\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"Firefighters in full gear respond to a nighttime blaze at a multi-story building. Multiple fire trucks with extended ladders are positioned against the structure, and an American flag is visible. The scene is illuminated by emergency lights, with smoke rising from the building. A firefighter stands on a fire truck, observing the blaze. The fire is intense, with flames visible through the windows of the building. The scene is illuminated by emergency lights, and smoke is rising into the night sky. A white car and a silver SUV are parked nearby, with a tree partially visible on the right side of the image.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo posted on 2017-08-28 10:43 UTC shows a damaged vehicle and debris, possibly related to the fire incident.",
+              "sources": ["E08"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Firefighters in full gear respond to a nighttime blaze at a multi-story building. Multiple fire trucks with extended ladders are positioned against the structure, and an American flag is visible. The scene is illuminated by emergency lights, with smoke rising from the building. A firefighter stands on a fire truck, observing the blaze. The fire is intense, with flames visible through the windows of the building. The scene is illuminated by emergency lights, and smoke is rising into the night sky. A white car and a silver SUV are parked nearby, with a tree partially visible on the right side of the image.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 542
+      },
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"A social media photo posted on 2017-08-28 10:43 UTC shows a damaged vehicle and debris, possibly related to the fire incident.\",",
+          "      \"sources\": [\"E08\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [",
+          "    {",
+          "      \"id\": \"m1\",",
+          "      \"text\": \"Firefighters in full gear respond to a nighttime blaze at a multi-story building. Multiple fire trucks with extended ladders are positioned against the structure, and an American flag is visible. The scene is illuminated by emergency lights, with smoke rising from the building. A firefighter stands on a fire truck, observing the blaze. The fire is intense, with flames visible through the windows of the building. The scene is illuminated by emergency lights, and smoke is rising into the night sky. A white car and a silver SUV are parked nearby, with a tree partially visible on the right side of the image.\",",
+          "      \"sources\": [\"E01\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": [\"m2\"]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo posted on 2017-08-28 10:43 UTC shows a damaged vehicle and debris, possibly related to the fire incident.",
+              "sources": ["E08"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Firefighters in full gear respond to a nighttime blaze at a multi-story building. Multiple fire trucks with extended ladders are positioned against the structure, and an American flag is visible. The scene is illuminated by emergency lights, with smoke rising from the building. A firefighter stands on a fire truck, observing the blaze. The fire is intense, with flames visible through the windows of the building. The scene is illuminated by emergency lights, and smoke is rising into the night sky. A white car and a silver SUV are parked nearby, with a tree partially visible on the right side of the image.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 542
+      }
+    ],
+    "fallback": "budget_evict_oldest",
+    "evicted": [
+      {
+        "id": "m1",
+        "text": "Firefighters in full gear respond to a nighttime blaze at a multi-story building. Multiple fire trucks with extended ladders are positioned against the structure, and an American flag is visible. The scene is illuminated by emergency lights, with smoke rising from the building. A firefighter stands on a fire truck, observing the blaze. The fire is intense, with flames visible through the windows of the building. The scene is illuminated by emergency lights, and smoke is rising into the night sky. A white car and a silver SUV are parked nearby, with a tree partially visible on the right side of the image.",
+        "sources": ["E01"]
+      }
+    ],
+    "tokens": 390,
+    "n_lines": 6,
+    "secs": 35.26
+  },
+  {
+    "item_id": "E09",
+    "step": 9,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"A social media photo posted on 2017-09-06 09:22 UTC shows a damaged vehicle and debris, possibly related to the fire incident.\",",
+          "      \"sources\": [\"E09\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo posted on 2017-09-06 09:22 UTC shows a damaged vehicle and debris, possibly related to the fire incident.",
+              "sources": ["E09"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 455
+      }
+    ],
+    "tokens": 455,
+    "n_lines": 7,
+    "secs": 6.91
+  },
+  {
+    "item_id": "E10",
+    "step": 10,
+    "attempts": [
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"A social media photo posted on 2017-09-08 03:41 UTC shows a damaged vehicle and debris, possibly related to the fire incident.\",",
+          "      \"sources\": [\"E10\"]",
+          "    }",
+          "  ],",
+          "  \"update\": [],",
+          "  \"delete\": []",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo posted on 2017-09-08 03:41 UTC shows a damaged vehicle and debris, possibly related to the fire incident.",
+              "sources": ["E10"]
+            }
+          ],
+          "update": [],
+          "delete": []
+        },
+        "problems": [],
+        "tokens_after": 521
+      },
+      {
+        "raw": [
+          "```json",
+          "{",
+          "  \"add\": [",
+          "    {",
+          "      \"text\": \"A social media photo posted on 2017-09-08 03:41 UTC shows a damaged vehicle and debris, possibly related to the fire incident.\",",
+          "      \"sources\": [\"E10\"]",
+          "    }",
+          "  ],",
+          "  \"delete\": [",
+          "    \"m9\"",
+          "  ]",
+          "}",
+          "```"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo posted on 2017-09-08 03:41 UTC shows a damaged vehicle and debris, possibly related to the fire incident.",
+              "sources": ["E10"]
+            }
+          ],
+          "delete": ["m9"]
+        },
+        "problems": [],
+        "tokens_after": 456
+      }
+    ],
+    "tokens": 456,
+    "n_lines": 7,
+    "secs": 13.18
+  }
+]

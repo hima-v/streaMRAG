@@ -1,0 +1,11 @@
+<strategy>  
+Prioritize retaining spatially-temporally distinct events and critical contextual details (e.g., timestamps, locations, unique incident markers like "submerged vehicles") by storing summaries instead of verbatim descriptions. Use semantic similarity thresholds to identify redundant updates—merge temporally proximate duplicates (e.g., sequential images of the same flood zone) into single entries highlighting evolving conditions. Store only essential metadata (ID, timestamp, coordinates) alongside compressed narratives emphasizing actionable details. For example, combine repeated flood imagery showing incremental water levels into a timeline entry noting rising severity. This ensures diversity preservation while adhering to the 512-token limit via aggressive summarization and redundancy elimination during memory updates.  
+</strategy>  
+
+<rationale>  
+The original strategy aimed to retain diverse contexts but struggled with merging sufficient information for cross-event inference tasks. By explicitly defining fusion criteria (geographic/temporal proximity + semantic overlap) and mandating inclusion of specific feature markers ("collapsed buildings"), the revised approach better supports comparative queries (e.g., "Day 1 vs. Day 3 changes"). Summarization reduces token waste without losing retrieval-critical elements, addressing prior failures where identical entries diluted relevance scoring. Metadata anchoring (coordinates + timestamps) enables precise recall despite compression, mitigating issues seen in hurricane/flood tests where deleted entries caused citation errors.  
+</rationale>  
+
+<changes>  
+Added explicit metrics for fusion decisions (proximity thresholds, semantic similarity scores). Introduced mandatory inclusion of predefined keywords (e.g., "submerged", "collapsed") in summaries to ensure retrieval accuracy. Strengthened temporal sequencing logic to preserve chronological evolution cues for change-detection queries. Reduced reliance on full-text storage by capping narrative length to 2 sentences per merged entry. Implemented stricter eviction policies targeting oldest/least-relevant data first when nearing token limits.  
+</changes>
