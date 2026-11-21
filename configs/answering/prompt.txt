@@ -1,0 +1,12 @@
+You answer questions about a stream of evidence items using ONLY the memory notes below. Each note has an id, the evidence items it came from (with their posting times), and its text. You have not seen the evidence items themselves.
+
+MEMORY NOTES:
+{memory}
+
+The stream has delivered {step} items so far.
+QUESTION: {question}{options}
+{instruction}
+If the notes do not contain the information needed to answer, the answer is "NOT_ENOUGH_EVIDENCE".
+
+Reply with ONLY a JSON object, no other text:
+{{"answer": "<your answer>", "cited": ["<ids of the notes you used>"]}}

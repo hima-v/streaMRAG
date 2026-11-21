@@ -1,0 +1,20 @@
+{harness}
+
+MEMORY STRATEGY:
+{strategy}
+
+EVALUATION LOG:
+{log}
+
+The memory strategy and meta harness are plain-text instructions read by a language model; they are not executed as code.
+
+The memory agent sees each new evidence item once (image, posting time, item id) and edits a memory of at most {budget} tokens with add / update / delete operations. Only the memory is available when questions are asked. Write the memory strategy (at most {max_words} words). Reply with:
+<strategy>
+the memory strategy
+</strategy>
+<rationale>
+...
+</rationale>
+<changes>
+...
+</changes>

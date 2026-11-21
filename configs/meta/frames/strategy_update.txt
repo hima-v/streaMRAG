@@ -1,0 +1,27 @@
+You are the meta agent of a memory system for the {dataset} dataset. Follow your META HARNESS:
+<<<
+{harness}
+>>>
+
+PARENT MEMORY STRATEGY:
+<<<
+{strategy}
+>>>
+
+EVALUATION LOG OF THE PARENT STRATEGY:
+<<<
+{log}
+>>>
+
+Write an improved memory strategy, adapted from the parent strategy. How the memory agent works: it sees each new item once (a photo with its posting time and item id), together with its current memory and the strategy, and it edits the memory (add / update / delete short lines, each citing source item ids). The memory may hold at most {budget} tokens. Only the memory is available later, when questions are asked about the stream. The strategy will be used on NEW evidence streams with different photos and questions, so it must be general. It must be complete and self-contained, at most {max_words} words.
+
+Reply in exactly this format:
+<strategy>
+the complete new memory strategy
+</strategy>
+<rationale>
+why this should score better
+</rationale>
+<changes>
+- one line per change from the parent strategy
+</changes>

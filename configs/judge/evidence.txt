@@ -1,0 +1,15 @@
+You check whether the original evidence supports an answer.
+
+The image(s) are the original evidence items that the answer cites: {items}.
+Verified facts about these items, from the dataset annotations:
+{facts}
+
+QUESTION: {question}
+ANSWER GIVEN: {answer}
+
+Does this evidence support the answer to the question?
+- "supported": the evidence shows the answer is right.
+- "unsupported": the evidence contradicts the answer, or the answer claims something the evidence does not show.
+- "insufficient": the evidence does not let you decide.
+
+Reply with ONLY a JSON object: {{"verdict": "supported|unsupported|insufficient", "reason": "<one sentence>"}}

@@ -23,13 +23,18 @@ class M3BenchRobot(StreamDataset):
         return Path(hf_hub_download(self.cfg["hf_repo"], filename, repo_type="dataset",
                                     local_dir=self.raw))
 
-    def download(self, n_videos: int | None = 3, **kw) -> None:
-        """Annotations + all subtitles + the first `n_videos` videos (None = all 100)."""
+    def download(self, n_videos: int | None = 3, split: str | None = None, **kw) -> None:
+        """Annotations + all subtitles + the first `n_videos` videos (None = all 100),
+        optionally only from one split ("dev" / "test")."""
         http_download(self.cfg["annotations_url"], self.raw / "robot.json")
         files = HfApi().list_repo_files(self.cfg["hf_repo"], repo_type="dataset")
         for f in sorted(f for f in files if f.startswith("subtitles/robot/")):
             self._hf(f)
         vids = sorted(f for f in files if f.startswith("videos/robot/") and f.endswith(".mp4"))
+        if split:
+            from streamrag.eval.splits import split_units
+            units = split_units(self.name, split)
+            vids = [f for f in vids if f"m3r-{Path(f).stem}" in units]
         for f in vids[:n_videos] if n_videos is not None else vids:
             print(f"[m3bench] {f}")
             self._hf(f)
@@ -64,7 +69,8 @@ class M3BenchRobot(StreamDataset):
             qa = [QAItem(f"{sid}/{q['question_id']}", sid, q["question"], q["answer"],
                          t_query=hms_to_s(q["timestamp"]) if q.get("timestamp") else dur,
                          qtype=q.get("type"),
-                         meta={"before_clip": q.get("before_clip"), "reasoning_zh": q.get("reasoning")})
+                         meta={"format": "open", "before_clip": q.get("before_clip"),
+                               "reasoning_zh": q.get("reasoning")})
                   for q in rec["qa_list"]]
             streams.append(Stream(sid, self.name, obs, qa, meta={"video_s": dur}))
             if limit and len(streams) >= limit:

@@ -1,0 +1,10 @@
+# Rule-based evidence stream construction (codebase_plan.md §10). Same config + same dataset
+# versions => byte-identical stream files.
+version: v2
+seed: 0
+disastervqa:
+  disaster_types: [hurricane, flood, earthquake, wildfire, fire, landslide, storm, accidents, other_disasters, other]  # per type, photos in posting order (types without timestamped photos yield none)
+  block_size: 10                # photos per block; a stream of length L has L/10 blocks
+  questions_per_block: 5
+  nondistinctive_min_photos: 3  # drop (question, answer) pairs that occur on >= this many photos of the stream
+  format_order: [yesno, mc, open]   # round-robin preference when picking questions in a block

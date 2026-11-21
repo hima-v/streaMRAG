@@ -52,9 +52,11 @@ class MindCubeTiny(StreamDataset):
                    for i, p in enumerate(imgs)]
             qa = [QAItem(f"{sid}/{r['id']}", sid, r["question"], r["gt_answer"],
                          t_query=float(len(imgs) * dt), qtype=setting,
-                         meta={"category": r.get("category"), "type": r.get("type")})
+                         meta={"format": "mc", "category": r.get("category"), "type": r.get("type")})
                   for r in rs]
-            streams.append(Stream(sid, self.name, obs, qa, meta={"setting": setting}))
+            scene = "/".join(imgs[0].split("/")[:-1])   # photo folder = scene
+            streams.append(Stream(sid, self.name, obs, qa,
+                                  meta={"setting": setting, "split_key": scene}))
             if limit and len(streams) >= limit:
                 break
         return streams

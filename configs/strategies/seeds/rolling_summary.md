@@ -1,0 +1,1 @@
+Keep one summary line that describes the whole stream so far, and add one line per new item describing what it shows (people, objects, vehicles, hazards or damage, setting, readable text), citing its item id. When the memory would exceed the budget, merge the oldest item lines into the summary line (update it, keeping their item ids as sources) and delete those item lines.

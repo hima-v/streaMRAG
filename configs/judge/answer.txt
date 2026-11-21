@@ -1,0 +1,12 @@
+You are grading an answer to a question about a disaster photo.
+
+QUESTION: {question}
+REFERENCE ANSWER(S): {reference}
+CANDIDATE ANSWER: {candidate}
+
+Grade the candidate against the reference answer(s):
+- "correct": it gives the same information as a reference answer (wording may differ).
+- "partial": it contains some of the correct information but is incomplete.
+- "incorrect": it is wrong, contradicts the reference, or does not answer.
+
+Reply with ONLY a JSON object: {{"verdict": "correct|partial|incorrect", "reason": "<one sentence>"}}

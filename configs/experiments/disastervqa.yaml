@@ -1,0 +1,48 @@
+# Experiment setups for the self-improving memory agent on DisasterVQA (codebase_plan.md §11).
+#
+#   python scripts/run_experiment.py --dataset disastervqa --experiment short5 --archive run3
+#
+# Every dataset has its own file configs/experiments/<dataset>.yaml with the same experiment names
+# (short5, long5, ...), so the same setup can be run on another domain with --dataset <name>.
+#
+# Streams are built once beforehand (non-overlapping, timestamped photos only, all disaster types):
+#   python scripts/build_streams.py disastervqa --length 10    # 70 short streams, 5 questions each (350)
+#   python scripts/build_streams.py disastervqa --length 20    # 34 long streams, 10 questions each (340)
+# The selected streams and all settings are stored in the archive when it is created; continuing an
+# archive reuses them. Any key can also be overridden on the command line (see --help).
+
+dataset: disastervqa
+default_experiment: short5
+
+defaults:                        # shared by every experiment below; an experiment may override any key
+  profile: minimal               # minimal seed strategy + minimal meta harness (Hyperagents-style start)
+  budget: 512                    # memory budget (tokens)
+  memory_strategy: dynamic       # ablation switch: fixed | dynamic
+  meta_harness: dynamic          # ablation switch: fixed | dynamic
+  parent_selection: best         # best | score_child_prop
+  iterations: 3                  # nodes added per run_experiment call
+  stream_selection: stratified   # stratified (round-robin over disaster types) | random | list (use `streams`)
+  selection_seed: 0
+  streams: []                    # explicit stream ids, used when stream_selection: list
+
+experiments:
+  short5:                        # first test: 5 short streams = 25 questions per node
+    stream_length: 10
+    n_streams: 5
+  short_all:                     # all 70 short streams = 350 questions per node
+    stream_length: 10
+    n_streams: all
+  long5:                         # 5 long streams = 50 questions per node
+    stream_length: 20
+    n_streams: 5
+  long_all:                      # all 34 long streams = 340 questions per node
+    stream_length: 20
+    n_streams: all
+  short5_fixed_meta:             # ablation: meta harness never changes
+    stream_length: 10
+    n_streams: 5
+    meta_harness: fixed
+  short5_fixed_strategy:         # ablation: memory strategy never changes (only the harness evolves)
+    stream_length: 10
+    n_streams: 5
+    memory_strategy: fixed

@@ -1,0 +1,51 @@
+# Evaluation / run settings shared by captioning, baselines and scoring.
+captioner: nemotron-12b-vl         # model used for cached captions (see codebase_plan.md §8 compute risk)
+caption_max_new_tokens: 96
+reader: nemotron-12b-vl            # QA reader (also the summarizer for periodic_summary)
+judge: nemotron-12b-vl             # LLM judge for open-ended answers
+budget_tokenizer: nemotron-12b-vl  # tokenizer used to count memory tokens
+budgets: [256, 512, 1024]
+
+splits:                            # dev/test split by video / scene, never by question
+  seed: 0
+  dev:                             # int = number of units, float = fraction of units
+    videomme: 20
+    m3bench: 20
+    mindcube: 0.1
+    disastervqa: 0.2
+
+baselines:
+  similarity_threshold: 0.85       # latest_replace / similarity_merge: "same thing" if cosine >= this
+  retrieve_top_k: 64               # retrieve_all: candidate notes before budget packing
+  summary_target_frac: 0.5         # periodic_summary: compress to this fraction of the budget
+
+roles:                             # codebase_plan.md §11 (decisions 11-13)
+  memory_agent: nemotron-12b-vl    # perceives each item and edits memory (reasoning off)
+  meta_agent: nemotron-12b-vl      # proposes harnesses and strategies (reasoning off)
+  answering_agent: qwen2-vl-7b     # fixed prompt: configs/answering/prompt.txt
+  evaluator: qwen2-vl-7b           # fixed prompts: configs/judge/
+memory_agent:
+  max_new_tokens: 400
+  max_strategy_words: 250
+meta_agent:
+  max_new_tokens: 1500
+  max_harness_words: 400
+  max_failure_cases: 12
+  repetition_penalty: 1.1          # meta calls only: prevents the looping replies seen in archive demo node 1
+  temperature: 0.7                 # meta agent samples (seed = child node id) so a re-selected parent gets a new child
+  top_p: 0.95
+  max_resample: 3                  # re-sample (next seed) if a child duplicates an existing sibling
+
+profiles:                          # fixed frames + seeds per experiment profile (recorded in every node)
+  default:                         # detailed frames and domain-specific seeds (archive "demo")
+    memory_frame: memory/frame.txt
+    harness_frame: meta/frames/harness_update.txt
+    strategy_frame: meta/frames/strategy_update.txt
+    seed_strategy: strategies/seeds/append_recent.md
+    seed_harness: meta/{dataset}.md
+  minimal:                         # Hyperagents-style minimal start (codebase_plan.md §11.10)
+    memory_frame: memory/frame_minimal.txt
+    harness_frame: meta/frames/harness_update_minimal.txt
+    strategy_frame: meta/frames/strategy_update_minimal.txt
+    seed_strategy: strategies/seeds/minimal.md
+    seed_harness: meta/minimal.md

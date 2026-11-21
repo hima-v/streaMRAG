@@ -1,7 +1,7 @@
 """Video-MME (lmms-eval/Video-MME). We use `n_videos` long videos (30–60 min).
 
-Videos ship in 20 zip chunks (~5 GB each, ~101 GB total). download() fetches one chunk
-at a time, extracts only the selected videos and deletes the zip.
+Videos ship in 20 zip chunks (~5 GB each, ~101 GB total). download() reads only the selected
+.mp4 members out of the remote zips (HTTP range requests); whole chunks are never downloaded.
 """
 from __future__ import annotations
 
@@ -34,34 +34,63 @@ class VideoMME(StreamDataset):
         return Path(hf_hub_download(self.cfg["hf_repo"], filename, repo_type="dataset",
                                     local_dir=local_dir or self.raw))
 
-    def download(self, max_chunks: int | None = None, **kw) -> None:
+    def download(self, n_videos: int | None = None, split: str | None = None,
+                 videos: list[str] | None = None, **kw) -> None:
+        """Parquet + subtitles, then the selected videos (optionally only one split, the
+        first `n_videos`, or an explicit list of videoIDs).
+
+        Videos are read straight out of the remote zip chunks with HTTP range requests
+        (HfFileSystem), so only the wanted .mp4 files are transferred, never whole 5 GB chunks.
+        """
         self._hf(PARQUET)
         sub = self._hf("subtitle.zip")
         if not (self.raw / "subtitle").exists():
             with zipfile.ZipFile(sub) as zf:
                 safe_extract(zf, self.raw)
-        wanted = set(self.selected())
-        self.video_dir.mkdir(parents=True, exist_ok=True)
-        fetched = 0
-        for i in range(1, N_CHUNKS + 1):
-            missing = {v for v in wanted if not (self.video_dir / f"{v}.mp4").exists()}
-            if not missing:
-                break
-            if max_chunks is not None and fetched >= max_chunks:
-                print(f"[videomme] stopped after {fetched} chunk(s); {len(missing)} selected videos missing")
-                break
-            tmp = self.raw / "_chunks"
-            z = self._hf(f"videos_chunked_{i:02d}.zip", local_dir=tmp)
-            fetched += 1
-            with zipfile.ZipFile(z) as zf:
-                members = [m for m in zf.namelist() if Path(m).stem in missing and m.endswith(".mp4")]
-                safe_extract(zf, tmp / "x", members)
-                for m in members:
-                    shutil.move(str(tmp / "x" / m), self.video_dir / Path(m).name)
-            shutil.rmtree(tmp)
-            print(f"[videomme] chunk {i:02d}: extracted {len(members)} selected videos")
+        wanted = videos or self.selected()
+        if split and not videos:
+            from streamrag.eval.splits import split_units
+            units = split_units(self.name, split)
+            wanted = [v for v in wanted if f"vmme-{v}" in units]
+        wanted = wanted[:n_videos] if n_videos is not None else wanted
+        self.fetch_videos(wanted)
         n = sum((self.video_dir / f"{v}.mp4").exists() for v in wanted)
-        print(f"[videomme] {n}/{len(wanted)} selected videos present in {self.video_dir}")
+        print(f"[videomme] {n}/{len(wanted)} requested videos present in {self.video_dir}")
+
+    def video_locations(self) -> dict[str, list]:
+        """videoID -> [chunk index, member name, size bytes] for every video (cached)."""
+        path = self.processed / "video_locations.json"
+        if path.exists():
+            return json.loads(path.read_text())
+        from huggingface_hub import HfFileSystem
+        fs, where = HfFileSystem(), {}
+        for i in range(1, N_CHUNKS + 1):
+            with fs.open(f"datasets/{self.cfg['hf_repo']}/videos_chunked_{i:02d}.zip", "rb",
+                         block_size=2**20) as f:
+                for info in zipfile.ZipFile(f).infolist():
+                    if info.filename.endswith(".mp4"):
+                        where[Path(info.filename).stem] = [i, info.filename, info.file_size]
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(json.dumps(where))
+        return where
+
+    def fetch_videos(self, video_ids: list[str]) -> None:
+        from huggingface_hub import HfFileSystem
+        self.video_dir.mkdir(parents=True, exist_ok=True)
+        missing = [v for v in video_ids if not (self.video_dir / f"{v}.mp4").exists()]
+        if not missing:
+            return
+        where, fs = self.video_locations(), HfFileSystem()
+        for v in missing:
+            chunk, member, size = where[v]
+            dest = self.video_dir / f"{v}.mp4"
+            tmp = dest.with_suffix(".mp4.part")
+            with fs.open(f"datasets/{self.cfg['hf_repo']}/videos_chunked_{chunk:02d}.zip", "rb",
+                         block_size=2**22) as f, zipfile.ZipFile(f) as zf, \
+                    zf.open(member) as src, open(tmp, "wb") as out:
+                shutil.copyfileobj(src, out, length=2**22)
+            tmp.rename(dest)
+            print(f"[videomme] {v}.mp4 ({size / 1e6:.0f} MB) from chunk {chunk:02d}")
 
     def load(self) -> list[dict]:
         df = pd.read_parquet(self.require(self.raw / PARQUET))
@@ -109,7 +138,7 @@ class VideoMME(StreamDataset):
             rs = by_vid.get(vid, [])
             qa = [QAItem(f"{sid}/{r['question_id']}", sid, r["question"], r["answer"],
                          options=r["options"], t_query=dur, qtype=r["task_type"],
-                         meta={"domain": r["domain"], "sub_category": r["sub_category"]})
+                         meta={"format": "mc", "domain": r["domain"], "sub_category": r["sub_category"]})
                   for r in rs]
             meta = {k: rs[0][k] for k in ("video_id", "duration", "domain", "sub_category", "url")} if rs else {}
             streams.append(Stream(sid, self.name, obs, qa, meta={**meta, "video_s": dur}))

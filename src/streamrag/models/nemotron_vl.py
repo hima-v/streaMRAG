@@ -5,7 +5,11 @@ while the vision tower and projector stay in BF16. Video = list of PIL frames we
 """
 from __future__ import annotations
 
+import warnings
+
 import torch
+
+warnings.filterwarnings("ignore", message=".*MatMul8bitLt.*")
 from PIL import Image
 from transformers import (AutoModelForCausalLM, AutoProcessor, AutoTokenizer,
                           BitsAndBytesConfig)
@@ -45,6 +49,8 @@ class NemotronVL(VLM):
         self.model.video_pruning_rate = cfg.get("video_pruning_rate", 0.0)
         if cfg.get("fix_generation_cache", True):
             _fix_generation_cache(self.model.language_model)
+        if cfg.get("last_token_logits", True):
+            _last_token_logits(self.model.language_model)
         self.device = next(self.model.parameters()).device
 
     def _system(self, system: str | None) -> str:
@@ -54,7 +60,9 @@ class NemotronVL(VLM):
     @torch.inference_mode()
     def generate(self, prompt: str, images: list[Image.Image] | None = None,
                  frames: list[Image.Image] | None = None, system: str | None = None,
-                 max_new_tokens: int = 256) -> str:
+                 max_new_tokens: int = 256, repetition_penalty: float | None = None,
+                 temperature: float | None = None, top_p: float | None = None,
+                 seed: int | None = None) -> str:
         if images and frames:
             raise ValueError("Pass images or frames, not both")
         content: list[dict] = []
@@ -79,6 +87,13 @@ class NemotronVL(VLM):
         gen_kwargs = dict(input_ids=inputs.input_ids, attention_mask=inputs.attention_mask,
                           max_new_tokens=max_new_tokens, do_sample=False,
                           eos_token_id=self.tokenizer.eos_token_id)
+        if repetition_penalty:
+            gen_kwargs["repetition_penalty"] = repetition_penalty
+        if temperature:                                  # seeded sampling (meta agent); greedy otherwise
+            if seed is not None:
+                torch.manual_seed(seed)
+                torch.cuda.manual_seed_all(seed)
+            gen_kwargs.update(do_sample=True, temperature=temperature, top_p=top_p or 1.0)
         if images:
             gen_kwargs["pixel_values"] = inputs.pixel_values.to(torch.bfloat16)
         if frames:
@@ -86,6 +101,28 @@ class NemotronVL(VLM):
         out = self.model.generate(**gen_kwargs)
         new = out[:, inputs.input_ids.shape[1]:] if out.shape[1] > inputs.input_ids.shape[1] else out
         return self.processor.batch_decode(new, skip_special_tokens=True)[0].strip()
+
+
+class _LastTokenHead(torch.nn.Module):
+    """lm_head that only scores the last position. NemotronH's forward computes float32 logits for
+    EVERY prompt position (it ignores num_logits_to_keep=1): a 7.4k-token prompt needs 3.6 GiB just
+    for logits, which ran out of memory on a 24 GB GPU. Generation only uses the last position."""
+
+    def __init__(self, head):
+        super().__init__()
+        self.head = head
+
+    @property
+    def weight(self):
+        return self.head.weight
+
+    def forward(self, hidden_states):
+        return self.head(hidden_states[:, -1:, :])
+
+
+def _last_token_logits(lm) -> None:
+    if not isinstance(lm.lm_head, _LastTokenHead):
+        lm.lm_head = _LastTokenHead(lm.lm_head)
 
 
 def _fix_generation_cache(lm) -> None:

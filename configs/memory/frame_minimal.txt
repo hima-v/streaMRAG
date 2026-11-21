@@ -1,0 +1,12 @@
+MEMORY STRATEGY:
+{strategy}
+
+MEMORY ({used}/{budget} tokens):
+{memory}
+
+NEW ITEM {item_id}: {source}, posted {time_str}.{text}
+
+Questions about the stream will later be answered using only this memory.
+Reply with ONLY a JSON object of memory edits:
+{{"add": [{{"text": "...", "sources": ["{item_id}"]}}], "update": [{{"id": "m1", "text": "...", "sources": ["E01"]}}], "delete": ["m2"]}}
+Sources must be ids of items received so far. The memory must stay within {budget} tokens.

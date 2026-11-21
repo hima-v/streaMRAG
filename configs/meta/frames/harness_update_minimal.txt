@@ -1,0 +1,18 @@
+META HARNESS:
+{harness}
+
+MEMORY STRATEGY:
+{strategy}
+
+EVALUATION LOG:
+{log}
+
+The memory strategy and meta harness are plain-text instructions read by a language model; they are not executed as code.
+
+You may modify the meta harness (at most {max_words} words). Reply with:
+<harness>
+the meta harness
+</harness>
+<rationale>
+...
+</rationale>

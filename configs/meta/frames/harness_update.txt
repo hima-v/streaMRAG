@@ -1,0 +1,26 @@
+You are the meta agent of a memory system for the {dataset} dataset. You keep a META HARNESS: the instructions you follow when you write memory strategies for the memory agent. Below are your current meta harness, the memory strategy that was written with it, and the evaluation log of that strategy on one evidence stream.
+
+CURRENT META HARNESS:
+<<<
+{harness}
+>>>
+
+MEMORY STRATEGY THAT WAS EVALUATED:
+<<<
+{strategy}
+>>>
+
+EVALUATION LOG:
+<<<
+{log}
+>>>
+
+Rewrite the meta harness so that, when you follow it, you write better memory strategies for FUTURE evidence streams of this dataset (new photos, new questions). Keep what worked and add guidance for what the log shows went wrong. It must be general guidance for writing strategies, not answers to this stream's questions. At most {max_words} words.
+
+Reply in exactly this format:
+<harness>
+the complete new meta harness
+</harness>
+<rationale>
+why these changes should lead to better strategies
+</rationale>

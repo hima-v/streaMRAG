@@ -5,6 +5,7 @@ nemotron-12b-vl:
   quant: int8                  # int8 for development and reported numbers
   int8_threshold: 6.0          # standard LLM.int8; 0.0 decodes ~1.5x faster but drifts more (codebase_plan.md §8)
   fix_generation_cache: true   # patch upstream cache bugs; 4-9x faster, output verified vs uncached
+  last_token_logits: true      # compute logits only for the last position (avoids 3.6 GiB logits on 7k-token prompts)
   # keep vision tower, projector and lm_head unquantized (Nemotron-H casts hidden states
   # to lm_head.weight.dtype, so an int8 lm_head breaks generation)
   skip_quant_modules: [vision_model, mlp1, lm_head]

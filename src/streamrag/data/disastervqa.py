@@ -18,6 +18,14 @@ from streamrag.data.base import StreamDataset
 from streamrag.types import Observation, QAItem, Stream
 
 
+_FORMAT = {"Binary": "yesno", "Multiple-Choice": "mc", "Open-Ended": "open"}
+
+
+def _mmss(t: float) -> str:
+    m, s = divmod(int(t), 60)
+    return f"{m:02d}:{s:02d}"
+
+
 class DisasterVQA(StreamDataset):
     name = "disastervqa"
 
@@ -80,15 +88,22 @@ class DisasterVQA(StreamDataset):
                             meta={"image_id": img_id, "dataset_source": r0.get("dataset_source"),
                                   "disaster_type": dtype}))
                         for r in by_image[img_id]:
+                            gold = r["groundtruth_answer"]
                             qa.append(QAItem(
                                 qa_id=f"{sid}/{r['question_id']}", stream_id=sid,
-                                question=r["question"], answer=r["groundtruth_answer"],
+                                # name the photo: stream QA must say which observation it means
+                                question=f"About the photo received at {_mmss(k * dt)}: {r['question']}",
+                                answer=gold,
                                 options=r.get("choices"), t_query=float(len(order) * dt),
                                 qtype=r.get("question_type"), evidence_ids=[oid],
-                                meta={k: r.get(k) for k in
-                                      ("crisis_info_type", "crisis_info_code", "region")}))
+                                meta={"format": _FORMAT.get(r.get("question_type"), "open")
+                                      if not isinstance(gold, list) else "mc_multi",
+                                      "original_question": r["question"],
+                                      **{x: r.get(x) for x in
+                                         ("crisis_info_type", "crisis_info_code", "region")}}))
                     streams.append(Stream(sid, self.name, obs, qa,
-                                          meta={"disaster_type": dtype, "ordering": j}))
+                                          meta={"disaster_type": dtype, "ordering": j,
+                                                "split_key": sid.rsplit("-o", 1)[0]}))
                     if limit and len(streams) >= limit:
                         return streams
         return streams

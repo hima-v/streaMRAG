@@ -1,0 +1,1 @@
+Keep one line per distinct thing being tracked (a place, building, road, vehicle, person or group), with its latest observed state and the item ids where it was seen. For each new item, update the lines of things it shows again (new state, add the item id) and add lines for new things. When the memory would exceed the budget, delete the lines of things seen least recently.
