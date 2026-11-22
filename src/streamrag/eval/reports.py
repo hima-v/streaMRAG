@@ -51,7 +51,10 @@ def write_streams_md(arch_dir: Path, streams: list[dict], setup: dict) -> Path:
          f"Experiment `{setup.get('experiment')}` · dataset `{setup.get('dataset')}` · "
          f"{len(streams)} streams of {streams[0]['n_steps']} photos · {nq} questions · memory budget "
          f"{setup.get('budget')} tokens · stream selection `{setup.get('stream_selection')}` (seed "
-         f"{setup.get('selection_seed')}).", "",
+         f"{setup.get('selection_seed')})"
+         + (f", reused from archive `{setup['streams_from']}`" if setup.get("streams_from") else "")
+         + (f", excluding the streams of {', '.join(f'`{x}`' for x in setup['exclude_streams_from'])}"
+            if setup.get("exclude_streams_from") else "") + ".", "",
          "Every node of this archive is scored on exactly these streams. In each stream the memory agent sees "
          "the photos one at a time (starting from empty memory) and never sees the questions; the questions "
          "are asked once, after the last photo, and the node score is the mean of the stream scores.", "",

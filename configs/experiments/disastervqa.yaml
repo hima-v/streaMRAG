@@ -10,6 +10,12 @@
 #   python scripts/build_streams.py disastervqa --length 20    # 34 long streams, 10 questions each (340)
 # The selected streams and all settings are stored in the archive when it is created; continuing an
 # archive reuses them. Any key can also be overridden on the command line (see --help).
+#
+# Streams of another archive (new archives only):
+#   --streams-from run3              use exactly run3's evaluation streams (also its stream length)
+#   --exclude-streams-from run3      choose streams that run3 did not use (any number of archives)
+# Models: an experiment may set memory_agent / meta_agent / answering_agent / evaluator (names from
+# configs/models.yaml); unset roles come from configs/eval.yaml `roles`.
 
 dataset: disastervqa
 default_experiment: short5
@@ -24,6 +30,8 @@ defaults:                        # shared by every experiment below; an experime
   stream_selection: stratified   # stratified (round-robin over disaster types) | random | list (use `streams`)
   selection_seed: 0
   streams: []                    # explicit stream ids, used when stream_selection: list
+  streams_from: null             # archive name: reuse its evaluation streams exactly
+  exclude_streams_from: []       # archive names: never choose their streams
 
 experiments:
   short5:                        # first test: 5 short streams = 25 questions per node
@@ -46,3 +54,7 @@ experiments:
     stream_length: 10
     n_streams: 5
     memory_strategy: fixed
+  short5_qwen_memory:            # as short5, but Qwen2-VL-7B is the memory agent (meta agent stays Nemotron)
+    stream_length: 10
+    n_streams: 5
+    memory_agent: qwen2-vl-7b

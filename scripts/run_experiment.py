@@ -37,7 +37,7 @@ from streamrag.quiet import quiet
 
 quiet()                                   # silence library logging before any model code is imported
 
-from streamrag.config import CONFIG_DIR, load_yaml  # noqa: E402
+from streamrag.config import CONFIG_DIR, OUTPUT_DIR, load_yaml  # noqa: E402
 from streamrag.data.streams import list_streams, load_stream, segment_stream, select_streams, stream_dir  # noqa: E402
 from streamrag.eval.judge import (Evaluator, answer_text_of, build_meta_log, combine,  # noqa: E402
                                   evaluate, summarize)
@@ -94,13 +94,53 @@ def eval_streams(node: Node) -> list[dict]:
     raise SystemExit(f"stream {node.eval_stream} not found; run: python scripts/build_streams.py {node.dataset} --split dev")
 
 
+# ----------------------------------------------------------------------------- streams
+ROLE_KEYS = ["memory_agent", "meta_agent", "answering_agent", "evaluator"]
+
+
+def archive_streams(dataset: str, name: str) -> tuple[list[str], int]:
+    """Evaluation stream ids and stream length of another archive of the same dataset."""
+    d = OUTPUT_DIR / "archive" / dataset / name
+    if not (d / "archive.json").exists() and not (d / "archive.jsonl").exists():
+        raise SystemExit(f"archive '{name}' not found at {d}")
+    root = min(read_records(d / "archive.json"), key=lambda r: r["node_id"])
+    if not root.get("eval_streams"):
+        raise SystemExit(f"archive '{name}' has no stream list (it predates the experiment configs)")
+    return list(root["eval_streams"]), root["stream_length"]
+
+
+def resolve_streams(setup: dict, progress: Progress) -> None:
+    """Apply streams_from / exclude_streams_from (new archives only) to the setup, in place."""
+    if setup.get("streams_from"):
+        ids, length = archive_streams(setup["dataset"], setup["streams_from"])
+        if length != setup["stream_length"]:
+            progress(f"archive {setup['streams_from']} uses streams of {length} photos; using that length")
+        setup.update(stream_length=length, stream_selection="list", streams=ids, n_streams=len(ids))
+        progress(f"reusing the {len(ids)} evaluation streams of archive {setup['streams_from']}")
+    excl = setup.get("exclude_streams_from") or []
+    if isinstance(excl, str):
+        excl = [excl]
+    setup["exclude_streams_from"] = excl
+    if excl and setup.get("streams_from"):
+        raise SystemExit("use either streams_from or exclude_streams_from, not both")
+    setup["excluded_streams"] = sorted({i for name in excl for i in archive_streams(setup["dataset"], name)[0]})
+
+
 # ----------------------------------------------------------------------------- steps
 def create_root(arch: Archive, setup: dict, roles: dict, progress: Progress) -> Node:
+    resolve_streams(setup, progress)
     pool = f"len{setup['stream_length']}"
     pool_streams = [load_stream(p) for p in list_streams(setup["dataset"], pool)]
     if not pool_streams:
         raise SystemExit(f"no {pool} streams; run: python scripts/build_streams.py {setup['dataset']} "
                          f"--length {setup['stream_length']}")
+    if setup["excluded_streams"]:
+        n0 = len(pool_streams)
+        pool_streams = [s for s in pool_streams if s["stream_id"] not in set(setup["excluded_streams"])]
+        progress(f"excluding the streams of archive(s) {', '.join(setup['exclude_streams_from'])}: "
+                 f"{n0 - len(pool_streams)} removed, {len(pool_streams)} {pool} streams left to choose from")
+        if setup["n_streams"] not in (None, "all") and int(setup["n_streams"]) > len(pool_streams):
+            raise SystemExit(f"only {len(pool_streams)} streams left after exclusion, {setup['n_streams']} requested")
     chosen = select_streams(pool_streams, setup["n_streams"], setup["stream_selection"],
                             setup["selection_seed"], setup.get("streams"))
     pf = profile_files(setup["profile"], setup["dataset"])
@@ -114,19 +154,20 @@ def create_root(arch: Archive, setup: dict, roles: dict, progress: Progress) -> 
     arch.save(node, S, H)
     md = write_streams_md(arch.dir, chosen, setup)
     progress.node = 0
-    progress(f"created root node 0 from the {setup['profile']} seeds | experiment {setup['experiment']}: "
+    progress(f"created root node 0 from the {setup['profile']} seeds | memory agent {roles['memory_agent']} | "
+             f"experiment {setup['experiment']}: "
              f"{len(chosen)} streams of {setup['stream_length']} photos "
              f"({sum(len(c['questions']) for c in chosen)} questions), budget {setup['budget']} tokens | {md.name}")
     return node
 
 
-def propose_child(arch: Archive, parent: Node, roles: dict, nemotron, progress: Progress) -> Node:
+def propose_child(arch: Archive, parent: Node, roles: dict, meta_vlm, progress: Progress) -> Node:
     root = arch.nodes[0]
     profile = root.models.get("profile", "minimal")
     pf = profile_files(profile, parent.dataset)
     S, H = arch.strategy(parent.node_id), arch.harness(parent.node_id)
     log = (arch.node_dir(parent.node_id) / "meta_log.md").read_text()   # direct parent only
-    meta = MetaAgent(nemotron, parent.dataset, read_cfg(pf["harness_frame"]), read_cfg(pf["strategy_frame"]))
+    meta = MetaAgent(meta_vlm, parent.dataset, read_cfg(pf["harness_frame"]), read_cfg(pf["strategy_frame"]))
     sw = root.switches
     child_id = arch.new_id()
     progress.node, progress.stream = child_id, None
@@ -162,7 +203,7 @@ def propose_child(arch: Archive, parent: Node, roles: dict, nemotron, progress: 
     return child
 
 
-def memory_passes(arch: Archive, node: Node, nemotron, progress: Progress) -> list[tuple]:
+def memory_passes(arch: Archive, node: Node, memory_vlm, progress: Progress) -> list[tuple]:
     pf = profile_files(arch.nodes[0].models.get("profile", "minimal"), node.dataset)
     out = []
     for seg in eval_streams(node):
@@ -170,7 +211,7 @@ def memory_passes(arch: Archive, node: Node, nemotron, progress: Progress) -> li
         progress.node, progress.stream = node.node_id, seg["stream_id"]
         progress(f"memory pass: {seg['n_steps']} evidence items ({seg['items'][0]['item_id']}-"
                  f"{seg['items'][-1]['item_id']}), starting from empty memory")
-        snaps = run_memory_pass(nemotron, arch.strategy(node.node_id), seg, node.budget, run_dir,
+        snaps = run_memory_pass(memory_vlm, arch.strategy(node.node_id), seg, node.budget, run_dir,
                                 read_cfg(pf["memory_frame"]), progress)
         out.append((seg, run_dir, snaps))
     return out
@@ -216,7 +257,9 @@ def write_report(arch: Archive, node: Node, results: list[tuple]) -> None:
     md = [f"# Node {node.node_id}" + (f" (child of node {node.parent_id})" if node.parent_id is not None else " (root)"),
           "", f"Archive `{arch.dir.name}` · dataset `{node.dataset}` · base stream `{node.eval_stream}` · "
           f"{len(results)} evidence stream(s) of {results[0][0]['n_steps']} items · budget {node.budget} tokens · "
-          f"profile `{node.models.get('profile')}` · switches {node.switches}",
+          f"profile `{node.models.get('profile')}` · switches {node.switches}", "",
+          f"Memory agent `{node.models.get('memory_agent')}` · meta agent `{node.models.get('meta_agent')}` · "
+          f"answering agent `{node.models.get('answering_agent')}` · evaluator `{node.models.get('evaluator')}`",
           "", "Questions are asked only after the last item of each stream; the memory agent never sees them.", ""]
     if cb.get("kind") == "meta":
         md += ["## How this node was created", "",
@@ -268,7 +311,8 @@ def write_summary(arch: Archive) -> None:
 
 # ----------------------------------------------------------------------------- main
 OVERRIDABLE = ["profile", "budget", "memory_strategy", "meta_harness", "parent_selection", "stream_length",
-               "n_streams", "stream_selection", "selection_seed"]
+               "n_streams", "stream_selection", "selection_seed", "memory_agent", "streams_from",
+               "exclude_streams_from"]
 
 
 def load_setup(a) -> dict:
@@ -311,14 +355,24 @@ def main() -> None:
     g.add_argument("--n-streams")
     g.add_argument("--stream-selection", choices=["stratified", "random", "list"])
     g.add_argument("--selection-seed", type=int)
+    g.add_argument("--memory-agent", help="model name from configs/models.yaml (default: configs/eval.yaml roles)")
+    g.add_argument("--streams-from", metavar="ARCHIVE",
+                   help="use exactly the evaluation streams of this archive (same dataset), e.g. run3")
+    g.add_argument("--exclude-streams-from", nargs="+", metavar="ARCHIVE",
+                   help="choose streams that none of these archives used, e.g. run3")
     a = ap.parse_args()
     setup = load_setup(a)
-    roles = load_yaml("eval")["roles"]
     cfg = load_yaml("eval")
     arch = Archive(a.dataset, a.archive)
     progress = Progress(a.archive, setup["iterations"])
+    if arch.nodes:                                        # roles are fixed when the archive is created
+        roles = {k: arch.nodes[0].models.get(k) or cfg["roles"][k] for k in ROLE_KEYS}
+    else:
+        roles = {k: setup.get(k) or cfg["roles"][k] for k in ROLE_KEYS}
     if arch.nodes:
         r = arch.nodes[0]
+        if a.streams_from or a.exclude_streams_from or a.memory_agent:
+            progress("note: --streams-from / --exclude-streams-from / --memory-agent only apply to a new archive; ignored")
         stored = r.models.get("experiment") or {}
         parent_sel = a.parent_selection or stored.get("parent_selection", "best")
         progress(f"continuing archive with {len(arch.nodes)} nodes (experiment {stored.get('experiment', '?')}, "
@@ -328,12 +382,11 @@ def main() -> None:
             write_streams_md(arch.dir, eval_streams(r), stored)
     else:
         parent_sel = setup["parent_selection"]
-        progress(f"new archive at {arch.dir} (experiment {setup['experiment']} from {setup['config']})")
+        progress(f"new archive at {arch.dir} (experiment {setup['experiment']} from {setup['config']}; "
+                 f"memory agent {roles['memory_agent']}, meta agent {roles['meta_agent']})")
 
     for it in range(1, setup["iterations"] + 1):
         progress.it, progress.node, progress.stream = it, None, None
-        progress(f"loading memory/meta agent ({roles['memory_agent']})")
-        nemotron = load_model(roles["memory_agent"])          # memory agent and meta agent: same model
         unscored = sorted((n for n in arch.nodes.values() if n.scores is None), key=lambda n: n.node_id)
         if not arch.nodes:
             node = create_root(arch, setup, roles, progress)
@@ -343,10 +396,19 @@ def main() -> None:
             progress(f"resuming previously unscored node {node.node_id}")
         else:
             parent = arch.select_parent(parent_sel)
-            node = propose_child(arch, parent, roles, nemotron, progress)
-        runs = memory_passes(arch, node, nemotron, progress)
-        del nemotron
-        unload()
+            progress(f"loading meta agent ({roles['meta_agent']})")
+            meta_vlm = load_model(roles["meta_agent"])
+            node = propose_child(arch, parent, roles, meta_vlm, progress)
+            del meta_vlm
+            if roles["meta_agent"] != roles["memory_agent"]:
+                unload()                                   # one model on the GPU at a time
+        progress.node, progress.stream = node.node_id, None
+        progress(f"loading memory agent ({roles['memory_agent']})")
+        memory_vlm = load_model(roles["memory_agent"])     # cached: no reload if it is also the meta agent
+        runs = memory_passes(arch, node, memory_vlm, progress)
+        del memory_vlm
+        if roles["memory_agent"] not in (roles["answering_agent"], roles["evaluator"]):
+            unload()                                       # a Qwen memory agent stays loaded for answering
         answer_and_evaluate(arch, node, roles, runs, cfg, progress)
         unload()
         write_summary(arch)

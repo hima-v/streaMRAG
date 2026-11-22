@@ -62,6 +62,14 @@ Each iteration takes about 20 minutes on an RTX 3090, so 5 iterations take about
   recreated or resumed.
 - **Fresh run:** if `outputs/archive/disastervqa/run1/` already exists, pick a new archive name.
 
+**Choosing the evaluation streams of a new archive.**
+- **Same streams as another run:** add `--streams-from run3`. The new archive uses exactly that archive's
+  streams, which makes the two runs directly comparable.
+- **New streams:** add `--exclude-streams-from run3` (several archive names may follow). The new archive picks
+  its streams only from those the listed archives did not use.
+- **Default:** with neither flag, streams are chosen round-robin over disaster types with
+  `--selection-seed` (default 0). Seed 0 gives the five streams listed above.
+
 **Checking a replication.** `evaluation_streams.md` at the archive root should list the five streams
 above. The stream builder is deterministic, so every stream's `manifest.content_sha256` matches across
 machines.
@@ -108,15 +116,28 @@ on the command line for a **new** archive (see `python scripts/run_experiment.py
 | `long_all` | all 34 long | 340 |
 | `short5_fixed_meta` | ablation: meta harness never changes | 25 |
 | `short5_fixed_strategy` | ablation: strategy never changes | 25 |
+| `short5_qwen_memory` | as `short5`, but Qwen2-VL-7B is the memory agent (the meta agent stays Nemotron) | 25 |
 
 ```bash
 python scripts/build_streams.py disastervqa --length 20     # needed once for the long experiments
 python scripts/run_experiment.py --dataset disastervqa --experiment long5 --archive long_run1 --iterations 5
+
+# Qwen2-VL-7B memory agent on the same 5 streams as run3, or on 5 streams run3 did not use
+python scripts/run_experiment.py --dataset disastervqa --experiment short5_qwen_memory --archive qwen_run1 --iterations 5 --streams-from run3
+python scripts/run_experiment.py --dataset disastervqa --experiment short5_qwen_memory --archive qwen_run2 --iterations 5 --exclude-streams-from run3
 ```
+
+- **Choosing models:** an experiment may set `memory_agent`, `meta_agent`, `answering_agent` or `evaluator`
+  to any model name in `configs/models.yaml`. Roles it does not set come from `configs/eval.yaml`. The roles
+  are stored in the archive when it is created. When the memory agent and the meta agent differ, the loop
+  loads them one after the other, so only one model is on the GPU at a time.
+- **Memory budget:** memory tokens are always counted with the Nemotron tokenizer, so a 512-token budget means
+  the same amount of text whichever memory agent is used.
 
 - **Overrides:** `--budget`, `--memory-strategy fixed|dynamic`, `--meta-harness fixed|dynamic`,
   `--parent-selection best|score_child_prop`, `--stream-length 10|20`, `--n-streams N|all`,
-  `--stream-selection stratified|random|list`, `--selection-seed`, `--profile minimal|default`.
+  `--stream-selection stratified|random|list`, `--selection-seed`, `--profile minimal|default`,
+  `--memory-agent <model>`, `--streams-from <archive>`, `--exclude-streams-from <archive> ...`.
 - **Long meta logs:** the evaluation log the meta agent reads grows by about 1,500 tokens per stream.
   `short_all` and `long_all` would need a cap on that log before they are practical.
 - **Other datasets:** the same experiment names can be defined for another dataset in
