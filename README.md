@@ -53,7 +53,9 @@ Each iteration takes about 20 minutes on an RTX 3090, so 5 iterations take about
   2. After the last photo, the answering agent answers the stream's questions from the final memory,
      citing memory lines.
   3. The evaluator scores each answer: 1 if correct with a valid citation and supported evidence, 0.5 if
-     partial or the evidence is insufficient, else 0.
+     partial or the evidence is insufficient, else 0. A citation is invalid if it names a memory line that
+     does not exist. If the evaluator model's reply can't be read even after one retry, the question
+     scores 0 with outcome `evaluator_error`, which is counted separately.
   4. The node score is the mean over the 5 streams.
 
 **Continuing or restarting.**
@@ -169,7 +171,21 @@ node_XXXX/
 
 The console prints one line per event:
 `<date time> [archive | iteration i/n | node k | stream s] +elapsed message`.
-Evaluator verdicts are cached in `outputs/judge_cache.jsonl`.
+Evaluator verdicts are cached in `outputs/judge_cache_v2.jsonl`, keyed by the prompt and the image contents.
+
+**Evaluator versions.** Scores record `evaluator_version` (currently 2; see the docstring of
+`src/streamrag/eval/judge.py` for what changed). `run_experiment.py` refuses to continue an archive scored
+with an older version, because parent selection would compare inconsistent scores. Rescore it first:
+
+```bash
+python scripts/rescore_archive.py --dataset disastervqa --archive run3
+```
+
+This reuses the saved memory snapshots and answers and reruns only the evaluator, which takes minutes. Old
+files are kept as `*_v1.*`, and `rescore.md` in the archive compares old and new scores. Parents already
+chosen with the old scores stay as they were.
+
+**Tests:** `python -m pytest tests -q` (fake models, no GPU, under a second).
 
 ## Data
 
