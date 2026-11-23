@@ -20,7 +20,8 @@ OUTCOME = {
     "partially_correct": "partially correct, evidence supports it",
     "evidence_insufficient": "correct, but the evaluator could not confirm it from the cited photo",
     "unsupported": "correct answer text, but the cited photo does not support it",
-    "invalid_citation": "correct answer, but it did not cite the question's photo",
+    "invalid_citation": "correct answer, but it did not cite the question's photo, or cited a memory line that does not exist",
+    "evaluator_error": "the evaluator could not grade this answer (scored 0; not a memory failure)",
     "wrong_answer_evidence_in_memory": "wrong answer although memory had a note about the photo",
     "wrong_answer_evidence_missing": "wrong answer; memory had no note about the photo",
     "unnecessary_abstention": "abstained although memory had a note about the photo",
@@ -140,7 +141,8 @@ def write_stream_eval_md(run_dir: Path, seg: dict, snap: dict, answers: list[dic
         checks = []
         if "correctness" in r:
             checks.append(f"answer correctness {r['correctness']} ({r.get('correctness_by')})")
-            checks.append(f"citation {'valid' if r.get('citation_valid') else 'invalid'}")
+            checks.append(f"citation {'valid' if r.get('citation_valid') else 'invalid'}"
+                          + (f" (nonexistent lines: {', '.join(r['cited_unknown'])})" if r.get("cited_unknown") else ""))
         if r.get("evidence_verdict"):
             checks.append(f"evaluator: evidence {r['evidence_verdict']} ({_cell(r.get('evidence_reason', ''))})")
         L += [f"- **Checks:** " + ("; ".join(checks) if checks else "abstained, so no answer to check"),

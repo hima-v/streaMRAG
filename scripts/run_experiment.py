@@ -41,8 +41,8 @@ quiet()                                   # silence library logging before any m
 
 from streamrag.config import CONFIG_DIR, OUTPUT_DIR, load_yaml  # noqa: E402
 from streamrag.data.streams import list_streams, load_stream, segment_stream, select_streams, stream_dir  # noqa: E402
-from streamrag.eval.judge import (Evaluator, answer_text_of, build_meta_log, combine,  # noqa: E402
-                                  evaluate, summarize)
+from streamrag.eval.judge import (EVALUATOR_VERSION, Evaluator, answer_text_of, build_meta_log,  # noqa: E402
+                                  combine, evaluate, summarize)
 from streamrag.memory.agent import run_memory_pass  # noqa: E402
 from streamrag.meta.archive import Archive, Node, text_id  # noqa: E402
 from streamrag.meta.meta_agent import MetaAgent  # noqa: E402
@@ -422,6 +422,12 @@ def main() -> None:
     else:
         roles = {k: setup.get(k) or cfg["roles"][k] for k in ROLE_KEYS}
     if arch.nodes:
+        old = [n.node_id for n in arch.nodes.values()
+               if n.scores is not None and n.scores.get("evaluator_version", 1) != EVALUATOR_VERSION]
+        if old:
+            raise SystemExit(f"nodes {old} were scored with an older evaluator (current version {EVALUATOR_VERSION}); "
+                             f"mixing versions would make parent selection compare inconsistent scores. Rescore "
+                             f"first: python scripts/rescore_archive.py --dataset {a.dataset} --archive {a.archive}")
         r = arch.nodes[0]
         if a.streams_from or a.exclude_streams_from or a.memory_agent:
             progress("note: --streams-from / --exclude-streams-from / --memory-agent only apply to a new archive; ignored")
