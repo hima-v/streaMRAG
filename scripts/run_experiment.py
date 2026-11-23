@@ -31,6 +31,8 @@ import datetime as dt
 import time
 from pathlib import Path
 
+from streamrag.baselines.fifo import run_fifo_pass
+
 import yaml
 
 from streamrag.quiet import quiet
@@ -203,7 +205,13 @@ def propose_child(arch: Archive, parent: Node, roles: dict, meta_vlm, progress: 
     return child
 
 
-def memory_passes(arch: Archive, node: Node, memory_vlm, progress: Progress) -> list[tuple]:
+def memory_passes(
+    arch: Archive,
+    node: Node,
+    memory_vlm,
+    progress: Progress,
+    memory_method: str = "agent",
+) -> list[tuple]:
     pf = profile_files(arch.nodes[0].models.get("profile", "minimal"), node.dataset)
     out = []
     for seg in eval_streams(node):
@@ -211,8 +219,24 @@ def memory_passes(arch: Archive, node: Node, memory_vlm, progress: Progress) -> 
         progress.node, progress.stream = node.node_id, seg["stream_id"]
         progress(f"memory pass: {seg['n_steps']} evidence items ({seg['items'][0]['item_id']}-"
                  f"{seg['items'][-1]['item_id']}), starting from empty memory")
-        snaps = run_memory_pass(memory_vlm, arch.strategy(node.node_id), seg, node.budget, run_dir,
-                                read_cfg(pf["memory_frame"]), progress)
+        if memory_method == "fifo":
+            snaps = run_fifo_pass(
+                memory_vlm,
+                seg,
+                node.budget,
+                run_dir,
+                progress=progress,
+            )
+        else:
+            snaps = run_memory_pass(
+                memory_vlm,
+                arch.strategy(node.node_id),
+                seg,
+                node.budget,
+                run_dir,
+                read_cfg(pf["memory_frame"]),
+                progress,
+            )
         out.append((seg, run_dir, snaps))
     return out
 
@@ -335,6 +359,9 @@ def load_setup(a) -> dict:
             setup[k] = getattr(a, k)
     if a.iterations is not None:
         setup["iterations"] = a.iterations
+
+    setup["memory_method"] = a.memory_method
+
     return setup
 
 
@@ -345,6 +372,14 @@ def main() -> None:
     ap.add_argument("--experiment", help="experiment name in the dataset's config, e.g. short5 (default: its default_experiment)")
     ap.add_argument("--archive", required=True, help="archive name (outputs/archive/<dataset>/<archive>)")
     ap.add_argument("--iterations", type=int, help="nodes to add and score in this run (default: from config)")
+
+    ap.add_argument(
+        "--memory-method",
+        choices=["agent", "fifo"],
+        default="agent",
+        help="Memory method to evaluate",
+    )
+
     g = ap.add_argument_group("overrides (only used when the archive is new, except parent_selection)")
     g.add_argument("--profile")
     g.add_argument("--budget", type=int)
@@ -364,6 +399,23 @@ def main() -> None:
     setup = load_setup(a)
     cfg = load_yaml("eval")
     arch = Archive(a.dataset, a.archive)
+
+    if arch.nodes:
+        stored = arch.nodes[0].models.get("experiment") or {}
+        stored_method = stored.get("memory_method", "agent")
+
+        if stored_method != a.memory_method:
+            ap.error(
+                f"Archive uses memory method '{stored_method}', "
+                f"but '{a.memory_method}' was requested."
+            )
+
+        if stored_method == "fifo":
+            ap.error("FIFO requires a new archive.")
+
+    if a.memory_method == "fifo":
+        setup["iterations"] = 1
+
     progress = Progress(a.archive, setup["iterations"])
     if arch.nodes:                                        # roles are fixed when the archive is created
         roles = {k: arch.nodes[0].models.get(k) or cfg["roles"][k] for k in ROLE_KEYS}
@@ -405,7 +457,10 @@ def main() -> None:
         progress.node, progress.stream = node.node_id, None
         progress(f"loading memory agent ({roles['memory_agent']})")
         memory_vlm = load_model(roles["memory_agent"])     # cached: no reload if it is also the meta agent
-        runs = memory_passes(arch, node, memory_vlm, progress)
+        runs = memory_passes(
+            arch, node, memory_vlm, progress,
+            memory_method=a.memory_method,
+        )
         del memory_vlm
         if roles["memory_agent"] not in (roles["answering_agent"], roles["evaluator"]):
             unload()                                       # a Qwen memory agent stays loaded for answering
