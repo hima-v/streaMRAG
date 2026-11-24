@@ -360,8 +360,11 @@ def load_setup(a) -> dict:
     if a.iterations is not None:
         setup["iterations"] = a.iterations
 
-    setup["memory_method"] = a.memory_method
-
+    setup["memory_method"] = (
+       a.memory_method or setup.get("memory_method", "agent")
+    )
+    if setup["memory_method"] not in ("agent", "fifo"):
+       raise SystemExit("Invalid memory_method: expected agent or fifo")
     return setup
 
 
@@ -376,7 +379,7 @@ def main() -> None:
     ap.add_argument(
         "--memory-method",
         choices=["agent", "fifo"],
-        default="agent",
+        default=None,
         help="Memory method to evaluate",
     )
 
@@ -397,6 +400,7 @@ def main() -> None:
                    help="choose streams that none of these archives used, e.g. run3")
     a = ap.parse_args()
     setup = load_setup(a)
+    a.memory_method = setup["memory_method"]
     cfg = load_yaml("eval")
     arch = Archive(a.dataset, a.archive)
 

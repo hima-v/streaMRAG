@@ -58,3 +58,11 @@ experiments:
     stream_length: 10
     n_streams: 5
     memory_agent: qwen2-vl-7b
+  short5_qwen_fifo:
+    stream_length: 10
+    n_streams: 5
+    memory_agent: qwen2-vl-7b
+    memory_method: fifo
+    memory_strategy: fixed
+    meta_harness: fixed
+    iterations: 1
