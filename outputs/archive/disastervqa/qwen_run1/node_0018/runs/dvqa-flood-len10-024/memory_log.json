@@ -1,0 +1,332 @@
+[
+  {
+    "item_id": "E01",
+    "step": 1,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo was posted on Twitter on October 8, 2015, at 23:05 UTC.\", \"sources\": [\"E01\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"The photo shows a flooded area with submerged vehicles and trees.\", \"sources\": [\"E01\"]}], \"delete\": []}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo was posted on Twitter on October 8, 2015, at 23:05 UTC.",
+              "sources": ["E01"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "The photo shows a flooded area with submerged vehicles and trees.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": []
+        },
+        "problems": ["update of unknown line m1"],
+        "tokens_after": 55
+      }
+    ],
+    "tokens": 55,
+    "n_lines": 1,
+    "secs": 2.63
+  },
+  {
+    "item_id": "E02",
+    "step": 2,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo was posted on Twitter on December 3, 2015, at 10:41 UTC.\", \"sources\": [\"E02\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo was posted on Twitter on October 8, 2015, at 23:05 UTC.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo was posted on Twitter on December 3, 2015, at 10:41 UTC.",
+              "sources": ["E02"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo was posted on Twitter on October 8, 2015, at 23:05 UTC.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 110
+      }
+    ],
+    "tokens": 110,
+    "n_lines": 2,
+    "secs": 3.09
+  },
+  {
+    "item_id": "E03",
+    "step": 3,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo was posted on Twitter on December 3, 2015, at 16:52 UTC.\", \"sources\": [\"E03\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo was posted on Twitter on October 8, 2015, at 23:05 UTC.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo was posted on Twitter on December 3, 2015, at 16:52 UTC.",
+              "sources": ["E03"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo was posted on Twitter on October 8, 2015, at 23:05 UTC.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": [],
+        "tokens_after": 110
+      }
+    ],
+    "tokens": 110,
+    "n_lines": 2,
+    "secs": 2.93
+  },
+  {
+    "item_id": "E04",
+    "step": 4,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo was posted on Twitter on December 3, 2015, at 17:20 UTC.\", \"sources\": [\"E04\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo was posted on Twitter on October 8, 2015, at 23:05 UTC.\", \"sources\": [\"E01\"]}], \"delete\": [\"m3\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo was posted on Twitter on December 3, 2015, at 17:20 UTC.",
+              "sources": ["E04"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo was posted on Twitter on October 8, 2015, at 23:05 UTC.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m3"]
+        },
+        "problems": [],
+        "tokens_after": 110
+      }
+    ],
+    "tokens": 110,
+    "n_lines": 2,
+    "secs": 2.97
+  },
+  {
+    "item_id": "E05",
+    "step": 5,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo was posted on Twitter on December 3, 2015, at 17:45 UTC.\", \"sources\": [\"E05\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo was posted on Twitter on October 8, 2015, at 23:05 UTC.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo was posted on Twitter on December 3, 2015, at 17:45 UTC.",
+              "sources": ["E05"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo was posted on Twitter on October 8, 2015, at 23:05 UTC.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 165
+      }
+    ],
+    "tokens": 165,
+    "n_lines": 3,
+    "secs": 3.09
+  },
+  {
+    "item_id": "E06",
+    "step": 6,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo was posted on Twitter on December 4, 2015, at 03:38 UTC.\", \"sources\": [\"E06\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo was posted on Twitter on October 8, 2015, at 23:05 UTC.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo was posted on Twitter on December 4, 2015, at 03:38 UTC.",
+              "sources": ["E06"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo was posted on Twitter on October 8, 2015, at 23:05 UTC.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 220
+      }
+    ],
+    "tokens": 220,
+    "n_lines": 4,
+    "secs": 2.88
+  },
+  {
+    "item_id": "E07",
+    "step": 7,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo was posted on Twitter on December 4, 2015, at 04:24 UTC.\", \"sources\": [\"E07\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo was posted on Twitter on October 8, 2015, at 23:05 UTC.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo was posted on Twitter on December 4, 2015, at 04:24 UTC.",
+              "sources": ["E07"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo was posted on Twitter on October 8, 2015, at 23:05 UTC.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 275
+      }
+    ],
+    "tokens": 275,
+    "n_lines": 5,
+    "secs": 2.78
+  },
+  {
+    "item_id": "E08",
+    "step": 8,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo was posted on Twitter on December 4, 2015, at 07:54 UTC.\", \"sources\": [\"E08\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo was posted on Twitter on December 4, 2015, at 07:54 UTC.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo was posted on Twitter on December 4, 2015, at 07:54 UTC.",
+              "sources": ["E08"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo was posted on Twitter on December 4, 2015, at 07:54 UTC.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 330
+      }
+    ],
+    "tokens": 330,
+    "n_lines": 6,
+    "secs": 3.18
+  },
+  {
+    "item_id": "E09",
+    "step": 9,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo was posted on Twitter on December 4, 2015, at 08:05 UTC.\", \"sources\": [\"E09\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo was posted on Twitter on December 4, 2015, at 07:54 UTC.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo was posted on Twitter on December 4, 2015, at 08:05 UTC.",
+              "sources": ["E09"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo was posted on Twitter on December 4, 2015, at 07:54 UTC.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 385
+      }
+    ],
+    "tokens": 385,
+    "n_lines": 7,
+    "secs": 2.91
+  },
+  {
+    "item_id": "E10",
+    "step": 10,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo was posted on Twitter on December 4, 2015, at 17:45 UTC.\", \"sources\": [\"E10\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo was posted on Twitter on December 4, 2015, at 07:54 UTC.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo was posted on Twitter on December 4, 2015, at 17:45 UTC.",
+              "sources": ["E10"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo was posted on Twitter on December 4, 2015, at 07:54 UTC.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 441
+      }
+    ],
+    "tokens": 441,
+    "n_lines": 8,
+    "secs": 2.89
+  }
+]

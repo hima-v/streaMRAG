@@ -1,0 +1,332 @@
+[
+  {
+    "item_id": "E01",
+    "step": 1,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"Aerial view of a flooded area with submerged vehicles and buildings.\", \"sources\": [\"E01\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Aerial view of a flooded area with submerged vehicles and buildings.\", \"sources\": [\"E01\"]}], \"delete\": []}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Aerial view of a flooded area with submerged vehicles and buildings.",
+              "sources": ["E01"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Aerial view of a flooded area with submerged vehicles and buildings.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": []
+        },
+        "problems": ["update of unknown line m1"],
+        "tokens_after": 40
+      }
+    ],
+    "tokens": 40,
+    "n_lines": 1,
+    "secs": 2.19
+  },
+  {
+    "item_id": "E02",
+    "step": 2,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a flooded area with submerged vehicles and buildings.\", \"sources\": [\"E02\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Aerial view of a flooded area with submerged vehicles and buildings.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a flooded area with submerged vehicles and buildings.",
+              "sources": ["E02"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Aerial view of a flooded area with submerged vehicles and buildings.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 81
+      }
+    ],
+    "tokens": 81,
+    "n_lines": 2,
+    "secs": 2.01
+  },
+  {
+    "item_id": "E03",
+    "step": 3,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a flooded area with submerged vehicles and buildings.\", \"sources\": [\"E03\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Aerial view of a flooded area with submerged vehicles and buildings.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a flooded area with submerged vehicles and buildings.",
+              "sources": ["E03"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Aerial view of a flooded area with submerged vehicles and buildings.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": [],
+        "tokens_after": 81
+      }
+    ],
+    "tokens": 81,
+    "n_lines": 2,
+    "secs": 2.35
+  },
+  {
+    "item_id": "E04",
+    "step": 4,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a flooded area with submerged vehicles and buildings.\", \"sources\": [\"E04\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Aerial view of a flooded area with submerged vehicles and buildings.\", \"sources\": [\"E01\"]}], \"delete\": [\"m3\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a flooded area with submerged vehicles and buildings.",
+              "sources": ["E04"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Aerial view of a flooded area with submerged vehicles and buildings.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m3"]
+        },
+        "problems": [],
+        "tokens_after": 81
+      }
+    ],
+    "tokens": 81,
+    "n_lines": 2,
+    "secs": 2.36
+  },
+  {
+    "item_id": "E05",
+    "step": 5,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a flooded area with submerged vehicles and buildings.\", \"sources\": [\"E05\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Aerial view of a flooded area with submerged vehicles and buildings.\", \"sources\": [\"E01\"]}], \"delete\": [\"m4\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a flooded area with submerged vehicles and buildings.",
+              "sources": ["E05"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Aerial view of a flooded area with submerged vehicles and buildings.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m4"]
+        },
+        "problems": [],
+        "tokens_after": 81
+      }
+    ],
+    "tokens": 81,
+    "n_lines": 2,
+    "secs": 2.13
+  },
+  {
+    "item_id": "E06",
+    "step": 6,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a flooded area with submerged vehicles and buildings.\", \"sources\": [\"E06\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Aerial view of a flooded area with submerged vehicles and buildings.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a flooded area with submerged vehicles and buildings.",
+              "sources": ["E06"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Aerial view of a flooded area with submerged vehicles and buildings.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 122
+      }
+    ],
+    "tokens": 122,
+    "n_lines": 3,
+    "secs": 2.25
+  },
+  {
+    "item_id": "E07",
+    "step": 7,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a flooded area with submerged vehicles and buildings.\", \"sources\": [\"E07\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Aerial view of a flooded area with submerged vehicles and buildings.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a flooded area with submerged vehicles and buildings.",
+              "sources": ["E07"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Aerial view of a flooded area with submerged vehicles and buildings.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 163
+      }
+    ],
+    "tokens": 163,
+    "n_lines": 4,
+    "secs": 2.4
+  },
+  {
+    "item_id": "E08",
+    "step": 8,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a flooded area with submerged vehicles and buildings.\", \"sources\": [\"E08\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Aerial view of a flooded area with submerged vehicles and buildings.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a flooded area with submerged vehicles and buildings.",
+              "sources": ["E08"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Aerial view of a flooded area with submerged vehicles and buildings.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 204
+      }
+    ],
+    "tokens": 204,
+    "n_lines": 5,
+    "secs": 2.39
+  },
+  {
+    "item_id": "E09",
+    "step": 9,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a flooded area with submerged vehicles and buildings.\", \"sources\": [\"E09\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Aerial view of a flooded area with submerged vehicles and buildings.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a flooded area with submerged vehicles and buildings.",
+              "sources": ["E09"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Aerial view of a flooded area with submerged vehicles and buildings.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 245
+      }
+    ],
+    "tokens": 245,
+    "n_lines": 6,
+    "secs": 2.39
+  },
+  {
+    "item_id": "E10",
+    "step": 10,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a flooded area with submerged vehicles and buildings.\", \"sources\": [\"E10\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Aerial view of a flooded area with submerged vehicles and buildings.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a flooded area with submerged vehicles and buildings.",
+              "sources": ["E10"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Aerial view of a flooded area with submerged vehicles and buildings.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 287
+      }
+    ],
+    "tokens": 287,
+    "n_lines": 7,
+    "secs": 2.44
+  }
+]

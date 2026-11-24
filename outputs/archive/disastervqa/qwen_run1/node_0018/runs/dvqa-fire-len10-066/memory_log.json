@@ -1,0 +1,332 @@
+[
+  {
+    "item_id": "E01",
+    "step": 1,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"Firefighters and paramedics are responding to a building fire.\", \"sources\": [\"E01\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Firefighters and paramedics are responding to a building fire.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Firefighters and paramedics are responding to a building fire.",
+              "sources": ["E01"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Firefighters and paramedics are responding to a building fire.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2", "update of unknown line m1"],
+        "tokens_after": 41
+      }
+    ],
+    "tokens": 41,
+    "n_lines": 1,
+    "secs": 2.27
+  },
+  {
+    "item_id": "E02",
+    "step": 2,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A firefighter is on top of a fire truck, standing on the roof of a burning building.\", \"sources\": [\"E02\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Firefighters and paramedics are responding to a building fire.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A firefighter is on top of a fire truck, standing on the roof of a burning building.",
+              "sources": ["E02"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Firefighters and paramedics are responding to a building fire.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 88
+      }
+    ],
+    "tokens": 88,
+    "n_lines": 2,
+    "secs": 2.45
+  },
+  {
+    "item_id": "E03",
+    "step": 3,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a burning building with debris scattered around.\", \"sources\": [\"E03\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo shows firefighters and paramedics responding to a building fire.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a burning building with debris scattered around.",
+              "sources": ["E03"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo shows firefighters and paramedics responding to a building fire.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": [],
+        "tokens_after": 84
+      }
+    ],
+    "tokens": 84,
+    "n_lines": 2,
+    "secs": 2.19
+  },
+  {
+    "item_id": "E04",
+    "step": 4,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows firefighters and paramedics responding to a building fire.\", \"sources\": [\"E04\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo shows firefighters and paramedics responding to a building fire.\", \"sources\": [\"E01\"]}], \"delete\": [\"m3\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows firefighters and paramedics responding to a building fire.",
+              "sources": ["E04"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo shows firefighters and paramedics responding to a building fire.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m3"]
+        },
+        "problems": [],
+        "tokens_after": 88
+      }
+    ],
+    "tokens": 88,
+    "n_lines": 2,
+    "secs": 2.42
+  },
+  {
+    "item_id": "E05",
+    "step": 5,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows firefighters and paramedics responding to a building fire.\", \"sources\": [\"E05\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo shows firefighters and paramedics responding to a building fire.\", \"sources\": [\"E01\"]}], \"delete\": [\"m4\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows firefighters and paramedics responding to a building fire.",
+              "sources": ["E05"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo shows firefighters and paramedics responding to a building fire.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m4"]
+        },
+        "problems": [],
+        "tokens_after": 88
+      }
+    ],
+    "tokens": 88,
+    "n_lines": 2,
+    "secs": 2.18
+  },
+  {
+    "item_id": "E06",
+    "step": 6,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows firefighters and paramedics responding to a building fire.\", \"sources\": [\"E06\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo shows firefighters and paramedics responding to a building fire.\", \"sources\": [\"E01\"]}], \"delete\": [\"m5\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows firefighters and paramedics responding to a building fire.",
+              "sources": ["E06"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo shows firefighters and paramedics responding to a building fire.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m5"]
+        },
+        "problems": [],
+        "tokens_after": 88
+      }
+    ],
+    "tokens": 88,
+    "n_lines": 2,
+    "secs": 2.52
+  },
+  {
+    "item_id": "E07",
+    "step": 7,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows firefighters and paramedics responding to a building fire.\", \"sources\": [\"E07\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo shows firefighters and paramedics responding to a building fire.\", \"sources\": [\"E01\"]}], \"delete\": [\"m6\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows firefighters and paramedics responding to a building fire.",
+              "sources": ["E07"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo shows firefighters and paramedics responding to a building fire.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m6"]
+        },
+        "problems": [],
+        "tokens_after": 88
+      }
+    ],
+    "tokens": 88,
+    "n_lines": 2,
+    "secs": 2.49
+  },
+  {
+    "item_id": "E08",
+    "step": 8,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows firefighters and paramedics responding to a building fire.\", \"sources\": [\"E08\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo shows firefighters and paramedics responding to a building fire.\", \"sources\": [\"E01\"]}], \"delete\": [\"m7\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows firefighters and paramedics responding to a building fire.",
+              "sources": ["E08"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo shows firefighters and paramedics responding to a building fire.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m7"]
+        },
+        "problems": [],
+        "tokens_after": 88
+      }
+    ],
+    "tokens": 88,
+    "n_lines": 2,
+    "secs": 2.17
+  },
+  {
+    "item_id": "E09",
+    "step": 9,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows firefighters and paramedics responding to a building fire.\", \"sources\": [\"E09\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo shows firefighters and paramedics responding to a building fire.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows firefighters and paramedics responding to a building fire.",
+              "sources": ["E09"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo shows firefighters and paramedics responding to a building fire.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 132
+      }
+    ],
+    "tokens": 132,
+    "n_lines": 3,
+    "secs": 2.26
+  },
+  {
+    "item_id": "E10",
+    "step": 10,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows firefighters and paramedics responding to a building fire.\", \"sources\": [\"E10\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo shows firefighters and paramedics responding to a building fire.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows firefighters and paramedics responding to a building fire.",
+              "sources": ["E10"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo shows firefighters and paramedics responding to a building fire.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 177
+      }
+    ],
+    "tokens": 177,
+    "n_lines": 4,
+    "secs": 2.48
+  }
+]

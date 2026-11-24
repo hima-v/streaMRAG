@@ -1,0 +1,332 @@
+[
+  {
+    "item_id": "E01",
+    "step": 1,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"Two workers are seen standing on a ladder, inspecting the damaged building.\", \"sources\": [\"E01\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Two workers are seen standing on a ladder, inspecting the damaged building.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Two workers are seen standing on a ladder, inspecting the damaged building.",
+              "sources": ["E01"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Two workers are seen standing on a ladder, inspecting the damaged building.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2", "update of unknown line m1"],
+        "tokens_after": 42
+      }
+    ],
+    "tokens": 42,
+    "n_lines": 1,
+    "secs": 2.11
+  },
+  {
+    "item_id": "E02",
+    "step": 2,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A black car is parked on a cracked road with a large crack in the asphalt.\", \"sources\": [\"E02\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Two workers are seen standing on a ladder, inspecting the damaged building.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A black car is parked on a cracked road with a large crack in the asphalt.",
+              "sources": ["E02"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Two workers are seen standing on a ladder, inspecting the damaged building.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 86
+      }
+    ],
+    "tokens": 86,
+    "n_lines": 2,
+    "secs": 2.48
+  },
+  {
+    "item_id": "E03",
+    "step": 3,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows two workers standing on a ladder, inspecting the damaged building.\", \"sources\": [\"E03\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Two workers are seen standing on a ladder, inspecting the damaged building.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows two workers standing on a ladder, inspecting the damaged building.",
+              "sources": ["E03"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Two workers are seen standing on a ladder, inspecting the damaged building.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": [],
+        "tokens_after": 87
+      }
+    ],
+    "tokens": 87,
+    "n_lines": 2,
+    "secs": 2.52
+  },
+  {
+    "item_id": "E04",
+    "step": 4,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows two workers standing on a ladder, inspecting the damaged building.\", \"sources\": [\"E04\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Two workers are seen standing on a ladder, inspecting the damaged building.\", \"sources\": [\"E01\"]}], \"delete\": [\"m3\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows two workers standing on a ladder, inspecting the damaged building.",
+              "sources": ["E04"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Two workers are seen standing on a ladder, inspecting the damaged building.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m3"]
+        },
+        "problems": [],
+        "tokens_after": 87
+      }
+    ],
+    "tokens": 87,
+    "n_lines": 2,
+    "secs": 2.53
+  },
+  {
+    "item_id": "E05",
+    "step": 5,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows two workers standing on a ladder, inspecting the damaged building.\", \"sources\": [\"E05\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Two workers are seen standing on a ladder, inspecting the damaged building.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows two workers standing on a ladder, inspecting the damaged building.",
+              "sources": ["E05"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Two workers are seen standing on a ladder, inspecting the damaged building.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 132
+      }
+    ],
+    "tokens": 132,
+    "n_lines": 3,
+    "secs": 2.16
+  },
+  {
+    "item_id": "E06",
+    "step": 6,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows two workers standing on a ladder, inspecting the damaged building.\", \"sources\": [\"E06\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Two workers are seen standing on a ladder, inspecting the damaged building.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows two workers standing on a ladder, inspecting the damaged building.",
+              "sources": ["E06"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Two workers are seen standing on a ladder, inspecting the damaged building.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 177
+      }
+    ],
+    "tokens": 177,
+    "n_lines": 4,
+    "secs": 2.55
+  },
+  {
+    "item_id": "E07",
+    "step": 7,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo (Twitter), posted 2017-09-21 08:35 UTC.\", \"sources\": [\"E07\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Two workers are seen standing on a ladder, inspecting the damaged building.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo (Twitter), posted 2017-09-21 08:35 UTC.",
+              "sources": ["E07"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Two workers are seen standing on a ladder, inspecting the damaged building.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 231
+      }
+    ],
+    "tokens": 231,
+    "n_lines": 5,
+    "secs": 2.58
+  },
+  {
+    "item_id": "E08",
+    "step": 8,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo (Twitter), posted 2017-09-21 08:44 UTC.\", \"sources\": [\"E08\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Two workers are seen standing on a ladder, inspecting the damaged building.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo (Twitter), posted 2017-09-21 08:44 UTC.",
+              "sources": ["E08"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Two workers are seen standing on a ladder, inspecting the damaged building.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 285
+      }
+    ],
+    "tokens": 285,
+    "n_lines": 6,
+    "secs": 2.51
+  },
+  {
+    "item_id": "E09",
+    "step": 9,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo (Twitter), posted 2017-09-21 10:33 UTC.\", \"sources\": [\"E09\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Two workers are seen standing on a ladder, inspecting the damaged building.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo (Twitter), posted 2017-09-21 10:33 UTC.",
+              "sources": ["E09"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Two workers are seen standing on a ladder, inspecting the damaged building.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 339
+      }
+    ],
+    "tokens": 339,
+    "n_lines": 7,
+    "secs": 2.82
+  },
+  {
+    "item_id": "E10",
+    "step": 10,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo (Twitter), posted 2017-09-21 10:48 UTC.\", \"sources\": [\"E10\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Two workers are seen standing on a ladder, inspecting the damaged building.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo (Twitter), posted 2017-09-21 10:48 UTC.",
+              "sources": ["E10"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Two workers are seen standing on a ladder, inspecting the damaged building.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 394
+      }
+    ],
+    "tokens": 394,
+    "n_lines": 8,
+    "secs": 2.7
+  }
+]

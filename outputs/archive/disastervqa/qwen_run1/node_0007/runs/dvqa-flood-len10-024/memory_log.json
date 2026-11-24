@@ -1,0 +1,332 @@
+[
+  {
+    "item_id": "E01",
+    "step": 1,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"Floodwater submerging vehicles\", \"sources\": [\"E01\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Floodwater submerging vehicles\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Floodwater submerging vehicles",
+              "sources": ["E01"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Floodwater submerging vehicles",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2", "update of unknown line m1"],
+        "tokens_after": 33
+      }
+    ],
+    "tokens": 33,
+    "n_lines": 1,
+    "secs": 2.08
+  },
+  {
+    "item_id": "E02",
+    "step": 2,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A flooded street with vehicles partially submerged in water.\", \"sources\": [\"E02\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A flooded street with vehicles partially submerged in water.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A flooded street with vehicles partially submerged in water.",
+              "sources": ["E02"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A flooded street with vehicles partially submerged in water.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 74
+      }
+    ],
+    "tokens": 74,
+    "n_lines": 2,
+    "secs": 2.18
+  },
+  {
+    "item_id": "E03",
+    "step": 3,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo (Twitter) of a flooded street with vehicles partially submerged in water.\", \"sources\": [\"E03\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A flooded street with vehicles partially submerged in water.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo (Twitter) of a flooded street with vehicles partially submerged in water.",
+              "sources": ["E03"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A flooded street with vehicles partially submerged in water.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": [],
+        "tokens_after": 82
+      }
+    ],
+    "tokens": 82,
+    "n_lines": 2,
+    "secs": 2.23
+  },
+  {
+    "item_id": "E04",
+    "step": 4,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo (Twitter) of a flooded street with vehicles partially submerged in water.\", \"sources\": [\"E04\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A flooded street with vehicles partially submerged in water.\", \"sources\": [\"E01\"]}], \"delete\": [\"m3\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo (Twitter) of a flooded street with vehicles partially submerged in water.",
+              "sources": ["E04"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A flooded street with vehicles partially submerged in water.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m3"]
+        },
+        "problems": [],
+        "tokens_after": 82
+      }
+    ],
+    "tokens": 82,
+    "n_lines": 2,
+    "secs": 2.27
+  },
+  {
+    "item_id": "E05",
+    "step": 5,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo (Twitter) of a flooded street with vehicles partially submerged in water.\", \"sources\": [\"E05\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A flooded street with vehicles partially submerged in water.\", \"sources\": [\"E01\"]}], \"delete\": [\"m4\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo (Twitter) of a flooded street with vehicles partially submerged in water.",
+              "sources": ["E05"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A flooded street with vehicles partially submerged in water.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m4"]
+        },
+        "problems": [],
+        "tokens_after": 82
+      }
+    ],
+    "tokens": 82,
+    "n_lines": 2,
+    "secs": 2.38
+  },
+  {
+    "item_id": "E06",
+    "step": 6,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo (Twitter) of a flooded street with vehicles partially submerged in water.\", \"sources\": [\"E06\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A flooded street with vehicles partially submerged in water.\", \"sources\": [\"E01\"]}], \"delete\": [\"m5\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo (Twitter) of a flooded street with vehicles partially submerged in water.",
+              "sources": ["E06"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A flooded street with vehicles partially submerged in water.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m5"]
+        },
+        "problems": [],
+        "tokens_after": 82
+      }
+    ],
+    "tokens": 82,
+    "n_lines": 2,
+    "secs": 2.12
+  },
+  {
+    "item_id": "E07",
+    "step": 7,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo (Twitter) of a flooded street with vehicles partially submerged in water.\", \"sources\": [\"E07\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A flooded street with vehicles partially submerged in water.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo (Twitter) of a flooded street with vehicles partially submerged in water.",
+              "sources": ["E07"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A flooded street with vehicles partially submerged in water.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 127
+      }
+    ],
+    "tokens": 127,
+    "n_lines": 3,
+    "secs": 2.03
+  },
+  {
+    "item_id": "E08",
+    "step": 8,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo (Twitter) of a flooded street with vehicles partially submerged in water.\", \"sources\": [\"E08\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A flooded street with vehicles partially submerged in water.\", \"sources\": [\"E01\"]}], \"delete\": [\"m6\", \"m7\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo (Twitter) of a flooded street with vehicles partially submerged in water.",
+              "sources": ["E08"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A flooded street with vehicles partially submerged in water.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m6", "m7"]
+        },
+        "problems": [],
+        "tokens_after": 82
+      }
+    ],
+    "tokens": 82,
+    "n_lines": 2,
+    "secs": 2.52
+  },
+  {
+    "item_id": "E09",
+    "step": 9,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo (Twitter) of a flooded street with vehicles partially submerged in water.\", \"sources\": [\"E09\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A flooded street with vehicles partially submerged in water.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo (Twitter) of a flooded street with vehicles partially submerged in water.",
+              "sources": ["E09"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A flooded street with vehicles partially submerged in water.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 127
+      }
+    ],
+    "tokens": 127,
+    "n_lines": 3,
+    "secs": 2.15
+  },
+  {
+    "item_id": "E10",
+    "step": 10,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo (Twitter) of a flooded street with vehicles partially submerged in water.\", \"sources\": [\"E10\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A flooded street with vehicles partially submerged in water.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo (Twitter) of a flooded street with vehicles partially submerged in water.",
+              "sources": ["E10"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A flooded street with vehicles partially submerged in water.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 173
+      }
+    ],
+    "tokens": 173,
+    "n_lines": 4,
+    "secs": 2.11
+  }
+]

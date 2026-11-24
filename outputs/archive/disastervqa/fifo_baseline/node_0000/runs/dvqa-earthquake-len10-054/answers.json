@@ -1,0 +1,67 @@
+[
+  {
+    "step": 10,
+    "qa_id": "imgq-1757",
+    "label": "answerable",
+    "answer_raw": "Concrete, wood, construction materials",
+    "pred": "Concrete, wood, construction materials",
+    "abstained": false,
+    "cited_lines": ["m7"],
+    "cited_unknown": [],
+    "parsed": true,
+    "cited_items": ["E07"],
+    "raw": ["{\"answer\": \"Concrete, wood, construction materials\", \"cited\": [\"m7\"]}"]
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-1752",
+    "label": "answerable",
+    "answer_raw": "C",
+    "pred": "C",
+    "abstained": false,
+    "cited_lines": ["m7"],
+    "cited_unknown": [],
+    "parsed": true,
+    "cited_items": ["E07"],
+    "raw": ["{\"answer\": \"C\", \"cited\": [\"m7\"]}"]
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-1761",
+    "label": "answerable",
+    "answer_raw": "Yes",
+    "pred": "Yes",
+    "abstained": false,
+    "cited_lines": ["m8"],
+    "cited_unknown": [],
+    "parsed": true,
+    "cited_items": ["E08"],
+    "raw": ["{\"answer\": \"Yes\", \"cited\": [\"m8\"]}"]
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-1724",
+    "label": "answerable",
+    "answer_raw": "No",
+    "pred": "No",
+    "abstained": false,
+    "cited_lines": ["m9"],
+    "cited_unknown": [],
+    "parsed": true,
+    "cited_items": ["E09"],
+    "raw": ["{\"answer\": \"No\", \"cited\": [\"m9\"]}"]
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-1744",
+    "label": "answerable",
+    "answer_raw": "C",
+    "pred": "C",
+    "abstained": false,
+    "cited_lines": ["m7", "m10"],
+    "cited_unknown": [],
+    "parsed": true,
+    "cited_items": ["E07", "E10"],
+    "raw": ["{\"answer\": \"C\", \"cited\": [\"m7\", \"m10\"]}"]
+  }
+]

@@ -1,0 +1,71 @@
+[
+  {
+    "step": 10,
+    "qa_id": "imgq-353",
+    "label": "answerable",
+    "abstained": false,
+    "pred": "Yes",
+    "cited_items": ["E04"],
+    "retained": false,
+    "correctness": 1.0,
+    "correctness_by": "exact",
+    "citation_valid": false,
+    "cited_unknown": [],
+    "score": 0.0,
+    "category": "invalid_citation"
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-357",
+    "label": "answerable",
+    "abstained": false,
+    "pred": "Floodwater",
+    "cited_items": ["E04"],
+    "retained": true,
+    "correctness": 1.0,
+    "correctness_by": "accepted_match",
+    "citation_valid": true,
+    "cited_unknown": [],
+    "evidence_verdict": "supported",
+    "evidence_reason": "The evidence states that the road is flooded and the primary obstacle is floodwater.",
+    "score": 1.0,
+    "category": "correct"
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-360",
+    "label": "answerable",
+    "abstained": true,
+    "pred": null,
+    "cited_items": ["E06"],
+    "retained": true,
+    "score": 0.0,
+    "category": "unnecessary_abstention"
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-364",
+    "label": "answerable",
+    "abstained": false,
+    "pred": "C",
+    "cited_items": ["E06", "E07", "E08", "E09", "E10"],
+    "retained": true,
+    "correctness": 0.0,
+    "correctness_by": "exact",
+    "citation_valid": true,
+    "cited_unknown": [],
+    "score": 0.0,
+    "category": "wrong_answer_evidence_in_memory"
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-367",
+    "label": "answerable",
+    "abstained": true,
+    "pred": null,
+    "cited_items": ["E10"],
+    "retained": true,
+    "score": 0.0,
+    "category": "unnecessary_abstention"
+  }
+]

@@ -1,0 +1,17 @@
+<strategy>
+Explicitly handle timestamp-based conflict resolution by retaining temporally latest or spatially closest versions of recurring observations. For quantitative data, enforce stricter aggregation rules requiring identical observation_type and location to merge quantities numerically rather than descriptively. Enhance spatial-temporal indexing to prioritize multi-modal context (e.g., linking roof damage to debris patterns). Structure entries as JSON-like objects with mandatory fields: id, src, timestamp, observation_type, location, quantity, description. During updates, compare new observations against existing entries: overwrite if newer timestamp overrides older data, but preserve unique spatial features unless fully superseded. Discard redundant descriptions under 20 tokens; aggregate quantitative data into consolidated entries. Validate additions by checking for conflicting information (e.g., differing disaster types between versions of the same event) before merging. Prioritize retention of quantitative metrics (e.g., counts, measurements) and temporal sequence integrity. Cap memory at ~8 concise entries (~512 tokens) via hierarchical summarization, deleting intermediate tiers while preserving raw visual details and validated aggregates. Use location proximity thresholds to resolve spatial ambiguities, favoring the earliest entry if no clear closest match exists.
+</strategy>
+
+<rationale>
+This strategy improves upon prior implementations by explicitly codifying conflict resolution criteria (timestamp priority → spatial proximity), enforcing numerical aggregation for quantitative consistency, and enhancing contextual linkage for downstream reasoning. Structured JSON formatting ensures machine-readable persistence of critical fields. Validation steps prevent contradictory data accumulation, addressing past failures where incorrect evidence persisted (e.g., misattributing flood effects to earthquakes). Token efficiency gains stem from eliminating redundant qualitative descriptors while preserving quantified truths. Spatial-temporal indexing aligns with evaluation outcomes showing improved question alignment post-correction (e.g., correctly identifying earthquake-affected materials despite initial noise).
+</rationale>
+
+<changes>
+1. Added explicit timestamp/spatial priority hierarchy for overwrites
+2. Implemented numerical vs. descriptive aggregation distinction based on observation type
+3. Enhanced multi-modal indexing requirements (e.g., combining structural damage with environmental patterns)
+4. Strengthened validation checks to flag contradicting entries pre-merging
+5. Refined spatial ambiguity resolution protocol (earliest version retained without clear proximity winner)
+6. Reduced descriptive detail threshold from <20 to <15 tokens for aggressive pruning
+7. Introduced location adjacency scoring system for spatial conflict scenarios
+</changes>

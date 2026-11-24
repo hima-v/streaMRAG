@@ -1,0 +1,262 @@
+[
+  {
+    "step": 1,
+    "tokens": 41,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Flooded campsite with multiple RVs submerged in muddy water.",
+        "sources": ["E01"]
+      }
+    ]
+  },
+  {
+    "step": 2,
+    "tokens": 79,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A flooded campsite with multiple RVs submerged in muddy water.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "A flooded street with cars stuck in muddy water.",
+        "sources": ["E02"]
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "tokens": 82,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A flooded campsite with multiple RVs submerged in muddy water.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A flooded campsite with multiple RVs submerged in muddy water.",
+        "sources": ["E03"]
+      }
+    ]
+  },
+  {
+    "step": 4,
+    "tokens": 82,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A flooded campsite with multiple RVs submerged in muddy water.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A flooded campsite with multiple RVs submerged in muddy water.",
+        "sources": ["E04"]
+      }
+    ]
+  },
+  {
+    "step": 5,
+    "tokens": 120,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A flooded campsite with multiple RVs submerged in muddy water.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A flooded campsite with multiple RVs submerged in muddy water.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A man is swimming in the water holding a rope.",
+        "sources": ["E05"]
+      }
+    ]
+  },
+  {
+    "step": 6,
+    "tokens": 161,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A flooded campsite with multiple RVs submerged in muddy water.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A flooded campsite with multiple RVs submerged in muddy water.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A man is swimming in the water holding a rope.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A flooded campsite with multiple RVs submerged in muddy water.",
+        "sources": ["E06"]
+      }
+    ]
+  },
+  {
+    "step": 7,
+    "tokens": 202,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A flooded campsite with multiple RVs submerged in muddy water.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A flooded campsite with multiple RVs submerged in muddy water.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A man is swimming in the water holding a rope.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A flooded campsite with multiple RVs submerged in muddy water.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A flooded campsite with multiple RVs submerged in muddy water.",
+        "sources": ["E07"]
+      }
+    ]
+  },
+  {
+    "step": 8,
+    "tokens": 243,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A flooded campsite with multiple RVs submerged in muddy water.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A flooded campsite with multiple RVs submerged in muddy water.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A man is swimming in the water holding a rope.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A flooded campsite with multiple RVs submerged in muddy water.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A flooded campsite with multiple RVs submerged in muddy water.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A flooded campsite with multiple RVs submerged in muddy water.",
+        "sources": ["E08"]
+      }
+    ]
+  },
+  {
+    "step": 9,
+    "tokens": 284,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A flooded campsite with multiple RVs submerged in muddy water.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A flooded campsite with multiple RVs submerged in muddy water.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A man is swimming in the water holding a rope.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A flooded campsite with multiple RVs submerged in muddy water.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A flooded campsite with multiple RVs submerged in muddy water.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A flooded campsite with multiple RVs submerged in muddy water.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "A flooded campsite with multiple RVs submerged in muddy water.",
+        "sources": ["E09"]
+      }
+    ]
+  },
+  {
+    "step": 10,
+    "tokens": 326,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A flooded campsite with multiple RVs submerged in muddy water.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A flooded campsite with multiple RVs submerged in muddy water.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A man is swimming in the water holding a rope.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A flooded campsite with multiple RVs submerged in muddy water.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A flooded campsite with multiple RVs submerged in muddy water.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A flooded campsite with multiple RVs submerged in muddy water.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "A flooded campsite with multiple RVs submerged in muddy water.",
+        "sources": ["E09"]
+      },
+      {
+        "id": "m10",
+        "text": "A flooded campsite with multiple RVs submerged in muddy water.",
+        "sources": ["E10"]
+      }
+    ]
+  }
+]

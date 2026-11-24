@@ -1,0 +1,11 @@
+<strategy>
+Retain distinct visual elements critical for answering downstream questions while aggressively pruning redundancy. Extract specific, observable details (e.g., "submerged vehicles" instead of "flooded area") and encode spatial/temporal relationships, domain attributes (e.g., commercial/residential buildings), and quantifiable data. Merge overlapping observations into consolidated entries with aggregated metrics during updates. Delete duplicates unless conflicts arise. Explicitly retain numerical values (counts, measurements) and chronological order for sequential events. Overwrite outdated entries using timestamps or positional cues. Prioritize high-value content; discard non-essential metadata (platform tags) unless needed for disambiguation. Enforce strict token constraints via hierarchical summarization, capping memory at ~8 concise entries within 512 tokens.
+</strategy>
+
+<rationale>
+This strategy emphasizes precision by focusing on actionable details (e.g., distinguishing "residences" vs. vague "areas") rather than broad descriptions. Structured encoding ensures spatial/temporal context and quantitative data (critical for downstream analysis) are preserved. Merging duplicates reduces noise, while conflict-triggered retention avoids loss of key insights. Strict token limits enforce efficiency, prioritizing impactful information. Non-essential metadata is discarded unless required to resolve ambiguities, maintaining clarity without sacrificing utility.
+</rationale>
+
+<changes>
+Enhanced specificity requirements, added explicit quantitative data focus, clarified merging criteria, refined temporal handling, and tightened token management. Original version lacked emphasis on measurement units and clearer guidance on conflict resolution triggers.
+</changes>

@@ -1,0 +1,297 @@
+[
+  {
+    "step": 1,
+    "tokens": 174,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large building fire is under control by a team of firefighters and emergency medical personnel. The building is a multi-story structure with several fire trucks and ladders set up around it. The firefighters are using ladders to access the upper floors of the building. There are also paramedics present, ready to assist any injured individuals. The scene is illuminated by the lights of the fire trucks and the glow of the fire itself. The firefighters are wearing their yellow and orange uniforms and helmets. The emergency medical personnel are also wearing uniforms and helmets. The building appears to be made of brick and concrete. There are at least four ladders set up around the building. The time of day is night.",
+        "sources": ["E01"]
+      }
+    ]
+  },
+  {
+    "step": 2,
+    "tokens": 71,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "...",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "A firefighter is standing on top of a fire truck, observing the fire.",
+        "sources": ["E02"]
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "tokens": 66,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "...",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A car is on fire with debris scattered around it.",
+        "sources": ["E03"]
+      }
+    ]
+  },
+  {
+    "step": 4,
+    "tokens": 120,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "...",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A car is on fire with debris scattered around it.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A fire is burning in a building with a large fire truck parked in front. Firefighters are working to extinguish the fire.",
+        "sources": ["E04"]
+      }
+    ]
+  },
+  {
+    "step": 5,
+    "tokens": 174,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "...",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A car is on fire with debris scattered around it.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A fire is burning in a building with a large fire truck parked in front. Firefighters are working to extinguish the fire.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A fire is burning in a building with a large fire truck parked in front. Firefighters are working to extinguish the fire.",
+        "sources": ["E05"]
+      }
+    ]
+  },
+  {
+    "step": 6,
+    "tokens": 228,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A fire is burning in a building with flames visible through the windows.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A car is on fire with debris scattered around it.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A fire is burning in a building with a large fire truck parked in front. Firefighters are working to extinguish the fire.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A fire is burning in a building with a large fire truck parked in front. Firefighters are working to extinguish the fire.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A fire is burning in a building with flames visible through the windows.",
+        "sources": ["E06"]
+      }
+    ]
+  },
+  {
+    "step": 7,
+    "tokens": 269,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A fire is burning in a building with flames visible through the windows.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A car is on fire with debris scattered around it.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A fire is burning in a building with a large fire truck parked in front. Firefighters are working to extinguish the fire.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A fire is burning in a building with a large fire truck parked in front. Firefighters are working to extinguish the fire.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A fire is burning in a building with flames visible through the windows.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A fire is burning in a building with flames visible through the windows.",
+        "sources": ["E07"]
+      }
+    ]
+  },
+  {
+    "step": 8,
+    "tokens": 310,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A fire is burning in a building with flames visible through the windows.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A car is on fire with debris scattered around it.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A fire is burning in a building with a large fire truck parked in front. Firefighters are working to extinguish the fire.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A fire is burning in a building with a large fire truck parked in front. Firefighters are working to extinguish the fire.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A fire is burning in a building with flames visible through the windows.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A fire is burning in a building with flames visible through the windows.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A fire is burning in a building with flames visible through the windows.",
+        "sources": ["E08"]
+      }
+    ]
+  },
+  {
+    "step": 9,
+    "tokens": 351,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A fire is burning in a building with flames visible through the windows.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A car is on fire with debris scattered around it.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A fire is burning in a building with a large fire truck parked in front. Firefighters are working to extinguish the fire.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A fire is burning in a building with a large fire truck parked in front. Firefighters are working to extinguish the fire.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A fire is burning in a building with flames visible through the windows.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A fire is burning in a building with flames visible through the windows.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A fire is burning in a building with flames visible through the windows.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "A fire is burning in a building with flames visible through the windows.",
+        "sources": ["E09"]
+      }
+    ]
+  },
+  {
+    "step": 10,
+    "tokens": 393,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A fire is burning in a building with flames visible through the windows.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A car is on fire with debris scattered around it.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A fire is burning in a building with a large fire truck parked in front. Firefighters are working to extinguish the fire.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A fire is burning in a building with a large fire truck parked in front. Firefighters are working to extinguish the fire.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A fire is burning in a building with flames visible through the windows.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A fire is burning in a building with flames visible through the windows.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A fire is burning in a building with flames visible through the windows.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "A fire is burning in a building with flames visible through the windows.",
+        "sources": ["E09"]
+      },
+      {
+        "id": "m10",
+        "text": "A fire is burning in a building with flames visible through the windows.",
+        "sources": ["E10"]
+      }
+    ]
+  }
+]

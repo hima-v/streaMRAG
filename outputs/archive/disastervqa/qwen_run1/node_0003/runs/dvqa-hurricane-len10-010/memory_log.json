@@ -1,0 +1,332 @@
+[
+  {
+    "item_id": "E01",
+    "step": 1,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"Aerial view of a flooded area with multiple buildings and vehicles submerged in water.\", \"sources\": [\"E01\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Aerial view of a flooded area with multiple buildings and vehicles submerged in water.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Aerial view of a flooded area with multiple buildings and vehicles submerged in water.",
+              "sources": ["E01"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Aerial view of a flooded area with multiple buildings and vehicles submerged in water.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2", "update of unknown line m1"],
+        "tokens_after": 43
+      }
+    ],
+    "tokens": 43,
+    "n_lines": 1,
+    "secs": 2.49
+  },
+  {
+    "item_id": "E02",
+    "step": 2,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A police car with its lights on is parked near a fallen power pole and wires.\", \"sources\": [\"E02\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"...\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A police car with its lights on is parked near a fallen power pole and wires.",
+              "sources": ["E02"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "...",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 72
+      }
+    ],
+    "tokens": 72,
+    "n_lines": 2,
+    "secs": 1.85
+  },
+  {
+    "item_id": "E03",
+    "step": 3,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a flooded street with cars driving through the water.\", \"sources\": [\"E03\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo shows a flooded street with cars driving through the water.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a flooded street with cars driving through the water.",
+              "sources": ["E03"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo shows a flooded street with cars driving through the water.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": [],
+        "tokens_after": 84
+      }
+    ],
+    "tokens": 84,
+    "n_lines": 2,
+    "secs": 2.52
+  },
+  {
+    "item_id": "E04",
+    "step": 4,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a flooded street with cars driving through the water.\", \"sources\": [\"E04\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo shows a flooded street with cars driving through the water.\", \"sources\": [\"E01\"]}], \"delete\": [\"m3\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a flooded street with cars driving through the water.",
+              "sources": ["E04"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo shows a flooded street with cars driving through the water.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m3"]
+        },
+        "problems": [],
+        "tokens_after": 84
+      }
+    ],
+    "tokens": 84,
+    "n_lines": 2,
+    "secs": 2.54
+  },
+  {
+    "item_id": "E05",
+    "step": 5,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a flooded street with cars driving through the water.\", \"sources\": [\"E05\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo shows a flooded street with cars driving through the water.\", \"sources\": [\"E01\"]}], \"delete\": [\"m4\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a flooded street with cars driving through the water.",
+              "sources": ["E05"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo shows a flooded street with cars driving through the water.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m4"]
+        },
+        "problems": [],
+        "tokens_after": 84
+      }
+    ],
+    "tokens": 84,
+    "n_lines": 2,
+    "secs": 2.28
+  },
+  {
+    "item_id": "E06",
+    "step": 6,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a fallen tree blocking a road.\", \"sources\": [\"E06\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo shows a flooded street with cars driving through the water.\", \"sources\": [\"E01\"]}], \"delete\": [\"m5\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a fallen tree blocking a road.",
+              "sources": ["E06"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo shows a flooded street with cars driving through the water.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m5"]
+        },
+        "problems": [],
+        "tokens_after": 81
+      }
+    ],
+    "tokens": 81,
+    "n_lines": 2,
+    "secs": 2.35
+  },
+  {
+    "item_id": "E07",
+    "step": 7,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a flooded street with cars driving through the water.\", \"sources\": [\"E07\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo shows a flooded street with cars driving through the water.\", \"sources\": [\"E01\"]}], \"delete\": [\"m6\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a flooded street with cars driving through the water.",
+              "sources": ["E07"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo shows a flooded street with cars driving through the water.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m6"]
+        },
+        "problems": [],
+        "tokens_after": 84
+      }
+    ],
+    "tokens": 84,
+    "n_lines": 2,
+    "secs": 2.55
+  },
+  {
+    "item_id": "E08",
+    "step": 8,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a flooded street with cars driving through the water.\", \"sources\": [\"E08\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo shows a flooded street with cars driving through the water.\", \"sources\": [\"E01\"]}], \"delete\": [\"m7\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a flooded street with cars driving through the water.",
+              "sources": ["E08"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo shows a flooded street with cars driving through the water.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m7"]
+        },
+        "problems": [],
+        "tokens_after": 84
+      }
+    ],
+    "tokens": 84,
+    "n_lines": 2,
+    "secs": 2.53
+  },
+  {
+    "item_id": "E09",
+    "step": 9,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a flooded street with cars driving through the water.\", \"sources\": [\"E09\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo shows a flooded street with cars driving through the water.\", \"sources\": [\"E01\"]}], \"delete\": [\"m8\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a flooded street with cars driving through the water.",
+              "sources": ["E09"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo shows a flooded street with cars driving through the water.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m8"]
+        },
+        "problems": [],
+        "tokens_after": 84
+      }
+    ],
+    "tokens": 84,
+    "n_lines": 2,
+    "secs": 2.53
+  },
+  {
+    "item_id": "E10",
+    "step": 10,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a flooded street with cars driving through the water.\", \"sources\": [\"E10\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo shows a flooded street with cars driving through the water.\", \"sources\": [\"E01\"]}], \"delete\": [\"m9\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a flooded street with cars driving through the water.",
+              "sources": ["E10"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo shows a flooded street with cars driving through the water.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m9"]
+        },
+        "problems": [],
+        "tokens_after": 85
+      }
+    ],
+    "tokens": 85,
+    "n_lines": 2,
+    "secs": 2.56
+  }
+]

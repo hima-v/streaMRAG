@@ -1,0 +1,332 @@
+[
+  {
+    "item_id": "E01",
+    "step": 1,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"Two workers are seen standing on a ladder, inspecting the damaged building.\", \"sources\": [\"E01\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"...\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Two workers are seen standing on a ladder, inspecting the damaged building.",
+              "sources": ["E01"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "...",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2", "update of unknown line m1"],
+        "tokens_after": 42
+      }
+    ],
+    "tokens": 42,
+    "n_lines": 1,
+    "secs": 1.84
+  },
+  {
+    "item_id": "E02",
+    "step": 2,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A black car is parked on a street with a large crack in the asphalt. There are people standing around the car, including a police officer and a man in a red shirt. The scene appears to be in a city with a modern building in the background.\", \"sources\": [\"E02\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"...\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A black car is parked on a street with a large crack in the asphalt. There are people standing around the car, including a police officer and a man in a red shirt. The scene appears to be in a city with a modern building in the background.",
+              "sources": ["E02"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "...",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 107
+      }
+    ],
+    "tokens": 107,
+    "n_lines": 2,
+    "secs": 3.14
+  },
+  {
+    "item_id": "E03",
+    "step": 3,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo from Twitter shows a black car parked on a street with a large crack in the asphalt. There are people standing around the car, including a police officer and a man in a red shirt. The scene appears to be in a city with a modern building in the background.\", \"sources\": [\"E03\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo from Twitter shows a black car parked on a street with a large crack in the asphalt. There are people standing around the car, including a police officer and a man in a red shirt. The scene appears to be in a city with a modern building in the background.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo from Twitter shows a black car parked on a street with a large crack in the asphalt. There are people standing around the car, including a police officer and a man in a red shirt. The scene appears to be in a city with a modern building in the background.",
+              "sources": ["E03"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo from Twitter shows a black car parked on a street with a large crack in the asphalt. There are people standing around the car, including a police officer and a man in a red shirt. The scene appears to be in a city with a modern building in the background.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": [],
+        "tokens_after": 170
+      }
+    ],
+    "tokens": 170,
+    "n_lines": 2,
+    "secs": 4.83
+  },
+  {
+    "item_id": "E04",
+    "step": 4,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo from Twitter shows a black car parked on a street with a large crack in the asphalt. There are people standing around the car, including a police officer and a man in a red shirt. The scene appears to be in a city with a modern building in the background.\", \"sources\": [\"E04\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo from Twitter shows a black car parked on a street with a large crack in the asphalt. There are people standing around the car, including a police officer and a man in a red shirt. The scene appears to be in a city with a modern building in the background.\", \"sources\": [\"E01\"]}], \"delete\": [\"m3\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo from Twitter shows a black car parked on a street with a large crack in the asphalt. There are people standing around the car, including a police officer and a man in a red shirt. The scene appears to be in a city with a modern building in the background.",
+              "sources": ["E04"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo from Twitter shows a black car parked on a street with a large crack in the asphalt. There are people standing around the car, including a police officer and a man in a red shirt. The scene appears to be in a city with a modern building in the background.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m3"]
+        },
+        "problems": [],
+        "tokens_after": 170
+      }
+    ],
+    "tokens": 170,
+    "n_lines": 2,
+    "secs": 4.88
+  },
+  {
+    "item_id": "E05",
+    "step": 5,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo from Twitter shows a black car parked on a street with a large crack in the asphalt. There are people standing around the car, including a police officer and a man in a red shirt. The scene appears to be in a city with a modern building in the background.\", \"sources\": [\"E05\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo from Twitter shows a black car parked on a street with a large crack in the asphalt. There are people standing around the car, including a police officer and a man in a red shirt. The scene appears to be in a city with a modern building in the background.\", \"sources\": [\"E01\"]}], \"delete\": [\"m4\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo from Twitter shows a black car parked on a street with a large crack in the asphalt. There are people standing around the car, including a police officer and a man in a red shirt. The scene appears to be in a city with a modern building in the background.",
+              "sources": ["E05"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo from Twitter shows a black car parked on a street with a large crack in the asphalt. There are people standing around the car, including a police officer and a man in a red shirt. The scene appears to be in a city with a modern building in the background.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m4"]
+        },
+        "problems": [],
+        "tokens_after": 170
+      }
+    ],
+    "tokens": 170,
+    "n_lines": 2,
+    "secs": 4.57
+  },
+  {
+    "item_id": "E06",
+    "step": 6,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo from Twitter shows a black car parked on a street with a large crack in the asphalt. There are people standing around the car, including a police officer and a man in a red shirt. The scene appears to be in a city with a modern building in the background.\", \"sources\": [\"E06\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo from Twitter shows a black car parked on a street with a large crack in the asphalt. There are people standing around the car, including a police officer and a man in a red shirt. The scene appears to be in a city with a modern building in the background.\", \"sources\": [\"E01\"]}], \"delete\": [\"m5\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo from Twitter shows a black car parked on a street with a large crack in the asphalt. There are people standing around the car, including a police officer and a man in a red shirt. The scene appears to be in a city with a modern building in the background.",
+              "sources": ["E06"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo from Twitter shows a black car parked on a street with a large crack in the asphalt. There are people standing around the car, including a police officer and a man in a red shirt. The scene appears to be in a city with a modern building in the background.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m5"]
+        },
+        "problems": [],
+        "tokens_after": 170
+      }
+    ],
+    "tokens": 170,
+    "n_lines": 2,
+    "secs": 4.9
+  },
+  {
+    "item_id": "E07",
+    "step": 7,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo from Twitter shows a silver car parked on a street with a large crack in the asphalt. There are people standing around the car, including a police officer and a man in a red shirt. The scene appears to be in a city with a modern building in the background.\", \"sources\": [\"E07\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"...\", \"sources\": [\"E01\"]}], \"delete\": [\"m6\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo from Twitter shows a silver car parked on a street with a large crack in the asphalt. There are people standing around the car, including a police officer and a man in a red shirt. The scene appears to be in a city with a modern building in the background.",
+              "sources": ["E07"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "...",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m6"]
+        },
+        "problems": [],
+        "tokens_after": 113
+      }
+    ],
+    "tokens": 113,
+    "n_lines": 2,
+    "secs": 3.15
+  },
+  {
+    "item_id": "E08",
+    "step": 8,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo from Twitter shows a silver car parked on a street with a large crack in the asphalt. There are people standing around the car, including a police officer and a man in a red shirt. The scene appears to be in a city with a modern building in the background.\", \"sources\": [\"E08\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo from Twitter shows a silver car parked on a street with a large crack in the asphalt. There are people standing around the car, including a police officer and a man in a red shirt. The scene appears to be in a city with a modern building in the background.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo from Twitter shows a silver car parked on a street with a large crack in the asphalt. There are people standing around the car, including a police officer and a man in a red shirt. The scene appears to be in a city with a modern building in the background.",
+              "sources": ["E08"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo from Twitter shows a silver car parked on a street with a large crack in the asphalt. There are people standing around the car, including a police officer and a man in a red shirt. The scene appears to be in a city with a modern building in the background.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 255
+      }
+    ],
+    "tokens": 255,
+    "n_lines": 3,
+    "secs": 4.59
+  },
+  {
+    "item_id": "E09",
+    "step": 9,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo from Twitter shows a silver car parked on a street with a large crack in the asphalt. There are people standing around the car, including a police officer and a man in a red shirt. The scene appears to be in a city with a modern building in the background.\", \"sources\": [\"E09\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo from Twitter shows a silver car parked on a street with a large crack in the asphalt. There are people standing around the car, including a police officer and a man in a red shirt. The scene appears to be in a city with a modern building in the background.\", \"sources\": [\"E01\"]}], \"delete\": [\"m7\", \"m8\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo from Twitter shows a silver car parked on a street with a large crack in the asphalt. There are people standing around the car, including a police officer and a man in a red shirt. The scene appears to be in a city with a modern building in the background.",
+              "sources": ["E09"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo from Twitter shows a silver car parked on a street with a large crack in the asphalt. There are people standing around the car, including a police officer and a man in a red shirt. The scene appears to be in a city with a modern building in the background.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m7", "m8"]
+        },
+        "problems": [],
+        "tokens_after": 170
+      }
+    ],
+    "tokens": 170,
+    "n_lines": 2,
+    "secs": 5.05
+  },
+  {
+    "item_id": "E10",
+    "step": 10,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo from Twitter shows a silver car parked on a street with a large crack in the asphalt. There are people standing around the car, including a police officer and a man in a red shirt. The scene appears to be in a city with a modern building in the background.\", \"sources\": [\"E10\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo from Twitter shows a silver car parked on a street with a large crack in the asphalt. There are people standing around the car, including a police officer and a man in a red shirt. The scene appears to be in a city with a modern building in the background.\", \"sources\": [\"E01\"]}], \"delete\": [\"m9\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo from Twitter shows a silver car parked on a street with a large crack in the asphalt. There are people standing around the car, including a police officer and a man in a red shirt. The scene appears to be in a city with a modern building in the background.",
+              "sources": ["E10"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo from Twitter shows a silver car parked on a street with a large crack in the asphalt. There are people standing around the car, including a police officer and a man in a red shirt. The scene appears to be in a city with a modern building in the background.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m9"]
+        },
+        "problems": [],
+        "tokens_after": 171
+      }
+    ],
+    "tokens": 171,
+    "n_lines": 2,
+    "secs": 4.68
+  }
+]

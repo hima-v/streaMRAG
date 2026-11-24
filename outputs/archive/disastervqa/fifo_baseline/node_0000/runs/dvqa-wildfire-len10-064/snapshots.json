@@ -1,0 +1,237 @@
+[
+  {
+    "step": 1,
+    "tokens": 95,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "The image depicts a wildfire scene with several small fires burning on the ground. There are two individuals in the background, standing amidst the flames. The ground is covered with burning debris, and the sky is hazy, likely due to smoke from the fire. The overall atmosphere is intense and chaotic, with the fire actively consuming the vegetation.",
+        "sources": ["E01"]
+      }
+    ]
+  },
+  {
+    "step": 2,
+    "tokens": 196,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "The image depicts a wildfire scene with several small fires burning on the ground. There are two individuals in the background, standing amidst the flames. The ground is covered with burning debris, and the sky is hazy, likely due to smoke from the fire. The overall atmosphere is intense and chaotic, with the fire actively consuming the vegetation.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "The image shows a wildfire with bright orange flames visible against a dark, smoky background. The fire appears to be burning on a hillside or mountain, with the flames extending horizontally across the landscape. The sky is hazy, likely due to the smoke from the fire. The surrounding area includes some trees, which are partially visible at the bottom of the image.",
+        "sources": ["E02"]
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "tokens": 300,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "The image depicts a wildfire scene with several small fires burning on the ground. There are two individuals in the background, standing amidst the flames. The ground is covered with burning debris, and the sky is hazy, likely due to smoke from the fire. The overall atmosphere is intense and chaotic, with the fire actively consuming the vegetation.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "The image shows a wildfire with bright orange flames visible against a dark, smoky background. The fire appears to be burning on a hillside or mountain, with the flames extending horizontally across the landscape. The sky is hazy, likely due to the smoke from the fire. The surrounding area includes some trees, which are partially visible at the bottom of the image.",
+        "sources": ["E02"]
+      },
+      {
+        "id": "m3",
+        "text": "The image depicts a scene of destruction, likely caused by a wildfire. Charred trees and debris are scattered throughout the area, indicating extensive damage. There are several people in the scene, some of whom appear to be searching through the rubble. The sky is hazy, suggesting recent or ongoing smoke from the fire. The overall atmosphere is one of desolation and recovery efforts.",
+        "sources": ["E03"]
+      }
+    ]
+  },
+  {
+    "step": 4,
+    "tokens": 406,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "The image depicts a wildfire scene with several small fires burning on the ground. There are two individuals in the background, standing amidst the flames. The ground is covered with burning debris, and the sky is hazy, likely due to smoke from the fire. The overall atmosphere is intense and chaotic, with the fire actively consuming the vegetation.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "The image shows a wildfire with bright orange flames visible against a dark, smoky background. The fire appears to be burning on a hillside or mountain, with the flames extending horizontally across the landscape. The sky is hazy, likely due to the smoke from the fire. The surrounding area includes some trees, which are partially visible at the bottom of the image.",
+        "sources": ["E02"]
+      },
+      {
+        "id": "m3",
+        "text": "The image depicts a scene of destruction, likely caused by a wildfire. Charred trees and debris are scattered throughout the area, indicating extensive damage. There are several people in the scene, some of whom appear to be searching through the rubble. The sky is hazy, suggesting recent or ongoing smoke from the fire. The overall atmosphere is one of desolation and recovery efforts.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A firefighter is silhouetted against a backdrop of intense flames and smoke. The fire is burning in a forested area, with trees and vegetation visible. The firefighter is holding a hose and is illuminated by a flashlight, creating a stark contrast between the dark figure and the bright, fiery background. The scene is dark, with the fire's glow being the primary source of light.",
+        "sources": ["E04"]
+      }
+    ]
+  },
+  {
+    "step": 5,
+    "tokens": 509,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "The image depicts a wildfire scene with several small fires burning on the ground. There are two individuals in the background, standing amidst the flames. The ground is covered with burning debris, and the sky is hazy, likely due to smoke from the fire. The overall atmosphere is intense and chaotic, with the fire actively consuming the vegetation.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "The image shows a wildfire with bright orange flames visible against a dark, smoky background. The fire appears to be burning on a hillside or mountain, with the flames extending horizontally across the landscape. The sky is hazy, likely due to the smoke from the fire. The surrounding area includes some trees, which are partially visible at the bottom of the image.",
+        "sources": ["E02"]
+      },
+      {
+        "id": "m3",
+        "text": "The image depicts a scene of destruction, likely caused by a wildfire. Charred trees and debris are scattered throughout the area, indicating extensive damage. There are several people in the scene, some of whom appear to be searching through the rubble. The sky is hazy, suggesting recent or ongoing smoke from the fire. The overall atmosphere is one of desolation and recovery efforts.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A firefighter is silhouetted against a backdrop of intense flames and smoke. The fire is burning in a forested area, with trees and vegetation visible. The firefighter is holding a hose and is illuminated by a flashlight, creating a stark contrast between the dark figure and the bright, fiery background. The scene is dark, with the fire's glow being the primary source of light.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A large truck with illuminated headlights and a row of lights on top is driving on a dirt road at night. The background features a mountain with a bright, fiery glow, suggesting a large fire or explosion. The sky is dark, and there are trees on either side of the road. The scene is illuminated by the truck's lights, casting a warm glow on the ground.",
+        "sources": ["E05"]
+      }
+    ]
+  },
+  {
+    "step": 6,
+    "tokens": 433,
+    "lines": [
+      {
+        "id": "m3",
+        "text": "The image depicts a scene of destruction, likely caused by a wildfire. Charred trees and debris are scattered throughout the area, indicating extensive damage. There are several people in the scene, some of whom appear to be searching through the rubble. The sky is hazy, suggesting recent or ongoing smoke from the fire. The overall atmosphere is one of desolation and recovery efforts.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A firefighter is silhouetted against a backdrop of intense flames and smoke. The fire is burning in a forested area, with trees and vegetation visible. The firefighter is holding a hose and is illuminated by a flashlight, creating a stark contrast between the dark figure and the bright, fiery background. The scene is dark, with the fire's glow being the primary source of light.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A large truck with illuminated headlights and a row of lights on top is driving on a dirt road at night. The background features a mountain with a bright, fiery glow, suggesting a large fire or explosion. The sky is dark, and there are trees on either side of the road. The scene is illuminated by the truck's lights, casting a warm glow on the ground.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "The image shows a large, dark house with a steeply pitched roof and multiple chimneys, situated in a vineyard or agricultural field. In the background, there is a forested area with trees and a hillside. Flames are visible in the forest, indicating a wildfire. The sky is hazy, likely due to smoke from the fire. The overall scene suggests a wildfire approaching the house, with the fire burning on the hillside behind it.",
+        "sources": ["E06"]
+      }
+    ]
+  },
+  {
+    "step": 7,
+    "tokens": 441,
+    "lines": [
+      {
+        "id": "m4",
+        "text": "A firefighter is silhouetted against a backdrop of intense flames and smoke. The fire is burning in a forested area, with trees and vegetation visible. The firefighter is holding a hose and is illuminated by a flashlight, creating a stark contrast between the dark figure and the bright, fiery background. The scene is dark, with the fire's glow being the primary source of light.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A large truck with illuminated headlights and a row of lights on top is driving on a dirt road at night. The background features a mountain with a bright, fiery glow, suggesting a large fire or explosion. The sky is dark, and there are trees on either side of the road. The scene is illuminated by the truck's lights, casting a warm glow on the ground.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "The image shows a large, dark house with a steeply pitched roof and multiple chimneys, situated in a vineyard or agricultural field. In the background, there is a forested area with trees and a hillside. Flames are visible in the forest, indicating a wildfire. The sky is hazy, likely due to smoke from the fire. The overall scene suggests a wildfire approaching the house, with the fire burning on the hillside behind it.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "The image shows a group of six people standing near a white pickup truck on a dirt road. They are observing a large plume of black smoke rising from a distant fire. The background features a field with green crops and a mountain range. The sky is clear, and the scene appears to be in a rural or agricultural area. The people are dressed in casual clothing, and the truck is parked on the side of the road.",
+        "sources": ["E07"]
+      }
+    ]
+  },
+  {
+    "step": 8,
+    "tokens": 446,
+    "lines": [
+      {
+        "id": "m5",
+        "text": "A large truck with illuminated headlights and a row of lights on top is driving on a dirt road at night. The background features a mountain with a bright, fiery glow, suggesting a large fire or explosion. The sky is dark, and there are trees on either side of the road. The scene is illuminated by the truck's lights, casting a warm glow on the ground.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "The image shows a large, dark house with a steeply pitched roof and multiple chimneys, situated in a vineyard or agricultural field. In the background, there is a forested area with trees and a hillside. Flames are visible in the forest, indicating a wildfire. The sky is hazy, likely due to smoke from the fire. The overall scene suggests a wildfire approaching the house, with the fire burning on the hillside behind it.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "The image shows a group of six people standing near a white pickup truck on a dirt road. They are observing a large plume of black smoke rising from a distant fire. The background features a field with green crops and a mountain range. The sky is clear, and the scene appears to be in a rural or agricultural area. The people are dressed in casual clothing, and the truck is parked on the side of the road.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A person is using a hose to spray water towards a burning forest. The scene is illuminated by the intense orange and yellow light of the fire, casting a reddish hue over the surroundings. The person is standing near a building with a metal fence, and the fire is consuming trees and vegetation in the background. The ground is covered with dry grass and debris, and the smoke from the fire is thick and billowing.",
+        "sources": ["E08"]
+      }
+    ]
+  },
+  {
+    "step": 9,
+    "tokens": 443,
+    "lines": [
+      {
+        "id": "m6",
+        "text": "The image shows a large, dark house with a steeply pitched roof and multiple chimneys, situated in a vineyard or agricultural field. In the background, there is a forested area with trees and a hillside. Flames are visible in the forest, indicating a wildfire. The sky is hazy, likely due to smoke from the fire. The overall scene suggests a wildfire approaching the house, with the fire burning on the hillside behind it.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "The image shows a group of six people standing near a white pickup truck on a dirt road. They are observing a large plume of black smoke rising from a distant fire. The background features a field with green crops and a mountain range. The sky is clear, and the scene appears to be in a rural or agricultural area. The people are dressed in casual clothing, and the truck is parked on the side of the road.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A person is using a hose to spray water towards a burning forest. The scene is illuminated by the intense orange and yellow light of the fire, casting a reddish hue over the surroundings. The person is standing near a building with a metal fence, and the fire is consuming trees and vegetation in the background. The ground is covered with dry grass and debris, and the smoke from the fire is thick and billowing.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "The image depicts a night scene with a large, intense fire burning in a forest. The flames are high and bright, illuminating the surrounding trees. There are several people standing on a bridge or elevated platform, observing the fire. A police vehicle with flashing lights is also present in the foreground. The scene is dark, with the fire being the primary source of light.",
+        "sources": ["E09"]
+      }
+    ]
+  },
+  {
+    "step": 10,
+    "tokens": 446,
+    "lines": [
+      {
+        "id": "m7",
+        "text": "The image shows a group of six people standing near a white pickup truck on a dirt road. They are observing a large plume of black smoke rising from a distant fire. The background features a field with green crops and a mountain range. The sky is clear, and the scene appears to be in a rural or agricultural area. The people are dressed in casual clothing, and the truck is parked on the side of the road.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A person is using a hose to spray water towards a burning forest. The scene is illuminated by the intense orange and yellow light of the fire, casting a reddish hue over the surroundings. The person is standing near a building with a metal fence, and the fire is consuming trees and vegetation in the background. The ground is covered with dry grass and debris, and the smoke from the fire is thick and billowing.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "The image depicts a night scene with a large, intense fire burning in a forest. The flames are high and bright, illuminating the surrounding trees. There are several people standing on a bridge or elevated platform, observing the fire. A police vehicle with flashing lights is also present in the foreground. The scene is dark, with the fire being the primary source of light.",
+        "sources": ["E09"]
+      },
+      {
+        "id": "m10",
+        "text": "The image depicts a nighttime scene with a large, intense fire burning in the background. Flames are visible, illuminating the sky and casting a red glow over the area. There is a fire truck in the foreground, with its lights on, and several firefighters are present, some standing near the truck and others walking away. The scene is dark, with the fire being the primary source of light. Trees and other structures are visible, partially obscured by the smoke and flames.",
+        "sources": ["E10"]
+      }
+    ]
+  }
+]

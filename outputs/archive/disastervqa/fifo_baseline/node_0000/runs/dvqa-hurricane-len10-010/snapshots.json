@@ -1,0 +1,257 @@
+[
+  {
+    "step": 1,
+    "tokens": 124,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "The image shows an aerial view of a flooded area with several buildings and vehicles submerged in water. The water level is high, covering the ground and parts of the buildings. There are multiple vehicles, including cars and trucks, parked or floating in the water. The area appears to be a commercial or industrial complex with large buildings and a parking lot. Trees and power poles are also visible, with some trees partially submerged. The water is brown and muddy, indicating recent flooding. The surrounding",
+        "sources": ["E01"]
+      }
+    ]
+  },
+  {
+    "step": 2,
+    "tokens": 208,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "The image shows an aerial view of a flooded area with several buildings and vehicles submerged in water. The water level is high, covering the ground and parts of the buildings. There are multiple vehicles, including cars and trucks, parked or floating in the water. The area appears to be a commercial or industrial complex with large buildings and a parking lot. Trees and power poles are also visible, with some trees partially submerged. The water is brown and muddy, indicating recent flooding. The surrounding",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "A police SUV with its lights on is parked on a wet road next to a fallen power pole and wires. The scene appears to be in a rural or semi-rural area with trees and a fence in the background. The weather looks stormy, with rain and possibly strong winds.",
+        "sources": ["E02"]
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "tokens": 311,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "The image shows an aerial view of a flooded area with several buildings and vehicles submerged in water. The water level is high, covering the ground and parts of the buildings. There are multiple vehicles, including cars and trucks, parked or floating in the water. The area appears to be a commercial or industrial complex with large buildings and a parking lot. Trees and power poles are also visible, with some trees partially submerged. The water is brown and muddy, indicating recent flooding. The surrounding",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "A police SUV with its lights on is parked on a wet road next to a fallen power pole and wires. The scene appears to be in a rural or semi-rural area with trees and a fence in the background. The weather looks stormy, with rain and possibly strong winds.",
+        "sources": ["E02"]
+      },
+      {
+        "id": "m3",
+        "text": "The image shows a flooded street with several vehicles driving through the water. The street is surrounded by residential houses with roofs of various colors. There are trees and greenery on both sides of the street, and the water appears to be flowing from one end of the street to the other. The street is not completely submerged, but the water is high enough to cover the road surface.",
+        "sources": ["E03"]
+      }
+    ]
+  },
+  {
+    "step": 4,
+    "tokens": 435,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "The image shows an aerial view of a flooded area with several buildings and vehicles submerged in water. The water level is high, covering the ground and parts of the buildings. There are multiple vehicles, including cars and trucks, parked or floating in the water. The area appears to be a commercial or industrial complex with large buildings and a parking lot. Trees and power poles are also visible, with some trees partially submerged. The water is brown and muddy, indicating recent flooding. The surrounding",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "A police SUV with its lights on is parked on a wet road next to a fallen power pole and wires. The scene appears to be in a rural or semi-rural area with trees and a fence in the background. The weather looks stormy, with rain and possibly strong winds.",
+        "sources": ["E02"]
+      },
+      {
+        "id": "m3",
+        "text": "The image shows a flooded street with several vehicles driving through the water. The street is surrounded by residential houses with roofs of various colors. There are trees and greenery on both sides of the street, and the water appears to be flowing from one end of the street to the other. The street is not completely submerged, but the water is high enough to cover the road surface.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "The image shows a group of people, likely military personnel, clearing debris from a road near a body of water. The scene appears to be post-disaster recovery, with damaged trees and fallen branches. The background features a coastal area with buildings and a helicopter visible in the distance. The individuals are wearing camouflage uniforms and helmets, and they are using tools to clear the road. The weather seems to be clear, and the environment is natural with a mix of water and land.",
+        "sources": ["E04"]
+      }
+    ]
+  },
+  {
+    "step": 5,
+    "tokens": 509,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "The image shows an aerial view of a flooded area with several buildings and vehicles submerged in water. The water level is high, covering the ground and parts of the buildings. There are multiple vehicles, including cars and trucks, parked or floating in the water. The area appears to be a commercial or industrial complex with large buildings and a parking lot. Trees and power poles are also visible, with some trees partially submerged. The water is brown and muddy, indicating recent flooding. The surrounding",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "A police SUV with its lights on is parked on a wet road next to a fallen power pole and wires. The scene appears to be in a rural or semi-rural area with trees and a fence in the background. The weather looks stormy, with rain and possibly strong winds.",
+        "sources": ["E02"]
+      },
+      {
+        "id": "m3",
+        "text": "The image shows a flooded street with several vehicles driving through the water. The street is surrounded by residential houses with roofs of various colors. There are trees and greenery on both sides of the street, and the water appears to be flowing from one end of the street to the other. The street is not completely submerged, but the water is high enough to cover the road surface.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "The image shows a group of people, likely military personnel, clearing debris from a road near a body of water. The scene appears to be post-disaster recovery, with damaged trees and fallen branches. The background features a coastal area with buildings and a helicopter visible in the distance. The individuals are wearing camouflage uniforms and helmets, and they are using tools to clear the road. The weather seems to be clear, and the environment is natural with a mix of water and land.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A tree has fallen onto a street, blocking the road. The tree is large and has broken branches. The street is wet, suggesting recent rain. There is a house partially obscured by the fallen tree. The sky is overcast.",
+        "sources": ["E05"]
+      }
+    ]
+  },
+  {
+    "step": 6,
+    "tokens": 482,
+    "lines": [
+      {
+        "id": "m2",
+        "text": "A police SUV with its lights on is parked on a wet road next to a fallen power pole and wires. The scene appears to be in a rural or semi-rural area with trees and a fence in the background. The weather looks stormy, with rain and possibly strong winds.",
+        "sources": ["E02"]
+      },
+      {
+        "id": "m3",
+        "text": "The image shows a flooded street with several vehicles driving through the water. The street is surrounded by residential houses with roofs of various colors. There are trees and greenery on both sides of the street, and the water appears to be flowing from one end of the street to the other. The street is not completely submerged, but the water is high enough to cover the road surface.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "The image shows a group of people, likely military personnel, clearing debris from a road near a body of water. The scene appears to be post-disaster recovery, with damaged trees and fallen branches. The background features a coastal area with buildings and a helicopter visible in the distance. The individuals are wearing camouflage uniforms and helmets, and they are using tools to clear the road. The weather seems to be clear, and the environment is natural with a mix of water and land.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A tree has fallen onto a street, blocking the road. The tree is large and has broken branches. The street is wet, suggesting recent rain. There is a house partially obscured by the fallen tree. The sky is overcast.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A fallen tree has blocked a road, causing power lines to be damaged and possibly downed. The scene is surrounded by dense green foliage, indicating a forested area. There is a mailbox and a trash can visible on the right side of the road, suggesting a residential or rural setting. The ground appears wet, possibly from recent rain.",
+        "sources": ["E06"]
+      }
+    ]
+  },
+  {
+    "step": 7,
+    "tokens": 505,
+    "lines": [
+      {
+        "id": "m3",
+        "text": "The image shows a flooded street with several vehicles driving through the water. The street is surrounded by residential houses with roofs of various colors. There are trees and greenery on both sides of the street, and the water appears to be flowing from one end of the street to the other. The street is not completely submerged, but the water is high enough to cover the road surface.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "The image shows a group of people, likely military personnel, clearing debris from a road near a body of water. The scene appears to be post-disaster recovery, with damaged trees and fallen branches. The background features a coastal area with buildings and a helicopter visible in the distance. The individuals are wearing camouflage uniforms and helmets, and they are using tools to clear the road. The weather seems to be clear, and the environment is natural with a mix of water and land.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A tree has fallen onto a street, blocking the road. The tree is large and has broken branches. The street is wet, suggesting recent rain. There is a house partially obscured by the fallen tree. The sky is overcast.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A fallen tree has blocked a road, causing power lines to be damaged and possibly downed. The scene is surrounded by dense green foliage, indicating a forested area. There is a mailbox and a trash can visible on the right side of the road, suggesting a residential or rural setting. The ground appears wet, possibly from recent rain.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "The image shows a scene of destruction likely caused by a natural disaster, possibly a hurricane. Visible objects include damaged buildings with broken windows and walls, a fallen satellite dish, a partially submerged boat, and debris scattered throughout the area. The water level is high, indicating flooding, and there are yellow barriers in the water. The background features palm trees and a clear sky, suggesting a coastal location.",
+        "sources": ["E07"]
+      }
+    ]
+  },
+  {
+    "step": 8,
+    "tokens": 511,
+    "lines": [
+      {
+        "id": "m4",
+        "text": "The image shows a group of people, likely military personnel, clearing debris from a road near a body of water. The scene appears to be post-disaster recovery, with damaged trees and fallen branches. The background features a coastal area with buildings and a helicopter visible in the distance. The individuals are wearing camouflage uniforms and helmets, and they are using tools to clear the road. The weather seems to be clear, and the environment is natural with a mix of water and land.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A tree has fallen onto a street, blocking the road. The tree is large and has broken branches. The street is wet, suggesting recent rain. There is a house partially obscured by the fallen tree. The sky is overcast.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A fallen tree has blocked a road, causing power lines to be damaged and possibly downed. The scene is surrounded by dense green foliage, indicating a forested area. There is a mailbox and a trash can visible on the right side of the road, suggesting a residential or rural setting. The ground appears wet, possibly from recent rain.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "The image shows a scene of destruction likely caused by a natural disaster, possibly a hurricane. Visible objects include damaged buildings with broken windows and walls, a fallen satellite dish, a partially submerged boat, and debris scattered throughout the area. The water level is high, indicating flooding, and there are yellow barriers in the water. The background features palm trees and a clear sky, suggesting a coastal location.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "The image shows a scene of destruction after a hurricane. Several tall palm trees are uprooted and lying on the ground, with their roots exposed. There is debris scattered around, including broken branches and fallen leaves. A streetlight is bent over, and a building with a balcony is visible in the background. The sky is overcast, and the overall scene appears to be in a residential or commercial area.",
+        "sources": ["E08"]
+      }
+    ]
+  },
+  {
+    "step": 9,
+    "tokens": 484,
+    "lines": [
+      {
+        "id": "m5",
+        "text": "A tree has fallen onto a street, blocking the road. The tree is large and has broken branches. The street is wet, suggesting recent rain. There is a house partially obscured by the fallen tree. The sky is overcast.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A fallen tree has blocked a road, causing power lines to be damaged and possibly downed. The scene is surrounded by dense green foliage, indicating a forested area. There is a mailbox and a trash can visible on the right side of the road, suggesting a residential or rural setting. The ground appears wet, possibly from recent rain.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "The image shows a scene of destruction likely caused by a natural disaster, possibly a hurricane. Visible objects include damaged buildings with broken windows and walls, a fallen satellite dish, a partially submerged boat, and debris scattered throughout the area. The water level is high, indicating flooding, and there are yellow barriers in the water. The background features palm trees and a clear sky, suggesting a coastal location.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "The image shows a scene of destruction after a hurricane. Several tall palm trees are uprooted and lying on the ground, with their roots exposed. There is debris scattered around, including broken branches and fallen leaves. A streetlight is bent over, and a building with a balcony is visible in the background. The sky is overcast, and the overall scene appears to be in a residential or commercial area.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "The image shows a large indoor space filled with numerous cots arranged in rows. The cots are covered with blankets and some have personal items on them. The floor is clean and the space is well-lit by overhead lights. There are a few people visible in the background, and the area appears to be a temporary shelter or emergency accommodation setup.",
+        "sources": ["E09"]
+      }
+    ]
+  },
+  {
+    "step": 10,
+    "tokens": 434,
+    "lines": [
+      {
+        "id": "m7",
+        "text": "The image shows a scene of destruction likely caused by a natural disaster, possibly a hurricane. Visible objects include damaged buildings with broken windows and walls, a fallen satellite dish, a partially submerged boat, and debris scattered throughout the area. The water level is high, indicating flooding, and there are yellow barriers in the water. The background features palm trees and a clear sky, suggesting a coastal location.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "The image shows a scene of destruction after a hurricane. Several tall palm trees are uprooted and lying on the ground, with their roots exposed. There is debris scattered around, including broken branches and fallen leaves. A streetlight is bent over, and a building with a balcony is visible in the background. The sky is overcast, and the overall scene appears to be in a residential or commercial area.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "The image shows a large indoor space filled with numerous cots arranged in rows. The cots are covered with blankets and some have personal items on them. The floor is clean and the space is well-lit by overhead lights. There are a few people visible in the background, and the area appears to be a temporary shelter or emergency accommodation setup.",
+        "sources": ["E09"]
+      },
+      {
+        "id": "m10",
+        "text": "The image shows a scene of destruction with a partially collapsed building. There is a significant amount of debris on the ground, and smoke is visible, indicating a recent explosion or fire. Several people are gathered around, some taking photos or videos with their smartphones. The area is surrounded by trees and power lines, and the sky is overcast. The building appears to be a multi-story structure, and the damage is extensive, with parts of the roof and walls collapsed.",
+        "sources": ["E10"]
+      }
+    ]
+  }
+]

@@ -1,0 +1,388 @@
+[
+  {
+    "item_id": "E01",
+    "step": 1,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A large fire has broken out in a multi-story building in New York City. Firefighters are on the scene with multiple fire trucks and ladders extended to the building. The building appears to be a residential apartment building with several floors. The fire is causing significant damage to the structure, and there are reports of people trapped inside. Emergency responders are working to rescue those who are still inside the building.\", \"sources\": [\"E01\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"...\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A large fire has broken out in a multi-story building in New York City. Firefighters are on the scene with multiple fire trucks and ladders extended to the building. The building appears to be a residential apartment building with several floors. The fire is causing significant damage to the structure, and there are reports of people trapped inside. Emergency responders are working to rescue those who are still inside the building.",
+              "sources": ["E01"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "...",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2", "update of unknown line m1"],
+        "tokens_after": 109
+      }
+    ],
+    "tokens": 109,
+    "n_lines": 1,
+    "secs": 3.69
+  },
+  {
+    "item_id": "E02",
+    "step": 2,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A fire truck is on the roof of the burning building.\", \"sources\": [\"E02\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A large fire has broken out in a multi-story building in New York City. Firefighters are on the scene with multiple fire trucks and ladders extended to the building. The building appears to be a residential apartment building with several floors. The fire is causing significant damage to the structure, and there are reports of people trapped inside. Emergency responders are working to rescue those who are still inside the building.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A fire truck is on the roof of the burning building.",
+              "sources": ["E02"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A large fire has broken out in a multi-story building in New York City. Firefighters are on the scene with multiple fire trucks and ladders extended to the building. The building appears to be a residential apartment building with several floors. The fire is causing significant damage to the structure, and there are reports of people trapped inside. Emergency responders are working to rescue those who are still inside the building.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 148
+      }
+    ],
+    "tokens": 148,
+    "n_lines": 2,
+    "secs": 4.03
+  },
+  {
+    "item_id": "E03",
+    "step": 3,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a large fire burning in a multi-story building. The fire is causing significant damage to the structure, and there are reports of people trapped inside. Emergency responders are working to rescue those who are still inside the building.\", \"sources\": [\"E03\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A large fire has broken out in a multi-story building in New York City. Firefighters are on the scene with multiple fire trucks and ladders extended to the building. The building appears to be a residential apartment building with several floors. The fire is causing significant damage to the structure, and there are reports of people trapped inside. Emergency responders are working to rescue those who are still inside the building.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a large fire burning in a multi-story building. The fire is causing significant damage to the structure, and there are reports of people trapped inside. Emergency responders are working to rescue those who are still inside the building.",
+              "sources": ["E03"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A large fire has broken out in a multi-story building in New York City. Firefighters are on the scene with multiple fire trucks and ladders extended to the building. The building appears to be a residential apartment building with several floors. The fire is causing significant damage to the structure, and there are reports of people trapped inside. Emergency responders are working to rescue those who are still inside the building.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": [],
+        "tokens_after": 184
+      }
+    ],
+    "tokens": 184,
+    "n_lines": 2,
+    "secs": 4.73
+  },
+  {
+    "item_id": "E04",
+    "step": 4,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a large fire burning in a multi-story building. The fire is causing significant damage to the structure, and there are reports of people trapped inside. Emergency responders are working to rescue those who are still inside the building.\", \"sources\": [\"E04\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A large fire has broken out in a multi-story building in New York City. Firefighters are on the scene with multiple fire trucks and ladders extended to the building. The building appears to be a residential apartment building with several floors. The fire is causing significant damage to the structure, and there are reports of people trapped inside. Emergency responders are working to rescue those who are still inside the building.\", \"sources\": [\"E01\"]}], \"delete\": [\"m3\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a large fire burning in a multi-story building. The fire is causing significant damage to the structure, and there are reports of people trapped inside. Emergency responders are working to rescue those who are still inside the building.",
+              "sources": ["E04"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A large fire has broken out in a multi-story building in New York City. Firefighters are on the scene with multiple fire trucks and ladders extended to the building. The building appears to be a residential apartment building with several floors. The fire is causing significant damage to the structure, and there are reports of people trapped inside. Emergency responders are working to rescue those who are still inside the building.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m3"]
+        },
+        "problems": [],
+        "tokens_after": 184
+      }
+    ],
+    "tokens": 184,
+    "n_lines": 2,
+    "secs": 4.98
+  },
+  {
+    "item_id": "E05",
+    "step": 5,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a large fire burning in a multi-story building. The fire is causing significant damage to the structure, and there are reports of people trapped inside. Emergency responders are working to rescue those who are still inside the building.\", \"sources\": [\"E05\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A large fire has broken out in a multi-story building in New York City. Firefighters are on the scene with multiple fire trucks and ladders extended to the building. The building appears to be a residential apartment building with several floors. The fire is causing significant damage to the structure, and there are reports of people trapped inside. Emergency responders are working to rescue those who are still inside the building.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a large fire burning in a multi-story building. The fire is causing significant damage to the structure, and there are reports of people trapped inside. Emergency responders are working to rescue those who are still inside the building.",
+              "sources": ["E05"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A large fire has broken out in a multi-story building in New York City. Firefighters are on the scene with multiple fire trucks and ladders extended to the building. The building appears to be a residential apartment building with several floors. The fire is causing significant damage to the structure, and there are reports of people trapped inside. Emergency responders are working to rescue those who are still inside the building.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 259
+      }
+    ],
+    "tokens": 259,
+    "n_lines": 3,
+    "secs": 4.66
+  },
+  {
+    "item_id": "E06",
+    "step": 6,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a large fire burning in a multi-story building. The fire is causing significant damage to the structure, and there are reports of people trapped inside. Emergency responders are working to rescue those who are still inside the building.\", \"sources\": [\"E06\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A large fire has broken out in a multi-story building in New York City. Firefighters are on the scene with multiple fire trucks and ladders extended to the building. The building appears to be a residential apartment building with several floors. The fire is causing significant damage to the structure, and there are reports of people trapped inside. Emergency responders are working to rescue those who are still inside the building.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a large fire burning in a multi-story building. The fire is causing significant damage to the structure, and there are reports of people trapped inside. Emergency responders are working to rescue those who are still inside the building.",
+              "sources": ["E06"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A large fire has broken out in a multi-story building in New York City. Firefighters are on the scene with multiple fire trucks and ladders extended to the building. The building appears to be a residential apartment building with several floors. The fire is causing significant damage to the structure, and there are reports of people trapped inside. Emergency responders are working to rescue those who are still inside the building.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 334
+      }
+    ],
+    "tokens": 334,
+    "n_lines": 4,
+    "secs": 5.04
+  },
+  {
+    "item_id": "E07",
+    "step": 7,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a large fire burning in a multi-story building. The fire is causing significant damage to the structure, and there are reports of people trapped inside. Emergency responders are working to rescue those who are still inside the building.\", \"sources\": [\"E07\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A large fire has broken out in a multi-story building in New York City. Firefighters are on the scene with multiple fire trucks and ladders extended to the building. The building appears to be a residential apartment building with several floors. The fire is causing significant damage to the structure, and there are reports of people trapped inside. Emergency responders are working to rescue those who are still inside the building.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a large fire burning in a multi-story building. The fire is causing significant damage to the structure, and there are reports of people trapped inside. Emergency responders are working to rescue those who are still inside the building.",
+              "sources": ["E07"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A large fire has broken out in a multi-story building in New York City. Firefighters are on the scene with multiple fire trucks and ladders extended to the building. The building appears to be a residential apartment building with several floors. The fire is causing significant damage to the structure, and there are reports of people trapped inside. Emergency responders are working to rescue those who are still inside the building.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 409
+      }
+    ],
+    "tokens": 409,
+    "n_lines": 5,
+    "secs": 5.03
+  },
+  {
+    "item_id": "E08",
+    "step": 8,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a large fire burning in a multi-story building. The fire is causing significant damage to the structure, and there are reports of people trapped inside. Emergency responders are working to rescue those who are still inside the building.\", \"sources\": [\"E08\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A large fire has broken out in a multi-story building in New York City. Firefighters are on the scene with multiple fire trucks and ladders extended to the building. The building appears to be a residential apartment building with several floors. The fire is causing significant damage to the structure, and there are reports of people trapped inside. Emergency responders are working to rescue those who are still inside the building.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a large fire burning in a multi-story building. The fire is causing significant damage to the structure, and there are reports of people trapped inside. Emergency responders are working to rescue those who are still inside the building.",
+              "sources": ["E08"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A large fire has broken out in a multi-story building in New York City. Firefighters are on the scene with multiple fire trucks and ladders extended to the building. The building appears to be a residential apartment building with several floors. The fire is causing significant damage to the structure, and there are reports of people trapped inside. Emergency responders are working to rescue those who are still inside the building.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 484
+      }
+    ],
+    "tokens": 484,
+    "n_lines": 6,
+    "secs": 4.74
+  },
+  {
+    "item_id": "E09",
+    "step": 9,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a large fire burning in a multi-story building. The fire is causing significant damage to the structure, and there are reports of people trapped inside. Emergency responders are working to rescue those who are still inside the building.\", \"sources\": [\"E09\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A large fire has broken out in a multi-story building in New York City. Firefighters are on the scene with multiple fire trucks and ladders extended to the building. The building appears to be a residential apartment building with several floors. The fire is causing significant damage to the structure, and there are reports of people trapped inside. Emergency responders are working to rescue those who are still inside the building.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a large fire burning in a multi-story building. The fire is causing significant damage to the structure, and there are reports of people trapped inside. Emergency responders are working to rescue those who are still inside the building.",
+              "sources": ["E09"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A large fire has broken out in a multi-story building in New York City. Firefighters are on the scene with multiple fire trucks and ladders extended to the building. The building appears to be a residential apartment building with several floors. The fire is causing significant damage to the structure, and there are reports of people trapped inside. Emergency responders are working to rescue those who are still inside the building.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 559
+      },
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a large fire burning in a multi-story building. The fire is causing significant damage to the structure, and there are reports of people trapped inside. Emergency responders are working to rescue those who are still inside the building.\", \"sources\": [\"E09\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A large fire has broken out in a multi-story building in New York City. Firefighters are on the scene with multiple fire trucks and ladders extended to the building. The building appears to be a residential apartment building with several floors. The fire is causing significant damage to the structure, and there are reports of people trapped inside. Emergency responders are working to rescue those who are still inside the building.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a large fire burning in a multi-story building. The fire is causing significant damage to the structure, and there are reports of people trapped inside. Emergency responders are working to rescue those who are still inside the building.",
+              "sources": ["E09"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A large fire has broken out in a multi-story building in New York City. Firefighters are on the scene with multiple fire trucks and ladders extended to the building. The building appears to be a residential apartment building with several floors. The fire is causing significant damage to the structure, and there are reports of people trapped inside. Emergency responders are working to rescue those who are still inside the building.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 559
+      }
+    ],
+    "fallback": "budget_evict_oldest",
+    "evicted": [
+      {
+        "id": "m1",
+        "text": "A large fire has broken out in a multi-story building in New York City. Firefighters are on the scene with multiple fire trucks and ladders extended to the building. The building appears to be a residential apartment building with several floors. The fire is causing significant damage to the structure, and there are reports of people trapped inside. Emergency responders are working to rescue those who are still inside the building.",
+        "sources": ["E01"]
+      }
+    ],
+    "tokens": 450,
+    "n_lines": 6,
+    "secs": 9.54
+  },
+  {
+    "item_id": "E10",
+    "step": 10,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a large fire burning in a multi-story building. The fire is causing significant damage to the structure, and there are reports of people trapped inside. Emergency responders are working to rescue those who are still inside the building.\", \"sources\": [\"E10\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo shows a large fire burning in a multi-story building. The fire is causing significant damage to the structure, and there are reports of people trapped inside. Emergency responders are working to rescue those who are still inside the building.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a large fire burning in a multi-story building. The fire is causing significant damage to the structure, and there are reports of people trapped inside. Emergency responders are working to rescue those who are still inside the building.",
+              "sources": ["E10"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo shows a large fire burning in a multi-story building. The fire is causing significant damage to the structure, and there are reports of people trapped inside. Emergency responders are working to rescue those who are still inside the building.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2", "update of unknown line m1"],
+        "tokens_after": 526
+      },
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a large fire burning in a multi-story building.\", \"sources\": [\"E10\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo shows a large fire burning in a multi-story building.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a large fire burning in a multi-story building.",
+              "sources": ["E10"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo shows a large fire burning in a multi-story building.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2", "update of unknown line m1"],
+        "tokens_after": 493
+      }
+    ],
+    "tokens": 493,
+    "n_lines": 7,
+    "secs": 6.81
+  }
+]

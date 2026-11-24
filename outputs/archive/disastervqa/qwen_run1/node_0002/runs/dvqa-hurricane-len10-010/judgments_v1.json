@@ -1,0 +1,65 @@
+[
+  {
+    "step": 10,
+    "qa_id": "imgq-2434",
+    "label": "answerable",
+    "abstained": false,
+    "pred": "B",
+    "cited_items": ["E01"],
+    "retained": true,
+    "correctness": 1.0,
+    "correctness_by": "exact",
+    "citation_valid": true,
+    "evidence_verdict": "supported",
+    "evidence_reason": "The image clearly shows flooded areas and submerged vehicles, indicating a flood disaster.",
+    "score": 1.0,
+    "category": "correct"
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-2313",
+    "label": "answerable",
+    "abstained": false,
+    "pred": "Flooded area",
+    "cited_items": ["E01", "E07", "E08", "E09", "E10"],
+    "retained": false,
+    "correctness": 0.5,
+    "correctness_by": "llm:partial",
+    "citation_valid": false,
+    "score": 0.0,
+    "category": "invalid_citation"
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-2452",
+    "label": "answerable",
+    "abstained": true,
+    "pred": null,
+    "cited_items": [],
+    "retained": false,
+    "score": 0.0,
+    "category": "abstained_evidence_missing"
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-2370",
+    "label": "answerable",
+    "abstained": true,
+    "pred": null,
+    "cited_items": ["E01", "E07", "E08", "E09", "E10"],
+    "retained": false,
+    "score": 0.0,
+    "category": "abstained_evidence_missing"
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-2488",
+    "label": "answerable",
+    "abstained": true,
+    "pred": null,
+    "cited_items": ["E08"],
+    "retained": true,
+    "score": 0.0,
+    "category": "unnecessary_abstention"
+  }
+]

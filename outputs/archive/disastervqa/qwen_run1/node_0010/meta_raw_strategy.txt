@@ -1,0 +1,14 @@
+<strategy>
+Retain distinct visual elements critical for answering downstream questions while aggressively discarding redundancy. Extract specific, observable details (e.g., "submerged vehicles" instead of "flooded area") and encode spatial/temporal relationships, domain attributes (e.g., commercial/residential buildings), and quantifiable data. Merge overlapping observations into consolidated entries with aggregated metrics during updates. Delete duplicates unless conflicts arise. Explicitly retain numerical values (counts, measurements) and chronological order for sequential events. Overwrite outdated entries using timestamps or positional cues. Prioritize high-value content; discard non-essential metadata (platform tags) unless needed for disambiguation. Enforce strict token constraints via hierarchical summarization, capping memory at ~8 concise entries within 512 tokens.
+</strategy>
+
+<rationale>
+This strategy optimizes retrieval efficacy under tight memory constraints by focusing on discriminative, actionable details rather than repetitive generalizations. Structured encoding ensures precise spatial/temporal context alignment with questions, while quantitative retention aids factual accuracy. By merging related observations and applying hard deletion rules, it minimizes noise without sacrificing utility. Temporal ordering and conflict resolution mechanisms further enhance reliability. Balancing specificity with brevity allows maximum contextual depth within limited capacity, reducing errors arising from omitted critical details or retained irrelevant/inaccurate ones.
+</rationale>
+
+<changes>
+1. Removed rigid slot allocation (fixed memory slots per event type) due to inefficiency in dynamic environments where question relevance varies unpredictably.
+2. Enhanced quantitative data emphasis by mandating its explicit preservation alongside qualitative descriptors.
+3. Strengthened temporal tracking requirements to prioritize chronological sequencing in multi-event scenarios.
+4. Added explicit conflict-resolution protocols for merged entries during updates to prevent compounded inaccuracies.
+</changes>

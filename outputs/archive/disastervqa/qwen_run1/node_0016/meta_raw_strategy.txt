@@ -1,0 +1,16 @@
+<strategy>
+Retain distinct visual details critical for answering downstream questions while aggressively pruning redundancy. Extract specific, observable elements (e.g., "submerged vehicles" vs. "flooded area") and encode spatial relationships ("building X behind car Y"), temporal clues (timestamps), and domain-specific attributes ("commercial building"). Store quantitative data (counts, measurements) and maintain temporal order for sequential events. Merge overlapping observations into consolidated entries with aggregated metrics during updates (e.g., combine "fallen trees" references into summarized quantities). Remove duplicate claims unless updated with conflicting information. Explicitly overwrite outdated entries using timestamps or positional cues. Discard low-value metadata (e.g., platform tags) unless resolving ambiguity. Cap memory at ~8 concise entries (~512 tokens) via hierarchical summarization, prioritizing high-value content for verification.
+</strategy>
+
+<rationale>
+This strategy emphasizes precision by focusing on actionable visual details (e.g., distinguishing "partially blocked roads" from generic "flooded areas") and structural context (spatial/temporal links). By aggregating repetitive observations (e.g., merging "fallen trees" counts) and enforcing hard deletion of duplicates without conflict resolution, it minimizes noise. Retaining quantitative data (e.g., "four emergency ladders") and timestamps ensures verifiability. The 512-token limit forces distillation of critical details, balancing comprehensiveness with efficiency. Metadata is discarded unless essential for disambiguation (e.g., differentiating duplicate posts). This approach mitigates common failures like invalid citations (by avoiding vague descriptors) and unnecessary abstentions (via precise aggregation), improving downstream question-answering reliability.
+</rationale>
+
+<changes>
+Revised from initial drafts to explicitly mandate:  
+1. **Specificity**: Replaced broad terms (e.g., "flooded area") with granular details (e.g., "submerged vehicles, intact residential buildings").  
+2. **Temporal Aggregation**: Added rules to merge sequential observations of recurring elements (e.g., tracking evolving flood levels across timestamps).  
+3. **Conflict Handling**: Clarified that duplicates are retained *only* if later evidence contradicts earlier claims.  
+4. **Token Efficiency**: Emphasized hierarchical summarization (e.g., grouping similar images under shared contexts) to stay within 512 tokens.  
+Changes address observed issues like `wrong_answer_evidence_in_memory` (from vague storage) and `unnecessary_abstention` (via stricter aggregation thresholds).
+</changes>

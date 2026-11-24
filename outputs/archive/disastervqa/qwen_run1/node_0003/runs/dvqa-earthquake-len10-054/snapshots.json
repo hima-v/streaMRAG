@@ -1,0 +1,237 @@
+[
+  {
+    "step": 1,
+    "tokens": 44,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two workers are seen standing on a ladder amidst the rubble of a collapsed building.",
+        "sources": ["E01"]
+      }
+    ]
+  },
+  {
+    "step": 2,
+    "tokens": 73,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "...",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "A black car is parked on a cracked asphalt road with a large crack running through it.",
+        "sources": ["E02"]
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "tokens": 72,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "...",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A group of people are gathered around a collapsed building, with some raising their hands.",
+        "sources": ["E03"]
+      }
+    ]
+  },
+  {
+    "step": 4,
+    "tokens": 130,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A group of people are gathered around a collapsed building, with some raising their hands.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A group of people are gathered around a collapsed building, with some raising their hands.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A woman is riding a tricycle in front of a partially collapsed building.",
+        "sources": ["E04"]
+      }
+    ]
+  },
+  {
+    "step": 5,
+    "tokens": 86,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A group of people are gathered around a collapsed building, with some raising their hands.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m5",
+        "text": "A woman is riding a tricycle in front of a partially collapsed building.",
+        "sources": ["E04"]
+      }
+    ]
+  },
+  {
+    "step": 6,
+    "tokens": 134,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A group of people are gathered around a collapsed building, with some raising their hands.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m5",
+        "text": "A woman is riding a tricycle in front of a partially collapsed building.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo shows a group of people gathered around a collapsed building, with some raising their hands.",
+        "sources": ["E06"]
+      }
+    ]
+  },
+  {
+    "step": 7,
+    "tokens": 182,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A group of people are gathered around a collapsed building, with some raising their hands.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m5",
+        "text": "A woman is riding a tricycle in front of a partially collapsed building.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo shows a group of people gathered around a collapsed building, with some raising their hands.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo shows a group of people gathered around a collapsed building, with some raising their hands.",
+        "sources": ["E07"]
+      }
+    ]
+  },
+  {
+    "step": 8,
+    "tokens": 230,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A group of people are gathered around a collapsed building, with some raising their hands.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m5",
+        "text": "A woman is riding a tricycle in front of a partially collapsed building.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo shows a group of people gathered around a collapsed building, with some raising their hands.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo shows a group of people gathered around a collapsed building, with some raising their hands.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo shows a group of people gathered around a collapsed building, with some raising their hands.",
+        "sources": ["E08"]
+      }
+    ]
+  },
+  {
+    "step": 9,
+    "tokens": 278,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A group of people are gathered around a collapsed building, with some raising their hands.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m5",
+        "text": "A woman is riding a tricycle in front of a partially collapsed building.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo shows a group of people gathered around a collapsed building, with some raising their hands.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo shows a group of people gathered around a collapsed building, with some raising their hands.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo shows a group of people gathered around a collapsed building, with some raising their hands.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media photo shows a group of people gathered around a collapsed building, with some raising their hands.",
+        "sources": ["E09"]
+      }
+    ]
+  },
+  {
+    "step": 10,
+    "tokens": 327,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A group of people are gathered around a collapsed building, with some raising their hands.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m5",
+        "text": "A woman is riding a tricycle in front of a partially collapsed building.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo shows a group of people gathered around a collapsed building, with some raising their hands.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo shows a group of people gathered around a collapsed building, with some raising their hands.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo shows a group of people gathered around a collapsed building, with some raising their hands.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media photo shows a group of people gathered around a collapsed building, with some raising their hands.",
+        "sources": ["E09"]
+      },
+      {
+        "id": "m10",
+        "text": "A social media photo shows a group of people gathered around a collapsed building, with some raising their hands.",
+        "sources": ["E10"]
+      }
+    ]
+  }
+]

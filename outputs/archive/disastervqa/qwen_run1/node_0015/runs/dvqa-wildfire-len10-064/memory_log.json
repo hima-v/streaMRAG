@@ -1,0 +1,332 @@
+[
+  {
+    "item_id": "E01",
+    "step": 1,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"Two individuals are seen walking through a burning landscape with multiple small fires and charred tree stumps.\", \"sources\": [\"E01\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"...\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Two individuals are seen walking through a burning landscape with multiple small fires and charred tree stumps.",
+              "sources": ["E01"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "...",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2", "update of unknown line m1"],
+        "tokens_after": 47
+      }
+    ],
+    "tokens": 47,
+    "n_lines": 1,
+    "secs": 2.2
+  },
+  {
+    "item_id": "E02",
+    "step": 2,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows two individuals walking through a burning landscape with multiple small fires and charred tree stumps.\", \"sources\": [\"E02\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Two individuals are seen walking through a burning landscape with multiple small fires and charred tree stumps.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows two individuals walking through a burning landscape with multiple small fires and charred tree stumps.",
+              "sources": ["E02"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Two individuals are seen walking through a burning landscape with multiple small fires and charred tree stumps.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 97
+      }
+    ],
+    "tokens": 97,
+    "n_lines": 2,
+    "secs": 2.67
+  },
+  {
+    "item_id": "E03",
+    "step": 3,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows two individuals walking through a burning landscape with multiple small fires and charred tree stumps.\", \"sources\": [\"E03\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Two individuals are seen walking through a burning landscape with multiple small fires and charred tree stumps.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows two individuals walking through a burning landscape with multiple small fires and charred tree stumps.",
+              "sources": ["E03"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Two individuals are seen walking through a burning landscape with multiple small fires and charred tree stumps.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": [],
+        "tokens_after": 97
+      }
+    ],
+    "tokens": 97,
+    "n_lines": 2,
+    "secs": 2.8
+  },
+  {
+    "item_id": "E04",
+    "step": 4,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows two individuals walking through a burning landscape with multiple small fires and charred tree stumps.\", \"sources\": [\"E04\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Two individuals are seen walking through a burning landscape with multiple small fires and charred tree stumps.\", \"sources\": [\"E01\"]}], \"delete\": [\"m3\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows two individuals walking through a burning landscape with multiple small fires and charred tree stumps.",
+              "sources": ["E04"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Two individuals are seen walking through a burning landscape with multiple small fires and charred tree stumps.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m3"]
+        },
+        "problems": [],
+        "tokens_after": 97
+      }
+    ],
+    "tokens": 97,
+    "n_lines": 2,
+    "secs": 2.47
+  },
+  {
+    "item_id": "E05",
+    "step": 5,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo (Twitter), posted 2017-10-17 16:04 UTC.\", \"sources\": [\"E05\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Two individuals are seen walking through a burning landscape with multiple small fires and charred tree stumps.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo (Twitter), posted 2017-10-17 16:04 UTC.",
+              "sources": ["E05"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Two individuals are seen walking through a burning landscape with multiple small fires and charred tree stumps.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 151
+      }
+    ],
+    "tokens": 151,
+    "n_lines": 3,
+    "secs": 2.58
+  },
+  {
+    "item_id": "E06",
+    "step": 6,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo (Twitter), posted 2017-10-18 07:23 UTC.\", \"sources\": [\"E06\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Two individuals are seen walking through a burning landscape with multiple small fires and charred tree stumps.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo (Twitter), posted 2017-10-18 07:23 UTC.",
+              "sources": ["E06"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Two individuals are seen walking through a burning landscape with multiple small fires and charred tree stumps.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 205
+      }
+    ],
+    "tokens": 205,
+    "n_lines": 4,
+    "secs": 2.92
+  },
+  {
+    "item_id": "E07",
+    "step": 7,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo (Twitter), posted 2017-10-18 20:21 UTC.\", \"sources\": [\"E07\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Two individuals are seen walking through a burning landscape with multiple small fires and charred tree stumps.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo (Twitter), posted 2017-10-18 20:21 UTC.",
+              "sources": ["E07"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Two individuals are seen walking through a burning landscape with multiple small fires and charred tree stumps.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 259
+      }
+    ],
+    "tokens": 259,
+    "n_lines": 5,
+    "secs": 2.91
+  },
+  {
+    "item_id": "E08",
+    "step": 8,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo (Twitter), posted 2017-10-19 07:36 UTC.\", \"sources\": [\"E08\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Two individuals are seen walking through a burning landscape with multiple small fires and charred tree stumps.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo (Twitter), posted 2017-10-19 07:36 UTC.",
+              "sources": ["E08"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Two individuals are seen walking through a burning landscape with multiple small fires and charred tree stumps.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 313
+      }
+    ],
+    "tokens": 313,
+    "n_lines": 6,
+    "secs": 2.95
+  },
+  {
+    "item_id": "E09",
+    "step": 9,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo (Twitter), posted 2017-10-19 07:36 UTC.\", \"sources\": [\"E09\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Two individuals are seen walking through a burning landscape with multiple small fires and charred tree stumps.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo (Twitter), posted 2017-10-19 07:36 UTC.",
+              "sources": ["E09"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Two individuals are seen walking through a burning landscape with multiple small fires and charred tree stumps.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 367
+      }
+    ],
+    "tokens": 367,
+    "n_lines": 7,
+    "secs": 2.95
+  },
+  {
+    "item_id": "E10",
+    "step": 10,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo (Twitter), posted 2017-10-20 11:11 UTC.\", \"sources\": [\"E10\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Two individuals are seen walking through a burning landscape with multiple small fires and charred tree stumps.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo (Twitter), posted 2017-10-20 11:11 UTC.",
+              "sources": ["E10"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Two individuals are seen walking through a burning landscape with multiple small fires and charred tree stumps.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 422
+      }
+    ],
+    "tokens": 422,
+    "n_lines": 8,
+    "secs": 2.82
+  }
+]

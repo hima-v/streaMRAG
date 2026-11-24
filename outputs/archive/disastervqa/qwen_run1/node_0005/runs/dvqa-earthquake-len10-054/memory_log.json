@@ -1,0 +1,332 @@
+[
+  {
+    "item_id": "E01",
+    "step": 1,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a scene of destruction after a building collapse. The image captures two individuals standing on a ladder, amidst debris and damaged structures.\", \"sources\": [\"E01\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"...\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a scene of destruction after a building collapse. The image captures two individuals standing on a ladder, amidst debris and damaged structures.",
+              "sources": ["E01"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "...",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2", "update of unknown line m1"],
+        "tokens_after": 57
+      }
+    ],
+    "tokens": 57,
+    "n_lines": 1,
+    "secs": 2.27
+  },
+  {
+    "item_id": "E02",
+    "step": 2,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A black car is parked on a cracked road with a large crack running through it. There are people standing around the car, including a police officer and a man in a red shirt. The scene appears to be in a city setting with a building in the background.\", \"sources\": [\"E02\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"...\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A black car is parked on a cracked road with a large crack running through it. There are people standing around the car, including a police officer and a man in a red shirt. The scene appears to be in a city setting with a building in the background.",
+              "sources": ["E02"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "...",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 108
+      }
+    ],
+    "tokens": 108,
+    "n_lines": 2,
+    "secs": 3.18
+  },
+  {
+    "item_id": "E03",
+    "step": 3,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo from Twitter shows a scene of a collapsed building with debris scattered around. People are gathered around the rubble, some wearing helmets and vests, indicating a rescue operation.\", \"sources\": [\"E03\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo from Twitter shows a scene of a collapsed building with debris scattered around. People are gathered around the rubble, some wearing helmets and vests, indicating a rescue operation.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo from Twitter shows a scene of a collapsed building with debris scattered around. People are gathered around the rubble, some wearing helmets and vests, indicating a rescue operation.",
+              "sources": ["E03"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo from Twitter shows a scene of a collapsed building with debris scattered around. People are gathered around the rubble, some wearing helmets and vests, indicating a rescue operation.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": [],
+        "tokens_after": 132
+      }
+    ],
+    "tokens": 132,
+    "n_lines": 2,
+    "secs": 3.7
+  },
+  {
+    "item_id": "E04",
+    "step": 4,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo from Twitter shows a scene of a collapsed building with debris scattered around. People are gathered around the rubble, some wearing helmets and vests, indicating a rescue operation.\", \"sources\": [\"E04\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo from Twitter shows a scene of a collapsed building with debris scattered around. People are gathered around the rubble, some wearing helmets and vests, indicating a rescue operation.\", \"sources\": [\"E01\"]}], \"delete\": [\"m3\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo from Twitter shows a scene of a collapsed building with debris scattered around. People are gathered around the rubble, some wearing helmets and vests, indicating a rescue operation.",
+              "sources": ["E04"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo from Twitter shows a scene of a collapsed building with debris scattered around. People are gathered around the rubble, some wearing helmets and vests, indicating a rescue operation.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m3"]
+        },
+        "problems": [],
+        "tokens_after": 132
+      }
+    ],
+    "tokens": 132,
+    "n_lines": 2,
+    "secs": 3.7
+  },
+  {
+    "item_id": "E05",
+    "step": 5,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo from Twitter shows a scene of a collapsed building with debris scattered around. People are gathered around the rubble, some wearing helmets and vests, indicating a rescue operation.\", \"sources\": [\"E05\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo from Twitter shows a scene of a collapsed building with debris scattered around. People are gathered around the rubble, some wearing helmets and vests, indicating a rescue operation.\", \"sources\": [\"E01\"]}], \"delete\": [\"m4\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo from Twitter shows a scene of a collapsed building with debris scattered around. People are gathered around the rubble, some wearing helmets and vests, indicating a rescue operation.",
+              "sources": ["E05"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo from Twitter shows a scene of a collapsed building with debris scattered around. People are gathered around the rubble, some wearing helmets and vests, indicating a rescue operation.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m4"]
+        },
+        "problems": [],
+        "tokens_after": 132
+      }
+    ],
+    "tokens": 132,
+    "n_lines": 2,
+    "secs": 3.31
+  },
+  {
+    "item_id": "E06",
+    "step": 6,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo from Twitter shows a scene of a collapsed building with debris scattered around. People are gathered around the rubble, some wearing helmets and vests, indicating a rescue operation.\", \"sources\": [\"E06\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo from Twitter shows a scene of a collapsed building with debris scattered around. People are gathered around the rubble, some wearing helmets and vests, indicating a rescue operation.\", \"sources\": [\"E01\"]}], \"delete\": [\"m5\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo from Twitter shows a scene of a collapsed building with debris scattered around. People are gathered around the rubble, some wearing helmets and vests, indicating a rescue operation.",
+              "sources": ["E06"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo from Twitter shows a scene of a collapsed building with debris scattered around. People are gathered around the rubble, some wearing helmets and vests, indicating a rescue operation.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m5"]
+        },
+        "problems": [],
+        "tokens_after": 132
+      }
+    ],
+    "tokens": 132,
+    "n_lines": 2,
+    "secs": 3.7
+  },
+  {
+    "item_id": "E07",
+    "step": 7,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo from Twitter shows a scene of a collapsed building with debris scattered around. People are gathered around the rubble, some wearing helmets and vests, indicating a rescue operation.\", \"sources\": [\"E07\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo from Twitter shows a scene of a collapsed building with debris scattered around. People are gathered around the rubble, some wearing helmets and vests, indicating a rescue operation.\", \"sources\": [\"E01\"]}], \"delete\": [\"m6\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo from Twitter shows a scene of a collapsed building with debris scattered around. People are gathered around the rubble, some wearing helmets and vests, indicating a rescue operation.",
+              "sources": ["E07"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo from Twitter shows a scene of a collapsed building with debris scattered around. People are gathered around the rubble, some wearing helmets and vests, indicating a rescue operation.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m6"]
+        },
+        "problems": [],
+        "tokens_after": 132
+      }
+    ],
+    "tokens": 132,
+    "n_lines": 2,
+    "secs": 3.48
+  },
+  {
+    "item_id": "E08",
+    "step": 8,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo from Twitter shows a scene of a collapsed building with debris scattered around. People are gathered around the rubble, some wearing helmets and vests, indicating a rescue operation.\", \"sources\": [\"E08\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo from Twitter shows a scene of a collapsed building with debris scattered around. People are gathered around the rubble, some wearing helmets and vests, indicating a rescue operation.\", \"sources\": [\"E01\"]}], \"delete\": [\"m7\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo from Twitter shows a scene of a collapsed building with debris scattered around. People are gathered around the rubble, some wearing helmets and vests, indicating a rescue operation.",
+              "sources": ["E08"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo from Twitter shows a scene of a collapsed building with debris scattered around. People are gathered around the rubble, some wearing helmets and vests, indicating a rescue operation.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m7"]
+        },
+        "problems": [],
+        "tokens_after": 132
+      }
+    ],
+    "tokens": 132,
+    "n_lines": 2,
+    "secs": 3.38
+  },
+  {
+    "item_id": "E09",
+    "step": 9,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo from Twitter shows a scene of a collapsed building with debris scattered around. People are gathered around the rubble, some wearing helmets and vests, indicating a rescue operation.\", \"sources\": [\"E09\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo from Twitter shows a scene of a collapsed building with debris scattered around. People are gathered around the rubble, some wearing helmets and vests, indicating a rescue operation.\", \"sources\": [\"E01\"]}], \"delete\": [\"m8\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo from Twitter shows a scene of a collapsed building with debris scattered around. People are gathered around the rubble, some wearing helmets and vests, indicating a rescue operation.",
+              "sources": ["E09"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo from Twitter shows a scene of a collapsed building with debris scattered around. People are gathered around the rubble, some wearing helmets and vests, indicating a rescue operation.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m8"]
+        },
+        "problems": [],
+        "tokens_after": 132
+      }
+    ],
+    "tokens": 132,
+    "n_lines": 2,
+    "secs": 3.7
+  },
+  {
+    "item_id": "E10",
+    "step": 10,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo from Twitter shows a scene of a collapsed building with debris scattered around. People are gathered around the rubble, some wearing helmets and vests, indicating a rescue operation.\", \"sources\": [\"E10\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo from Twitter shows a scene of a collapsed building with debris scattered around. People are gathered around the rubble, some wearing helmets and vests, indicating a rescue operation.\", \"sources\": [\"E01\"]}], \"delete\": [\"m9\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo from Twitter shows a scene of a collapsed building with debris scattered around. People are gathered around the rubble, some wearing helmets and vests, indicating a rescue operation.",
+              "sources": ["E10"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo from Twitter shows a scene of a collapsed building with debris scattered around. People are gathered around the rubble, some wearing helmets and vests, indicating a rescue operation.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m9"]
+        },
+        "problems": [],
+        "tokens_after": 133
+      }
+    ],
+    "tokens": 133,
+    "n_lines": 2,
+    "secs": 3.51
+  }
+]

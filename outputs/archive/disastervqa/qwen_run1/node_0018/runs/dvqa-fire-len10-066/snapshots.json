@@ -1,0 +1,172 @@
+[
+  {
+    "step": 1,
+    "tokens": 41,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Firefighters and paramedics are responding to a building fire.",
+        "sources": ["E01"]
+      }
+    ]
+  },
+  {
+    "step": 2,
+    "tokens": 88,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Firefighters and paramedics are responding to a building fire.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "A firefighter is on top of a fire truck, standing on the roof of a burning building.",
+        "sources": ["E02"]
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "tokens": 84,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo shows firefighters and paramedics responding to a building fire.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo shows a burning building with debris scattered around.",
+        "sources": ["E03"]
+      }
+    ]
+  },
+  {
+    "step": 4,
+    "tokens": 88,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo shows firefighters and paramedics responding to a building fire.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo shows firefighters and paramedics responding to a building fire.",
+        "sources": ["E04"]
+      }
+    ]
+  },
+  {
+    "step": 5,
+    "tokens": 88,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo shows firefighters and paramedics responding to a building fire.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo shows firefighters and paramedics responding to a building fire.",
+        "sources": ["E05"]
+      }
+    ]
+  },
+  {
+    "step": 6,
+    "tokens": 88,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo shows firefighters and paramedics responding to a building fire.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo shows firefighters and paramedics responding to a building fire.",
+        "sources": ["E06"]
+      }
+    ]
+  },
+  {
+    "step": 7,
+    "tokens": 88,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo shows firefighters and paramedics responding to a building fire.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo shows firefighters and paramedics responding to a building fire.",
+        "sources": ["E07"]
+      }
+    ]
+  },
+  {
+    "step": 8,
+    "tokens": 88,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo shows firefighters and paramedics responding to a building fire.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo shows firefighters and paramedics responding to a building fire.",
+        "sources": ["E08"]
+      }
+    ]
+  },
+  {
+    "step": 9,
+    "tokens": 132,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo shows firefighters and paramedics responding to a building fire.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo shows firefighters and paramedics responding to a building fire.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media photo shows firefighters and paramedics responding to a building fire.",
+        "sources": ["E09"]
+      }
+    ]
+  },
+  {
+    "step": 10,
+    "tokens": 177,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo shows firefighters and paramedics responding to a building fire.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo shows firefighters and paramedics responding to a building fire.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media photo shows firefighters and paramedics responding to a building fire.",
+        "sources": ["E09"]
+      },
+      {
+        "id": "m10",
+        "text": "A social media photo shows firefighters and paramedics responding to a building fire.",
+        "sources": ["E10"]
+      }
+    ]
+  }
+]

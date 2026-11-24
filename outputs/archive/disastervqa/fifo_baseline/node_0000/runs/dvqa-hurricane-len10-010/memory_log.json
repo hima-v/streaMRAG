@@ -1,0 +1,92 @@
+[
+  {
+    "step": 1,
+    "item_id": "E01",
+    "n_lines": 1,
+    "tokens": 124,
+    "evicted": [],
+    "fallback": null,
+    "secs": 3.89
+  },
+  {
+    "step": 2,
+    "item_id": "E02",
+    "n_lines": 2,
+    "tokens": 208,
+    "evicted": [],
+    "fallback": null,
+    "secs": 1.53
+  },
+  {
+    "step": 3,
+    "item_id": "E03",
+    "n_lines": 3,
+    "tokens": 311,
+    "evicted": [],
+    "fallback": null,
+    "secs": 2.3
+  },
+  {
+    "step": 4,
+    "item_id": "E04",
+    "n_lines": 4,
+    "tokens": 435,
+    "evicted": [],
+    "fallback": null,
+    "secs": 2.78
+  },
+  {
+    "step": 5,
+    "item_id": "E05",
+    "n_lines": 5,
+    "tokens": 509,
+    "evicted": [],
+    "fallback": null,
+    "secs": 1.37
+  },
+  {
+    "step": 6,
+    "item_id": "E06",
+    "n_lines": 5,
+    "tokens": 482,
+    "evicted": ["m1"],
+    "fallback": null,
+    "secs": 2.11
+  },
+  {
+    "step": 7,
+    "item_id": "E07",
+    "n_lines": 5,
+    "tokens": 505,
+    "evicted": ["m2"],
+    "fallback": null,
+    "secs": 2.53
+  },
+  {
+    "step": 8,
+    "item_id": "E08",
+    "n_lines": 5,
+    "tokens": 511,
+    "evicted": ["m3"],
+    "fallback": null,
+    "secs": 2.61
+  },
+  {
+    "step": 9,
+    "item_id": "E09",
+    "n_lines": 5,
+    "tokens": 484,
+    "evicted": ["m4"],
+    "fallback": null,
+    "secs": 2.18
+  },
+  {
+    "step": 10,
+    "item_id": "E10",
+    "n_lines": 4,
+    "tokens": 434,
+    "evicted": ["m5", "m6"],
+    "fallback": null,
+    "secs": 2.78
+  }
+]

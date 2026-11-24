@@ -1,0 +1,17 @@
+<strategy>  
+Prioritize retention of actionable spatial-temporal-contextual details (e.g., "3+ submerged vehicles," "collapsed brick walls," "active fire zones") by merging duplicate descriptions while preserving unique identifiers (license plates, timestamps). Cluster observations into pre-disaster/active/afermath phases using ±1-hour windows to maintain causal inference capabilities. Track persistent entities (landmarks, license plates) across evidence items using fuzzy matching to detect anomalies. Quantify measurable metrics (% debris coverage, casualty counts) explicitly for analytical reuse. When compressing: hard-delete vague descriptors ("several cars") unless numeric counts exist, retain geolocation hashes/warnings, and overwrite older entries with newer ones if spatially/temporally congruent. Cap memory at 8 highest-density entries (calculated as novelty × relevance ÷ redundancy score), truncating low-value details iteratively. Avoid aggregating contradictory observations without conflict flags.  
+</strategy>  
+
+<rationale>  
+Current failures stem from conflating descriptive summaries with actionable intelligence. Generic phrases like "flooded area" omit critical discriminators (e.g., "residential zone," "partially blocked road"). Temporal clustering enables sequence reconstruction (e.g., post-disaster cleanup timelines), while entity persistence detection identifies suspicious patterns (repeated license plates suggesting looting). Quantitative thresholds allow users to filter responses by severity (e.g., >50% structure collapse). Token constraints must prioritize novel, multi-modal clues (e.g., "downed wires + floodwater" implies electrocution risk) over repetitive descriptors. Conflict resolution requires full entry replacement to prevent semantic drift—a key failure mode in earthquake/collapse scenarios where debris materials shift between wood/concrete.  
+</rationale>  
+
+<changes>  
+1. **Entity Tracking**: Added explicit protocol for matching license plates/landmarks across streams using perceptual hashing  
+2. **Temporal Phasing**: Formalized window-based grouping to distinguish pre/post-event states (e.g., rescue operations vs. initial impact)  
+3. **Quantification Rules**: Mandate explicit %/count storage for destructible assets/injuries  
+4. **Conflict Handling**: Replace entire entries during contradictions to avoid compounded errors  
+5. **Redundancy Pruning**: Strengthened regex filters targeting adjective-heavy noun phrases ("many broken..." → "2+ broken...")  
+6. **Token Allocation**: Implemented tiered scoring system weighting spatial precision (+2pts), causality (-1pt for missing timestamps)  
+7. **Metadata Tagging**: Expanded warning preservation to include platform-specific risk codes (e.g., Twitter's @disasteralert tags)  
+</changes>

@@ -1,0 +1,69 @@
+[
+  {
+    "step": 10,
+    "qa_id": "imgq-353",
+    "label": "answerable",
+    "abstained": false,
+    "pred": "Yes",
+    "cited_items": ["E01", "E10"],
+    "retained": false,
+    "correctness": 1.0,
+    "correctness_by": "exact",
+    "citation_valid": false,
+    "score": 0.0,
+    "category": "invalid_citation"
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-357",
+    "label": "answerable",
+    "abstained": false,
+    "pred": "Flooded",
+    "cited_items": ["E01", "E10"],
+    "retained": false,
+    "correctness": 1.0,
+    "correctness_by": "accepted_match",
+    "citation_valid": false,
+    "score": 0.0,
+    "category": "invalid_citation"
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-360",
+    "label": "answerable",
+    "abstained": true,
+    "pred": null,
+    "cited_items": ["E01", "E10"],
+    "retained": false,
+    "score": 0.0,
+    "category": "abstained_evidence_missing"
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-364",
+    "label": "answerable",
+    "abstained": false,
+    "pred": "A",
+    "cited_items": ["E01", "E10"],
+    "retained": false,
+    "correctness": 1.0,
+    "correctness_by": "exact",
+    "citation_valid": false,
+    "score": 0.0,
+    "category": "invalid_citation"
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-367",
+    "label": "answerable",
+    "abstained": false,
+    "pred": "D",
+    "cited_items": ["E10"],
+    "retained": true,
+    "correctness": 0.0,
+    "correctness_by": "exact",
+    "citation_valid": true,
+    "score": 0.0,
+    "category": "wrong_answer_evidence_in_memory"
+  }
+]

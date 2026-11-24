@@ -1,0 +1,11 @@
+<strategy>  
+For each incoming data point, extract and retain **unique, high-value details** (specific entities, actions, outcomes) instead of full sentences. Group identical event descriptions into a single canonical entry (earliest timestamp) and reference duplicates via tags (`~duplicate~`). Avoid storing repetitive phrases (e.g., "social media photo..."). Maintain temporal order but discard non-critical repetitions. Track deletions explicitly if needed. Prioritize actionable facts (e.g., hazards, casualties, damage types) over generic descriptors. Limit entries to 512 tokens total.  
+</strategy>  
+
+<rationale>  
+The original strategy aimed to minimize redundancy while preserving critical details. However, it failed to enforce strict deduplication rules—many entries retained verbatim repetition despite identical content (e.g., seven consecutive identical entries in some streams). By mandating explicit duplicate tagging and stricter extraction criteria ("high-value," temporally ordered), we ensure memory compactness without losing uniqueness. This aligns better with token limits and improves retrieval reliability by reducing noise.  
+</rationale>  
+
+<changes>  
+Added explicit requirement to group identical content into one canonical entry + use tags. Replaced vague "avoid redundancies" with precise instruction to store only "distinct critical details." Clarified focus on entity-based extraction (actions/hazards/damage) vs. sentence-level retention. Emphasized temporal ordering and deletion tracking for accuracy. Removed ambiguous phrasing ("redundant") to standardize implementation.  
+</changes>

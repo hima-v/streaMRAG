@@ -1,0 +1,232 @@
+[
+  {
+    "step": 1,
+    "tokens": 41,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo shows a scene of destruction after a building collapse.",
+        "sources": ["E01"]
+      }
+    ]
+  },
+  {
+    "step": 2,
+    "tokens": 85,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo shows a scene of destruction after a building collapse.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "A black car is parked on a cracked road with a large crack in the asphalt.",
+        "sources": ["E02"]
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "tokens": 82,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo shows a scene of destruction after a building collapse.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo shows a scene of destruction after a building collapse.",
+        "sources": ["E03"]
+      }
+    ]
+  },
+  {
+    "step": 4,
+    "tokens": 82,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo shows a scene of destruction after a building collapse.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo shows a scene of destruction after a building collapse.",
+        "sources": ["E04"]
+      }
+    ]
+  },
+  {
+    "step": 5,
+    "tokens": 82,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo shows a scene of destruction after a building collapse.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo shows a scene of destruction after a building collapse.",
+        "sources": ["E05"]
+      }
+    ]
+  },
+  {
+    "step": 6,
+    "tokens": 123,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo shows a scene of destruction after a building collapse.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo shows a scene of destruction after a building collapse.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo shows a scene of destruction after a building collapse.",
+        "sources": ["E06"]
+      }
+    ]
+  },
+  {
+    "step": 7,
+    "tokens": 164,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo shows a scene of destruction after a building collapse.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo shows a scene of destruction after a building collapse.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo shows a scene of destruction after a building collapse.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo shows a scene of destruction after a building collapse.",
+        "sources": ["E07"]
+      }
+    ]
+  },
+  {
+    "step": 8,
+    "tokens": 205,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo shows a scene of destruction after a building collapse.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo shows a scene of destruction after a building collapse.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo shows a scene of destruction after a building collapse.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo shows a scene of destruction after a building collapse.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo shows a scene of destruction after a building collapse.",
+        "sources": ["E08"]
+      }
+    ]
+  },
+  {
+    "step": 9,
+    "tokens": 246,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo shows a scene of destruction after a building collapse.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo shows a scene of destruction after a building collapse.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo shows a scene of destruction after a building collapse.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo shows a scene of destruction after a building collapse.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo shows a scene of destruction after a building collapse.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media photo shows a scene of destruction after a building collapse.",
+        "sources": ["E09"]
+      }
+    ]
+  },
+  {
+    "step": 10,
+    "tokens": 288,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo shows a scene of destruction after a building collapse.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo shows a scene of destruction after a building collapse.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo shows a scene of destruction after a building collapse.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo shows a scene of destruction after a building collapse.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo shows a scene of destruction after a building collapse.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media photo shows a scene of destruction after a building collapse.",
+        "sources": ["E09"]
+      },
+      {
+        "id": "m10",
+        "text": "A social media photo shows a scene of destruction after a building collapse.",
+        "sources": ["E10"]
+      }
+    ]
+  }
+]

@@ -1,0 +1,332 @@
+[
+  {
+    "item_id": "E01",
+    "step": 1,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo from 2017-09-21 04:40 UTC shows a scene of a collapsed building with two workers on a ladder.\", \"sources\": [\"E01\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"...\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo from 2017-09-21 04:40 UTC shows a scene of a collapsed building with two workers on a ladder.",
+              "sources": ["E01"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "...",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2", "update of unknown line m1"],
+        "tokens_after": 64
+      }
+    ],
+    "tokens": 64,
+    "n_lines": 1,
+    "secs": 2.35
+  },
+  {
+    "item_id": "E02",
+    "step": 2,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo from 2017-09-21 06:02 UTC shows a scene of a collapsed building with two workers on a ladder.\", \"sources\": [\"E02\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo from 2017-09-21 04:40 UTC shows a scene of a collapsed building with two workers on a ladder.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo from 2017-09-21 06:02 UTC shows a scene of a collapsed building with two workers on a ladder.",
+              "sources": ["E02"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo from 2017-09-21 04:40 UTC shows a scene of a collapsed building with two workers on a ladder.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 128
+      }
+    ],
+    "tokens": 128,
+    "n_lines": 2,
+    "secs": 3.58
+  },
+  {
+    "item_id": "E03",
+    "step": 3,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo from 2017-09-21 06:18 UTC shows a scene of a collapsed building with two workers on a ladder.\", \"sources\": [\"E03\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo from 2017-09-21 04:40 UTC shows a scene of a collapsed building with two workers on a ladder.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo from 2017-09-21 06:18 UTC shows a scene of a collapsed building with two workers on a ladder.",
+              "sources": ["E03"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo from 2017-09-21 04:40 UTC shows a scene of a collapsed building with two workers on a ladder.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": [],
+        "tokens_after": 128
+      }
+    ],
+    "tokens": 128,
+    "n_lines": 2,
+    "secs": 3.62
+  },
+  {
+    "item_id": "E04",
+    "step": 4,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo from 2017-09-21 06:50 UTC shows a scene of a collapsed building with two workers on a ladder.\", \"sources\": [\"E04\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo from 2017-09-21 04:40 UTC shows a scene of a collapsed building with two workers on a ladder.\", \"sources\": [\"E01\"]}], \"delete\": [\"m3\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo from 2017-09-21 06:50 UTC shows a scene of a collapsed building with two workers on a ladder.",
+              "sources": ["E04"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo from 2017-09-21 04:40 UTC shows a scene of a collapsed building with two workers on a ladder.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m3"]
+        },
+        "problems": [],
+        "tokens_after": 128
+      }
+    ],
+    "tokens": 128,
+    "n_lines": 2,
+    "secs": 3.8
+  },
+  {
+    "item_id": "E05",
+    "step": 5,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo from 2017-09-21 07:14 UTC shows a scene of a collapsed building with two workers on a ladder.\", \"sources\": [\"E05\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo from 2017-09-21 04:40 UTC shows a scene of a collapsed building with two workers on a ladder.\", \"sources\": [\"E01\"]}], \"delete\": [\"m4\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo from 2017-09-21 07:14 UTC shows a scene of a collapsed building with two workers on a ladder.",
+              "sources": ["E05"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo from 2017-09-21 04:40 UTC shows a scene of a collapsed building with two workers on a ladder.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m4"]
+        },
+        "problems": [],
+        "tokens_after": 128
+      }
+    ],
+    "tokens": 128,
+    "n_lines": 2,
+    "secs": 3.39
+  },
+  {
+    "item_id": "E06",
+    "step": 6,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo from 2017-09-21 07:16 UTC shows a scene of a collapsed building with two workers on a ladder.\", \"sources\": [\"E06\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo from 2017-09-21 04:40 UTC shows a scene of a collapsed building with two workers on a ladder.\", \"sources\": [\"E01\"]}], \"delete\": [\"m5\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo from 2017-09-21 07:16 UTC shows a scene of a collapsed building with two workers on a ladder.",
+              "sources": ["E06"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo from 2017-09-21 04:40 UTC shows a scene of a collapsed building with two workers on a ladder.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m5"]
+        },
+        "problems": [],
+        "tokens_after": 128
+      }
+    ],
+    "tokens": 128,
+    "n_lines": 2,
+    "secs": 3.75
+  },
+  {
+    "item_id": "E07",
+    "step": 7,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo from 2017-09-21 08:35 UTC shows a scene of a collapsed building with two workers on a ladder.\", \"sources\": [\"E07\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo from 2017-09-21 04:40 UTC shows a scene of a collapsed building with two workers on a ladder.\", \"sources\": [\"E01\"]}], \"delete\": [\"m6\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo from 2017-09-21 08:35 UTC shows a scene of a collapsed building with two workers on a ladder.",
+              "sources": ["E07"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo from 2017-09-21 04:40 UTC shows a scene of a collapsed building with two workers on a ladder.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m6"]
+        },
+        "problems": [],
+        "tokens_after": 128
+      }
+    ],
+    "tokens": 128,
+    "n_lines": 2,
+    "secs": 3.39
+  },
+  {
+    "item_id": "E08",
+    "step": 8,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo from 2017-09-21 08:44 UTC shows a scene of a collapsed building with two workers on a ladder.\", \"sources\": [\"E08\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo from 2017-09-21 04:40 UTC shows a scene of a collapsed building with two workers on a ladder.\", \"sources\": [\"E01\"]}], \"delete\": [\"m7\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo from 2017-09-21 08:44 UTC shows a scene of a collapsed building with two workers on a ladder.",
+              "sources": ["E08"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo from 2017-09-21 04:40 UTC shows a scene of a collapsed building with two workers on a ladder.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m7"]
+        },
+        "problems": [],
+        "tokens_after": 128
+      }
+    ],
+    "tokens": 128,
+    "n_lines": 2,
+    "secs": 3.3
+  },
+  {
+    "item_id": "E09",
+    "step": 9,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo from 2017-09-21 10:33 UTC shows a scene of a collapsed building with two workers on a ladder.\", \"sources\": [\"E09\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo from 2017-09-21 04:40 UTC shows a scene of a collapsed building with two workers on a ladder.\", \"sources\": [\"E01\"]}], \"delete\": [\"m8\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo from 2017-09-21 10:33 UTC shows a scene of a collapsed building with two workers on a ladder.",
+              "sources": ["E09"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo from 2017-09-21 04:40 UTC shows a scene of a collapsed building with two workers on a ladder.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m8"]
+        },
+        "problems": [],
+        "tokens_after": 128
+      }
+    ],
+    "tokens": 128,
+    "n_lines": 2,
+    "secs": 3.61
+  },
+  {
+    "item_id": "E10",
+    "step": 10,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo from 2017-09-21 10:48 UTC shows a scene of a collapsed building with two workers on a ladder.\", \"sources\": [\"E10\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo from 2017-09-21 04:40 UTC shows a scene of a collapsed building with two workers on a ladder.\", \"sources\": [\"E01\"]}], \"delete\": [\"m9\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo from 2017-09-21 10:48 UTC shows a scene of a collapsed building with two workers on a ladder.",
+              "sources": ["E10"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo from 2017-09-21 04:40 UTC shows a scene of a collapsed building with two workers on a ladder.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m9"]
+        },
+        "problems": [],
+        "tokens_after": 129
+      }
+    ],
+    "tokens": 129,
+    "n_lines": 2,
+    "secs": 3.46
+  }
+]

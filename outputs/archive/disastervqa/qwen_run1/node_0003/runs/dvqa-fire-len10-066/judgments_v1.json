@@ -1,0 +1,70 @@
+[
+  {
+    "step": 10,
+    "qa_id": "imgq-932",
+    "label": "answerable",
+    "abstained": true,
+    "pred": null,
+    "cited_items": ["E01"],
+    "retained": true,
+    "score": 0.0,
+    "category": "unnecessary_abstention"
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-962",
+    "label": "answerable",
+    "abstained": false,
+    "pred": "Yes",
+    "cited_items": ["E03"],
+    "retained": true,
+    "correctness": 1.0,
+    "correctness_by": "exact",
+    "citation_valid": true,
+    "evidence_verdict": "supported",
+    "evidence_reason": "The image shows damaged vehicles, which are burning and scattered debris, indicating that the vehicles are indeed damaged.",
+    "score": 1.0,
+    "category": "correct"
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-937",
+    "label": "answerable",
+    "abstained": false,
+    "pred": "A",
+    "cited_items": ["E04", "E05"],
+    "retained": true,
+    "correctness": 0.0,
+    "correctness_by": "exact",
+    "citation_valid": true,
+    "score": 0.0,
+    "category": "wrong_answer_evidence_in_memory"
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-939",
+    "label": "answerable",
+    "abstained": false,
+    "pred": "B",
+    "cited_items": ["E04", "E05"],
+    "retained": true,
+    "correctness": 1.0,
+    "correctness_by": "exact",
+    "citation_valid": true,
+    "evidence_verdict": "supported",
+    "evidence_reason": "The evidence states that the buildings are intact with smoke, which matches the answer given.",
+    "score": 1.0,
+    "category": "correct"
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-941",
+    "label": "answerable",
+    "abstained": true,
+    "pred": null,
+    "cited_items": ["E06"],
+    "retained": true,
+    "score": 0.0,
+    "category": "unnecessary_abstention"
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "step": 10,
+    "qa_id": "imgq-2434",
+    "label": "answerable",
+    "answer_raw": "B",
+    "pred": "B",
+    "abstained": false,
+    "cited_lines": ["m1"],
+    "cited_unknown": [],
+    "parsed": true,
+    "cited_items": ["E01"],
+    "raw": ["{\"answer\": \"B\", \"cited\": [\"m1\"]}"]
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-2313",
+    "label": "answerable",
+    "answer_raw": "Flooded street",
+    "pred": "Flooded street",
+    "abstained": false,
+    "cited_lines": ["m1", "m10"],
+    "cited_unknown": [],
+    "parsed": true,
+    "cited_items": ["E01", "E10"],
+    "raw": ["{\"answer\": \"Flooded street\", \"cited\": [\"m1\", \"m10\"]}"]
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-2452",
+    "label": "answerable",
+    "answer_raw": "C",
+    "pred": "C",
+    "abstained": false,
+    "cited_lines": ["m1", "m10"],
+    "cited_unknown": [],
+    "parsed": true,
+    "cited_items": ["E01", "E10"],
+    "raw": ["{\"answer\": \"C\", \"cited\": [\"m1\", \"m10\"]}"]
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-2370",
+    "label": "answerable",
+    "answer_raw": "NOT_ENOUGH_EVIDENCE",
+    "pred": null,
+    "abstained": true,
+    "cited_lines": ["m1", "m10"],
+    "cited_unknown": [],
+    "parsed": true,
+    "cited_items": ["E01", "E10"],
+    "raw": ["{\"answer\": \"NOT_ENOUGH_EVIDENCE\", \"cited\": [\"m1\", \"m10\"]}"]
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-2488",
+    "label": "answerable",
+    "answer_raw": "NOT_ENOUGH_EVIDENCE",
+    "pred": null,
+    "abstained": true,
+    "cited_lines": ["m1", "m10"],
+    "cited_unknown": [],
+    "parsed": true,
+    "cited_items": ["E01", "E10"],
+    "raw": ["{\"answer\": \"NOT_ENOUGH_EVIDENCE\", \"cited\": [\"m1\", \"m10\"]}"]
+  }
+]

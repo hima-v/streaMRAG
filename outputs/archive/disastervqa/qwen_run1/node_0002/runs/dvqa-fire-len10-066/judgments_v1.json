@@ -1,0 +1,67 @@
+[
+  {
+    "step": 10,
+    "qa_id": "imgq-932",
+    "label": "answerable",
+    "abstained": false,
+    "pred": "Multiple",
+    "cited_items": ["E01"],
+    "retained": true,
+    "correctness": 0.5,
+    "correctness_by": "llm:partial",
+    "citation_valid": true,
+    "evidence_verdict": "supported",
+    "evidence_reason": "The evidence shows that there are four emergency ladders deployed to access the building.",
+    "score": 0.5,
+    "category": "partially_correct"
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-962",
+    "label": "answerable",
+    "abstained": true,
+    "pred": null,
+    "cited_items": ["E03"],
+    "retained": true,
+    "score": 0.0,
+    "category": "unnecessary_abstention"
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-937",
+    "label": "answerable",
+    "abstained": true,
+    "pred": null,
+    "cited_items": ["E04"],
+    "retained": true,
+    "score": 0.0,
+    "category": "unnecessary_abstention"
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-939",
+    "label": "answerable",
+    "abstained": false,
+    "pred": "B",
+    "cited_items": ["E04", "E05", "E06", "E07", "E08", "E09", "E10"],
+    "retained": true,
+    "correctness": 1.0,
+    "correctness_by": "exact",
+    "citation_valid": true,
+    "evidence_verdict": "supported",
+    "evidence_reason": "The evidence states that the buildings are intact with smoke, which matches the answer given.",
+    "score": 1.0,
+    "category": "correct"
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-941",
+    "label": "answerable",
+    "abstained": true,
+    "pred": null,
+    "cited_items": ["E06"],
+    "retained": true,
+    "score": 0.0,
+    "category": "unnecessary_abstention"
+  }
+]

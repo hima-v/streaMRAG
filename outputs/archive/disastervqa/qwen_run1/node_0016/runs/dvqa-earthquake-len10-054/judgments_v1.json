@@ -1,0 +1,63 @@
+[
+  {
+    "step": 10,
+    "qa_id": "imgq-1757",
+    "label": "answerable",
+    "abstained": true,
+    "pred": null,
+    "cited_items": ["E04", "E05", "E06", "E07", "E08", "E09", "E10"],
+    "retained": true,
+    "score": 0.0,
+    "category": "unnecessary_abstention"
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-1752",
+    "label": "answerable",
+    "abstained": false,
+    "pred": "B",
+    "cited_items": ["E04", "E05", "E06", "E07"],
+    "retained": true,
+    "correctness": 0.0,
+    "correctness_by": "exact",
+    "citation_valid": true,
+    "score": 0.0,
+    "category": "wrong_answer_evidence_in_memory"
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-1761",
+    "label": "answerable",
+    "abstained": false,
+    "pred": "No",
+    "cited_items": ["E08"],
+    "retained": true,
+    "correctness": 0.0,
+    "correctness_by": "exact",
+    "citation_valid": true,
+    "score": 0.0,
+    "category": "wrong_answer_evidence_in_memory"
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-1724",
+    "label": "answerable",
+    "abstained": true,
+    "pred": null,
+    "cited_items": ["E09"],
+    "retained": true,
+    "score": 0.0,
+    "category": "unnecessary_abstention"
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-1744",
+    "label": "answerable",
+    "abstained": true,
+    "pred": null,
+    "cited_items": ["E10"],
+    "retained": true,
+    "score": 0.0,
+    "category": "unnecessary_abstention"
+  }
+]

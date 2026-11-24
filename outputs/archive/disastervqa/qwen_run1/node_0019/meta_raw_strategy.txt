@@ -1,0 +1,11 @@
+<strategy>
+Retain distinct visual elements critical for answering downstream questions while aggressively pruning redundancy. Store spatial relationships (e.g., "building X behind car Y"), temporal clues (time-stamped posts indicating sequence), domain-specific attributes (e.g., "commercial building"), and quantitative data (counts, measurements). Merge overlapping observations into consolidated entries during updates; delete duplicates unless conflicts exist. Prioritize high-resolution details (e.g., structural damage severity) and track event contexts (e.g., "hurricane"). Discard low-value metadata (social media tags) unless resolving ambiguities. Overwrite outdated entries using timestamps/postional cues. Cap memory at ~8 concise entries (~512 tokens) via hierarchical summarization.
+</strategy>
+
+<rationale>
+This strategy emphasizes precision over volume by focusing on actionable details (e.g., "submerged vehicles" vs. "flooded area") and structured encoding of spatial/temporal relationships. By merging related observations and enforcing strict token limits, it ensures efficient storage without sacrificing key information. Retaining quantitative data and explicit temporal ordering improves answer validity, while deleting duplicates unless conflicts arise prevents misinformation. Tracking event contexts aids question categorization, and discarding irrelevant metadata reduces noise.
+</rationale>
+
+<changes>
+Revised to clarify merging logic for overlapping observations ("consolidated entries with aggregated metrics") and strengthened emphasis on overwriting outdated entries. Added explicit mention of tracking event types per memory slot. Streamlined wording to improve clarity while maintaining core principles from the original strategy.
+</changes>

@@ -1,0 +1,18 @@
+<strategy>
+Retain spatially precise details (positions, counts), temporally linked events, and domain-specific attributes (e.g., "floodwater depth," "building class") while pruning redundant descriptors. Store observations in structured triples: subject-predicate-object (e.g., "car Y submerged under building X"). Merge overlapping reports via lexical uniqueness (>70% overlap requires explicit positional/temporal alignment). Update memories by priority: highest-confidence claims (≥0.8) override older ones, even if recent. Hard-delete duplicates unless new data introduces contradictions. Allocate fixed slots per event type (e.g., 2 memories/disaster-category). Prioritize direct observables—discard inferred context (e.g., omit "emergency response" unless visually confirmed). Token efficiency: maximize factual density (target ~0.6 answers/token).
+</strategy>
+
+<rationale>
+This revision improves recall of actionable details (e.g., "exactly how much flooding occurred where") while reducing noise. Spatial indexing prevents mislocalization errors, while temporal chaining clarifies causality. Confidence-weighted updates reduce stale inaccuracies. Fixed slot limits force prioritization between competing memories (e.g., choosing between "vehicles submerged" vs. "power poles down"). Precision gains come from rejecting vague claims (e.g., rejecting "disaster" until specific types emerge). Memory size compliance ensures retrieval speed scales linearly with input complexity.
+</rationale>
+
+<changes>
+Original: Merged duplicates at >50% similarity → Revised: >70% with spatial-temporal anchors  
+Original: Relative positioning → Revised: Absolute coordinates ("X meters left of landmark")  
+Added: Temporal chains tracking sequential dependencies (e.g., E05→E06 via timestamps)  
+Revised: Updates use confidence thresholds ≥0.8 instead of strict recency  
+Added: Domain-specific attribute slots (max 3 per memory)  
+Removed: Social media metadata retention unless provenance-critical  
+Adjusted: Evaluation now weights F1 by answer-token efficiency (+ penalty for contradictions)  
+Reduced: Redundant verbatim repetition (now stores consolidated summaries)  
+</changes>

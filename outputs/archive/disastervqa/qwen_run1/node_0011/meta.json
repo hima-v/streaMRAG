@@ -1,0 +1,197 @@
+{
+  "node_id": 11,
+  "parent_id": 10,
+  "dataset": "disastervqa",
+  "eval_stream": "len10",
+  "budget": 512,
+  "strategy_id": "e882d6133cb8",
+  "harness_id": "665ed7408d3b",
+  "switches": {
+    "memory_strategy": "dynamic",
+    "meta_harness": "dynamic"
+  },
+  "created_by": {
+    "kind": "meta",
+    "harness_rationale": "Current strategy fails due to insufficient contextual specificity and poor temporal management. Modifications add: \n1. Timestamp-based overwriting logic to resolve contradictions (fixes hurricane/flood case where recent photos showed intact roads contradicting earlier reports)\n2. Structured JSON formatting enabling precise field extraction (addresses earthquake example's missing debris material tracking)\n3. Tiered summarization preventing token bloat (explains better performance in wildfire scenario with complex sequences)\n4. Conflict validation reducing false negatives (would have caught misattributed railway/residential classification in flood test)\n\nThese changes align with evaluation failures showing sensitivity to timing/order discrepancies and difficulty aggregating quantitative details across iterations. The proposed framework would maintain higher fidelity evidence traces while meeting strict memory constraints.",
+    "strategy_rationale": "This strategy improves upon prior implementations by explicitly codifying conflict resolution criteria (timestamp priority \u2192 spatial proximity), enforcing numerical aggregation for quantitative consistency, and enhancing contextual linkage for downstream reasoning. Structured JSON formatting ensures machine-readable persistence of critical fields. Validation steps prevent contradictory data accumulation, addressing past failures where incorrect evidence persisted (e.g., misattributing flood effects to earthquakes). Token efficiency gains stem from eliminating redundant qualitative descriptors while preserving quantified truths. Spatial-temporal indexing aligns with evaluation outcomes showing improved question alignment post-correction (e.g., correctly identifying earthquake-affected materials despite initial noise).",
+    "changes": [
+      "1. Added explicit timestamp/spatial priority hierarchy for overwrites",
+      "2. Implemented numerical vs. descriptive aggregation distinction based on observation type",
+      "3. Enhanced multi-modal indexing requirements (e.g., combining structural damage with environmental patterns)",
+      "4. Strengthened validation checks to flag contradicting entries pre-merging",
+      "5. Refined spatial ambiguity resolution protocol (earliest version retained without clear proximity winner)",
+      "6. Reduced descriptive detail threshold from <20 to <15 tokens for aggressive pruning",
+      "7. Introduced location adjacency scoring system for spatial conflict scenarios"
+    ],
+    "harness_parsed": true,
+    "strategy_parsed": true,
+    "meta_seed": 11000
+  },
+  "scores": {
+    "esqa_mean": 0.16,
+    "correct_count": "4/25",
+    "retention_final": 0.72,
+    "abstained": 0.52,
+    "budget_fallbacks": 0,
+    "evaluator_errors": 0,
+    "evaluator_version": 2,
+    "categories": {
+      "correct": 4,
+      "invalid_citation": 2,
+      "unnecessary_abstention": 9,
+      "wrong_answer_evidence_missing": 1,
+      "wrong_answer_evidence_in_memory": 4,
+      "abstained_evidence_missing": 4,
+      "unsupported": 1
+    },
+    "streams": {
+      "dvqa-hurricane-len10-010": {
+        "esqa_mean": 0.2,
+        "answered_correct": 0.2,
+        "abstained": 0.6,
+        "correct_count": "1/5",
+        "retention_final": 0.8,
+        "categories": {
+          "correct": 1,
+          "invalid_citation": 1,
+          "unnecessary_abstention": 3
+        },
+        "budget_fallbacks": 0,
+        "final_memory_tokens": 365,
+        "final_memory_lines": 8,
+        "n_questions": 5,
+        "n_items": 10,
+        "evaluator_errors": 0,
+        "evaluator_version": 2
+      },
+      "dvqa-flood-len10-024": {
+        "esqa_mean": 0.2,
+        "answered_correct": 0.2,
+        "abstained": 0.4,
+        "correct_count": "1/5",
+        "retention_final": 0.8,
+        "categories": {
+          "wrong_answer_evidence_missing": 1,
+          "correct": 1,
+          "unnecessary_abstention": 2,
+          "wrong_answer_evidence_in_memory": 1
+        },
+        "budget_fallbacks": 0,
+        "final_memory_tokens": 326,
+        "final_memory_lines": 8,
+        "n_questions": 5,
+        "n_items": 10,
+        "evaluator_errors": 0,
+        "evaluator_version": 2
+      },
+      "dvqa-earthquake-len10-054": {
+        "esqa_mean": 0.0,
+        "answered_correct": 0.2,
+        "abstained": 0.8,
+        "correct_count": "0/5",
+        "retention_final": 0.2,
+        "categories": {
+          "abstained_evidence_missing": 3,
+          "invalid_citation": 1,
+          "unnecessary_abstention": 1
+        },
+        "budget_fallbacks": 0,
+        "final_memory_tokens": 129,
+        "final_memory_lines": 2,
+        "n_questions": 5,
+        "n_items": 10,
+        "evaluator_errors": 0,
+        "evaluator_version": 2
+      },
+      "dvqa-wildfire-len10-064": {
+        "esqa_mean": 0.2,
+        "answered_correct": 0.4,
+        "abstained": 0.2,
+        "correct_count": "1/5",
+        "retention_final": 1.0,
+        "categories": {
+          "wrong_answer_evidence_in_memory": 2,
+          "unnecessary_abstention": 1,
+          "correct": 1,
+          "unsupported": 1
+        },
+        "budget_fallbacks": 0,
+        "final_memory_tokens": 433,
+        "final_memory_lines": 9,
+        "n_questions": 5,
+        "n_items": 10,
+        "evaluator_errors": 0,
+        "evaluator_version": 2
+      },
+      "dvqa-fire-len10-066": {
+        "esqa_mean": 0.2,
+        "answered_correct": 0.2,
+        "abstained": 0.6,
+        "correct_count": "1/5",
+        "retention_final": 0.8,
+        "categories": {
+          "unnecessary_abstention": 2,
+          "abstained_evidence_missing": 1,
+          "wrong_answer_evidence_in_memory": 1,
+          "correct": 1
+        },
+        "budget_fallbacks": 0,
+        "final_memory_tokens": 481,
+        "final_memory_lines": 8,
+        "n_questions": 5,
+        "n_items": 10,
+        "evaluator_errors": 0,
+        "evaluator_version": 2
+      }
+    }
+  },
+  "models": {
+    "memory_agent": "qwen2-vl-7b",
+    "meta_agent": "nemotron-12b-vl",
+    "answering_agent": "qwen2-vl-7b",
+    "evaluator": "qwen2-vl-7b",
+    "profile": "minimal",
+    "prompts": {
+      "memory/frame_minimal.txt": "c38af5be727b",
+      "meta/frames/harness_update_minimal.txt": "3d742a993eff",
+      "meta/frames/strategy_update_minimal.txt": "ff236306ed78",
+      "answering/prompt.txt": "27ea786833a0",
+      "judge/answer.txt": "62f39b3e1b14",
+      "judge/evidence.txt": "48a317919cb6"
+    },
+    "experiment": {
+      "profile": "minimal",
+      "budget": 512,
+      "memory_strategy": "dynamic",
+      "meta_harness": "dynamic",
+      "parent_selection": "best",
+      "iterations": 5,
+      "stream_selection": "list",
+      "selection_seed": 0,
+      "streams": [
+        "dvqa-hurricane-len10-010",
+        "dvqa-flood-len10-024",
+        "dvqa-earthquake-len10-054",
+        "dvqa-wildfire-len10-064",
+        "dvqa-fire-len10-066"
+      ],
+      "streams_from": "run3",
+      "exclude_streams_from": [],
+      "stream_length": 10,
+      "n_streams": 5,
+      "memory_agent": "qwen2-vl-7b",
+      "experiment": "short5_qwen_memory",
+      "dataset": "disastervqa",
+      "config": "/home/blahb/Projects/Agents282/configs/experiments/disastervqa.yaml",
+      "excluded_streams": []
+    }
+  },
+  "stream_length": 10,
+  "eval_streams": [
+    "dvqa-hurricane-len10-010",
+    "dvqa-flood-len10-024",
+    "dvqa-earthquake-len10-054",
+    "dvqa-wildfire-len10-064",
+    "dvqa-fire-len10-066"
+  ]
+}

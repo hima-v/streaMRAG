@@ -1,0 +1,247 @@
+[
+  {
+    "step": 1,
+    "tokens": 105,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "The image shows a scene of a collapsed building at night. Debris is scattered around, with a large section of the structure collapsed. Two individuals are present, one standing on a ladder and the other on the ground, both wearing protective gear. The ladder is leaning against the damaged building. There are power lines in the foreground, and the area appears to be under investigation or rescue operations.",
+        "sources": ["E01"]
+      }
+    ]
+  },
+  {
+    "step": 2,
+    "tokens": 195,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "The image shows a scene of a collapsed building at night. Debris is scattered around, with a large section of the structure collapsed. Two individuals are present, one standing on a ladder and the other on the ground, both wearing protective gear. The ladder is leaning against the damaged building. There are power lines in the foreground, and the area appears to be under investigation or rescue operations.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "The image shows a black car parked on a cracked asphalt road. There are several people around, including a police officer in a high-visibility vest and a man in a red shirt. The road appears to have significant damage, with large cracks and missing asphalt. The background includes a building with a modern architectural design.",
+        "sources": ["E02"]
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "tokens": 320,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "The image shows a scene of a collapsed building at night. Debris is scattered around, with a large section of the structure collapsed. Two individuals are present, one standing on a ladder and the other on the ground, both wearing protective gear. The ladder is leaning against the damaged building. There are power lines in the foreground, and the area appears to be under investigation or rescue operations.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "The image shows a black car parked on a cracked asphalt road. There are several people around, including a police officer in a high-visibility vest and a man in a red shirt. The road appears to have significant damage, with large cracks and missing asphalt. The background includes a building with a modern architectural design.",
+        "sources": ["E02"]
+      },
+      {
+        "id": "m3",
+        "text": "The image depicts a scene of a collapsed building with numerous people gathered around. Some individuals are wearing hard hats and high-visibility vests, indicating they are likely rescue workers or volunteers. The debris is extensive, with rubble scattered across the ground. There are at least 15 people visible in the scene, with some standing on the debris and others on the ground. The background shows a partially damaged building and trees, suggesting an urban environment. The overall atmosphere appears to be one of",
+        "sources": ["E03"]
+      }
+    ]
+  },
+  {
+    "step": 4,
+    "tokens": 406,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "The image shows a scene of a collapsed building at night. Debris is scattered around, with a large section of the structure collapsed. Two individuals are present, one standing on a ladder and the other on the ground, both wearing protective gear. The ladder is leaning against the damaged building. There are power lines in the foreground, and the area appears to be under investigation or rescue operations.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "The image shows a black car parked on a cracked asphalt road. There are several people around, including a police officer in a high-visibility vest and a man in a red shirt. The road appears to have significant damage, with large cracks and missing asphalt. The background includes a building with a modern architectural design.",
+        "sources": ["E02"]
+      },
+      {
+        "id": "m3",
+        "text": "The image depicts a scene of a collapsed building with numerous people gathered around. Some individuals are wearing hard hats and high-visibility vests, indicating they are likely rescue workers or volunteers. The debris is extensive, with rubble scattered across the ground. There are at least 15 people visible in the scene, with some standing on the debris and others on the ground. The background shows a partially damaged building and trees, suggesting an urban environment. The overall atmosphere appears to be one of",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A person is riding a yellow tricycle with a cargo area in front, passing by a dilapidated building with a partially collapsed wall and scattered debris. The building has a door and a window, and there are piles of wood and other construction materials nearby. The sky is overcast.",
+        "sources": ["E04"]
+      }
+    ]
+  },
+  {
+    "step": 5,
+    "tokens": 484,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "The image shows a scene of a collapsed building at night. Debris is scattered around, with a large section of the structure collapsed. Two individuals are present, one standing on a ladder and the other on the ground, both wearing protective gear. The ladder is leaning against the damaged building. There are power lines in the foreground, and the area appears to be under investigation or rescue operations.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "The image shows a black car parked on a cracked asphalt road. There are several people around, including a police officer in a high-visibility vest and a man in a red shirt. The road appears to have significant damage, with large cracks and missing asphalt. The background includes a building with a modern architectural design.",
+        "sources": ["E02"]
+      },
+      {
+        "id": "m3",
+        "text": "The image depicts a scene of a collapsed building with numerous people gathered around. Some individuals are wearing hard hats and high-visibility vests, indicating they are likely rescue workers or volunteers. The debris is extensive, with rubble scattered across the ground. There are at least 15 people visible in the scene, with some standing on the debris and others on the ground. The background shows a partially damaged building and trees, suggesting an urban environment. The overall atmosphere appears to be one of",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A person is riding a yellow tricycle with a cargo area in front, passing by a dilapidated building with a partially collapsed wall and scattered debris. The building has a door and a window, and there are piles of wood and other construction materials nearby. The sky is overcast.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A group of workers are seen on a damaged building roof, carrying a person on a stretcher. The workers are wearing hard hats and safety vests. The building appears to be in a state of disrepair, with visible damage to the structure.",
+        "sources": ["E05"]
+      }
+    ]
+  },
+  {
+    "step": 6,
+    "tokens": 504,
+    "lines": [
+      {
+        "id": "m2",
+        "text": "The image shows a black car parked on a cracked asphalt road. There are several people around, including a police officer in a high-visibility vest and a man in a red shirt. The road appears to have significant damage, with large cracks and missing asphalt. The background includes a building with a modern architectural design.",
+        "sources": ["E02"]
+      },
+      {
+        "id": "m3",
+        "text": "The image depicts a scene of a collapsed building with numerous people gathered around. Some individuals are wearing hard hats and high-visibility vests, indicating they are likely rescue workers or volunteers. The debris is extensive, with rubble scattered across the ground. There are at least 15 people visible in the scene, with some standing on the debris and others on the ground. The background shows a partially damaged building and trees, suggesting an urban environment. The overall atmosphere appears to be one of",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A person is riding a yellow tricycle with a cargo area in front, passing by a dilapidated building with a partially collapsed wall and scattered debris. The building has a door and a window, and there are piles of wood and other construction materials nearby. The sky is overcast.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A group of workers are seen on a damaged building roof, carrying a person on a stretcher. The workers are wearing hard hats and safety vests. The building appears to be in a state of disrepair, with visible damage to the structure.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "The image shows an aerial view of a disaster scene in an urban area. There is a large crowd of people gathered around a collapsed building, with many individuals wearing high-visibility vests, indicating they are rescue workers. The debris is scattered around the site, and there are several buildings visible in the surrounding area. The crowd appears to be actively searching through the rubble, and there are vehicles, including a red car, parked nearby. The scene is chaotic, with a mix of emergency",
+        "sources": ["E06"]
+      }
+    ]
+  },
+  {
+    "step": 7,
+    "tokens": 399,
+    "lines": [
+      {
+        "id": "m4",
+        "text": "A person is riding a yellow tricycle with a cargo area in front, passing by a dilapidated building with a partially collapsed wall and scattered debris. The building has a door and a window, and there are piles of wood and other construction materials nearby. The sky is overcast.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A group of workers are seen on a damaged building roof, carrying a person on a stretcher. The workers are wearing hard hats and safety vests. The building appears to be in a state of disrepair, with visible damage to the structure.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "The image shows an aerial view of a disaster scene in an urban area. There is a large crowd of people gathered around a collapsed building, with many individuals wearing high-visibility vests, indicating they are rescue workers. The debris is scattered around the site, and there are several buildings visible in the surrounding area. The crowd appears to be actively searching through the rubble, and there are vehicles, including a red car, parked nearby. The scene is chaotic, with a mix of emergency",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "The image shows a scene of destruction with a partially collapsed building. Debris is scattered around, including broken concrete, wood, and other construction materials. A car is partially buried under the rubble, with its door open and items inside visible. The building appears to be in a state of collapse, with structural elements like beams and walls exposed. The sky is visible in the background, suggesting an outdoor urban setting.",
+        "sources": ["E07"]
+      }
+    ]
+  },
+  {
+    "step": 8,
+    "tokens": 503,
+    "lines": [
+      {
+        "id": "m4",
+        "text": "A person is riding a yellow tricycle with a cargo area in front, passing by a dilapidated building with a partially collapsed wall and scattered debris. The building has a door and a window, and there are piles of wood and other construction materials nearby. The sky is overcast.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A group of workers are seen on a damaged building roof, carrying a person on a stretcher. The workers are wearing hard hats and safety vests. The building appears to be in a state of disrepair, with visible damage to the structure.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "The image shows an aerial view of a disaster scene in an urban area. There is a large crowd of people gathered around a collapsed building, with many individuals wearing high-visibility vests, indicating they are rescue workers. The debris is scattered around the site, and there are several buildings visible in the surrounding area. The crowd appears to be actively searching through the rubble, and there are vehicles, including a red car, parked nearby. The scene is chaotic, with a mix of emergency",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "The image shows a scene of destruction with a partially collapsed building. Debris is scattered around, including broken concrete, wood, and other construction materials. A car is partially buried under the rubble, with its door open and items inside visible. The building appears to be in a state of collapse, with structural elements like beams and walls exposed. The sky is visible in the background, suggesting an outdoor urban setting.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "The image shows a construction site with a partially demolished building. A yellow excavator is in the process of clearing debris. There are several workers wearing hard hats and safety gear, engaged in the demolition or cleanup process. The building appears to be in a state of disrepair, with walls and floors collapsed and scattered around. The sky is overcast, suggesting cloudy weather conditions.",
+        "sources": ["E08"]
+      }
+    ]
+  },
+  {
+    "step": 9,
+    "tokens": 467,
+    "lines": [
+      {
+        "id": "m6",
+        "text": "The image shows an aerial view of a disaster scene in an urban area. There is a large crowd of people gathered around a collapsed building, with many individuals wearing high-visibility vests, indicating they are rescue workers. The debris is scattered around the site, and there are several buildings visible in the surrounding area. The crowd appears to be actively searching through the rubble, and there are vehicles, including a red car, parked nearby. The scene is chaotic, with a mix of emergency",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "The image shows a scene of destruction with a partially collapsed building. Debris is scattered around, including broken concrete, wood, and other construction materials. A car is partially buried under the rubble, with its door open and items inside visible. The building appears to be in a state of collapse, with structural elements like beams and walls exposed. The sky is visible in the background, suggesting an outdoor urban setting.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "The image shows a construction site with a partially demolished building. A yellow excavator is in the process of clearing debris. There are several workers wearing hard hats and safety gear, engaged in the demolition or cleanup process. The building appears to be in a state of disrepair, with walls and floors collapsed and scattered around. The sky is overcast, suggesting cloudy weather conditions.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "The image depicts a rescue operation at a collapsed building. Several emergency responders, including firefighters and military personnel, are working together to clear debris and search for survivors. The scene includes multiple ladders, tools, and equipment, and there are numerous individuals wearing helmets and reflective vests. The building appears to be in a state of significant damage, with parts of the structure collapsed and debris scattered around. The responders are actively engaged in their work, with some climbing ladders and others standing on",
+        "sources": ["E09"]
+      }
+    ]
+  },
+  {
+    "step": 10,
+    "tokens": 428,
+    "lines": [
+      {
+        "id": "m7",
+        "text": "The image shows a scene of destruction with a partially collapsed building. Debris is scattered around, including broken concrete, wood, and other construction materials. A car is partially buried under the rubble, with its door open and items inside visible. The building appears to be in a state of collapse, with structural elements like beams and walls exposed. The sky is visible in the background, suggesting an outdoor urban setting.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "The image shows a construction site with a partially demolished building. A yellow excavator is in the process of clearing debris. There are several workers wearing hard hats and safety gear, engaged in the demolition or cleanup process. The building appears to be in a state of disrepair, with walls and floors collapsed and scattered around. The sky is overcast, suggesting cloudy weather conditions.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "The image depicts a rescue operation at a collapsed building. Several emergency responders, including firefighters and military personnel, are working together to clear debris and search for survivors. The scene includes multiple ladders, tools, and equipment, and there are numerous individuals wearing helmets and reflective vests. The building appears to be in a state of significant damage, with parts of the structure collapsed and debris scattered around. The responders are actively engaged in their work, with some climbing ladders and others standing on",
+        "sources": ["E09"]
+      },
+      {
+        "id": "m10",
+        "text": "A dog is searching through rubble, which includes broken concrete, bricks, and scattered clothing items. There are several pieces of clothing, including a red garment on a hanger, and a black bag. The scene appears to be in a damaged building, with visible structural damage and debris.",
+        "sources": ["E10"]
+      }
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+<strategy>
+Memory agents must encode multi-sensory disaster scenes hierarchically: storing granular environmental details (vehicle submersion depths, roof collapse angles), contextualizing via temporal markers (daylight phases, timestamp sequences), and applying abstraction rules to manage redundancy. Each evidence item undergoes triage: split complex events into discrete entries (e.g., separating structural damage from vehicle entrapments), retain only diagnostic visuals (prioritizing unique landmarks like fire truck IDs over generic terms), and expire unverified claims after third contradictory update cycle. Spatial relationships dominate storage allocation (60% token budget), followed by verified object counts (25%) and state changes (15%). New data triggers slot reclamation via LRU combined with novelty scoring—discarding repetitive descriptors while preserving novel features (e.g., distinguishing "burning commercial warehouse" from earlier "multi-story fires"). Metadata retention excludes non-essential identifiers unless resolving ambiguity between similar reports.
+</strategy>
+
+<rationale>
+This strategy addresses failures where excessive verbatim repetition diluted recall capacity while omitting actionable specifics. By enforcing hierarchical decomposition (macro-micro feature separation) and strict token quotas per content type, it ensures critical details survive memory constraints. Dynamic filtering prevents catastrophic interference – e.g., maintaining vehicle submersion metrics despite similar-looking flood images – while temporal anchoring enables accurate phase-based reasoning. The implementation avoids brittle heuristics through layered redundancy checks rather than simple deduplication, balancing persistence with adaptive refinement during iterative learning.
+</rationale>
+
+<changes>
+Improved upon initial approaches by:
+1. Adding explicit spatial relationship prioritization (vs. flat semantic tagging)
+2. Introducing conflict-resolution thresholds for claim expiration instead of arbitrary recency cutoffs
+3. Specifying dual-stage verification criteria combining both contradiction detection AND evidentiary depth analysis
+4. Refining budget allocation percentages based on failure mode analysis showing over-indexing on textual labels versus visual diagnostics
+5. Clarifying temporal alignment mechanisms for multi-phase disaster scenarios beyond simple timestamp logging
+</changes>

@@ -1,0 +1,237 @@
+[
+  {
+    "step": 1,
+    "tokens": 114,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "The image depicts a nighttime emergency scene involving a multi-story building. Several fire trucks are present, with ladders extended towards the building's windows. Firefighters in yellow and orange safety gear are gathered around, some holding ladders and others standing in groups. An American flag is visible, and there is a sign indicating a restricted parking area. The scene is illuminated by emergency lights and the glow of the night sky.",
+        "sources": ["E01"]
+      }
+    ]
+  },
+  {
+    "step": 2,
+    "tokens": 233,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "The image depicts a nighttime emergency scene involving a multi-story building. Several fire trucks are present, with ladders extended towards the building's windows. Firefighters in yellow and orange safety gear are gathered around, some holding ladders and others standing in groups. An American flag is visible, and there is a sign indicating a restricted parking area. The scene is illuminated by emergency lights and the glow of the night sky.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "The image shows a fire scene with a firefighter standing on top of a fire engine. The fire is intense, with flames and smoke billowing into the sky. There are power lines and a tree visible in the background. The sky is dark, indicating it might be evening or night. Several vehicles, including a fire engine and other emergency vehicles, are present in the foreground. The scene is active and chaotic, with the firefighter focused on the fire.",
+        "sources": ["E02"]
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "tokens": 343,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "The image depicts a nighttime emergency scene involving a multi-story building. Several fire trucks are present, with ladders extended towards the building's windows. Firefighters in yellow and orange safety gear are gathered around, some holding ladders and others standing in groups. An American flag is visible, and there is a sign indicating a restricted parking area. The scene is illuminated by emergency lights and the glow of the night sky.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "The image shows a fire scene with a firefighter standing on top of a fire engine. The fire is intense, with flames and smoke billowing into the sky. There are power lines and a tree visible in the background. The sky is dark, indicating it might be evening or night. Several vehicles, including a fire engine and other emergency vehicles, are present in the foreground. The scene is active and chaotic, with the firefighter focused on the fire.",
+        "sources": ["E02"]
+      },
+      {
+        "id": "m3",
+        "text": "The image shows a scene of destruction and fire. There is a large, burning object, possibly a vehicle, surrounded by debris and rubble. Smoke is billowing from the fire, and there are several vehicles in the background, including a white van and a car. The area appears to be a parking lot or a similar open space. The sky is clear, and there are no visible people in the scene.",
+        "sources": ["E03"]
+      }
+    ]
+  },
+  {
+    "step": 4,
+    "tokens": 470,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "The image depicts a nighttime emergency scene involving a multi-story building. Several fire trucks are present, with ladders extended towards the building's windows. Firefighters in yellow and orange safety gear are gathered around, some holding ladders and others standing in groups. An American flag is visible, and there is a sign indicating a restricted parking area. The scene is illuminated by emergency lights and the glow of the night sky.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "The image shows a fire scene with a firefighter standing on top of a fire engine. The fire is intense, with flames and smoke billowing into the sky. There are power lines and a tree visible in the background. The sky is dark, indicating it might be evening or night. Several vehicles, including a fire engine and other emergency vehicles, are present in the foreground. The scene is active and chaotic, with the firefighter focused on the fire.",
+        "sources": ["E02"]
+      },
+      {
+        "id": "m3",
+        "text": "The image shows a scene of destruction and fire. There is a large, burning object, possibly a vehicle, surrounded by debris and rubble. Smoke is billowing from the fire, and there are several vehicles in the background, including a white van and a car. The area appears to be a parking lot or a similar open space. The sky is clear, and there are no visible people in the scene.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "The image depicts a nighttime scene of a large fire at a commercial building. Flames are visible at the top of the building, which has multiple signs including \"EZ Pay,\" \"metroPOS,\" and \"Check Cashing.\" A fire truck from the Oakland Fire Department is parked in front of the building, with firefighters standing nearby. The truck has a sign that reads \"We Buy\" and \"Bitcoin.\" The area appears to be a commercial district with other businesses visible in the background.",
+        "sources": ["E04"]
+      }
+    ]
+  },
+  {
+    "step": 5,
+    "tokens": 464,
+    "lines": [
+      {
+        "id": "m2",
+        "text": "The image shows a fire scene with a firefighter standing on top of a fire engine. The fire is intense, with flames and smoke billowing into the sky. There are power lines and a tree visible in the background. The sky is dark, indicating it might be evening or night. Several vehicles, including a fire engine and other emergency vehicles, are present in the foreground. The scene is active and chaotic, with the firefighter focused on the fire.",
+        "sources": ["E02"]
+      },
+      {
+        "id": "m3",
+        "text": "The image shows a scene of destruction and fire. There is a large, burning object, possibly a vehicle, surrounded by debris and rubble. Smoke is billowing from the fire, and there are several vehicles in the background, including a white van and a car. The area appears to be a parking lot or a similar open space. The sky is clear, and there are no visible people in the scene.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "The image depicts a nighttime scene of a large fire at a commercial building. Flames are visible at the top of the building, which has multiple signs including \"EZ Pay,\" \"metroPOS,\" and \"Check Cashing.\" A fire truck from the Oakland Fire Department is parked in front of the building, with firefighters standing nearby. The truck has a sign that reads \"We Buy\" and \"Bitcoin.\" The area appears to be a commercial district with other businesses visible in the background.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "The image shows two multi-story buildings with a significant amount of smoke emanating from the upper floors of the building on the left. The sky is visible in the background, and the lighting suggests it is either early morning or late evening. The windows of the buildings are closed, and there are no visible people or moving objects in the scene. The smoke appears to be thick and is rising into the sky.",
+        "sources": ["E05"]
+      }
+    ]
+  },
+  {
+    "step": 6,
+    "tokens": 436,
+    "lines": [
+      {
+        "id": "m3",
+        "text": "The image shows a scene of destruction and fire. There is a large, burning object, possibly a vehicle, surrounded by debris and rubble. Smoke is billowing from the fire, and there are several vehicles in the background, including a white van and a car. The area appears to be a parking lot or a similar open space. The sky is clear, and there are no visible people in the scene.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "The image depicts a nighttime scene of a large fire at a commercial building. Flames are visible at the top of the building, which has multiple signs including \"EZ Pay,\" \"metroPOS,\" and \"Check Cashing.\" A fire truck from the Oakland Fire Department is parked in front of the building, with firefighters standing nearby. The truck has a sign that reads \"We Buy\" and \"Bitcoin.\" The area appears to be a commercial district with other businesses visible in the background.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "The image shows two multi-story buildings with a significant amount of smoke emanating from the upper floors of the building on the left. The sky is visible in the background, and the lighting suggests it is either early morning or late evening. The windows of the buildings are closed, and there are no visible people or moving objects in the scene. The smoke appears to be thick and is rising into the sky.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "The image shows a two-story building with a garage in the foreground. Flames are visible coming from the second floor windows, indicating a fire. Black smoke is billowing from the building, and a blue car is parked in front of the garage. The sky is clear, and there are other houses visible in the background.",
+        "sources": ["E06"]
+      }
+    ]
+  },
+  {
+    "step": 7,
+    "tokens": 416,
+    "lines": [
+      {
+        "id": "m4",
+        "text": "The image depicts a nighttime scene of a large fire at a commercial building. Flames are visible at the top of the building, which has multiple signs including \"EZ Pay,\" \"metroPOS,\" and \"Check Cashing.\" A fire truck from the Oakland Fire Department is parked in front of the building, with firefighters standing nearby. The truck has a sign that reads \"We Buy\" and \"Bitcoin.\" The area appears to be a commercial district with other businesses visible in the background.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "The image shows two multi-story buildings with a significant amount of smoke emanating from the upper floors of the building on the left. The sky is visible in the background, and the lighting suggests it is either early morning or late evening. The windows of the buildings are closed, and there are no visible people or moving objects in the scene. The smoke appears to be thick and is rising into the sky.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "The image shows a two-story building with a garage in the foreground. Flames are visible coming from the second floor windows, indicating a fire. Black smoke is billowing from the building, and a blue car is parked in front of the garage. The sky is clear, and there are other houses visible in the background.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A building is on fire with large flames and black smoke billowing out. The structure is a two-story brick building with a roof that is partially damaged. There is a ladder leaning against the building, and yellow caution tape is surrounding the area. The sky is overcast, and there are trees in the background.",
+        "sources": ["E07"]
+      }
+    ]
+  },
+  {
+    "step": 8,
+    "tokens": 405,
+    "lines": [
+      {
+        "id": "m5",
+        "text": "The image shows two multi-story buildings with a significant amount of smoke emanating from the upper floors of the building on the left. The sky is visible in the background, and the lighting suggests it is either early morning or late evening. The windows of the buildings are closed, and there are no visible people or moving objects in the scene. The smoke appears to be thick and is rising into the sky.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "The image shows a two-story building with a garage in the foreground. Flames are visible coming from the second floor windows, indicating a fire. Black smoke is billowing from the building, and a blue car is parked in front of the garage. The sky is clear, and there are other houses visible in the background.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A building is on fire with large flames and black smoke billowing out. The structure is a two-story brick building with a roof that is partially damaged. There is a ladder leaning against the building, and yellow caution tape is surrounding the area. The sky is overcast, and there are trees in the background.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "The image depicts a scene of destruction and chaos. There is a large explosion or fire in the background, causing significant damage to a building. Smoke is billowing into the sky. Several individuals, including what appear to be soldiers or security personnel, are present in the foreground. They are dressed in military or tactical gear and are standing near damaged vehicles. The area is littered with debris, and the overall atmosphere is one of emergency and urgency.",
+        "sources": ["E08"]
+      }
+    ]
+  },
+  {
+    "step": 9,
+    "tokens": 501,
+    "lines": [
+      {
+        "id": "m5",
+        "text": "The image shows two multi-story buildings with a significant amount of smoke emanating from the upper floors of the building on the left. The sky is visible in the background, and the lighting suggests it is either early morning or late evening. The windows of the buildings are closed, and there are no visible people or moving objects in the scene. The smoke appears to be thick and is rising into the sky.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "The image shows a two-story building with a garage in the foreground. Flames are visible coming from the second floor windows, indicating a fire. Black smoke is billowing from the building, and a blue car is parked in front of the garage. The sky is clear, and there are other houses visible in the background.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A building is on fire with large flames and black smoke billowing out. The structure is a two-story brick building with a roof that is partially damaged. There is a ladder leaning against the building, and yellow caution tape is surrounding the area. The sky is overcast, and there are trees in the background.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "The image depicts a scene of destruction and chaos. There is a large explosion or fire in the background, causing significant damage to a building. Smoke is billowing into the sky. Several individuals, including what appear to be soldiers or security personnel, are present in the foreground. They are dressed in military or tactical gear and are standing near damaged vehicles. The area is littered with debris, and the overall atmosphere is one of emergency and urgency.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "The image shows a large fire at an industrial facility. Flames are visible, consuming a structure, and thick black smoke is rising into the air. The facility includes various industrial elements such as pipes, tanks, and buildings. The fire appears to be intense, with the flames reaching a significant height. The surrounding area includes trees and other industrial infrastructure.",
+        "sources": ["E09"]
+      }
+    ]
+  },
+  {
+    "step": 10,
+    "tokens": 426,
+    "lines": [
+      {
+        "id": "m7",
+        "text": "A building is on fire with large flames and black smoke billowing out. The structure is a two-story brick building with a roof that is partially damaged. There is a ladder leaning against the building, and yellow caution tape is surrounding the area. The sky is overcast, and there are trees in the background.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "The image depicts a scene of destruction and chaos. There is a large explosion or fire in the background, causing significant damage to a building. Smoke is billowing into the sky. Several individuals, including what appear to be soldiers or security personnel, are present in the foreground. They are dressed in military or tactical gear and are standing near damaged vehicles. The area is littered with debris, and the overall atmosphere is one of emergency and urgency.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "The image shows a large fire at an industrial facility. Flames are visible, consuming a structure, and thick black smoke is rising into the air. The facility includes various industrial elements such as pipes, tanks, and buildings. The fire appears to be intense, with the flames reaching a significant height. The surrounding area includes trees and other industrial infrastructure.",
+        "sources": ["E09"]
+      },
+      {
+        "id": "m10",
+        "text": "The image shows an aerial view of a fire at an industrial or commercial facility. There is a large fire with black smoke rising into the air, indicating a significant fire event. The fire is burning near a white building with a flat roof, and there are other structures and vehicles in the vicinity. The area appears to be an industrial or commercial complex with various buildings and equipment. The fire is intense, with bright orange flames visible, and the smoke is dark and thick, suggesting a",
+        "sources": ["E10"]
+      }
+    ]
+  }
+]

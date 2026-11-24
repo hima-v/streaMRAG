@@ -1,0 +1,198 @@
+{
+  "node_id": 4,
+  "parent_id": 0,
+  "dataset": "disastervqa",
+  "eval_stream": "len10",
+  "budget": 512,
+  "strategy_id": "9b5c07c39cee",
+  "harness_id": "f692b318db8e",
+  "switches": {
+    "memory_strategy": "dynamic",
+    "meta_harness": "dynamic"
+  },
+  "created_by": {
+    "kind": "meta",
+    "harness_rationale": "To enhance performance, I modified the **meta harness** to include explicit constraints against redundant updates (\"do NOT overwrite existing relevant memories\") and prioritize specificity when integrating new information. This ensures older, potentially critical details aren\u2019t erased prematurely while avoiding verbatim repetition. For example, instead of storing identical descriptions like \"A social media photo shows X,\" newer entries now add unique contextual clues (e.g., timestamps, visual specifics) only if absent elsewhere. This reduces redundancy-driven token waste while preserving actionable data diversity. Additionally, emphasizing retrieval of older memories first helps maintain continuity across related queries. These changes aim to minimize unnecessary abstractions and improve citation accuracy.",
+    "strategy_rationale": "Current failures stem from inconsistent detail retention\u2014memorizing entire phrases verbatim wastes space while omitting actionable specifics leads to incorrect citations. By enforcing granularity standards and active deduplication, we maintain higher information density within token limits. Structured encoding enables precise retrieval matching question requirements (e.g., distinguishing between different types of obstructions). Temporal anchoring helps resolve contradictions between similar-looking events occurring at different times. Hard deletion prevents memory bloat from repetitive content while preserving essential context through strategic overwrites.",
+    "changes": [
+      "1. Added explicit granularity enforcement: Store atomic units (counts, materials, specific locations) rather than vague generalizations",
+      "2. Implemented temporal prioritization: Newer evidence supersedes older contradictory statements",
+      "3. Introduced slot-based organization: Reserve dedicated memory blocks for key categories (vehicles/water/fire/damage)",
+      "4. Enhanced contradiction resolution: Cross-reference timestamps to identify and eliminate outdated information",
+      "5. Added quantitative tracking: Maintain implicit counts where possible instead of repeating descriptors",
+      "6. Revised update protocol: Mandatory comparison against existing memory before storage to prevent redundancy",
+      "7. Removed non-visual metadata: Exclude platform-specific identifiers unless referenced in queries",
+      "8. Adopted progressive summarization: Consolidate sequential similar observations into cumulative reports",
+      "9. Added validation checks: Verify extracted features match actual visual content via cross-referencing",
+      "10. Implemented decay scheduling: Periodic review-and-purge cycle triggered upon reaching 80% capacity"
+    ],
+    "harness_parsed": true,
+    "strategy_parsed": true,
+    "meta_seed": 4000
+  },
+  "scores": {
+    "esqa_mean": 0.24,
+    "correct_count": "6/25",
+    "retention_final": 0.88,
+    "abstained": 0.52,
+    "budget_fallbacks": 0,
+    "evaluator_errors": 0,
+    "evaluator_version": 2,
+    "categories": {
+      "correct": 6,
+      "invalid_citation": 2,
+      "wrong_answer_evidence_in_memory": 3,
+      "unnecessary_abstention": 12,
+      "unsupported": 1,
+      "abstained_evidence_missing": 1
+    },
+    "streams": {
+      "dvqa-hurricane-len10-010": {
+        "esqa_mean": 0.2,
+        "answered_correct": 0.2,
+        "abstained": 0.4,
+        "correct_count": "1/5",
+        "retention_final": 0.8,
+        "categories": {
+          "correct": 1,
+          "invalid_citation": 1,
+          "wrong_answer_evidence_in_memory": 1,
+          "unnecessary_abstention": 2
+        },
+        "budget_fallbacks": 0,
+        "final_memory_tokens": 328,
+        "final_memory_lines": 8,
+        "n_questions": 5,
+        "n_items": 10,
+        "evaluator_errors": 0,
+        "evaluator_version": 2
+      },
+      "dvqa-flood-len10-024": {
+        "esqa_mean": 0.2,
+        "answered_correct": 0.4,
+        "abstained": 0.4,
+        "correct_count": "1/5",
+        "retention_final": 0.8,
+        "categories": {
+          "invalid_citation": 1,
+          "correct": 1,
+          "unnecessary_abstention": 2,
+          "wrong_answer_evidence_in_memory": 1
+        },
+        "budget_fallbacks": 0,
+        "final_memory_tokens": 325,
+        "final_memory_lines": 8,
+        "n_questions": 5,
+        "n_items": 10,
+        "evaluator_errors": 0,
+        "evaluator_version": 2
+      },
+      "dvqa-earthquake-len10-054": {
+        "esqa_mean": 0.2,
+        "answered_correct": 0.2,
+        "abstained": 0.8,
+        "correct_count": "1/5",
+        "retention_final": 1.0,
+        "categories": {
+          "unnecessary_abstention": 4,
+          "correct": 1
+        },
+        "budget_fallbacks": 0,
+        "final_memory_tokens": 329,
+        "final_memory_lines": 8,
+        "n_questions": 5,
+        "n_items": 10,
+        "evaluator_errors": 0,
+        "evaluator_version": 2
+      },
+      "dvqa-wildfire-len10-064": {
+        "esqa_mean": 0.4,
+        "answered_correct": 0.6,
+        "abstained": 0.4,
+        "correct_count": "2/5",
+        "retention_final": 1.0,
+        "categories": {
+          "correct": 2,
+          "unnecessary_abstention": 2,
+          "unsupported": 1
+        },
+        "budget_fallbacks": 0,
+        "final_memory_tokens": 419,
+        "final_memory_lines": 8,
+        "n_questions": 5,
+        "n_items": 10,
+        "evaluator_errors": 0,
+        "evaluator_version": 2
+      },
+      "dvqa-fire-len10-066": {
+        "esqa_mean": 0.2,
+        "answered_correct": 0.2,
+        "abstained": 0.6,
+        "correct_count": "1/5",
+        "retention_final": 0.8,
+        "categories": {
+          "unnecessary_abstention": 2,
+          "abstained_evidence_missing": 1,
+          "wrong_answer_evidence_in_memory": 1,
+          "correct": 1
+        },
+        "budget_fallbacks": 0,
+        "final_memory_tokens": 336,
+        "final_memory_lines": 8,
+        "n_questions": 5,
+        "n_items": 10,
+        "evaluator_errors": 0,
+        "evaluator_version": 2
+      }
+    }
+  },
+  "models": {
+    "memory_agent": "qwen2-vl-7b",
+    "meta_agent": "nemotron-12b-vl",
+    "answering_agent": "qwen2-vl-7b",
+    "evaluator": "qwen2-vl-7b",
+    "profile": "minimal",
+    "prompts": {
+      "memory/frame_minimal.txt": "c38af5be727b",
+      "meta/frames/harness_update_minimal.txt": "3d742a993eff",
+      "meta/frames/strategy_update_minimal.txt": "ff236306ed78",
+      "answering/prompt.txt": "27ea786833a0",
+      "judge/answer.txt": "62f39b3e1b14",
+      "judge/evidence.txt": "48a317919cb6"
+    },
+    "experiment": {
+      "profile": "minimal",
+      "budget": 512,
+      "memory_strategy": "dynamic",
+      "meta_harness": "dynamic",
+      "parent_selection": "best",
+      "iterations": 5,
+      "stream_selection": "list",
+      "selection_seed": 0,
+      "streams": [
+        "dvqa-hurricane-len10-010",
+        "dvqa-flood-len10-024",
+        "dvqa-earthquake-len10-054",
+        "dvqa-wildfire-len10-064",
+        "dvqa-fire-len10-066"
+      ],
+      "streams_from": "run3",
+      "exclude_streams_from": [],
+      "stream_length": 10,
+      "n_streams": 5,
+      "memory_agent": "qwen2-vl-7b",
+      "experiment": "short5_qwen_memory",
+      "dataset": "disastervqa",
+      "config": "/home/blahb/Projects/Agents282/configs/experiments/disastervqa.yaml",
+      "excluded_streams": []
+    }
+  },
+  "stream_length": 10,
+  "eval_streams": [
+    "dvqa-hurricane-len10-010",
+    "dvqa-flood-len10-024",
+    "dvqa-earthquake-len10-054",
+    "dvqa-wildfire-len10-064",
+    "dvqa-fire-len10-066"
+  ]
+}

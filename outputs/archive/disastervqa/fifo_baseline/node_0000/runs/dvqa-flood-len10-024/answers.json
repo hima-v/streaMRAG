@@ -1,0 +1,67 @@
+[
+  {
+    "step": 10,
+    "qa_id": "imgq-353",
+    "label": "answerable",
+    "answer_raw": "No",
+    "pred": "No",
+    "abstained": false,
+    "cited_lines": ["m10"],
+    "cited_unknown": [],
+    "parsed": true,
+    "cited_items": ["E10"],
+    "raw": ["{\"answer\": \"No\", \"cited\": [\"m10\"]}"]
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-357",
+    "label": "answerable",
+    "answer_raw": "Floodwaters",
+    "pred": "Floodwaters",
+    "abstained": false,
+    "cited_lines": ["E04"],
+    "cited_unknown": ["E04"],
+    "parsed": true,
+    "cited_items": [],
+    "raw": ["{\"answer\": \"Floodwaters\", \"cited\": [\"E04\"]}"]
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-360",
+    "label": "answerable",
+    "answer_raw": "NOT_ENOUGH_EVIDENCE",
+    "pred": null,
+    "abstained": true,
+    "cited_lines": ["m7", "m8", "m9", "m10"],
+    "cited_unknown": [],
+    "parsed": true,
+    "cited_items": ["E07", "E08", "E09", "E10"],
+    "raw": ["{\"answer\": \"NOT_ENOUGH_EVIDENCE\", \"cited\": [\"m7\", \"m8\", \"m9\", \"m10\"]}"]
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-364",
+    "label": "answerable",
+    "answer_raw": "A",
+    "pred": "A",
+    "abstained": false,
+    "cited_lines": ["m8"],
+    "cited_unknown": [],
+    "parsed": true,
+    "cited_items": ["E08"],
+    "raw": ["{\"answer\": \"A\", \"cited\": [\"m8\"]}"]
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-367",
+    "label": "answerable",
+    "answer_raw": "A",
+    "pred": "A",
+    "abstained": false,
+    "cited_lines": ["E10"],
+    "cited_unknown": ["E10"],
+    "parsed": true,
+    "cited_items": [],
+    "raw": ["{\"answer\": \"A\", \"cited\": [\"E10\"]}"]
+  }
+]

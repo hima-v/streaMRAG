@@ -1,0 +1,237 @@
+[
+  {
+    "step": 1,
+    "tokens": 114,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "The image shows a flooded area with several recreational vehicles (RVs) partially submerged in muddy, brown water. The water level is high, reaching the midsection of the RVs. The surrounding area is lush with greenery, including trees and bushes. The sky is overcast, suggesting recent or ongoing rainfall. The scene appears to be in a wooded or rural area, possibly a campground or a similar location.",
+        "sources": ["E01"]
+      }
+    ]
+  },
+  {
+    "step": 2,
+    "tokens": 233,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "The image shows a flooded area with several recreational vehicles (RVs) partially submerged in muddy, brown water. The water level is high, reaching the midsection of the RVs. The surrounding area is lush with greenery, including trees and bushes. The sky is overcast, suggesting recent or ongoing rainfall. The scene appears to be in a wooded or rural area, possibly a campground or a similar location.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "The image shows a flooded street with several vehicles, including a minivan and a bus, partially submerged in water. The water is brown and turbulent, indicating recent heavy rain. The street is lined with buildings and shops, and there are streetlights and power lines visible. The sky is overcast, suggesting ongoing or recent rainfall. The scene appears to be in an urban area, possibly in a developing country, given the visible infrastructure and the type of vehicles.",
+        "sources": ["E02"]
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "tokens": 344,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "The image shows a flooded area with several recreational vehicles (RVs) partially submerged in muddy, brown water. The water level is high, reaching the midsection of the RVs. The surrounding area is lush with greenery, including trees and bushes. The sky is overcast, suggesting recent or ongoing rainfall. The scene appears to be in a wooded or rural area, possibly a campground or a similar location.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "The image shows a flooded street with several vehicles, including a minivan and a bus, partially submerged in water. The water is brown and turbulent, indicating recent heavy rain. The street is lined with buildings and shops, and there are streetlights and power lines visible. The sky is overcast, suggesting ongoing or recent rainfall. The scene appears to be in an urban area, possibly in a developing country, given the visible infrastructure and the type of vehicles.",
+        "sources": ["E02"]
+      },
+      {
+        "id": "m3",
+        "text": "The image shows a flooded area with muddy water covering the ground. There are buildings in the background with balconies and windows. A metal structure, possibly a table or a piece of furniture, is partially submerged in the water. The water level is high, reaching the base of the buildings. There are no visible people or animals in the image. The scene appears to be a result of a flood or heavy rainfall.",
+        "sources": ["E03"]
+      }
+    ]
+  },
+  {
+    "step": 4,
+    "tokens": 468,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "The image shows a flooded area with several recreational vehicles (RVs) partially submerged in muddy, brown water. The water level is high, reaching the midsection of the RVs. The surrounding area is lush with greenery, including trees and bushes. The sky is overcast, suggesting recent or ongoing rainfall. The scene appears to be in a wooded or rural area, possibly a campground or a similar location.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "The image shows a flooded street with several vehicles, including a minivan and a bus, partially submerged in water. The water is brown and turbulent, indicating recent heavy rain. The street is lined with buildings and shops, and there are streetlights and power lines visible. The sky is overcast, suggesting ongoing or recent rainfall. The scene appears to be in an urban area, possibly in a developing country, given the visible infrastructure and the type of vehicles.",
+        "sources": ["E02"]
+      },
+      {
+        "id": "m3",
+        "text": "The image shows a flooded area with muddy water covering the ground. There are buildings in the background with balconies and windows. A metal structure, possibly a table or a piece of furniture, is partially submerged in the water. The water level is high, reaching the base of the buildings. There are no visible people or animals in the image. The scene appears to be a result of a flood or heavy rainfall.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "The image shows a group of people walking through a flooded street. The water is up to their knees or higher, and they are wearing various types of clothing, including traditional Indian attire. The street is lined with buildings and trees, and there are signs and advertisements visible on the buildings. The sky is overcast, suggesting it might be raining or has recently rained. The scene appears to be in an urban area, possibly in India, given the style of clothing and the architecture",
+        "sources": ["E04"]
+      }
+    ]
+  },
+  {
+    "step": 5,
+    "tokens": 441,
+    "lines": [
+      {
+        "id": "m2",
+        "text": "The image shows a flooded street with several vehicles, including a minivan and a bus, partially submerged in water. The water is brown and turbulent, indicating recent heavy rain. The street is lined with buildings and shops, and there are streetlights and power lines visible. The sky is overcast, suggesting ongoing or recent rainfall. The scene appears to be in an urban area, possibly in a developing country, given the visible infrastructure and the type of vehicles.",
+        "sources": ["E02"]
+      },
+      {
+        "id": "m3",
+        "text": "The image shows a flooded area with muddy water covering the ground. There are buildings in the background with balconies and windows. A metal structure, possibly a table or a piece of furniture, is partially submerged in the water. The water level is high, reaching the base of the buildings. There are no visible people or animals in the image. The scene appears to be a result of a flood or heavy rainfall.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "The image shows a group of people walking through a flooded street. The water is up to their knees or higher, and they are wearing various types of clothing, including traditional Indian attire. The street is lined with buildings and trees, and there are signs and advertisements visible on the buildings. The sky is overcast, suggesting it might be raining or has recently rained. The scene appears to be in an urban area, possibly in India, given the style of clothing and the architecture",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A person is swimming in a body of water, holding onto a long, cylindrical object. The water is brown and murky, with ripples and foam visible on the surface. The person is wearing a white shirt. There is a structure with spikes or barbs in the water near the person.",
+        "sources": ["E05"]
+      }
+    ]
+  },
+  {
+    "step": 6,
+    "tokens": 430,
+    "lines": [
+      {
+        "id": "m3",
+        "text": "The image shows a flooded area with muddy water covering the ground. There are buildings in the background with balconies and windows. A metal structure, possibly a table or a piece of furniture, is partially submerged in the water. The water level is high, reaching the base of the buildings. There are no visible people or animals in the image. The scene appears to be a result of a flood or heavy rainfall.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "The image shows a group of people walking through a flooded street. The water is up to their knees or higher, and they are wearing various types of clothing, including traditional Indian attire. The street is lined with buildings and trees, and there are signs and advertisements visible on the buildings. The sky is overcast, suggesting it might be raining or has recently rained. The scene appears to be in an urban area, possibly in India, given the style of clothing and the architecture",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A person is swimming in a body of water, holding onto a long, cylindrical object. The water is brown and murky, with ripples and foam visible on the surface. The person is wearing a white shirt. There is a structure with spikes or barbs in the water near the person.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "The image shows a flooded area with people walking through the water. The water is up to the ankles of some individuals and covers the ground completely. There are at least 15 people visible, some of whom are carrying items or wearing hats. The surroundings include buildings and trees, with some structures partially submerged. The water appears to be dirty and brown. The scene suggests a recent or ongoing flood situation.",
+        "sources": ["E06"]
+      }
+    ]
+  },
+  {
+    "step": 7,
+    "tokens": 418,
+    "lines": [
+      {
+        "id": "m4",
+        "text": "The image shows a group of people walking through a flooded street. The water is up to their knees or higher, and they are wearing various types of clothing, including traditional Indian attire. The street is lined with buildings and trees, and there are signs and advertisements visible on the buildings. The sky is overcast, suggesting it might be raining or has recently rained. The scene appears to be in an urban area, possibly in India, given the style of clothing and the architecture",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A person is swimming in a body of water, holding onto a long, cylindrical object. The water is brown and murky, with ripples and foam visible on the surface. The person is wearing a white shirt. There is a structure with spikes or barbs in the water near the person.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "The image shows a flooded area with people walking through the water. The water is up to the ankles of some individuals and covers the ground completely. There are at least 15 people visible, some of whom are carrying items or wearing hats. The surroundings include buildings and trees, with some structures partially submerged. The water appears to be dirty and brown. The scene suggests a recent or ongoing flood situation.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A group of people, including soldiers wearing camouflage uniforms and life jackets, are rescuing individuals from floodwaters using a small boat. The soldiers are pushing the boat through the water, and the individuals being rescued are seated inside the boat. The scene appears to be taking place in a flooded area, with water reaching up to the soldiers' knees.",
+        "sources": ["E07"]
+      }
+    ]
+  },
+  {
+    "step": 8,
+    "tokens": 404,
+    "lines": [
+      {
+        "id": "m5",
+        "text": "A person is swimming in a body of water, holding onto a long, cylindrical object. The water is brown and murky, with ripples and foam visible on the surface. The person is wearing a white shirt. There is a structure with spikes or barbs in the water near the person.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "The image shows a flooded area with people walking through the water. The water is up to the ankles of some individuals and covers the ground completely. There are at least 15 people visible, some of whom are carrying items or wearing hats. The surroundings include buildings and trees, with some structures partially submerged. The water appears to be dirty and brown. The scene suggests a recent or ongoing flood situation.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A group of people, including soldiers wearing camouflage uniforms and life jackets, are rescuing individuals from floodwaters using a small boat. The soldiers are pushing the boat through the water, and the individuals being rescued are seated inside the boat. The scene appears to be taking place in a flooded area, with water reaching up to the soldiers' knees.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "The image shows a flooded railway yard with several train carriages submerged in water. The water is up to the level of the tracks, and the surrounding area is also flooded. There are no visible people or animals in the image. The sky is overcast, suggesting recent or ongoing rainfall. The railway yard appears to be located in an area prone to flooding, possibly near a river or a low-lying region.",
+        "sources": ["E08"]
+      }
+    ]
+  },
+  {
+    "step": 9,
+    "tokens": 503,
+    "lines": [
+      {
+        "id": "m5",
+        "text": "A person is swimming in a body of water, holding onto a long, cylindrical object. The water is brown and murky, with ripples and foam visible on the surface. The person is wearing a white shirt. There is a structure with spikes or barbs in the water near the person.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "The image shows a flooded area with people walking through the water. The water is up to the ankles of some individuals and covers the ground completely. There are at least 15 people visible, some of whom are carrying items or wearing hats. The surroundings include buildings and trees, with some structures partially submerged. The water appears to be dirty and brown. The scene suggests a recent or ongoing flood situation.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A group of people, including soldiers wearing camouflage uniforms and life jackets, are rescuing individuals from floodwaters using a small boat. The soldiers are pushing the boat through the water, and the individuals being rescued are seated inside the boat. The scene appears to be taking place in a flooded area, with water reaching up to the soldiers' knees.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "The image shows a flooded railway yard with several train carriages submerged in water. The water is up to the level of the tracks, and the surrounding area is also flooded. There are no visible people or animals in the image. The sky is overcast, suggesting recent or ongoing rainfall. The railway yard appears to be located in an area prone to flooding, possibly near a river or a low-lying region.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "The image shows a group of people walking through floodwaters. One person is carrying a child in a plastic basin, while another person is carrying a suitcase. The water is up to the ankles of the people, and there are buildings and trees in the background. The scene appears to be in an urban area, possibly after a heavy rainfall or flood.",
+        "sources": ["E09"]
+      }
+    ]
+  },
+  {
+    "step": 10,
+    "tokens": 433,
+    "lines": [
+      {
+        "id": "m7",
+        "text": "A group of people, including soldiers wearing camouflage uniforms and life jackets, are rescuing individuals from floodwaters using a small boat. The soldiers are pushing the boat through the water, and the individuals being rescued are seated inside the boat. The scene appears to be taking place in a flooded area, with water reaching up to the soldiers' knees.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "The image shows a flooded railway yard with several train carriages submerged in water. The water is up to the level of the tracks, and the surrounding area is also flooded. There are no visible people or animals in the image. The sky is overcast, suggesting recent or ongoing rainfall. The railway yard appears to be located in an area prone to flooding, possibly near a river or a low-lying region.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "The image shows a group of people walking through floodwaters. One person is carrying a child in a plastic basin, while another person is carrying a suitcase. The water is up to the ankles of the people, and there are buildings and trees in the background. The scene appears to be in an urban area, possibly after a heavy rainfall or flood.",
+        "sources": ["E09"]
+      },
+      {
+        "id": "m10",
+        "text": "The image shows a flooded street with a partially submerged car. The water level is high, covering the road and reaching the bottom of the car. There is a bridge with a black and white striped barrier in the foreground. Under the bridge, there are several people standing, some holding umbrellas. The background includes a building with multiple windows and a sign with text and images on the wall beside the flooded area. The sky appears overcast, indicating recent or ongoing rain.",
+        "sources": ["E10"]
+      }
+    ]
+  }
+]
