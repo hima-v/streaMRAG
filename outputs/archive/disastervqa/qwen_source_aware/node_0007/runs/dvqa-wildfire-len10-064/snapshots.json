@@ -1,0 +1,297 @@
+[
+  {
+    "step": 1,
+    "tokens": 44,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two people are seen running through a burning area with flames and smoke in the background.",
+        "sources": ["E01"]
+      }
+    ]
+  },
+  {
+    "step": 2,
+    "tokens": 87,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two people are seen running through a burning area with flames and smoke in the background.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "A social media photo shows a burning area with flames and smoke in the background.",
+        "sources": ["E02"]
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "tokens": 87,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two people are seen running through a burning area with flames and smoke in the background.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo shows a burning area with flames and smoke in the background.",
+        "sources": ["E03"]
+      }
+    ]
+  },
+  {
+    "step": 4,
+    "tokens": 130,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two people are seen running through a burning area with flames and smoke in the background.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo shows a burning area with flames and smoke in the background.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo shows a burning area with flames and smoke in the background.",
+        "sources": ["E04"]
+      }
+    ]
+  },
+  {
+    "step": 5,
+    "tokens": 184,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two people are seen running through a burning area with flames and smoke in the background.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo shows a burning area with flames and smoke in the background.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo shows a burning area with flames and smoke in the background.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo (Twitter), posted 2017-10-17 16:04 UTC.",
+        "sources": ["E05"]
+      }
+    ]
+  },
+  {
+    "step": 6,
+    "tokens": 238,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two people are seen running through a burning area with flames and smoke in the background.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo shows a burning area with flames and smoke in the background.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo shows a burning area with flames and smoke in the background.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo (Twitter), posted 2017-10-17 16:04 UTC.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo (Twitter), posted 2017-10-18 07:23 UTC.",
+        "sources": ["E06"]
+      }
+    ]
+  },
+  {
+    "step": 7,
+    "tokens": 292,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two people are seen running through a burning area with flames and smoke in the background.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo shows a burning area with flames and smoke in the background.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo shows a burning area with flames and smoke in the background.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo (Twitter), posted 2017-10-17 16:04 UTC.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo (Twitter), posted 2017-10-18 07:23 UTC.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo (Twitter), posted 2017-10-18 20:21 UTC.",
+        "sources": ["E07"]
+      }
+    ]
+  },
+  {
+    "step": 8,
+    "tokens": 346,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two people are seen running through a burning area with flames and smoke in the background.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo shows a burning area with flames and smoke in the background.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo shows a burning area with flames and smoke in the background.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo (Twitter), posted 2017-10-17 16:04 UTC.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo (Twitter), posted 2017-10-18 07:23 UTC.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo (Twitter), posted 2017-10-18 20:21 UTC.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo (Twitter), posted 2017-10-19 07:36 UTC.",
+        "sources": ["E08"]
+      }
+    ]
+  },
+  {
+    "step": 9,
+    "tokens": 400,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two people are seen running through a burning area with flames and smoke in the background.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo shows a burning area with flames and smoke in the background.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo shows a burning area with flames and smoke in the background.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo (Twitter), posted 2017-10-17 16:04 UTC.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo (Twitter), posted 2017-10-18 07:23 UTC.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo (Twitter), posted 2017-10-18 20:21 UTC.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo (Twitter), posted 2017-10-19 07:36 UTC.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media photo (Twitter), posted 2017-10-19 07:36 UTC.",
+        "sources": ["E09"]
+      }
+    ]
+  },
+  {
+    "step": 10,
+    "tokens": 455,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two people are seen running through a burning area with flames and smoke in the background.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo shows a burning area with flames and smoke in the background.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo shows a burning area with flames and smoke in the background.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo (Twitter), posted 2017-10-17 16:04 UTC.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo (Twitter), posted 2017-10-18 07:23 UTC.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo (Twitter), posted 2017-10-18 20:21 UTC.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo (Twitter), posted 2017-10-19 07:36 UTC.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media photo (Twitter), posted 2017-10-19 07:36 UTC.",
+        "sources": ["E09"]
+      },
+      {
+        "id": "m10",
+        "text": "A social media photo (Twitter), posted 2017-10-20 11:11 UTC.",
+        "sources": ["E10"]
+      }
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+<harness>
+Prioritize retaining unique visual details critical for answering downstream questions while aggressively pruning redundant information. For each new evidence item, extract only distinctive elements directly observable in the image (e.g., "floodwater submerging vehicles" vs. generic descriptions like "a flooded area"). Use structured encoding: store spatial relationships ("building X behind car Y"), temporal clues (time-stamped posts indicating sequence), and domain-specific attributes (e.g., "commercial building" vs. "residential"). Implement hard deletion rules: remove duplicate claims (e.g., repeated mentions of "buildings submerged") unless updated with conflicting info. Add explicit retention of quantitative data (e.g., counts, measurements) and temporal ordering when multiple events occur. During updates, merge related observations into single entries with aggregated metrics (e.g., combine multiple references to "fallen trees" into summarized quantities if visible in subsequent frames). Discard low-value metadata (social media platform tags) unless resolving ambiguity between duplicates. When updating, explicitly overwrite prior entries using timestamps or positional cues to ensure accuracy. Maintain strict token limits via hierarchical summarization, capping memory at ~8 concise entries within 512 tokens. Ensure consistent storage format: include timestamped records of key objects/events, their interactions, and contextual metadata critical for verification.
+</harness>
+<rationale>
+Revised to address systematic failures identified in evaluation outcomes through three core improvements:
+
+1. **Temporal Encoding & Version Control**: Added explicit instruction to embed timestamps in memory entries and use them for version control. This addresses problems where identical descriptions without date markers caused overwrites (dvqa-flood-len10-024's evidence loss) and enabled better conflict resolution.
+
+2. **Object-Specific Tracking**: Modified the spatial relationship requirement to mandate named entities ("vehicle Z", "tree K") rather than generic descriptors. Prevents conflating similar items across different scenes (critical for earthquake/flood differentiation).
+
+3. **Multi-Modal Metadata Handling**: Specified that social media tags should be retained ONLY when resolving evidentiary conflicts (not as default practice), solving issues where irrelevant platform identifiers cluttered memory.
+
+Maintained core principles of hierarchical summarization (<8 entries) and quantitative detail preservation while adding stricter criteria for merging observations (requires both physical adjacency AND metric aggregation potential). Token efficiency improved through mandatory removal of repetitive adjectives like "shows" in favor of action-oriented summaries.
+</rationale>

@@ -1,0 +1,10 @@
+<strategy>
+For each new evidence item, extract only distinctive elements directly observable in the image (e.g., "floodwater submerging vehicles" vs. generic descriptions like "a flooded area"). Store spatial relationships ("building X behind car Y"), temporal clues (time-stamped posts indicating sequence), and domain-specific attributes (e.g., "commercial building" vs. "residential"). Remove duplicate claims (e.g., repeated mentions of "buildings submerged") unless updated with conflicting info. Allocate fixed slots per event type (e.g., max 2 memories per disaster category) to enforce brevity. Merge related observations into single entries during updates (e.g., combine references to "fallen trees" into quantified summaries). Discard low-value metadata (platform tags) unless needed for provenance. Explicitly overwrite prior incomplete records when newer evidence resolves ambiguities.
+</strategy>
+
+<rationale>
+This strategy prioritizes actionable specificity, reducing redundancy while preserving contextually critical data. By enforcing strict token budgets and merging overlapping observations, it balances retention efficiency with accuracy demands. Structured encoding ensures recoverable detail for diverse question types, addressing evaluation pitfalls where overly vague/mismatched memories led to incorrect/invalid responses. Temporal/spatial tracking helps resolve ambiguity between similar events across streams.
+</rationale>
+
+<changes>
+Added explicit instruction to "explicitly overwrite prior incomplete records if newer evidence resolves ambiguities," clarifying conflict resolution. Strengthened directive to retain "domain-specific attributes" (e.g., commercial/residential distinctions) to improve precision. Removed implicit assumptions about automatic summary generation, emphasizing manual curation of distinct visual elements. Added emphasis on proactive pruning via hard deletion rules rather than passive forgetting.

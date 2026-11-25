@@ -1,0 +1,194 @@
+{
+  "node_id": 10,
+  "parent_id": 4,
+  "dataset": "disastervqa",
+  "eval_stream": "len10",
+  "budget": 512,
+  "strategy_id": "70c372ba6226",
+  "harness_id": "c72d86c65914",
+  "switches": {
+    "memory_strategy": "dynamic",
+    "meta_harness": "dynamic"
+  },
+  "created_by": {
+    "kind": "meta",
+    "harness_rationale": "The original strategy lacked mechanisms to prioritize quantitative data (e.g., \"four ladders,\" \"two people\") and precise temporal ordering, leading to missed answers requiring exact figures or chronological context. By adding explicit retention of numerical values and time-based sequencing, the system can better address questions demanding specific counts or ordered events. Structured encoding now includes temporal markers (e.g., timestamp comparisons) and quantitative aggregation, enabling accurate responses like distinguishing \"intact\" vs. \"collapsed\" buildings based on sequential damage progression. Retaining timestamps during deletions ensures older conflicting claims are fully replaced. This reduces cases where vague summaries (\"large fire\") fail to capture actionable details (e.g., ladder deployments), improving downstream question resolution rates observed in weak performance streams.",
+    "strategy_rationale": "This strategy optimizes retrieval efficacy under tight memory constraints by focusing on discriminative, actionable details rather than repetitive generalizations. Structured encoding ensures precise spatial/temporal context alignment with questions, while quantitative retention aids factual accuracy. By merging related observations and applying hard deletion rules, it minimizes noise without sacrificing utility. Temporal ordering and conflict resolution mechanisms further enhance reliability. Balancing specificity with brevity allows maximum contextual depth within limited capacity, reducing errors arising from omitted critical details or retained irrelevant/inaccurate ones.",
+    "changes": [
+      "1. Removed rigid slot allocation (fixed memory slots per event type) due to inefficiency in dynamic environments where question relevance varies unpredictably.",
+      "2. Enhanced quantitative data emphasis by mandating its explicit preservation alongside qualitative descriptors.",
+      "3. Strengthened temporal tracking requirements to prioritize chronological sequencing in multi-event scenarios.",
+      "4. Added explicit conflict-resolution protocols for merged entries during updates to prevent compounded inaccuracies."
+    ],
+    "harness_parsed": true,
+    "strategy_parsed": true,
+    "meta_seed": 10000
+  },
+  "scores": {
+    "esqa_mean": 0.24,
+    "correct_count": "6/25",
+    "retention_final": 0.88,
+    "abstained": 0.52,
+    "budget_fallbacks": 0,
+    "evaluator_errors": 0,
+    "evaluator_version": 2,
+    "categories": {
+      "correct": 6,
+      "invalid_citation": 1,
+      "wrong_answer_evidence_in_memory": 4,
+      "unnecessary_abstention": 11,
+      "abstained_evidence_missing": 2,
+      "unsupported": 1
+    },
+    "streams": {
+      "dvqa-hurricane-len10-010": {
+        "esqa_mean": 0.2,
+        "answered_correct": 0.2,
+        "abstained": 0.4,
+        "correct_count": "1/5",
+        "retention_final": 0.8,
+        "categories": {
+          "correct": 1,
+          "invalid_citation": 1,
+          "wrong_answer_evidence_in_memory": 1,
+          "unnecessary_abstention": 2
+        },
+        "budget_fallbacks": 0,
+        "final_memory_tokens": 287,
+        "final_memory_lines": 7,
+        "n_questions": 5,
+        "n_items": 10,
+        "evaluator_errors": 0,
+        "evaluator_version": 2
+      },
+      "dvqa-flood-len10-024": {
+        "esqa_mean": 0.0,
+        "answered_correct": 0.0,
+        "abstained": 0.8,
+        "correct_count": "0/5",
+        "retention_final": 0.8,
+        "categories": {
+          "abstained_evidence_missing": 1,
+          "unnecessary_abstention": 3,
+          "wrong_answer_evidence_in_memory": 1
+        },
+        "budget_fallbacks": 0,
+        "final_memory_tokens": 441,
+        "final_memory_lines": 8,
+        "n_questions": 5,
+        "n_items": 10,
+        "evaluator_errors": 0,
+        "evaluator_version": 2
+      },
+      "dvqa-earthquake-len10-054": {
+        "esqa_mean": 0.4,
+        "answered_correct": 0.4,
+        "abstained": 0.4,
+        "correct_count": "2/5",
+        "retention_final": 0.8,
+        "categories": {
+          "abstained_evidence_missing": 1,
+          "correct": 2,
+          "wrong_answer_evidence_in_memory": 1,
+          "unnecessary_abstention": 1
+        },
+        "budget_fallbacks": 0,
+        "final_memory_tokens": 369,
+        "final_memory_lines": 7,
+        "n_questions": 5,
+        "n_items": 10,
+        "evaluator_errors": 0,
+        "evaluator_version": 2
+      },
+      "dvqa-wildfire-len10-064": {
+        "esqa_mean": 0.4,
+        "answered_correct": 0.6,
+        "abstained": 0.2,
+        "correct_count": "2/5",
+        "retention_final": 1.0,
+        "categories": {
+          "correct": 2,
+          "unnecessary_abstention": 1,
+          "unsupported": 1,
+          "wrong_answer_evidence_in_memory": 1
+        },
+        "budget_fallbacks": 0,
+        "final_memory_tokens": 455,
+        "final_memory_lines": 9,
+        "n_questions": 5,
+        "n_items": 10,
+        "evaluator_errors": 0,
+        "evaluator_version": 2
+      },
+      "dvqa-fire-len10-066": {
+        "esqa_mean": 0.2,
+        "answered_correct": 0.2,
+        "abstained": 0.8,
+        "correct_count": "1/5",
+        "retention_final": 1.0,
+        "categories": {
+          "unnecessary_abstention": 4,
+          "correct": 1
+        },
+        "budget_fallbacks": 0,
+        "final_memory_tokens": 362,
+        "final_memory_lines": 9,
+        "n_questions": 5,
+        "n_items": 10,
+        "evaluator_errors": 0,
+        "evaluator_version": 2
+      }
+    }
+  },
+  "models": {
+    "memory_agent": "qwen2-vl-7b",
+    "meta_agent": "nemotron-12b-vl",
+    "answering_agent": "qwen2-vl-7b",
+    "evaluator": "qwen2-vl-7b",
+    "profile": "minimal",
+    "prompts": {
+      "memory/frame_minimal.txt": "c38af5be727b",
+      "meta/frames/harness_update_minimal.txt": "3d742a993eff",
+      "meta/frames/strategy_update_minimal.txt": "ff236306ed78",
+      "answering/prompt.txt": "27ea786833a0",
+      "judge/answer.txt": "62f39b3e1b14",
+      "judge/evidence.txt": "48a317919cb6"
+    },
+    "experiment": {
+      "profile": "minimal",
+      "budget": 512,
+      "memory_strategy": "dynamic",
+      "meta_harness": "dynamic",
+      "parent_selection": "best",
+      "iterations": 20,
+      "stream_selection": "list",
+      "selection_seed": 0,
+      "streams": [
+        "dvqa-hurricane-len10-010",
+        "dvqa-flood-len10-024",
+        "dvqa-earthquake-len10-054",
+        "dvqa-wildfire-len10-064",
+        "dvqa-fire-len10-066"
+      ],
+      "streams_from": "qwen_run1",
+      "exclude_streams_from": [],
+      "stream_length": 10,
+      "n_streams": 5,
+      "memory_agent": "qwen2-vl-7b",
+      "memory_method": "agent",
+      "eviction_policy": "source_aware",
+      "experiment": "short5_qwen_source_aware",
+      "dataset": "disastervqa",
+      "config": "/home/blahb/Projects/Agents282/configs/experiments/disastervqa.yaml",
+      "excluded_streams": []
+    }
+  },
+  "stream_length": 10,
+  "eval_streams": [
+    "dvqa-hurricane-len10-010",
+    "dvqa-flood-len10-024",
+    "dvqa-earthquake-len10-054",
+    "dvqa-wildfire-len10-064",
+    "dvqa-fire-len10-066"
+  ]
+}

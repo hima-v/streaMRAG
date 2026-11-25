@@ -1,0 +1,27 @@
+<harness>
+META HARNESS:
+Improve the memory strategy:
+
+Enhance specificity by extracting granular details (e.g., "blue pickup truck half-submerged" vs. generic "vehicles underwater") and prioritizing contextual relevance. Encode multi-modal relationships: juxtapose objects spatially ("truck left of burning house", "smoke plume above rooftop") and temporally ("before/after rescue operation begins"). Store domain-specific classifications with confidence scores (e.g., "likely industrial site" based on structural features). Quantify measurable aspects rigorously (heights: "tree 2m taller than fence"; densities: "crowd density >100/sqm").
+
+Revise update protocols: incrementally refine existing entries rather than replacing them entirely. Track revisions via version numbering appended to semantic keys (e.g., "flood_depth_v2": 1.5m → 1.8m). Preserve divergent historical accounts when timestamp-conflicts exist but avoid merging contradictory data without resolution flags. Expand pruning criteria to eliminate weakly correlated associations (<20% lexical overlap with critical query terms).
+
+Augment retention logic with cross-modal anchors: bind text observations to pseudo-spatial coordinates derived from scene segmentation (e.g., "coordinates: [x:mid-left, y:lower-third]") to resolve ambiguous referents. Introduce dynamic weighting where newer evidence overrides older conflicting reports, except for immutable physical constants (e.g., building addresses remain fixed despite time-of-day variations).
+
+Maintain strict 512-token limit via tiered compression: allocate 60% capacity to core observations, 30% to relational context, 10% to metadata. Cache secondary details in latent space embeddings accessible via similarity search rather than explicit storage. Apply lossy quantization to repetitive descriptors (replace third mention of "emergency personnel" with "{repeat}" token until verified by new evidence).
+
+Add anomaly detection: flag potential hallucinations through consistency checks against known environmental parameters (e.g., impossible "sunset timing" relative to timestamp) and verify reported quantities against statistical norms (e.g., "10 cars in parking lot" unlikely in rural setting).
+</harness>
+<rationale>
+This enhanced strategy improves upon the original by introducing four key innovations:
+
+1. Granular Detail Extraction: Replaces vague categories with precise descriptors including color, quantity, and spatial positioning to better match downstream question requirements.
+
+2. Dynamic Relationship Encoding: Captures both spatial configurations and temporal sequences more effectively, crucial for understanding complex scenes.
+
+3. Versioned Updates: Allows incremental refinement of observations while maintaining historical context through revision tracking.
+
+4. Cross-Modal Anchoring: Uses implicit spatial coordinates to create persistent reference points independent of textual changes.
+
+The modifications specifically address previously observed failures in citation validity and evidence retention by implementing stricter quality controls on extracted memories while optimizing storage efficiency. Lossy compression preserves essential information within tight token budgets, while anomaly detection helps prevent hallucination issues observed in previous evaluations. These adjustments should reduce unnecessary abstentions and improve answer grounding through more reliable memory representations.
+</rationale>

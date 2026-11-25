@@ -1,0 +1,157 @@
+[
+  {
+    "step": 1,
+    "tokens": 66,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Flooded campsite with multiple RVs submerged in muddy water, surrounded by trees and vegetation. The scene appears to be in a forested area with a bridge section visible in the background.",
+        "sources": ["E01"]
+      }
+    ]
+  },
+  {
+    "step": 2,
+    "tokens": 91,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "...",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "A flooded street with several cars submerged in muddy water, surrounded by buildings and shops. The water level is high, and the street is lined with parked cars and pedestrians.",
+        "sources": ["E02"]
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "tokens": 126,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A flooded street with several cars submerged in muddy water, surrounded by buildings and shops. The water level is high, and the street is lined with parked cars and pedestrians.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A flooded street with several cars submerged in muddy water, surrounded by buildings and shops. The water level is high, and the street is lined with parked cars and pedestrians.",
+        "sources": ["E03"]
+      }
+    ]
+  },
+  {
+    "step": 4,
+    "tokens": 126,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A flooded street with several cars submerged in muddy water, surrounded by buildings and shops. The water level is high, and the street is lined with parked cars and pedestrians.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A flooded street with several cars submerged in muddy water, surrounded by buildings and shops. The water level is high, and the street is lined with parked cars and pedestrians.",
+        "sources": ["E04"]
+      }
+    ]
+  },
+  {
+    "step": 5,
+    "tokens": 111,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A flooded street with several cars submerged in muddy water, surrounded by buildings and shops. The water level is high, and the street is lined with parked cars and pedestrians.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m5",
+        "text": "A man is swimming in the water, holding onto a rope. The water is brown and murky.",
+        "sources": ["E05"]
+      }
+    ]
+  },
+  {
+    "step": 6,
+    "tokens": 103,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A flooded street with several cars submerged in muddy water, surrounded by buildings and shops. The water level is high, and the street is lined with parked cars and pedestrians.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m6",
+        "text": "A man is swimming in the water, holding onto a rope.",
+        "sources": ["E06"]
+      }
+    ]
+  },
+  {
+    "step": 7,
+    "tokens": 103,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A flooded street with several cars submerged in muddy water, surrounded by buildings and shops. The water level is high, and the street is lined with parked cars and pedestrians.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m7",
+        "text": "A man is swimming in the water, holding onto a rope.",
+        "sources": ["E07"]
+      }
+    ]
+  },
+  {
+    "step": 8,
+    "tokens": 124,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A flooded street with several cars submerged in muddy water, surrounded by buildings and shops. The water level is high, and the street is lined with parked cars and pedestrians.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m8",
+        "text": "A flooded railway yard with multiple train carriages submerged in muddy water, surrounded by buildings and trees. The water level is high, and the tracks are partially submerged.",
+        "sources": ["E08"]
+      }
+    ]
+  },
+  {
+    "step": 9,
+    "tokens": 126,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A flooded street with several cars submerged in muddy water, surrounded by buildings and shops. The water level is high, and the street is lined with parked cars and pedestrians.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m9",
+        "text": "A flooded street with several cars submerged in muddy water, surrounded by buildings and shops. The water level is high, and the street is lined with parked cars and pedestrians.",
+        "sources": ["E09"]
+      }
+    ]
+  },
+  {
+    "step": 10,
+    "tokens": 127,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A flooded street with several cars submerged in muddy water, surrounded by buildings and shops. The water level is high, and the street is lined with parked cars and pedestrians.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m10",
+        "text": "A flooded street with several cars submerged in muddy water, surrounded by buildings and shops. The water level is high, and the street is lined with parked cars and pedestrians.",
+        "sources": ["E10"]
+      }
+    ]
+  }
+]

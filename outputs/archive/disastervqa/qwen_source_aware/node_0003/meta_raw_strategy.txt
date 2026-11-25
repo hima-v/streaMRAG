@@ -1,0 +1,11 @@
+<strategy>
+Update memory with structured entries containing source identifiers, descriptions, and JSON-formatted key-value pairs of critical visual elements (e.g., {"disaster_type": "flood", "obstruction": "fallen tree"}). Maintain strict chronological order, removing oldest full entries when exceeding 512 tokens. Prioritize granular attributes like affected infrastructure types ("railway"), materials ("bricks," "concrete"), and specific quantities ("four ladders") to support precise QA task retrieval.
+</strategy>
+
+<rationale>
+Current failures stem from insufficient specificity in memorized entries (e.g., storing generic "flooded area" instead of noting obstructing objects or structural collapse impacts). By enforcing structured extraction of machine-readable metadata alongside timestamps, we enable direct mapping between queries (e.g., "emergency responder presence?") and verified facts (e.g., "yes/no answers with citation sources"). The token limit necessitates aggressive pruning—deleting entire outdated records preserves newer high-resolution data while avoiding fragmented memories where partial context might mislead inference.
+</rationale>
+
+<changes>
+Revised to mandate explicit numerical values and categorical labels in structured metadata (vs previous vague descriptors). Added emphasis on tracking spatial relationships (blocked roads, proximity terms like "nearby") and safety-critical elements (downed wires vs intact infrastructure). Adjusted deletion policy to strictly remove only complete entries rather than allowing residual fragments that could contaminate later recall.
+</changes>

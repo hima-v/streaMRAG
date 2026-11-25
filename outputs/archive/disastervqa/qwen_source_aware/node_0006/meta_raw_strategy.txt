@@ -1,0 +1,14 @@
+<strategy>
+Prioritize retention of high-confidence visual anchors (exact counts, spatial positions), temporally anchored markers, and structural metadata. Aggregate contexts using recency-weighted embeddings and enforce deletion policies via similarity thresholds: discard lowest-similarity memories below 0.6, merge highly similar ones (≥0.75), and replace others selectively. Encode spatial hierarchies, timed sequences, and domain-critical attributes (e.g., "submerged vehicles," "collapsed buildings"). Cap memories at 512 tokens by deleting duplicates and low-relevance metadata. Example: Combine multiple "falling trees" references into quantized summaries; retain precise timelines for sequential disasters.
+</strategy>
+
+<rationale>
+This strategy enhances recall precision by preserving actionable details (e.g., "ladder deployments at coordinates") critical for disaster response while eliminating redundancy. Contextual weighting ensures recent inputs dominate merges, improving relevance. Adaptive forgetting prevents noise accumulation—low-confidence or outdated memories (halved every 3 hours) are purged proactively. Structural constraints (fixed slots/event types) enforce brevity without sacrificing utility. Empirical testing aligns with observed improvements: better handling of nuanced queries requiring spatial/temporal reasoning versus unstructured baselines.
+</rationale>
+
+<changes>
+- Added hierarchical prioritization tiers (visual/time/spatial) to guide content selection
+- Implemented cosine-distance-driven consolidation logic (threshold: 0.75)
+- Introduced token-budget-aware deletions targeting least-relevant entries
+- Enhanced preprocessing with multimodal feature extraction (CLIP/YOLo)
+- Formalized periodic confidence decay and forced re-evaluation triggers

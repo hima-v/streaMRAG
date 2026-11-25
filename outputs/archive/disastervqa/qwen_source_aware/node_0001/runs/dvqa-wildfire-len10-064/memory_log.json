@@ -1,0 +1,342 @@
+[
+  {
+    "item_id": "E01",
+    "step": 1,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"Two individuals are seen walking through a burning landscape with multiple flames and charred tree stumps.\", \"sources\": [\"E01\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"...\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Two individuals are seen walking through a burning landscape with multiple flames and charred tree stumps.",
+              "sources": ["E01"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "...",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2", "update of unknown line m1"],
+        "tokens_after": 46
+      }
+    ],
+    "eviction_policy": "source_aware",
+    "tokens": 46,
+    "n_lines": 1,
+    "secs": 2.17
+  },
+  {
+    "item_id": "E02",
+    "step": 2,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo from Twitter shows a burning landscape with multiple flames and charred tree stumps.\", \"sources\": [\"E02\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Two individuals are seen walking through a burning landscape with multiple flames and charred tree stumps.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo from Twitter shows a burning landscape with multiple flames and charred tree stumps.",
+              "sources": ["E02"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Two individuals are seen walking through a burning landscape with multiple flames and charred tree stumps.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 93
+      }
+    ],
+    "eviction_policy": "source_aware",
+    "tokens": 93,
+    "n_lines": 2,
+    "secs": 2.59
+  },
+  {
+    "item_id": "E03",
+    "step": 3,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo from Twitter shows a burning landscape with multiple flames and charred tree stumps.\", \"sources\": [\"E03\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Two individuals are seen walking through a burning landscape with multiple flames and charred tree stumps.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo from Twitter shows a burning landscape with multiple flames and charred tree stumps.",
+              "sources": ["E03"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Two individuals are seen walking through a burning landscape with multiple flames and charred tree stumps.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": [],
+        "tokens_after": 93
+      }
+    ],
+    "eviction_policy": "source_aware",
+    "tokens": 93,
+    "n_lines": 2,
+    "secs": 2.7
+  },
+  {
+    "item_id": "E04",
+    "step": 4,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo from Twitter shows a burning landscape with multiple flames and charred tree stumps.\", \"sources\": [\"E04\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Two individuals are seen walking through a burning landscape with multiple flames and charred tree stumps.\", \"sources\": [\"E01\"]}], \"delete\": [\"m3\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo from Twitter shows a burning landscape with multiple flames and charred tree stumps.",
+              "sources": ["E04"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Two individuals are seen walking through a burning landscape with multiple flames and charred tree stumps.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m3"]
+        },
+        "problems": [],
+        "tokens_after": 93
+      }
+    ],
+    "eviction_policy": "source_aware",
+    "tokens": 93,
+    "n_lines": 2,
+    "secs": 2.35
+  },
+  {
+    "item_id": "E05",
+    "step": 5,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo from Twitter shows a burning landscape with multiple flames and charred tree stumps.\", \"sources\": [\"E05\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Two individuals are seen walking through a burning landscape with multiple flames and charred tree stumps.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo from Twitter shows a burning landscape with multiple flames and charred tree stumps.",
+              "sources": ["E05"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Two individuals are seen walking through a burning landscape with multiple flames and charred tree stumps.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 140
+      }
+    ],
+    "eviction_policy": "source_aware",
+    "tokens": 140,
+    "n_lines": 3,
+    "secs": 2.41
+  },
+  {
+    "item_id": "E06",
+    "step": 6,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo from Twitter shows a burning landscape with multiple flames and charred tree stumps.\", \"sources\": [\"E06\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Two individuals are seen walking through a burning landscape with multiple flames and charred tree stumps.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo from Twitter shows a burning landscape with multiple flames and charred tree stumps.",
+              "sources": ["E06"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Two individuals are seen walking through a burning landscape with multiple flames and charred tree stumps.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 187
+      }
+    ],
+    "eviction_policy": "source_aware",
+    "tokens": 187,
+    "n_lines": 4,
+    "secs": 2.73
+  },
+  {
+    "item_id": "E07",
+    "step": 7,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo from Twitter shows a burning landscape with multiple flames and charred tree stumps.\", \"sources\": [\"E07\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Two individuals are seen walking through a burning landscape with multiple flames and charred tree stumps.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo from Twitter shows a burning landscape with multiple flames and charred tree stumps.",
+              "sources": ["E07"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Two individuals are seen walking through a burning landscape with multiple flames and charred tree stumps.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 234
+      }
+    ],
+    "eviction_policy": "source_aware",
+    "tokens": 234,
+    "n_lines": 5,
+    "secs": 2.73
+  },
+  {
+    "item_id": "E08",
+    "step": 8,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo from Twitter shows a burning landscape with multiple flames and charred tree stumps.\", \"sources\": [\"E08\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Two individuals are seen walking through a burning landscape with multiple flames and charred tree stumps.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo from Twitter shows a burning landscape with multiple flames and charred tree stumps.",
+              "sources": ["E08"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Two individuals are seen walking through a burning landscape with multiple flames and charred tree stumps.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 281
+      }
+    ],
+    "eviction_policy": "source_aware",
+    "tokens": 281,
+    "n_lines": 6,
+    "secs": 2.75
+  },
+  {
+    "item_id": "E09",
+    "step": 9,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo from Twitter shows a burning landscape with multiple flames and charred tree stumps.\", \"sources\": [\"E09\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Two individuals are seen walking through a burning landscape with multiple flames and charred tree stumps.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo from Twitter shows a burning landscape with multiple flames and charred tree stumps.",
+              "sources": ["E09"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Two individuals are seen walking through a burning landscape with multiple flames and charred tree stumps.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 328
+      }
+    ],
+    "eviction_policy": "source_aware",
+    "tokens": 328,
+    "n_lines": 7,
+    "secs": 2.76
+  },
+  {
+    "item_id": "E10",
+    "step": 10,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo from Twitter shows a burning landscape with multiple flames and charred tree stumps.\", \"sources\": [\"E10\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Two individuals are seen walking through a burning landscape with multiple flames and charred tree stumps.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo from Twitter shows a burning landscape with multiple flames and charred tree stumps.",
+              "sources": ["E10"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Two individuals are seen walking through a burning landscape with multiple flames and charred tree stumps.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 376
+      }
+    ],
+    "eviction_policy": "source_aware",
+    "tokens": 376,
+    "n_lines": 8,
+    "secs": 2.61
+  }
+]

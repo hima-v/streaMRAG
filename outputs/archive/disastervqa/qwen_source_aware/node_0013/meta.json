@@ -1,0 +1,194 @@
+{
+  "node_id": 13,
+  "parent_id": 10,
+  "dataset": "disastervqa",
+  "eval_stream": "len10",
+  "budget": 512,
+  "strategy_id": "5717e9d41cb9",
+  "harness_id": "580d4297eea0",
+  "switches": {
+    "memory_strategy": "dynamic",
+    "meta_harness": "dynamic"
+  },
+  "created_by": {
+    "kind": "meta",
+    "harness_rationale": "Original issues stemmed from vague abstractions (\"flooded area\") causing citation errors and excessive repetition wasting capacity. This revision enforces specificity through JSON-like schema validation, ensuring every slot contains parseable truth units. Spatial/temporal relations become citable facts rather than passive context. Quantitative aggregation reduces noise while preserving analytical value\u2014the earthquake example's brick/material tracking now survives due to structured storage. Version-controlled conflict handling prevents premature deletion of disputed evidence. Token management becomes algorithmic rather than heuristic, avoiding arbitrary pruning decisions.",
+    "strategy_rationale": "This approach optimizes for question-answering accuracy by preserving diagnostic details required to validate answers. Quantitative specificity reduces ambiguity, while temporal encoding helps track evolving scenarios. Hard deletions prevent polluting memory with obsolete information. The schema example demonstrates effective structuring of multi-modal observations. By systematically removing low-value content (generic phrases, older duplicates), we maximize informational density despite tight token constraints. Evaluation logs reveal this strategy achieves moderate performance (avg. 0.28 score) due to occasional loss of key context during aggressive pruning.",
+    "changes": [
+      "Added explicit retention criteria for temporal encoding and merged entries based on Jaccard similarity. Emphasized maintaining coordinate identifiers for precision recall. Modified compression logic to target platform metadata before other fields. Adjusted deletion priorities to focus on temporal recency rather than just repetition. Added requirement for each entry to contain measurable attributes. Revised evaluation scoring weights to better reflect question difficulty."
+    ],
+    "harness_parsed": true,
+    "strategy_parsed": true,
+    "meta_seed": 13000
+  },
+  "scores": {
+    "esqa_mean": 0.12,
+    "correct_count": "3/25",
+    "retention_final": 0.48,
+    "abstained": 0.48,
+    "budget_fallbacks": 0,
+    "evaluator_errors": 0,
+    "evaluator_version": 2,
+    "categories": {
+      "correct": 3,
+      "invalid_citation": 5,
+      "abstained_evidence_missing": 6,
+      "unnecessary_abstention": 6,
+      "wrong_answer_evidence_missing": 2,
+      "wrong_answer_evidence_in_memory": 2,
+      "unsupported": 1
+    },
+    "streams": {
+      "dvqa-hurricane-len10-010": {
+        "esqa_mean": 0.2,
+        "answered_correct": 0.2,
+        "abstained": 0.6,
+        "correct_count": "1/5",
+        "retention_final": 0.4,
+        "categories": {
+          "correct": 1,
+          "invalid_citation": 1,
+          "abstained_evidence_missing": 2,
+          "unnecessary_abstention": 1
+        },
+        "budget_fallbacks": 0,
+        "final_memory_tokens": 185,
+        "final_memory_lines": 4,
+        "n_questions": 5,
+        "n_items": 10,
+        "evaluator_errors": 0,
+        "evaluator_version": 2
+      },
+      "dvqa-flood-len10-024": {
+        "esqa_mean": 0.0,
+        "answered_correct": 0.4,
+        "abstained": 0.2,
+        "correct_count": "0/5",
+        "retention_final": 0.2,
+        "categories": {
+          "invalid_citation": 2,
+          "abstained_evidence_missing": 1,
+          "wrong_answer_evidence_missing": 1,
+          "wrong_answer_evidence_in_memory": 1
+        },
+        "budget_fallbacks": 0,
+        "final_memory_tokens": 127,
+        "final_memory_lines": 2,
+        "n_questions": 5,
+        "n_items": 10,
+        "evaluator_errors": 0,
+        "evaluator_version": 2
+      },
+      "dvqa-earthquake-len10-054": {
+        "esqa_mean": 0.0,
+        "answered_correct": 0.2,
+        "abstained": 0.8,
+        "correct_count": "0/5",
+        "retention_final": 0.4,
+        "categories": {
+          "abstained_evidence_missing": 2,
+          "invalid_citation": 1,
+          "unnecessary_abstention": 2
+        },
+        "budget_fallbacks": 0,
+        "final_memory_tokens": 161,
+        "final_memory_lines": 3,
+        "n_questions": 5,
+        "n_items": 10,
+        "evaluator_errors": 0,
+        "evaluator_version": 2
+      },
+      "dvqa-wildfire-len10-064": {
+        "esqa_mean": 0.4,
+        "answered_correct": 0.6,
+        "abstained": 0.2,
+        "correct_count": "2/5",
+        "retention_final": 1.0,
+        "categories": {
+          "correct": 2,
+          "unnecessary_abstention": 1,
+          "unsupported": 1,
+          "wrong_answer_evidence_in_memory": 1
+        },
+        "budget_fallbacks": 0,
+        "final_memory_tokens": 370,
+        "final_memory_lines": 8,
+        "n_questions": 5,
+        "n_items": 10,
+        "evaluator_errors": 0,
+        "evaluator_version": 2
+      },
+      "dvqa-fire-len10-066": {
+        "esqa_mean": 0.0,
+        "answered_correct": 0.2,
+        "abstained": 0.6,
+        "correct_count": "0/5",
+        "retention_final": 0.4,
+        "categories": {
+          "unnecessary_abstention": 2,
+          "wrong_answer_evidence_missing": 1,
+          "abstained_evidence_missing": 1,
+          "invalid_citation": 1
+        },
+        "budget_fallbacks": 0,
+        "final_memory_tokens": 276,
+        "final_memory_lines": 6,
+        "n_questions": 5,
+        "n_items": 10,
+        "evaluator_errors": 0,
+        "evaluator_version": 2
+      }
+    }
+  },
+  "models": {
+    "memory_agent": "qwen2-vl-7b",
+    "meta_agent": "nemotron-12b-vl",
+    "answering_agent": "qwen2-vl-7b",
+    "evaluator": "qwen2-vl-7b",
+    "profile": "minimal",
+    "prompts": {
+      "memory/frame_minimal.txt": "c38af5be727b",
+      "meta/frames/harness_update_minimal.txt": "3d742a993eff",
+      "meta/frames/strategy_update_minimal.txt": "ff236306ed78",
+      "answering/prompt.txt": "27ea786833a0",
+      "judge/answer.txt": "62f39b3e1b14",
+      "judge/evidence.txt": "48a317919cb6"
+    },
+    "experiment": {
+      "profile": "minimal",
+      "budget": 512,
+      "memory_strategy": "dynamic",
+      "meta_harness": "dynamic",
+      "parent_selection": "best",
+      "iterations": 20,
+      "stream_selection": "list",
+      "selection_seed": 0,
+      "streams": [
+        "dvqa-hurricane-len10-010",
+        "dvqa-flood-len10-024",
+        "dvqa-earthquake-len10-054",
+        "dvqa-wildfire-len10-064",
+        "dvqa-fire-len10-066"
+      ],
+      "streams_from": "qwen_run1",
+      "exclude_streams_from": [],
+      "stream_length": 10,
+      "n_streams": 5,
+      "memory_agent": "qwen2-vl-7b",
+      "memory_method": "agent",
+      "eviction_policy": "source_aware",
+      "experiment": "short5_qwen_source_aware",
+      "dataset": "disastervqa",
+      "config": "/home/blahb/Projects/Agents282/configs/experiments/disastervqa.yaml",
+      "excluded_streams": []
+    }
+  },
+  "stream_length": 10,
+  "eval_streams": [
+    "dvqa-hurricane-len10-010",
+    "dvqa-flood-len10-024",
+    "dvqa-earthquake-len10-054",
+    "dvqa-wildfire-len10-064",
+    "dvqa-fire-len10-066"
+  ]
+}

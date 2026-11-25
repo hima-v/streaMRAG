@@ -1,0 +1,187 @@
+[
+  {
+    "step": 1,
+    "tokens": 39,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Firefighters are responding to a building fire at night.",
+        "sources": ["E01"]
+      }
+    ]
+  },
+  {
+    "step": 2,
+    "tokens": 84,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Firefighters are responding to a building fire at night.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "A firefighter is standing on top of a fire truck during a building fire at night.",
+        "sources": ["E02"]
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "tokens": 82,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo shows a building on fire with debris scattered around.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo shows a building on fire with debris scattered around.",
+        "sources": ["E03"]
+      }
+    ]
+  },
+  {
+    "step": 4,
+    "tokens": 82,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo shows a building on fire with debris scattered around.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo shows a building on fire with debris scattered around.",
+        "sources": ["E04"]
+      }
+    ]
+  },
+  {
+    "step": 5,
+    "tokens": 82,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo shows a building on fire with debris scattered around.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo shows a building on fire with debris scattered around.",
+        "sources": ["E05"]
+      }
+    ]
+  },
+  {
+    "step": 6,
+    "tokens": 82,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo shows a building on fire with debris scattered around.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo shows a building on fire with debris scattered around.",
+        "sources": ["E06"]
+      }
+    ]
+  },
+  {
+    "step": 7,
+    "tokens": 82,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo shows a building on fire with debris scattered around.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo shows a building on fire with debris scattered around.",
+        "sources": ["E07"]
+      }
+    ]
+  },
+  {
+    "step": 8,
+    "tokens": 123,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo shows a building on fire with debris scattered around.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo shows a building on fire with debris scattered around.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo shows a building on fire with debris scattered around.",
+        "sources": ["E08"]
+      }
+    ]
+  },
+  {
+    "step": 9,
+    "tokens": 164,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo shows a building on fire with debris scattered around.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo shows a building on fire with debris scattered around.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo shows a building on fire with debris scattered around.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media photo shows a building on fire with debris scattered around.",
+        "sources": ["E09"]
+      }
+    ]
+  },
+  {
+    "step": 10,
+    "tokens": 206,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo shows a building on fire with debris scattered around.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo shows a building on fire with debris scattered around.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo shows a building on fire with debris scattered around.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media photo shows a building on fire with debris scattered around.",
+        "sources": ["E09"]
+      },
+      {
+        "id": "m10",
+        "text": "A social media photo shows a building on fire with debris scattered around.",
+        "sources": ["E10"]
+      }
+    ]
+  }
+]

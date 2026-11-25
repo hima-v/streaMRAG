@@ -1,0 +1,12 @@
+<harness>
+Improve the memory strategy by adding explicit handling of timestamp-based conflict resolution, stricter aggregation rules for quantitative data, and enhanced spatial-temporal indexing. Retain only temporally latest or spatially closest versions of recurring observations. Structure entries as JSON-like objects with fields: {id, src, timestamp, observation_type, location, quantity, description}. Implement tiered summarization: keep raw visual details (<20 tokens) + aggregated stats (>20 tokens merged), delete intermediate summaries. Add explicit validation step comparing current observation against existing entries before storage—discard identical entries unless new data (quantities, locations, timestamps) alters conclusions. Prioritize multi-modal context preservation (e.g., "roof damage + debris distribution pattern").
+</harness>
+<rationale>
+Current strategy fails due to insufficient contextual specificity and poor temporal management. Modifications add: 
+1. Timestamp-based overwriting logic to resolve contradictions (fixes hurricane/flood case where recent photos showed intact roads contradicting earlier reports)
+2. Structured JSON formatting enabling precise field extraction (addresses earthquake example's missing debris material tracking)
+3. Tiered summarization preventing token bloat (explains better performance in wildfire scenario with complex sequences)
+4. Conflict validation reducing false negatives (would have caught misattributed railway/residential classification in flood test)
+
+These changes align with evaluation failures showing sensitivity to timing/order discrepancies and difficulty aggregating quantitative details across iterations. The proposed framework would maintain higher fidelity evidence traces while meeting strict memory constraints.
+</rationale>

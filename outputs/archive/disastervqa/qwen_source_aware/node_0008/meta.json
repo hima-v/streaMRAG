@@ -1,0 +1,196 @@
+{
+  "node_id": 8,
+  "parent_id": 4,
+  "dataset": "disastervqa",
+  "eval_stream": "len10",
+  "budget": 512,
+  "strategy_id": "cfcd4541db52",
+  "harness_id": "719831cd8829",
+  "switches": {
+    "memory_strategy": "dynamic",
+    "meta_harness": "dynamic"
+  },
+  "created_by": {
+    "kind": "meta",
+    "harness_rationale": "Current failures stem from insufficient contextual filtering and slot management. Proposed enhancements address root causes:\n\n1. **Visual Hierarchy:** Critical for differentiating between similar scenes (e.g., distinguishing commercial/residential areas requires architectural cues beyond vague descriptors)\n\n2. **Time-Aware Merging:** Explains why Q08 (fallen trees) failed - timestamp gaps created artificial ambiguity despite sequential imagery\n\n3. **Quantification Enforcement:** Directly addresses underreporting of specific objects (e.g., counting four ladders but storing generic \"large fire\")\n\n4. **Smart Eviction:** Current FIFO approach loses valuable early-phase data (Q01's person count dropped due to later overwrites)\n\nProvenance tracking integration would help resolve Q09/Flood's rail/highway confusion where same location appeared differently temporally. Implementation maintains token limits via aggressive merging thresholds (<2h) and importance-scoring based retention policies.",
+    "strategy_rationale": "This strategy addresses failures where excessive verbatim repetition diluted recall capacity while omitting actionable specifics. By enforcing hierarchical decomposition (macro-micro feature separation) and strict token quotas per content type, it ensures critical details survive memory constraints. Dynamic filtering prevents catastrophic interference \u2013 e.g., maintaining vehicle submersion metrics despite similar-looking flood images \u2013 while temporal anchoring enables accurate phase-based reasoning. The implementation avoids brittle heuristics through layered redundancy checks rather than simple deduplication, balancing persistence with adaptive refinement during iterative learning.",
+    "changes": [
+      "Improved upon initial approaches by:",
+      "1. Adding explicit spatial relationship prioritization (vs. flat semantic tagging)",
+      "2. Introducing conflict-resolution thresholds for claim expiration instead of arbitrary recency cutoffs",
+      "3. Specifying dual-stage verification criteria combining both contradiction detection AND evidentiary depth analysis",
+      "4. Refining budget allocation percentages based on failure mode analysis showing over-indexing on textual labels versus visual diagnostics",
+      "5. Clarifying temporal alignment mechanisms for multi-phase disaster scenarios beyond simple timestamp logging"
+    ],
+    "harness_parsed": true,
+    "strategy_parsed": true,
+    "meta_seed": 8000
+  },
+  "scores": {
+    "esqa_mean": 0.12,
+    "correct_count": "3/25",
+    "retention_final": 0.68,
+    "abstained": 0.68,
+    "budget_fallbacks": 1,
+    "evaluator_errors": 0,
+    "evaluator_version": 2,
+    "categories": {
+      "correct": 3,
+      "invalid_citation": 1,
+      "unnecessary_abstention": 11,
+      "abstained_evidence_missing": 6,
+      "wrong_answer_evidence_missing": 1,
+      "wrong_answer_evidence_in_memory": 2,
+      "unsupported": 1
+    },
+    "streams": {
+      "dvqa-hurricane-len10-010": {
+        "esqa_mean": 0.2,
+        "answered_correct": 0.2,
+        "abstained": 0.6,
+        "correct_count": "1/5",
+        "retention_final": 0.8,
+        "categories": {
+          "correct": 1,
+          "invalid_citation": 1,
+          "unnecessary_abstention": 3
+        },
+        "budget_fallbacks": 0,
+        "final_memory_tokens": 396,
+        "final_memory_lines": 8,
+        "n_questions": 5,
+        "n_items": 10,
+        "evaluator_errors": 0,
+        "evaluator_version": 2
+      },
+      "dvqa-flood-len10-024": {
+        "esqa_mean": 0.0,
+        "answered_correct": 0.0,
+        "abstained": 1.0,
+        "correct_count": "0/5",
+        "retention_final": 0.8,
+        "categories": {
+          "abstained_evidence_missing": 1,
+          "unnecessary_abstention": 4
+        },
+        "budget_fallbacks": 0,
+        "final_memory_tokens": 402,
+        "final_memory_lines": 8,
+        "n_questions": 5,
+        "n_items": 10,
+        "evaluator_errors": 0,
+        "evaluator_version": 2
+      },
+      "dvqa-earthquake-len10-054": {
+        "esqa_mean": 0.0,
+        "answered_correct": 0.0,
+        "abstained": 0.8,
+        "correct_count": "0/5",
+        "retention_final": 0.2,
+        "categories": {
+          "abstained_evidence_missing": 3,
+          "wrong_answer_evidence_missing": 1,
+          "unnecessary_abstention": 1
+        },
+        "budget_fallbacks": 0,
+        "final_memory_tokens": 155,
+        "final_memory_lines": 2,
+        "n_questions": 5,
+        "n_items": 10,
+        "evaluator_errors": 0,
+        "evaluator_version": 2
+      },
+      "dvqa-wildfire-len10-064": {
+        "esqa_mean": 0.2,
+        "answered_correct": 0.4,
+        "abstained": 0.4,
+        "correct_count": "1/5",
+        "retention_final": 1.0,
+        "categories": {
+          "wrong_answer_evidence_in_memory": 1,
+          "unnecessary_abstention": 2,
+          "correct": 1,
+          "unsupported": 1
+        },
+        "budget_fallbacks": 0,
+        "final_memory_tokens": 433,
+        "final_memory_lines": 9,
+        "n_questions": 5,
+        "n_items": 10,
+        "evaluator_errors": 0,
+        "evaluator_version": 2
+      },
+      "dvqa-fire-len10-066": {
+        "esqa_mean": 0.2,
+        "answered_correct": 0.2,
+        "abstained": 0.6,
+        "correct_count": "1/5",
+        "retention_final": 0.6,
+        "categories": {
+          "abstained_evidence_missing": 2,
+          "wrong_answer_evidence_in_memory": 1,
+          "correct": 1,
+          "unnecessary_abstention": 1
+        },
+        "budget_fallbacks": 1,
+        "final_memory_tokens": 493,
+        "final_memory_lines": 7,
+        "n_questions": 5,
+        "n_items": 10,
+        "evaluator_errors": 0,
+        "evaluator_version": 2
+      }
+    }
+  },
+  "models": {
+    "memory_agent": "qwen2-vl-7b",
+    "meta_agent": "nemotron-12b-vl",
+    "answering_agent": "qwen2-vl-7b",
+    "evaluator": "qwen2-vl-7b",
+    "profile": "minimal",
+    "prompts": {
+      "memory/frame_minimal.txt": "c38af5be727b",
+      "meta/frames/harness_update_minimal.txt": "3d742a993eff",
+      "meta/frames/strategy_update_minimal.txt": "ff236306ed78",
+      "answering/prompt.txt": "27ea786833a0",
+      "judge/answer.txt": "62f39b3e1b14",
+      "judge/evidence.txt": "48a317919cb6"
+    },
+    "experiment": {
+      "profile": "minimal",
+      "budget": 512,
+      "memory_strategy": "dynamic",
+      "meta_harness": "dynamic",
+      "parent_selection": "best",
+      "iterations": 20,
+      "stream_selection": "list",
+      "selection_seed": 0,
+      "streams": [
+        "dvqa-hurricane-len10-010",
+        "dvqa-flood-len10-024",
+        "dvqa-earthquake-len10-054",
+        "dvqa-wildfire-len10-064",
+        "dvqa-fire-len10-066"
+      ],
+      "streams_from": "qwen_run1",
+      "exclude_streams_from": [],
+      "stream_length": 10,
+      "n_streams": 5,
+      "memory_agent": "qwen2-vl-7b",
+      "memory_method": "agent",
+      "eviction_policy": "source_aware",
+      "experiment": "short5_qwen_source_aware",
+      "dataset": "disastervqa",
+      "config": "/home/blahb/Projects/Agents282/configs/experiments/disastervqa.yaml",
+      "excluded_streams": []
+    }
+  },
+  "stream_length": 10,
+  "eval_streams": [
+    "dvqa-hurricane-len10-010",
+    "dvqa-flood-len10-024",
+    "dvqa-earthquake-len10-054",
+    "dvqa-wildfire-len10-064",
+    "dvqa-fire-len10-066"
+  ]
+}

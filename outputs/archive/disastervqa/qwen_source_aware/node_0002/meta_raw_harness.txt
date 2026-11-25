@@ -1,0 +1,17 @@
+<harness>
+Improve the memory strategy to enhance accuracy while managing token usage effectively. Key modifications include:
+
+1. **Prioritize Distinctive Information**: Store only unique details per event (e.g., "flooded area" repeated redundantly in multiple entries can be consolidated into a single summary).
+
+2. **Structured Memory Encoding**: Use bullet-point summaries with clear labels (e.g., `EVT_E01: Flooded area; Submerged vehicles; Buildings intact`) to reduce verbosity and improve retrieval efficiency.
+
+3. **Automated Evidence Validation**: Before answering, cross-check retrieved memories against dataset facts to detect contradictions (e.g., if memory claims "no vehicles," but data confirms "yes," flag the inconsistency).
+
+4. **Token-Aware Retention Policy**: Evict redundant or low-value memories when nearing the 512-token limit (e.g., prioritize keeping distinctive events like disasters over repetitive descriptions).
+
+5. **Question-Specific Context Injection**: When answering, append relevant question metadata (e.g., "Focus on structural damage") to guide memory search toward pertinent information.
+
+This approach reduces redundancy, ensures critical details persist, and minimizes errors caused by outdated/invalid citations.
+</harness>
+<rationale>
+The original strategy suffered from redundant storage (e.g., repeating identical phrases across memories) and passive retention, leading to wasted tokens and unreliable answers. By enforcing structured encoding, we compactly capture essential facts (e.g., disaster type, key obstructions), improving recall precision. Token-aware eviction prevents overflow, while automated validation catches mismatches between stored evidence and actual data—critical for avoiding "wrong answer" outcomes. Question context injection sharpens focus during inference, addressing cases where vague memories led to abstentions despite available evidence. These changes directly target observed failures (unnecessary abstentions, invalid citations) without exceeding computational limits.</rationale>

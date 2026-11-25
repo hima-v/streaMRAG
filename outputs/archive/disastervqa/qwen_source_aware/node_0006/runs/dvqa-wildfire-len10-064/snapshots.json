@@ -1,0 +1,262 @@
+[
+  {
+    "step": 1,
+    "tokens": 69,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two people are seen running through a burning landscape, with flames engulfing the ground and charred tree stumps. The scene is dark and smoky, with the fire casting an eerie red glow.",
+        "sources": ["E01"]
+      }
+    ]
+  },
+  {
+    "step": 2,
+    "tokens": 122,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two people are seen running through a burning landscape, with flames engulfing the ground and charred tree stumps. The scene is dark and smoky, with the fire casting an eerie red glow.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "A social media user posted a photo of the burning landscape on Twitter, showing a trail of fire and smoke rising into the sky.",
+        "sources": ["E02"]
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "tokens": 122,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two people are seen running through a burning landscape, with flames engulfing the ground and charred tree stumps. The scene is dark and smoky, with the fire casting an eerie red glow.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media user posted a photo of the burning landscape on Twitter, showing a trail of fire and smoke rising into the sky.",
+        "sources": ["E03"]
+      }
+    ]
+  },
+  {
+    "step": 4,
+    "tokens": 122,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two people are seen running through a burning landscape, with flames engulfing the ground and charred tree stumps. The scene is dark and smoky, with the fire casting an eerie red glow.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media user posted a photo of the burning landscape on Twitter, showing a trail of fire and smoke rising into the sky.",
+        "sources": ["E04"]
+      }
+    ]
+  },
+  {
+    "step": 5,
+    "tokens": 175,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two people are seen running through a burning landscape, with flames engulfing the ground and charred tree stumps. The scene is dark and smoky, with the fire casting an eerie red glow.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media user posted a photo of the burning landscape on Twitter, showing a trail of fire and smoke rising into the sky.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media user posted a photo of the burning landscape on Twitter, showing a trail of fire and smoke rising into the sky.",
+        "sources": ["E05"]
+      }
+    ]
+  },
+  {
+    "step": 6,
+    "tokens": 228,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two people are seen running through a burning landscape, with flames engulfing the ground and charred tree stumps. The scene is dark and smoky, with the fire casting an eerie red glow.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media user posted a photo of the burning landscape on Twitter, showing a trail of fire and smoke rising into the sky.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media user posted a photo of the burning landscape on Twitter, showing a trail of fire and smoke rising into the sky.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media user posted a photo of the burning landscape on Twitter, showing a trail of fire and smoke rising into the sky.",
+        "sources": ["E06"]
+      }
+    ]
+  },
+  {
+    "step": 7,
+    "tokens": 281,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two people are seen running through a burning landscape, with flames engulfing the ground and charred tree stumps. The scene is dark and smoky, with the fire casting an eerie red glow.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media user posted a photo of the burning landscape on Twitter, showing a trail of fire and smoke rising into the sky.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media user posted a photo of the burning landscape on Twitter, showing a trail of fire and smoke rising into the sky.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media user posted a photo of the burning landscape on Twitter, showing a trail of fire and smoke rising into the sky.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media user posted a photo of the burning landscape on Twitter, showing a trail of fire and smoke rising into the sky.",
+        "sources": ["E07"]
+      }
+    ]
+  },
+  {
+    "step": 8,
+    "tokens": 334,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two people are seen running through a burning landscape, with flames engulfing the ground and charred tree stumps. The scene is dark and smoky, with the fire casting an eerie red glow.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media user posted a photo of the burning landscape on Twitter, showing a trail of fire and smoke rising into the sky.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media user posted a photo of the burning landscape on Twitter, showing a trail of fire and smoke rising into the sky.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media user posted a photo of the burning landscape on Twitter, showing a trail of fire and smoke rising into the sky.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media user posted a photo of the burning landscape on Twitter, showing a trail of fire and smoke rising into the sky.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media user posted a photo of the burning landscape on Twitter, showing a trail of fire and smoke rising into the sky.",
+        "sources": ["E08"]
+      }
+    ]
+  },
+  {
+    "step": 9,
+    "tokens": 387,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two people are seen running through a burning landscape, with flames engulfing the ground and charred tree stumps. The scene is dark and smoky, with the fire casting an eerie red glow.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media user posted a photo of the burning landscape on Twitter, showing a trail of fire and smoke rising into the sky.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media user posted a photo of the burning landscape on Twitter, showing a trail of fire and smoke rising into the sky.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media user posted a photo of the burning landscape on Twitter, showing a trail of fire and smoke rising into the sky.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media user posted a photo of the burning landscape on Twitter, showing a trail of fire and smoke rising into the sky.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media user posted a photo of the burning landscape on Twitter, showing a trail of fire and smoke rising into the sky.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media user posted a photo of the burning landscape on Twitter, showing a trail of fire and smoke rising into the sky.",
+        "sources": ["E09"]
+      }
+    ]
+  },
+  {
+    "step": 10,
+    "tokens": 441,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two people are seen running through a burning landscape, with flames engulfing the ground and charred tree stumps. The scene is dark and smoky, with the fire casting an eerie red glow.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media user posted a photo of the burning landscape on Twitter, showing a trail of fire and smoke rising into the sky.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media user posted a photo of the burning landscape on Twitter, showing a trail of fire and smoke rising into the sky.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media user posted a photo of the burning landscape on Twitter, showing a trail of fire and smoke rising into the sky.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media user posted a photo of the burning landscape on Twitter, showing a trail of fire and smoke rising into the sky.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media user posted a photo of the burning landscape on Twitter, showing a trail of fire and smoke rising into the sky.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media user posted a photo of the burning landscape on Twitter, showing a trail of fire and smoke rising into the sky.",
+        "sources": ["E09"]
+      },
+      {
+        "id": "m10",
+        "text": "A social media user posted a photo of the burning landscape on Twitter, showing a trail of fire and smoke rising into the sky.",
+        "sources": ["E10"]
+      }
+    ]
+  }
+]

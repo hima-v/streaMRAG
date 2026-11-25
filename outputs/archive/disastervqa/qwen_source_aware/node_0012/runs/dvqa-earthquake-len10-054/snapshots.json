@@ -1,0 +1,167 @@
+[
+  {
+    "step": 1,
+    "tokens": 127,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo from 2017-09-21 04:40 UTC shows a scene of a collapsed building with debris scattered around. There are two individuals on the right side of the image, one wearing a white hat and the other in a green vest. The building appears to be in a state of collapse, with parts of the structure hanging precariously. The image also shows a ladder leaning against the damaged building, suggesting ongoing rescue or investigation efforts.",
+        "sources": ["E01"]
+      }
+    ]
+  },
+  {
+    "step": 2,
+    "tokens": 110,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "...",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "A black car is parked on the street with a large crack in the asphalt. There are several people around the car, including a police officer in a black uniform and a man in a red shirt. The scene appears to be in a city setting with buildings in the background.",
+        "sources": ["E02"]
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "tokens": 168,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A black car is parked on the street with a large crack in the asphalt. There are several people around the car, including a police officer in a black uniform and a man in a red shirt. The scene appears to be in a city setting with buildings in the background.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo shows a black car parked on the street with a large crack in the asphalt. There are several people around the car, including a police officer in a black uniform and a man in a red shirt. The scene appears to be in a city setting with buildings in the background.",
+        "sources": ["E03"]
+      }
+    ]
+  },
+  {
+    "step": 4,
+    "tokens": 168,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A black car is parked on the street with a large crack in the asphalt. There are several people around the car, including a police officer in a black uniform and a man in a red shirt. The scene appears to be in a city setting with buildings in the background.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo shows a black car parked on the street with a large crack in the asphalt. There are several people around the car, including a police officer in a black uniform and a man in a red shirt. The scene appears to be in a city setting with buildings in the background.",
+        "sources": ["E04"]
+      }
+    ]
+  },
+  {
+    "step": 5,
+    "tokens": 168,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A black car is parked on the street with a large crack in the asphalt. There are several people around the car, including a police officer in a black uniform and a man in a red shirt. The scene appears to be in a city setting with buildings in the background.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo shows a black car parked on the street with a large crack in the asphalt. There are several people around the car, including a police officer in a black uniform and a man in a red shirt. The scene appears to be in a city setting with buildings in the background.",
+        "sources": ["E05"]
+      }
+    ]
+  },
+  {
+    "step": 6,
+    "tokens": 168,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A black car is parked on the street with a large crack in the asphalt. There are several people around the car, including a police officer in a black uniform and a man in a red shirt. The scene appears to be in a city setting with buildings in the background.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo shows a black car parked on the street with a large crack in the asphalt. There are several people around the car, including a police officer in a black uniform and a man in a red shirt. The scene appears to be in a city setting with buildings in the background.",
+        "sources": ["E06"]
+      }
+    ]
+  },
+  {
+    "step": 7,
+    "tokens": 168,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A black car is parked on the street with a large crack in the asphalt. There are several people around the car, including a police officer in a black uniform and a man in a red shirt. The scene appears to be in a city setting with buildings in the background.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo shows a black car parked on the street with a large crack in the asphalt. There are several people around the car, including a police officer in a black uniform and a man in a red shirt. The scene appears to be in a city setting with buildings in the background.",
+        "sources": ["E07"]
+      }
+    ]
+  },
+  {
+    "step": 8,
+    "tokens": 254,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A black car is parked on the street with a large crack in the asphalt. There are several people around the car, including a police officer in a black uniform and a man in a red shirt. The scene appears to be in a city setting with buildings in the background.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo shows a black car parked on the street with a large crack in the asphalt. There are several people around the car, including a police officer in a black uniform and a man in a red shirt. The scene appears to be in a city setting with buildings in the background.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo shows a black car parked on the street with a large crack in the asphalt. There are several people around the car, including a police officer in a black uniform and a man in a red shirt. The scene appears to be in a city setting with buildings in the background.",
+        "sources": ["E08"]
+      }
+    ]
+  },
+  {
+    "step": 9,
+    "tokens": 168,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A black car is parked on the street with a large crack in the asphalt. There are several people around the car, including a police officer in a black uniform and a man in a red shirt. The scene appears to be in a city setting with buildings in the background.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media photo shows a black car parked on the street with a large crack in the asphalt. There are several people around the car, including a police officer in a black uniform and a man in a red shirt. The scene appears to be in a city setting with buildings in the background.",
+        "sources": ["E09"]
+      }
+    ]
+  },
+  {
+    "step": 10,
+    "tokens": 255,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A black car is parked on the street with a large crack in the asphalt. There are several people around the car, including a police officer in a black uniform and a man in a red shirt. The scene appears to be in a city setting with buildings in the background.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media photo shows a black car parked on the street with a large crack in the asphalt. There are several people around the car, including a police officer in a black uniform and a man in a red shirt. The scene appears to be in a city setting with buildings in the background.",
+        "sources": ["E09"]
+      },
+      {
+        "id": "m10",
+        "text": "A social media photo shows a black car parked on the street with a large crack in the asphalt. There are several people around the car, including a police officer in a black uniform and a man in a red shirt. The scene appears to be in a city setting with buildings in the background.",
+        "sources": ["E10"]
+      }
+    ]
+  }
+]

@@ -1,0 +1,262 @@
+[
+  {
+    "step": 1,
+    "tokens": 45,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large building fire is being fought by firefighters using ladders and hoses.",
+        "sources": ["E01"]
+      }
+    ]
+  },
+  {
+    "step": 2,
+    "tokens": 93,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large building fire is being fought by firefighters using ladders and hoses.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "A social media photo shows a firefighter standing on top of a fire truck during a large building fire.",
+        "sources": ["E02"]
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "tokens": 93,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large building fire is being fought by firefighters using ladders and hoses.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo shows a firefighter standing on top of a fire truck during a large building fire.",
+        "sources": ["E03"]
+      }
+    ]
+  },
+  {
+    "step": 4,
+    "tokens": 93,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large building fire is being fought by firefighters using ladders and hoses.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo shows a firefighter standing on top of a fire truck during a large building fire.",
+        "sources": ["E04"]
+      }
+    ]
+  },
+  {
+    "step": 5,
+    "tokens": 141,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large building fire is being fought by firefighters using ladders and hoses.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo shows a firefighter standing on top of a fire truck during a large building fire.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo shows a firefighter standing on top of a fire truck during a large building fire.",
+        "sources": ["E05"]
+      }
+    ]
+  },
+  {
+    "step": 6,
+    "tokens": 189,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large building fire is being fought by firefighters using ladders and hoses.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo shows a firefighter standing on top of a fire truck during a large building fire.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo shows a firefighter standing on top of a fire truck during a large building fire.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo shows a firefighter standing on top of a fire truck during a large building fire.",
+        "sources": ["E06"]
+      }
+    ]
+  },
+  {
+    "step": 7,
+    "tokens": 237,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large building fire is being fought by firefighters using ladders and hoses.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo shows a firefighter standing on top of a fire truck during a large building fire.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo shows a firefighter standing on top of a fire truck during a large building fire.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo shows a firefighter standing on top of a fire truck during a large building fire.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo shows a firefighter standing on top of a fire truck during a large building fire.",
+        "sources": ["E07"]
+      }
+    ]
+  },
+  {
+    "step": 8,
+    "tokens": 285,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large building fire is being fought by firefighters using ladders and hoses.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo shows a firefighter standing on top of a fire truck during a large building fire.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo shows a firefighter standing on top of a fire truck during a large building fire.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo shows a firefighter standing on top of a fire truck during a large building fire.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo shows a firefighter standing on top of a fire truck during a large building fire.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo shows a firefighter standing on top of a fire truck during a large building fire.",
+        "sources": ["E08"]
+      }
+    ]
+  },
+  {
+    "step": 9,
+    "tokens": 333,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large building fire is being fought by firefighters using ladders and hoses.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo shows a firefighter standing on top of a fire truck during a large building fire.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo shows a firefighter standing on top of a fire truck during a large building fire.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo shows a firefighter standing on top of a fire truck during a large building fire.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo shows a firefighter standing on top of a fire truck during a large building fire.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo shows a firefighter standing on top of a fire truck during a large building fire.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media photo shows a firefighter standing on top of a fire truck during a large building fire.",
+        "sources": ["E09"]
+      }
+    ]
+  },
+  {
+    "step": 10,
+    "tokens": 382,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large building fire is being fought by firefighters using ladders and hoses.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo shows a firefighter standing on top of a fire truck during a large building fire.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo shows a firefighter standing on top of a fire truck during a large building fire.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo shows a firefighter standing on top of a fire truck during a large building fire.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo shows a firefighter standing on top of a fire truck during a large building fire.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo shows a firefighter standing on top of a fire truck during a large building fire.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media photo shows a firefighter standing on top of a fire truck during a large building fire.",
+        "sources": ["E09"]
+      },
+      {
+        "id": "m10",
+        "text": "A social media photo shows a firefighter standing on top of a fire truck during a large building fire.",
+        "sources": ["E10"]
+      }
+    ]
+  }
+]

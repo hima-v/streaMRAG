@@ -1,0 +1,342 @@
+[
+  {
+    "item_id": "E01",
+    "step": 1,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"Two people are seen running through a burning landscape, with flames engulfing the ground and charred tree stumps. The scene is dark and smoky, with the fire casting an eerie red glow.\", \"sources\": [\"E01\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"...\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Two people are seen running through a burning landscape, with flames engulfing the ground and charred tree stumps. The scene is dark and smoky, with the fire casting an eerie red glow.",
+              "sources": ["E01"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "...",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2", "update of unknown line m1"],
+        "tokens_after": 69
+      }
+    ],
+    "eviction_policy": "source_aware",
+    "tokens": 69,
+    "n_lines": 1,
+    "secs": 2.64
+  },
+  {
+    "item_id": "E02",
+    "step": 2,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media user posted a photo of the burning landscape on Twitter, showing a trail of fire and smoke rising into the sky.\", \"sources\": [\"E02\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Two people are seen running through a burning landscape, with flames engulfing the ground and charred tree stumps. The scene is dark and smoky, with the fire casting an eerie red glow.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media user posted a photo of the burning landscape on Twitter, showing a trail of fire and smoke rising into the sky.",
+              "sources": ["E02"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Two people are seen running through a burning landscape, with flames engulfing the ground and charred tree stumps. The scene is dark and smoky, with the fire casting an eerie red glow.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 122
+      }
+    ],
+    "eviction_policy": "source_aware",
+    "tokens": 122,
+    "n_lines": 2,
+    "secs": 3.22
+  },
+  {
+    "item_id": "E03",
+    "step": 3,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media user posted a photo of the burning landscape on Twitter, showing a trail of fire and smoke rising into the sky.\", \"sources\": [\"E03\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Two people are seen running through a burning landscape, with flames engulfing the ground and charred tree stumps. The scene is dark and smoky, with the fire casting an eerie red glow.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media user posted a photo of the burning landscape on Twitter, showing a trail of fire and smoke rising into the sky.",
+              "sources": ["E03"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Two people are seen running through a burning landscape, with flames engulfing the ground and charred tree stumps. The scene is dark and smoky, with the fire casting an eerie red glow.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": [],
+        "tokens_after": 122
+      }
+    ],
+    "eviction_policy": "source_aware",
+    "tokens": 122,
+    "n_lines": 2,
+    "secs": 3.34
+  },
+  {
+    "item_id": "E04",
+    "step": 4,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media user posted a photo of the burning landscape on Twitter, showing a trail of fire and smoke rising into the sky.\", \"sources\": [\"E04\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Two people are seen running through a burning landscape, with flames engulfing the ground and charred tree stumps. The scene is dark and smoky, with the fire casting an eerie red glow.\", \"sources\": [\"E01\"]}], \"delete\": [\"m3\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media user posted a photo of the burning landscape on Twitter, showing a trail of fire and smoke rising into the sky.",
+              "sources": ["E04"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Two people are seen running through a burning landscape, with flames engulfing the ground and charred tree stumps. The scene is dark and smoky, with the fire casting an eerie red glow.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m3"]
+        },
+        "problems": [],
+        "tokens_after": 122
+      }
+    ],
+    "eviction_policy": "source_aware",
+    "tokens": 122,
+    "n_lines": 2,
+    "secs": 3.01
+  },
+  {
+    "item_id": "E05",
+    "step": 5,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media user posted a photo of the burning landscape on Twitter, showing a trail of fire and smoke rising into the sky.\", \"sources\": [\"E05\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Two people are seen running through a burning landscape, with flames engulfing the ground and charred tree stumps. The scene is dark and smoky, with the fire casting an eerie red glow.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media user posted a photo of the burning landscape on Twitter, showing a trail of fire and smoke rising into the sky.",
+              "sources": ["E05"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Two people are seen running through a burning landscape, with flames engulfing the ground and charred tree stumps. The scene is dark and smoky, with the fire casting an eerie red glow.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 175
+      }
+    ],
+    "eviction_policy": "source_aware",
+    "tokens": 175,
+    "n_lines": 3,
+    "secs": 3.04
+  },
+  {
+    "item_id": "E06",
+    "step": 6,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media user posted a photo of the burning landscape on Twitter, showing a trail of fire and smoke rising into the sky.\", \"sources\": [\"E06\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Two people are seen running through a burning landscape, with flames engulfing the ground and charred tree stumps. The scene is dark and smoky, with the fire casting an eerie red glow.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media user posted a photo of the burning landscape on Twitter, showing a trail of fire and smoke rising into the sky.",
+              "sources": ["E06"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Two people are seen running through a burning landscape, with flames engulfing the ground and charred tree stumps. The scene is dark and smoky, with the fire casting an eerie red glow.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 228
+      }
+    ],
+    "eviction_policy": "source_aware",
+    "tokens": 228,
+    "n_lines": 4,
+    "secs": 3.38
+  },
+  {
+    "item_id": "E07",
+    "step": 7,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media user posted a photo of the burning landscape on Twitter, showing a trail of fire and smoke rising into the sky.\", \"sources\": [\"E07\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Two people are seen running through a burning landscape, with flames engulfing the ground and charred tree stumps. The scene is dark and smoky, with the fire casting an eerie red glow.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media user posted a photo of the burning landscape on Twitter, showing a trail of fire and smoke rising into the sky.",
+              "sources": ["E07"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Two people are seen running through a burning landscape, with flames engulfing the ground and charred tree stumps. The scene is dark and smoky, with the fire casting an eerie red glow.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 281
+      }
+    ],
+    "eviction_policy": "source_aware",
+    "tokens": 281,
+    "n_lines": 5,
+    "secs": 3.37
+  },
+  {
+    "item_id": "E08",
+    "step": 8,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media user posted a photo of the burning landscape on Twitter, showing a trail of fire and smoke rising into the sky.\", \"sources\": [\"E08\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Two people are seen running through a burning landscape, with flames engulfing the ground and charred tree stumps. The scene is dark and smoky, with the fire casting an eerie red glow.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media user posted a photo of the burning landscape on Twitter, showing a trail of fire and smoke rising into the sky.",
+              "sources": ["E08"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Two people are seen running through a burning landscape, with flames engulfing the ground and charred tree stumps. The scene is dark and smoky, with the fire casting an eerie red glow.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 334
+      }
+    ],
+    "eviction_policy": "source_aware",
+    "tokens": 334,
+    "n_lines": 6,
+    "secs": 3.41
+  },
+  {
+    "item_id": "E09",
+    "step": 9,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media user posted a photo of the burning landscape on Twitter, showing a trail of fire and smoke rising into the sky.\", \"sources\": [\"E09\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Two people are seen running through a burning landscape, with flames engulfing the ground and charred tree stumps. The scene is dark and smoky, with the fire casting an eerie red glow.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media user posted a photo of the burning landscape on Twitter, showing a trail of fire and smoke rising into the sky.",
+              "sources": ["E09"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Two people are seen running through a burning landscape, with flames engulfing the ground and charred tree stumps. The scene is dark and smoky, with the fire casting an eerie red glow.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 387
+      }
+    ],
+    "eviction_policy": "source_aware",
+    "tokens": 387,
+    "n_lines": 7,
+    "secs": 3.41
+  },
+  {
+    "item_id": "E10",
+    "step": 10,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media user posted a photo of the burning landscape on Twitter, showing a trail of fire and smoke rising into the sky.\", \"sources\": [\"E10\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Two people are seen running through a burning landscape, with flames engulfing the ground and charred tree stumps. The scene is dark and smoky, with the fire casting an eerie red glow.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media user posted a photo of the burning landscape on Twitter, showing a trail of fire and smoke rising into the sky.",
+              "sources": ["E10"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Two people are seen running through a burning landscape, with flames engulfing the ground and charred tree stumps. The scene is dark and smoky, with the fire casting an eerie red glow.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 441
+      }
+    ],
+    "eviction_policy": "source_aware",
+    "tokens": 441,
+    "n_lines": 8,
+    "secs": 3.27
+  }
+]

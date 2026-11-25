@@ -1,0 +1,342 @@
+[
+  {
+    "item_id": "E01",
+    "step": 1,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo was posted on Twitter on October 8, 2015, showing a flooded area with multiple campers submerged in water.\", \"sources\": [\"E01\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"The photo shows a flooded area with multiple campers submerged in water.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo was posted on Twitter on October 8, 2015, showing a flooded area with multiple campers submerged in water.",
+              "sources": ["E01"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "The photo shows a flooded area with multiple campers submerged in water.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2", "update of unknown line m1"],
+        "tokens_after": 58
+      }
+    ],
+    "eviction_policy": "source_aware",
+    "tokens": 58,
+    "n_lines": 1,
+    "secs": 2.74
+  },
+  {
+    "item_id": "E02",
+    "step": 2,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo was posted on Twitter on December 3, 2015, showing a flooded area with multiple campers submerged in water.\", \"sources\": [\"E02\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo was posted on Twitter on October 8, 2015, showing a flooded area with multiple campers submerged in water.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo was posted on Twitter on December 3, 2015, showing a flooded area with multiple campers submerged in water.",
+              "sources": ["E02"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo was posted on Twitter on October 8, 2015, showing a flooded area with multiple campers submerged in water.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 116
+      }
+    ],
+    "eviction_policy": "source_aware",
+    "tokens": 116,
+    "n_lines": 2,
+    "secs": 3.22
+  },
+  {
+    "item_id": "E03",
+    "step": 3,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo was posted on Twitter on December 3, 2015, showing a flooded area with multiple campers submerged in water.\", \"sources\": [\"E03\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo was posted on Twitter on October 8, 2015, showing a flooded area with multiple campers submerged in water.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo was posted on Twitter on December 3, 2015, showing a flooded area with multiple campers submerged in water.",
+              "sources": ["E03"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo was posted on Twitter on October 8, 2015, showing a flooded area with multiple campers submerged in water.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": [],
+        "tokens_after": 116
+      }
+    ],
+    "eviction_policy": "source_aware",
+    "tokens": 116,
+    "n_lines": 2,
+    "secs": 3.03
+  },
+  {
+    "item_id": "E04",
+    "step": 4,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo was posted on Twitter on December 3, 2015, showing a flooded area with multiple campers submerged in water.\", \"sources\": [\"E04\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo was posted on Twitter on October 8, 2015, showing a flooded area with multiple campers submerged in water.\", \"sources\": [\"E01\"]}], \"delete\": [\"m3\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo was posted on Twitter on December 3, 2015, showing a flooded area with multiple campers submerged in water.",
+              "sources": ["E04"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo was posted on Twitter on October 8, 2015, showing a flooded area with multiple campers submerged in water.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m3"]
+        },
+        "problems": [],
+        "tokens_after": 116
+      }
+    ],
+    "eviction_policy": "source_aware",
+    "tokens": 116,
+    "n_lines": 2,
+    "secs": 3.1
+  },
+  {
+    "item_id": "E05",
+    "step": 5,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo was posted on Twitter on December 3, 2015, showing a flooded area with multiple campers submerged in water.\", \"sources\": [\"E05\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo was posted on Twitter on October 8, 2015, showing a flooded area with multiple campers submerged in water.\", \"sources\": [\"E01\"]}], \"delete\": [\"m4\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo was posted on Twitter on December 3, 2015, showing a flooded area with multiple campers submerged in water.",
+              "sources": ["E05"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo was posted on Twitter on October 8, 2015, showing a flooded area with multiple campers submerged in water.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m4"]
+        },
+        "problems": [],
+        "tokens_after": 116
+      }
+    ],
+    "eviction_policy": "source_aware",
+    "tokens": 116,
+    "n_lines": 2,
+    "secs": 3.22
+  },
+  {
+    "item_id": "E06",
+    "step": 6,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo was posted on Twitter on December 4, 2015, showing a flooded area with multiple campers submerged in water.\", \"sources\": [\"E06\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo was posted on Twitter on October 8, 2015, showing a flooded area with multiple campers submerged in water.\", \"sources\": [\"E01\"]}], \"delete\": [\"m5\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo was posted on Twitter on December 4, 2015, showing a flooded area with multiple campers submerged in water.",
+              "sources": ["E06"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo was posted on Twitter on October 8, 2015, showing a flooded area with multiple campers submerged in water.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m5"]
+        },
+        "problems": [],
+        "tokens_after": 116
+      }
+    ],
+    "eviction_policy": "source_aware",
+    "tokens": 116,
+    "n_lines": 2,
+    "secs": 2.94
+  },
+  {
+    "item_id": "E07",
+    "step": 7,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo was posted on Twitter on December 4, 2015, showing a flooded area with multiple campers submerged in water.\", \"sources\": [\"E07\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo was posted on Twitter on October 8, 2015, showing a flooded area with multiple campers submerged in water.\", \"sources\": [\"E01\"]}], \"delete\": [\"m6\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo was posted on Twitter on December 4, 2015, showing a flooded area with multiple campers submerged in water.",
+              "sources": ["E07"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo was posted on Twitter on October 8, 2015, showing a flooded area with multiple campers submerged in water.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m6"]
+        },
+        "problems": [],
+        "tokens_after": 116
+      }
+    ],
+    "eviction_policy": "source_aware",
+    "tokens": 116,
+    "n_lines": 2,
+    "secs": 2.84
+  },
+  {
+    "item_id": "E08",
+    "step": 8,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo was posted on Twitter on December 4, 2015, showing a flooded area with multiple campers submerged in water.\", \"sources\": [\"E08\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo was posted on Twitter on October 8, 2015, showing a flooded area with multiple campers submerged in water.\", \"sources\": [\"E01\"]}], \"delete\": [\"m7\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo was posted on Twitter on December 4, 2015, showing a flooded area with multiple campers submerged in water.",
+              "sources": ["E08"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo was posted on Twitter on October 8, 2015, showing a flooded area with multiple campers submerged in water.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m7"]
+        },
+        "problems": [],
+        "tokens_after": 116
+      }
+    ],
+    "eviction_policy": "source_aware",
+    "tokens": 116,
+    "n_lines": 2,
+    "secs": 3.23
+  },
+  {
+    "item_id": "E09",
+    "step": 9,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo was posted on Twitter on December 4, 2015, showing a flooded area with multiple campers submerged in water.\", \"sources\": [\"E09\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo was posted on Twitter on October 8, 2015, showing a flooded area with multiple campers submerged in water.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo was posted on Twitter on December 4, 2015, showing a flooded area with multiple campers submerged in water.",
+              "sources": ["E09"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo was posted on Twitter on October 8, 2015, showing a flooded area with multiple campers submerged in water.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 174
+      }
+    ],
+    "eviction_policy": "source_aware",
+    "tokens": 174,
+    "n_lines": 3,
+    "secs": 2.96
+  },
+  {
+    "item_id": "E10",
+    "step": 10,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo was posted on Twitter on December 4, 2015, showing a flooded area with multiple campers submerged in water.\", \"sources\": [\"E10\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo was posted on Twitter on October 8, 2015, showing a flooded area with multiple campers submerged in water.\", \"sources\": [\"E01\"]}], \"delete\": [\"m8\", \"m9\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo was posted on Twitter on December 4, 2015, showing a flooded area with multiple campers submerged in water.",
+              "sources": ["E10"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo was posted on Twitter on October 8, 2015, showing a flooded area with multiple campers submerged in water.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m8", "m9"]
+        },
+        "problems": [],
+        "tokens_after": 117
+      }
+    ],
+    "eviction_policy": "source_aware",
+    "tokens": 117,
+    "n_lines": 2,
+    "secs": 3.03
+  }
+]

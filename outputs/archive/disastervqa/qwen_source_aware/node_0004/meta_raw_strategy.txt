@@ -1,0 +1,20 @@
+<strategy>
+Prioritize retaining unique visual details critical for answering downstream questions while aggressively pruning redundant information. For each new evidence item, extract only distinctive elements directly observable in the image (e.g., "floodwater submerging vehicles" vs. generic descriptions like "a flooded area"). Use structured encoding: store spatial relationships ("building X behind car Y"), temporal clues (time-stamped posts indicating sequence), and domain-specific attributes (e.g., "commercial building" vs. "residential"). Implement hard deletion rules: remove duplicate claims (e.g., repeated mentions of "buildings submerged") unless updated with conflicting info. Allocate fixed slots per event type (e.g., max 2 memories per disaster category) to enforce brevity. When updating, merge related observations into single entries (e.g., combine multiple references to "fallen trees" into quantified summaries if visible in subsequent images). Discard low-value metadata (social media platform tags) unless relevant to provenance disputes. During updates, explicitly overwrite prior incomplete records if newer evidence resolves ambiguities.
+</strategy>
+
+<rationale>
+Current failures stem from inconsistent detail retention—memorizing entire phrases verbatim wastes space while omitting actionable specifics leads to incorrect citations. By enforcing granularity standards and active deduplication, we maintain higher information density within token limits. Structured encoding enables precise retrieval matching question requirements (e.g., distinguishing between different types of obstructions). Temporal anchoring helps resolve contradictions between similar-looking events occurring at different times. Hard deletion prevents memory bloat from repetitive content while preserving essential context through strategic overwrites.
+</rationale>
+
+<changes>
+1. Added explicit granularity enforcement: Store atomic units (counts, materials, specific locations) rather than vague generalizations  
+2. Implemented temporal prioritization: Newer evidence supersedes older contradictory statements  
+3. Introduced slot-based organization: Reserve dedicated memory blocks for key categories (vehicles/water/fire/damage)  
+4. Enhanced contradiction resolution: Cross-reference timestamps to identify and eliminate outdated information  
+5. Added quantitative tracking: Maintain implicit counts where possible instead of repeating descriptors  
+6. Revised update protocol: Mandatory comparison against existing memory before storage to prevent redundancy  
+7. Removed non-visual metadata: Exclude platform-specific identifiers unless referenced in queries  
+8. Adopted progressive summarization: Consolidate sequential similar observations into cumulative reports  
+9. Added validation checks: Verify extracted features match actual visual content via cross-referencing  
+10. Implemented decay scheduling: Periodic review-and-purge cycle triggered upon reaching 80% capacity
+</changes>

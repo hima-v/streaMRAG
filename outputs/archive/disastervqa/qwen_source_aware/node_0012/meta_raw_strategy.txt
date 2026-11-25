@@ -1,0 +1,20 @@
+<strategy>
+**Memory Strategy:**  
+Prioritize granular, observable specifics (e.g., "submerged vehicles" vs. vague "victims") and preserve quantitative data (distances, counts) and temporal/spatial relationships (e.g., "left of X," "before Y event"). Use structured versions (e.g., `flood_depth_v2`) to track incremental updates, avoiding full replacements. Retain high-value details like domains (industrial/residential), event sequences, and anomalies (conflicting reports). Prune low-relevance content (<20% lexical match with queries) and merge redundant descriptions. Employ tiered compression: 60% core facts, 30% relations/context, 10% metadata. Bind observations to pseudo-coordinates for ambiguity resolution. Cache extras via embeddings; overwrite outdated entries strictly. Flag contradictions (e.g., impossible timelines) for review. Maintain ≤512 tokens via hierarchical summarization.  
+
+**Evaluation Outcomes:**  
+Initial implementation failed due to overly broad summaries (e.g., "flooded area" missing vehicle submergence), misplaced deletions (erasing critical evidence), and insufficient attention to quantitative contrasts (e.g., ignoring depth differences between steps). Cross-modal anchoring and conflict-resolution protocols were underutilized, leading to unresolved contradictions. Token management favored recency over specificity, causing early deletion of nuanced details.  
+</rationale>  
+
+<changes>  
+1. **Granular Detail Extraction**: Replace generic phrases with precise observations (e.g., "blue pickup truck halfway submerged" instead of "vehicles underwater").  
+2. **Version-Controlled Updates**: Append version numbers to semantic keys (e.g., `building_status_v2`) to log changes without erasure.  
+3. **Temporal/Spatial Encoding**: Annotate relationships explicitly (e.g., "power poles toppled *after* flood onset," "rescue efforts initiated 2hr post-event").  
+4. **Quantitative Rigor**: Record measurable contrasts (e.g., "tree 3m taller than barrier," "crowd density ≥50/person per frame").  
+5. **Conflict Resolution Flags**: Mark unresolved discrepancies (e.g., "rain intensity varies across accounts") instead of silent merges.  
+6. **Cross-Modal Anchors**: Embed pseudo-coordinates ([x,y,z]) alongside descriptions to link observations (e.g., "debris cluster @ x=left-middle, z=upper-third").  
+7. **Dynamic Weighting**: Let newer evidence override prior claims unless contradicted by immutable markers (e.g., addresses, geotags).  
+8. **Lossy Compression**: Substitute repetitive clauses with `{repeat}` tokens pending verification (e.g., "emergency crews {repeat} deployed").  
+9. **Anomaly Detection**: Validate claims against real-world constraints (e.g., reject "nighttime snowfall" if sun position conflicts with timestamp).  
+10. **Priority-Based Retention**: Reserve 60% of tokens for actionable details (causes/effects), 30% for spatio-temporal links, 10% for unverified metadata.  
+</changes>

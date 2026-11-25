@@ -1,0 +1,297 @@
+[
+  {
+    "step": 1,
+    "tokens": 57,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo was posted on Twitter on October 8, 2015, showing a flooded area with mobile homes submerged in water.",
+        "sources": ["E01"]
+      }
+    ]
+  },
+  {
+    "step": 2,
+    "tokens": 114,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo was posted on Twitter on October 8, 2015, showing a flooded area with mobile homes submerged in water.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "A social media photo was posted on Twitter on December 3, 2015, showing a flooded area with mobile homes submerged in water.",
+        "sources": ["E02"]
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "tokens": 56,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "...",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "...",
+        "sources": ["E03"]
+      }
+    ]
+  },
+  {
+    "step": 4,
+    "tokens": 135,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "m1 [src E01 @2015-10-08 23:05 UTC] ...",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "...",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "Social media photo (Twitter), posted 2015-12-03 17:20 UTC.",
+        "sources": ["E04"]
+      }
+    ]
+  },
+  {
+    "step": 5,
+    "tokens": 161,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A man is swimming in a river, holding onto a rope.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "...",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "Social media photo (Twitter), posted 2015-12-03 17:20 UTC.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A man is swimming in a river, holding onto a rope.",
+        "sources": ["E05"]
+      }
+    ]
+  },
+  {
+    "step": 6,
+    "tokens": 201,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A man is swimming in a river, holding onto a rope.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "...",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "Social media photo (Twitter), posted 2015-12-03 17:20 UTC.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A man is swimming in a river, holding onto a rope.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A man is swimming in a river, holding onto a rope.",
+        "sources": ["E06"]
+      }
+    ]
+  },
+  {
+    "step": 7,
+    "tokens": 241,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A man is swimming in a river, holding onto a rope.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "...",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "Social media photo (Twitter), posted 2015-12-03 17:20 UTC.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A man is swimming in a river, holding onto a rope.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A man is swimming in a river, holding onto a rope.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A man is swimming in a river, holding onto a rope.",
+        "sources": ["E07"]
+      }
+    ]
+  },
+  {
+    "step": 8,
+    "tokens": 281,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A man is swimming in a river, holding onto a rope.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "...",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "Social media photo (Twitter), posted 2015-12-03 17:20 UTC.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A man is swimming in a river, holding onto a rope.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A man is swimming in a river, holding onto a rope.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A man is swimming in a river, holding onto a rope.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A man is swimming in a river, holding onto a rope.",
+        "sources": ["E08"]
+      }
+    ]
+  },
+  {
+    "step": 9,
+    "tokens": 321,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A man is swimming in a river, holding onto a rope.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "...",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "Social media photo (Twitter), posted 2015-12-03 17:20 UTC.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A man is swimming in a river, holding onto a rope.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A man is swimming in a river, holding onto a rope.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A man is swimming in a river, holding onto a rope.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A man is swimming in a river, holding onto a rope.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "A man is swimming in a river, holding onto a rope.",
+        "sources": ["E09"]
+      }
+    ]
+  },
+  {
+    "step": 10,
+    "tokens": 362,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A man is swimming in a river, holding onto a rope.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "...",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "Social media photo (Twitter), posted 2015-12-03 17:20 UTC.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A man is swimming in a river, holding onto a rope.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A man is swimming in a river, holding onto a rope.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A man is swimming in a river, holding onto a rope.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A man is swimming in a river, holding onto a rope.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "A man is swimming in a river, holding onto a rope.",
+        "sources": ["E09"]
+      },
+      {
+        "id": "m10",
+        "text": "A man is swimming in a river, holding onto a rope.",
+        "sources": ["E10"]
+      }
+    ]
+  }
+]

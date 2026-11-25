@@ -1,0 +1,342 @@
+[
+  {
+    "item_id": "E01",
+    "step": 1,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A large fire has broken out in a multi-story building.\", \"sources\": [\"E01\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"The fire is being fought by multiple fire departments.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A large fire has broken out in a multi-story building.",
+              "sources": ["E01"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "The fire is being fought by multiple fire departments.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2", "update of unknown line m1"],
+        "tokens_after": 39
+      }
+    ],
+    "eviction_policy": "source_aware",
+    "tokens": 39,
+    "n_lines": 1,
+    "secs": 2.2
+  },
+  {
+    "item_id": "E02",
+    "step": 2,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A large fire has broken out in a multi-story building.\", \"sources\": [\"E02\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A large fire has broken out in a multi-story building.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A large fire has broken out in a multi-story building.",
+              "sources": ["E02"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A large fire has broken out in a multi-story building.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 78
+      }
+    ],
+    "eviction_policy": "source_aware",
+    "tokens": 78,
+    "n_lines": 2,
+    "secs": 2.26
+  },
+  {
+    "item_id": "E03",
+    "step": 3,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo of the fire was posted on June 1, 2017, at 1:57 PM UTC.\", \"sources\": [\"E03\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A large fire has broken out in a multi-story building.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo of the fire was posted on June 1, 2017, at 1:57 PM UTC.",
+              "sources": ["E03"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A large fire has broken out in a multi-story building.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": [],
+        "tokens_after": 95
+      }
+    ],
+    "eviction_policy": "source_aware",
+    "tokens": 95,
+    "n_lines": 2,
+    "secs": 2.5
+  },
+  {
+    "item_id": "E04",
+    "step": 4,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo of the fire was posted on June 25, 2017, at 12:20 AM UTC.\", \"sources\": [\"E04\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A large fire has broken out in a multi-story building.\", \"sources\": [\"E01\"]}], \"delete\": [\"m3\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo of the fire was posted on June 25, 2017, at 12:20 AM UTC.",
+              "sources": ["E04"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A large fire has broken out in a multi-story building.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m3"]
+        },
+        "problems": [],
+        "tokens_after": 97
+      }
+    ],
+    "eviction_policy": "source_aware",
+    "tokens": 97,
+    "n_lines": 2,
+    "secs": 2.74
+  },
+  {
+    "item_id": "E05",
+    "step": 5,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo of the fire was posted on June 25, 2017, at 9:15 PM UTC.\", \"sources\": [\"E05\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A large fire has broken out in a multi-story building.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo of the fire was posted on June 25, 2017, at 9:15 PM UTC.",
+              "sources": ["E05"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A large fire has broken out in a multi-story building.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 154
+      }
+    ],
+    "eviction_policy": "source_aware",
+    "tokens": 154,
+    "n_lines": 3,
+    "secs": 2.46
+  },
+  {
+    "item_id": "E06",
+    "step": 6,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo of the fire was posted on July 21, 2017, at 12:43 AM UTC.\", \"sources\": [\"E06\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A large fire has broken out in a multi-story building.\", \"sources\": [\"E01\"]}], \"delete\": [\"m4\", \"m5\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo of the fire was posted on July 21, 2017, at 12:43 AM UTC.",
+              "sources": ["E06"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A large fire has broken out in a multi-story building.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m4", "m5"]
+        },
+        "problems": [],
+        "tokens_after": 97
+      }
+    ],
+    "eviction_policy": "source_aware",
+    "tokens": 97,
+    "n_lines": 2,
+    "secs": 2.89
+  },
+  {
+    "item_id": "E07",
+    "step": 7,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo of the fire was posted on August 23, 2017, at 12:46 AM UTC.\", \"sources\": [\"E07\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A large fire has broken out in a multi-story building.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo of the fire was posted on August 23, 2017, at 12:46 AM UTC.",
+              "sources": ["E07"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A large fire has broken out in a multi-story building.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 155
+      }
+    ],
+    "eviction_policy": "source_aware",
+    "tokens": 155,
+    "n_lines": 3,
+    "secs": 2.73
+  },
+  {
+    "item_id": "E08",
+    "step": 8,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo of the fire was posted on August 28, 2017, at 10:43 AM UTC.\", \"sources\": [\"E08\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A large fire has broken out in a multi-story building.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo of the fire was posted on August 28, 2017, at 10:43 AM UTC.",
+              "sources": ["E08"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A large fire has broken out in a multi-story building.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 213
+      }
+    ],
+    "eviction_policy": "source_aware",
+    "tokens": 213,
+    "n_lines": 4,
+    "secs": 2.46
+  },
+  {
+    "item_id": "E09",
+    "step": 9,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo of the fire was posted on September 6, 2017, at 9:22 AM UTC.\", \"sources\": [\"E09\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A large fire has broken out in a multi-story building.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo of the fire was posted on September 6, 2017, at 9:22 AM UTC.",
+              "sources": ["E09"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A large fire has broken out in a multi-story building.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 269
+      }
+    ],
+    "eviction_policy": "source_aware",
+    "tokens": 269,
+    "n_lines": 5,
+    "secs": 2.43
+  },
+  {
+    "item_id": "E10",
+    "step": 10,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo of the fire was posted on September 8, 2017, at 3:41 AM UTC.\", \"sources\": [\"E10\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A large fire has broken out in a multi-story building.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo of the fire was posted on September 8, 2017, at 3:41 AM UTC.",
+              "sources": ["E10"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A large fire has broken out in a multi-story building.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 326
+      }
+    ],
+    "eviction_policy": "source_aware",
+    "tokens": 326,
+    "n_lines": 6,
+    "secs": 2.72
+  }
+]

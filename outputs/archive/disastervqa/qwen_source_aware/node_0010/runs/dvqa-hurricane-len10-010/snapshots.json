@@ -1,0 +1,232 @@
+[
+  {
+    "step": 1,
+    "tokens": 40,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Aerial view of a flooded area with submerged vehicles and buildings.",
+        "sources": ["E01"]
+      }
+    ]
+  },
+  {
+    "step": 2,
+    "tokens": 81,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Aerial view of a flooded area with submerged vehicles and buildings.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "A social media photo shows a flooded area with submerged vehicles and buildings.",
+        "sources": ["E02"]
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "tokens": 81,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Aerial view of a flooded area with submerged vehicles and buildings.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo shows a flooded area with submerged vehicles and buildings.",
+        "sources": ["E03"]
+      }
+    ]
+  },
+  {
+    "step": 4,
+    "tokens": 81,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Aerial view of a flooded area with submerged vehicles and buildings.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo shows a flooded area with submerged vehicles and buildings.",
+        "sources": ["E04"]
+      }
+    ]
+  },
+  {
+    "step": 5,
+    "tokens": 81,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Aerial view of a flooded area with submerged vehicles and buildings.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo shows a flooded area with submerged vehicles and buildings.",
+        "sources": ["E05"]
+      }
+    ]
+  },
+  {
+    "step": 6,
+    "tokens": 122,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Aerial view of a flooded area with submerged vehicles and buildings.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo shows a flooded area with submerged vehicles and buildings.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo shows a flooded area with submerged vehicles and buildings.",
+        "sources": ["E06"]
+      }
+    ]
+  },
+  {
+    "step": 7,
+    "tokens": 163,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Aerial view of a flooded area with submerged vehicles and buildings.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo shows a flooded area with submerged vehicles and buildings.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo shows a flooded area with submerged vehicles and buildings.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo shows a flooded area with submerged vehicles and buildings.",
+        "sources": ["E07"]
+      }
+    ]
+  },
+  {
+    "step": 8,
+    "tokens": 204,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Aerial view of a flooded area with submerged vehicles and buildings.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo shows a flooded area with submerged vehicles and buildings.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo shows a flooded area with submerged vehicles and buildings.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo shows a flooded area with submerged vehicles and buildings.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo shows a flooded area with submerged vehicles and buildings.",
+        "sources": ["E08"]
+      }
+    ]
+  },
+  {
+    "step": 9,
+    "tokens": 245,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Aerial view of a flooded area with submerged vehicles and buildings.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo shows a flooded area with submerged vehicles and buildings.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo shows a flooded area with submerged vehicles and buildings.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo shows a flooded area with submerged vehicles and buildings.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo shows a flooded area with submerged vehicles and buildings.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media photo shows a flooded area with submerged vehicles and buildings.",
+        "sources": ["E09"]
+      }
+    ]
+  },
+  {
+    "step": 10,
+    "tokens": 287,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Aerial view of a flooded area with submerged vehicles and buildings.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo shows a flooded area with submerged vehicles and buildings.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo shows a flooded area with submerged vehicles and buildings.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo shows a flooded area with submerged vehicles and buildings.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo shows a flooded area with submerged vehicles and buildings.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media photo shows a flooded area with submerged vehicles and buildings.",
+        "sources": ["E09"]
+      },
+      {
+        "id": "m10",
+        "text": "A social media photo shows a flooded area with submerged vehicles and buildings.",
+        "sources": ["E10"]
+      }
+    ]
+  }
+]

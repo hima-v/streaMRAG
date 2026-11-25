@@ -1,0 +1,157 @@
+[
+  {
+    "step": 1,
+    "tokens": 99,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo from 2017-09-21 04:40 UTC shows a scene of a collapsed building with debris scattered around. Two individuals are seen working on the site, one on a ladder and the other on the ground. The building appears to be a multi-story structure with significant damage to the upper levels.",
+        "sources": ["E01"]
+      }
+    ]
+  },
+  {
+    "step": 2,
+    "tokens": 98,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "...",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "A black car is parked on a cracked road with debris around it. There are several people standing around the car, including a police officer and a man in a red shirt. The scene appears to be in daylight.",
+        "sources": ["E02"]
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "tokens": 154,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo posted on Twitter shows a black car parked on a cracked road with debris around it. There are several people standing around the car, including a police officer and a man in a red shirt. The scene appears to be in daylight.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo posted on Twitter shows a black car parked on a cracked road with debris around it. There are several people standing around the car, including a police officer and a man in a red shirt. The scene appears to be in daylight.",
+        "sources": ["E03"]
+      }
+    ]
+  },
+  {
+    "step": 4,
+    "tokens": 154,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo posted on Twitter shows a black car parked on a cracked road with debris around it. There are several people standing around the car, including a police officer and a man in a red shirt. The scene appears to be in daylight.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo posted on Twitter shows a black car parked on a cracked road with debris around it. There are several people standing around the car, including a police officer and a man in a red shirt. The scene appears to be in daylight.",
+        "sources": ["E04"]
+      }
+    ]
+  },
+  {
+    "step": 5,
+    "tokens": 154,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo posted on Twitter shows a black car parked on a cracked road with debris around it. There are several people standing around the car, including a police officer and a man in a red shirt. The scene appears to be in daylight.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo posted on Twitter shows a black car parked on a cracked road with debris around it. There are several people standing around the car, including a police officer and a man in a red shirt. The scene appears to be in daylight.",
+        "sources": ["E05"]
+      }
+    ]
+  },
+  {
+    "step": 6,
+    "tokens": 154,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo posted on Twitter shows a black car parked on a cracked road with debris around it. There are several people standing around the car, including a police officer and a man in a red shirt. The scene appears to be in daylight.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo posted on Twitter shows a black car parked on a cracked road with debris around it. There are several people standing around the car, including a police officer and a man in a red shirt. The scene appears to be in daylight.",
+        "sources": ["E06"]
+      }
+    ]
+  },
+  {
+    "step": 7,
+    "tokens": 154,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo posted on Twitter shows a black car parked on a cracked road with debris around it. There are several people standing around the car, including a police officer and a man in a red shirt. The scene appears to be in daylight.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo posted on Twitter shows a black car parked on a cracked road with debris around it. There are several people standing around the car, including a police officer and a man in a red shirt. The scene appears to be in daylight.",
+        "sources": ["E07"]
+      }
+    ]
+  },
+  {
+    "step": 8,
+    "tokens": 154,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo posted on Twitter shows a black car parked on a cracked road with debris around it. There are several people standing around the car, including a police officer and a man in a red shirt. The scene appears to be in daylight.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo posted on Twitter shows a black car parked on a cracked road with debris around it. There are several people standing around the car, including a police officer and a man in a red shirt. The scene appears to be in daylight.",
+        "sources": ["E08"]
+      }
+    ]
+  },
+  {
+    "step": 9,
+    "tokens": 154,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo posted on Twitter shows a black car parked on a cracked road with debris around it. There are several people standing around the car, including a police officer and a man in a red shirt. The scene appears to be in daylight.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media photo posted on Twitter shows a black car parked on a cracked road with debris around it. There are several people standing around the car, including a police officer and a man in a red shirt. The scene appears to be in daylight.",
+        "sources": ["E09"]
+      }
+    ]
+  },
+  {
+    "step": 10,
+    "tokens": 155,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo posted on Twitter shows a black car parked on a cracked road with debris around it. There are several people standing around the car, including a police officer and a man in a red shirt. The scene appears to be in daylight.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m10",
+        "text": "A social media photo posted on Twitter shows a black car parked on a cracked road with debris around it. There are several people standing around the car, including a police officer and a man in a red shirt. The scene appears to be in daylight.",
+        "sources": ["E10"]
+      }
+    ]
+  }
+]

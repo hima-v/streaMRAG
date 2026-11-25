@@ -1,0 +1,207 @@
+[
+  {
+    "step": 1,
+    "tokens": 106,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large fire broke out in a multi-story building at night, with multiple fire trucks and emergency responders on the scene. The building has several fire escapes and ladders are being used to access the upper floors. There are many firefighters and paramedics present, and an American flag is visible in the background. The scene is chaotic and intense, with smoke and lights illuminating the area.",
+        "sources": ["E01"]
+      }
+    ]
+  },
+  {
+    "step": 2,
+    "tokens": 187,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large fire broke out in a multi-story building at night, with multiple fire trucks and emergency responders on the scene. The building has several fire escapes and ladders are being used to access the upper floors. There are many firefighters and paramedics present, and an American flag is visible in the background. The scene is chaotic and intense, with smoke and lights illuminating the area.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "A social media photo was posted on May 13, 2017, at 19:00 UTC, showing a large fire in a multi-story building at night. The scene is chaotic and intense, with smoke and lights illuminating the area.",
+        "sources": ["E02"]
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "tokens": 186,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large fire broke out in a multi-story building at night, with multiple fire trucks and emergency responders on the scene. The building has several fire escapes and ladders are being used to access the upper floors. There are many firefighters and paramedics present, and an American flag is visible in the background. The scene is chaotic and intense, with smoke and lights illuminating the area.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo was posted on June 1, 2017, at 13:57 UTC, showing a large fire in a multi-story building at night. The scene is chaotic and intense, with smoke and lights illuminating the area.",
+        "sources": ["E03"]
+      }
+    ]
+  },
+  {
+    "step": 4,
+    "tokens": 187,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large fire broke out in a multi-story building at night, with multiple fire trucks and emergency responders on the scene. The building has several fire escapes and ladders are being used to access the upper floors. There are many firefighters and paramedics present, and an American flag is visible in the background. The scene is chaotic and intense, with smoke and lights illuminating the area.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo was posted on June 25, 2017, at 00:20 UTC, showing a large fire in a multi-story building at night. The scene is chaotic and intense, with smoke and lights illuminating the area.",
+        "sources": ["E04"]
+      }
+    ]
+  },
+  {
+    "step": 5,
+    "tokens": 187,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large fire broke out in a multi-story building at night, with multiple fire trucks and emergency responders on the scene. The building has several fire escapes and ladders are being used to access the upper floors. There are many firefighters and paramedics present, and an American flag is visible in the background. The scene is chaotic and intense, with smoke and lights illuminating the area.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo was posted on June 25, 2017, at 21:15 UTC, showing a large fire in a multi-story building at night. The scene is chaotic and intense, with smoke and lights illuminating the area.",
+        "sources": ["E05"]
+      }
+    ]
+  },
+  {
+    "step": 6,
+    "tokens": 187,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large fire broke out in a multi-story building at night, with multiple fire trucks and emergency responders on the scene. The building has several fire escapes and ladders are being used to access the upper floors. There are many firefighters and paramedics present, and an American flag is visible in the background. The scene is chaotic and intense, with smoke and lights illuminating the area.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo was posted on July 21, 2017, at 00:43 UTC, showing a large fire in a multi-story building at night. The scene is chaotic and intense, with smoke and lights illuminating the area.",
+        "sources": ["E06"]
+      }
+    ]
+  },
+  {
+    "step": 7,
+    "tokens": 268,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large fire broke out in a multi-story building at night, with multiple fire trucks and emergency responders on the scene. The building has several fire escapes and ladders are being used to access the upper floors. There are many firefighters and paramedics present, and an American flag is visible in the background. The scene is chaotic and intense, with smoke and lights illuminating the area.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo was posted on July 21, 2017, at 00:43 UTC, showing a large fire in a multi-story building at night. The scene is chaotic and intense, with smoke and lights illuminating the area.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo was posted on August 23, 2017, at 00:46 UTC, showing a large fire in a multi-story building at night. The scene is chaotic and intense, with smoke and lights illuminating the area.",
+        "sources": ["E07"]
+      }
+    ]
+  },
+  {
+    "step": 8,
+    "tokens": 349,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large fire broke out in a multi-story building at night, with multiple fire trucks and emergency responders on the scene. The building has several fire escapes and ladders are being used to access the upper floors. There are many firefighters and paramedics present, and an American flag is visible in the background. The scene is chaotic and intense, with smoke and lights illuminating the area.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo was posted on July 21, 2017, at 00:43 UTC, showing a large fire in a multi-story building at night. The scene is chaotic and intense, with smoke and lights illuminating the area.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo was posted on August 23, 2017, at 00:46 UTC, showing a large fire in a multi-story building at night. The scene is chaotic and intense, with smoke and lights illuminating the area.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo was posted on August 28, 2017, at 10:43 UTC, showing a large fire in a multi-story building at night. The scene is chaotic and intense, with smoke and lights illuminating the area.",
+        "sources": ["E08"]
+      }
+    ]
+  },
+  {
+    "step": 9,
+    "tokens": 429,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large fire broke out in a multi-story building at night, with multiple fire trucks and emergency responders on the scene. The building has several fire escapes and ladders are being used to access the upper floors. There are many firefighters and paramedics present, and an American flag is visible in the background. The scene is chaotic and intense, with smoke and lights illuminating the area.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo was posted on July 21, 2017, at 00:43 UTC, showing a large fire in a multi-story building at night. The scene is chaotic and intense, with smoke and lights illuminating the area.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo was posted on August 23, 2017, at 00:46 UTC, showing a large fire in a multi-story building at night. The scene is chaotic and intense, with smoke and lights illuminating the area.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo was posted on August 28, 2017, at 10:43 UTC, showing a large fire in a multi-story building at night. The scene is chaotic and intense, with smoke and lights illuminating the area.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media photo was posted on September 6, 2017, at 09:22 UTC, showing a large fire in a multi-story building at night. The scene is chaotic and intense, with smoke and lights illuminating the area.",
+        "sources": ["E09"]
+      }
+    ]
+  },
+  {
+    "step": 10,
+    "tokens": 510,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large fire broke out in a multi-story building at night, with multiple fire trucks and emergency responders on the scene. The building has several fire escapes and ladders are being used to access the upper floors. There are many firefighters and paramedics present, and an American flag is visible in the background. The scene is chaotic and intense, with smoke and lights illuminating the area.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo was posted on July 21, 2017, at 00:43 UTC, showing a large fire in a multi-story building at night. The scene is chaotic and intense, with smoke and lights illuminating the area.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo was posted on August 23, 2017, at 00:46 UTC, showing a large fire in a multi-story building at night. The scene is chaotic and intense, with smoke and lights illuminating the area.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo was posted on August 28, 2017, at 10:43 UTC, showing a large fire in a multi-story building at night. The scene is chaotic and intense, with smoke and lights illuminating the area.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media photo was posted on September 6, 2017, at 09:22 UTC, showing a large fire in a multi-story building at night. The scene is chaotic and intense, with smoke and lights illuminating the area.",
+        "sources": ["E09"]
+      },
+      {
+        "id": "m10",
+        "text": "A social media photo was posted on September 8, 2017, at 03:41 UTC, showing a large fire in a multi-story building at night. The scene is chaotic and intense, with smoke and lights illuminating the area.",
+        "sources": ["E10"]
+      }
+    ]
+  }
+]

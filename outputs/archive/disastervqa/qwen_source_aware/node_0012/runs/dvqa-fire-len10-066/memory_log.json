@@ -1,0 +1,342 @@
+[
+  {
+    "item_id": "E01",
+    "step": 1,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A large fire broke out in a residential building at night.\", \"sources\": [\"E01\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"The fire was in a residential building.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A large fire broke out in a residential building at night.",
+              "sources": ["E01"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "The fire was in a residential building.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2", "update of unknown line m1"],
+        "tokens_after": 39
+      }
+    ],
+    "eviction_policy": "source_aware",
+    "tokens": 39,
+    "n_lines": 1,
+    "secs": 2.19
+  },
+  {
+    "item_id": "E02",
+    "step": 2,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A firefighter is on the roof of a fire truck, monitoring the situation.\", \"sources\": [\"E02\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A large fire broke out in a residential building at night, with a firefighter on the roof of a fire truck monitoring the situation.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A firefighter is on the roof of a fire truck, monitoring the situation.",
+              "sources": ["E02"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A large fire broke out in a residential building at night, with a firefighter on the roof of a fire truck monitoring the situation.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 97
+      }
+    ],
+    "eviction_policy": "source_aware",
+    "tokens": 97,
+    "n_lines": 2,
+    "secs": 2.73
+  },
+  {
+    "item_id": "E03",
+    "step": 3,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a large fire burning in a residential area, with debris scattered around and a fire truck on the scene.\", \"sources\": [\"E03\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A large fire broke out in a residential building at night, with a firefighter on the roof of a fire truck monitoring the situation.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a large fire burning in a residential area, with debris scattered around and a fire truck on the scene.",
+              "sources": ["E03"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A large fire broke out in a residential building at night, with a firefighter on the roof of a fire truck monitoring the situation.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": [],
+        "tokens_after": 107
+      }
+    ],
+    "eviction_policy": "source_aware",
+    "tokens": 107,
+    "n_lines": 2,
+    "secs": 2.82
+  },
+  {
+    "item_id": "E04",
+    "step": 4,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a large fire burning in a residential area, with debris scattered around and a fire truck on the scene.\", \"sources\": [\"E04\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A large fire broke out in a residential building at night, with a firefighter on the roof of a fire truck monitoring the situation.\", \"sources\": [\"E01\"]}], \"delete\": [\"m3\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a large fire burning in a residential area, with debris scattered around and a fire truck on the scene.",
+              "sources": ["E04"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A large fire broke out in a residential building at night, with a firefighter on the roof of a fire truck monitoring the situation.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m3"]
+        },
+        "problems": [],
+        "tokens_after": 107
+      }
+    ],
+    "eviction_policy": "source_aware",
+    "tokens": 107,
+    "n_lines": 2,
+    "secs": 3.02
+  },
+  {
+    "item_id": "E05",
+    "step": 5,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a large fire burning in a residential area, with debris scattered around and a fire truck on the scene.\", \"sources\": [\"E05\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A large fire broke out in a residential building at night, with a firefighter on the roof of a fire truck monitoring the situation.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a large fire burning in a residential area, with debris scattered around and a fire truck on the scene.",
+              "sources": ["E05"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A large fire broke out in a residential building at night, with a firefighter on the roof of a fire truck monitoring the situation.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 160
+      }
+    ],
+    "eviction_policy": "source_aware",
+    "tokens": 160,
+    "n_lines": 3,
+    "secs": 2.78
+  },
+  {
+    "item_id": "E06",
+    "step": 6,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a large fire burning in a residential area, with debris scattered around and a fire truck on the scene.\", \"sources\": [\"E06\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A large fire broke out in a residential building at night, with a firefighter on the roof of a fire truck monitoring the situation.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a large fire burning in a residential area, with debris scattered around and a fire truck on the scene.",
+              "sources": ["E06"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A large fire broke out in a residential building at night, with a firefighter on the roof of a fire truck monitoring the situation.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 213
+      }
+    ],
+    "eviction_policy": "source_aware",
+    "tokens": 213,
+    "n_lines": 4,
+    "secs": 3.07
+  },
+  {
+    "item_id": "E07",
+    "step": 7,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a large fire burning in a residential area, with debris scattered around and a fire truck on the scene.\", \"sources\": [\"E07\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A large fire broke out in a residential building at night, with a firefighter on the roof of a fire truck monitoring the situation.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a large fire burning in a residential area, with debris scattered around and a fire truck on the scene.",
+              "sources": ["E07"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A large fire broke out in a residential building at night, with a firefighter on the roof of a fire truck monitoring the situation.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 266
+      }
+    ],
+    "eviction_policy": "source_aware",
+    "tokens": 266,
+    "n_lines": 5,
+    "secs": 3.05
+  },
+  {
+    "item_id": "E08",
+    "step": 8,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a large fire burning in a residential area, with debris scattered around and a fire truck on the scene.\", \"sources\": [\"E08\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A large fire broke out in a residential building at night, with a firefighter on the roof of a fire truck monitoring the situation.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a large fire burning in a residential area, with debris scattered around and a fire truck on the scene.",
+              "sources": ["E08"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A large fire broke out in a residential building at night, with a firefighter on the roof of a fire truck monitoring the situation.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 319
+      }
+    ],
+    "eviction_policy": "source_aware",
+    "tokens": 319,
+    "n_lines": 6,
+    "secs": 2.77
+  },
+  {
+    "item_id": "E09",
+    "step": 9,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a large fire burning in a residential area, with debris scattered around and a fire truck on the scene.\", \"sources\": [\"E09\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A large fire broke out in a residential building at night, with a firefighter on the roof of a fire truck monitoring the situation.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a large fire burning in a residential area, with debris scattered around and a fire truck on the scene.",
+              "sources": ["E09"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A large fire broke out in a residential building at night, with a firefighter on the roof of a fire truck monitoring the situation.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 372
+      }
+    ],
+    "eviction_policy": "source_aware",
+    "tokens": 372,
+    "n_lines": 7,
+    "secs": 2.78
+  },
+  {
+    "item_id": "E10",
+    "step": 10,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo posted on Twitter on September 8, 2017, at 3:41 AM UTC shows a large fire burning in a residential area, with debris scattered around and a fire truck on the scene.\", \"sources\": [\"E10\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A large fire broke out in a residential building at night, with a firefighter on the roof of a fire truck monitoring the situation.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo posted on Twitter on September 8, 2017, at 3:41 AM UTC shows a large fire burning in a residential area, with debris scattered around and a fire truck on the scene.",
+              "sources": ["E10"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A large fire broke out in a residential building at night, with a firefighter on the roof of a fire truck monitoring the situation.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 448
+      }
+    ],
+    "eviction_policy": "source_aware",
+    "tokens": 448,
+    "n_lines": 8,
+    "secs": 3.67
+  }
+]

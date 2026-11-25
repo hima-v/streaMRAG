@@ -1,0 +1,162 @@
+[
+  {
+    "step": 1,
+    "tokens": 65,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo from 2017-09-21 04:40 UTC shows a disaster site with a collapsed building and two workers on a ladder.",
+        "sources": ["E01"]
+      }
+    ]
+  },
+  {
+    "step": 2,
+    "tokens": 130,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo from 2017-09-21 04:40 UTC shows a disaster site with a collapsed building and two workers on a ladder.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "A social media photo from 2017-09-21 06:02 UTC shows a disaster site with a collapsed building and two workers on a ladder.",
+        "sources": ["E02"]
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "tokens": 130,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo from 2017-09-21 04:40 UTC shows a disaster site with a collapsed building and two workers on a ladder.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo from 2017-09-21 06:18 UTC shows a disaster site with a collapsed building and two workers on a ladder.",
+        "sources": ["E03"]
+      }
+    ]
+  },
+  {
+    "step": 4,
+    "tokens": 130,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo from 2017-09-21 04:40 UTC shows a disaster site with a collapsed building and two workers on a ladder.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo from 2017-09-21 06:50 UTC shows a disaster site with a collapsed building and two workers on a ladder.",
+        "sources": ["E04"]
+      }
+    ]
+  },
+  {
+    "step": 5,
+    "tokens": 130,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo from 2017-09-21 04:40 UTC shows a disaster site with a collapsed building and two workers on a ladder.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo from 2017-09-21 07:14 UTC shows a disaster site with a collapsed building and two workers on a ladder.",
+        "sources": ["E05"]
+      }
+    ]
+  },
+  {
+    "step": 6,
+    "tokens": 130,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo from 2017-09-21 04:40 UTC shows a disaster site with a collapsed building and two workers on a ladder.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo from 2017-09-21 07:16 UTC shows a disaster site with a collapsed building and two workers on a ladder.",
+        "sources": ["E06"]
+      }
+    ]
+  },
+  {
+    "step": 7,
+    "tokens": 130,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo from 2017-09-21 04:40 UTC shows a disaster site with a collapsed building and two workers on a ladder.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo from 2017-09-21 08:35 UTC shows a disaster site with a collapsed building and two workers on a ladder.",
+        "sources": ["E07"]
+      }
+    ]
+  },
+  {
+    "step": 8,
+    "tokens": 130,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo from 2017-09-21 04:40 UTC shows a disaster site with a collapsed building and two workers on a ladder.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo from 2017-09-21 08:44 UTC shows a disaster site with a collapsed building and two workers on a ladder.",
+        "sources": ["E08"]
+      }
+    ]
+  },
+  {
+    "step": 9,
+    "tokens": 130,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo from 2017-09-21 04:40 UTC shows a disaster site with a collapsed building and two workers on a ladder.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media photo from 2017-09-21 10:33 UTC shows a disaster site with a collapsed building and two workers on a ladder.",
+        "sources": ["E09"]
+      }
+    ]
+  },
+  {
+    "step": 10,
+    "tokens": 161,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "...",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media photo from 2017-09-21 10:33 UTC shows a disaster site with a collapsed building and two workers on a ladder.",
+        "sources": ["E09"]
+      },
+      {
+        "id": "m10",
+        "text": "A social media photo from 2017-09-21 10:48 UTC shows a disaster site with a collapsed building and a dog searching through the rubble.",
+        "sources": ["E10"]
+      }
+    ]
+  }
+]
