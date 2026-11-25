@@ -1,0 +1,15 @@
+<strategy>
+Maintain a dynamic JSON-formatted memory log with granular metadata extraction (atomic key-value pairs like "sys_affected" for impacted systems), priority-aware retention (top 10 entries via relevance scoring), and hybrid eviction (low-relevance/critical data deletion). Compress verbose descriptions (>200 chars) using schema-driven abbreviations ("sys_affected"). Attach cross-modal embeddings for semantic retrieval. Track 512-token limit strictly, evicting oldest entries during overflow. Validate schemas (types: string/int/number) to prevent corruption.  
+</strategy>
+
+<rationale>
+Original strategy had rigid chronology-only eviction and no prioritization, causing loss of high-value context (e.g., E03 flood data deleted before query use). New approach uses relevance scores combining event criticality (severity/damage extent) and query history patterns to retain actionable data. Atomic decomposition improves search precision (e.g., distinguishing "resilient" vs "partially blocked" roads). Embeddings bridge non-tagged relationships (e.g., linking flood-damaged transport networks across streams). Schema validation ensures consistent parsing, avoiding ambiguity. These changes directly address failure modes where critical context was prematurely discarded.  
+</rationale>
+
+<changes>
+1. Replaced fixed chronological eviction with priority-aware retention using dual scoring factors (question frequency × disaster severity), preventing deletion of mission-critical context.  
+2. Added semantic embeddings for implicit relationship detection between disparate events (e.g., matching earthquake debris analysis with post-collapse rescue operations).  
+3. Implemented granular metadata splitting (e.g., separating fluid depth measurements into max/avg) to reduce noise and improve retrieval accuracy.  
+4. Strengthened schema enforcement with type constraints (int/number) versus original freeform storage, eliminating structural drift failures observed in E10 wildfire responses.  
+5. Optimized token usage via hierarchical compression rules (text fields only), enabling retention of 2-3x more detailed entries per slot.  
+</changes>

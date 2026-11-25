@@ -1,0 +1,297 @@
+[
+  {
+    "step": 1,
+    "tokens": 40,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two men are seen working on a damaged building after a disaster.",
+        "sources": ["E01"]
+      }
+    ]
+  },
+  {
+    "step": 2,
+    "tokens": 72,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "...",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "A black car is seen on a cracked road with a large crack in the asphalt.",
+        "sources": ["E02"]
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "tokens": 84,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "...",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo (Twitter) was posted at 2017-09-21 06:18 UTC.",
+        "sources": ["E03"]
+      }
+    ]
+  },
+  {
+    "step": 4,
+    "tokens": 140,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "...",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo (Twitter) was posted at 2017-09-21 06:18 UTC.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo (Twitter) was posted at 2017-09-21 06:50 UTC.",
+        "sources": ["E04"]
+      }
+    ]
+  },
+  {
+    "step": 5,
+    "tokens": 196,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "...",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo (Twitter) was posted at 2017-09-21 06:18 UTC.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo (Twitter) was posted at 2017-09-21 06:50 UTC.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo (Twitter) was posted at 2017-09-21 07:14 UTC.",
+        "sources": ["E05"]
+      }
+    ]
+  },
+  {
+    "step": 6,
+    "tokens": 280,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo (Twitter) was posted at 2017-09-21 04:40 UTC.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo (Twitter) was posted at 2017-09-21 06:18 UTC.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo (Twitter) was posted at 2017-09-21 06:50 UTC.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo (Twitter) was posted at 2017-09-21 07:14 UTC.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo (Twitter) was posted at 2017-09-21 07:16 UTC.",
+        "sources": ["E06"]
+      }
+    ]
+  },
+  {
+    "step": 7,
+    "tokens": 336,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo (Twitter) was posted at 2017-09-21 04:40 UTC.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo (Twitter) was posted at 2017-09-21 06:18 UTC.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo (Twitter) was posted at 2017-09-21 06:50 UTC.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo (Twitter) was posted at 2017-09-21 07:14 UTC.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo (Twitter) was posted at 2017-09-21 07:16 UTC.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo (Twitter) was posted at 2017-09-21 08:35 UTC.",
+        "sources": ["E07"]
+      }
+    ]
+  },
+  {
+    "step": 8,
+    "tokens": 392,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo (Twitter) was posted at 2017-09-21 04:40 UTC.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo (Twitter) was posted at 2017-09-21 06:18 UTC.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo (Twitter) was posted at 2017-09-21 06:50 UTC.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo (Twitter) was posted at 2017-09-21 07:14 UTC.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo (Twitter) was posted at 2017-09-21 07:16 UTC.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo (Twitter) was posted at 2017-09-21 08:35 UTC.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo (Twitter) was posted at 2017-09-21 08:44 UTC.",
+        "sources": ["E08"]
+      }
+    ]
+  },
+  {
+    "step": 9,
+    "tokens": 448,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo (Twitter) was posted at 2017-09-21 04:40 UTC.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo (Twitter) was posted at 2017-09-21 06:18 UTC.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo (Twitter) was posted at 2017-09-21 06:50 UTC.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo (Twitter) was posted at 2017-09-21 07:14 UTC.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo (Twitter) was posted at 2017-09-21 07:16 UTC.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo (Twitter) was posted at 2017-09-21 08:35 UTC.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo (Twitter) was posted at 2017-09-21 08:44 UTC.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media photo (Twitter) was posted at 2017-09-21 10:33 UTC.",
+        "sources": ["E09"]
+      }
+    ]
+  },
+  {
+    "step": 10,
+    "tokens": 505,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo (Twitter) was posted at 2017-09-21 04:40 UTC.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo (Twitter) was posted at 2017-09-21 06:18 UTC.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo (Twitter) was posted at 2017-09-21 06:50 UTC.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo (Twitter) was posted at 2017-09-21 07:14 UTC.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo (Twitter) was posted at 2017-09-21 07:16 UTC.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo (Twitter) was posted at 2017-09-21 08:35 UTC.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo (Twitter) was posted at 2017-09-21 08:44 UTC.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media photo (Twitter) was posted at 2017-09-21 10:33 UTC.",
+        "sources": ["E09"]
+      },
+      {
+        "id": "m10",
+        "text": "A social media photo (Twitter) was posted at 2017-09-21 10:48 UTC.",
+        "sources": ["E10"]
+      }
+    ]
+  }
+]

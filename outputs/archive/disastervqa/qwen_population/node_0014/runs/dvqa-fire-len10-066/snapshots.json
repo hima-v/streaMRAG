@@ -1,0 +1,262 @@
+[
+  {
+    "step": 1,
+    "tokens": 36,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large building is on fire at night.",
+        "sources": ["E01"]
+      }
+    ]
+  },
+  {
+    "step": 2,
+    "tokens": 74,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large building is on fire at night.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "A fire is burning in a large building at night.",
+        "sources": ["E02"]
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "tokens": 80,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo shows a large building on fire at night.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo shows a large building on fire at night.",
+        "sources": ["E03"]
+      }
+    ]
+  },
+  {
+    "step": 4,
+    "tokens": 80,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo shows a large building on fire at night.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo shows a large building on fire at night.",
+        "sources": ["E04"]
+      }
+    ]
+  },
+  {
+    "step": 5,
+    "tokens": 120,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo shows a large building on fire at night.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo shows a large building on fire at night.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo shows a large building on fire at night.",
+        "sources": ["E05"]
+      }
+    ]
+  },
+  {
+    "step": 6,
+    "tokens": 160,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo shows a large building on fire at night.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo shows a large building on fire at night.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo shows a large building on fire at night.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo shows a large building on fire at night.",
+        "sources": ["E06"]
+      }
+    ]
+  },
+  {
+    "step": 7,
+    "tokens": 200,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo shows a large building on fire at night.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo shows a large building on fire at night.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo shows a large building on fire at night.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo shows a large building on fire at night.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo shows a large building on fire at night.",
+        "sources": ["E07"]
+      }
+    ]
+  },
+  {
+    "step": 8,
+    "tokens": 240,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo shows a large building on fire at night.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo shows a large building on fire at night.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo shows a large building on fire at night.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo shows a large building on fire at night.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo shows a large building on fire at night.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo shows a large building on fire at night.",
+        "sources": ["E08"]
+      }
+    ]
+  },
+  {
+    "step": 9,
+    "tokens": 280,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo shows a large building on fire at night.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo shows a large building on fire at night.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo shows a large building on fire at night.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo shows a large building on fire at night.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo shows a large building on fire at night.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo shows a large building on fire at night.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media photo shows a large building on fire at night.",
+        "sources": ["E09"]
+      }
+    ]
+  },
+  {
+    "step": 10,
+    "tokens": 321,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo shows a large building on fire at night.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo shows a large building on fire at night.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo shows a large building on fire at night.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo shows a large building on fire at night.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo shows a large building on fire at night.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo shows a large building on fire at night.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media photo shows a large building on fire at night.",
+        "sources": ["E09"]
+      },
+      {
+        "id": "m10",
+        "text": "A social media photo shows a large building on fire at night.",
+        "sources": ["E10"]
+      }
+    ]
+  }
+]

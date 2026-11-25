@@ -1,0 +1,198 @@
+{
+  "node_id": 8,
+  "parent_id": 2,
+  "dataset": "disastervqa",
+  "eval_stream": "len10",
+  "budget": 512,
+  "strategy_id": "697d2080ad32",
+  "harness_id": "f9e1f9c5d8bf",
+  "switches": {
+    "memory_strategy": "dynamic",
+    "meta_harness": "dynamic"
+  },
+  "created_by": {
+    "kind": "meta",
+    "harness_rationale": "Modifications address weaknesses revealed in evaluation outcomes:\n\n1. **Enhanced Temporal Specificity Rules**:\n- Original rule allowed same descriptions within 1 hour to merge automatically, leading to premature deletions (dvqa-flood-len10-024 E03/E04 cases where critical post-1hr updates existed). Revised to require explicit exception clauses for maintaining time-sensitive revisions.\n- Added \"\u22652-hour separation\" threshold for splitting similar events, preventing false duplication assumptions during phased developments (noted in earthquake dataset's collapsing timelines).\n\n2. **Critical Detail Preservation Protocol**:\n- Expanded examples of non-redundant metadata (coordinates, damage metrics) to prevent oversimplification seen in wildfire/fire datasets where high-level summaries (\"multi-story building\") lost spatial context affecting question accuracy.\n- Introduced 80% lexical similarity threshold instead of rigid sentence matching to accommodate paraphrasing variations between reports.\n\n3. **Metadata Augmentation**:\n- Explicit mention of coordinate preservation addresses dvqa-fire-len10-066's spatial ambiguity issues where location references improved response validity.\n\nThese changes directly target the system's struggles with time-based updates and contextual granularity observed across five failure modes, balancing compression needs against precision requirements.",
+    "strategy_rationale": "This approach balances precision and efficiency by focusing on verifiable, actionable facts (critical for downstream tasks like risk assessment). Temporal windowing prevents conflation of static observations with evolving scenarios (e.g., phased disaster responses), while duplicate handling avoids redundancy without sacrificing nuance\u2014except for post-hoc corrections. Token constraints demand ruthless distillation, favoring quantifiable metrics (coordinates, counts) over qualitative fluff. Metadata linkage ensures auditability, enabling error correction during question resolution. Testing revealed frequent failures stemmed from premature deletion of contextually relevant duplicates or misalignment between memory contents and evidential specifics.",
+    "changes": [
+      "Revised duplicate criteria: Added explicit exception clauses for emergent critical details overriding merger (vital for tracking updates mid-disaster).",
+      "Clarified temporal granularity: Emphasized splitting \u22652-hour gaps even among highly similar events to document progressive developments.",
+      "Enhanced citation enforcement: Mandated pre-query validation of evidence-memory alignment to reduce false positives in answers.",
+      "Structured truncation rules: Specified priority fields (e.g., coordinates, exact damage metrics) to retain during compression cycles."
+    ],
+    "harness_parsed": true,
+    "strategy_parsed": true,
+    "meta_seed": 8000
+  },
+  "scores": {
+    "esqa_mean": 0.2,
+    "correct_count": "5/25",
+    "retention_final": 0.68,
+    "abstained": 0.4,
+    "budget_fallbacks": 1,
+    "evaluator_errors": 0,
+    "evaluator_version": 2,
+    "categories": {
+      "correct": 5,
+      "invalid_citation": 3,
+      "wrong_answer_evidence_in_memory": 4,
+      "unnecessary_abstention": 7,
+      "abstained_evidence_missing": 3,
+      "wrong_answer_evidence_missing": 2,
+      "unsupported": 1
+    },
+    "streams": {
+      "dvqa-hurricane-len10-010": {
+        "esqa_mean": 0.2,
+        "answered_correct": 0.2,
+        "abstained": 0.4,
+        "correct_count": "1/5",
+        "retention_final": 0.8,
+        "categories": {
+          "correct": 1,
+          "invalid_citation": 1,
+          "wrong_answer_evidence_in_memory": 1,
+          "unnecessary_abstention": 2
+        },
+        "budget_fallbacks": 0,
+        "final_memory_tokens": 388,
+        "final_memory_lines": 8,
+        "n_questions": 5,
+        "n_items": 10,
+        "evaluator_errors": 0,
+        "evaluator_version": 2
+      },
+      "dvqa-flood-len10-024": {
+        "esqa_mean": 0.2,
+        "answered_correct": 0.4,
+        "abstained": 0.4,
+        "correct_count": "1/5",
+        "retention_final": 0.8,
+        "categories": {
+          "invalid_citation": 1,
+          "correct": 1,
+          "unnecessary_abstention": 2,
+          "wrong_answer_evidence_in_memory": 1
+        },
+        "budget_fallbacks": 0,
+        "final_memory_tokens": 481,
+        "final_memory_lines": 8,
+        "n_questions": 5,
+        "n_items": 10,
+        "evaluator_errors": 0,
+        "evaluator_version": 2
+      },
+      "dvqa-earthquake-len10-054": {
+        "esqa_mean": 0.0,
+        "answered_correct": 0.2,
+        "abstained": 0.6,
+        "correct_count": "0/5",
+        "retention_final": 0.2,
+        "categories": {
+          "abstained_evidence_missing": 2,
+          "invalid_citation": 1,
+          "wrong_answer_evidence_missing": 1,
+          "unnecessary_abstention": 1
+        },
+        "budget_fallbacks": 0,
+        "final_memory_tokens": 99,
+        "final_memory_lines": 2,
+        "n_questions": 5,
+        "n_items": 10,
+        "evaluator_errors": 0,
+        "evaluator_version": 2
+      },
+      "dvqa-wildfire-len10-064": {
+        "esqa_mean": 0.4,
+        "answered_correct": 0.6,
+        "abstained": 0.0,
+        "correct_count": "2/5",
+        "retention_final": 0.8,
+        "categories": {
+          "wrong_answer_evidence_missing": 1,
+          "correct": 2,
+          "unsupported": 1,
+          "wrong_answer_evidence_in_memory": 1
+        },
+        "budget_fallbacks": 1,
+        "final_memory_tokens": 483,
+        "final_memory_lines": 7,
+        "n_questions": 5,
+        "n_items": 10,
+        "evaluator_errors": 0,
+        "evaluator_version": 2
+      },
+      "dvqa-fire-len10-066": {
+        "esqa_mean": 0.2,
+        "answered_correct": 0.2,
+        "abstained": 0.6,
+        "correct_count": "1/5",
+        "retention_final": 0.8,
+        "categories": {
+          "unnecessary_abstention": 2,
+          "abstained_evidence_missing": 1,
+          "wrong_answer_evidence_in_memory": 1,
+          "correct": 1
+        },
+        "budget_fallbacks": 0,
+        "final_memory_tokens": 462,
+        "final_memory_lines": 8,
+        "n_questions": 5,
+        "n_items": 10,
+        "evaluator_errors": 0,
+        "evaluator_version": 2
+      }
+    }
+  },
+  "models": {
+    "memory_agent": "qwen2-vl-7b",
+    "meta_agent": "nemotron-12b-vl",
+    "answering_agent": "qwen2-vl-7b",
+    "evaluator": "qwen2-vl-7b",
+    "profile": "minimal",
+    "prompts": {
+      "memory/frame_minimal.txt": "c38af5be727b",
+      "meta/frames/harness_update_minimal.txt": "3d742a993eff",
+      "meta/frames/strategy_update_minimal.txt": "ff236306ed78",
+      "answering/prompt.txt": "27ea786833a0",
+      "judge/answer.txt": "62f39b3e1b14",
+      "judge/evidence.txt": "48a317919cb6"
+    },
+    "experiment": {
+      "profile": "minimal",
+      "budget": 512,
+      "memory_strategy": "dynamic",
+      "meta_harness": "dynamic",
+      "parent_selection": "score_child_prop",
+      "iterations": 20,
+      "stream_selection": "list",
+      "selection_seed": 0,
+      "streams": [
+        "dvqa-hurricane-len10-010",
+        "dvqa-flood-len10-024",
+        "dvqa-earthquake-len10-054",
+        "dvqa-wildfire-len10-064",
+        "dvqa-fire-len10-066"
+      ],
+      "streams_from": "qwen_run1",
+      "exclude_streams_from": [],
+      "stream_length": 10,
+      "n_streams": 5,
+      "memory_agent": "qwen2-vl-7b",
+      "memory_method": "agent",
+      "experiment": "short5_qwen_population",
+      "dataset": "disastervqa",
+      "config": "/home/blahb/Projects/Agents282/configs/experiments/disastervqa.yaml",
+      "eviction_policy": "oldest",
+      "excluded_streams": []
+    }
+  },
+  "stream_length": 10,
+  "eval_streams": [
+    "dvqa-hurricane-len10-010",
+    "dvqa-flood-len10-024",
+    "dvqa-earthquake-len10-054",
+    "dvqa-wildfire-len10-064",
+    "dvqa-fire-len10-066"
+  ]
+}

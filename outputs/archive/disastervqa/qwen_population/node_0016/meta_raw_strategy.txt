@@ -1,0 +1,12 @@
+<strategy>
+Enhance memory parsing by extracting granular spatial/temporal data (e.g., "infra_impacted": ["railway"], "damage_level": "partial"). Use abbreviations (e.g., "totyp" for disaster type) and compress repetitive terms ("vehicles": ["carriage", "rickshaw"]). Implement strict chronological eviction: retain latest 10 full entries, deleting oldest entire entry upon overflow. Embed contextual tags ([flood_rescue], ref:BLDG-72) and validate attribute consistency (no submarines in floods). Track quantitative details (e.g., "persons_visible": 2) instead of qualitative estimates. Nested structures clarify complex relations (e.g., "impacts": {"railway": "partial"}).
+</strategy>
+<rationale>
+This approach improves precision through quantified metrics, explicit spatial encoding, and semantic linking. By replacing vague descriptors with measurable data (e.g., % submerged), recall accuracy increases. Chronological eviction ensures freshness-critical info remains accessible within the 512-token limit. Semantic tags and entity IDs create cross-reference pathways, enabling agents to connect disparate events. Attribute validation prevents nonsensical correlations (e.g., avoiding submarine mentions in land disasters), reducing hallucinations during inference.
+</rationale>
+<changes>
+1. Added explicit damage quantification (e.g., "damage_level": "partial")
+2. Implemented quantitative tracking (numerical counts/representations)
+3. Introduced relational nesting for multi-aspect impacts
+4. Strengthened attribute consistency checks
+5. Enhanced temporal resolution via precise timestamps

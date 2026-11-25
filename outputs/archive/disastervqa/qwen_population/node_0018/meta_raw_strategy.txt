@@ -1,0 +1,25 @@
+<strategy>
+For each new evidence item, extract only visually distinct elements directly observable in the image using precise descriptors (e.g., "floodwater submerging vehicles" instead of "severe flooding"). Structure memories into four categories:  
+1. *Visual Context*: Spatial relationships between objects/buildings, structural states (intact/collapsed/submerged), and environmental conditions (burning/waterlogged).  
+2. *Disaster-Specific Attributes*: Quantified damage metrics (number of collapsed structures, depth of submersion), hazard intensities (flame heights, wind speeds), and causal mechanisms (debris scattering patterns).  
+3. *Temporal Markers*: Post timestamps converted to relative timelines, explicit date indications in scenes (e.g., license plates showing 2020 models).  
+4. *Causal Inferences*: Observable cause-effect links (e.g., broken pipes → flooded basement).  
+
+Enforce strict retention policies:  
+- Max 2 memories/event-type (flood/fire/earthquake) and 2 cross-disaster spatial relationships.  
+- Delete duplicates unless contradicted; prioritize recent conflicting updates.  
+- Retain platform/user metadata only if timestamps resolve ambiguity.  
+- Aggregate co-located observations into quantified summaries (e.g., "3 cars overturned" vs. individual reports).  
+Maintain versioned histories (m1/m2) to track revisions without data loss. Limit token use via hierarchical merging and selective detail preservation.</strategy>
+
+<rationale>
+Current implementation fails due to overly rigid categorization (ignoring cross-cutting hazards) and insufficient attention to contextual nuance. Evidence is often misrepresented through vague generalizations ("a flooded area") rather than specific observable details. By restructuring around unified observational logic—prioritizing spatial coherence, quantifiable metrics, and dynamic temporal integration—the revised strategy better captures actionable intelligence while maintaining memory constraints. Version tracking enables accountability for changes, addressing previous issues where critical evidence disappeared during merges.</rationale>
+
+<changes>
+1. Merged "structural context," "disaster specifics," and "temporal markers" into unified observation framework emphasizing spatial relationships and quantified attributes.  
+2. Added causal inference category to capture implicit connections (e.g., fire damage patterns suggesting origin points).  
+3. Relaxed categorical boundaries to allow hybrid disasters (e.g., flood+earthquake interactions).  
+4. Revised deletion policy: keep contradicting versions temporarily until resolved.  
+5. Implemented stricter quantitative filtering—retain numerical observations even if duplicated (e.g., "2 collapsed bridges" vs. "multiple destroyed structures").  
+6. Enhanced temporal processing: convert absolute dates to relative sequences where possible.  
+7. Introduced conditional metadata retention based on timestamp clarity thresholds.</changes>

@@ -1,0 +1,172 @@
+[
+  {
+    "step": 1,
+    "tokens": 39,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Aerial view of a collapsed building with debris scattered around.",
+        "sources": ["E01"]
+      }
+    ]
+  },
+  {
+    "step": 2,
+    "tokens": 83,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Aerial view of a collapsed building with debris scattered around.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "A black car is parked on a cracked road with a large crack running through it.",
+        "sources": ["E02"]
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "tokens": 78,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Aerial view of a collapsed building with debris scattered around.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "Aerial view of a collapsed building with debris scattered around.",
+        "sources": ["E03"]
+      }
+    ]
+  },
+  {
+    "step": 4,
+    "tokens": 81,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Aerial view of a collapsed building with debris scattered around.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo from Twitter shows a collapsed building with debris scattered around.",
+        "sources": ["E04"]
+      }
+    ]
+  },
+  {
+    "step": 5,
+    "tokens": 81,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Aerial view of a collapsed building with debris scattered around.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo from Twitter shows a collapsed building with debris scattered around.",
+        "sources": ["E05"]
+      }
+    ]
+  },
+  {
+    "step": 6,
+    "tokens": 81,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Aerial view of a collapsed building with debris scattered around.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo from Twitter shows a collapsed building with debris scattered around.",
+        "sources": ["E06"]
+      }
+    ]
+  },
+  {
+    "step": 7,
+    "tokens": 81,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Aerial view of a collapsed building with debris scattered around.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo from Twitter shows a collapsed building with debris scattered around.",
+        "sources": ["E07"]
+      }
+    ]
+  },
+  {
+    "step": 8,
+    "tokens": 81,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Aerial view of a collapsed building with debris scattered around.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo from Twitter shows a collapsed building with debris scattered around.",
+        "sources": ["E08"]
+      }
+    ]
+  },
+  {
+    "step": 9,
+    "tokens": 123,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Aerial view of a collapsed building with debris scattered around.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo from Twitter shows a collapsed building with debris scattered around.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media photo from Twitter shows a collapsed building with debris scattered around.",
+        "sources": ["E09"]
+      }
+    ]
+  },
+  {
+    "step": 10,
+    "tokens": 166,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Aerial view of a collapsed building with debris scattered around.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo from Twitter shows a collapsed building with debris scattered around.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media photo from Twitter shows a collapsed building with debris scattered around.",
+        "sources": ["E09"]
+      },
+      {
+        "id": "m10",
+        "text": "A social media photo from Twitter shows a collapsed building with debris scattered around.",
+        "sources": ["E10"]
+      }
+    ]
+  }
+]

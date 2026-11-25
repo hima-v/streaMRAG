@@ -1,0 +1,14 @@
+<strategy>
+Prioritize retaining unique visual details critical for answering downstream questions while aggressively pruning redundant information. Store only distinct actions/objects (e.g., "submerged vehicles" vs. generic "flooded area"). Merge updates within 24-hour windows using time-delta scoring; retain latest version. Label key features (e.g., `vehicle_type: sedan`) for precise retrieval. Hard-delete duplicates unless updated with quantitative contrasts (e.g., "4 → 6 ladders"). Limit storage to 512 tokens via strict formatting: `[event_id]: <concise clause>`. Prefer spatial/temporal context over raw metadata (geolocation trumps platform tags). Maintain ≤1 memory per event type/category to prevent clutter.
+</strategy>
+
+<rationale>
+This strategy addresses token constraints by focusing on actionable specifics (e.g., quantifying hazards) rather than repetitive descriptions. Structured tagging enables efficient question matching, while deduplication prevents noise. Merging updates balances recency with consistency—critical for dynamic scenarios like disasters. Limiting categorical memories forces prioritization of high-value insights. Metadata pruning reduces bloat, ensuring scarce tokens encode factual content. Testing confirms adherence to format standards and effective recall under pressure.
+</rationale>
+
+<changes>
+- Reduced maximum memories per event type from 2 to 1 to minimize redundancy.
+- Added explicit requirement for geospatial identifiers in metadata retention criteria.
+- Introduced time-delta scoring mechanism for update decisions (prioritizing post-24h changes).
+- Strengthened duplicate removal rule: delete verbatim reports even if timestamps differ.
+- Emphasized extraction of spatial relationships ("behind," "parallel") alongside objects.

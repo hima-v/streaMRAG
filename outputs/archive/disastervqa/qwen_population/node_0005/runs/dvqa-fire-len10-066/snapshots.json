@@ -1,0 +1,157 @@
+[
+  {
+    "step": 1,
+    "tokens": 155,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large building fire is under control after a night of intense firefighting efforts. Firefighters and paramedics are seen working together to ensure the safety of the residents. The building, a multi-story structure, has been damaged by the fire, and smoke is still visible from the upper floors. Emergency vehicles, including fire trucks and ambulances, are present at the scene. The firefighters are using ladders and hoses to extinguish the flames and provide medical assistance as needed. The incident has caused significant disruption to the local community, and residents are being evacuated to nearby shelters. The cause of the fire is under investigation.",
+        "sources": ["E01"]
+      }
+    ]
+  },
+  {
+    "step": 2,
+    "tokens": 197,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large building fire is under control after a night of intense firefighting efforts. Firefighters and paramedics are seen working together to ensure the safety of the residents. The building, a multi-story structure, has been damaged by the fire, and smoke is still visible from the upper floors. Emergency vehicles, including fire trucks and ambulances, are present at the scene. The firefighters are using ladders and hoses to extinguish the flames and provide medical assistance as needed. The incident has caused significant disruption to the local community, and residents are being evacuated to nearby shelters. The cause of the fire is under investigation.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "A firefighter stands on top of a fire truck during the fire incident.",
+        "sources": ["E02"]
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "tokens": 208,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large building fire is under control after a night of intense firefighting efforts. Firefighters and paramedics are seen working together to ensure the safety of the residents. The building, a multi-story structure, has been damaged by the fire, and smoke is still visible from the upper floors. Emergency vehicles, including fire trucks and ambulances, are present at the scene. The firefighters are using ladders and hoses to extinguish the flames and provide medical assistance as needed. The incident has caused significant disruption to the local community, and residents are being evacuated to nearby shelters. The cause of the fire is under investigation.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo shows the aftermath of the fire, with debris scattered across the ground and a charred vehicle in the foreground.",
+        "sources": ["E03"]
+      }
+    ]
+  },
+  {
+    "step": 4,
+    "tokens": 208,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large building fire is under control after a night of intense firefighting efforts. Firefighters and paramedics are seen working together to ensure the safety of the residents. The building, a multi-story structure, has been damaged by the fire, and smoke is still visible from the upper floors. Emergency vehicles, including fire trucks and ambulances, are present at the scene. The firefighters are using ladders and hoses to extinguish the flames and provide medical assistance as needed. The incident has caused significant disruption to the local community, and residents are being evacuated to nearby shelters. The cause of the fire is under investigation.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo shows the aftermath of the fire, with debris scattered across the ground and a charred vehicle in the foreground.",
+        "sources": ["E04"]
+      }
+    ]
+  },
+  {
+    "step": 5,
+    "tokens": 208,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large building fire is under control after a night of intense firefighting efforts. Firefighters and paramedics are seen working together to ensure the safety of the residents. The building, a multi-story structure, has been damaged by the fire, and smoke is still visible from the upper floors. Emergency vehicles, including fire trucks and ambulances, are present at the scene. The firefighters are using ladders and hoses to extinguish the flames and provide medical assistance as needed. The incident has caused significant disruption to the local community, and residents are being evacuated to nearby shelters. The cause of the fire is under investigation.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo shows the aftermath of the fire, with debris scattered across the ground and a charred vehicle in the foreground.",
+        "sources": ["E05"]
+      }
+    ]
+  },
+  {
+    "step": 6,
+    "tokens": 208,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large building fire is under control after a night of intense firefighting efforts. Firefighters and paramedics are seen working together to ensure the safety of the residents. The building, a multi-story structure, has been damaged by the fire, and smoke is still visible from the upper floors. Emergency vehicles, including fire trucks and ambulances, are present at the scene. The firefighters are using ladders and hoses to extinguish the flames and provide medical assistance as needed. The incident has caused significant disruption to the local community, and residents are being evacuated to nearby shelters. The cause of the fire is under investigation.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo shows the aftermath of the fire, with debris scattered across the ground and a charred vehicle in the foreground.",
+        "sources": ["E06"]
+      }
+    ]
+  },
+  {
+    "step": 7,
+    "tokens": 208,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large building fire is under control after a night of intense firefighting efforts. Firefighters and paramedics are seen working together to ensure the safety of the residents. The building, a multi-story structure, has been damaged by the fire, and smoke is still visible from the upper floors. Emergency vehicles, including fire trucks and ambulances, are present at the scene. The firefighters are using ladders and hoses to extinguish the flames and provide medical assistance as needed. The incident has caused significant disruption to the local community, and residents are being evacuated to nearby shelters. The cause of the fire is under investigation.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo shows the aftermath of the fire, with debris scattered across the ground and a charred vehicle in the foreground.",
+        "sources": ["E07"]
+      }
+    ]
+  },
+  {
+    "step": 8,
+    "tokens": 208,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large building fire is under control after a night of intense firefighting efforts. Firefighters and paramedics are seen working together to ensure the safety of the residents. The building, a multi-story structure, has been damaged by the fire, and smoke is still visible from the upper floors. Emergency vehicles, including fire trucks and ambulances, are present at the scene. The firefighters are using ladders and hoses to extinguish the flames and provide medical assistance as needed. The incident has caused significant disruption to the local community, and residents are being evacuated to nearby shelters. The cause of the fire is under investigation.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo shows the aftermath of the fire, with debris scattered across the ground and a charred vehicle in the foreground.",
+        "sources": ["E08"]
+      }
+    ]
+  },
+  {
+    "step": 9,
+    "tokens": 208,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large building fire is under control after a night of intense firefighting efforts. Firefighters and paramedics are seen working together to ensure the safety of the residents. The building, a multi-story structure, has been damaged by the fire, and smoke is still visible from the upper floors. Emergency vehicles, including fire trucks and ambulances, are present at the scene. The firefighters are using ladders and hoses to extinguish the flames and provide medical assistance as needed. The incident has caused significant disruption to the local community, and residents are being evacuated to nearby shelters. The cause of the fire is under investigation.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media photo shows the aftermath of the fire, with debris scattered across the ground and a charred vehicle in the foreground.",
+        "sources": ["E09"]
+      }
+    ]
+  },
+  {
+    "step": 10,
+    "tokens": 209,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large building fire is under control after a night of intense firefighting efforts. Firefighters and paramedics are seen working together to ensure the safety of the residents. The building, a multi-story structure, has been damaged by the fire, and smoke is still visible from the upper floors. Emergency vehicles, including fire trucks and ambulances, are present at the scene. The firefighters are using ladders and hoses to extinguish the flames and provide medical assistance as needed. The incident has caused significant disruption to the local community, and residents are being evacuated to nearby shelters. The cause of the fire is under investigation.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m10",
+        "text": "A social media photo shows the aftermath of the fire, with debris scattered across the ground and a charred vehicle in the foreground.",
+        "sources": ["E10"]
+      }
+    ]
+  }
+]

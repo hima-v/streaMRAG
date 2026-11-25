@@ -1,0 +1,262 @@
+[
+  {
+    "step": 1,
+    "tokens": 87,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large fire has broken out in a multi-story building in the city. Firefighters are on the scene with multiple fire trucks and ladders. The building is surrounded by smoke and flames. There are several firefighters and paramedics working to control the fire and rescue any potential victims.",
+        "sources": ["E01"]
+      }
+    ]
+  },
+  {
+    "step": 2,
+    "tokens": 140,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large fire has broken out in a multi-story building in the city. Firefighters are on the scene with multiple fire trucks and ladders. The building is surrounded by smoke and flames. There are several firefighters and paramedics working to control the fire and rescue any potential victims.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "A social media photo shows a firefighter standing on top of a fire truck, observing the large fire in the multi-story building.",
+        "sources": ["E02"]
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "tokens": 140,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large fire has broken out in a multi-story building in the city. Firefighters are on the scene with multiple fire trucks and ladders. The building is surrounded by smoke and flames. There are several firefighters and paramedics working to control the fire and rescue any potential victims.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo shows a firefighter standing on top of a fire truck, observing the large fire in the multi-story building.",
+        "sources": ["E03"]
+      }
+    ]
+  },
+  {
+    "step": 4,
+    "tokens": 140,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large fire has broken out in a multi-story building in the city. Firefighters are on the scene with multiple fire trucks and ladders. The building is surrounded by smoke and flames. There are several firefighters and paramedics working to control the fire and rescue any potential victims.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo shows a firefighter standing on top of a fire truck, observing the large fire in the multi-story building.",
+        "sources": ["E04"]
+      }
+    ]
+  },
+  {
+    "step": 5,
+    "tokens": 193,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large fire has broken out in a multi-story building in the city. Firefighters are on the scene with multiple fire trucks and ladders. The building is surrounded by smoke and flames. There are several firefighters and paramedics working to control the fire and rescue any potential victims.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo shows a firefighter standing on top of a fire truck, observing the large fire in the multi-story building.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo shows a firefighter standing on top of a fire truck, observing the large fire in the multi-story building.",
+        "sources": ["E05"]
+      }
+    ]
+  },
+  {
+    "step": 6,
+    "tokens": 246,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large fire has broken out in a multi-story building in the city. Firefighters are on the scene with multiple fire trucks and ladders. The building is surrounded by smoke and flames. There are several firefighters and paramedics working to control the fire and rescue any potential victims.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo shows a firefighter standing on top of a fire truck, observing the large fire in the multi-story building.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo shows a firefighter standing on top of a fire truck, observing the large fire in the multi-story building.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo shows a firefighter standing on top of a fire truck, observing the large fire in the multi-story building.",
+        "sources": ["E06"]
+      }
+    ]
+  },
+  {
+    "step": 7,
+    "tokens": 299,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large fire has broken out in a multi-story building in the city. Firefighters are on the scene with multiple fire trucks and ladders. The building is surrounded by smoke and flames. There are several firefighters and paramedics working to control the fire and rescue any potential victims.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo shows a firefighter standing on top of a fire truck, observing the large fire in the multi-story building.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo shows a firefighter standing on top of a fire truck, observing the large fire in the multi-story building.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo shows a firefighter standing on top of a fire truck, observing the large fire in the multi-story building.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo shows a firefighter standing on top of a fire truck, observing the large fire in the multi-story building.",
+        "sources": ["E07"]
+      }
+    ]
+  },
+  {
+    "step": 8,
+    "tokens": 352,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large fire has broken out in a multi-story building in the city. Firefighters are on the scene with multiple fire trucks and ladders. The building is surrounded by smoke and flames. There are several firefighters and paramedics working to control the fire and rescue any potential victims.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo shows a firefighter standing on top of a fire truck, observing the large fire in the multi-story building.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo shows a firefighter standing on top of a fire truck, observing the large fire in the multi-story building.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo shows a firefighter standing on top of a fire truck, observing the large fire in the multi-story building.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo shows a firefighter standing on top of a fire truck, observing the large fire in the multi-story building.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo shows a firefighter standing on top of a fire truck, observing the large fire in the multi-story building.",
+        "sources": ["E08"]
+      }
+    ]
+  },
+  {
+    "step": 9,
+    "tokens": 405,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large fire has broken out in a multi-story building in the city. Firefighters are on the scene with multiple fire trucks and ladders. The building is surrounded by smoke and flames. There are several firefighters and paramedics working to control the fire and rescue any potential victims.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo shows a firefighter standing on top of a fire truck, observing the large fire in the multi-story building.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo shows a firefighter standing on top of a fire truck, observing the large fire in the multi-story building.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo shows a firefighter standing on top of a fire truck, observing the large fire in the multi-story building.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo shows a firefighter standing on top of a fire truck, observing the large fire in the multi-story building.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo shows a firefighter standing on top of a fire truck, observing the large fire in the multi-story building.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media photo shows a firefighter standing on top of a fire truck, observing the large fire in the multi-story building.",
+        "sources": ["E09"]
+      }
+    ]
+  },
+  {
+    "step": 10,
+    "tokens": 462,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large fire has broken out in a multi-story building in the city. Firefighters are on the scene with multiple fire trucks and ladders. The building is surrounded by smoke and flames. There are several firefighters and paramedics working to control the fire and rescue any potential victims.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo shows a firefighter standing on top of a fire truck, observing the large fire in the multi-story building.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo shows a firefighter standing on top of a fire truck, observing the large fire in the multi-story building.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo shows a firefighter standing on top of a fire truck, observing the large fire in the multi-story building.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo shows a firefighter standing on top of a fire truck, observing the large fire in the multi-story building.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo shows a firefighter standing on top of a fire truck, observing the large fire in the multi-story building.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media photo shows a firefighter standing on top of a fire truck, observing the large fire in the multi-story building.",
+        "sources": ["E09"]
+      },
+      {
+        "id": "m10",
+        "text": "A social media photo posted on Twitter shows a firefighter standing on top of a fire truck, observing the large fire in the multi-story building.",
+        "sources": ["E10"]
+      }
+    ]
+  }
+]

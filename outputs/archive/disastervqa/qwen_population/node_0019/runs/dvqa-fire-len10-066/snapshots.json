@@ -1,0 +1,212 @@
+[
+  {
+    "step": 1,
+    "tokens": 106,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large fire has broken out in a multi-story building, with multiple fire trucks and emergency responders on the scene. The building is surrounded by smoke and flames, and several fire trucks are extended with ladders to the upper floors. Firefighters are working to extinguish the fire and rescue any occupants. The scene is chaotic, with emergency vehicles and personnel moving quickly to address the situation.",
+        "sources": ["E01"]
+      }
+    ]
+  },
+  {
+    "step": 2,
+    "tokens": 164,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large fire has broken out in a multi-story building, with multiple fire trucks and emergency responders on the scene. The building is surrounded by smoke and flames, and several fire trucks are extended with ladders to the upper floors. Firefighters are working to extinguish the fire and rescue any occupants. The scene is chaotic, with emergency vehicles and personnel moving quickly to address the situation.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "A social media photo of the fire scene was posted on May 13, 2017, at 19:00 UTC.",
+        "sources": ["E02"]
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "tokens": 163,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large fire has broken out in a multi-story building, with multiple fire trucks and emergency responders on the scene. The building is surrounded by smoke and flames, and several fire trucks are extended with ladders to the upper floors. Firefighters are working to extinguish the fire and rescue any occupants. The scene is chaotic, with emergency vehicles and personnel moving quickly to address the situation.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo of the fire scene was posted on June 1, 2017, at 13:57 UTC.",
+        "sources": ["E03"]
+      }
+    ]
+  },
+  {
+    "step": 4,
+    "tokens": 164,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large fire has broken out in a multi-story building, with multiple fire trucks and emergency responders on the scene. The building is surrounded by smoke and flames, and several fire trucks are extended with ladders to the upper floors. Firefighters are working to extinguish the fire and rescue any occupants. The scene is chaotic, with emergency vehicles and personnel moving quickly to address the situation.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo of the fire scene was posted on June 25, 2017, at 00:20 UTC.",
+        "sources": ["E04"]
+      }
+    ]
+  },
+  {
+    "step": 5,
+    "tokens": 222,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large fire has broken out in a multi-story building, with multiple fire trucks and emergency responders on the scene. The building is surrounded by smoke and flames, and several fire trucks are extended with ladders to the upper floors. Firefighters are working to extinguish the fire and rescue any occupants. The scene is chaotic, with emergency vehicles and personnel moving quickly to address the situation.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo of the fire scene was posted on June 25, 2017, at 00:20 UTC.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo of the fire scene was posted on June 25, 2017, at 00:20 UTC.",
+        "sources": ["E05"]
+      }
+    ]
+  },
+  {
+    "step": 6,
+    "tokens": 164,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large fire has broken out in a multi-story building, with multiple fire trucks and emergency responders on the scene. The building is surrounded by smoke and flames, and several fire trucks are extended with ladders to the upper floors. Firefighters are working to extinguish the fire and rescue any occupants. The scene is chaotic, with emergency vehicles and personnel moving quickly to address the situation.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo of the fire scene was posted on July 21, 2017, at 00:43 UTC.",
+        "sources": ["E06"]
+      }
+    ]
+  },
+  {
+    "step": 7,
+    "tokens": 222,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large fire has broken out in a multi-story building, with multiple fire trucks and emergency responders on the scene. The building is surrounded by smoke and flames, and several fire trucks are extended with ladders to the upper floors. Firefighters are working to extinguish the fire and rescue any occupants. The scene is chaotic, with emergency vehicles and personnel moving quickly to address the situation.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo of the fire scene was posted on July 21, 2017, at 00:43 UTC.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo of the fire scene was posted on August 23, 2017, at 00:46 UTC.",
+        "sources": ["E07"]
+      }
+    ]
+  },
+  {
+    "step": 8,
+    "tokens": 280,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large fire has broken out in a multi-story building, with multiple fire trucks and emergency responders on the scene. The building is surrounded by smoke and flames, and several fire trucks are extended with ladders to the upper floors. Firefighters are working to extinguish the fire and rescue any occupants. The scene is chaotic, with emergency vehicles and personnel moving quickly to address the situation.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo of the fire scene was posted on July 21, 2017, at 00:43 UTC.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo of the fire scene was posted on August 23, 2017, at 00:46 UTC.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo of the fire scene was posted on August 28, 2017, at 10:43 UTC.",
+        "sources": ["E08"]
+      }
+    ]
+  },
+  {
+    "step": 9,
+    "tokens": 337,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large fire has broken out in a multi-story building, with multiple fire trucks and emergency responders on the scene. The building is surrounded by smoke and flames, and several fire trucks are extended with ladders to the upper floors. Firefighters are working to extinguish the fire and rescue any occupants. The scene is chaotic, with emergency vehicles and personnel moving quickly to address the situation.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo of the fire scene was posted on July 21, 2017, at 00:43 UTC.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo of the fire scene was posted on August 23, 2017, at 00:46 UTC.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo of the fire scene was posted on August 28, 2017, at 10:43 UTC.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media photo of the fire scene was posted on September 6, 2017, at 09:22 UTC.",
+        "sources": ["E09"]
+      }
+    ]
+  },
+  {
+    "step": 10,
+    "tokens": 395,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large fire has broken out in a multi-story building, with multiple fire trucks and emergency responders on the scene. The building is surrounded by smoke and flames, and several fire trucks are extended with ladders to the upper floors. Firefighters are working to extinguish the fire and rescue any occupants. The scene is chaotic, with emergency vehicles and personnel moving quickly to address the situation.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo of the fire scene was posted on July 21, 2017, at 00:43 UTC.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo of the fire scene was posted on August 23, 2017, at 00:46 UTC.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo of the fire scene was posted on August 28, 2017, at 10:43 UTC.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media photo of the fire scene was posted on September 6, 2017, at 09:22 UTC.",
+        "sources": ["E09"]
+      },
+      {
+        "id": "m10",
+        "text": "A social media photo of the fire scene was posted on September 8, 2017, at 03:41 UTC.",
+        "sources": ["E10"]
+      }
+    ]
+  }
+]

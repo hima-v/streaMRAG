@@ -1,0 +1,342 @@
+[
+  {
+    "item_id": "E01",
+    "step": 1,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"Two people are seen running through a burning landscape, with flames engulfing the ground and charred tree stumps. The scene is shrouded in smoke and the sky is darkened by the fire.\", \"sources\": [\"E01\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"...\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Two people are seen running through a burning landscape, with flames engulfing the ground and charred tree stumps. The scene is shrouded in smoke and the sky is darkened by the fire.",
+              "sources": ["E01"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "...",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2", "update of unknown line m1"],
+        "tokens_after": 67
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 67,
+    "n_lines": 1,
+    "secs": 2.77
+  },
+  {
+    "item_id": "E02",
+    "step": 2,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media user posted a photo of the fire on Twitter, showing the intense flames and smoke.\", \"sources\": [\"E02\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Two people are seen running through a burning landscape, with flames engulfing the ground and charred tree stumps. The scene is shrouded in smoke and the sky is darkened by the fire.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media user posted a photo of the fire on Twitter, showing the intense flames and smoke.",
+              "sources": ["E02"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Two people are seen running through a burning landscape, with flames engulfing the ground and charred tree stumps. The scene is shrouded in smoke and the sky is darkened by the fire.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 114
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 114,
+    "n_lines": 2,
+    "secs": 3.2
+  },
+  {
+    "item_id": "E03",
+    "step": 3,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media user posted a photo of the fire on Twitter, showing the intense flames and smoke.\", \"sources\": [\"E03\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Two people are seen running through a burning landscape, with flames engulfing the ground and charred tree stumps. The scene is shrouded in smoke and the sky is darkened by the fire.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media user posted a photo of the fire on Twitter, showing the intense flames and smoke.",
+              "sources": ["E03"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Two people are seen running through a burning landscape, with flames engulfing the ground and charred tree stumps. The scene is shrouded in smoke and the sky is darkened by the fire.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": [],
+        "tokens_after": 114
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 114,
+    "n_lines": 2,
+    "secs": 3.34
+  },
+  {
+    "item_id": "E04",
+    "step": 4,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media user posted a photo of the fire on Twitter, showing the intense flames and smoke.\", \"sources\": [\"E04\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Two people are seen running through a burning landscape, with flames engulfing the ground and charred tree stumps. The scene is shrouded in smoke and the sky is darkened by the fire.\", \"sources\": [\"E01\"]}], \"delete\": [\"m3\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media user posted a photo of the fire on Twitter, showing the intense flames and smoke.",
+              "sources": ["E04"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Two people are seen running through a burning landscape, with flames engulfing the ground and charred tree stumps. The scene is shrouded in smoke and the sky is darkened by the fire.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m3"]
+        },
+        "problems": [],
+        "tokens_after": 114
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 114,
+    "n_lines": 2,
+    "secs": 2.99
+  },
+  {
+    "item_id": "E05",
+    "step": 5,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media user posted a photo of the fire on Twitter, showing the intense flames and smoke.\", \"sources\": [\"E05\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Two people are seen running through a burning landscape, with flames engulfing the ground and charred tree stumps. The scene is shrouded in smoke and the sky is darkened by the fire.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media user posted a photo of the fire on Twitter, showing the intense flames and smoke.",
+              "sources": ["E05"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Two people are seen running through a burning landscape, with flames engulfing the ground and charred tree stumps. The scene is shrouded in smoke and the sky is darkened by the fire.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 161
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 161,
+    "n_lines": 3,
+    "secs": 3.0
+  },
+  {
+    "item_id": "E06",
+    "step": 6,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media user posted a photo of the fire on Twitter, showing the intense flames and smoke.\", \"sources\": [\"E06\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Two people are seen running through a burning landscape, with flames engulfing the ground and charred tree stumps. The scene is shrouded in smoke and the sky is darkened by the fire.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media user posted a photo of the fire on Twitter, showing the intense flames and smoke.",
+              "sources": ["E06"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Two people are seen running through a burning landscape, with flames engulfing the ground and charred tree stumps. The scene is shrouded in smoke and the sky is darkened by the fire.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 208
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 208,
+    "n_lines": 4,
+    "secs": 3.36
+  },
+  {
+    "item_id": "E07",
+    "step": 7,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media user posted a photo of the fire on Twitter, showing the intense flames and smoke.\", \"sources\": [\"E07\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Two people are seen running through a burning landscape, with flames engulfing the ground and charred tree stumps. The scene is shrouded in smoke and the sky is darkened by the fire.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media user posted a photo of the fire on Twitter, showing the intense flames and smoke.",
+              "sources": ["E07"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Two people are seen running through a burning landscape, with flames engulfing the ground and charred tree stumps. The scene is shrouded in smoke and the sky is darkened by the fire.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 255
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 255,
+    "n_lines": 5,
+    "secs": 3.33
+  },
+  {
+    "item_id": "E08",
+    "step": 8,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media user posted a photo of the fire on Twitter, showing the intense flames and smoke.\", \"sources\": [\"E08\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Two people are seen running through a burning landscape, with flames engulfing the ground and charred tree stumps. The scene is shrouded in smoke and the sky is darkened by the fire.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media user posted a photo of the fire on Twitter, showing the intense flames and smoke.",
+              "sources": ["E08"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Two people are seen running through a burning landscape, with flames engulfing the ground and charred tree stumps. The scene is shrouded in smoke and the sky is darkened by the fire.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 302
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 302,
+    "n_lines": 6,
+    "secs": 3.41
+  },
+  {
+    "item_id": "E09",
+    "step": 9,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media user posted a photo of the fire on Twitter, showing the intense flames and smoke.\", \"sources\": [\"E09\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Two people are seen running through a burning landscape, with flames engulfing the ground and charred tree stumps. The scene is shrouded in smoke and the sky is darkened by the fire.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media user posted a photo of the fire on Twitter, showing the intense flames and smoke.",
+              "sources": ["E09"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Two people are seen running through a burning landscape, with flames engulfing the ground and charred tree stumps. The scene is shrouded in smoke and the sky is darkened by the fire.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 349
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 349,
+    "n_lines": 7,
+    "secs": 3.44
+  },
+  {
+    "item_id": "E10",
+    "step": 10,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media user posted a photo of the fire on Twitter, showing the intense flames and smoke.\", \"sources\": [\"E10\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Two people are seen running through a burning landscape, with flames engulfing the ground and charred tree stumps. The scene is shrouded in smoke and the sky is darkened by the fire.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media user posted a photo of the fire on Twitter, showing the intense flames and smoke.",
+              "sources": ["E10"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Two people are seen running through a burning landscape, with flames engulfing the ground and charred tree stumps. The scene is shrouded in smoke and the sky is darkened by the fire.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 397
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 397,
+    "n_lines": 8,
+    "secs": 3.28
+  }
+]

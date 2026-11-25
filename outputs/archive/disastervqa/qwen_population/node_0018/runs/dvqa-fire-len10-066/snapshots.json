@@ -1,0 +1,297 @@
+[
+  {
+    "step": 1,
+    "tokens": 70,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large building is on fire at night, with multiple fire trucks and emergency responders present. Ladders are extended to the building, and smoke is visible. The scene is chaotic with many people in safety gear.",
+        "sources": ["E01"]
+      }
+    ]
+  },
+  {
+    "step": 2,
+    "tokens": 113,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large building is on fire at night, with multiple fire trucks and emergency responders present. Ladders are extended to the building, and smoke is visible. The scene is chaotic with many people in safety gear.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "A firefighter is standing on top of a fire truck, observing the fire.",
+        "sources": ["E02"]
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "tokens": 90,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "...",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A car is on fire in a parking lot with debris scattered around. Smoke is rising from the car, and there are no visible emergency responders or fire trucks in the scene.",
+        "sources": ["E03"]
+      }
+    ]
+  },
+  {
+    "step": 4,
+    "tokens": 142,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "...",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A car is on fire in a parking lot with debris scattered around. Smoke is rising from the car, and there are no visible emergency responders or fire trucks in the scene.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A fire is burning in a building with flames visible on the roof. Fire trucks and firefighters are present at the scene.",
+        "sources": ["E04"]
+      }
+    ]
+  },
+  {
+    "step": 5,
+    "tokens": 194,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "...",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A car is on fire in a parking lot with debris scattered around. Smoke is rising from the car, and there are no visible emergency responders or fire trucks in the scene.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A fire is burning in a building with flames visible on the roof. Fire trucks and firefighters are present at the scene.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A fire is burning in a building with flames visible on the roof. Fire trucks and firefighters are present at the scene.",
+        "sources": ["E05"]
+      }
+    ]
+  },
+  {
+    "step": 6,
+    "tokens": 242,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "...",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A car is on fire in a parking lot with debris scattered around. Smoke is rising from the car, and there are no visible emergency responders or fire trucks in the scene.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A fire is burning in a building with flames visible on the roof. Fire trucks and firefighters are present at the scene.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A fire is burning in a building with flames visible on the roof. Fire trucks and firefighters are present at the scene.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A fire is burning in a building with flames visible on the roof. Smoke is rising from the building.",
+        "sources": ["E06"]
+      }
+    ]
+  },
+  {
+    "step": 7,
+    "tokens": 310,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A fire is burning in a building with flames visible on the roof. Smoke is rising from the building.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A car is on fire in a parking lot with debris scattered around. Smoke is rising from the car, and there are no visible emergency responders or fire trucks in the scene.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A fire is burning in a building with flames visible on the roof. Fire trucks and firefighters are present at the scene.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A fire is burning in a building with flames visible on the roof. Fire trucks and firefighters are present at the scene.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A fire is burning in a building with flames visible on the roof. Smoke is rising from the building.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A fire is burning in a building with flames visible on the roof. Smoke is rising from the building.",
+        "sources": ["E07"]
+      }
+    ]
+  },
+  {
+    "step": 8,
+    "tokens": 358,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A fire is burning in a building with flames visible on the roof. Smoke is rising from the building.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A car is on fire in a parking lot with debris scattered around. Smoke is rising from the car, and there are no visible emergency responders or fire trucks in the scene.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A fire is burning in a building with flames visible on the roof. Fire trucks and firefighters are present at the scene.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A fire is burning in a building with flames visible on the roof. Fire trucks and firefighters are present at the scene.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A fire is burning in a building with flames visible on the roof. Smoke is rising from the building.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A fire is burning in a building with flames visible on the roof. Smoke is rising from the building.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A fire is burning in a building with flames visible on the roof. Smoke is rising from the building.",
+        "sources": ["E08"]
+      }
+    ]
+  },
+  {
+    "step": 9,
+    "tokens": 406,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A fire is burning in a building with flames visible on the roof. Smoke is rising from the building.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A car is on fire in a parking lot with debris scattered around. Smoke is rising from the car, and there are no visible emergency responders or fire trucks in the scene.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A fire is burning in a building with flames visible on the roof. Fire trucks and firefighters are present at the scene.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A fire is burning in a building with flames visible on the roof. Fire trucks and firefighters are present at the scene.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A fire is burning in a building with flames visible on the roof. Smoke is rising from the building.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A fire is burning in a building with flames visible on the roof. Smoke is rising from the building.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A fire is burning in a building with flames visible on the roof. Smoke is rising from the building.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "A fire is burning in a building with flames visible on the roof. Smoke is rising from the building.",
+        "sources": ["E09"]
+      }
+    ]
+  },
+  {
+    "step": 10,
+    "tokens": 455,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A fire is burning in a building with flames visible on the roof. Smoke is rising from the building.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A car is on fire in a parking lot with debris scattered around. Smoke is rising from the car, and there are no visible emergency responders or fire trucks in the scene.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A fire is burning in a building with flames visible on the roof. Fire trucks and firefighters are present at the scene.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A fire is burning in a building with flames visible on the roof. Fire trucks and firefighters are present at the scene.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A fire is burning in a building with flames visible on the roof. Smoke is rising from the building.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A fire is burning in a building with flames visible on the roof. Smoke is rising from the building.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A fire is burning in a building with flames visible on the roof. Smoke is rising from the building.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "A fire is burning in a building with flames visible on the roof. Smoke is rising from the building.",
+        "sources": ["E09"]
+      },
+      {
+        "id": "m10",
+        "text": "A fire is burning in a building with flames visible on the roof. Smoke is rising from the building.",
+        "sources": ["E10"]
+      }
+    ]
+  }
+]

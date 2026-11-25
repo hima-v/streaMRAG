@@ -1,0 +1,157 @@
+[
+  {
+    "step": 1,
+    "tokens": 49,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo shows a collapsed building with debris scattered around. Two individuals are seen working on the site.",
+        "sources": ["E01"]
+      }
+    ]
+  },
+  {
+    "step": 2,
+    "tokens": 90,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo shows a collapsed building with debris scattered around. Two individuals are seen working on the site.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "A black car is seen stuck in a large crack in the road.",
+        "sources": ["E02"]
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "tokens": 98,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo shows a collapsed building with debris scattered around. Two individuals are seen working on the site.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo shows a collapsed building with debris scattered around. Two individuals are seen working on the site.",
+        "sources": ["E03"]
+      }
+    ]
+  },
+  {
+    "step": 4,
+    "tokens": 98,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo shows a collapsed building with debris scattered around. Two individuals are seen working on the site.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo shows a collapsed building with debris scattered around. Two individuals are seen working on the site.",
+        "sources": ["E04"]
+      }
+    ]
+  },
+  {
+    "step": 5,
+    "tokens": 98,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo shows a collapsed building with debris scattered around. Two individuals are seen working on the site.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo shows a collapsed building with debris scattered around. Two individuals are seen working on the site.",
+        "sources": ["E05"]
+      }
+    ]
+  },
+  {
+    "step": 6,
+    "tokens": 98,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo shows a collapsed building with debris scattered around. Two individuals are seen working on the site.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo shows a collapsed building with debris scattered around. Two individuals are seen working on the site.",
+        "sources": ["E06"]
+      }
+    ]
+  },
+  {
+    "step": 7,
+    "tokens": 98,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo shows a collapsed building with debris scattered around. Two individuals are seen working on the site.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo shows a collapsed building with debris scattered around. Two individuals are seen working on the site.",
+        "sources": ["E07"]
+      }
+    ]
+  },
+  {
+    "step": 8,
+    "tokens": 98,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo shows a collapsed building with debris scattered around. Two individuals are seen working on the site.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo shows a collapsed building with debris scattered around. Two individuals are seen working on the site.",
+        "sources": ["E08"]
+      }
+    ]
+  },
+  {
+    "step": 9,
+    "tokens": 98,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo shows a collapsed building with debris scattered around. Two individuals are seen working on the site.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media photo shows a collapsed building with debris scattered around. Two individuals are seen working on the site.",
+        "sources": ["E09"]
+      }
+    ]
+  },
+  {
+    "step": 10,
+    "tokens": 99,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo shows a collapsed building with debris scattered around. Two individuals are seen working on the site.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m10",
+        "text": "A social media photo shows a collapsed building with debris scattered around. Two individuals are seen working on the site.",
+        "sources": ["E10"]
+      }
+    ]
+  }
+]

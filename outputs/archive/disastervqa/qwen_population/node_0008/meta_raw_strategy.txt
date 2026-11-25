@@ -1,0 +1,14 @@
+<strategy>
+Prioritize storing entity-centric, temporally precise details (e.g., hazards, casualties, structural impacts) while omitting non-critical descriptors (e.g., weather, aesthetics). Merge duplicate events (shared >80% content within 1-hour thresholds) into a single canonical entry (`~duplicate~`), anchored to the earliest timestamp. Track obsolescence via `[deleted]` flags for entries supplanted by updates (e.g., revised casualty figures). Maintain strict token limits (<512) by truncating low-value details. Ensure temporal granularity splits events spaced ≥2 hours to capture dynamic changes (e.g., disaster phase shifts). Validate citations against retained metadata (source IDs/timestamps) before answering queries.
+</strategy>
+
+<rationale>
+This approach balances precision and efficiency by focusing on verifiable, actionable facts (critical for downstream tasks like risk assessment). Temporal windowing prevents conflation of static observations with evolving scenarios (e.g., phased disaster responses), while duplicate handling avoids redundancy without sacrificing nuance—except for post-hoc corrections. Token constraints demand ruthless distillation, favoring quantifiable metrics (coordinates, counts) over qualitative fluff. Metadata linkage ensures auditability, enabling error correction during question resolution. Testing revealed frequent failures stemmed from premature deletion of contextually relevant duplicates or misalignment between memory contents and evidential specifics.
+</rationale>
+
+<changes>
+- Revised duplicate criteria: Added explicit exception clauses for emergent critical details overriding merger (vital for tracking updates mid-disaster).
+- Clarified temporal granularity: Emphasized splitting ≥2-hour gaps even among highly similar events to document progressive developments.
+- Enhanced citation enforcement: Mandated pre-query validation of evidence-memory alignment to reduce false positives in answers.
+- Structured truncation rules: Specified priority fields (e.g., coordinates, exact damage metrics) to retain during compression cycles.
+</changes>

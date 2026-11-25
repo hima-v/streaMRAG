@@ -1,0 +1,374 @@
+[
+  {
+    "item_id": "E01",
+    "step": 1,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"Two people are seen running through a burning landscape with flames engulfing the ground and charred tree stumps.\", \"sources\": [\"E01\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"...\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Two people are seen running through a burning landscape with flames engulfing the ground and charred tree stumps.",
+              "sources": ["E01"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "...",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2", "update of unknown line m1"],
+        "tokens_after": 50
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 50,
+    "n_lines": 1,
+    "secs": 2.22
+  },
+  {
+    "item_id": "E02",
+    "step": 2,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a burning landscape with flames engulfing the ground and charred tree stumps.\", \"sources\": [\"E02\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Two people are seen running through a burning landscape with flames engulfing the ground and charred tree stumps.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a burning landscape with flames engulfing the ground and charred tree stumps.",
+              "sources": ["E02"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Two people are seen running through a burning landscape with flames engulfing the ground and charred tree stumps.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 99
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 99,
+    "n_lines": 2,
+    "secs": 2.63
+  },
+  {
+    "item_id": "E03",
+    "step": 3,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a burning landscape with flames engulfing the ground and charred tree stumps.\", \"sources\": [\"E03\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Two people are seen running through a burning landscape with flames engulfing the ground and charred tree stumps.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a burning landscape with flames engulfing the ground and charred tree stumps.",
+              "sources": ["E03"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Two people are seen running through a burning landscape with flames engulfing the ground and charred tree stumps.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": [],
+        "tokens_after": 99
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 99,
+    "n_lines": 2,
+    "secs": 2.74
+  },
+  {
+    "item_id": "E04",
+    "step": 4,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a burning landscape with flames engulfing the ground and charred tree stumps.\", \"sources\": [\"E04\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Two people are seen running through a burning landscape with flames engulfing the ground and charred tree stumps.\", \"sources\": [\"E01\"]}], \"delete\": [\"m3\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a burning landscape with flames engulfing the ground and charred tree stumps.",
+              "sources": ["E04"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Two people are seen running through a burning landscape with flames engulfing the ground and charred tree stumps.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m3"]
+        },
+        "problems": [],
+        "tokens_after": 99
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 99,
+    "n_lines": 2,
+    "secs": 2.43
+  },
+  {
+    "item_id": "E05",
+    "step": 5,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo posted on Twitter on October 17, 2017, at 4:04 PM UTC shows a burning landscape with flames engulfing the ground and charred tree stumps.\", \"sources\": [\"E05\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Two people are seen running through a burning landscape with flames engulfing the ground and charred tree stumps.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo posted on Twitter on October 17, 2017, at 4:04 PM UTC shows a burning landscape with flames engulfing the ground and charred tree stumps.",
+              "sources": ["E05"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Two people are seen running through a burning landscape with flames engulfing the ground and charred tree stumps.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 171
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 171,
+    "n_lines": 3,
+    "secs": 3.01
+  },
+  {
+    "item_id": "E06",
+    "step": 6,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo posted on Twitter on October 18, 2017, at 7:23 AM UTC shows a burning landscape with flames engulfing the ground and charred tree stumps.\", \"sources\": [\"E06\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Two people are seen running through a burning landscape with flames engulfing the ground and charred tree stumps.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo posted on Twitter on October 18, 2017, at 7:23 AM UTC shows a burning landscape with flames engulfing the ground and charred tree stumps.",
+              "sources": ["E06"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Two people are seen running through a burning landscape with flames engulfing the ground and charred tree stumps.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 243
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 243,
+    "n_lines": 4,
+    "secs": 3.36
+  },
+  {
+    "item_id": "E07",
+    "step": 7,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo posted on Twitter on October 18, 2017, at 20:21 UTC shows a burning landscape with flames engulfing the ground and charred tree stumps.\", \"sources\": [\"E07\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Two people are seen running through a burning landscape with flames engulfing the ground and charred tree stumps.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo posted on Twitter on October 18, 2017, at 20:21 UTC shows a burning landscape with flames engulfing the ground and charred tree stumps.",
+              "sources": ["E07"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Two people are seen running through a burning landscape with flames engulfing the ground and charred tree stumps.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 315
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 315,
+    "n_lines": 5,
+    "secs": 3.36
+  },
+  {
+    "item_id": "E08",
+    "step": 8,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo posted on Twitter on October 19, 2017, at 7:36 AM UTC shows a burning landscape with flames engulfing the ground and charred tree stumps.\", \"sources\": [\"E08\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Two people are seen running through a burning landscape with flames engulfing the ground and charred tree stumps.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo posted on Twitter on October 19, 2017, at 7:36 AM UTC shows a burning landscape with flames engulfing the ground and charred tree stumps.",
+              "sources": ["E08"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Two people are seen running through a burning landscape with flames engulfing the ground and charred tree stumps.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 387
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 387,
+    "n_lines": 6,
+    "secs": 3.41
+  },
+  {
+    "item_id": "E09",
+    "step": 9,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo posted on Twitter on October 19, 2017, at 7:36 AM UTC shows a burning landscape with flames engulfing the ground and charred tree stumps.\", \"sources\": [\"E09\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Two people are seen running through a burning landscape with flames engulfing the ground and charred tree stumps.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo posted on Twitter on October 19, 2017, at 7:36 AM UTC shows a burning landscape with flames engulfing the ground and charred tree stumps.",
+              "sources": ["E09"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Two people are seen running through a burning landscape with flames engulfing the ground and charred tree stumps.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 459
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 459,
+    "n_lines": 7,
+    "secs": 3.42
+  },
+  {
+    "item_id": "E10",
+    "step": 10,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo posted on Twitter on October 20, 2017, at 11:11 AM UTC shows a burning landscape with flames engulfing the ground and charred tree stumps.\", \"sources\": [\"E10\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Two people are seen running through a burning landscape with flames engulfing the ground and charred tree stumps.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo posted on Twitter on October 20, 2017, at 11:11 AM UTC shows a burning landscape with flames engulfing the ground and charred tree stumps.",
+              "sources": ["E10"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Two people are seen running through a burning landscape with flames engulfing the ground and charred tree stumps.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 533
+      },
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo posted on Twitter on October 20, 2017, at 11:11 AM UTC shows a burning landscape with flames engulfing the ground and charred tree stumps.\", \"sources\": [\"E10\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Two people are seen running through a burning landscape with flames engulfing the ground and charred tree stumps.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo posted on Twitter on October 20, 2017, at 11:11 AM UTC shows a burning landscape with flames engulfing the ground and charred tree stumps.",
+              "sources": ["E10"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Two people are seen running through a burning landscape with flames engulfing the ground and charred tree stumps.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 533
+      }
+    ],
+    "eviction_policy": "oldest",
+    "fallback": "budget_evict_oldest",
+    "evicted": [
+      {
+        "id": "m1",
+        "text": "Two people are seen running through a burning landscape with flames engulfing the ground and charred tree stumps.",
+        "sources": ["E01"]
+      }
+    ],
+    "tokens": 483,
+    "n_lines": 7,
+    "secs": 6.63
+  }
+]

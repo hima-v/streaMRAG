@@ -1,0 +1,172 @@
+[
+  {
+    "step": 1,
+    "tokens": 40,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large fire broke out in a multi-story building at night.",
+        "sources": ["E01"]
+      }
+    ]
+  },
+  {
+    "step": 2,
+    "tokens": 82,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large fire broke out in a multi-story building at night.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "A firefighter is on top of a fire truck, monitoring the fire.",
+        "sources": ["E02"]
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "tokens": 82,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large fire broke out in a multi-story building at night.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo shows a large fire burning in a multi-story building.",
+        "sources": ["E03"]
+      }
+    ]
+  },
+  {
+    "step": 4,
+    "tokens": 82,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large fire broke out in a multi-story building at night.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo shows a large fire burning in a multi-story building.",
+        "sources": ["E04"]
+      }
+    ]
+  },
+  {
+    "step": 5,
+    "tokens": 82,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large fire broke out in a multi-story building at night.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo shows a large fire burning in a multi-story building.",
+        "sources": ["E05"]
+      }
+    ]
+  },
+  {
+    "step": 6,
+    "tokens": 82,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large fire broke out in a multi-story building at night.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo shows a large fire burning in a multi-story building.",
+        "sources": ["E06"]
+      }
+    ]
+  },
+  {
+    "step": 7,
+    "tokens": 82,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large fire broke out in a multi-story building at night.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo shows a large fire burning in a multi-story building.",
+        "sources": ["E07"]
+      }
+    ]
+  },
+  {
+    "step": 8,
+    "tokens": 82,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large fire broke out in a multi-story building at night.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo shows a large fire burning in a multi-story building.",
+        "sources": ["E08"]
+      }
+    ]
+  },
+  {
+    "step": 9,
+    "tokens": 124,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large fire broke out in a multi-story building at night.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo shows a large fire burning in a multi-story building.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media photo shows a large fire burning in a multi-story building.",
+        "sources": ["E09"]
+      }
+    ]
+  },
+  {
+    "step": 10,
+    "tokens": 167,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large fire broke out in a multi-story building at night.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo shows a large fire burning in a multi-story building.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media photo shows a large fire burning in a multi-story building.",
+        "sources": ["E09"]
+      },
+      {
+        "id": "m10",
+        "text": "A social media photo shows a large fire burning in a multi-story building.",
+        "sources": ["E10"]
+      }
+    ]
+  }
+]

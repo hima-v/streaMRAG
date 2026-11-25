@@ -1,0 +1,118 @@
+{
+  "esqa_mean": 0.2,
+  "correct_count": "5/25",
+  "retention_final": 0.8,
+  "abstained": 0.52,
+  "budget_fallbacks": 0,
+  "evaluator_errors": 0,
+  "evaluator_version": 2,
+  "categories": {
+    "correct": 5,
+    "invalid_citation": 1,
+    "wrong_answer_evidence_in_memory": 4,
+    "unnecessary_abstention": 10,
+    "abstained_evidence_missing": 3,
+    "unsupported": 1,
+    "wrong_answer_evidence_missing": 1
+  },
+  "streams": {
+    "dvqa-hurricane-len10-010": {
+      "esqa_mean": 0.2,
+      "answered_correct": 0.2,
+      "abstained": 0.4,
+      "correct_count": "1/5",
+      "retention_final": 0.8,
+      "categories": {
+        "correct": 1,
+        "invalid_citation": 1,
+        "wrong_answer_evidence_in_memory": 1,
+        "unnecessary_abstention": 2
+      },
+      "budget_fallbacks": 0,
+      "final_memory_tokens": 352,
+      "final_memory_lines": 8,
+      "n_questions": 5,
+      "n_items": 10,
+      "evaluator_errors": 0,
+      "evaluator_version": 2
+    },
+    "dvqa-flood-len10-024": {
+      "esqa_mean": 0.0,
+      "answered_correct": 0.0,
+      "abstained": 1.0,
+      "correct_count": "0/5",
+      "retention_final": 0.8,
+      "categories": {
+        "abstained_evidence_missing": 1,
+        "unnecessary_abstention": 4
+      },
+      "budget_fallbacks": 0,
+      "final_memory_tokens": 409,
+      "final_memory_lines": 8,
+      "n_questions": 5,
+      "n_items": 10,
+      "evaluator_errors": 0,
+      "evaluator_version": 2
+    },
+    "dvqa-earthquake-len10-054": {
+      "esqa_mean": 0.2,
+      "answered_correct": 0.2,
+      "abstained": 0.4,
+      "correct_count": "1/5",
+      "retention_final": 0.8,
+      "categories": {
+        "abstained_evidence_missing": 1,
+        "wrong_answer_evidence_in_memory": 2,
+        "unnecessary_abstention": 1,
+        "correct": 1
+      },
+      "budget_fallbacks": 0,
+      "final_memory_tokens": 367,
+      "final_memory_lines": 7,
+      "n_questions": 5,
+      "n_items": 10,
+      "evaluator_errors": 0,
+      "evaluator_version": 2
+    },
+    "dvqa-wildfire-len10-064": {
+      "esqa_mean": 0.4,
+      "answered_correct": 0.6,
+      "abstained": 0.2,
+      "correct_count": "2/5",
+      "retention_final": 1.0,
+      "categories": {
+        "correct": 2,
+        "unnecessary_abstention": 1,
+        "unsupported": 1,
+        "wrong_answer_evidence_in_memory": 1
+      },
+      "budget_fallbacks": 0,
+      "final_memory_tokens": 461,
+      "final_memory_lines": 9,
+      "n_questions": 5,
+      "n_items": 10,
+      "evaluator_errors": 0,
+      "evaluator_version": 2
+    },
+    "dvqa-fire-len10-066": {
+      "esqa_mean": 0.2,
+      "answered_correct": 0.2,
+      "abstained": 0.6,
+      "correct_count": "1/5",
+      "retention_final": 0.6,
+      "categories": {
+        "unnecessary_abstention": 2,
+        "abstained_evidence_missing": 1,
+        "wrong_answer_evidence_missing": 1,
+        "correct": 1
+      },
+      "budget_fallbacks": 0,
+      "final_memory_tokens": 487,
+      "final_memory_lines": 7,
+      "n_questions": 5,
+      "n_items": 10,
+      "evaluator_errors": 0,
+      "evaluator_version": 2
+    }
+  }
+}

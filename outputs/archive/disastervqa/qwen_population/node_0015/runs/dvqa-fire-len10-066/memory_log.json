@@ -1,0 +1,342 @@
+[
+  {
+    "item_id": "E01",
+    "step": 1,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A large fire has broken out in a multi-story building in the city. Firefighters are using ladders and aerial ladders to access the building. There are multiple fire trucks and emergency vehicles on the scene. The building appears to be a residential or commercial structure with several floors. Smoke is visible coming from the windows and the roof. There are several firefighters and paramedics on the scene, working to extinguish the fire and provide medical assistance. The street is closed off, and there are no visible signs of damage to the surrounding area.\", \"sources\": [\"E01\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"...\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A large fire has broken out in a multi-story building in the city. Firefighters are using ladders and aerial ladders to access the building. There are multiple fire trucks and emergency vehicles on the scene. The building appears to be a residential or commercial structure with several floors. Smoke is visible coming from the windows and the roof. There are several firefighters and paramedics on the scene, working to extinguish the fire and provide medical assistance. The street is closed off, and there are no visible signs of damage to the surrounding area.",
+              "sources": ["E01"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "...",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2", "update of unknown line m1"],
+        "tokens_after": 140
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 140,
+    "n_lines": 1,
+    "secs": 4.58
+  },
+  {
+    "item_id": "E02",
+    "step": 2,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A firefighter is standing on top of a fire truck, observing the fire.\", \"sources\": [\"E02\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"m1 [src E01 @2017-02-25 03:14 UTC] A large fire has broken out in a multi-story building in the city. Firefighters are using ladders and aerial ladders to access the building. There are multiple fire trucks and emergency vehicles on the scene. The building appears to be a residential or commercial structure with several floors. Smoke is visible coming from the windows and the roof. There are several firefighters and paramedics on the scene, working to extinguish the fire and provide medical assistance. The street is closed off, and there are no visible signs of damage to the surrounding area.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A firefighter is standing on top of a fire truck, observing the fire.",
+              "sources": ["E02"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "m1 [src E01 @2017-02-25 03:14 UTC] A large fire has broken out in a multi-story building in the city. Firefighters are using ladders and aerial ladders to access the building. There are multiple fire trucks and emergency vehicles on the scene. The building appears to be a residential or commercial structure with several floors. Smoke is visible coming from the windows and the roof. There are several firefighters and paramedics on the scene, working to extinguish the fire and provide medical assistance. The street is closed off, and there are no visible signs of damage to the surrounding area.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 209
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 209,
+    "n_lines": 2,
+    "secs": 5.64
+  },
+  {
+    "item_id": "E03",
+    "step": 3,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A charred bus is visible amidst the debris.\", \"sources\": [\"E03\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A large fire has broken out in a multi-story building in the city. Firefighters are using ladders and aerial ladders to access the building. There are multiple fire trucks and emergency vehicles on the scene. The building appears to be a residential or commercial structure with several floors. Smoke is visible coming from the windows and the roof. There are several firefighters and paramedics on the scene, working to extinguish the fire and provide medical assistance. The street is closed off, and there are no visible signs of damage to the surrounding area.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A charred bus is visible amidst the debris.",
+              "sources": ["E03"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A large fire has broken out in a multi-story building in the city. Firefighters are using ladders and aerial ladders to access the building. There are multiple fire trucks and emergency vehicles on the scene. The building appears to be a residential or commercial structure with several floors. Smoke is visible coming from the windows and the roof. There are several firefighters and paramedics on the scene, working to extinguish the fire and provide medical assistance. The street is closed off, and there are no visible signs of damage to the surrounding area.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": [],
+        "tokens_after": 177
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 177,
+    "n_lines": 2,
+    "secs": 4.83
+  },
+  {
+    "item_id": "E04",
+    "step": 4,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A large fire has broken out in a multi-story building in the city. Firefighters are using ladders and aerial ladders to access the building. There are multiple fire trucks and emergency vehicles on the scene. The building appears to be a residential or commercial structure with several floors. Smoke is visible coming from the windows and the roof. There are several firefighters and paramedics on the scene, working to extinguish the fire and provide medical assistance. The street is closed off, and there are no visible signs of damage to the surrounding area.\", \"sources\": [\"E04\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A large fire has broken out in a multi-story building in the city. Firefighters are using ladders and aerial ladders to access the building. There are multiple fire trucks and emergency vehicles on the scene. The building appears to be a residential or commercial structure with several floors. Smoke is visible coming from the windows and the roof. There are several firefighters and paramedics on the scene, working to extinguish the fire and provide medical assistance. The street is closed off, and there are no visible signs of damage to the surrounding area.\", \"sources\": [\"E01\"]}], \"delete\": [\"m3\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A large fire has broken out in a multi-story building in the city. Firefighters are using ladders and aerial ladders to access the building. There are multiple fire trucks and emergency vehicles on the scene. The building appears to be a residential or commercial structure with several floors. Smoke is visible coming from the windows and the roof. There are several firefighters and paramedics on the scene, working to extinguish the fire and provide medical assistance. The street is closed off, and there are no visible signs of damage to the surrounding area.",
+              "sources": ["E04"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A large fire has broken out in a multi-story building in the city. Firefighters are using ladders and aerial ladders to access the building. There are multiple fire trucks and emergency vehicles on the scene. The building appears to be a residential or commercial structure with several floors. Smoke is visible coming from the windows and the roof. There are several firefighters and paramedics on the scene, working to extinguish the fire and provide medical assistance. The street is closed off, and there are no visible signs of damage to the surrounding area.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m3"]
+        },
+        "problems": [],
+        "tokens_after": 280
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 280,
+    "n_lines": 2,
+    "secs": 7.62
+  },
+  {
+    "item_id": "E05",
+    "step": 5,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo of the fire scene was posted on June 25, 2017, at 21:15 UTC.\", \"sources\": [\"E05\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A large fire has broken out in a multi-story building in the city. Firefighters are using ladders and aerial ladders to access the building. There are multiple fire trucks and emergency vehicles on the scene. The building appears to be a residential or commercial structure with several floors. Smoke is visible coming from the windows and the roof. There are several firefighters and paramedics on the scene, working to extinguish the fire and provide medical assistance. The street is closed off, and there are no visible signs of damage to the surrounding area.\", \"sources\": [\"E01\"]}], \"delete\": [\"m4\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo of the fire scene was posted on June 25, 2017, at 21:15 UTC.",
+              "sources": ["E05"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A large fire has broken out in a multi-story building in the city. Firefighters are using ladders and aerial ladders to access the building. There are multiple fire trucks and emergency vehicles on the scene. The building appears to be a residential or commercial structure with several floors. Smoke is visible coming from the windows and the roof. There are several firefighters and paramedics on the scene, working to extinguish the fire and provide medical assistance. The street is closed off, and there are no visible signs of damage to the surrounding area.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m4"]
+        },
+        "problems": [],
+        "tokens_after": 198
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 198,
+    "n_lines": 2,
+    "secs": 5.09
+  },
+  {
+    "item_id": "E06",
+    "step": 6,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo of the fire scene was posted on July 21, 2017, at 00:43 UTC.\", \"sources\": [\"E06\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A large fire has broken out in a multi-story building in the city. Firefighters are using ladders and aerial ladders to access the building. There are multiple fire trucks and emergency vehicles on the scene. The building appears to be a residential or commercial structure with several floors. Smoke is visible coming from the windows and the roof. There are several firefighters and paramedics on the scene, working to extinguish the fire and provide medical assistance. The street is closed off, and there are no visible signs of damage to the surrounding area.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo of the fire scene was posted on July 21, 2017, at 00:43 UTC.",
+              "sources": ["E06"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A large fire has broken out in a multi-story building in the city. Firefighters are using ladders and aerial ladders to access the building. There are multiple fire trucks and emergency vehicles on the scene. The building appears to be a residential or commercial structure with several floors. Smoke is visible coming from the windows and the roof. There are several firefighters and paramedics on the scene, working to extinguish the fire and provide medical assistance. The street is closed off, and there are no visible signs of damage to the surrounding area.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 256
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 256,
+    "n_lines": 3,
+    "secs": 5.42
+  },
+  {
+    "item_id": "E07",
+    "step": 7,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo of the fire scene was posted on August 23, 2017, at 00:46 UTC.\", \"sources\": [\"E07\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A large fire has broken out in a multi-story building in the city. Firefighters are using ladders and aerial ladders to access the building. There are multiple fire trucks and emergency vehicles on the scene. The building appears to be a residential or commercial structure with several floors. Smoke is visible coming from the windows and the roof. There are several firefighters and paramedics on the scene, working to extinguish the fire and provide medical assistance. The street is closed off, and there are no visible signs of damage to the surrounding area.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo of the fire scene was posted on August 23, 2017, at 00:46 UTC.",
+              "sources": ["E07"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A large fire has broken out in a multi-story building in the city. Firefighters are using ladders and aerial ladders to access the building. There are multiple fire trucks and emergency vehicles on the scene. The building appears to be a residential or commercial structure with several floors. Smoke is visible coming from the windows and the roof. There are several firefighters and paramedics on the scene, working to extinguish the fire and provide medical assistance. The street is closed off, and there are no visible signs of damage to the surrounding area.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 314
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 314,
+    "n_lines": 4,
+    "secs": 5.44
+  },
+  {
+    "item_id": "E08",
+    "step": 8,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo of the fire scene was posted on August 28, 2017, at 10:43 UTC.\", \"sources\": [\"E08\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A large fire has broken out in a multi-story building in the city. Firefighters are using ladders and aerial ladders to access the building. There are multiple fire trucks and emergency vehicles on the scene. The building appears to be a residential or commercial structure with several floors. Smoke is visible coming from the windows and the roof. There are several firefighters and paramedics on the scene, working to extinguish the fire and provide medical assistance. The street is closed off, and there are no visible signs of damage to the surrounding area.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo of the fire scene was posted on August 28, 2017, at 10:43 UTC.",
+              "sources": ["E08"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A large fire has broken out in a multi-story building in the city. Firefighters are using ladders and aerial ladders to access the building. There are multiple fire trucks and emergency vehicles on the scene. The building appears to be a residential or commercial structure with several floors. Smoke is visible coming from the windows and the roof. There are several firefighters and paramedics on the scene, working to extinguish the fire and provide medical assistance. The street is closed off, and there are no visible signs of damage to the surrounding area.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 372
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 372,
+    "n_lines": 5,
+    "secs": 5.02
+  },
+  {
+    "item_id": "E09",
+    "step": 9,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo of the fire scene was posted on September 6, 2017, at 09:22 UTC.\", \"sources\": [\"E09\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A large fire has broken out in a multi-story building in the city. Firefighters are using ladders and aerial ladders to access the building. There are multiple fire trucks and emergency vehicles on the scene. The building appears to be a residential or commercial structure with several floors. Smoke is visible coming from the windows and the roof. There are several firefighters and paramedics on the scene, working to extinguish the fire and provide medical assistance. The street is closed off, and there are no visible signs of damage to the surrounding area.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo of the fire scene was posted on September 6, 2017, at 09:22 UTC.",
+              "sources": ["E09"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A large fire has broken out in a multi-story building in the city. Firefighters are using ladders and aerial ladders to access the building. There are multiple fire trucks and emergency vehicles on the scene. The building appears to be a residential or commercial structure with several floors. Smoke is visible coming from the windows and the roof. There are several firefighters and paramedics on the scene, working to extinguish the fire and provide medical assistance. The street is closed off, and there are no visible signs of damage to the surrounding area.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 429
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 429,
+    "n_lines": 6,
+    "secs": 5.07
+  },
+  {
+    "item_id": "E10",
+    "step": 10,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo of the fire scene was posted on September 8, 2017, at 03:41 UTC.\", \"sources\": [\"E10\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A large fire has broken out in a multi-story building in the city. Firefighters are using ladders and aerial ladders to access the building. There are multiple fire trucks and emergency vehicles on the scene. The building appears to be a residential or commercial structure with several floors. Smoke is visible coming from the windows and the roof. There are several firefighters and paramedics on the scene, working to extinguish the fire and provide medical assistance. The street is closed off, and there are no visible signs of damage to the surrounding area.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo of the fire scene was posted on September 8, 2017, at 03:41 UTC.",
+              "sources": ["E10"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A large fire has broken out in a multi-story building in the city. Firefighters are using ladders and aerial ladders to access the building. There are multiple fire trucks and emergency vehicles on the scene. The building appears to be a residential or commercial structure with several floors. Smoke is visible coming from the windows and the roof. There are several firefighters and paramedics on the scene, working to extinguish the fire and provide medical assistance. The street is closed off, and there are no visible signs of damage to the surrounding area.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 487
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 487,
+    "n_lines": 7,
+    "secs": 5.62
+  }
+]

@@ -1,0 +1,19 @@
+<strategy>
+Implements a prioritized hierarchical memory system with structured tagging and dynamic resource management. Stores evidence using nested tags [[[primary_disaster]][[secondary_disaster]][[specific_impact]]], retaining only highest-priority information based on predefined thresholds. Utilizes 15% compression ratio during moderate events and preserves critical metrics exactly despite storage costs. Maintains temporal decay function sqrt_time_weighted(h=30d) while reserving 5% capacity for cryptographic validation. Memory updates follow strict sequence: assess token limits > compress low-value content > archive expired records. Currently stores 8 active memories across 9 steps within 512-token cap, demonstrating effective utilization of buffer zones between threshold actions.
+</strategy>
+
+<rationale>
+This strategy optimizes limited memory resources through three layers of optimization: 
+1. Priority-based filtering ensures catastrophic failure indicators remain accessible even when nearing token limits
+2. Structural nesting enables complex relationship modeling without excessive token expenditure
+3. Adaptive compression balances readability preservation with space constraints, particularly crucial during high-frequency input periods like wildfire monitoring sequences where rapid updates occur every ~2 hours (observed in timeline analysis)
+
+Key implementation decisions reflect observed failures: maintaining complete disaster typology entries prevents misclassification errors (as seen in hurricane stream's incorrect "Flood" label application), while aggressive compression of contextual descriptors avoids overflow issues common in earthquake datasets' repetitive damage reports. The 30-day half-life parameter was calibrated to match typical post-disaster reporting cycles evident in dataset timestamps.
+</rationale>
+
+<changes>
+- Adjusted compression trigger points to activate earlier during sustained disasters (reduced from 0.92 to 0.85 buffer utilization)
+- Added explicit handling for multi-source verification conflicts (addressing wildfire stream discrepancies)
+- Increased minimum retention period from 3 days to 7 days to better preserve relevant evidence
+- Enhanced hash reservation algorithm with dual-layer error detection
+</changes>

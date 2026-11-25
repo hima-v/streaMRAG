@@ -1,0 +1,292 @@
+[
+  {
+    "step": 1,
+    "tokens": 44,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two workers are seen standing on a ladder amidst the rubble of a collapsed building.",
+        "sources": ["E01"]
+      }
+    ]
+  },
+  {
+    "step": 2,
+    "tokens": 89,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two workers are seen standing on a ladder amidst the rubble of a collapsed building.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "A black car is parked on a cracked asphalt road with a large crack running through it.",
+        "sources": ["E02"]
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "tokens": 106,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two workers are seen standing on a ladder amidst the rubble of a collapsed building.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A crowd of people, including rescue workers and civilians, are gathered around the rubble of a collapsed building. Some are raising their hands in distress or to signal for help.",
+        "sources": ["E03"]
+      }
+    ]
+  },
+  {
+    "step": 4,
+    "tokens": 150,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two workers are seen standing on a ladder amidst the rubble of a collapsed building.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A crowd of people, including rescue workers and civilians, are gathered around the rubble of a collapsed building. Some are raising their hands in distress or to signal for help.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A woman rides a bicycle with a trailer through the rubble of a collapsed building.",
+        "sources": ["E04"]
+      }
+    ]
+  },
+  {
+    "step": 5,
+    "tokens": 216,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two workers are seen standing on a ladder amidst the rubble of a collapsed building.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A crowd of people, including rescue workers and civilians, are gathered around the rubble of a collapsed building. Some are raising their hands in distress or to signal for help.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A woman rides a bicycle with a trailer through the rubble of a collapsed building.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo shows a group of people, including rescue workers and civilians, gathered around the rubble of a collapsed building. Some are raising their hands in distress or to signal for help.",
+        "sources": ["E05"]
+      }
+    ]
+  },
+  {
+    "step": 6,
+    "tokens": 282,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two workers are seen standing on a ladder amidst the rubble of a collapsed building.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A crowd of people, including rescue workers and civilians, are gathered around the rubble of a collapsed building. Some are raising their hands in distress or to signal for help.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A woman rides a bicycle with a trailer through the rubble of a collapsed building.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo shows a group of people, including rescue workers and civilians, gathered around the rubble of a collapsed building. Some are raising their hands in distress or to signal for help.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo shows a group of people, including rescue workers and civilians, gathered around the rubble of a collapsed building. Some are raising their hands in distress or to signal for help.",
+        "sources": ["E06"]
+      }
+    ]
+  },
+  {
+    "step": 7,
+    "tokens": 348,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two workers are seen standing on a ladder amidst the rubble of a collapsed building.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A crowd of people, including rescue workers and civilians, are gathered around the rubble of a collapsed building. Some are raising their hands in distress or to signal for help.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A woman rides a bicycle with a trailer through the rubble of a collapsed building.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo shows a group of people, including rescue workers and civilians, gathered around the rubble of a collapsed building. Some are raising their hands in distress or to signal for help.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo shows a group of people, including rescue workers and civilians, gathered around the rubble of a collapsed building. Some are raising their hands in distress or to signal for help.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo shows a group of people, including rescue workers and civilians, gathered around the rubble of a collapsed building. Some are raising their hands in distress or to signal for help.",
+        "sources": ["E07"]
+      }
+    ]
+  },
+  {
+    "step": 8,
+    "tokens": 414,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two workers are seen standing on a ladder amidst the rubble of a collapsed building.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A crowd of people, including rescue workers and civilians, are gathered around the rubble of a collapsed building. Some are raising their hands in distress or to signal for help.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A woman rides a bicycle with a trailer through the rubble of a collapsed building.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo shows a group of people, including rescue workers and civilians, gathered around the rubble of a collapsed building. Some are raising their hands in distress or to signal for help.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo shows a group of people, including rescue workers and civilians, gathered around the rubble of a collapsed building. Some are raising their hands in distress or to signal for help.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo shows a group of people, including rescue workers and civilians, gathered around the rubble of a collapsed building. Some are raising their hands in distress or to signal for help.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo shows a group of people, including rescue workers and civilians, gathered around the rubble of a collapsed building. Some are raising their hands in distress or to signal for help.",
+        "sources": ["E08"]
+      }
+    ]
+  },
+  {
+    "step": 9,
+    "tokens": 480,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two workers are seen standing on a ladder amidst the rubble of a collapsed building.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A crowd of people, including rescue workers and civilians, are gathered around the rubble of a collapsed building. Some are raising their hands in distress or to signal for help.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A woman rides a bicycle with a trailer through the rubble of a collapsed building.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo shows a group of people, including rescue workers and civilians, gathered around the rubble of a collapsed building. Some are raising their hands in distress or to signal for help.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo shows a group of people, including rescue workers and civilians, gathered around the rubble of a collapsed building. Some are raising their hands in distress or to signal for help.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo shows a group of people, including rescue workers and civilians, gathered around the rubble of a collapsed building. Some are raising their hands in distress or to signal for help.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo shows a group of people, including rescue workers and civilians, gathered around the rubble of a collapsed building. Some are raising their hands in distress or to signal for help.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media photo shows a group of people, including rescue workers and civilians, gathered around the rubble of a collapsed building. Some are raising their hands in distress or to signal for help.",
+        "sources": ["E09"]
+      }
+    ]
+  },
+  {
+    "step": 10,
+    "tokens": 503,
+    "lines": [
+      {
+        "id": "m3",
+        "text": "A crowd of people, including rescue workers and civilians, are gathered around the rubble of a collapsed building. Some are raising their hands in distress or to signal for help.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A woman rides a bicycle with a trailer through the rubble of a collapsed building.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo shows a group of people, including rescue workers and civilians, gathered around the rubble of a collapsed building. Some are raising their hands in distress or to signal for help.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo shows a group of people, including rescue workers and civilians, gathered around the rubble of a collapsed building. Some are raising their hands in distress or to signal for help.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo shows a group of people, including rescue workers and civilians, gathered around the rubble of a collapsed building. Some are raising their hands in distress or to signal for help.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo shows a group of people, including rescue workers and civilians, gathered around the rubble of a collapsed building. Some are raising their hands in distress or to signal for help.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media photo shows a group of people, including rescue workers and civilians, gathered around the rubble of a collapsed building. Some are raising their hands in distress or to signal for help.",
+        "sources": ["E09"]
+      },
+      {
+        "id": "m10",
+        "text": "A social media photo shows a group of people, including rescue workers and civilians, gathered around the rubble of a collapsed building. Some are raising their hands in distress or to signal for help.",
+        "sources": ["E10"]
+      }
+    ]
+  }
+]

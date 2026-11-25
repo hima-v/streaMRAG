@@ -1,0 +1,21 @@
+Revise the META HARNESS to enforce strict adherence to the revised memory strategy, ensuring compatibility with future implementations. Key modifications include:
+
+1. **Structured Metadata Enforcement:**  
+   - Require explicit validation of all extracted visual elements against predefined schemas (e.g., mandatory fields like `disaster_typ`, `impacted_infra`). Invalid/incomplete entries trigger warnings but proceed with minimal viable data.  
+   - Add schema examples for common disasters (e.g., flood-specific fields vs. earthquake-specific ones).
+
+2. **Token-Aware Parsing Optimization:**  
+   - Introduce dynamic compression thresholds: Prioritize brevity for high-frequency terms (e.g., "fire_truck" → "ft") while preserving unique descriptors (e.g., "damaged_power_line" remains unaltered).  
+   - Implement automatic token-counting hooks before storage updates to prevent overflow errors.
+
+3. **Temporal Integrity Checks:**  
+   - Track timestamps for each entry to detect/reject out-of-sequence additions that might corrupt chronological order.  
+   - Maintain audit logs of deletion actions to debug capacity issues transparently.
+
+4. **Cross-Stream Consistency Mechanisms:**  
+   - Expand semantic linking to auto-generate contextual relationships between entries (e.g., connect `[flood_rescue]` with `[rainfall_analysis]` tags).  
+   - Normalize tag formatting to lowercase with underscores to avoid case-sensitive mismatches.
+
+5. **Edge Case Safeguards:**  
+   - When nearing token limits, preemptively offload non-critical details (e.g., redundant descriptions) rather than risking abrupt truncation.  
+   - Reserve minimum buffer space (≤5% of total tokens) to handle unexpected data spikes without violating hard caps.

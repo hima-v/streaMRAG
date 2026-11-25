@@ -1,0 +1,14 @@
+<strategy>
+Maintain a token-efficient memory log using structured JSON entries with optimized keys (e.g., "disaster_typ", "impacted_infra") and compressed values. Store each entry's description, source ID, and parsed visual attributes (e.g., "vehicle_types": ["train_carriage"], "materials": ["bricks"]). Implement a chronological eviction policy retaining only the latest 10 complete entries—deleting the oldest full entry if adding a new one exceeds the 512-token budget. Include semantic tags ([flood_rescue]) to link related events across streams. Avoid partial deletions; preserve full entries until replacement.  
+</strategy>
+
+<rationale>
+This approach balances specificity and token efficiency by extracting granular metadata into structured formats, reducing redundancy while preserving contextual relevance. Chronological eviction ensures focus on recent data without fragmenting entries, critical for handling sequential updates. Semantic tagging enables cross-query connections despite limited retention capacity, addressing gaps caused by overwrites. Testing showed improved recall for recent events but highlighted challenges with older entries, necessitating strict adherence to the eviction protocol to prevent premature data loss.
+</rationale>
+
+<changes>
+1. **Structured Attribute Extraction**: Defined explicit schema-like fields (e.g., "disaster_typ", "vehicle_types") to standardize parsing and improve query alignment.  
+2. **Token-Compressed Values**: Used abbreviations and lists (e.g., ["railway"]) to minimize verbosity while retaining critical details.  
+3. **Strict Eviction Rule**: Enforced deletion of oldest full entries first, preventing partial truncation and ensuring consistent retrieval reliability.  
+4. **Contextual Tagging**: Appended event-specific tags (e.g., [wildfire_aftermath]) to enhance associative reasoning across unrelated topics.
+</changes>

@@ -1,0 +1,352 @@
+# Node 11 (child of node 5)
+
+Archive `qwen_population` · dataset `disastervqa` · base stream `len10` · 5 evidence stream(s) of 10 items · budget 512 tokens · profile `minimal` · switches {'memory_strategy': 'dynamic', 'meta_harness': 'dynamic'}
+
+Memory agent `qwen2-vl-7b` · meta agent `nemotron-12b-vl` · answering agent `qwen2-vl-7b` · evaluator `qwen2-vl-7b`
+
+Questions are asked only after the last item of each stream; the memory agent never sees them.
+
+## How this node was created
+
+The meta agent took parent node 5's strategy, meta harness and evaluation log (`node_0005/meta_log.md`), wrote the new meta harness below, then followed it to write the new memory strategy.
+
+- Harness rationale: This revision strengthens implementation reliability while maintaining backward compatibility. Schema validation prevents malformed data ingestion, dynamic compression optimizes storage efficiency, and temporal safeguards protect historical continuity. Enhanced semantic linking improves cross-context reasoning, critical for complex QA tasks. Edge-case buffers address real-world unpredictability within the fixed token constraint, aligning with observed failures where premature deletions occurred due to miscalculated budgets. By enforcing structural rigor, we mitigate the root causes of previous score penalties (-0.06 across datasets) tied to missing evidence and citation inaccuracies.
+- Strategy rationale: The strategy enforces schema-driven parsing to reduce hallucinations and improve retrieval accuracy. Dynamic compression balances brevity with critical detail retention, preventing overflow-related failures. Temporal safeguards maintain temporal coherence, while semantic linking enables cross-event reasoning. Buffer allocation mitigates edge-case volatility. These changes address prior weaknesses where premature deletions or vague abstractions led to evidence loss (e.g., flood stream’s missing post-deletion citations). Schema examples standardize handling diverse disaster types, improving generalizability.
+- Change: Key revisions from baseline:
+- Change: Added explicit schema validation rules with domain-specific field differentiation.
+- Change: Formalized token-counting hooks tied to CRUD operations.
+- Change: Implemented timestamp auditing for deletions instead of passive tracking.
+- Change: Standardized tag normalization (lowercase_underscore) and automated hyperlink generation.
+- Change: Reduced eviction granularity from "entries" to "full entries" only, banning partial deletions.
+- Change: Buffer size capped at ≤5% dynamically computed based on current usage.
+
+## Memory strategy (`71f3fb203b1f`)
+
+```
+Implement strict adherence to the revised memory strategy via the following mechanisms:  
+1. **Schema Validation**: Explicitly validate all extracted metadata (e.g., `disaster_typ`, `impacted_infra`) against predefined schemas during parsing. Incomplete/malformed entries emit warnings but retain essential data. Example schemas distinguish flood-specific fields (`flood_depth`, `submerged_vehicles`) from earthquake-specific ones (`building_height`, `material_type`).  
+2. **Dynamic Token Management**: Use term frequency-based compression (e.g., "fire_truck"→"ft") alongside real-time token-count checks. Preemptive offloading of non-critical details occurs when exceeding thresholds, prioritizing core event context. Maintain ≤5% free buffer to absorb sudden data influxes.  
+3. **Chronological Integrity**: Log deletion timestamps to audit history and reject out-of-order entries. Retain the latest 10 *full* entries (not abstracted summaries); evict oldest entry first upon reaching 512-token limit.  
+4. **Semantic Linking**: Automatically generate hyperlinks between semantically tagged entries (e.g., `[flood_rescue]` ↔ `[rainfall_analysis]`) using standardized lowercase underscore formatting.  
+This ensures efficient, error-resilient memory preservation aligned with evaluation requirements.
+```
+
+## Meta harness (`0695e8adc362`)
+
+```
+Revise the META HARNESS to enforce strict adherence to the revised memory strategy, ensuring compatibility with future implementations. Key modifications include:
+
+1. **Structured Metadata Enforcement:**  
+   - Require explicit validation of all extracted visual elements against predefined schemas (e.g., mandatory fields like `disaster_typ`, `impacted_infra`). Invalid/incomplete entries trigger warnings but proceed with minimal viable data.  
+   - Add schema examples for common disasters (e.g., flood-specific fields vs. earthquake-specific ones).
+
+2. **Token-Aware Parsing Optimization:**  
+   - Introduce dynamic compression thresholds: Prioritize brevity for high-frequency terms (e.g., "fire_truck" → "ft") while preserving unique descriptors (e.g., "damaged_power_line" remains unaltered).  
+   - Implement automatic token-counting hooks before storage updates to prevent overflow errors.
+
+3. **Temporal Integrity Checks:**  
+   - Track timestamps for each entry to detect/reject out-of-sequence additions that might corrupt chronological order.  
+   - Maintain audit logs of deletion actions to debug capacity issues transparently.
+
+4. **Cross-Stream Consistency Mechanisms:**  
+   - Expand semantic linking to auto-generate contextual relationships between entries (e.g., connect `[flood_rescue]` with `[rainfall_analysis]` tags).  
+   - Normalize tag formatting to lowercase with underscores to avoid case-sensitive mismatches.
+
+5. **Edge Case Safeguards:**  
+   - When nearing token limits, preemptively offload non-critical details (e.g., redundant descriptions) rather than risking abrupt truncation.  
+   - Reserve minimum buffer space (≤5% of total tokens) to handle unexpected data spikes without violating hard caps.
+```
+
+## Score
+
+**Node score (mean over streams): 0.22** · correct 5/25 · evidence retained 0.76 · abstained 0.32 · budget fallbacks 0
+
+| stream | items | score | correct | evidence retained | final memory |
+|---|---|---|---|---|---|
+| `dvqa-hurricane-len10-010` | E01-E10 | 0.2 | 1/5 | 0.8 | 8 lines, 326 tok |
+| `dvqa-flood-len10-024` | E01-E10 | 0.5 | 2/5 | 1.0 | 9 lines, 339 tok |
+| `dvqa-earthquake-len10-054` | E01-E10 | 0.0 | 0/5 | 0.6 | 4 lines, 265 tok |
+| `dvqa-wildfire-len10-064` | E01-E10 | 0.4 | 2/5 | 1.0 | 8 lines, 397 tok |
+| `dvqa-fire-len10-066` | E01-E10 | 0.0 | 0/5 | 0.4 | 6 lines, 247 tok |
+
+## Stream `dvqa-hurricane-len10-010` ([evaluation.md](runs/dvqa-hurricane-len10-010/evaluation.md))
+
+| item | question | gold | answer | outcome | evidence in memory |
+|---|---|---|---|---|---|
+| E01 | What type of disaster is depicted in the image? Select all that apply. | B (Flood) | B (Flood) | `correct` | yes |
+| E03 | What type of area is affected? Answer with one or two words. | Residential | Flooded area | `invalid_citation` | no |
+| E05 | What is the condition of the road? Select all that apply. | B (Partially blocked) | C (Fully blocked) | `wrong_answer_evidence_in_memory` | yes |
+| E06 | Is there a fallen tree blocking the road? Answer with Yes or No. | No | Yes | `wrong_answer_evidence_in_memory` | yes |
+| E08 | Are there any fallen trees visible in the image? Answer with Yes or No. | Yes | No | `wrong_answer_evidence_in_memory` | yes |
+
+Final memory:
+
+```
+m1 [src E01] Aerial view of flooded area with submerged vehicles and buildings.
+m4 [src E04] Soldiers clear debris from a road near a flooded area.
+m5 [src E05] A tree has fallen on the road, blocking it.
+m6 [src E06] A tree has fallen on the road, blocking it.
+m7 [src E07] A social media photo from Twitter shows a flooded area with submerged vehicles and buildings.
+m8 [src E08] A social media photo from Twitter shows a flooded area with submerged vehicles and buildings.
+m9 [src E09] A social media photo from Twitter shows a flooded area with submerged vehicles and buildings.
+m10 [src E10] A social media photo from Twitter shows a flooded area with submerged vehicles and buildings.
+```
+
+## Stream `dvqa-flood-len10-024` ([evaluation.md](runs/dvqa-flood-len10-024/evaluation.md))
+
+| item | question | gold | answer | outcome | evidence in memory |
+|---|---|---|---|---|---|
+| E03 | Are there any vehicles submerged in water? Answer with Yes or No. | Yes | Yes | `correct` | yes |
+| E04 | What is the primary obstacle on the road? Answer with one or two words. | Floodwater | muddy water | `partially_correct` | yes |
+| E06 | Are there any visible risks such as downed power lines or open manholes? Answer with Yes or No. | No | NOT_ENOUGH_EVIDENCE | `unnecessary_abstention` | yes |
+| E08 | What infrastructure is affected by the flooding? Select all that apply. | A (Railway) | A (Railway) | `correct` | yes |
+| E10 | What type of vehicle is partially submerged in the water? Select all that apply. | C (Auto-rickshaw) | A (Car) | `wrong_answer_evidence_in_memory` | yes |
+
+Final memory:
+
+```
+m1 [src E01] A flooded campsite with submerged RVs and trees
+m3 [src E03] A flooded street with submerged vehicles and muddy water
+m4 [src E04] A flooded street with submerged vehicles and muddy water
+m5 [src E05] A man is swimming in the water holding onto a rope.
+m6 [src E06] A flooded street with submerged vehicles and muddy water
+m7 [src E07] A flooded street with submerged vehicles and muddy water
+m8 [src E08] A flooded train yard with submerged train carriages and muddy water
+m9 [src E09] A flooded street with submerged vehicles and muddy water
+m10 [src E10] A flooded street with submerged vehicles and muddy water
+```
+
+## Stream `dvqa-earthquake-len10-054` ([evaluation.md](runs/dvqa-earthquake-len10-054/evaluation.md))
+
+| item | question | gold | answer | outcome | evidence in memory |
+|---|---|---|---|---|---|
+| E04 | What is the primary material of the debris? Answer with one or two words. | Bricks | NOT_ENOUGH_EVIDENCE | `abstained_evidence_missing` | no |
+| E07 | What is the condition of the building in the image? Select all that apply. | C (Collapsed) | C (Collapsed) | `invalid_citation` | no |
+| E08 | Is there heavy machinery present in the image? Answer with Yes or No. | Yes | No | `wrong_answer_evidence_in_memory` | yes |
+| E09 | Is the debris mostly concrete? Answer with Yes or No. | Yes | NOT_ENOUGH_EVIDENCE | `unnecessary_abstention` | yes |
+| E10 | What is the primary material visible in the debris? Select all that apply. | C (Concrete) | NOT_ENOUGH_EVIDENCE | `unnecessary_abstention` | yes |
+
+Final memory:
+
+```
+m1 [src E01] A social media photo from 2017-09-21 04:40 UTC shows a scene of a collapsed building with two individuals on a ladder amidst debris.
+m8 [src E08] A social media photo from 2017-09-21 08:44 UTC shows a scene of a collapsed building with two individuals on a ladder amidst debris.
+m9 [src E09] A social media photo from 2017-09-21 10:33 UTC shows a scene of a collapsed building with two individuals on a ladder amidst debris.
+m10 [src E10] A social media photo from 2017-09-21 10:48 UTC shows a scene of a collapsed building with two individuals on a ladder amidst debris.
+```
+
+## Stream `dvqa-wildfire-len10-064` ([evaluation.md](runs/dvqa-wildfire-len10-064/evaluation.md))
+
+| item | question | gold | answer | outcome | evidence in memory |
+|---|---|---|---|---|---|
+| E01 | How many people are visible in the image? Select all that apply. | C (Two) | C (Two) | `correct` | yes |
+| E06 | What is the primary material burning? Answer with one or two words. | Trees | NOT_ENOUGH_EVIDENCE | `unnecessary_abstention` | yes |
+| E07 | What type of disaster is depicted in the image? Select all that apply. | B (Fire) | B (Fire) | `correct` | yes |
+| E09 | Are these people watching fireworks? Answer with Yes or No. | No | No | `unsupported` | yes |
+| E10 | Are there any emergency responders present? Answer with Yes or No. | Yes | No | `wrong_answer_evidence_in_memory` | yes |
+
+Final memory:
+
+```
+m1 [src E01] Two people are seen running through a burning landscape, with flames engulfing the ground and charred tree stumps. The scene is shrouded in smoke and the sky is darkened by the fire.
+m4 [src E04] A social media user posted a photo of the fire on Twitter, showing the intense flames and smoke.
+m5 [src E05] A social media user posted a photo of the fire on Twitter, showing the intense flames and smoke.
+m6 [src E06] A social media user posted a photo of the fire on Twitter, showing the intense flames and smoke.
+m7 [src E07] A social media user posted a photo of the fire on Twitter, showing the intense flames and smoke.
+m8 [src E08] A social media user posted a photo of the fire on Twitter, showing the intense flames and smoke.
+m9 [src E09] A social media user posted a photo of the fire on Twitter, showing the intense flames and smoke.
+m10 [src E10] A social media user posted a photo of the fire on Twitter, showing the intense flames and smoke.
+```
+
+## Stream `dvqa-fire-len10-066` ([evaluation.md](runs/dvqa-fire-len10-066/evaluation.md))
+
+| item | question | gold | answer | outcome | evidence in memory |
+|---|---|---|---|---|---|
+| E01 | How many emergency ladders are deployed? Answer with one or two words. | Four | NOT_ENOUGH_EVIDENCE | `unnecessary_abstention` | yes |
+| E03 | Are there damaged vehicles in the image? Answer with Yes or No. | Yes | NOT_ENOUGH_EVIDENCE | `abstained_evidence_missing` | no |
+| E04 | What type of building is affected by the fire? Select all that apply. | B (Commercial) | C (High-rise) | `wrong_answer_evidence_missing` | no |
+| E05 | What is the condition of the buildings in the image? Select all that apply. | B (Intact with smoke) | B (Intact with smoke) | `invalid_citation` | no |
+| E06 | Are there residential buildings near the fire? Answer with Yes or No. | Yes | NOT_ENOUGH_EVIDENCE | `unnecessary_abstention` | yes |
+
+Final memory:
+
+```
+m1 [src E01] A large fire has broken out in a multi-story building in New York City.
+m6 [src E06] A large fire has broken out in a multi-story building in New York City.
+m7 [src E07] A large fire has broken out in a multi-story building in New York City.
+m8 [src E08] A social media photo of the fire was posted on Twitter.
+m9 [src E09] A social media photo of the fire was posted on Twitter.
+m10 [src E10] A social media photo of the fire was posted on Twitter.
+```
+
+## Evaluation log (fed to the meta agent if this node is chosen as a parent)
+
+```
+NODE SCORE: 0.22 = mean over 5 evidence stream(s): dvqa-hurricane-len10-010 0.2, dvqa-flood-len10-024 0.5, dvqa-earthquake-len10-054 0.0, dvqa-wildfire-len10-064 0.4, dvqa-fire-len10-066 0.0
+STREAM dvqa-hurricane-len10-010: 10 photos (E01-E10), memory budget 512 tokens. The memory agent never sees the questions; 5 questions were asked once, after the last photo.
+SCORE: 0.2 (1/5 questions correct with valid evidence; abstained on 0.0; evidence still in memory for 0.8 of the questions; final memory 8 lines / 326 tokens; budget fallbacks 0).
+OUTCOMES: correct=1, invalid_citation=1, wrong_answer_evidence_in_memory=3
+
+PER QUESTION (asked after the last photo):
+* correct | E01 (posted 2017-09-19 16:33 UTC): What type of disaster is depicted in the image? Select all that apply.
+  gold: B (Flood) | given: B (Flood) | evidence in memory (stored at step 1)
+* invalid_citation | E03 (posted 2017-09-19 17:03 UTC): What type of area is affected? Answer with one or two words.
+  gold: Residential | given: Flooded area | evidence stored at step 3, deleted at step 4
+  memory about E03: (none)
+  what the photo actually shows (dataset facts): Is flooding visible in the image? Yes; Are there any vehicles on the flooded road? Yes; Can emergency vehicles pass through this area? Yes; What type of area is affected? Residential
+* wrong_answer_evidence_in_memory | E05 (posted 2017-09-19 18:05 UTC): What is the condition of the road? Select all that apply.
+  gold: B (Partially blocked) | given: C (Fully blocked) | evidence in memory (stored at step 5)
+  memory about E05: A tree has fallen on the road, blocking it.
+  what the photo actually shows (dataset facts): Are there any visible emergency vehicles in the image? No; Is there any visible flooding on the road? No; What is the condition of the road? Partially blocked
+* wrong_answer_evidence_in_memory | E06 (posted 2017-09-19 18:16 UTC): Is there a fallen tree blocking the road? Answer with Yes or No.
+  gold: No | given: Yes | evidence in memory (stored at step 6)
+  memory about E06: A tree has fallen on the road, blocking it.
+  what the photo actually shows (dataset facts): Is there a fallen tree blocking the road? No; Are there any power lines down in the image? Yes; What is the primary obstruction on the road? Broken power pole
+* wrong_answer_evidence_in_memory | E08 (posted 2017-09-19 19:20 UTC): Are there any fallen trees visible in the image? Answer with Yes or No.
+  gold: Yes | given: No | evidence in memory (stored at step 8)
+  memory about E08: A social media photo from Twitter shows a flooded area with submerged vehicles and buildings.
+  what the photo actually shows (dataset facts): Are there any fallen trees visible in the image? Yes; Are there any collapsed buildings visible in the image? No
+MEMORY PER STEP (lines / tokens / fallback): 1:1/39; 2:2/86; 3:2/78; 4:2/77; 5:3/115; 6:4/153; 7:5/196; 8:6/239; 9:7/282; 10:8/326
+FINAL MEMORY:
+  m1 [src E01] Aerial view of flooded area with submerged vehicles and buildings.
+  m4 [src E04] Soldiers clear debris from a road near a flooded area.
+  m5 [src E05] A tree has fallen on the road, blocking it.
+  m6 [src E06] A tree has fallen on the road, blocking it.
+  m7 [src E07] A social media photo from Twitter shows a flooded area with submerged vehicles and buildings.
+  m8 [src E08] A social media photo from Twitter shows a flooded area with submerged vehicles and buildings.
+  m9 [src E09] A social media photo from Twitter shows a flooded area with submerged vehicles and buildings.
+  m10 [src E10] A social media photo from Twitter shows a flooded area with submerged vehicles and buildings.
+
+STREAM dvqa-flood-len10-024: 10 photos (E01-E10), memory budget 512 tokens. The memory agent never sees the questions; 5 questions were asked once, after the last photo.
+SCORE: 0.5 (2/5 questions correct with valid evidence; abstained on 0.2; evidence still in memory for 1.0 of the questions; final memory 9 lines / 339 tokens; budget fallbacks 0).
+OUTCOMES: correct=2, partially_correct=1, unnecessary_abstention=1, wrong_answer_evidence_in_memory=1
+
+PER QUESTION (asked after the last photo):
+* correct | E03 (posted 2015-12-03 16:52 UTC): Are there any vehicles submerged in water? Answer with Yes or No.
+  gold: Yes | given: Yes | evidence in memory (stored at step 3)
+* partially_correct | E04 (posted 2015-12-03 17:20 UTC): What is the primary obstacle on the road? Answer with one or two words.
+  gold: Floodwater | given: muddy water | evidence in memory (stored at step 4)
+  memory about E04: A flooded street with submerged vehicles and muddy water
+  what the photo actually shows (dataset facts): What is the condition of the road in the image? Flooded; What is the primary obstacle on the road? Floodwater
+  evaluator: supported - The evidence states that the primary obstacle on the road is floodwater, which matches the answer given.
+* unnecessary_abstention | E06 (posted 2015-12-04 03:38 UTC): Are there any visible risks such as downed power lines or open manholes? Answer with Yes or No.
+  gold: No | given: NOT_ENOUGH_EVIDENCE | evidence in memory (stored at step 6)
+  memory about E06: A flooded street with submerged vehicles and muddy water
+  what the photo actually shows (dataset facts): Are there any visible risks such as downed power lines or open manholes? No; Is the main road in the image navigable by emergency vehicles? Yes; How many vehicles appear to be stranded or damaged in the floodwaters? None
+* correct | E08 (posted 2015-12-04 07:54 UTC): What infrastructure is affected by the flooding? Select all that apply.
+  gold: A (Railway) | given: A (Railway) | evidence in memory (stored at step 8)
+* wrong_answer_evidence_in_memory | E10 (posted 2015-12-04 17:45 UTC): What type of vehicle is partially submerged in the water? Select all that apply.
+  gold: C (Auto-rickshaw) | given: A (Car) | evidence in memory (stored at step 10)
+  memory about E10: A flooded street with submerged vehicles and muddy water
+  what the photo actually shows (dataset facts): Are there any vehicles partially submerged in water? Yes; What type of vehicle is partially submerged in the water? Auto-rickshaw; What is the condition of the road in the image? Flooded
+MEMORY PER STEP (lines / tokens / fallback): 1:1/37; 2:2/74; 3:2/74; 4:3/111; 5:4/150; 6:5/187; 7:6/224; 8:7/264; 9:8/301; 10:9/339
+FINAL MEMORY:
+  m1 [src E01] A flooded campsite with submerged RVs and trees
+  m3 [src E03] A flooded street with submerged vehicles and muddy water
+  m4 [src E04] A flooded street with submerged vehicles and muddy water
+  m5 [src E05] A man is swimming in the water holding onto a rope.
+  m6 [src E06] A flooded street with submerged vehicles and muddy water
+  m7 [src E07] A flooded street with submerged vehicles and muddy water
+  m8 [src E08] A flooded train yard with submerged train carriages and muddy water
+  m9 [src E09] A flooded street with submerged vehicles and muddy water
+  m10 [src E10] A flooded street with submerged vehicles and muddy water
+
+STREAM dvqa-earthquake-len10-054: 10 photos (E01-E10), memory budget 512 tokens. The memory agent never sees the questions; 5 questions were asked once, after the last photo.
+SCORE: 0.0 (0/5 questions correct with valid evidence; abstained on 0.6; evidence still in memory for 0.6 of the questions; final memory 4 lines / 265 tokens; budget fallbacks 0).
+OUTCOMES: abstained_evidence_missing=1, invalid_citation=1, unnecessary_abstention=2, wrong_answer_evidence_in_memory=1
+
+PER QUESTION (asked after the last photo):
+* abstained_evidence_missing | E04 (posted 2017-09-21 06:50 UTC): What is the primary material of the debris? Answer with one or two words.
+  gold: Bricks | given: NOT_ENOUGH_EVIDENCE | evidence stored at step 4, deleted at step 5
+  memory about E04: (none)
+  what the photo actually shows (dataset facts): Is the debris blocking the road? No; What is the condition of the building in the image? Completely Collapsed; What is the primary material of the debris? Bricks
+* invalid_citation | E07 (posted 2017-09-21 08:35 UTC): What is the condition of the building in the image? Select all that apply.
+  gold: C (Collapsed) | given: C (Collapsed) | evidence stored at step 7, deleted at step 8
+  memory about E07: (none)
+  what the photo actually shows (dataset facts): Are there any vehicles trapped under debris? Yes; How many vehicles are visible in the image? One; What is the condition of the building in the image? Collapsed
+* wrong_answer_evidence_in_memory | E08 (posted 2017-09-21 08:44 UTC): Is there heavy machinery present in the image? Answer with Yes or No.
+  gold: Yes | given: No | evidence in memory (stored at step 8)
+  memory about E08: A social media photo from 2017-09-21 08:44 UTC shows a scene of a collapsed building with two individuals on a ladder amidst debris.
+  what the photo actually shows (dataset facts): Is there heavy machinery present in the image? Yes; Are there any people visible in the image? Yes; What is the primary material of the damaged building? Concrete
+* unnecessary_abstention | E09 (posted 2017-09-21 10:33 UTC): Is the debris mostly concrete? Answer with Yes or No.
+  gold: Yes | given: NOT_ENOUGH_EVIDENCE | evidence in memory (stored at step 9)
+  memory about E09: A social media photo from 2017-09-21 10:33 UTC shows a scene of a collapsed building with two individuals on a ladder amidst debris.
+  what the photo actually shows (dataset facts): Is the debris mostly concrete? Yes; What is the primary activity of the people in the image? Rescuing; How many ladders are visible? Two
+* unnecessary_abstention | E10 (posted 2017-09-21 10:48 UTC): What is the primary material visible in the debris? Select all that apply.
+  gold: C (Concrete) | given: NOT_ENOUGH_EVIDENCE | evidence in memory (stored at step 10)
+  memory about E10: A social media photo from 2017-09-21 10:48 UTC shows a scene of a collapsed building with two individuals on a ladder amidst debris.
+  what the photo actually shows (dataset facts): What is the primary material visible in the debris? Concrete; How many dogs are visible? One
+MEMORY PER STEP (lines / tokens / fallback): 1:1/66; 2:2/107; 3:2/132; 4:2/132; 5:2/132; 6:2/132; 7:2/132; 8:2/132; 9:3/198; 10:4/265
+FINAL MEMORY:
+  m1 [src E01] A social media photo from 2017-09-21 04:40 UTC shows a scene of a collapsed building with two individuals on a ladder amidst debris.
+  m8 [src E08] A social media photo from 2017-09-21 08:44 UTC shows a scene of a collapsed building with two individuals on a ladder amidst debris.
+  m9 [src E09] A social media photo from 2017-09-21 10:33 UTC shows a scene of a collapsed building with two individuals on a ladder amidst debris.
+  m10 [src E10] A social media photo from 2017-09-21 10:48 UTC shows a scene of a collapsed building with two individuals on a ladder amidst debris.
+
+STREAM dvqa-wildfire-len10-064: 10 photos (E01-E10), memory budget 512 tokens. The memory agent never sees the questions; 5 questions were asked once, after the last photo.
+SCORE: 0.4 (2/5 questions correct with valid evidence; abstained on 0.2; evidence still in memory for 1.0 of the questions; final memory 8 lines / 397 tokens; budget fallbacks 0).
+OUTCOMES: correct=2, unnecessary_abstention=1, unsupported=1, wrong_answer_evidence_in_memory=1
+
+PER QUESTION (asked after the last photo):
+* correct | E01 (posted 2017-10-12 03:11 UTC): How many people are visible in the image? Select all that apply.
+  gold: C (Two) | given: C (Two) | evidence in memory (stored at step 1)
+* unnecessary_abstention | E06 (posted 2017-10-18 07:23 UTC): What is the primary material burning? Answer with one or two words.
+  gold: Trees | given: NOT_ENOUGH_EVIDENCE | evidence in memory (stored at step 6)
+  memory about E06: A social media user posted a photo of the fire on Twitter, showing the intense flames and smoke.
+  what the photo actually shows (dataset facts): What type of disaster is depicted in the image? Wildfire; What is the primary material burning? Trees
+* correct | E07 (posted 2017-10-18 20:21 UTC): What type of disaster is depicted in the image? Select all that apply.
+  gold: B (Fire) | given: B (Fire) | evidence in memory (stored at step 7)
+* unsupported | E09 (posted 2017-10-19 07:36 UTC): Are these people watching fireworks? Answer with Yes or No.
+  gold: No | given: No | evidence in memory (stored at step 9)
+  memory about E09: A social media user posted a photo of the fire on Twitter, showing the intense flames and smoke.
+  what the photo actually shows (dataset facts): Are these people watching fireworks? No; Are there emergency vehicles present in the image? Yes; What type of disaster is depicted in the image? Wildfire
+  evaluator: unsupported - The image shows a wildfire, not fireworks.
+* wrong_answer_evidence_in_memory | E10 (posted 2017-10-20 11:11 UTC): Are there any emergency responders present? Answer with Yes or No.
+  gold: Yes | given: No | evidence in memory (stored at step 10)
+  memory about E10: A social media user posted a photo of the fire on Twitter, showing the intense flames and smoke.
+  what the photo actually shows (dataset facts): Is there a fire visible in the image? Yes; Are there any emergency responders present? Yes
+MEMORY PER STEP (lines / tokens / fallback): 1:1/67; 2:2/114; 3:2/114; 4:2/114; 5:3/161; 6:4/208; 7:5/255; 8:6/302; 9:7/349; 10:8/397
+FINAL MEMORY:
+  m1 [src E01] Two people are seen running through a burning landscape, with flames engulfing the ground and charred tree stumps. The scene is shrouded in smoke and the sky is darkened by the fire.
+  m4 [src E04] A social media user posted a photo of the fire on Twitter, showing the intense flames and smoke.
+  m5 [src E05] A social media user posted a photo of the fire on Twitter, showing the intense flames and smoke.
+  m6 [src E06] A social media user posted a photo of the fire on Twitter, showing the intense flames and smoke.
+  m7 [src E07] A social media user posted a photo of the fire on Twitter, showing the intense flames and smoke.
+  m8 [src E08] A social media user posted a photo of the fire on Twitter, showing the intense flames and smoke.
+  m9 [src E09] A social media user posted a photo of the fire on Twitter, showing the intense flames and smoke.
+  m10 [src E10] A social media user posted a photo of the fire on Twitter, showing the intense flames and smoke.
+
+STREAM dvqa-fire-len10-066: 10 photos (E01-E10), memory budget 512 tokens. The memory agent never sees the questions; 5 questions were asked once, after the last photo.
+SCORE: 0.0 (0/5 questions correct with valid evidence; abstained on 0.6; evidence still in memory for 0.4 of the questions; final memory 6 lines / 247 tokens; budget fallbacks 0).
+OUTCOMES: abstained_evidence_missing=1, invalid_citation=1, unnecessary_abstention=2, wrong_answer_evidence_missing=1
+
+PER QUESTION (asked after the last photo):
+* unnecessary_abstention | E01 (posted 2017-02-25 03:14 UTC): How many emergency ladders are deployed? Answer with one or two words.
+  gold: Four | given: NOT_ENOUGH_EVIDENCE | evidence in memory (stored at step 1)
+  memory about E01: A large fire has broken out in a multi-story building in New York City.
+  what the photo actually shows (dataset facts): Is there visible smoke coming from the building? Yes; Are ladders deployed to access the building? Yes; How many emergency ladders are deployed? Four
+* abstained_evidence_missing | E03 (posted 2017-06-01 13:57 UTC): Are there damaged vehicles in the image? Answer with Yes or No.
+  gold: Yes | given: NOT_ENOUGH_EVIDENCE | evidence stored at step 3, deleted at step 4
+  memory about E03: (none)
+  what the photo actually shows (dataset facts): Is the road blocked in the image? Yes; Are there damaged vehicles in the image? Yes; Is debris scattered across the ground? Yes; Which object is blocking the road? Burning vehicles, Debris; What is the condition of the vehicles in the image? Burning, Damaged
+* wrong_answer_evidence_missing | E04 (posted 2017-06-25 00:20 UTC): What type of building is affected by the fire? Select all that apply.
+  gold: B (Commercial) | given: C (High-rise) | evidence stored at step 4, deleted at step 5
+  memory about E04: (none)
+  what the photo actually shows (dataset facts): Is there any water being sprayed on the fire? Yes; What is the object burning in the image? Rooftop; What type of building is affected by the fire? Commercial; How many fire trucks are visible? Two
+* invalid_citation | E05 (posted 2017-06-25 21:15 UTC): What is the condition of the buildings in the image? Select all that apply.
+  gold: B (Intact with smoke) | given: B (Intact with smoke) | evidence stored at step 5, deleted at step 6
+  memory about E05: (none)
+  what the photo actually shows (dataset facts): What is the condition of the buildings in the image? Intact with smoke
+* unnecessary_abstention | E06 (posted 2017-07-21 00:43 UTC): Are there residential buildings near the fire? Answer with Yes or No.
+  gold: Yes | given: NOT_ENOUGH_EVIDENCE | evidence in memory (stored at step 6)
+  memory about E06: A large fire has broken out in a multi-story building in New York City.
+  what the photo actually shows (dataset facts): Is there a damaged vehicle visible in the image? Yes; Are there residential buildings near the fire? Yes; What is the primary source of danger in the image? Smoke, Fire; What type of building is on fire? Residential
+MEMORY PER STEP (lines / tokens / fallback): 1:1/106; 2:2/212; 3:2/144; 4:2/144; 5:2/144; 6:2/86; 7:3/129; 8:4/168; 9:5/207; 10:6/247
+FINAL MEMORY:
+  m1 [src E01] A large fire has broken out in a multi-story building in New York City.
+  m6 [src E06] A large fire has broken out in a multi-story building in New York City.
+  m7 [src E07] A large fire has broken out in a multi-story building in New York City.
+  m8 [src E08] A social media photo of the fire was posted on Twitter.
+  m9 [src E09] A social media photo of the fire was posted on Twitter.
+  m10 [src E10] A social media photo of the fire was posted on Twitter.
+```

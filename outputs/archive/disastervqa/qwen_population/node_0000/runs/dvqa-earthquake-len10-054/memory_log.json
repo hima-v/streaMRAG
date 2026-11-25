@@ -1,0 +1,342 @@
+[
+  {
+    "item_id": "E01",
+    "step": 1,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"Two workers are seen on a ladder amidst the rubble of a collapsed building.\", \"sources\": [\"E01\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Two workers are seen on a ladder amidst the rubble of a collapsed building.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Two workers are seen on a ladder amidst the rubble of a collapsed building.",
+              "sources": ["E01"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Two workers are seen on a ladder amidst the rubble of a collapsed building.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2", "update of unknown line m1"],
+        "tokens_after": 43
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 43,
+    "n_lines": 1,
+    "secs": 2.05
+  },
+  {
+    "item_id": "E02",
+    "step": 2,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A car is seen stuck in a large crack in the road.\", \"sources\": [\"E02\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"...\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A car is seen stuck in a large crack in the road.",
+              "sources": ["E02"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "...",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 68
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 68,
+    "n_lines": 2,
+    "secs": 1.96
+  },
+  {
+    "item_id": "E03",
+    "step": 3,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a scene of a collapsed building with rescue workers and onlookers.\", \"sources\": [\"E03\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"...\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a scene of a collapsed building with rescue workers and onlookers.",
+              "sources": ["E03"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "...",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": [],
+        "tokens_after": 74
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 74,
+    "n_lines": 2,
+    "secs": 2.11
+  },
+  {
+    "item_id": "E04",
+    "step": 4,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a scene of a collapsed building with rescue workers and onlookers.\", \"sources\": [\"E04\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"...\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a scene of a collapsed building with rescue workers and onlookers.",
+              "sources": ["E04"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "...",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 120
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 120,
+    "n_lines": 3,
+    "secs": 2.1
+  },
+  {
+    "item_id": "E05",
+    "step": 5,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a scene of a collapsed building with rescue workers and onlookers.\", \"sources\": [\"E05\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo shows a scene of a collapsed building with rescue workers and onlookers.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a scene of a collapsed building with rescue workers and onlookers.",
+              "sources": ["E05"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo shows a scene of a collapsed building with rescue workers and onlookers.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 184
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 184,
+    "n_lines": 4,
+    "secs": 2.23
+  },
+  {
+    "item_id": "E06",
+    "step": 6,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"...\", \"sources\": [\"E06\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"...\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "...",
+              "sources": ["E06"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "...",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 194
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 194,
+    "n_lines": 5,
+    "secs": 1.72
+  },
+  {
+    "item_id": "E07",
+    "step": 7,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a scene of a collapsed building with rescue workers and onlookers.\", \"sources\": [\"E07\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo shows a scene of a collapsed building with rescue workers and onlookers.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a scene of a collapsed building with rescue workers and onlookers.",
+              "sources": ["E07"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo shows a scene of a collapsed building with rescue workers and onlookers.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 258
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 258,
+    "n_lines": 6,
+    "secs": 2.42
+  },
+  {
+    "item_id": "E08",
+    "step": 8,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"...\", \"sources\": [\"E08\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"...\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "...",
+              "sources": ["E08"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "...",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 268
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 268,
+    "n_lines": 7,
+    "secs": 1.47
+  },
+  {
+    "item_id": "E09",
+    "step": 9,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a scene of a collapsed building with rescue workers and onlookers.\", \"sources\": [\"E09\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo shows a scene of a collapsed building with rescue workers and onlookers.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a scene of a collapsed building with rescue workers and onlookers.",
+              "sources": ["E09"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo shows a scene of a collapsed building with rescue workers and onlookers.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 332
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 332,
+    "n_lines": 8,
+    "secs": 2.64
+  },
+  {
+    "item_id": "E10",
+    "step": 10,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a scene of a collapsed building with rescue workers and onlookers.\", \"sources\": [\"E10\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo shows a scene of a collapsed building with rescue workers and onlookers.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a scene of a collapsed building with rescue workers and onlookers.",
+              "sources": ["E10"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo shows a scene of a collapsed building with rescue workers and onlookers.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 379
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 379,
+    "n_lines": 9,
+    "secs": 2.54
+  }
+]

@@ -1,0 +1,207 @@
+[
+  {
+    "step": 1,
+    "tokens": 42,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Aerial view of flooded area with multiple buildings and vehicles submerged in water.",
+        "sources": ["E01"]
+      }
+    ]
+  },
+  {
+    "step": 2,
+    "tokens": 84,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Aerial view of flooded area with multiple buildings and vehicles submerged in water.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "Aerial view of flooded area with multiple buildings and vehicles submerged in water.",
+        "sources": ["E02"]
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "tokens": 95,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Aerial view of flooded area with multiple buildings and vehicles submerged in water.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "Social media photo (Twitter), posted 2017-09-19 17:03 UTC.",
+        "sources": ["E03"]
+      }
+    ]
+  },
+  {
+    "step": 4,
+    "tokens": 84,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Aerial view of flooded area with multiple buildings and vehicles submerged in water.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "Aerial view of flooded area with multiple buildings and vehicles submerged in water.",
+        "sources": ["E04"]
+      }
+    ]
+  },
+  {
+    "step": 5,
+    "tokens": 84,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Aerial view of flooded area with multiple buildings and vehicles submerged in water.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m5",
+        "text": "Aerial view of flooded area with multiple buildings and vehicles submerged in water.",
+        "sources": ["E05"]
+      }
+    ]
+  },
+  {
+    "step": 6,
+    "tokens": 95,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Aerial view of flooded area with multiple buildings and vehicles submerged in water.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m6",
+        "text": "Social media photo (Twitter), posted 2017-09-19 18:16 UTC.",
+        "sources": ["E06"]
+      }
+    ]
+  },
+  {
+    "step": 7,
+    "tokens": 148,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Aerial view of flooded area with multiple buildings and vehicles submerged in water.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m6",
+        "text": "Social media photo (Twitter), posted 2017-09-19 18:16 UTC.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "Social media photo (Twitter), posted 2017-09-19 18:40 UTC.",
+        "sources": ["E07"]
+      }
+    ]
+  },
+  {
+    "step": 8,
+    "tokens": 201,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Aerial view of flooded area with multiple buildings and vehicles submerged in water.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m6",
+        "text": "Social media photo (Twitter), posted 2017-09-19 18:16 UTC.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "Social media photo (Twitter), posted 2017-09-19 18:40 UTC.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "Social media photo (Twitter), posted 2017-09-19 19:20 UTC.",
+        "sources": ["E08"]
+      }
+    ]
+  },
+  {
+    "step": 9,
+    "tokens": 243,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Aerial view of flooded area with multiple buildings and vehicles submerged in water.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m6",
+        "text": "Social media photo (Twitter), posted 2017-09-19 18:16 UTC.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "Social media photo (Twitter), posted 2017-09-19 18:40 UTC.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "Social media photo (Twitter), posted 2017-09-19 19:20 UTC.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "Aerial view of flooded area with multiple buildings and vehicles submerged in water.",
+        "sources": ["E09"]
+      }
+    ]
+  },
+  {
+    "step": 10,
+    "tokens": 297,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Aerial view of flooded area with multiple buildings and vehicles submerged in water.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m6",
+        "text": "Social media photo (Twitter), posted 2017-09-19 18:16 UTC.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "Social media photo (Twitter), posted 2017-09-19 18:40 UTC.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "Social media photo (Twitter), posted 2017-09-19 19:20 UTC.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "Aerial view of flooded area with multiple buildings and vehicles submerged in water.",
+        "sources": ["E09"]
+      },
+      {
+        "id": "m10",
+        "text": "Social media photo (Twitter), posted 2017-09-19 20:20 UTC.",
+        "sources": ["E10"]
+      }
+    ]
+  }
+]

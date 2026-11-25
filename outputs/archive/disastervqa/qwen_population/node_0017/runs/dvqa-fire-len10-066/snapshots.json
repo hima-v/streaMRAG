@@ -1,0 +1,292 @@
+[
+  {
+    "step": 1,
+    "tokens": 39,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large fire has broken out in a multi-story building.",
+        "sources": ["E01"]
+      }
+    ]
+  },
+  {
+    "step": 2,
+    "tokens": 119,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large fire has broken out in a multi-story building, and a firefighter is on top of a fire truck, monitoring the situation.",
+        "sources": ["E01", "E02"]
+      },
+      {
+        "id": "m2",
+        "text": "A firefighter is on top of a fire truck, monitoring the situation.",
+        "sources": ["E02"]
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "tokens": 119,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large fire has broken out in a multi-story building, and a firefighter is on top of a fire truck, monitoring the situation.",
+        "sources": ["E01", "E02"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo shows a large fire burning in a multi-story building.",
+        "sources": ["E03"]
+      }
+    ]
+  },
+  {
+    "step": 4,
+    "tokens": 161,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large fire has broken out in a multi-story building, and a firefighter is on top of a fire truck, monitoring the situation.",
+        "sources": ["E01", "E02"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo shows a large fire burning in a multi-story building.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo shows a large fire burning in a multi-story building.",
+        "sources": ["E04"]
+      }
+    ]
+  },
+  {
+    "step": 5,
+    "tokens": 226,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large fire has broken out in a multi-story building, and a firefighter is on top of a fire truck, monitoring the situation.",
+        "sources": ["E01", "E02"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo shows a large fire burning in a multi-story building.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo shows a large fire burning in a multi-story building.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo was posted on June 25, 2017, at 21:15 UTC, showing a large fire burning in a multi-story building.",
+        "sources": ["E05"]
+      }
+    ]
+  },
+  {
+    "step": 6,
+    "tokens": 291,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large fire has broken out in a multi-story building, and a firefighter is on top of a fire truck, monitoring the situation.",
+        "sources": ["E01", "E02"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo shows a large fire burning in a multi-story building.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo shows a large fire burning in a multi-story building.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo was posted on June 25, 2017, at 21:15 UTC, showing a large fire burning in a multi-story building.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo was posted on July 21, 2017, at 00:43 UTC, showing a large fire burning in a multi-story building.",
+        "sources": ["E06"]
+      }
+    ]
+  },
+  {
+    "step": 7,
+    "tokens": 356,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large fire has broken out in a multi-story building, and a firefighter is on top of a fire truck, monitoring the situation.",
+        "sources": ["E01", "E02"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo shows a large fire burning in a multi-story building.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo shows a large fire burning in a multi-story building.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo was posted on June 25, 2017, at 21:15 UTC, showing a large fire burning in a multi-story building.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo was posted on July 21, 2017, at 00:43 UTC, showing a large fire burning in a multi-story building.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo was posted on August 23, 2017, at 00:46 UTC, showing a large fire burning in a multi-story building.",
+        "sources": ["E07"]
+      }
+    ]
+  },
+  {
+    "step": 8,
+    "tokens": 421,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large fire has broken out in a multi-story building, and a firefighter is on top of a fire truck, monitoring the situation.",
+        "sources": ["E01", "E02"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo shows a large fire burning in a multi-story building.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo shows a large fire burning in a multi-story building.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo was posted on June 25, 2017, at 21:15 UTC, showing a large fire burning in a multi-story building.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo was posted on July 21, 2017, at 00:43 UTC, showing a large fire burning in a multi-story building.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo was posted on August 23, 2017, at 00:46 UTC, showing a large fire burning in a multi-story building.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo was posted on August 28, 2017, at 10:43 UTC, showing a large fire burning in a multi-story building.",
+        "sources": ["E08"]
+      }
+    ]
+  },
+  {
+    "step": 9,
+    "tokens": 485,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large fire has broken out in a multi-story building, and a firefighter is on top of a fire truck, monitoring the situation.",
+        "sources": ["E01", "E02"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo shows a large fire burning in a multi-story building.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo shows a large fire burning in a multi-story building.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo was posted on June 25, 2017, at 21:15 UTC, showing a large fire burning in a multi-story building.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo was posted on July 21, 2017, at 00:43 UTC, showing a large fire burning in a multi-story building.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo was posted on August 23, 2017, at 00:46 UTC, showing a large fire burning in a multi-story building.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo was posted on August 28, 2017, at 10:43 UTC, showing a large fire burning in a multi-story building.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media photo was posted on September 6, 2017, at 09:22 UTC, showing a large fire burning in a multi-story building.",
+        "sources": ["E09"]
+      }
+    ]
+  },
+  {
+    "step": 10,
+    "tokens": 473,
+    "lines": [
+      {
+        "id": "m3",
+        "text": "A social media photo shows a large fire burning in a multi-story building.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo shows a large fire burning in a multi-story building.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo was posted on June 25, 2017, at 21:15 UTC, showing a large fire burning in a multi-story building.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo was posted on July 21, 2017, at 00:43 UTC, showing a large fire burning in a multi-story building.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo was posted on August 23, 2017, at 00:46 UTC, showing a large fire burning in a multi-story building.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo was posted on August 28, 2017, at 10:43 UTC, showing a large fire burning in a multi-story building.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media photo was posted on September 6, 2017, at 09:22 UTC, showing a large fire burning in a multi-story building.",
+        "sources": ["E09"]
+      },
+      {
+        "id": "m10",
+        "text": "A social media photo was posted on September 8, 2017, at 03:41 UTC, showing a large fire burning in a multi-story building.",
+        "sources": ["E10"]
+      }
+    ]
+  }
+]

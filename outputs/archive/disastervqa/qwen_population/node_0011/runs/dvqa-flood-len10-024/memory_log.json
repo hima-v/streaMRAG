@@ -1,0 +1,342 @@
+[
+  {
+    "item_id": "E01",
+    "step": 1,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"Flooded campsite with submerged RVs and trees\", \"sources\": [\"E01\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"Flooded campsite with submerged RVs and trees\", \"sources\": [\"E01\"]}], \"delete\": []}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "Flooded campsite with submerged RVs and trees",
+              "sources": ["E01"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "Flooded campsite with submerged RVs and trees",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": []
+        },
+        "problems": ["update of unknown line m1"],
+        "tokens_after": 37
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 37,
+    "n_lines": 1,
+    "secs": 2.46
+  },
+  {
+    "item_id": "E02",
+    "step": 2,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A flooded street with submerged vehicles and muddy water\", \"sources\": [\"E02\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A flooded campsite with submerged RVs and trees\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A flooded street with submerged vehicles and muddy water",
+              "sources": ["E02"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A flooded campsite with submerged RVs and trees",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 74
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 74,
+    "n_lines": 2,
+    "secs": 2.52
+  },
+  {
+    "item_id": "E03",
+    "step": 3,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A flooded street with submerged vehicles and muddy water\", \"sources\": [\"E03\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A flooded campsite with submerged RVs and trees\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A flooded street with submerged vehicles and muddy water",
+              "sources": ["E03"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A flooded campsite with submerged RVs and trees",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": [],
+        "tokens_after": 74
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 74,
+    "n_lines": 2,
+    "secs": 2.14
+  },
+  {
+    "item_id": "E04",
+    "step": 4,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A flooded street with submerged vehicles and muddy water\", \"sources\": [\"E04\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A flooded campsite with submerged RVs and trees\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A flooded street with submerged vehicles and muddy water",
+              "sources": ["E04"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A flooded campsite with submerged RVs and trees",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 111
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 111,
+    "n_lines": 3,
+    "secs": 2.13
+  },
+  {
+    "item_id": "E05",
+    "step": 5,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A man is swimming in the water holding onto a rope.\", \"sources\": [\"E05\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A flooded campsite with submerged RVs and trees\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A man is swimming in the water holding onto a rope.",
+              "sources": ["E05"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A flooded campsite with submerged RVs and trees",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 150
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 150,
+    "n_lines": 4,
+    "secs": 2.29
+  },
+  {
+    "item_id": "E06",
+    "step": 6,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A flooded street with submerged vehicles and muddy water\", \"sources\": [\"E06\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A flooded campsite with submerged RVs and trees\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A flooded street with submerged vehicles and muddy water",
+              "sources": ["E06"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A flooded campsite with submerged RVs and trees",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 187
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 187,
+    "n_lines": 5,
+    "secs": 2.2
+  },
+  {
+    "item_id": "E07",
+    "step": 7,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A flooded street with submerged vehicles and muddy water\", \"sources\": [\"E07\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A flooded campsite with submerged RVs and trees\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A flooded street with submerged vehicles and muddy water",
+              "sources": ["E07"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A flooded campsite with submerged RVs and trees",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 224
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 224,
+    "n_lines": 6,
+    "secs": 2.18
+  },
+  {
+    "item_id": "E08",
+    "step": 8,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A flooded train yard with submerged train carriages and muddy water\", \"sources\": [\"E08\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A flooded campsite with submerged RVs and trees\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A flooded train yard with submerged train carriages and muddy water",
+              "sources": ["E08"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A flooded campsite with submerged RVs and trees",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 264
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 264,
+    "n_lines": 7,
+    "secs": 2.68
+  },
+  {
+    "item_id": "E09",
+    "step": 9,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A flooded street with submerged vehicles and muddy water\", \"sources\": [\"E09\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A flooded campsite with submerged RVs and trees\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A flooded street with submerged vehicles and muddy water",
+              "sources": ["E09"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A flooded campsite with submerged RVs and trees",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 301
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 301,
+    "n_lines": 8,
+    "secs": 2.23
+  },
+  {
+    "item_id": "E10",
+    "step": 10,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A flooded street with submerged vehicles and muddy water\", \"sources\": [\"E10\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A flooded campsite with submerged RVs and trees\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A flooded street with submerged vehicles and muddy water",
+              "sources": ["E10"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A flooded campsite with submerged RVs and trees",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 339
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 339,
+    "n_lines": 9,
+    "secs": 2.2
+  }
+]

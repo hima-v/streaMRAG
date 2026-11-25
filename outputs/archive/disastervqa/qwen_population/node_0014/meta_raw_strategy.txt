@@ -1,0 +1,15 @@
+<strategy>
+Prioritize extraction of unique, entity-rich details (e.g., disasters like floods/fires, locations, objects) over verbatim redundancy. Store each factual claim once per its earliest occurrence, referencing duplicates via ~duplicate~. Discard non-essential descriptors (e.g., timestamps without metadata needs). Use [deleted] markers for removed claims. Allocate ≤10% extra tokens (~512 max) for contextual disambiguation.
+</strategy>
+
+<rationale>
+This approach reduces noise by focusing on atomic facts (e.g., "flood", "bricks") rather than full narratives, improving retrieval precision. Canonicalization avoids wasting space on repeats, while explicit deletion tracking clarifies missing info. Temporal grouping ensures chronological coherence without bloat.
+</rationale>
+
+<changes>
+- Replaced sentence-level retention with structured entity/event tagging  
+- Added strict duplicate suppression logic  
+- Formalized deletion tracking protocol ([deleted])  
+- Token budget enforcement mechanism (≤512 + 10%)  
+- Clarified cross-referencing rules for validity checks  
+</changes>

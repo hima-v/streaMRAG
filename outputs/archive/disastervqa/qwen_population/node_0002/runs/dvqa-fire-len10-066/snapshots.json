@@ -1,0 +1,262 @@
+[
+  {
+    "step": 1,
+    "tokens": 47,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.",
+        "sources": ["E01"]
+      }
+    ]
+  },
+  {
+    "step": 2,
+    "tokens": 94,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "A fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.",
+        "sources": ["E02"]
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "tokens": 99,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo shows a fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.",
+        "sources": ["E03"]
+      }
+    ]
+  },
+  {
+    "step": 4,
+    "tokens": 99,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo shows a fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.",
+        "sources": ["E04"]
+      }
+    ]
+  },
+  {
+    "step": 5,
+    "tokens": 151,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo shows a fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo shows a fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.",
+        "sources": ["E05"]
+      }
+    ]
+  },
+  {
+    "step": 6,
+    "tokens": 203,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo shows a fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo shows a fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo shows a fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.",
+        "sources": ["E06"]
+      }
+    ]
+  },
+  {
+    "step": 7,
+    "tokens": 255,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo shows a fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo shows a fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo shows a fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo shows a fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.",
+        "sources": ["E07"]
+      }
+    ]
+  },
+  {
+    "step": 8,
+    "tokens": 307,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo shows a fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo shows a fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo shows a fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo shows a fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo shows a fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.",
+        "sources": ["E08"]
+      }
+    ]
+  },
+  {
+    "step": 9,
+    "tokens": 359,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo shows a fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo shows a fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo shows a fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo shows a fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo shows a fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media photo shows a fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.",
+        "sources": ["E09"]
+      }
+    ]
+  },
+  {
+    "step": 10,
+    "tokens": 412,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo shows a fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo shows a fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo shows a fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo shows a fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo shows a fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media photo shows a fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.",
+        "sources": ["E09"]
+      },
+      {
+        "id": "m10",
+        "text": "A social media photo shows a fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.",
+        "sources": ["E10"]
+      }
+    ]
+  }
+]

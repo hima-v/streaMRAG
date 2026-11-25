@@ -1,0 +1,342 @@
+[
+  {
+    "item_id": "E01",
+    "step": 1,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A flooded area with multiple campers submerged in water. The water is brown and muddy, indicating recent rainfall or a nearby river overflowing.\", \"sources\": [\"E01\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"...\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A flooded area with multiple campers submerged in water. The water is brown and muddy, indicating recent rainfall or a nearby river overflowing.",
+              "sources": ["E01"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "...",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2", "update of unknown line m1"],
+        "tokens_after": 56
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 56,
+    "n_lines": 1,
+    "secs": 2.43
+  },
+  {
+    "item_id": "E02",
+    "step": 2,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A flooded street with multiple vehicles submerged in water. The water is brown and muddy, indicating recent rainfall or a nearby river overflowing.\", \"sources\": [\"E02\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A flooded area with multiple campers submerged in water. The water is brown and muddy, indicating recent rainfall or a nearby river overflowing.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A flooded street with multiple vehicles submerged in water. The water is brown and muddy, indicating recent rainfall or a nearby river overflowing.",
+              "sources": ["E02"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A flooded area with multiple campers submerged in water. The water is brown and muddy, indicating recent rainfall or a nearby river overflowing.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 111
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 111,
+    "n_lines": 2,
+    "secs": 3.12
+  },
+  {
+    "item_id": "E03",
+    "step": 3,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A flooded area with multiple campers submerged in water. The water is brown and muddy, indicating recent rainfall or a nearby river overflowing.\", \"sources\": [\"E03\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A flooded area with multiple campers submerged in water. The water is brown and muddy, indicating recent rainfall or a nearby river overflowing.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A flooded area with multiple campers submerged in water. The water is brown and muddy, indicating recent rainfall or a nearby river overflowing.",
+              "sources": ["E03"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A flooded area with multiple campers submerged in water. The water is brown and muddy, indicating recent rainfall or a nearby river overflowing.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": [],
+        "tokens_after": 112
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 112,
+    "n_lines": 2,
+    "secs": 2.95
+  },
+  {
+    "item_id": "E04",
+    "step": 4,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A flooded area with multiple campers submerged in water. The water is brown and muddy, indicating recent rainfall or a nearby river overflowing.\", \"sources\": [\"E04\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A flooded area with multiple campers submerged in water. The water is brown and muddy, indicating recent rainfall or a nearby river overflowing.\", \"sources\": [\"E01\"]}], \"delete\": [\"m3\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A flooded area with multiple campers submerged in water. The water is brown and muddy, indicating recent rainfall or a nearby river overflowing.",
+              "sources": ["E04"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A flooded area with multiple campers submerged in water. The water is brown and muddy, indicating recent rainfall or a nearby river overflowing.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m3"]
+        },
+        "problems": [],
+        "tokens_after": 112
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 112,
+    "n_lines": 2,
+    "secs": 3.04
+  },
+  {
+    "item_id": "E05",
+    "step": 5,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A man is swimming in the water, holding onto a rope. The water is brown and muddy, indicating recent rainfall or a nearby river overflowing.\", \"sources\": [\"E05\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A flooded area with multiple campers submerged in water. The water is brown and muddy, indicating recent rainfall or a nearby river overflowing.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A man is swimming in the water, holding onto a rope. The water is brown and muddy, indicating recent rainfall or a nearby river overflowing.",
+              "sources": ["E05"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A flooded area with multiple campers submerged in water. The water is brown and muddy, indicating recent rainfall or a nearby river overflowing.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 170
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 170,
+    "n_lines": 3,
+    "secs": 3.21
+  },
+  {
+    "item_id": "E06",
+    "step": 6,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo from Twitter shows a flooded area with multiple campers submerged in water. The water is brown and muddy, indicating recent rainfall or a nearby river overflowing.\", \"sources\": [\"E06\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A flooded area with multiple campers submerged in water. The water is brown and muddy, indicating recent rainfall or a nearby river overflowing.\", \"sources\": [\"E01\"]}], \"delete\": [\"m4\", \"m5\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo from Twitter shows a flooded area with multiple campers submerged in water. The water is brown and muddy, indicating recent rainfall or a nearby river overflowing.",
+              "sources": ["E06"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A flooded area with multiple campers submerged in water. The water is brown and muddy, indicating recent rainfall or a nearby river overflowing.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m4", "m5"]
+        },
+        "problems": [],
+        "tokens_after": 119
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 119,
+    "n_lines": 2,
+    "secs": 3.16
+  },
+  {
+    "item_id": "E07",
+    "step": 7,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A flooded area with multiple campers submerged in water. The water is brown and muddy, indicating recent rainfall or a nearby river overflowing.\", \"sources\": [\"E07\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A flooded area with multiple campers submerged in water. The water is brown and muddy, indicating recent rainfall or a nearby river overflowing.\", \"sources\": [\"E01\"]}], \"delete\": [\"m6\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A flooded area with multiple campers submerged in water. The water is brown and muddy, indicating recent rainfall or a nearby river overflowing.",
+              "sources": ["E07"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A flooded area with multiple campers submerged in water. The water is brown and muddy, indicating recent rainfall or a nearby river overflowing.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m6"]
+        },
+        "problems": [],
+        "tokens_after": 112
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 112,
+    "n_lines": 2,
+    "secs": 2.77
+  },
+  {
+    "item_id": "E08",
+    "step": 8,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A flooded area with multiple train carriages submerged in water. The water is brown and muddy, indicating recent rainfall or a nearby river overflowing.\", \"sources\": [\"E08\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A flooded area with multiple train carriages submerged in water. The water is brown and muddy, indicating recent rainfall or a nearby river overflowing.\", \"sources\": [\"E01\"]}], \"delete\": [\"m7\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A flooded area with multiple train carriages submerged in water. The water is brown and muddy, indicating recent rainfall or a nearby river overflowing.",
+              "sources": ["E08"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A flooded area with multiple train carriages submerged in water. The water is brown and muddy, indicating recent rainfall or a nearby river overflowing.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m7"]
+        },
+        "problems": [],
+        "tokens_after": 114
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 114,
+    "n_lines": 2,
+    "secs": 3.22
+  },
+  {
+    "item_id": "E09",
+    "step": 9,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A flooded area with multiple train carriages submerged in water. The water is brown and muddy, indicating recent rainfall or a nearby river overflowing.\", \"sources\": [\"E09\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A flooded area with multiple train carriages submerged in water. The water is brown and muddy, indicating recent rainfall or a nearby river overflowing.\", \"sources\": [\"E01\"]}], \"delete\": [\"m8\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A flooded area with multiple train carriages submerged in water. The water is brown and muddy, indicating recent rainfall or a nearby river overflowing.",
+              "sources": ["E09"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A flooded area with multiple train carriages submerged in water. The water is brown and muddy, indicating recent rainfall or a nearby river overflowing.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m8"]
+        },
+        "problems": [],
+        "tokens_after": 114
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 114,
+    "n_lines": 2,
+    "secs": 2.95
+  },
+  {
+    "item_id": "E10",
+    "step": 10,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A flooded area with multiple train carriages submerged in water. The water is brown and muddy, indicating recent rainfall or a nearby river overflowing.\", \"sources\": [\"E10\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A flooded area with multiple train carriages submerged in water. The water is brown and muddy, indicating recent rainfall or a nearby river overflowing.\", \"sources\": [\"E01\"]}], \"delete\": [\"m9\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A flooded area with multiple train carriages submerged in water. The water is brown and muddy, indicating recent rainfall or a nearby river overflowing.",
+              "sources": ["E10"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A flooded area with multiple train carriages submerged in water. The water is brown and muddy, indicating recent rainfall or a nearby river overflowing.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m9"]
+        },
+        "problems": [],
+        "tokens_after": 115
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 115,
+    "n_lines": 2,
+    "secs": 2.84
+  }
+]

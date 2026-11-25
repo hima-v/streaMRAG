@@ -1,0 +1,13 @@
+<harness>
+"Optimize memory storage by retaining **actionable, granular details** (e.g., hazards, casualties, damage types) while discarding generic descriptors. For each event, extract **distinct entities/actions** (e.g., 'flood', 'collapsed bridge', 'emergency responders') rather than full sentences. Store duplicates as a single canonical entry (earliest timestamp) and reference subsequent repeats via `~duplicate~` tags. Explicitly track deletions using `[deleted]` flags. Prioritize **temporal specificity** when grouping—identical descriptions within 1 hour are considered duplicates unless new critical details emerge. Retain metadata like timestamps and sources to resolve ambiguities during retrieval."
+</harness>
+<rationale>
+The revised Meta Harness improves upon the original strategy by addressing three key limitations identified in the evaluation logs:
+
+1. **Enhanced specificity**: By mandating extraction of *granular actionable details* (e.g., "collapsed bridge," "smoke inhalation victims"), it directly aligns with the dataset's focus on hazard-specific answers. This reduces generic phrasing ("damage") that led to incorrect responses in earthquake/wildfire streams.
+
+2. **Temporal clustering refinement**: Adding a 1-hour window for duplicate detection prevents premature aggregation of evolving events. In the hurricane stream, this would have preserved distinctions between E01/E08 (same description but different timestamps), allowing accurate answerability checks despite deletions.
+
+3. **Deletion tracking integration**: Explicit `[deleted]` flags enable retrieval systems to ignore obsolete data, resolving issues like the invalid citation in the earthquake stream where deleted evidence caused faulty references.
+
+This version maintains strict token limits (<512) while ensuring higher recall of time-sensitive, entity-driven facts—critical for disaster response scenarios. Metrics like "correct_with_valid_evidence" should improve as models leverage precise, temporally anchored information.

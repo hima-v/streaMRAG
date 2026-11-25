@@ -1,0 +1,167 @@
+[
+  {
+    "step": 1,
+    "tokens": 56,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo shows a collapsed building with two workers on a ladder. The building appears to be a residential or commercial structure with significant damage.",
+        "sources": ["E01"]
+      }
+    ]
+  },
+  {
+    "step": 2,
+    "tokens": 71,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "...",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "A car is seen stuck in a large crack in the road after an earthquake.",
+        "sources": ["E02"]
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "tokens": 91,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A crowd of people with their hands raised, possibly in distress or seeking help.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo shows a crowd of people with their hands raised, possibly in distress or seeking help.",
+        "sources": ["E03"]
+      }
+    ]
+  },
+  {
+    "step": 4,
+    "tokens": 91,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A crowd of people with their hands raised, possibly in distress or seeking help.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo shows a crowd of people with their hands raised, possibly in distress or seeking help.",
+        "sources": ["E04"]
+      }
+    ]
+  },
+  {
+    "step": 5,
+    "tokens": 91,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A crowd of people with their hands raised, possibly in distress or seeking help.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo shows a crowd of people with their hands raised, possibly in distress or seeking help.",
+        "sources": ["E05"]
+      }
+    ]
+  },
+  {
+    "step": 6,
+    "tokens": 91,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A crowd of people with their hands raised, possibly in distress or seeking help.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo shows a crowd of people with their hands raised, possibly in distress or seeking help.",
+        "sources": ["E06"]
+      }
+    ]
+  },
+  {
+    "step": 7,
+    "tokens": 91,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A crowd of people with their hands raised, possibly in distress or seeking help.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo shows a crowd of people with their hands raised, possibly in distress or seeking help.",
+        "sources": ["E07"]
+      }
+    ]
+  },
+  {
+    "step": 8,
+    "tokens": 139,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A crowd of people with their hands raised, possibly in distress or seeking help.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo shows a crowd of people with their hands raised, possibly in distress or seeking help.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo shows a crowd of people with their hands raised, possibly in distress or seeking help.",
+        "sources": ["E08"]
+      }
+    ]
+  },
+  {
+    "step": 9,
+    "tokens": 91,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A crowd of people with their hands raised, possibly in distress or seeking help.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media photo shows a crowd of people with their hands raised, possibly in distress or seeking help.",
+        "sources": ["E09"]
+      }
+    ]
+  },
+  {
+    "step": 10,
+    "tokens": 140,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A crowd of people with their hands raised, possibly in distress or seeking help.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media photo shows a crowd of people with their hands raised, possibly in distress or seeking help.",
+        "sources": ["E09"]
+      },
+      {
+        "id": "m10",
+        "text": "A social media photo shows a crowd of people with their hands raised, possibly in distress or seeking help.",
+        "sources": ["E10"]
+      }
+    ]
+  }
+]

@@ -1,0 +1,201 @@
+{
+  "node_id": 11,
+  "parent_id": 5,
+  "dataset": "disastervqa",
+  "eval_stream": "len10",
+  "budget": 512,
+  "strategy_id": "71f3fb203b1f",
+  "harness_id": "0695e8adc362",
+  "switches": {
+    "memory_strategy": "dynamic",
+    "meta_harness": "dynamic"
+  },
+  "created_by": {
+    "kind": "meta",
+    "harness_rationale": "This revision strengthens implementation reliability while maintaining backward compatibility. Schema validation prevents malformed data ingestion, dynamic compression optimizes storage efficiency, and temporal safeguards protect historical continuity. Enhanced semantic linking improves cross-context reasoning, critical for complex QA tasks. Edge-case buffers address real-world unpredictability within the fixed token constraint, aligning with observed failures where premature deletions occurred due to miscalculated budgets. By enforcing structural rigor, we mitigate the root causes of previous score penalties (-0.06 across datasets) tied to missing evidence and citation inaccuracies.",
+    "strategy_rationale": "The strategy enforces schema-driven parsing to reduce hallucinations and improve retrieval accuracy. Dynamic compression balances brevity with critical detail retention, preventing overflow-related failures. Temporal safeguards maintain temporal coherence, while semantic linking enables cross-event reasoning. Buffer allocation mitigates edge-case volatility. These changes address prior weaknesses where premature deletions or vague abstractions led to evidence loss (e.g., flood stream\u2019s missing post-deletion citations). Schema examples standardize handling diverse disaster types, improving generalizability.",
+    "changes": [
+      "Key revisions from baseline:",
+      "Added explicit schema validation rules with domain-specific field differentiation.",
+      "Formalized token-counting hooks tied to CRUD operations.",
+      "Implemented timestamp auditing for deletions instead of passive tracking.",
+      "Standardized tag normalization (lowercase_underscore) and automated hyperlink generation.",
+      "Reduced eviction granularity from \"entries\" to \"full entries\" only, banning partial deletions.",
+      "Buffer size capped at \u22645% dynamically computed based on current usage."
+    ],
+    "harness_parsed": true,
+    "strategy_parsed": true,
+    "meta_seed": 11000
+  },
+  "scores": {
+    "esqa_mean": 0.22,
+    "correct_count": "5/25",
+    "retention_final": 0.76,
+    "abstained": 0.32,
+    "budget_fallbacks": 0,
+    "evaluator_errors": 0,
+    "evaluator_version": 2,
+    "categories": {
+      "correct": 5,
+      "invalid_citation": 3,
+      "wrong_answer_evidence_in_memory": 6,
+      "partially_correct": 1,
+      "unnecessary_abstention": 6,
+      "abstained_evidence_missing": 2,
+      "unsupported": 1,
+      "wrong_answer_evidence_missing": 1
+    },
+    "streams": {
+      "dvqa-hurricane-len10-010": {
+        "esqa_mean": 0.2,
+        "answered_correct": 0.2,
+        "abstained": 0.0,
+        "correct_count": "1/5",
+        "retention_final": 0.8,
+        "categories": {
+          "correct": 1,
+          "invalid_citation": 1,
+          "wrong_answer_evidence_in_memory": 3
+        },
+        "budget_fallbacks": 0,
+        "final_memory_tokens": 326,
+        "final_memory_lines": 8,
+        "n_questions": 5,
+        "n_items": 10,
+        "evaluator_errors": 0,
+        "evaluator_version": 2
+      },
+      "dvqa-flood-len10-024": {
+        "esqa_mean": 0.5,
+        "answered_correct": 0.4,
+        "abstained": 0.2,
+        "correct_count": "2/5",
+        "retention_final": 1.0,
+        "categories": {
+          "correct": 2,
+          "partially_correct": 1,
+          "unnecessary_abstention": 1,
+          "wrong_answer_evidence_in_memory": 1
+        },
+        "budget_fallbacks": 0,
+        "final_memory_tokens": 339,
+        "final_memory_lines": 9,
+        "n_questions": 5,
+        "n_items": 10,
+        "evaluator_errors": 0,
+        "evaluator_version": 2
+      },
+      "dvqa-earthquake-len10-054": {
+        "esqa_mean": 0.0,
+        "answered_correct": 0.2,
+        "abstained": 0.6,
+        "correct_count": "0/5",
+        "retention_final": 0.6,
+        "categories": {
+          "abstained_evidence_missing": 1,
+          "invalid_citation": 1,
+          "wrong_answer_evidence_in_memory": 1,
+          "unnecessary_abstention": 2
+        },
+        "budget_fallbacks": 0,
+        "final_memory_tokens": 265,
+        "final_memory_lines": 4,
+        "n_questions": 5,
+        "n_items": 10,
+        "evaluator_errors": 0,
+        "evaluator_version": 2
+      },
+      "dvqa-wildfire-len10-064": {
+        "esqa_mean": 0.4,
+        "answered_correct": 0.6,
+        "abstained": 0.2,
+        "correct_count": "2/5",
+        "retention_final": 1.0,
+        "categories": {
+          "correct": 2,
+          "unnecessary_abstention": 1,
+          "unsupported": 1,
+          "wrong_answer_evidence_in_memory": 1
+        },
+        "budget_fallbacks": 0,
+        "final_memory_tokens": 397,
+        "final_memory_lines": 8,
+        "n_questions": 5,
+        "n_items": 10,
+        "evaluator_errors": 0,
+        "evaluator_version": 2
+      },
+      "dvqa-fire-len10-066": {
+        "esqa_mean": 0.0,
+        "answered_correct": 0.2,
+        "abstained": 0.6,
+        "correct_count": "0/5",
+        "retention_final": 0.4,
+        "categories": {
+          "unnecessary_abstention": 2,
+          "abstained_evidence_missing": 1,
+          "wrong_answer_evidence_missing": 1,
+          "invalid_citation": 1
+        },
+        "budget_fallbacks": 0,
+        "final_memory_tokens": 247,
+        "final_memory_lines": 6,
+        "n_questions": 5,
+        "n_items": 10,
+        "evaluator_errors": 0,
+        "evaluator_version": 2
+      }
+    }
+  },
+  "models": {
+    "memory_agent": "qwen2-vl-7b",
+    "meta_agent": "nemotron-12b-vl",
+    "answering_agent": "qwen2-vl-7b",
+    "evaluator": "qwen2-vl-7b",
+    "profile": "minimal",
+    "prompts": {
+      "memory/frame_minimal.txt": "c38af5be727b",
+      "meta/frames/harness_update_minimal.txt": "3d742a993eff",
+      "meta/frames/strategy_update_minimal.txt": "ff236306ed78",
+      "answering/prompt.txt": "27ea786833a0",
+      "judge/answer.txt": "62f39b3e1b14",
+      "judge/evidence.txt": "48a317919cb6"
+    },
+    "experiment": {
+      "profile": "minimal",
+      "budget": 512,
+      "memory_strategy": "dynamic",
+      "meta_harness": "dynamic",
+      "parent_selection": "score_child_prop",
+      "iterations": 20,
+      "stream_selection": "list",
+      "selection_seed": 0,
+      "streams": [
+        "dvqa-hurricane-len10-010",
+        "dvqa-flood-len10-024",
+        "dvqa-earthquake-len10-054",
+        "dvqa-wildfire-len10-064",
+        "dvqa-fire-len10-066"
+      ],
+      "streams_from": "qwen_run1",
+      "exclude_streams_from": [],
+      "stream_length": 10,
+      "n_streams": 5,
+      "memory_agent": "qwen2-vl-7b",
+      "memory_method": "agent",
+      "experiment": "short5_qwen_population",
+      "dataset": "disastervqa",
+      "config": "/home/blahb/Projects/Agents282/configs/experiments/disastervqa.yaml",
+      "eviction_policy": "oldest",
+      "excluded_streams": []
+    }
+  },
+  "stream_length": 10,
+  "eval_streams": [
+    "dvqa-hurricane-len10-010",
+    "dvqa-flood-len10-024",
+    "dvqa-earthquake-len10-054",
+    "dvqa-wildfire-len10-064",
+    "dvqa-fire-len10-066"
+  ]
+}

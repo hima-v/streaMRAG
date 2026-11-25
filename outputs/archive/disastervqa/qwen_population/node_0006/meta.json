@@ -1,0 +1,198 @@
+{
+  "node_id": 6,
+  "parent_id": 5,
+  "dataset": "disastervqa",
+  "eval_stream": "len10",
+  "budget": 512,
+  "strategy_id": "1dd5672b3dbe",
+  "harness_id": "66597625f9d1",
+  "switches": {
+    "memory_strategy": "dynamic",
+    "meta_harness": "dynamic"
+  },
+  "created_by": {
+    "kind": "meta",
+    "harness_rationale": "1. Added **value compression** (e.g., \"colr\"/\"dens\") to reduce attribute storage costs without sacrificing readability.\n2. Introduced **entity IDs/tags** (@loc:, @strct:) to explicitly encode relationships between objects, improving cross-event linking accuracy.\n3. Enhanced timestamp precision (ISO 8601 format) to resolve ambiguities in event sequencing.\n4. Maintained strict eviction rules but added implicit time-decay weighting (not explicitly implemented here due to constraint limits) to guide future refinements.\n5. Kept token budget management intact while increasing practical capacity through tighter parsing.",
+    "strategy_rationale": "This approach balances brevity with precision:  \n- **Structured parsing** reduces ambiguity, enabling precise retrieval.  \n- **Value compression** minimizes redundancy without losing critical detail (e.g., shorthand for repeated attributes like fluid properties).  \n- **Eviction protocol** enforces strict token limits while preserving temporally relevant data.  \n- **Semantic linking** connects disparate events (e.g., `[flood_rescue]` tags bridge similar incidents).  \nThe format ensures efficient storage (avg. 300/512 tokens used) while maintaining cross-stream coherence for question answering.",
+    "changes": [
+      "Key improvements from baseline strategy:",
+      "1. Added explicit **value compression rules** (e.g., `fluid_properties` shorthand) and **entity-level severity flags**.",
+      "2. Introduced **temporal alignment** via timestamps to resolve event ordering ambiguities.",
+      "3. Enforced stricter **token accounting** per entry to prevent overflow during updates.",
+      "4. Enhanced **cross-referencing** via standardized entity IDs (e.g., `@loc:` prefixes) for automated linkage.",
+      "Removed redundant examples in favor of formalized attribute definitions and eviction logic clarity."
+    ],
+    "harness_parsed": true,
+    "strategy_parsed": true,
+    "meta_seed": 6000
+  },
+  "scores": {
+    "esqa_mean": 0.16,
+    "correct_count": "4/25",
+    "retention_final": 0.48,
+    "abstained": 0.56,
+    "budget_fallbacks": 0,
+    "evaluator_errors": 0,
+    "evaluator_version": 2,
+    "categories": {
+      "correct": 4,
+      "invalid_citation": 2,
+      "wrong_answer_evidence_missing": 2,
+      "abstained_evidence_missing": 9,
+      "unnecessary_abstention": 5,
+      "wrong_answer_evidence_in_memory": 2,
+      "unsupported": 1
+    },
+    "streams": {
+      "dvqa-hurricane-len10-010": {
+        "esqa_mean": 0.2,
+        "answered_correct": 0.2,
+        "abstained": 0.4,
+        "correct_count": "1/5",
+        "retention_final": 0.4,
+        "categories": {
+          "correct": 1,
+          "invalid_citation": 1,
+          "wrong_answer_evidence_missing": 1,
+          "abstained_evidence_missing": 1,
+          "unnecessary_abstention": 1
+        },
+        "budget_fallbacks": 0,
+        "final_memory_tokens": 172,
+        "final_memory_lines": 4,
+        "n_questions": 5,
+        "n_items": 10,
+        "evaluator_errors": 0,
+        "evaluator_version": 2
+      },
+      "dvqa-flood-len10-024": {
+        "esqa_mean": 0.2,
+        "answered_correct": 0.4,
+        "abstained": 0.2,
+        "correct_count": "1/5",
+        "retention_final": 0.4,
+        "categories": {
+          "wrong_answer_evidence_missing": 1,
+          "invalid_citation": 1,
+          "abstained_evidence_missing": 1,
+          "correct": 1,
+          "wrong_answer_evidence_in_memory": 1
+        },
+        "budget_fallbacks": 0,
+        "final_memory_tokens": 224,
+        "final_memory_lines": 5,
+        "n_questions": 5,
+        "n_items": 10,
+        "evaluator_errors": 0,
+        "evaluator_version": 2
+      },
+      "dvqa-earthquake-len10-054": {
+        "esqa_mean": 0.0,
+        "answered_correct": 0.0,
+        "abstained": 1.0,
+        "correct_count": "0/5",
+        "retention_final": 0.4,
+        "categories": {
+          "abstained_evidence_missing": 3,
+          "unnecessary_abstention": 2
+        },
+        "budget_fallbacks": 0,
+        "final_memory_tokens": 140,
+        "final_memory_lines": 3,
+        "n_questions": 5,
+        "n_items": 10,
+        "evaluator_errors": 0,
+        "evaluator_version": 2
+      },
+      "dvqa-wildfire-len10-064": {
+        "esqa_mean": 0.4,
+        "answered_correct": 0.6,
+        "abstained": 0.2,
+        "correct_count": "2/5",
+        "retention_final": 0.8,
+        "categories": {
+          "correct": 2,
+          "abstained_evidence_missing": 1,
+          "unsupported": 1,
+          "wrong_answer_evidence_in_memory": 1
+        },
+        "budget_fallbacks": 0,
+        "final_memory_tokens": 231,
+        "final_memory_lines": 5,
+        "n_questions": 5,
+        "n_items": 10,
+        "evaluator_errors": 0,
+        "evaluator_version": 2
+      },
+      "dvqa-fire-len10-066": {
+        "esqa_mean": 0.0,
+        "answered_correct": 0.0,
+        "abstained": 1.0,
+        "correct_count": "0/5",
+        "retention_final": 0.4,
+        "categories": {
+          "unnecessary_abstention": 2,
+          "abstained_evidence_missing": 3
+        },
+        "budget_fallbacks": 0,
+        "final_memory_tokens": 271,
+        "final_memory_lines": 6,
+        "n_questions": 5,
+        "n_items": 10,
+        "evaluator_errors": 0,
+        "evaluator_version": 2
+      }
+    }
+  },
+  "models": {
+    "memory_agent": "qwen2-vl-7b",
+    "meta_agent": "nemotron-12b-vl",
+    "answering_agent": "qwen2-vl-7b",
+    "evaluator": "qwen2-vl-7b",
+    "profile": "minimal",
+    "prompts": {
+      "memory/frame_minimal.txt": "c38af5be727b",
+      "meta/frames/harness_update_minimal.txt": "3d742a993eff",
+      "meta/frames/strategy_update_minimal.txt": "ff236306ed78",
+      "answering/prompt.txt": "27ea786833a0",
+      "judge/answer.txt": "62f39b3e1b14",
+      "judge/evidence.txt": "48a317919cb6"
+    },
+    "experiment": {
+      "profile": "minimal",
+      "budget": 512,
+      "memory_strategy": "dynamic",
+      "meta_harness": "dynamic",
+      "parent_selection": "score_child_prop",
+      "iterations": 20,
+      "stream_selection": "list",
+      "selection_seed": 0,
+      "streams": [
+        "dvqa-hurricane-len10-010",
+        "dvqa-flood-len10-024",
+        "dvqa-earthquake-len10-054",
+        "dvqa-wildfire-len10-064",
+        "dvqa-fire-len10-066"
+      ],
+      "streams_from": "qwen_run1",
+      "exclude_streams_from": [],
+      "stream_length": 10,
+      "n_streams": 5,
+      "memory_agent": "qwen2-vl-7b",
+      "memory_method": "agent",
+      "experiment": "short5_qwen_population",
+      "dataset": "disastervqa",
+      "config": "/home/blahb/Projects/Agents282/configs/experiments/disastervqa.yaml",
+      "eviction_policy": "oldest",
+      "excluded_streams": []
+    }
+  },
+  "stream_length": 10,
+  "eval_streams": [
+    "dvqa-hurricane-len10-010",
+    "dvqa-flood-len10-024",
+    "dvqa-earthquake-len10-054",
+    "dvqa-wildfire-len10-064",
+    "dvqa-fire-len10-066"
+  ]
+}

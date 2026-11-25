@@ -1,0 +1,207 @@
+[
+  {
+    "step": 1,
+    "tokens": 106,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large fire has broken out in a multi-story building in New York City. Firefighters are using ladders and aerial ladders to access the building. There are multiple fire trucks and emergency vehicles on the scene. The building appears to be a residential apartment building. The fire is causing significant damage to the building and nearby structures. There are no reports of injuries at this time.",
+        "sources": ["E01"]
+      }
+    ]
+  },
+  {
+    "step": 2,
+    "tokens": 212,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large fire has broken out in a multi-story building in New York City. Firefighters are using ladders and aerial ladders to access the building. There are multiple fire trucks and emergency vehicles on the scene. The building appears to be a residential apartment building. The fire is causing significant damage to the building and nearby structures. There are no reports of injuries at this time.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "A large fire has broken out in a multi-story building in New York City. Firefighters are using ladders and aerial ladders to access the building. There are multiple fire trucks and emergency vehicles on the scene. The building appears to be a residential apartment building. The fire is causing significant damage to the building and nearby structures. There are no reports of injuries at this time.",
+        "sources": ["E02"]
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "tokens": 144,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large fire has broken out in a multi-story building in New York City. Firefighters are using ladders and aerial ladders to access the building. There are multiple fire trucks and emergency vehicles on the scene. The building appears to be a residential apartment building. The fire is causing significant damage to the building and nearby structures. There are no reports of injuries at this time.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo of the scene has been posted.",
+        "sources": ["E03"]
+      }
+    ]
+  },
+  {
+    "step": 4,
+    "tokens": 144,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large fire has broken out in a multi-story building in New York City. Firefighters are using ladders and aerial ladders to access the building. There are multiple fire trucks and emergency vehicles on the scene. The building appears to be a residential apartment building. The fire is causing significant damage to the building and nearby structures. There are no reports of injuries at this time.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo of the scene has been posted.",
+        "sources": ["E04"]
+      }
+    ]
+  },
+  {
+    "step": 5,
+    "tokens": 144,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large fire has broken out in a multi-story building in New York City. Firefighters are using ladders and aerial ladders to access the building. There are multiple fire trucks and emergency vehicles on the scene. The building appears to be a residential apartment building. The fire is causing significant damage to the building and nearby structures. There are no reports of injuries at this time.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo of the scene has been posted.",
+        "sources": ["E05"]
+      }
+    ]
+  },
+  {
+    "step": 6,
+    "tokens": 86,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large fire has broken out in a multi-story building in New York City.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m6",
+        "text": "A large fire has broken out in a multi-story building in New York City.",
+        "sources": ["E06"]
+      }
+    ]
+  },
+  {
+    "step": 7,
+    "tokens": 129,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large fire has broken out in a multi-story building in New York City.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m6",
+        "text": "A large fire has broken out in a multi-story building in New York City.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A large fire has broken out in a multi-story building in New York City.",
+        "sources": ["E07"]
+      }
+    ]
+  },
+  {
+    "step": 8,
+    "tokens": 168,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large fire has broken out in a multi-story building in New York City.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m6",
+        "text": "A large fire has broken out in a multi-story building in New York City.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A large fire has broken out in a multi-story building in New York City.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo of the fire was posted on Twitter.",
+        "sources": ["E08"]
+      }
+    ]
+  },
+  {
+    "step": 9,
+    "tokens": 207,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large fire has broken out in a multi-story building in New York City.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m6",
+        "text": "A large fire has broken out in a multi-story building in New York City.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A large fire has broken out in a multi-story building in New York City.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo of the fire was posted on Twitter.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media photo of the fire was posted on Twitter.",
+        "sources": ["E09"]
+      }
+    ]
+  },
+  {
+    "step": 10,
+    "tokens": 247,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A large fire has broken out in a multi-story building in New York City.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m6",
+        "text": "A large fire has broken out in a multi-story building in New York City.",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "A large fire has broken out in a multi-story building in New York City.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo of the fire was posted on Twitter.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media photo of the fire was posted on Twitter.",
+        "sources": ["E09"]
+      },
+      {
+        "id": "m10",
+        "text": "A social media photo of the fire was posted on Twitter.",
+        "sources": ["E10"]
+      }
+    ]
+  }
+]

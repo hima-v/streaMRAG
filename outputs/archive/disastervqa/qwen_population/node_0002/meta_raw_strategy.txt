@@ -1,0 +1,15 @@
+<strategy>  
+Retain distinct entities (e.g., disasters, specific damages, actors) and omit redundant phrases. Merge duplicate events (≥1hr apart) into a single canonical entry tagged ~duplicate~, preserving earliest timestamp/metadata. Delete obsolete details via [deleted] flags. Prioritize temporal specificity, actionable facts (hazards, casualties), and avoid vague descriptors (e.g., "aerial view"). Cap entries at 512 tokens. Update memory per evidence step with adds/deletes, ensuring only unique, high-value details persist.  
+</strategy>  
+
+<rationale>  
+This strategy enforces precision by extracting atomic entities/actions (e.g., "collapsed bridge," "emergency responders") instead of verbatim text. Temporal deduplication prevents redundancy while allowing updates if new critical details emerge. Metadata retention resolves ambiguity, and deletion flags ensure outdated info is removed. Token constraints force prioritization of impactful details, aligning with evaluation criteria favoring factual accuracy over repetition.  
+</rationale>  
+
+<changes>  
+- **Entity Focus**: Extracts discrete elements (disasters, damages) vs. full narratives.  
+- **Temporal Deduplication**: Groups identical reports within 1hr; tags duplicates ~duplicate~.  
+- **Deletion Protocol**: Marks obsolete entries [deleted], avoiding residual clutter.  
+- **Metadata Preservation**: Tracks timestamps/sources for auditability.  
+- **Token Efficiency**: Limits storage to 512 tokens, forcing elimination of low-value content.  
+Example: Merges repeated "flooded area" posts into one entry; deletes deleted items like E03's road condition.

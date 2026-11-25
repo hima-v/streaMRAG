@@ -1,0 +1,187 @@
+[
+  {
+    "step": 1,
+    "tokens": 50,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two people are seen running through a burning landscape with flames engulfing the ground and charred tree stumps.",
+        "sources": ["E01"]
+      }
+    ]
+  },
+  {
+    "step": 2,
+    "tokens": 95,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two people are seen running through a burning landscape with flames engulfing the ground and charred tree stumps.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "A social media user posted a photo showing a burning landscape with flames visible in the distance.",
+        "sources": ["E02"]
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "tokens": 95,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two people are seen running through a burning landscape with flames engulfing the ground and charred tree stumps.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media user posted a photo showing a burning landscape with flames visible in the distance.",
+        "sources": ["E03"]
+      }
+    ]
+  },
+  {
+    "step": 4,
+    "tokens": 95,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two people are seen running through a burning landscape with flames engulfing the ground and charred tree stumps.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media user posted a photo showing a burning landscape with flames visible in the distance.",
+        "sources": ["E04"]
+      }
+    ]
+  },
+  {
+    "step": 5,
+    "tokens": 95,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two people are seen running through a burning landscape with flames engulfing the ground and charred tree stumps.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media user posted a photo showing a burning landscape with flames visible in the distance.",
+        "sources": ["E05"]
+      }
+    ]
+  },
+  {
+    "step": 6,
+    "tokens": 95,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two people are seen running through a burning landscape with flames engulfing the ground and charred tree stumps.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media user posted a photo showing a burning landscape with flames visible in the distance.",
+        "sources": ["E06"]
+      }
+    ]
+  },
+  {
+    "step": 7,
+    "tokens": 95,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two people are seen running through a burning landscape with flames engulfing the ground and charred tree stumps.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media user posted a photo showing a burning landscape with flames visible in the distance.",
+        "sources": ["E07"]
+      }
+    ]
+  },
+  {
+    "step": 8,
+    "tokens": 140,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two people are seen running through a burning landscape with flames engulfing the ground and charred tree stumps.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media user posted a photo showing a burning landscape with flames visible in the distance.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media user posted a photo showing a burning landscape with flames visible in the distance.",
+        "sources": ["E08"]
+      }
+    ]
+  },
+  {
+    "step": 9,
+    "tokens": 185,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two people are seen running through a burning landscape with flames engulfing the ground and charred tree stumps.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media user posted a photo showing a burning landscape with flames visible in the distance.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media user posted a photo showing a burning landscape with flames visible in the distance.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media user posted a photo showing a burning landscape with flames visible in the distance.",
+        "sources": ["E09"]
+      }
+    ]
+  },
+  {
+    "step": 10,
+    "tokens": 231,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two people are seen running through a burning landscape with flames engulfing the ground and charred tree stumps.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media user posted a photo showing a burning landscape with flames visible in the distance.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media user posted a photo showing a burning landscape with flames visible in the distance.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media user posted a photo showing a burning landscape with flames visible in the distance.",
+        "sources": ["E09"]
+      },
+      {
+        "id": "m10",
+        "text": "A social media user posted a photo showing a burning landscape with flames visible in the distance.",
+        "sources": ["E10"]
+      }
+    ]
+  }
+]

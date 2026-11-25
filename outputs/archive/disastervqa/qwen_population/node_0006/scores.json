@@ -1,0 +1,118 @@
+{
+  "esqa_mean": 0.16,
+  "correct_count": "4/25",
+  "retention_final": 0.48,
+  "abstained": 0.56,
+  "budget_fallbacks": 0,
+  "evaluator_errors": 0,
+  "evaluator_version": 2,
+  "categories": {
+    "correct": 4,
+    "invalid_citation": 2,
+    "wrong_answer_evidence_missing": 2,
+    "abstained_evidence_missing": 9,
+    "unnecessary_abstention": 5,
+    "wrong_answer_evidence_in_memory": 2,
+    "unsupported": 1
+  },
+  "streams": {
+    "dvqa-hurricane-len10-010": {
+      "esqa_mean": 0.2,
+      "answered_correct": 0.2,
+      "abstained": 0.4,
+      "correct_count": "1/5",
+      "retention_final": 0.4,
+      "categories": {
+        "correct": 1,
+        "invalid_citation": 1,
+        "wrong_answer_evidence_missing": 1,
+        "abstained_evidence_missing": 1,
+        "unnecessary_abstention": 1
+      },
+      "budget_fallbacks": 0,
+      "final_memory_tokens": 172,
+      "final_memory_lines": 4,
+      "n_questions": 5,
+      "n_items": 10,
+      "evaluator_errors": 0,
+      "evaluator_version": 2
+    },
+    "dvqa-flood-len10-024": {
+      "esqa_mean": 0.2,
+      "answered_correct": 0.4,
+      "abstained": 0.2,
+      "correct_count": "1/5",
+      "retention_final": 0.4,
+      "categories": {
+        "wrong_answer_evidence_missing": 1,
+        "invalid_citation": 1,
+        "abstained_evidence_missing": 1,
+        "correct": 1,
+        "wrong_answer_evidence_in_memory": 1
+      },
+      "budget_fallbacks": 0,
+      "final_memory_tokens": 224,
+      "final_memory_lines": 5,
+      "n_questions": 5,
+      "n_items": 10,
+      "evaluator_errors": 0,
+      "evaluator_version": 2
+    },
+    "dvqa-earthquake-len10-054": {
+      "esqa_mean": 0.0,
+      "answered_correct": 0.0,
+      "abstained": 1.0,
+      "correct_count": "0/5",
+      "retention_final": 0.4,
+      "categories": {
+        "abstained_evidence_missing": 3,
+        "unnecessary_abstention": 2
+      },
+      "budget_fallbacks": 0,
+      "final_memory_tokens": 140,
+      "final_memory_lines": 3,
+      "n_questions": 5,
+      "n_items": 10,
+      "evaluator_errors": 0,
+      "evaluator_version": 2
+    },
+    "dvqa-wildfire-len10-064": {
+      "esqa_mean": 0.4,
+      "answered_correct": 0.6,
+      "abstained": 0.2,
+      "correct_count": "2/5",
+      "retention_final": 0.8,
+      "categories": {
+        "correct": 2,
+        "abstained_evidence_missing": 1,
+        "unsupported": 1,
+        "wrong_answer_evidence_in_memory": 1
+      },
+      "budget_fallbacks": 0,
+      "final_memory_tokens": 231,
+      "final_memory_lines": 5,
+      "n_questions": 5,
+      "n_items": 10,
+      "evaluator_errors": 0,
+      "evaluator_version": 2
+    },
+    "dvqa-fire-len10-066": {
+      "esqa_mean": 0.0,
+      "answered_correct": 0.0,
+      "abstained": 1.0,
+      "correct_count": "0/5",
+      "retention_final": 0.4,
+      "categories": {
+        "unnecessary_abstention": 2,
+        "abstained_evidence_missing": 3
+      },
+      "budget_fallbacks": 0,
+      "final_memory_tokens": 271,
+      "final_memory_lines": 6,
+      "n_questions": 5,
+      "n_items": 10,
+      "evaluator_errors": 0,
+      "evaluator_version": 2
+    }
+  }
+}

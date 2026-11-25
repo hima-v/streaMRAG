@@ -1,0 +1,187 @@
+[
+  {
+    "step": 1,
+    "tokens": 68,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo from 2017-09-21 04:40 UTC shows a scene of a collapsed building with two individuals on a ladder, searching through debris.",
+        "sources": ["E01"]
+      }
+    ]
+  },
+  {
+    "step": 2,
+    "tokens": 86,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "...",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "A black car is seen stuck in a large crack in the road, with several people gathered around it. The crack appears to be caused by the earthquake.",
+        "sources": ["E02"]
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "tokens": 122,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo shows a black car stuck in a large crack in the road, with several people gathered around it. The crack appears to be caused by the earthquake.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo shows a black car stuck in a large crack in the road, with several people gathered around it. The crack appears to be caused by the earthquake.",
+        "sources": ["E03"]
+      }
+    ]
+  },
+  {
+    "step": 4,
+    "tokens": 122,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo shows a black car stuck in a large crack in the road, with several people gathered around it. The crack appears to be caused by the earthquake.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo shows a black car stuck in a large crack in the road, with several people gathered around it. The crack appears to be caused by the earthquake.",
+        "sources": ["E04"]
+      }
+    ]
+  },
+  {
+    "step": 5,
+    "tokens": 122,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo shows a black car stuck in a large crack in the road, with several people gathered around it. The crack appears to be caused by the earthquake.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo shows a black car stuck in a large crack in the road, with several people gathered around it. The crack appears to be caused by the earthquake.",
+        "sources": ["E05"]
+      }
+    ]
+  },
+  {
+    "step": 6,
+    "tokens": 122,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo shows a black car stuck in a large crack in the road, with several people gathered around it. The crack appears to be caused by the earthquake.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo shows a black car stuck in a large crack in the road, with several people gathered around it. The crack appears to be caused by the earthquake.",
+        "sources": ["E06"]
+      }
+    ]
+  },
+  {
+    "step": 7,
+    "tokens": 118,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo shows a black car stuck in a large crack in the road, with several people gathered around it. The crack appears to be caused by the earthquake.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo shows a silver car partially buried under rubble, with debris scattered around it. The building behind the car appears to have collapsed.",
+        "sources": ["E07"]
+      }
+    ]
+  },
+  {
+    "step": 8,
+    "tokens": 183,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo shows a black car stuck in a large crack in the road, with several people gathered around it. The crack appears to be caused by the earthquake.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo shows a silver car partially buried under rubble, with debris scattered around it. The building behind the car appears to have collapsed.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo shows a yellow excavator working on a collapsed building, with debris scattered around it. Several people in hard hats and safety vests are visible, indicating a rescue operation.",
+        "sources": ["E08"]
+      }
+    ]
+  },
+  {
+    "step": 9,
+    "tokens": 240,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo shows a black car stuck in a large crack in the road, with several people gathered around it. The crack appears to be caused by the earthquake.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo shows a silver car partially buried under rubble, with debris scattered around it. The building behind the car appears to have collapsed.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo shows a yellow excavator working on a collapsed building, with debris scattered around it. Several people in hard hats and safety vests are visible, indicating a rescue operation.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media photo shows a silver car partially buried under rubble, with debris scattered around it. The building behind the car appears to have collapsed.",
+        "sources": ["E09"]
+      }
+    ]
+  },
+  {
+    "step": 10,
+    "tokens": 287,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo shows a black car stuck in a large crack in the road, with several people gathered around it. The crack appears to be caused by the earthquake.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo shows a silver car partially buried under rubble, with debris scattered around it. The building behind the car appears to have collapsed.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo shows a yellow excavator working on a collapsed building, with debris scattered around it. Several people in hard hats and safety vests are visible, indicating a rescue operation.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media photo shows a silver car partially buried under rubble, with debris scattered around it. The building behind the car appears to have collapsed.",
+        "sources": ["E09"]
+      },
+      {
+        "id": "m10",
+        "text": "A social media photo shows a dog searching for survivors in the rubble of a collapsed building.",
+        "sources": ["E10"]
+      }
+    ]
+  }
+]

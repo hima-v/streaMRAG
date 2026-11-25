@@ -1,0 +1,69 @@
+[
+  {
+    "step": 10,
+    "qa_id": "imgq-2434",
+    "label": "answerable",
+    "answer_raw": "B",
+    "pred": "B",
+    "abstained": false,
+    "cited_lines": ["m1"],
+    "cited_unknown": [],
+    "parsed": true,
+    "cited_items": ["E01"],
+    "raw": ["{\"answer\": \"B\", \"cited\": [\"m1\"]}"]
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-2313",
+    "label": "answerable",
+    "answer_raw": "Flooded area",
+    "pred": "Flooded area",
+    "abstained": false,
+    "cited_lines": ["m1", "m7", "m8", "m9", "m10"],
+    "cited_unknown": [],
+    "parsed": true,
+    "cited_items": ["E01", "E07", "E08", "E09", "E10"],
+    "raw": ["{\"answer\": \"Flooded area\", \"cited\": [\"m1\", \"m7\", \"m8\", \"m9\", \"m10\"]}"]
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-2452",
+    "label": "answerable",
+    "answer_raw": "C",
+    "pred": "C",
+    "abstained": false,
+    "cited_lines": ["m5", "m6"],
+    "cited_unknown": [],
+    "parsed": true,
+    "cited_items": ["E05", "E06"],
+    "raw": ["{\"answer\": \"C\", \"cited\": [\"m5\", \"m6\"]}"]
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-2370",
+    "label": "answerable",
+    "answer_raw": "Yes",
+    "pred": "Yes",
+    "abstained": false,
+    "cited_lines": ["m6"],
+    "cited_unknown": [],
+    "parsed": true,
+    "cited_items": ["E06"],
+    "raw": ["{\"answer\": \"Yes\", \"cited\": [\"m6\"]}"]
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-2488",
+    "label": "answerable",
+    "answer_raw": "No",
+    "pred": "No",
+    "abstained": false,
+    "cited_lines": ["m1", "m4", "m5", "m6", "m7", "m8", "m9", "m10"],
+    "cited_unknown": [],
+    "parsed": true,
+    "cited_items": ["E01", "E04", "E05", "E06", "E07", "E08", "E09", "E10"],
+    "raw": [
+      "{\"answer\": \"No\", \"cited\": [\"m1\", \"m4\", \"m5\", \"m6\", \"m7\", \"m8\", \"m9\", \"m10\"]}"
+    ]
+  }
+]

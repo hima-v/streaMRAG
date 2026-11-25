@@ -1,0 +1,9 @@
+<harness>
+"Optimize the memory storage strategy by prioritizing unique, high-value information per event while avoiding redundant verbatim copies. For each incoming data point, extract and retain only distinct critical details (e.g., specific entities like 'flood', 'collapsed', 'emergency responders') rather than full sentences. If multiple events share identical content (e.g., repeated descriptions of a fire), store them once under the earliest timestamp and reference subsequent instances via tags (e.g., `~duplicate~`). When retrieving memories, cross-check against question context to avoid citations where evidence was later deleted or deemed irrelevant. Explicitly track deletions using markers like `[deleted]` to clarify removed entries during retrieval. Allow up to 10% additional token allocation (up to 563 tokens) for edge cases requiring expanded context."
+</harness>
+<rationale>
+Modifications address key failures identified in evaluation logs:
+1. **Deletion tracking**: Added explicit deletion markers (e.g., `[deleted]`) to resolve issues like *invalid citation* errors caused by relying on deleted entries (dvqa-flood-len10-024 Q3/E03, dvqa-earthquake-len10-054 Q2/E07).
+2. **Token flexibility**: Increased maximum tokens to 563 (~10% buffer) to accommodate complex queries requiring deeper historical references without breaching hard limits.
+3. **Query-specific validation**: Emphasized stricter alignment between retrieved memories and active query requirements, addressing *wrong answer evidence missing* errors where valid data existed but wasn't properly contextualized (dvqa-earthquake-len10-054 Q3/E08).
+This preserves core deduplication logic while enhancing reliability for dynamic retrieval scenarios.

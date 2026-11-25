@@ -1,0 +1,8 @@
+"Optimize memory storage by retaining **actionable, granular details** (e.g., hazards, casualties, damage types) while discarding generic descriptors. For each event, extract **distinct entities/actions** (e.g., 'flood', 'collapsed bridge', 'emergency responders') rather than full sentences. Store duplicates as a single canonical entry (earliest timestamp) and reference subsequent repeats via `~duplicate~` tags. Explicitly track deletions using `[deleted]` flags. Prioritize **temporal specificity**: identical descriptions within 1 hour are considered duplicates *unless* new critical details emerge. Retain metadata like timestamps and sources to resolve ambiguities during retrieval."
+
+"Memory Strategy:  
+1. **Entity Extraction**: Focus on discrete elements (disasters, damages, actors) without redundancy. Example: From 'A flood destroyed buildings,' retain ['flood', 'buildings']. Omit filler phrases (e.g., 'in a rural area').  
+2. **Duplicate Handling**: Group events sharing >80% lexical similarity *within 1-hour windows*. Use `~duplicate~` for later instances, retaining the first occurrence’s metadata. Critical detail exceptions (e.g., updated casualty counts) override merging.  
+3. **Deletion Tracking**: Mark outdated entries with `[deleted]` if superseded by newer data (e.g., revised hazard severity).  
+4. **Temporal Granularity**: Split events separated by ≥2 hours even if similar, to preserve evolving contexts (e.g., disaster progression phases).  
+5. **Token Efficiency**: Truncate entries exceeding 512 tokens but prioritize retention of critical fields (e.g., coordinates, exact damage metrics)."

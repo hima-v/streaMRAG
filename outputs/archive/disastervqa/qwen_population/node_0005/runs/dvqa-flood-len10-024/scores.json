@@ -1,0 +1,21 @@
+{
+  "esqa_mean": 0.3,
+  "answered_correct": 0.4,
+  "abstained": 0.2,
+  "correct_count": "1/5",
+  "retention_final": 0.8,
+  "categories": {
+    "invalid_citation": 1,
+    "partially_correct": 1,
+    "unnecessary_abstention": 1,
+    "correct": 1,
+    "wrong_answer_evidence_in_memory": 1
+  },
+  "budget_fallbacks": 0,
+  "final_memory_tokens": 364,
+  "final_memory_lines": 8,
+  "n_questions": 5,
+  "n_items": 10,
+  "evaluator_errors": 0,
+  "evaluator_version": 2
+}

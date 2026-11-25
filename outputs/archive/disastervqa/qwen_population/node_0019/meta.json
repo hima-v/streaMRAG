@@ -1,0 +1,198 @@
+{
+  "node_id": 19,
+  "parent_id": 12,
+  "dataset": "disastervqa",
+  "eval_stream": "len10",
+  "budget": 512,
+  "strategy_id": "01585e666e43",
+  "harness_id": "1fed9eee889b",
+  "switches": {
+    "memory_strategy": "dynamic",
+    "meta_harness": "dynamic"
+  },
+  "created_by": {
+    "kind": "meta",
+    "harness_rationale": "This enhanced META HARNESS addresses prior implementation weaknesses through several key improvements:\n\n1. **Precision-Driven Hierarchy**  \nAdded explicit percentage thresholds (50%) for structural damage metrics and severity scores (0.8) to ensure critical damage metrics receive guaranteed visibility. Nested tags now use double-brackets {{}} instead of triple-brackets to reduce syntactic overhead while maintaining relationship encoding capabilities.\n\n2. **Token Efficiency Optimization**  \nImplements adaptive compression ratios (15%-25%) triggered dynamically based on event severity rather than fixed baselines. This prevents unnecessary compression of critical information while aggressively compressing lower-severity events. Added granular token accounting with real-time limits tracking.\n\n3. **Structured Validation Mechanisms**  \nMaintained 5% reserved token capacity for cryptographic hashing but introduced dual-layer validation: immediate partial entry preservation ([INCOMPLETE]) combined with post-eviction verification protocols. Enhanced temporal decay function using sqrt-based weighting to better preserve recent severe events.\n\n4. **Causal Relationship Encoding**  \nModified tag hierarchy requirements to enforce causal chains (e.g., {{[flood]}}\u2192{{[transportation]}>>{{[structural_damage}}}}) ensuring memories retain context about how disasters propagate impacts.\n\n5. **Priority Tier Refinement**  \nReordered tiers to emphasize both damage extent AND infrastructure criticality together, creating stronger protection for mission-critical information compared to previous sole-percentage criteria.\n\nThese changes directly address observed failures where:\n- Non-critical details displaced vital safety metrics\n- Contextual relationships were lost due to flat tagging\n- Token constraints forced premature deletion of active incidents\n- Validation gaps left unverified inter-event connections",
+    "strategy_rationale": "This strategy optimizes limited memory resources through three layers of optimization: \n1. Priority-based filtering ensures catastrophic failure indicators remain accessible even when nearing token limits\n2. Structural nesting enables complex relationship modeling without excessive token expenditure\n3. Adaptive compression balances readability preservation with space constraints, particularly crucial during high-frequency input periods like wildfire monitoring sequences where rapid updates occur every ~2 hours (observed in timeline analysis)\n\nKey implementation decisions reflect observed failures: maintaining complete disaster typology entries prevents misclassification errors (as seen in hurricane stream's incorrect \"Flood\" label application), while aggressive compression of contextual descriptors avoids overflow issues common in earthquake datasets' repetitive damage reports. The 30-day half-life parameter was calibrated to match typical post-disaster reporting cycles evident in dataset timestamps.",
+    "changes": [
+      "Adjusted compression trigger points to activate earlier during sustained disasters (reduced from 0.92 to 0.85 buffer utilization)",
+      "Added explicit handling for multi-source verification conflicts (addressing wildfire stream discrepancies)",
+      "Increased minimum retention period from 3 days to 7 days to better preserve relevant evidence",
+      "Enhanced hash reservation algorithm with dual-layer error detection"
+    ],
+    "harness_parsed": true,
+    "strategy_parsed": true,
+    "meta_seed": 19000
+  },
+  "scores": {
+    "esqa_mean": 0.28,
+    "correct_count": "7/25",
+    "retention_final": 0.76,
+    "abstained": 0.36,
+    "budget_fallbacks": 0,
+    "evaluator_errors": 0,
+    "evaluator_version": 2,
+    "categories": {
+      "correct": 7,
+      "invalid_citation": 2,
+      "wrong_answer_evidence_in_memory": 4,
+      "unnecessary_abstention": 7,
+      "wrong_answer_evidence_missing": 2,
+      "abstained_evidence_missing": 2,
+      "unsupported": 1
+    },
+    "streams": {
+      "dvqa-hurricane-len10-010": {
+        "esqa_mean": 0.2,
+        "answered_correct": 0.2,
+        "abstained": 0.4,
+        "correct_count": "1/5",
+        "retention_final": 0.8,
+        "categories": {
+          "correct": 1,
+          "invalid_citation": 1,
+          "wrong_answer_evidence_in_memory": 1,
+          "unnecessary_abstention": 2
+        },
+        "budget_fallbacks": 0,
+        "final_memory_tokens": 365,
+        "final_memory_lines": 8,
+        "n_questions": 5,
+        "n_items": 10,
+        "evaluator_errors": 0,
+        "evaluator_version": 2
+      },
+      "dvqa-flood-len10-024": {
+        "esqa_mean": 0.2,
+        "answered_correct": 0.2,
+        "abstained": 0.4,
+        "correct_count": "1/5",
+        "retention_final": 0.8,
+        "categories": {
+          "wrong_answer_evidence_missing": 1,
+          "correct": 1,
+          "unnecessary_abstention": 2,
+          "wrong_answer_evidence_in_memory": 1
+        },
+        "budget_fallbacks": 0,
+        "final_memory_tokens": 325,
+        "final_memory_lines": 8,
+        "n_questions": 5,
+        "n_items": 10,
+        "evaluator_errors": 0,
+        "evaluator_version": 2
+      },
+      "dvqa-earthquake-len10-054": {
+        "esqa_mean": 0.6,
+        "answered_correct": 0.6,
+        "abstained": 0.4,
+        "correct_count": "3/5",
+        "retention_final": 0.8,
+        "categories": {
+          "abstained_evidence_missing": 1,
+          "correct": 3,
+          "unnecessary_abstention": 1
+        },
+        "budget_fallbacks": 0,
+        "final_memory_tokens": 287,
+        "final_memory_lines": 5,
+        "n_questions": 5,
+        "n_items": 10,
+        "evaluator_errors": 0,
+        "evaluator_version": 2
+      },
+      "dvqa-wildfire-len10-064": {
+        "esqa_mean": 0.4,
+        "answered_correct": 0.6,
+        "abstained": 0.2,
+        "correct_count": "2/5",
+        "retention_final": 1.0,
+        "categories": {
+          "correct": 2,
+          "unnecessary_abstention": 1,
+          "unsupported": 1,
+          "wrong_answer_evidence_in_memory": 1
+        },
+        "budget_fallbacks": 0,
+        "final_memory_tokens": 432,
+        "final_memory_lines": 9,
+        "n_questions": 5,
+        "n_items": 10,
+        "evaluator_errors": 0,
+        "evaluator_version": 2
+      },
+      "dvqa-fire-len10-066": {
+        "esqa_mean": 0.0,
+        "answered_correct": 0.2,
+        "abstained": 0.4,
+        "correct_count": "0/5",
+        "retention_final": 0.4,
+        "categories": {
+          "wrong_answer_evidence_in_memory": 1,
+          "abstained_evidence_missing": 1,
+          "wrong_answer_evidence_missing": 1,
+          "invalid_citation": 1,
+          "unnecessary_abstention": 1
+        },
+        "budget_fallbacks": 0,
+        "final_memory_tokens": 395,
+        "final_memory_lines": 6,
+        "n_questions": 5,
+        "n_items": 10,
+        "evaluator_errors": 0,
+        "evaluator_version": 2
+      }
+    }
+  },
+  "models": {
+    "memory_agent": "qwen2-vl-7b",
+    "meta_agent": "nemotron-12b-vl",
+    "answering_agent": "qwen2-vl-7b",
+    "evaluator": "qwen2-vl-7b",
+    "profile": "minimal",
+    "prompts": {
+      "memory/frame_minimal.txt": "c38af5be727b",
+      "meta/frames/harness_update_minimal.txt": "3d742a993eff",
+      "meta/frames/strategy_update_minimal.txt": "ff236306ed78",
+      "answering/prompt.txt": "27ea786833a0",
+      "judge/answer.txt": "62f39b3e1b14",
+      "judge/evidence.txt": "48a317919cb6"
+    },
+    "experiment": {
+      "profile": "minimal",
+      "budget": 512,
+      "memory_strategy": "dynamic",
+      "meta_harness": "dynamic",
+      "parent_selection": "score_child_prop",
+      "iterations": 20,
+      "stream_selection": "list",
+      "selection_seed": 0,
+      "streams": [
+        "dvqa-hurricane-len10-010",
+        "dvqa-flood-len10-024",
+        "dvqa-earthquake-len10-054",
+        "dvqa-wildfire-len10-064",
+        "dvqa-fire-len10-066"
+      ],
+      "streams_from": "qwen_run1",
+      "exclude_streams_from": [],
+      "stream_length": 10,
+      "n_streams": 5,
+      "memory_agent": "qwen2-vl-7b",
+      "memory_method": "agent",
+      "experiment": "short5_qwen_population",
+      "dataset": "disastervqa",
+      "config": "/home/blahb/Projects/Agents282/configs/experiments/disastervqa.yaml",
+      "eviction_policy": "oldest",
+      "excluded_streams": []
+    }
+  },
+  "stream_length": 10,
+  "eval_streams": [
+    "dvqa-hurricane-len10-010",
+    "dvqa-flood-len10-024",
+    "dvqa-earthquake-len10-054",
+    "dvqa-wildfire-len10-064",
+    "dvqa-fire-len10-066"
+  ]
+}

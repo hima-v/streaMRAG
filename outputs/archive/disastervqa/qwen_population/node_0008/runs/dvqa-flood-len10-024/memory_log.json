@@ -1,0 +1,342 @@
+[
+  {
+    "item_id": "E01",
+    "step": 1,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a flooded area with multiple RVs submerged in water. The water level is high, and the surrounding area is covered in trees and vegetation.\", \"sources\": [\"E01\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"...\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a flooded area with multiple RVs submerged in water. The water level is high, and the surrounding area is covered in trees and vegetation.",
+              "sources": ["E01"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "...",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2", "update of unknown line m1"],
+        "tokens_after": 60
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 60,
+    "n_lines": 1,
+    "secs": 2.51
+  },
+  {
+    "item_id": "E02",
+    "step": 2,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a flooded area with multiple RVs submerged in water. The water level is high, and the surrounding area is covered in trees and vegetation.\", \"sources\": [\"E02\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo shows a flooded area with multiple RVs submerged in water. The water level is high, and the surrounding area is covered in trees and vegetation.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a flooded area with multiple RVs submerged in water. The water level is high, and the surrounding area is covered in trees and vegetation.",
+              "sources": ["E02"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo shows a flooded area with multiple RVs submerged in water. The water level is high, and the surrounding area is covered in trees and vegetation.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 120
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 120,
+    "n_lines": 2,
+    "secs": 3.32
+  },
+  {
+    "item_id": "E03",
+    "step": 3,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a flooded area with multiple RVs submerged in water. The water level is high, and the surrounding area is covered in trees and vegetation.\", \"sources\": [\"E03\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo shows a flooded area with multiple RVs submerged in water. The water level is high, and the surrounding area is covered in trees and vegetation.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a flooded area with multiple RVs submerged in water. The water level is high, and the surrounding area is covered in trees and vegetation.",
+              "sources": ["E03"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo shows a flooded area with multiple RVs submerged in water. The water level is high, and the surrounding area is covered in trees and vegetation.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": [],
+        "tokens_after": 120
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 120,
+    "n_lines": 2,
+    "secs": 3.16
+  },
+  {
+    "item_id": "E04",
+    "step": 4,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a flooded area with multiple RVs submerged in water. The water level is high, and the surrounding area is covered in trees and vegetation.\", \"sources\": [\"E04\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo shows a flooded area with multiple RVs submerged in water. The water level is high, and the surrounding area is covered in trees and vegetation.\", \"sources\": [\"E01\"]}], \"delete\": [\"m3\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a flooded area with multiple RVs submerged in water. The water level is high, and the surrounding area is covered in trees and vegetation.",
+              "sources": ["E04"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo shows a flooded area with multiple RVs submerged in water. The water level is high, and the surrounding area is covered in trees and vegetation.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m3"]
+        },
+        "problems": [],
+        "tokens_after": 120
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 120,
+    "n_lines": 2,
+    "secs": 3.2
+  },
+  {
+    "item_id": "E05",
+    "step": 5,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a flooded area with multiple RVs submerged in water. The water level is high, and the surrounding area is covered in trees and vegetation.\", \"sources\": [\"E05\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo shows a flooded area with multiple RVs submerged in water. The water level is high, and the surrounding area is covered in trees and vegetation.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a flooded area with multiple RVs submerged in water. The water level is high, and the surrounding area is covered in trees and vegetation.",
+              "sources": ["E05"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo shows a flooded area with multiple RVs submerged in water. The water level is high, and the surrounding area is covered in trees and vegetation.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 180
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 180,
+    "n_lines": 3,
+    "secs": 3.32
+  },
+  {
+    "item_id": "E06",
+    "step": 6,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a flooded area with multiple RVs submerged in water. The water level is high, and the surrounding area is covered in trees and vegetation.\", \"sources\": [\"E06\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo shows a flooded area with multiple RVs submerged in water. The water level is high, and the surrounding area is covered in trees and vegetation.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a flooded area with multiple RVs submerged in water. The water level is high, and the surrounding area is covered in trees and vegetation.",
+              "sources": ["E06"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo shows a flooded area with multiple RVs submerged in water. The water level is high, and the surrounding area is covered in trees and vegetation.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 240
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 240,
+    "n_lines": 4,
+    "secs": 3.07
+  },
+  {
+    "item_id": "E07",
+    "step": 7,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a flooded area with multiple RVs submerged in water. The water level is high, and the surrounding area is covered in trees and vegetation.\", \"sources\": [\"E07\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo shows a flooded area with multiple RVs submerged in water. The water level is high, and the surrounding area is covered in trees and vegetation.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a flooded area with multiple RVs submerged in water. The water level is high, and the surrounding area is covered in trees and vegetation.",
+              "sources": ["E07"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo shows a flooded area with multiple RVs submerged in water. The water level is high, and the surrounding area is covered in trees and vegetation.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 300
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 300,
+    "n_lines": 5,
+    "secs": 3.01
+  },
+  {
+    "item_id": "E08",
+    "step": 8,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a flooded area with multiple RVs submerged in water. The water level is high, and the surrounding area is covered in trees and vegetation.\", \"sources\": [\"E08\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo shows a flooded area with multiple RVs submerged in water. The water level is high, and the surrounding area is covered in trees and vegetation.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a flooded area with multiple RVs submerged in water. The water level is high, and the surrounding area is covered in trees and vegetation.",
+              "sources": ["E08"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo shows a flooded area with multiple RVs submerged in water. The water level is high, and the surrounding area is covered in trees and vegetation.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 360
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 360,
+    "n_lines": 6,
+    "secs": 3.41
+  },
+  {
+    "item_id": "E09",
+    "step": 9,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a flooded area with multiple RVs submerged in water. The water level is high, and the surrounding area is covered in trees and vegetation.\", \"sources\": [\"E09\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo shows a flooded area with multiple RVs submerged in water. The water level is high, and the surrounding area is covered in trees and vegetation.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a flooded area with multiple RVs submerged in water. The water level is high, and the surrounding area is covered in trees and vegetation.",
+              "sources": ["E09"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo shows a flooded area with multiple RVs submerged in water. The water level is high, and the surrounding area is covered in trees and vegetation.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 420
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 420,
+    "n_lines": 7,
+    "secs": 3.19
+  },
+  {
+    "item_id": "E10",
+    "step": 10,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a flooded area with multiple RVs submerged in water. The water level is high, and the surrounding area is covered in trees and vegetation.\", \"sources\": [\"E10\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo shows a flooded area with multiple RVs submerged in water. The water level is high, and the surrounding area is covered in trees and vegetation.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a flooded area with multiple RVs submerged in water. The water level is high, and the surrounding area is covered in trees and vegetation.",
+              "sources": ["E10"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo shows a flooded area with multiple RVs submerged in water. The water level is high, and the surrounding area is covered in trees and vegetation.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 481
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 481,
+    "n_lines": 8,
+    "secs": 3.12
+  }
+]

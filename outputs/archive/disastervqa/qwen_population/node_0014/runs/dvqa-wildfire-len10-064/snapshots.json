@@ -1,0 +1,192 @@
+[
+  {
+    "step": 1,
+    "tokens": 55,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo was posted on Twitter on October 12, 2017, at 3:11 UTC.",
+        "sources": ["E01"]
+      }
+    ]
+  },
+  {
+    "step": 2,
+    "tokens": 110,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo was posted on Twitter on October 12, 2017, at 3:11 UTC.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "A social media photo was posted on Twitter on October 12, 2017, at 3:14 UTC.",
+        "sources": ["E02"]
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "tokens": 83,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "...",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo was posted on Twitter on October 12, 2017, at 3:22 UTC.",
+        "sources": ["E03"]
+      }
+    ]
+  },
+  {
+    "step": 4,
+    "tokens": 165,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo was posted on Twitter on October 12, 2017, at 3:11 UTC.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo was posted on Twitter on October 12, 2017, at 3:22 UTC.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo was posted on Twitter on October 12, 2017, at 8:25 UTC.",
+        "sources": ["E04"]
+      }
+    ]
+  },
+  {
+    "step": 5,
+    "tokens": 111,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo was posted on Twitter on October 12, 2017, at 3:11 UTC.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo was posted on Twitter on October 17, 2017, at 16:04 UTC.",
+        "sources": ["E05"]
+      }
+    ]
+  },
+  {
+    "step": 6,
+    "tokens": 111,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo was posted on Twitter on October 12, 2017, at 3:11 UTC.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo was posted on Twitter on October 18, 2017, at 07:23 UTC.",
+        "sources": ["E06"]
+      }
+    ]
+  },
+  {
+    "step": 7,
+    "tokens": 111,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo was posted on Twitter on October 12, 2017, at 3:11 UTC.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo was posted on Twitter on October 18, 2017, at 20:21 UTC.",
+        "sources": ["E07"]
+      }
+    ]
+  },
+  {
+    "step": 8,
+    "tokens": 167,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo was posted on Twitter on October 12, 2017, at 3:11 UTC.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo was posted on Twitter on October 18, 2017, at 20:21 UTC.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo was posted on Twitter on October 19, 2017, at 07:36 UTC.",
+        "sources": ["E08"]
+      }
+    ]
+  },
+  {
+    "step": 9,
+    "tokens": 223,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo was posted on Twitter on October 12, 2017, at 3:11 UTC.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo was posted on Twitter on October 18, 2017, at 20:21 UTC.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo was posted on Twitter on October 19, 2017, at 07:36 UTC.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media photo was posted on Twitter on October 19, 2017, at 07:36 UTC.",
+        "sources": ["E09"]
+      }
+    ]
+  },
+  {
+    "step": 10,
+    "tokens": 280,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "A social media photo was posted on Twitter on October 12, 2017, at 3:11 UTC.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo was posted on Twitter on October 18, 2017, at 20:21 UTC.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo was posted on Twitter on October 19, 2017, at 07:36 UTC.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media photo was posted on Twitter on October 19, 2017, at 07:36 UTC.",
+        "sources": ["E09"]
+      },
+      {
+        "id": "m10",
+        "text": "A social media photo was posted on Twitter on October 20, 2017, at 11:11 UTC.",
+        "sources": ["E10"]
+      }
+    ]
+  }
+]

@@ -1,0 +1,63 @@
+[
+  {
+    "step": 10,
+    "qa_id": "imgq-932",
+    "label": "answerable",
+    "abstained": true,
+    "pred": null,
+    "cited_items": ["E01"],
+    "retained": true,
+    "score": 0.0,
+    "category": "unnecessary_abstention"
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-962",
+    "label": "answerable",
+    "abstained": true,
+    "pred": null,
+    "cited_items": [],
+    "retained": false,
+    "score": 0.0,
+    "category": "abstained_evidence_missing"
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-937",
+    "label": "answerable",
+    "abstained": true,
+    "pred": null,
+    "cited_items": ["E04", "E05"],
+    "retained": true,
+    "score": 0.0,
+    "category": "unnecessary_abstention"
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-939",
+    "label": "answerable",
+    "abstained": false,
+    "pred": "B",
+    "cited_items": ["E05"],
+    "retained": true,
+    "correctness": 1.0,
+    "correctness_by": "exact",
+    "citation_valid": true,
+    "cited_unknown": [],
+    "evidence_verdict": "supported",
+    "evidence_reason": "The evidence states that the buildings are intact with smoke, which matches the answer given.",
+    "score": 1.0,
+    "category": "correct"
+  },
+  {
+    "step": 10,
+    "qa_id": "imgq-941",
+    "label": "answerable",
+    "abstained": true,
+    "pred": null,
+    "cited_items": ["E06"],
+    "retained": true,
+    "score": 0.0,
+    "category": "unnecessary_abstention"
+  }
+]

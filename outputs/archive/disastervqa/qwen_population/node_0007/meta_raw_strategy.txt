@@ -1,0 +1,11 @@
+<strategy>
+Prioritize retention of actionable, granular details (e.g., hazards, casualties, damage types) while omitting generic descriptors (e.g., "aerial view," "multiple buildings"). Use entity extraction to store distinct elements (e.g., "flood," "collapsed bridge") instead of full narratives. Track duplicates within 1-hour windows as a single canonical entry (earliest timestamp) with ~duplicate~ tags. Maintain explicit deletion markers ([deleted]) for outdated information. Preserve timestamps/sources for ambiguity resolution. Cap entries at 512 tokens, updating iteratively per evidence step via add/delete operations to retain unique, temporally specific data.
+</strategy>
+
+<rationale>
+This approach ensures efficient storage of high-value operational intelligence while mitigating redundancy. By focusing on discrete entities/actions (e.g., "flood," "damage type"), it enables precise question answering without semantic noise. Temporal deduplication prevents clutter from repetitive updates, while version control via timestamps allows conflict resolution. Metadata preservation supports evidential traceability. Token limits enforce brevity, forcing prioritization of impactful details. Iterative updates ensure memory evolves dynamically with incoming evidence.
+</rationale>
+
+<changes>
+[no changes needed]
+</changes>

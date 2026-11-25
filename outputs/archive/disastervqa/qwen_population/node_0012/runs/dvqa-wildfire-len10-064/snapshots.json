@@ -1,0 +1,172 @@
+[
+  {
+    "step": 1,
+    "tokens": 41,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two people are seen running through a burning landscape with flames and smoke.",
+        "sources": ["E01"]
+      }
+    ]
+  },
+  {
+    "step": 2,
+    "tokens": 87,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two people are seen running through a burning landscape with flames and smoke.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "A social media photo from Twitter shows two people running through a burning landscape with flames and smoke.",
+        "sources": ["E02"]
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "tokens": 87,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two people are seen running through a burning landscape with flames and smoke.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo from Twitter shows two people running through a burning landscape with flames and smoke.",
+        "sources": ["E03"]
+      }
+    ]
+  },
+  {
+    "step": 4,
+    "tokens": 87,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two people are seen running through a burning landscape with flames and smoke.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo from Twitter shows two people running through a burning landscape with flames and smoke.",
+        "sources": ["E04"]
+      }
+    ]
+  },
+  {
+    "step": 5,
+    "tokens": 133,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two people are seen running through a burning landscape with flames and smoke.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo from Twitter shows two people running through a burning landscape with flames and smoke.",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo from Twitter shows two people running through a burning landscape with flames and smoke.",
+        "sources": ["E05"]
+      }
+    ]
+  },
+  {
+    "step": 6,
+    "tokens": 87,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two people are seen running through a burning landscape with flames and smoke.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo from Twitter shows two people running through a burning landscape with flames and smoke.",
+        "sources": ["E06"]
+      }
+    ]
+  },
+  {
+    "step": 7,
+    "tokens": 87,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two people are seen running through a burning landscape with flames and smoke.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo from Twitter shows two people running through a burning landscape with flames and smoke.",
+        "sources": ["E07"]
+      }
+    ]
+  },
+  {
+    "step": 8,
+    "tokens": 133,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two people are seen running through a burning landscape with flames and smoke.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo from Twitter shows two people running through a burning landscape with flames and smoke.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo from Twitter shows two people running through a burning landscape with flames and smoke.",
+        "sources": ["E08"]
+      }
+    ]
+  },
+  {
+    "step": 9,
+    "tokens": 87,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two people are seen running through a burning landscape with flames and smoke.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media photo from Twitter shows two people running through a burning landscape with flames and smoke.",
+        "sources": ["E09"]
+      }
+    ]
+  },
+  {
+    "step": 10,
+    "tokens": 134,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two people are seen running through a burning landscape with flames and smoke.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media photo from Twitter shows two people running through a burning landscape with flames and smoke.",
+        "sources": ["E09"]
+      },
+      {
+        "id": "m10",
+        "text": "A social media photo from Twitter shows two people running through a burning landscape with flames and smoke.",
+        "sources": ["E10"]
+      }
+    ]
+  }
+]

@@ -1,0 +1,342 @@
+[
+  {
+    "item_id": "E01",
+    "step": 1,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.\", \"sources\": [\"E01\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.\", \"sources\": [\"E01\"]}], \"delete\": []}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.",
+              "sources": ["E01"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": []
+        },
+        "problems": ["update of unknown line m1"],
+        "tokens_after": 47
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 47,
+    "n_lines": 1,
+    "secs": 2.61
+  },
+  {
+    "item_id": "E02",
+    "step": 2,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.\", \"sources\": [\"E02\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.",
+              "sources": ["E02"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 94
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 94,
+    "n_lines": 2,
+    "secs": 2.71
+  },
+  {
+    "item_id": "E03",
+    "step": 3,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.\", \"sources\": [\"E03\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.",
+              "sources": ["E03"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": [],
+        "tokens_after": 99
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 99,
+    "n_lines": 2,
+    "secs": 2.61
+  },
+  {
+    "item_id": "E04",
+    "step": 4,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.\", \"sources\": [\"E04\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.\", \"sources\": [\"E01\"]}], \"delete\": [\"m3\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.",
+              "sources": ["E04"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m3"]
+        },
+        "problems": [],
+        "tokens_after": 99
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 99,
+    "n_lines": 2,
+    "secs": 2.79
+  },
+  {
+    "item_id": "E05",
+    "step": 5,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.\", \"sources\": [\"E05\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.",
+              "sources": ["E05"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 151
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 151,
+    "n_lines": 3,
+    "secs": 2.54
+  },
+  {
+    "item_id": "E06",
+    "step": 6,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.\", \"sources\": [\"E06\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.",
+              "sources": ["E06"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 203
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 203,
+    "n_lines": 4,
+    "secs": 2.86
+  },
+  {
+    "item_id": "E07",
+    "step": 7,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.\", \"sources\": [\"E07\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.",
+              "sources": ["E07"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 255
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 255,
+    "n_lines": 5,
+    "secs": 2.85
+  },
+  {
+    "item_id": "E08",
+    "step": 8,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.\", \"sources\": [\"E08\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.",
+              "sources": ["E08"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 307
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 307,
+    "n_lines": 6,
+    "secs": 2.54
+  },
+  {
+    "item_id": "E09",
+    "step": 9,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.\", \"sources\": [\"E09\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.",
+              "sources": ["E09"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 359
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 359,
+    "n_lines": 7,
+    "secs": 2.54
+  },
+  {
+    "item_id": "E10",
+    "step": 10,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.\", \"sources\": [\"E10\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.",
+              "sources": ["E10"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A fire emergency involving multiple fire trucks and firefighters at night in front of a multi-story building.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 412
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 412,
+    "n_lines": 8,
+    "secs": 2.88
+  }
+]

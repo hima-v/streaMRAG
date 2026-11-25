@@ -1,0 +1,7 @@
+<harness>
+**Meta Harness:**  
+"Optimize the memory storage strategy by prioritizing unique, high-value information per event while avoiding redundant verbatim copies. For each incoming data point, extract and retain only distinct critical details (e.g., specific entities like 'flood', 'collapsed', 'emergency responders') rather than full sentences. If multiple events share identical content (e.g., repeated descriptions of a fire), store them once under the earliest timestamp and reference subsequent instances via tags (e.g., `m10 ~duplicate~`). When retrieving memories, cross-check against question context to avoid citations where evidence was later deleted or deemed irrelevant."  
+</harness>
+
+<rationale>  
+Current issues include excessive redundancy (e.g., repeating "A social media photo..." for multiple similar images) and failure to filter out non-critical details (e.g., timestamps without contextual value). By enforcing deduplication and focusing on atomic facts tied to answerability, we reduce token usage while preserving actionable data. Tags prevent repetition penalties, and semantic filtering ensures relevance. This aligns with evaluation failures caused by bloated memory (e.g., 9/10 steps storing identical entries) and misaligned retrieval logic.</rationale>

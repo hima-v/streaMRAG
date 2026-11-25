@@ -1,0 +1,262 @@
+[
+  {
+    "step": 1,
+    "tokens": 33,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Floodwater submerging vehicles",
+        "sources": ["E01"]
+      }
+    ]
+  },
+  {
+    "step": 2,
+    "tokens": 66,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Floodwater submerging vehicles",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "Floodwater submerging vehicles",
+        "sources": ["E02"]
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "tokens": 66,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Floodwater submerging vehicles",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "Floodwater submerging vehicles",
+        "sources": ["E03"]
+      }
+    ]
+  },
+  {
+    "step": 4,
+    "tokens": 65,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Floodwater submerging vehicles",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "People walking through floodwater",
+        "sources": ["E04"]
+      }
+    ]
+  },
+  {
+    "step": 5,
+    "tokens": 104,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Floodwater submerging vehicles",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "People walking through floodwater",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A man is swimming in floodwater holding onto a rope.",
+        "sources": ["E05"]
+      }
+    ]
+  },
+  {
+    "step": 6,
+    "tokens": 136,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Floodwater submerging vehicles",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "People walking through floodwater",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A man is swimming in floodwater holding onto a rope.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "People walking through floodwater",
+        "sources": ["E06"]
+      }
+    ]
+  },
+  {
+    "step": 7,
+    "tokens": 177,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Floodwater submerging vehicles",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "People walking through floodwater",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A man is swimming in floodwater holding onto a rope.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "People walking through floodwater",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "People are being rescued from floodwater by military personnel in a boat.",
+        "sources": ["E07"]
+      }
+    ]
+  },
+  {
+    "step": 8,
+    "tokens": 218,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Floodwater submerging vehicles",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "People walking through floodwater",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A man is swimming in floodwater holding onto a rope.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "People walking through floodwater",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "People are being rescued from floodwater by military personnel in a boat.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "People are being rescued from floodwater by military personnel in a boat.",
+        "sources": ["E08"]
+      }
+    ]
+  },
+  {
+    "step": 9,
+    "tokens": 259,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Floodwater submerging vehicles",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "People walking through floodwater",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A man is swimming in floodwater holding onto a rope.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "People walking through floodwater",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "People are being rescued from floodwater by military personnel in a boat.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "People are being rescued from floodwater by military personnel in a boat.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "People are being rescued from floodwater by military personnel in a boat.",
+        "sources": ["E09"]
+      }
+    ]
+  },
+  {
+    "step": 10,
+    "tokens": 301,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Floodwater submerging vehicles",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "People walking through floodwater",
+        "sources": ["E04"]
+      },
+      {
+        "id": "m5",
+        "text": "A man is swimming in floodwater holding onto a rope.",
+        "sources": ["E05"]
+      },
+      {
+        "id": "m6",
+        "text": "People walking through floodwater",
+        "sources": ["E06"]
+      },
+      {
+        "id": "m7",
+        "text": "People are being rescued from floodwater by military personnel in a boat.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "People are being rescued from floodwater by military personnel in a boat.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "People are being rescued from floodwater by military personnel in a boat.",
+        "sources": ["E09"]
+      },
+      {
+        "id": "m10",
+        "text": "People are being rescued from floodwater by military personnel in a boat.",
+        "sources": ["E10"]
+      }
+    ]
+  }
+]

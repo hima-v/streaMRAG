@@ -1,0 +1,187 @@
+[
+  {
+    "step": 1,
+    "tokens": 43,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Aerial view of a flooded area with multiple buildings and vehicles submerged in water.",
+        "sources": ["E01"]
+      }
+    ]
+  },
+  {
+    "step": 2,
+    "tokens": 89,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Aerial view of a flooded area with multiple buildings and vehicles submerged in water.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "A police car with its lights on is parked near a fallen power pole on a wet road.",
+        "sources": ["E02"]
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "tokens": 86,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Aerial view of a flooded area with multiple buildings and vehicles submerged in water.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "Aerial view of a flooded area with multiple buildings and vehicles submerged in water.",
+        "sources": ["E03"]
+      }
+    ]
+  },
+  {
+    "step": 4,
+    "tokens": 84,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Soldiers clear debris from a road near a body of water after a disaster.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m4",
+        "text": "Soldiers clear debris from a road near a body of water after a disaster.",
+        "sources": ["E04"]
+      }
+    ]
+  },
+  {
+    "step": 5,
+    "tokens": 79,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Soldiers clear debris from a road near a body of water after a disaster.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m5",
+        "text": "A fallen tree blocks a street after a storm.",
+        "sources": ["E05"]
+      }
+    ]
+  },
+  {
+    "step": 6,
+    "tokens": 79,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Soldiers clear debris from a road near a body of water after a disaster.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m6",
+        "text": "A fallen tree blocks a street after a storm.",
+        "sources": ["E06"]
+      }
+    ]
+  },
+  {
+    "step": 7,
+    "tokens": 84,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Soldiers clear debris from a road near a body of water after a disaster.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m7",
+        "text": "A flooded area with damaged buildings and debris in the water after a hurricane.",
+        "sources": ["E07"]
+      }
+    ]
+  },
+  {
+    "step": 8,
+    "tokens": 125,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Soldiers clear debris from a road near a body of water after a disaster.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m7",
+        "text": "A flooded area with damaged buildings and debris in the water after a hurricane.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A street scene after a hurricane with fallen palm trees and damaged buildings.",
+        "sources": ["E08"]
+      }
+    ]
+  },
+  {
+    "step": 9,
+    "tokens": 171,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Soldiers clear debris from a road near a body of water after a disaster.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m7",
+        "text": "A flooded area with damaged buildings and debris in the water after a hurricane.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A street scene after a hurricane with fallen palm trees and damaged buildings.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "Emergency shelters set up in a large indoor facility with cots and bedding for disaster victims.",
+        "sources": ["E09"]
+      }
+    ]
+  },
+  {
+    "step": 10,
+    "tokens": 218,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Soldiers clear debris from a road near a body of water after a disaster.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m7",
+        "text": "A flooded area with damaged buildings and debris in the water after a hurricane.",
+        "sources": ["E07"]
+      },
+      {
+        "id": "m8",
+        "text": "A street scene after a hurricane with fallen palm trees and damaged buildings.",
+        "sources": ["E08"]
+      },
+      {
+        "id": "m9",
+        "text": "Emergency shelters set up in a large indoor facility with cots and bedding for disaster victims.",
+        "sources": ["E09"]
+      },
+      {
+        "id": "m10",
+        "text": "A building collapse with debris scattered on the street and damaged infrastructure in the background after a disaster.",
+        "sources": ["E10"]
+      }
+    ]
+  }
+]

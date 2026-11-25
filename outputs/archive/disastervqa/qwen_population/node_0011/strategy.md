@@ -1,0 +1,6 @@
+Implement strict adherence to the revised memory strategy via the following mechanisms:  
+1. **Schema Validation**: Explicitly validate all extracted metadata (e.g., `disaster_typ`, `impacted_infra`) against predefined schemas during parsing. Incomplete/malformed entries emit warnings but retain essential data. Example schemas distinguish flood-specific fields (`flood_depth`, `submerged_vehicles`) from earthquake-specific ones (`building_height`, `material_type`).  
+2. **Dynamic Token Management**: Use term frequency-based compression (e.g., "fire_truck"→"ft") alongside real-time token-count checks. Preemptive offloading of non-critical details occurs when exceeding thresholds, prioritizing core event context. Maintain ≤5% free buffer to absorb sudden data influxes.  
+3. **Chronological Integrity**: Log deletion timestamps to audit history and reject out-of-order entries. Retain the latest 10 *full* entries (not abstracted summaries); evict oldest entry first upon reaching 512-token limit.  
+4. **Semantic Linking**: Automatically generate hyperlinks between semantically tagged entries (e.g., `[flood_rescue]` ↔ `[rainfall_analysis]`) using standardized lowercase underscore formatting.  
+This ensures efficient, error-resilient memory preservation aligned with evaluation requirements.

@@ -1,0 +1,167 @@
+[
+  {
+    "step": 1,
+    "tokens": 44,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two workers are seen standing on a ladder amidst the rubble of a collapsed building.",
+        "sources": ["E01"]
+      }
+    ]
+  },
+  {
+    "step": 2,
+    "tokens": 89,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two workers are seen standing on a ladder amidst the rubble of a collapsed building.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m2",
+        "text": "A black sedan is parked on a cracked asphalt road with a large crack running through it.",
+        "sources": ["E02"]
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "tokens": 92,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two workers are seen standing on a ladder amidst the rubble of a collapsed building.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo shows a crowd of people with their hands raised, possibly in distress or seeking help.",
+        "sources": ["E03"]
+      }
+    ]
+  },
+  {
+    "step": 4,
+    "tokens": 140,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two workers are seen standing on a ladder amidst the rubble of a collapsed building.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m3",
+        "text": "A social media photo shows a crowd of people with their hands raised, possibly in distress or seeking help.",
+        "sources": ["E03"]
+      },
+      {
+        "id": "m4",
+        "text": "A social media photo shows a crowd of people with their hands raised, possibly in distress or seeking help.",
+        "sources": ["E04"]
+      }
+    ]
+  },
+  {
+    "step": 5,
+    "tokens": 98,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two workers are seen standing on a ladder amidst the rubble of a collapsed building.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m5",
+        "text": "A social media photo (Twitter), posted 2017-09-21 07:14 UTC.",
+        "sources": ["E05"]
+      }
+    ]
+  },
+  {
+    "step": 6,
+    "tokens": 98,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two workers are seen standing on a ladder amidst the rubble of a collapsed building.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m6",
+        "text": "A social media photo (Twitter), posted 2017-09-21 07:16 UTC.",
+        "sources": ["E06"]
+      }
+    ]
+  },
+  {
+    "step": 7,
+    "tokens": 98,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two workers are seen standing on a ladder amidst the rubble of a collapsed building.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m7",
+        "text": "A social media photo (Twitter), posted 2017-09-21 08:35 UTC.",
+        "sources": ["E07"]
+      }
+    ]
+  },
+  {
+    "step": 8,
+    "tokens": 98,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two workers are seen standing on a ladder amidst the rubble of a collapsed building.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m8",
+        "text": "A social media photo (Twitter), posted 2017-09-21 08:44 UTC.",
+        "sources": ["E08"]
+      }
+    ]
+  },
+  {
+    "step": 9,
+    "tokens": 98,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two workers are seen standing on a ladder amidst the rubble of a collapsed building.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media photo (Twitter), posted 2017-09-21 10:33 UTC.",
+        "sources": ["E09"]
+      }
+    ]
+  },
+  {
+    "step": 10,
+    "tokens": 153,
+    "lines": [
+      {
+        "id": "m1",
+        "text": "Two workers are seen standing on a ladder amidst the rubble of a collapsed building.",
+        "sources": ["E01"]
+      },
+      {
+        "id": "m9",
+        "text": "A social media photo (Twitter), posted 2017-09-21 10:33 UTC.",
+        "sources": ["E09"]
+      },
+      {
+        "id": "m10",
+        "text": "A social media photo (Twitter), posted 2017-09-21 10:48 UTC.",
+        "sources": ["E10"]
+      }
+    ]
+  }
+]

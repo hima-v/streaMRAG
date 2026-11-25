@@ -1,0 +1,342 @@
+[
+  {
+    "item_id": "E01",
+    "step": 1,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a scene of a collapsed building with debris scattered around. Two individuals are standing on a ladder, possibly assessing the damage.\", \"sources\": [\"E01\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"...\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a scene of a collapsed building with debris scattered around. Two individuals are standing on a ladder, possibly assessing the damage.",
+              "sources": ["E01"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "...",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2", "update of unknown line m1"],
+        "tokens_after": 56
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 56,
+    "n_lines": 1,
+    "secs": 2.18
+  },
+  {
+    "item_id": "E02",
+    "step": 2,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A black car is parked on a cracked asphalt road with a large crack running through it. There are several people standing around the car, including a police officer and a man in a red shirt. The road appears to be in a state of disrepair.\", \"sources\": [\"E02\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"...\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A black car is parked on a cracked asphalt road with a large crack running through it. There are several people standing around the car, including a police officer and a man in a red shirt. The road appears to be in a state of disrepair.",
+              "sources": ["E02"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "...",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 107
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 107,
+    "n_lines": 2,
+    "secs": 3.09
+  },
+  {
+    "item_id": "E03",
+    "step": 3,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a group of people gathered around a collapsed building. The debris is scattered across the ground, and there are rescue workers in high-visibility vests and helmets. The scene is illuminated by sunlight, and there are trees in the background.\", \"sources\": [\"E03\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"...\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a group of people gathered around a collapsed building. The debris is scattered across the ground, and there are rescue workers in high-visibility vests and helmets. The scene is illuminated by sunlight, and there are trees in the background.",
+              "sources": ["E03"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "...",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": [],
+        "tokens_after": 108
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 108,
+    "n_lines": 2,
+    "secs": 3.15
+  },
+  {
+    "item_id": "E04",
+    "step": 4,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a group of people gathered around a collapsed building. The debris is scattered across the ground, and there are rescue workers in high-visibility vests and helmets. The scene is illuminated by sunlight, and there are trees in the background.\", \"sources\": [\"E04\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"...\", \"sources\": [\"E01\"]}], \"delete\": [\"m3\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a group of people gathered around a collapsed building. The debris is scattered across the ground, and there are rescue workers in high-visibility vests and helmets. The scene is illuminated by sunlight, and there are trees in the background.",
+              "sources": ["E04"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "...",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m3"]
+        },
+        "problems": [],
+        "tokens_after": 108
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 108,
+    "n_lines": 2,
+    "secs": 3.23
+  },
+  {
+    "item_id": "E05",
+    "step": 5,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a group of people gathered around a collapsed building. The debris is scattered across the ground, and there are rescue workers in high-visibility vests and helmets. The scene is illuminated by sunlight, and there are trees in the background.\", \"sources\": [\"E05\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"...\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a group of people gathered around a collapsed building. The debris is scattered across the ground, and there are rescue workers in high-visibility vests and helmets. The scene is illuminated by sunlight, and there are trees in the background.",
+              "sources": ["E05"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "...",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 188
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 188,
+    "n_lines": 3,
+    "secs": 2.75
+  },
+  {
+    "item_id": "E06",
+    "step": 6,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a group of people gathered around a collapsed building. The debris is scattered across the ground, and there are rescue workers in high-visibility vests and helmets. The scene is illuminated by sunlight, and there are trees in the background.\", \"sources\": [\"E06\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo shows a group of people gathered around a collapsed building. The debris is scattered across the ground, and there are rescue workers in high-visibility vests and helmets. The scene is illuminated by sunlight, and there are trees in the background.\", \"sources\": [\"E01\"]}], \"delete\": [\"m4\", \"m5\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a group of people gathered around a collapsed building. The debris is scattered across the ground, and there are rescue workers in high-visibility vests and helmets. The scene is illuminated by sunlight, and there are trees in the background.",
+              "sources": ["E06"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo shows a group of people gathered around a collapsed building. The debris is scattered across the ground, and there are rescue workers in high-visibility vests and helmets. The scene is illuminated by sunlight, and there are trees in the background.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m4", "m5"]
+        },
+        "problems": [],
+        "tokens_after": 160
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 160,
+    "n_lines": 2,
+    "secs": 4.71
+  },
+  {
+    "item_id": "E07",
+    "step": 7,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a group of people gathered around a collapsed building. The debris is scattered across the ground, and there are rescue workers in high-visibility vests and helmets. The scene is illuminated by sunlight, and there are trees in the background.\", \"sources\": [\"E07\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo shows a group of people gathered around a collapsed building. The debris is scattered across the ground, and there are rescue workers in high-visibility vests and helmets. The scene is illuminated by sunlight, and there are trees in the background.\", \"sources\": [\"E01\"]}], \"delete\": [\"m6\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a group of people gathered around a collapsed building. The debris is scattered across the ground, and there are rescue workers in high-visibility vests and helmets. The scene is illuminated by sunlight, and there are trees in the background.",
+              "sources": ["E07"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo shows a group of people gathered around a collapsed building. The debris is scattered across the ground, and there are rescue workers in high-visibility vests and helmets. The scene is illuminated by sunlight, and there are trees in the background.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m6"]
+        },
+        "problems": [],
+        "tokens_after": 160
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 160,
+    "n_lines": 2,
+    "secs": 4.33
+  },
+  {
+    "item_id": "E08",
+    "step": 8,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a group of people gathered around a collapsed building. The debris is scattered across the ground, and there are rescue workers in high-visibility vests and helmets. The scene is illuminated by sunlight, and there are trees in the background.\", \"sources\": [\"E08\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo shows a group of people gathered around a collapsed building. The debris is scattered across the ground, and there are rescue workers in high-visibility vests and helmets. The scene is illuminated by sunlight, and there are trees in the background.\", \"sources\": [\"E01\"]}], \"delete\": [\"m7\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a group of people gathered around a collapsed building. The debris is scattered across the ground, and there are rescue workers in high-visibility vests and helmets. The scene is illuminated by sunlight, and there are trees in the background.",
+              "sources": ["E08"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo shows a group of people gathered around a collapsed building. The debris is scattered across the ground, and there are rescue workers in high-visibility vests and helmets. The scene is illuminated by sunlight, and there are trees in the background.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m7"]
+        },
+        "problems": [],
+        "tokens_after": 160
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 160,
+    "n_lines": 2,
+    "secs": 4.09
+  },
+  {
+    "item_id": "E09",
+    "step": 9,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a group of people gathered around a collapsed building. The debris is scattered across the ground, and there are rescue workers in high-visibility vests and helmets. The scene is illuminated by sunlight, and there are trees in the background.\", \"sources\": [\"E09\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo shows a group of people gathered around a collapsed building. The debris is scattered across the ground, and there are rescue workers in high-visibility vests and helmets. The scene is illuminated by sunlight, and there are trees in the background.\", \"sources\": [\"E01\"]}], \"delete\": [\"m8\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a group of people gathered around a collapsed building. The debris is scattered across the ground, and there are rescue workers in high-visibility vests and helmets. The scene is illuminated by sunlight, and there are trees in the background.",
+              "sources": ["E09"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo shows a group of people gathered around a collapsed building. The debris is scattered across the ground, and there are rescue workers in high-visibility vests and helmets. The scene is illuminated by sunlight, and there are trees in the background.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m8"]
+        },
+        "problems": [],
+        "tokens_after": 160
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 160,
+    "n_lines": 2,
+    "secs": 4.35
+  },
+  {
+    "item_id": "E10",
+    "step": 10,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo shows a group of people gathered around a collapsed building. The debris is scattered across the ground, and there are rescue workers in high-visibility vests and helmets. The scene is illuminated by sunlight, and there are trees in the background.\", \"sources\": [\"E10\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo shows a group of people gathered around a collapsed building. The debris is scattered across the ground, and there are rescue workers in high-visibility vests and helmets. The scene is illuminated by sunlight, and there are trees in the background.\", \"sources\": [\"E01\"]}], \"delete\": [\"m9\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo shows a group of people gathered around a collapsed building. The debris is scattered across the ground, and there are rescue workers in high-visibility vests and helmets. The scene is illuminated by sunlight, and there are trees in the background.",
+              "sources": ["E10"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo shows a group of people gathered around a collapsed building. The debris is scattered across the ground, and there are rescue workers in high-visibility vests and helmets. The scene is illuminated by sunlight, and there are trees in the background.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m9"]
+        },
+        "problems": [],
+        "tokens_after": 161
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 161,
+    "n_lines": 2,
+    "secs": 4.36
+  }
+]

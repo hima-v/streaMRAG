@@ -1,0 +1,342 @@
+[
+  {
+    "item_id": "E01",
+    "step": 1,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo was posted on Twitter on October 12, 2017, at 3:11 UTC.\", \"sources\": [\"E01\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"The photo shows a wildfire with multiple burning tree stumps and branches.\", \"sources\": [\"E01\"]}], \"delete\": []}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo was posted on Twitter on October 12, 2017, at 3:11 UTC.",
+              "sources": ["E01"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "The photo shows a wildfire with multiple burning tree stumps and branches.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": []
+        },
+        "problems": ["update of unknown line m1"],
+        "tokens_after": 55
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 55,
+    "n_lines": 1,
+    "secs": 2.7
+  },
+  {
+    "item_id": "E02",
+    "step": 2,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo was posted on Twitter on October 12, 2017, at 3:14 UTC.\", \"sources\": [\"E02\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo was posted on Twitter on October 12, 2017, at 3:11 UTC.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo was posted on Twitter on October 12, 2017, at 3:14 UTC.",
+              "sources": ["E02"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo was posted on Twitter on October 12, 2017, at 3:11 UTC.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 110
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 110,
+    "n_lines": 2,
+    "secs": 3.15
+  },
+  {
+    "item_id": "E03",
+    "step": 3,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo was posted on Twitter on October 12, 2017, at 3:22 UTC.\", \"sources\": [\"E03\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"...\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo was posted on Twitter on October 12, 2017, at 3:22 UTC.",
+              "sources": ["E03"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "...",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": [],
+        "tokens_after": 83
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 83,
+    "n_lines": 2,
+    "secs": 2.62
+  },
+  {
+    "item_id": "E04",
+    "step": 4,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo was posted on Twitter on October 12, 2017, at 8:25 UTC.\", \"sources\": [\"E04\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo was posted on Twitter on October 12, 2017, at 3:11 UTC.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo was posted on Twitter on October 12, 2017, at 8:25 UTC.",
+              "sources": ["E04"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo was posted on Twitter on October 12, 2017, at 3:11 UTC.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 165
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 165,
+    "n_lines": 3,
+    "secs": 2.83
+  },
+  {
+    "item_id": "E05",
+    "step": 5,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo was posted on Twitter on October 17, 2017, at 16:04 UTC.\", \"sources\": [\"E05\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo was posted on Twitter on October 12, 2017, at 3:11 UTC.\", \"sources\": [\"E01\"]}], \"delete\": [\"m3\", \"m4\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo was posted on Twitter on October 17, 2017, at 16:04 UTC.",
+              "sources": ["E05"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo was posted on Twitter on October 12, 2017, at 3:11 UTC.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m3", "m4"]
+        },
+        "problems": [],
+        "tokens_after": 111
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 111,
+    "n_lines": 2,
+    "secs": 3.06
+  },
+  {
+    "item_id": "E06",
+    "step": 6,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo was posted on Twitter on October 18, 2017, at 07:23 UTC.\", \"sources\": [\"E06\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo was posted on Twitter on October 12, 2017, at 3:11 UTC.\", \"sources\": [\"E01\"]}], \"delete\": [\"m5\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo was posted on Twitter on October 18, 2017, at 07:23 UTC.",
+              "sources": ["E06"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo was posted on Twitter on October 12, 2017, at 3:11 UTC.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m5"]
+        },
+        "problems": [],
+        "tokens_after": 111
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 111,
+    "n_lines": 2,
+    "secs": 3.18
+  },
+  {
+    "item_id": "E07",
+    "step": 7,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo was posted on Twitter on October 18, 2017, at 20:21 UTC.\", \"sources\": [\"E07\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo was posted on Twitter on October 12, 2017, at 3:11 UTC.\", \"sources\": [\"E01\"]}], \"delete\": [\"m6\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo was posted on Twitter on October 18, 2017, at 20:21 UTC.",
+              "sources": ["E07"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo was posted on Twitter on October 12, 2017, at 3:11 UTC.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m6"]
+        },
+        "problems": [],
+        "tokens_after": 111
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 111,
+    "n_lines": 2,
+    "secs": 3.18
+  },
+  {
+    "item_id": "E08",
+    "step": 8,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo was posted on Twitter on October 19, 2017, at 07:36 UTC.\", \"sources\": [\"E08\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo was posted on Twitter on October 12, 2017, at 3:11 UTC.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo was posted on Twitter on October 19, 2017, at 07:36 UTC.",
+              "sources": ["E08"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo was posted on Twitter on October 12, 2017, at 3:11 UTC.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 167
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 167,
+    "n_lines": 3,
+    "secs": 3.23
+  },
+  {
+    "item_id": "E09",
+    "step": 9,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo was posted on Twitter on October 19, 2017, at 07:36 UTC.\", \"sources\": [\"E09\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo was posted on Twitter on October 12, 2017, at 3:11 UTC.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo was posted on Twitter on October 19, 2017, at 07:36 UTC.",
+              "sources": ["E09"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo was posted on Twitter on October 12, 2017, at 3:11 UTC.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 223
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 223,
+    "n_lines": 4,
+    "secs": 3.23
+  },
+  {
+    "item_id": "E10",
+    "step": 10,
+    "attempts": [
+      {
+        "raw": [
+          "{\"add\": [{\"text\": \"A social media photo was posted on Twitter on October 20, 2017, at 11:11 UTC.\", \"sources\": [\"E10\"]}], \"update\": [{\"id\": \"m1\", \"text\": \"A social media photo was posted on Twitter on October 12, 2017, at 3:11 UTC.\", \"sources\": [\"E01\"]}], \"delete\": [\"m2\"]}"
+        ],
+        "valid_json": true,
+        "edits": {
+          "add": [
+            {
+              "text": "A social media photo was posted on Twitter on October 20, 2017, at 11:11 UTC.",
+              "sources": ["E10"]
+            }
+          ],
+          "update": [
+            {
+              "id": "m1",
+              "text": "A social media photo was posted on Twitter on October 12, 2017, at 3:11 UTC.",
+              "sources": ["E01"]
+            }
+          ],
+          "delete": ["m2"]
+        },
+        "problems": ["delete of unknown line m2"],
+        "tokens_after": 280
+      }
+    ],
+    "eviction_policy": "oldest",
+    "tokens": 280,
+    "n_lines": 5,
+    "secs": 3.4
+  }
+]
