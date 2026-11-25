@@ -6,8 +6,17 @@ import pytest
 from scripts import run_experiment as runner
 
 
-@pytest.mark.parametrize("method", ["fifo", "agent"])
-def test_memory_method_dispatch(tmp_path, monkeypatch, method):
+@pytest.mark.parametrize(
+    "method, eviction_policy",
+    [
+        ("fifo", "oldest"),
+        ("agent", "oldest"),
+        ("agent", "source_aware"),
+    ],
+)
+def test_memory_method_dispatch(
+    tmp_path, monkeypatch, method, eviction_policy
+):
     stream = {
         "stream_id": "test_stream",
         "n_steps": 1,
@@ -59,15 +68,34 @@ def test_memory_method_dispatch(tmp_path, monkeypatch, method):
         vlm,
         progress,
         memory_method=method,
+        eviction_policy=eviction_policy,
     )
 
+    run_dir = tmp_path / "runs" / stream["stream_id"]
+
     if method == "fifo":
-        fifo_mock.assert_called_once()
+        fifo_mock.assert_called_once_with(
+            vlm,
+            stream,
+            node.budget,
+            run_dir,
+            progress=progress,
+        )
         agent_mock.assert_not_called()
     else:
-        agent_mock.assert_called_once()
+        agent_mock.assert_called_once_with(
+            vlm,
+            "Test strategy",
+            stream,
+            node.budget,
+            run_dir,
+            "Test frame",
+            progress,
+            eviction_policy=eviction_policy,
+        )
         fifo_mock.assert_not_called()
 
     assert len(results) == 1
     assert results[0][0] == stream
+    assert results[0][1] == run_dir
     assert results[0][2] == snapshots

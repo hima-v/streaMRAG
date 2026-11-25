@@ -44,6 +44,7 @@ from streamrag.data.streams import list_streams, load_stream, segment_stream, se
 from streamrag.eval.judge import (EVALUATOR_VERSION, Evaluator, answer_text_of, build_meta_log,  # noqa: E402
                                   combine, evaluate, summarize)
 from streamrag.memory.agent import run_memory_pass  # noqa: E402
+from streamrag.memory.eviction import EVICTION_POLICIES  # noqa: E402
 from streamrag.meta.archive import Archive, Node, text_id  # noqa: E402
 from streamrag.meta.meta_agent import MetaAgent  # noqa: E402
 from streamrag.models import load_model, unload  # noqa: E402
@@ -173,7 +174,7 @@ def propose_child(arch: Archive, parent: Node, roles: dict, meta_vlm, progress: 
     sw = root.switches
     child_id = arch.new_id()
     progress.node, progress.stream = child_id, None
-    progress(f"parent = node {parent.node_id} (best score {parent.scores['esqa_mean']})")
+    progress(f"parent = node {parent.node_id} (score {parent.scores['esqa_mean']})")
     siblings = {(k.strategy_id, k.harness_id) for k in arch.children(parent.node_id)}
     for attempt in range(load_yaml("eval")["meta_agent"]["max_resample"] + 1):
         seed = 1000 * child_id + attempt
@@ -211,6 +212,7 @@ def memory_passes(
     memory_vlm,
     progress: Progress,
     memory_method: str = "agent",
+    eviction_policy: str = "oldest",
 ) -> list[tuple]:
     pf = profile_files(arch.nodes[0].models.get("profile", "minimal"), node.dataset)
     out = []
@@ -236,6 +238,7 @@ def memory_passes(
                 run_dir,
                 read_cfg(pf["memory_frame"]),
                 progress,
+                eviction_policy=eviction_policy,
             )
         out.append((seg, run_dir, snaps))
     return out
@@ -365,6 +368,24 @@ def load_setup(a) -> dict:
     )
     if setup["memory_method"] not in ("agent", "fifo"):
        raise SystemExit("Invalid memory_method: expected agent or fifo")
+    setup["eviction_policy"] = (
+        getattr(a, "eviction_policy", None)
+        or setup.get("eviction_policy", "oldest")
+    )
+
+    if setup["eviction_policy"] not in EVICTION_POLICIES:
+        raise SystemExit(
+            "Invalid eviction_policy: expected oldest or source_aware"
+        )
+
+    if (
+        setup["memory_method"] == "fifo"
+        and setup["eviction_policy"] != "oldest"
+    ):
+        raise SystemExit(
+            "Source-aware eviction requires memory_method=agent"
+        )
+
     return setup
 
 
@@ -385,6 +406,12 @@ def main() -> None:
 
     g = ap.add_argument_group("overrides (only used when the archive is new, except parent_selection)")
     g.add_argument("--profile")
+    g.add_argument(
+        "--eviction-policy",
+        choices=EVICTION_POLICIES,
+        default=None,
+        help="Memory agent budget fallback policy",
+    )
     g.add_argument("--budget", type=int)
     g.add_argument("--memory-strategy", choices=["fixed", "dynamic"])
     g.add_argument("--meta-harness", choices=["fixed", "dynamic"])
@@ -407,6 +434,13 @@ def main() -> None:
     if arch.nodes:
         stored = arch.nodes[0].models.get("experiment") or {}
         stored_method = stored.get("memory_method", "agent")
+        stored_policy = stored.get("eviction_policy", "oldest")
+
+        if stored_policy != setup["eviction_policy"]:
+            ap.error(
+                f"Archive uses eviction policy '{stored_policy}', "
+                f"but '{setup['eviction_policy']}' was requested."
+            )
 
         if stored_method != a.memory_method:
             ap.error(
@@ -470,6 +504,7 @@ def main() -> None:
         runs = memory_passes(
             arch, node, memory_vlm, progress,
             memory_method=a.memory_method,
+            eviction_policy=setup["eviction_policy"],
         )
         del memory_vlm
         if roles["memory_agent"] not in (roles["answering_agent"], roles["evaluator"]):

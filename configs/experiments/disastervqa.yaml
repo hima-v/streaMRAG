@@ -72,3 +72,10 @@ experiments:
     memory_agent: qwen2-vl-7b
     memory_method: agent
     parent_selection: score_child_prop
+  short5_qwen_source_aware:
+    stream_length: 10
+    n_streams: 5
+    memory_agent: qwen2-vl-7b
+    memory_method: agent
+    parent_selection: best
+    eviction_policy: source_aware

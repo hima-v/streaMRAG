@@ -15,6 +15,7 @@ from PIL import Image
 
 from streamrag.config import CONFIG_DIR, load_yaml
 from streamrag.memory.tokens import count_tokens
+from streamrag.memory.eviction import EVICTION_POLICIES, enforce_budget
 from streamrag.parsing import parse_json_object
 from streamrag.records import lines, write_json
 
@@ -83,8 +84,18 @@ def apply_edits(mem: Memory, edits: dict, delivered: set[str]) -> tuple[Memory, 
 
 
 class MemoryAgent:
-    def __init__(self, vlm, strategy: str, budget: int, frame: str | None = None):
+    def __init__(self, vlm, strategy: str, budget: int,
+                 frame: str | None = None,
+                 eviction_policy: str = "oldest"):
+        if eviction_policy not in EVICTION_POLICIES:
+            raise ValueError(
+                f"Unknown eviction policy: {eviction_policy}"
+            )
+        if budget < 0:
+            raise ValueError("Memory budget cannot be negative")
+
         self.vlm, self.strategy, self.budget = vlm, strategy, budget
+        self.eviction_policy = eviction_policy
         self.frame = frame or FRAME
         self.max_new_tokens = load_yaml("eval")["memory_agent"]["max_new_tokens"]
 
@@ -121,11 +132,20 @@ class MemoryAgent:
                     f"by {used - self.budget}. Delete or shorten lines so it fits.")
         if result is None:                       # two invalid replies: keep memory unchanged
             result, log["fallback"] = mem.copy(), "invalid_output_noop"
-        evicted = []
-        while result.tokens(item_time) > self.budget and result.lines:   # deterministic fallback
-            evicted.append(asdict(result.lines.pop(0)))
+        evicted = enforce_budget(
+            result,
+            self.budget,
+            item_time,
+            self.eviction_policy,
+        )
+
+        log["eviction_policy"] = self.eviction_policy
+
         if evicted:
-            log["fallback"] = log.get("fallback", "budget_evict_oldest")
+            log["fallback"] = log.get(
+                "fallback",
+                f"budget_evict_{self.eviction_policy}",
+            )
             log["evicted"] = evicted
         log.update({"tokens": result.tokens(item_time), "n_lines": len(result.lines),
                     "secs": round(time.time() - t0, 2)})
@@ -133,11 +153,15 @@ class MemoryAgent:
 
 
 def run_memory_pass(vlm, strategy: str, stream: dict, budget: int, out_dir: Path,
-                    frame: str | None = None, progress=print) -> list[dict]:
+                    frame: str | None = None, progress=print,
+                    eviction_policy: str = "oldest") -> list[dict]:
     """Feed the stream from step 1; write snapshots.json and memory_log.json (indented, rewritten
     after every step so partial runs are readable). Returns the snapshots."""
     out_dir.mkdir(parents=True, exist_ok=True)
-    agent = MemoryAgent(vlm, strategy, budget, frame)
+    agent = MemoryAgent(
+        vlm, strategy, budget, frame,
+        eviction_policy=eviction_policy,
+    )
     item_time = {it["item_id"]: it["time_str"] for it in stream["items"]}
     mem, delivered, snaps, logs = Memory(), set(), [], []
     N = len(stream["items"])
